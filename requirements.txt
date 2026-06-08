@@ -1,0 +1,16 @@
+pandas
+numpy
+requests
+yfinance
+xlrd
+pyarrow
+python-dotenv
+tqdm
+matplotlib
+japanize-matplotlib
+scipy
+statsmodels
+openpyxl
+python-docx
+pytest
+ruff

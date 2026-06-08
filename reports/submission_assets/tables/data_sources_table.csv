@@ -1,0 +1,7 @@
+data,source,usage,count_or_note
+上場企業一覧,JPX上場銘柄一覧,母集団作成,"3,649社"
+株価・出来高,yfinance,流動性、リターン、リスク分析,"価格取得3,648社"
+PER・PBR・配当利回り,yfinance,Valuation Score,取得可能指標を使用
+有価証券報告書,EDINET API v2,財務、研究開発費、CF等,"候補10,712件"
+XBRL ZIP,EDINET API v2,財務指標抽出,"10,712/10,712件成功"
+企業IR・中期経営計画,各社公開資料,定性評価・選定理由,提出前に個別確認

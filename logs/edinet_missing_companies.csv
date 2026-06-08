@@ -1,0 +1,90 @@
+code,documents_found,missing_reason,ticker,company_name
+1432,0,no_annual_report_found,1432.T,"DORYOKU Co.,Ltd."
+1445,0,no_annual_report_found,1445.T,"Hikari Holdings Co.,Ltd."
+1452,0,no_annual_report_found,1452.T,"YOKOHAMA WRIGHT Industries Co.,LTD"
+2452,0,no_annual_report_found,2452.T,"Computer Mind Co.,Ltd."
+2985,0,no_annual_report_found,2985.T,First Stage Corporation
+2990,0,no_annual_report_found,2990.T,"Aida Sekkei Co.,Ltd."
+2992,0,no_annual_report_found,2992.T,URBAN LiKE INC.
+2994,0,no_annual_report_found,2994.T,"Answer Holdings Co.,Ltd"
+2995,0,no_annual_report_found,2995.T,J-REX Corporation
+3448,0,no_annual_report_found,3448.T,"SUGA STEEL Co.,LTD."
+3450,0,no_annual_report_found,3450.T,"Sato Sangyo Co.,Ltd,"
+3483,0,no_annual_report_found,3483.T,"SHOEI CO.,LTD."
+4426,0,no_annual_report_found,4426.T,"Passlogy Co.,Ltd."
+5016,1,incomplete_period_coverage,5016.T,JX Advanced Metals Corporation
+5022,0,no_annual_report_found,5022.T,REVO International Inc.
+5037,0,no_annual_report_found,5037.T,"Fitworks Co.,Ltd."
+5072,0,no_annual_report_found,5072.T,"ART FORCE JAPAN Co.,Ltd."
+5077,0,no_annual_report_found,5077.T,"Hands Co.,Ltd."
+5130,0,no_annual_report_found,5130.T,"HiroHoldings Co.,ltd."
+5135,0,no_annual_report_found,5135.T,AIR-U LTD.
+5249,0,no_annual_report_found,5249.T,"Asakawa Systems Co.,Ltd."
+5251,0,no_annual_report_found,5251.T,"WISS1 Co.,Ltd."
+5525,0,no_annual_report_found,5525.T,"Frontier Holdings Co.,Ltd."
+5528,0,no_annual_report_found,5528.T,"Frontier House Co.,Ltd."
+5531,0,no_annual_report_found,5531.T,"NAKAYAMA FUDOUSAN Co.,Ltd."
+5534,0,no_annual_report_found,5534.T,Angel Group Inc.
+5535,2,incomplete_period_coverage,5535.T,MIGALO HOLDINGS Inc.
+5536,0,no_annual_report_found,5536.T,"Kyobashi Art Residence Co.,Ltd."
+5537,1,incomplete_period_coverage,5537.T,"AlbaLink Co.,Ltd."
+5573,0,no_annual_report_found,5573.T,"Doraku Holdings Co.,Ltd."
+5581,0,no_annual_report_found,5581.T,"Chi-technology Co.,Ltd."
+5584,0,no_annual_report_found,5584.T,"Strawberry jams Co.,Ltd."
+5592,2,incomplete_period_coverage,5592.T,"Kusurinomadoguchi,Inc."
+5594,0,no_annual_report_found,5594.T,M.D.B Corporation
+5598,0,no_annual_report_found,5598.T,"Yottavias Co.,Ltd."
+5599,2,incomplete_period_coverage,5599.T,S&J Corporation
+5617,0,no_annual_report_found,5617.T,WiLLDo Inc.
+5620,0,no_annual_report_found,5620.T,SPO Entertainment Inc.
+5621,2,incomplete_period_coverage,5621.T,"Human Technologies,Inc."
+5622,0,no_annual_report_found,5622.T,"OneBe,Inc."
+5840,0,no_annual_report_found,5840.T,"Nippon Souken Co.,Ltd."
+5844,2,incomplete_period_coverage,5844.T,"Kyoto Financial Group,Inc."
+5845,2,incomplete_period_coverage,5845.T,"ZENHOREN CO.,LTD."
+5858,2,incomplete_period_coverage,5858.T,"STG CO.,LTD."
+5866,0,no_annual_report_found,5866.T,WizBiz Inc.
+5869,2,incomplete_period_coverage,5869.T,"WASEDA GAKUSHUKENKYUKAI CO.,LTD."
+5870,2,incomplete_period_coverage,5870.T,Nalnet Communications Inc.
+5886,0,no_annual_report_found,5886.T,"OOKABE GLASS CO.,LTD."
+5887,0,no_annual_report_found,5887.T,"Kokyo,Inc."
+5890,0,no_annual_report_found,5890.T,OFFICEBUSTERS CORPORATION
+5892,2,incomplete_period_coverage,5892.T,"yutori,Inc."
+5893,0,no_annual_report_found,5893.T,RAVIPA Ltd.
+6168,0,no_annual_report_found,6168.T,ONE GROUP CORP.
+6174,0,no_annual_report_found,6174.T,"DENTAS CO.,LTD."
+6209,2,incomplete_period_coverage,6209.T,NPR-RIKEN CORPORATION
+6525,2,incomplete_period_coverage,6525.T,KOKUSAI ELECTRIC CORPORATION
+6527,0,no_annual_report_found,6527.T,"WAKA MANUFACTURING CO.,LTD."
+6576,0,no_annual_report_found,6576.T,"Youkosha Co.,Ltd."
+6596,0,no_annual_report_found,6596.T,"TSUKUBASEIKO Co.,Ltd."
+6695,1,incomplete_period_coverage,6695.T,"Castrico Co.,Ltd."
+7098,0,no_annual_report_found,7098.T,Agent Inc.
+7132,0,no_annual_report_found,7132.T,FLOBAL CORPORATION
+7136,0,no_annual_report_found,7136.T,"Wellbin Group Co.,Ltd."
+7137,0,no_annual_report_found,7137.T,"Grantomato Co.,Ltd."
+7139,0,no_annual_report_found,7139.T,"TOKYO KOATSU Co.,Ltd."
+7170,0,no_annual_report_found,7170.T,"CHUOU INTERNATIONAL GROUP CO.,LTD."
+7176,0,no_annual_report_found,7176.T,"Simplex Financial Holdings Co.,Ltd."
+7355,0,no_annual_report_found,7355.T,"Issunbou Co.,Ltd."
+7364,0,no_annual_report_found,7364.T,"RYUKYU ASTEEDA Sports Club Co.,Ltd."
+7680,0,no_annual_report_found,7680.T,"KEIJIDOUSHAKAN.Co.,Ltd."
+7690,0,no_annual_report_found,7690.T,CURRENT MOTOR Corporation
+7691,0,no_annual_report_found,7691.T,C Channel Corporation
+7693,0,no_annual_report_found,7693.T,"Hokkaido Shika Sangyo Co.,Ltd."
+8303,1,incomplete_period_coverage,8303.T,"SBI Shinsei Bank,Limited"
+8729,0,no_annual_report_found,8729.T,Sony Financial Group Inc.
+8921,0,no_annual_report_found,8921.T,"C's Create Co.,Ltd"
+9023,1,incomplete_period_coverage,9023.T,"Tokyo Metro Co.,Ltd."
+9146,0,no_annual_report_found,9146.T,"GOKENDO Holdings,Inc."
+9149,0,no_annual_report_found,9149.T,"Otomo Logistics Service Co.,Ltd."
+9156,0,no_annual_report_found,9156.T,"HANA HOLDINGS Co.,Ltd."
+9169,0,no_annual_report_found,9169.T,Daishinsha Inc.
+9222,0,no_annual_report_found,9222.T,"manaby Co.,Ltd."
+9226,0,no_annual_report_found,9226.T,IGER Inc.
+9239,0,no_annual_report_found,9239.T,KET Inc.
+9243,0,no_annual_report_found,9243.T,"FT Holdings Co.,Inc."
+9332,2,incomplete_period_coverage,9332.T,"NISSO HOLDINGS Co.,Ltd."
+9334,0,no_annual_report_found,9334.T,"IBIS HOLDINGS Co.,Ltd."
+9335,0,no_annual_report_found,9335.T,"techno-creative CO.,LTD."
+9347,2,incomplete_period_coverage,9347.T,"NIPPON KANZAI Holdings Co.,Ltd."

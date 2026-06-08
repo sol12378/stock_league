@@ -1,0 +1,11 @@
+file,section,purpose
+figures/screening_funnel.png,Ⅱ スクリーニング,"3,649社から20社への絞り込みを示す"
+figures/score_distribution.png,Ⅱ スクリーニング,Adjusted BB Scoreの全体分布
+figures/score_component_distributions.png,Ⅱ スクリーニング,Moat/Transformation/Future/Adjustedの分布比較
+figures/score_correlation_heatmap.png,Ⅱ スクリーニング,スコア間の重複と独立性の確認
+figures/category_allocation.png,Ⅲ ポートフォリオ,Core/Transformation/Futureの役割配分
+figures/sector_allocation.png,Ⅲ ポートフォリオ,セクター分散とテーマ接続
+figures/cumulative_return.png,Ⅲ-2 パフォーマンス,TOPIX proxy/日経平均との累積リターン比較
+figures/drawdown.png,Ⅲ-2 パフォーマンス,高リターンの裏側にある下落リスク
+figures/contribution_by_stock.png,Ⅲ-2 パフォーマンス,銘柄別リターン源泉とsantec依存度
+figures/ablation_cumulative_return.png,Ⅲ-2 パフォーマンス,統合スコアの意味を比較

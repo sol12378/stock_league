@@ -1,0 +1,7 @@
+score,weight,evaluation,main_indicators
+Moat,0.3,既存の堀,収益性、キャッシュ創出力、安定性、競争地位
+Transformation,0.25,変革余地,低PBR、低PER、成長、配当、資本効率
+Future Moat,0.3,AI時代の堀,AIインフラ、半導体、データ、ソフトウェア、セキュリティ
+Valuation,0.15,価格規律,PER、PBR、配当利回り
+Momentum,0.1,市場評価,直近12か月リターン
+Risk,-0.1,リスク調整,ボラティリティ、最大DD、財務レバレッジ

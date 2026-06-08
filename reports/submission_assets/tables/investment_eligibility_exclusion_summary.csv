@@ -1,0 +1,10 @@
+reason,excluded_companies
+missing_financial_data,308
+low_equity_ratio,70
+repeated_operating_loss,154
+repeated_negative_operating_cf,282
+excessive_leverage,74
+extreme_valuation_outlier,14
+extreme_profitability_outlier,70
+other_data_quality_issue,32
+unique_excluded_total,639

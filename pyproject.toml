@@ -1,0 +1,29 @@
+[project]
+name = "beyond-buffett-stock-league"
+version = "0.1.0"
+description = "Japanese stock screening and portfolio analysis pipeline for Nikkei Stock League."
+requires-python = ">=3.12"
+dependencies = [
+  "pandas",
+  "numpy",
+  "requests",
+  "yfinance",
+  "xlrd",
+  "pyarrow",
+  "python-dotenv",
+  "tqdm",
+  "matplotlib",
+  "japanize-matplotlib",
+  "scipy",
+  "statsmodels",
+  "openpyxl",
+  "python-docx",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
