@@ -59,6 +59,19 @@ FUTURE_KEYWORDS = {
     ],
 }
 
+EXPERIMENT_ID = "exp001"
+
+FINANCIAL_SECTORS = {
+    "Banks",
+    "Insurance",
+    "Securities and Commodities Futures",
+    "Other Financing Business",
+    "銀行業",
+    "保険業",
+    "証券、商品先物取引業",
+    "その他金融業",
+}
+
 
 def winsorize(series: pd.Series, lower: float = 0.01, upper: float = 0.99) -> pd.Series:
     numeric = pd.to_numeric(series, errors="coerce")
@@ -80,6 +93,21 @@ def zscore(series: pd.Series) -> pd.Series:
 
 def average_z(df: pd.DataFrame, columns: list[str]) -> pd.Series:
     parts = [zscore(df[col]) if col in df.columns else pd.Series(np.nan, index=df.index) for col in columns]
+    combined = pd.concat(parts, axis=1)
+    return combined.fillna(0).mean(axis=1)
+
+
+def masked_zscore(series: pd.Series, mask: pd.Series) -> pd.Series:
+    out = pd.Series(0.0, index=series.index)
+    mask = mask.fillna(False).astype(bool)
+    if mask.any():
+        out.loc[mask] = zscore(series.loc[mask]).fillna(0)
+    return out
+
+
+def average_series(parts: list[pd.Series]) -> pd.Series:
+    if not parts:
+        return pd.Series(dtype=float)
     combined = pd.concat(parts, axis=1)
     return combined.fillna(0).mean(axis=1)
 
@@ -112,6 +140,10 @@ def _latest_history_counts(raw: pd.DataFrame) -> pd.DataFrame:
         "code",
         "operating_loss_years_3y",
         "operating_income_years_available",
+        "ordinary_loss_years_3y",
+        "ordinary_income_years_available",
+        "net_loss_years_3y",
+        "net_income_years_available",
         "negative_ocf_years_3y",
         "operating_cf_years_available",
     ]
@@ -121,12 +153,18 @@ def _latest_history_counts(raw: pd.DataFrame) -> pd.DataFrame:
     rows: list[dict[str, object]] = []
     for code, group in raw.sort_values("submit_date").groupby("code"):
         operating_income = pd.to_numeric(group["operating_income"], errors="coerce").dropna().tail(3)
+        ordinary_income = pd.to_numeric(group["ordinary_income"], errors="coerce").dropna().tail(3)
+        net_income = pd.to_numeric(group["net_income"], errors="coerce").dropna().tail(3)
         operating_cf = pd.to_numeric(group["operating_cf"], errors="coerce").dropna().tail(3)
         rows.append(
             {
                 "code": str(code),
                 "operating_loss_years_3y": int((operating_income < 0).sum()),
                 "operating_income_years_available": int(operating_income.notna().sum()),
+                "ordinary_loss_years_3y": int((ordinary_income < 0).sum()),
+                "ordinary_income_years_available": int(ordinary_income.notna().sum()),
+                "net_loss_years_3y": int((net_income < 0).sum()),
+                "net_income_years_available": int(net_income.notna().sum()),
                 "negative_ocf_years_3y": int((operating_cf < 0).sum()),
                 "operating_cf_years_available": int(operating_cf.notna().sum()),
             }
@@ -136,22 +174,99 @@ def _latest_history_counts(raw: pd.DataFrame) -> pd.DataFrame:
 
 def _financial_like_mask(df: pd.DataFrame) -> pd.Series:
     sector = df.get("sector_33", pd.Series("", index=df.index)).fillna("").astype(str)
-    sector_17 = df.get("sector_17", pd.Series("", index=df.index)).fillna("").astype(str)
-    code = df.get("code", pd.Series("", index=df.index)).fillna("").astype(str)
-    name = df.get("company_name", pd.Series("", index=df.index)).fillna("").astype(str)
-    is_financial = _truthy(df.get("is_financial", pd.Series(False, index=df.index)))
-    finance_sectors = {
-        "Banks",
-        "Insurance",
-        "Securities and Commodities Futures",
-        "Other Financing Business",
-    }
-    return (
-        is_financial
-        | sector.isin(finance_sectors)
-        | sector_17.str.contains("BANKS|FINANCIAL|INSURANCE", case=False, na=False)
-        | code.isin({"6178"})
-        | name.str.contains("BANK|INSURANCE|SECURITIES|FINANCIAL|JAPAN POST HOLDINGS", case=False, na=False)
+    return sector.isin(FINANCIAL_SECTORS)
+
+
+def _write_financial_handling_outputs(
+    df: pd.DataFrame,
+    reasons: dict[str, pd.Series],
+    eligible: pd.Series,
+    config: AppConfig,
+) -> None:
+    financial = _financial_like_mask(df)
+    liquid = _truthy(df.get("liquid_20m_60d", pd.Series(False, index=df.index)))
+    reason_columns = list(reasons)
+    reason_bits = pd.DataFrame({reason: mask.fillna(False) for reason, mask in reasons.items()})
+    exclusion_reasons = reason_bits.apply(
+        lambda row: ";".join([column for column, value in row.items() if bool(value)]),
+        axis=1,
+    )
+
+    summary = pd.DataFrame(
+        [
+            {"item": "experiment_id", "value": EXPERIMENT_ID},
+            {"item": "financial_sector_companies", "value": int(financial.sum())},
+            {"item": "financial_sector_liquid_20m_60d", "value": int((financial & liquid).sum())},
+            {
+                "item": "financial_sector_excluded_after_liquidity",
+                "value": int((financial & liquid & ~eligible).sum()),
+            },
+            {
+                "item": "financial_sector_investment_eligible",
+                "value": int((financial & liquid & eligible).sum()),
+            },
+            {
+                "item": "different_handling",
+                "value": (
+                    "No mechanical low_equity_ratio, repeated_negative_operating_cf, "
+                    "excessive_leverage, operating_margin_outlier, or ROIC-style exclusion; "
+                    "use ROE, ordinary/net profit continuity, valuation outliers, price/liquidity, "
+                    "and core data availability instead."
+                ),
+            },
+            {
+                "item": "unavailable_financial_specific_data",
+                "value": "Bank capital adequacy, non-performing loan ratios, and insurer solvency margin are not available in the current structured dataset.",
+            },
+        ]
+    )
+    summary.to_csv(config.data_processed_dir / "financial_sector_handling_summary.csv", index=False)
+
+    check = df.loc[financial & liquid, [
+        "code",
+        "ticker",
+        "company_name",
+        "market",
+        "sector_33",
+        "roe",
+        "ordinary_income",
+        "net_income",
+        "price_to_book",
+        "trailing_pe",
+        "avg_trading_value_60d",
+        "price_history_days",
+    ]].copy()
+    check["investment_eligible"] = eligible.loc[check.index].to_numpy()
+    for reason in reason_columns:
+        check[reason] = reason_bits.loc[check.index, reason].to_numpy()
+    check["exclusion_reasons"] = exclusion_reasons.loc[check.index].to_numpy()
+    check.to_csv(config.data_processed_dir / "financial_sector_exclusion_check.csv", index=False)
+
+    score_cols = [
+        "code",
+        "ticker",
+        "company_name",
+        "market",
+        "sector_33",
+        "investment_eligible",
+        "profitability_score",
+        "cash_generation_score",
+        "stability_score",
+        "competitive_position_score",
+        "moat_score",
+        "transformation_score",
+        "future_moat_score",
+        "valuation_score",
+        "momentum_score",
+        "risk_score",
+        "adjusted_bb_score",
+    ]
+    score_frame = df.loc[financial].copy()
+    score_frame["investment_eligible"] = eligible.loc[score_frame.index].to_numpy()
+    existing_score_cols = [column for column in score_cols if column in score_frame.columns]
+    score_frame[existing_score_cols].to_csv(
+        config.data_processed_dir / "financial_sector_score_components.csv",
+        index=False,
     )
 
 
@@ -186,38 +301,61 @@ def _investment_eligibility(
 
     operating_loss_years = _numeric(df, "operating_loss_years_3y").fillna(0)
     operating_income_years = _numeric(df, "operating_income_years_available").fillna(0)
+    ordinary_loss_years = _numeric(df, "ordinary_loss_years_3y").fillna(0)
+    ordinary_income_years = _numeric(df, "ordinary_income_years_available").fillna(0)
+    net_loss_years = _numeric(df, "net_loss_years_3y").fillna(0)
+    net_income_years = _numeric(df, "net_income_years_available").fillna(0)
     negative_ocf_years = _numeric(df, "negative_ocf_years_3y").fillna(0)
     operating_cf_years = _numeric(df, "operating_cf_years_available").fillna(0)
+    price_history_days = _numeric(df, "price_history_days").fillna(0)
 
     reasons: dict[str, pd.Series] = {
         "missing_financial_data": base_liquidity
         & (
             assets.isna()
             | equity.isna()
-            | equity_ratio.isna()
-            | operating_income.isna()
             | roe.isna()
-            | (~financial_like & (revenue.isna() | operating_margin.isna() | operating_cf.isna() | ocf_margin.isna()))
+            | (
+                financial_like
+                & (
+                    _numeric(df, "ordinary_income").isna()
+                    & _numeric(df, "net_income").isna()
+                )
+            )
+            | (
+                ~financial_like
+                & (
+                    equity_ratio.isna()
+                    | operating_income.isna()
+                    | revenue.isna()
+                    | operating_margin.isna()
+                    | operating_cf.isna()
+                    | ocf_margin.isna()
+                )
+            )
         ),
         "low_equity_ratio": base_liquidity
-        & (
-            (~financial_like & (equity_ratio < 0.10))
-            | (financial_like & ((equity_ratio < 0.02) | (equity <= 0)))
-        ),
+        & ~financial_like
+        & (equity_ratio < 0.10),
         "repeated_operating_loss": base_liquidity
+        & ~financial_like
         & (operating_income_years >= 2)
         & (operating_loss_years >= 2)
         & (operating_income < 0)
         & (operating_margin < -0.03),
+        "repeated_profit_loss": base_liquidity
+        & financial_like
+        & (
+            ((ordinary_income_years >= 2) & (ordinary_loss_years >= 2) & (_numeric(df, "ordinary_income") < 0))
+            | ((net_income_years >= 2) & (net_loss_years >= 2) & (_numeric(df, "net_income") < 0))
+        ),
         "repeated_negative_operating_cf": base_liquidity
         & ~financial_like
         & (operating_cf_years >= 2)
         & (negative_ocf_years >= 2),
         "excessive_leverage": base_liquidity
-        & (
-            (~financial_like & ((liabilities_to_equity > 8) | (equity <= 0)))
-            | (financial_like & ((liabilities_to_equity > 50) | (equity <= 0)))
-        ),
+        & ~financial_like
+        & ((liabilities_to_equity > 8) | (equity <= 0)),
         "extreme_valuation_outlier": base_liquidity
         & (
             (pe.notna() & ((pe <= 0) | (pe > 120)))
@@ -230,7 +368,8 @@ def _investment_eligibility(
         ),
         "other_data_quality_issue": base_liquidity
         & (
-            (assets <= 0)
+            (price_history_days < 500)
+            | (assets <= 0)
             | (~financial_like & (revenue <= 0))
             | (~financial_like & (equity_ratio > 1.20))
             | (~financial_like & ocf_margin.notna() & (ocf_margin.abs() > 3))
@@ -246,6 +385,7 @@ def _investment_eligibility(
     reason_frame["company_name"] = df.get("company_name_ja", df.get("company_name", "")).fillna(
         df.get("company_name", "")
     )
+    reason_frame["market"] = df.get("market", "")
     reason_frame["sector_33"] = df.get("sector_33", "")
     reason_frame["is_financial_like"] = financial_like
     reason_frame["liquidity_passed"] = base_liquidity
@@ -258,16 +398,25 @@ def _investment_eligibility(
         axis=1,
     )
     reason_frame = reason_frame[base_liquidity & ~eligible].copy()
+    missing_reason = reason_frame["exclusion_reasons"].fillna("").astype(str).str.len() == 0
+    if missing_reason.any():
+        reason_frame.loc[missing_reason, "other_data_quality_issue"] = True
+        reason_frame.loc[missing_reason, "exclusion_reasons"] = "other_data_quality_issue"
     reason_frame.to_csv(config.data_processed_dir / "investment_eligibility_exclusions.csv", index=False)
 
     counts = pd.DataFrame(
-        [{"reason": reason, "excluded_companies": int(mask.fillna(False).sum())} for reason, mask in reasons.items()]
+        [
+            {"summary_type": "reason_count_overlapping", "reason": reason, "excluded_companies": int(mask.fillna(False).sum())}
+            for reason, mask in reasons.items()
+        ]
     )
     counts.loc[len(counts)] = {
+        "summary_type": "unique_company_count",
         "reason": "unique_excluded_total",
-        "excluded_companies": int((base_liquidity & failed).sum()),
+        "excluded_companies": int((base_liquidity & ~eligible).sum()),
     }
     counts.to_csv(config.data_processed_dir / "investment_eligibility_exclusion_summary.csv", index=False)
+    _write_financial_handling_outputs(df, reasons, eligible, config)
     return eligible, reason_frame
 
 
@@ -377,11 +526,61 @@ def score_universe(config: AppConfig, preliminary: bool = False) -> pd.DataFrame
     df["pbr_for_score"] = pd.to_numeric(df.get("price_to_book", np.nan), errors="coerce").where(
         lambda s: s > 0
     )
+    df["is_financial_like"] = _financial_like_mask(df)
+    financial_mask = df["is_financial_like"].fillna(False).astype(bool)
+    nonfinancial_mask = ~financial_mask
+
+    ordinary_income = _numeric(df, "ordinary_income")
+    net_income = _numeric(df, "net_income")
+    revenue = _numeric(df, "revenue")
+    equity = _numeric(df, "equity")
+    assets = _numeric(df, "total_assets")
+    ordinary_margin = ordinary_income / revenue.replace(0, np.nan)
+    net_margin = net_income / revenue.replace(0, np.nan)
+    df["ordinary_margin"] = ordinary_margin.replace([np.inf, -np.inf], np.nan)
+    df["net_margin"] = net_margin.replace([np.inf, -np.inf], np.nan)
 
     df["profitability_score"] = average_z(df, ["operating_margin", "roe", "equity_ratio"])
     df["cash_generation_score"] = average_z(df, ["ocf_margin"])
     df["stability_score"] = average_z(df.assign(neg_vol=-df["annual_volatility"].fillna(0)), ["neg_vol"])
     df["competitive_position_score"] = average_z(df, ["rd_ratio", "operating_margin"])
+    financial_profitability = average_series(
+        [
+            masked_zscore(df["roe"], financial_mask),
+            masked_zscore(df["net_margin"], financial_mask),
+            masked_zscore(_safe_inverse(df["pbr_for_score"]), financial_mask),
+        ]
+    )
+    financial_cash_generation = average_series(
+        [
+            masked_zscore(df["roe"], financial_mask),
+            masked_zscore(df["dividend_yield_clean"], financial_mask),
+            masked_zscore(_safe_inverse(df["pe_for_score"]), financial_mask),
+        ]
+    )
+    financial_stability = average_series(
+        [
+            masked_zscore(-df["annual_volatility"].fillna(0), financial_mask),
+            masked_zscore(_numeric(df, "operating_income_growth"), financial_mask),
+            masked_zscore(_numeric(df, "revenue_growth"), financial_mask),
+        ]
+    )
+    financial_competitive = average_series(
+        [
+            masked_zscore(np.log1p(assets.where(assets > 0)), financial_mask),
+            masked_zscore(np.log1p(equity.where(equity > 0)), financial_mask),
+            masked_zscore(np.log1p(df["avg_trading_value_60d"].where(df["avg_trading_value_60d"] > 0)), financial_mask),
+        ]
+    )
+    df.loc[financial_mask, "profitability_score"] = financial_profitability.loc[financial_mask]
+    df.loc[financial_mask, "cash_generation_score"] = financial_cash_generation.loc[financial_mask]
+    df.loc[financial_mask, "stability_score"] = financial_stability.loc[financial_mask]
+    df.loc[financial_mask, "competitive_position_score"] = financial_competitive.loc[financial_mask]
+    df["score_treatment"] = np.where(
+        financial_mask,
+        "financial_sector_relative_roe_profit_stability_valuation",
+        "general_operating_margin_ocf_leverage_quality",
+    )
     df["moat_score"] = (
         0.35 * df["profitability_score"]
         + 0.25 * df["cash_generation_score"]
@@ -395,6 +594,13 @@ def score_universe(config: AppConfig, preliminary: bool = False) -> pd.DataFrame
         + 0.20 * average_z(df, ["revenue_growth", "operating_income_growth"]).fillna(0)
         + 0.15 * zscore(df["dividend_yield_clean"]).fillna(0)
     )
+    financial_transformation = (
+        0.35 * masked_zscore(_safe_inverse(df["pbr_for_score"]), financial_mask)
+        + 0.25 * masked_zscore(_safe_inverse(df["pe_for_score"]), financial_mask)
+        + 0.20 * masked_zscore(df["roe"], financial_mask)
+        + 0.20 * masked_zscore(df["dividend_yield_clean"], financial_mask)
+    )
+    df.loc[financial_mask, "transformation_score"] = financial_transformation.loc[financial_mask]
 
     for bucket in FUTURE_KEYWORDS:
         df[f"{bucket}_exposure"] = df.apply(lambda row: _future_exposure(row, bucket), axis=1)
@@ -412,6 +618,12 @@ def score_universe(config: AppConfig, preliminary: bool = False) -> pd.DataFrame
         + 0.35 * zscore(_safe_inverse(df["pbr_for_score"])).fillna(0)
         + 0.15 * zscore(df["dividend_yield_clean"]).fillna(0)
     )
+    financial_valuation = (
+        0.45 * masked_zscore(_safe_inverse(df["pe_for_score"]), financial_mask)
+        + 0.40 * masked_zscore(_safe_inverse(df["pbr_for_score"]), financial_mask)
+        + 0.15 * masked_zscore(df["dividend_yield_clean"], financial_mask)
+    )
+    df.loc[financial_mask, "valuation_score"] = financial_valuation.loc[financial_mask]
     df["bb_score"] = (
         0.30 * df["moat_score"]
         + 0.25 * df["transformation_score"]
@@ -427,10 +639,9 @@ def score_universe(config: AppConfig, preliminary: bool = False) -> pd.DataFrame
 
     price_available = df["close"].notna() & (df["close"] > 0)
     liquid_20m_60d = price_available & (df["avg_trading_value_60d"].fillna(0) >= 20_000_000)
-    investable_base = liquid_20m_60d & (df["price_history_days"].fillna(0) >= 500)
     df["price_available"] = price_available
     df["liquid_20m_60d"] = liquid_20m_60d
-    df["investment_eligible"], _ = _investment_eligibility(df, investable_base, config)
+    df["investment_eligible"], _ = _investment_eligibility(df, liquid_20m_60d, config)
     if preliminary:
         df.loc[df["close"].notna() & (df["close"] > 0), "investment_eligible"] = True
     scored_mask = df["investment_eligible"] & df["adjusted_bb_score"].notna()

@@ -12,6 +12,7 @@
 
 - `tables/screening_summary.csv` と `figures/screening_funnel.png`
 - `tables/investment_eligibility_exclusion_summary.csv` と `tables/investment_eligibility_exclusions.csv`
+- `tables/financial_sector_handling_summary.csv`、`tables/financial_sector_exclusion_check.csv`、`tables/financial_sector_score_components.csv`
 - `tables/score_formula_table.csv`
 - `tables/scores_top20.csv`
 - `tables/portfolio_table.csv` と `tables/portfolio_policy_summary.csv`

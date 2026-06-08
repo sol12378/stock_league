@@ -1,640 +1,598 @@
-code,ticker,company_name,sector_33,is_financial_like,liquidity_passed,missing_financial_data,low_equity_ratio,repeated_operating_loss,repeated_negative_operating_cf,excessive_leverage,extreme_valuation_outlier,extreme_profitability_outlier,other_data_quality_issue,investment_eligible,exclusion_reasons
-1301,1301.T,株式会社　極洋,"Fishery, Agriculture and Forestry",False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-1375,1375.T,ユキグニファクトリー株式会社,"Fishery, Agriculture and Forestry",False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-1430,1430.T,ファーストコーポレーション株式会社,Construction,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-1433,1433.T,ベステラ株式会社,Construction,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-1434,1434.T,ＪＥＳＣＯホールディングス株式会社,Construction,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-1605,1605.T,株式会社ＩＮＰＥＸ,Mining,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-1711,1711.T,株式会社ＳＤＳホールディングス,Construction,False,True,False,True,True,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
-1762,1762.T,株式会社髙松コンストラクショングループ,Construction,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-1768,1768.T,株式会社ソネック,Construction,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-1783,1783.T,株式会社ｆａｎｔａｓｉｓｔａ,Real Estate,False,True,False,True,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
-1811,1811.T,株式会社錢高組,Construction,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-1814,1814.T,大末建設株式会社,Construction,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-1815,1815.T,鉄建建設株式会社,Construction,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-1827,1827.T,株式会社ナカノフドー建設,Construction,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-1833,1833.T,株式会社奥村組,Construction,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-1844,1844.T,株式会社大盛工業,Construction,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-1885,1885.T,東亜建設工業株式会社,Construction,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-1887,1887.T,日本国土開発株式会社,Construction,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-1888,1888.T,若築建設株式会社,Construction,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-1914,1914.T,日本基礎技術株式会社,Construction,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-1944,1944.T,株式会社きんでん,Construction,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-1950,1950.T,日本電設工業株式会社,Construction,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-1960,1960.T,株式会社サンテック,Construction,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-1964,1964.T,中外炉工業株式会社,Construction,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-1965,1965.T,株式会社テクノ菱和,Construction,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-1966,1966.T,株式会社　高田工業所,Construction,False,True,True,False,False,True,False,False,False,False,False,missing_financial_data;repeated_negative_operating_cf
-1968,1968.T,太平電業株式会社,Construction,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-1980,1980.T,ダイダン株式会社,Construction,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-2108,2108.T,日本甜菜製糖株式会社,Foods,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-2117,2117.T,ウェルネオシュガー株式会社,Foods,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-2120,2120.T,株式会社ＬＩＦＵＬＬ,Services,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-2134,2134.T,北浜キャピタルパートナーズ株式会社,Services,False,True,False,True,True,True,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier
-2148,2148.T,アイティメディア株式会社,Services,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-2153,2153.T,Ｅ・Ｊホールディングス株式会社,Services,False,True,False,False,False,False,False,False,True,False,False,extreme_profitability_outlier
-2154,2154.T,株式会社オープンアップグループ,Services,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-2160,2160.T,株式会社ジーエヌアイグループ,Pharmaceutical,False,True,True,False,True,False,False,False,True,False,False,missing_financial_data;repeated_operating_loss;extreme_profitability_outlier
-2170,2170.T,株式会社リンクアンドモチベーション,Services,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-2193,2193.T,クックパッド株式会社,Services,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-2282,2282.T,日本ハム株式会社,Foods,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-2321,2321.T,株式会社ソフトフロントホールディングス,Information & Communication,False,True,False,False,True,False,False,False,False,False,False,repeated_operating_loss
-2327,2327.T,日鉄ソリューションズ株式会社,Information & Communication,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-2334,2334.T,株式会社イオレ,Services,False,True,False,True,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
-2337,2337.T,いちご株式会社,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-2338,2338.T,クオンタムソリューションズ株式会社,Information & Communication,False,True,False,True,True,True,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier
-2342,2342.T,株式会社トランスジェニックグループ,Services,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-2345,2345.T,株式会社クシム,Information & Communication,False,True,False,False,True,True,False,False,True,True,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier;other_data_quality_issue
-2370,2370.T,株式会社メディネット,Services,False,True,False,False,True,True,False,False,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier
-2371,2371.T,株式会社カカクコム,Services,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-2385,2385.T,株式会社総医研ホールディングス,Services,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-2413,2413.T,エムスリー株式会社,Services,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-2429,2429.T,株式会社ワールドホールディングス,Services,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-2432,2432.T,株式会社ディー・エヌ・エー,Information & Communication,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-2435,2435.T,株式会社シダー,Services,False,True,False,True,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
-2437,2437.T,Ｓｈｉｎｗａ　Ｗｉｓｅ　Ｈｏｌｄｉｎｇｓ株式会社,Services,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-2440,2440.T,株式会社ぐるなび,Services,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-2445,2445.T,株式会社タカミヤ,Services,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-2459,2459.T,アウンコンサルティング株式会社,Services,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-2471,2471.T,株式会社エスプール,Services,False,True,True,False,True,False,False,False,False,False,False,missing_financial_data;repeated_operating_loss
-2484,2484.T,株式会社出前館,Information & Communication,False,True,False,False,True,True,False,False,False,True,False,repeated_operating_loss;repeated_negative_operating_cf;other_data_quality_issue
-2491,2491.T,バリューコマース株式会社,Services,False,True,False,False,False,False,False,False,False,True,False,other_data_quality_issue
-2498,2498.T,株式会社オリエンタルコンサルタンツホールディングス,Services,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-2501,2501.T,サッポロホールディングス株式会社,Foods,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-2502,2502.T,アサヒグループホールディングス株式会社,Foods,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-2503,2503.T,キリンホールディングス株式会社,Foods,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-2579,2579.T,コカ・コーラボトラーズジャパンホールディングス株式会社,Foods,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-2586,2586.T,株式会社フルッタフルッタ,Foods,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-2587,2587.T,サントリー食品インターナショナル株式会社,Foods,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-2588,2588.T,株式会社プレミアムウォーターホールディングス,Foods,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-2594,2594.T,キーコーヒー株式会社,Foods,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-2656,2656.T,株式会社ベクターホールディングス,Retail Trade,False,True,False,True,True,True,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier
-2667,2667.T,株式会社イメージワン,Wholesale Trade,False,True,False,True,True,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
-2673,2673.T,夢みつけ隊株式会社,Retail Trade,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-2686,2686.T,株式会社ジーフット,Retail Trade,False,True,False,True,True,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
-2700,2700.T,木徳神糧株式会社,Wholesale Trade,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-2750,2750.T,石光商事株式会社,Wholesale Trade,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-2763,2763.T,株式会社エフティグループ,Wholesale Trade,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-2764,2764.T,株式会社ひらまつ,Retail Trade,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-2768,2768.T,双日株式会社,Wholesale Trade,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-2776,2776.T,新都ホールディングス株式会社,Wholesale Trade,False,True,False,True,False,True,True,False,False,False,False,low_equity_ratio;repeated_negative_operating_cf;excessive_leverage
-2780,2780.T,株式会社コメ兵ホールディングス,Retail Trade,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-2801,2801.T,キッコーマン株式会社,Foods,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-2802,2802.T,味の素株式会社,Foods,False,True,True,False,True,False,False,False,False,False,False,missing_financial_data;repeated_operating_loss
-2811,2811.T,カゴメ株式会社,Foods,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-2897,2897.T,日清食品ホールディングス株式会社,Foods,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-2901,2901.T,株式会社ウェルディッシュ,Foods,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-2914,2914.T,日本たばこ産業株式会社,Foods,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-2962,2962.T,株式会社テクニスコ,Metal Products,False,True,False,False,True,True,False,False,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier
-2970,2970.T,ＧＬＣ　ＧＲＯＵＰ株式会社,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-2975,2975.T,スター・マイカ・ホールディングス株式会社,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-2981,2981.T,株式会社ランディックス,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-2982,2982.T,株式会社ＡＤワークスグループ,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-2986,2986.T,株式会社ＬＡホールディングス,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-2998,2998.T,クリアル株式会社,Real Estate,False,True,False,True,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
-3070,3070.T,株式会社ジェリービーンズグループ,Wholesale Trade,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-3083,3083.T,スターシーズ株式会社,Retail Trade,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-3086,3086.T,Ｊ．フロント　リテイリング株式会社,Retail Trade,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-3103,3103.T,ユニチカ株式会社,Textiles and Apparels,False,True,False,False,False,False,True,False,True,False,False,excessive_leverage;extreme_profitability_outlier
-3113,3113.T,株式会社ＵＮＩＶＡ・Ｏａｋホールディングス,Securities and Commodities Futures,True,True,False,False,True,False,False,False,False,False,False,repeated_operating_loss
-3116,3116.T,トヨタ紡織株式会社,Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-3133,3133.T,株式会社海帆,Retail Trade,False,True,False,True,True,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
-3137,3137.T,株式会社ファンデリー,Retail Trade,False,True,False,True,True,False,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;excessive_leverage;extreme_profitability_outlier
-3151,3151.T,株式会社バイタルケーエスケー・ホールディングス,Wholesale Trade,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-3185,3185.T,夢展望株式会社,Retail Trade,False,True,True,True,True,False,True,False,False,False,False,missing_financial_data;low_equity_ratio;repeated_operating_loss;excessive_leverage
-3189,3189.T,株式会社ＡＮＡＰホールディングス,Retail Trade,False,True,False,False,True,True,False,False,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier
-3192,3192.T,株式会社白鳩,Retail Trade,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-3197,3197.T,株式会社すかいらーくホールディングス,Retail Trade,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-3199,3199.T,綿半ホールディングス株式会社,Retail Trade,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-3205,3205.T,株式会社ダイドーリミテッド,Textiles and Apparels,False,True,False,False,True,False,False,False,False,False,False,repeated_operating_loss
-3231,3231.T,野村不動産ホールディングス株式会社,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-3237,3237.T,株式会社イントランス,Real Estate,False,True,False,True,True,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
-3242,3242.T,株式会社アーバネットコーポレーション,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-3252,3252.T,地主株式会社,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-3267,3267.T,株式会社フィル・カンパニー,Construction,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-3284,3284.T,株式会社フージャースホールディングス,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-3291,3291.T,飯田グループホールディングス株式会社,Real Estate,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-3294,3294.T,株式会社イーグランド,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-3315,3315.T,日本コークス工業株式会社,Oil and Coal Products,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-3323,3323.T,レカム株式会社,Wholesale Trade,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-3370,3370.T,株式会社フジタコーポレーション,Retail Trade,False,True,False,True,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
-3387,3387.T,株式会社クリエイト・レストランツ・ホールディングス,Retail Trade,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-3397,3397.T,株式会社トリドールホールディングス,Retail Trade,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-3402,3402.T,東レ株式会社,Textiles and Apparels,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-3444,3444.T,株式会社菊池製作所,Metal Products,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-3447,3447.T,信和株式会社,Metal Products,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-3465,3465.T,ケイアイスター不動産株式会社,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-3467,3467.T,アグレ都市デザイン株式会社,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-3475,3475.T,株式会社グッドコムアセット,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-3482,3482.T,ロードスターキャピタル株式会社,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-3489,3489.T,株式会社フェイスネットワーク,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-3491,3491.T,株式会社ＧＡ　ｔｅｃｈｎｏｌｏｇｉｅｓ,Real Estate,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-3498,3498.T,霞ヶ関キャピタル株式会社,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-3529,3529.T,アツギ株式会社,Textiles and Apparels,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-3543,3543.T,株式会社コメダホールディングス,Wholesale Trade,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-3563,3563.T,株式会社ＦＯＯＤ　＆　ＬＩＦＥ　ＣＯＭＰＡＮＩＥＳ,Retail Trade,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-3591,3591.T,株式会社ワコールホールディングス,Textiles and Apparels,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-3608,3608.T,株式会社ＴＳＩホールディングス,Textiles and Apparels,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-3612,3612.T,株式会社ワールド,Textiles and Apparels,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-3623,3623.T,ビリングシステム株式会社,Information & Communication,False,True,False,False,False,False,True,False,False,False,False,excessive_leverage
-3624,3624.T,アクセルマーク株式会社,Information & Communication,False,True,False,False,True,True,False,False,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier
-3628,3628.T,株式会社データホライゾン,Information & Communication,False,True,False,True,True,True,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier
-3634,3634.T,株式会社ソケッツ,Information & Communication,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-3647,3647.T,株式会社ジー・スリーホールディングス,Information & Communication,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-3656,3656.T,ＫＬａｂ株式会社,Information & Communication,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-3659,3659.T,株式会社ネクソン,Information & Communication,False,True,True,False,True,False,False,False,True,False,False,missing_financial_data;repeated_operating_loss;extreme_profitability_outlier
-3663,3663.T,株式会社セルシス,Information & Communication,False,True,False,True,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
-3664,3664.T,株式会社モブキャストホールディングス,Information & Communication,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-3667,3667.T,株式会社ｅｎｉｓｈ,Information & Communication,False,True,False,True,True,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
-3672,3672.T,株式会社オルトプラス,Information & Communication,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-3673,3673.T,株式会社ブロードリーフ,Information & Communication,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-3679,3679.T,株式会社じげん,Information & Communication,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-3681,3681.T,株式会社ブイキューブ,Information & Communication,False,True,False,True,True,False,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;excessive_leverage
-3686,3686.T,株式会社ディー・エル・イー,Information & Communication,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-3691,3691.T,株式会社デジタルプラス,Information & Communication,False,True,True,False,True,False,False,False,True,False,False,missing_financial_data;repeated_operating_loss;extreme_profitability_outlier
-3719,3719.T,ＡＩストーム株式会社,Information & Communication,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-3727,3727.T,株式会社アプリックス,Information & Communication,False,True,True,False,True,False,False,False,True,False,False,missing_financial_data;repeated_operating_loss;extreme_profitability_outlier
-3753,3753.T,株式会社フライトソリューションズ,Information & Communication,False,True,False,True,True,False,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;excessive_leverage
-3762,3762.T,テクマトリックス株式会社,Information & Communication,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-3769,3769.T,ＧＭＯペイメントゲートウェイ株式会社,Information & Communication,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-3772,3772.T,ウェルス・マネジメント株式会社,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-3774,3774.T,株式会社インターネットイニシアティブ,Information & Communication,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-3777,3777.T,株式会社環境フレンドリーホールディングス,Information & Communication,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-3778,3778.T,さくらインターネット株式会社,Information & Communication,False,True,False,False,False,False,False,True,False,False,False,extreme_valuation_outlier
-3803,3803.T,イメージ情報開発株式会社,Information & Communication,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-3810,3810.T,サイバーステップ株式会社,Information & Communication,False,True,False,True,True,True,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier
-3823,3823.T,ＴＨＥ　ＷＨＹ　ＨＯＷ　ＤＯ　ＣＯＭＰＡＮＹ株式会社,Information & Communication,False,True,False,True,True,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
-3825,3825.T,株式会社リミックスポイント,Retail Trade,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-3840,3840.T,パス株式会社,Information & Communication,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-3845,3845.T,株式会社アイフリークモバイル,Information & Communication,False,True,False,False,True,False,False,False,False,False,False,repeated_operating_loss
-3853,3853.T,アステリア株式会社,Information & Communication,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-3903,3903.T,株式会社ｇｕｍｉ,Information & Communication,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-3905,3905.T,データセクション株式会社,Information & Communication,False,True,False,True,True,False,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;excessive_leverage
-3911,3911.T,株式会社Ａｉｍｉｎｇ,Information & Communication,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-3926,3926.T,株式会社オープンドア,Information & Communication,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-3936,3936.T,株式会社グローバルウェイ,Information & Communication,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-3962,3962.T,株式会社チェンジホールディングス,Information & Communication,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-3983,3983.T,株式会社オロ,Information & Communication,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-3987,3987.T,エコモット株式会社,Information & Communication,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-3989,3989.T,シェアリングテクノロジー株式会社,Information & Communication,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-3994,3994.T,株式会社マネーフォワード,Information & Communication,False,True,False,False,True,False,False,False,False,False,False,repeated_operating_loss
-4004,4004.T,株式会社レゾナック・ホールディングス,Chemicals,False,True,False,False,False,False,False,False,False,True,False,other_data_quality_issue
-4005,4005.T,住友化学株式会社,Chemicals,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4023,4023.T,株式会社クレハ,Chemicals,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4028,4028.T,石原産業株式会社,Chemicals,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-4088,4088.T,エア・ウォーター株式会社,Chemicals,False,True,True,False,True,False,False,False,False,False,False,missing_financial_data;repeated_operating_loss
-4091,4091.T,日本酸素ホールディングス株式会社,Chemicals,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4114,4114.T,株式会社日本触媒,Chemicals,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4151,4151.T,協和キリン株式会社,Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4169,4169.T,ＥＮＥＣＨＡＮＧＥ株式会社,Information & Communication,False,True,False,False,True,True,False,False,True,True,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier;other_data_quality_issue
-4175,4175.T,株式会社ｃｏｌｙ,Information & Communication,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-4180,4180.T,Ａｐｐｉｅｒ　Ｇｒｏｕｐ株式会社,Information & Communication,False,True,True,False,True,False,False,False,True,False,False,missing_financial_data;repeated_operating_loss;extreme_profitability_outlier
-4183,4183.T,三井化学株式会社,Chemicals,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4188,4188.T,三菱ケミカルグループ株式会社,Chemicals,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4192,4192.T,スパイダープラス株式会社,Information & Communication,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-4199,4199.T,ワンダープラネット株式会社,Information & Communication,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-4203,4203.T,住友ベークライト株式会社,Chemicals,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4235,4235.T,ウルトラファブリックス・ホールディングス株式会社,Chemicals,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4241,4241.T,株式会社アテクト,Chemicals,False,True,False,False,True,False,False,False,False,False,False,repeated_operating_loss
-4259,4259.T,株式会社エクサウィザーズ,Information & Communication,False,True,False,False,False,False,False,False,True,False,False,extreme_profitability_outlier
-4263,4263.T,サスメド株式会社,Information & Communication,False,True,True,False,False,True,False,False,False,True,False,missing_financial_data;repeated_negative_operating_cf;other_data_quality_issue
-4265,4265.T,Ｉｎｓｔｉｔｕｔｉｏｎ　ｆｏｒ　ａ　Ｇｌｏｂａｌ　Ｓｏｃｉｅｔｙ株式会社,Information & Communication,False,True,False,False,True,True,False,False,True,True,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier;other_data_quality_issue
-4286,4286.T,株式会社ＣＬホールディングス,Services,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4288,4288.T,株式会社アズジェント,Information & Communication,False,True,False,False,True,True,False,False,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier
-4293,4293.T,株式会社セプテーニ・ホールディングス,Services,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4301,4301.T,株式会社アミューズ,Services,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4307,4307.T,株式会社野村総合研究所,Information & Communication,False,True,True,False,False,False,False,True,False,False,False,missing_financial_data;extreme_valuation_outlier
-4316,4316.T,株式会社ビーマップ,Information & Communication,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-4324,4324.T,株式会社電通グループ,Services,False,True,True,True,False,False,True,False,True,False,False,missing_financial_data;low_equity_ratio;excessive_leverage;extreme_profitability_outlier
-4337,4337.T,ぴあ株式会社,Services,False,True,False,True,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
-4344,4344.T,ソースネクスト株式会社,Information & Communication,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-4360,4360.T,株式会社マナック・ケミカル・パートナーズ,Chemicals,False,True,False,False,True,False,False,False,False,False,False,repeated_operating_loss
-4373,4373.T,シンプレクス・ホールディングス株式会社,Information & Communication,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4375,4375.T,セーフィー株式会社,Information & Communication,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-4415,4415.T,株式会社ブロードエンタープライズ,Information & Communication,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-4419,4419.T,株式会社Ｆｉｎａｔｅｘｔホールディングス,Information & Communication,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-4422,4422.T,ＶＡＬＵＥＮＥＸ株式会社,Information & Communication,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-4425,4425.T,Ｋｕｄａｎ株式会社,Information & Communication,False,True,False,False,True,True,False,False,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier
-4432,4432.T,ウイングアーク１ｓｔ株式会社,Information & Communication,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4436,4436.T,株式会社ミンカブ・ジ・インフォノイド,Information & Communication,False,True,False,True,True,False,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;excessive_leverage;extreme_profitability_outlier
-4438,4438.T,株式会社Ｗｅｌｂｙ,Information & Communication,False,True,False,True,True,True,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier
-4448,4448.T,株式会社ｋｕｂｅｌｌ,Information & Communication,False,True,False,True,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
-4449,4449.T,株式会社ギフティ,Information & Communication,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-4452,4452.T,花王株式会社,Chemicals,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4478,4478.T,フリー株式会社,Information & Communication,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-4479,4479.T,株式会社マクアケ,Information & Communication,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-4483,4483.T,株式会社ＪＭＤＣ,Information & Communication,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4490,4490.T,株式会社ビザスク,Information & Communication,False,True,False,True,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
-4499,4499.T,株式会社Ｓｐｅｅｅ,Information & Communication,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-4502,4502.T,武田薬品工業株式会社,Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4503,4503.T,アステラス製薬株式会社,Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4506,4506.T,住友ファーマ株式会社,Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4507,4507.T,塩野義製薬株式会社,Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4512,4512.T,わかもと製薬株式会社,Pharmaceutical,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-4516,4516.T,日本新薬株式会社,Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4519,4519.T,中外製薬株式会社,Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4523,4523.T,エーザイ株式会社,Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4528,4528.T,小野薬品工業株式会社,Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4536,4536.T,参天製薬株式会社,Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4543,4543.T,テルモ株式会社,Precision Instruments,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4547,4547.T,キッセイ薬品工業株式会社,Pharmaceutical,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-4552,4552.T,ＪＣＲファーマ株式会社,Pharmaceutical,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-4563,4563.T,アンジェス株式会社,Pharmaceutical,False,True,True,True,False,True,True,False,False,False,False,missing_financial_data;low_equity_ratio;repeated_negative_operating_cf;excessive_leverage
-4564,4564.T,オンコセラピー・サイエンス株式会社,Pharmaceutical,False,True,False,False,True,True,False,False,True,True,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier;other_data_quality_issue
-4565,4565.T,ネクセラファーマ株式会社,Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4568,4568.T,第一三共株式会社,Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4571,4571.T,ＮＡＮＯ　ＭＲＮＡ株式会社,Pharmaceutical,False,True,False,False,True,True,False,False,True,True,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier;other_data_quality_issue
-4572,4572.T,カルナバイオサイエンス株式会社,Pharmaceutical,False,True,False,False,True,True,False,False,True,True,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier;other_data_quality_issue
-4575,4575.T,株式会社キャンバス,Pharmaceutical,False,True,True,True,False,True,True,False,False,False,False,missing_financial_data;low_equity_ratio;repeated_negative_operating_cf;excessive_leverage
-4576,4576.T,株式会社デ・ウエスタン・セラピテクス研究所,Pharmaceutical,False,True,False,False,True,True,False,False,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier
-4578,4578.T,大塚ホールディングス株式会社,Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4579,4579.T,ラクオリア創薬株式会社,Pharmaceutical,False,True,True,False,False,True,False,False,False,False,False,missing_financial_data;repeated_negative_operating_cf
-4582,4582.T,シンバイオ製薬株式会社,Pharmaceutical,False,True,False,True,True,True,True,False,True,True,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier;other_data_quality_issue
-4583,4583.T,株式会社カイオム・バイオサイエンス,Pharmaceutical,False,True,False,False,True,True,False,False,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier
-4584,4584.T,キッズウェル・バイオ株式会社,Pharmaceutical,False,True,False,True,False,True,True,False,False,False,False,low_equity_ratio;repeated_negative_operating_cf;excessive_leverage
-4586,4586.T,株式会社メドレックス,Pharmaceutical,False,True,False,False,True,True,False,False,True,True,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier;other_data_quality_issue
-4587,4587.T,ペプチドリーム株式会社,Pharmaceutical,False,True,True,False,False,False,False,False,True,False,False,missing_financial_data;extreme_profitability_outlier
-4588,4588.T,オンコリスバイオファーマ株式会社,Pharmaceutical,False,True,False,False,True,True,False,True,True,True,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_valuation_outlier;extreme_profitability_outlier;other_data_quality_issue
-4591,4591.T,株式会社リボミック,Pharmaceutical,False,True,True,False,False,True,False,False,False,True,False,missing_financial_data;repeated_negative_operating_cf;other_data_quality_issue
-4592,4592.T,サンバイオ株式会社,Pharmaceutical,False,True,True,False,False,True,False,False,False,True,False,missing_financial_data;repeated_negative_operating_cf;other_data_quality_issue
-4593,4593.T,株式会社ヘリオス,Pharmaceutical,False,True,True,False,True,False,False,False,True,False,False,missing_financial_data;repeated_operating_loss;extreme_profitability_outlier
-4594,4594.T,ブライトパス・バイオ株式会社,Pharmaceutical,False,True,False,True,True,True,True,False,True,True,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier;other_data_quality_issue
-4596,4596.T,窪田製薬ホールディングス株式会社,Pharmaceutical,False,True,True,False,True,False,False,False,True,True,False,missing_financial_data;repeated_operating_loss;extreme_profitability_outlier;other_data_quality_issue
-4597,4597.T,ソレイジア・ファーマ株式会社,Pharmaceutical,False,True,True,False,True,False,False,False,True,False,False,missing_financial_data;repeated_operating_loss;extreme_profitability_outlier
-4598,4598.T,ＤｅｌｔａーＦｌｙ　Ｐｈａｒｍａ株式会社,Pharmaceutical,False,True,True,True,False,True,True,False,False,False,False,missing_financial_data;low_equity_ratio;repeated_negative_operating_cf;excessive_leverage
-4599,4599.T,株式会社ステムリム,Pharmaceutical,False,True,True,False,False,True,False,False,False,True,False,missing_financial_data;repeated_negative_operating_cf;other_data_quality_issue
-4612,4612.T,日本ペイントホールディングス株式会社,Chemicals,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4680,4680.T,株式会社ラウンドワン,Services,False,True,False,False,False,False,False,False,False,True,False,other_data_quality_issue
-4689,4689.T,ＬＩＮＥヤフー株式会社,Information & Communication,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4755,4755.T,楽天グループ株式会社,Services,False,True,True,False,False,False,False,True,False,False,False,missing_financial_data;extreme_valuation_outlier
-4772,4772.T,株式会社ＳＭ　ＥＮＴＥＲＴＡＩＮＭＥＮＴ　ＪＡＰＡＮ,Information & Communication,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-4813,4813.T,株式会社ＡＣＣＥＳＳ,Information & Communication,False,True,False,True,True,False,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;excessive_leverage
-4819,4819.T,株式会社デジタルガレージ,Information & Communication,False,True,True,False,True,False,False,False,True,False,False,missing_financial_data;repeated_operating_loss;extreme_profitability_outlier
-4833,4833.T,株式会社Ｄｅｆ　ｃｏｎｓｕｌｔｉｎｇ,Services,False,True,False,False,True,True,False,False,True,True,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier;other_data_quality_issue
-4840,4840.T,株式会社トライアイズ,Services,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-4881,4881.T,株式会社ファンペップ,Pharmaceutical,False,True,True,True,False,True,True,False,False,False,False,missing_financial_data;low_equity_ratio;repeated_negative_operating_cf;excessive_leverage
-4882,4882.T,株式会社ペルセウスプロテオミクス,Pharmaceutical,False,True,False,True,True,True,True,False,True,True,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier;other_data_quality_issue
-4883,4883.T,株式会社モダリス,Pharmaceutical,False,True,True,False,False,True,False,False,True,False,False,missing_financial_data;repeated_negative_operating_cf;extreme_profitability_outlier
-4884,4884.T,クリングルファーマ株式会社,Pharmaceutical,False,True,False,False,True,True,False,False,True,True,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier;other_data_quality_issue
-4887,4887.T,サワイグループホールディングス株式会社,Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4888,4888.T,ステラファーマ株式会社,Pharmaceutical,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-4889,4889.T,株式会社レナサイエンス,Pharmaceutical,False,True,True,False,False,True,False,False,False,False,False,missing_financial_data;repeated_negative_operating_cf
-4890,4890.T,株式会社坪田ラボ,Pharmaceutical,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-4891,4891.T,㈱ティムス,Pharmaceutical,False,True,True,False,False,True,False,False,False,False,False,missing_financial_data;repeated_negative_operating_cf
-4892,4892.T,株式会社サイフューズ,Pharmaceutical,False,True,False,False,True,True,False,False,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier
-4893,4893.T,ノイルイミューン・バイオテック株式会社,Pharmaceutical,False,True,True,True,False,True,True,False,False,False,False,missing_financial_data;low_equity_ratio;repeated_negative_operating_cf;excessive_leverage
-4894,4894.T,クオリプス株式会社,Pharmaceutical,False,True,False,False,True,True,False,False,True,True,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier;other_data_quality_issue
-4896,4896.T,株式会社ケイファーマ,Pharmaceutical,False,True,False,False,True,True,False,False,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier
-4901,4901.T,富士フイルムホールディングス株式会社,Chemicals,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4902,4902.T,コニカミノルタ株式会社,Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4911,4911.T,株式会社資生堂,Chemicals,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4912,4912.T,ライオン株式会社,Chemicals,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-4935,4935.T,株式会社リベルタ,Chemicals,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-4978,4978.T,株式会社リプロセル,Chemicals,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-4997,4997.T,日本農薬株式会社,Chemicals,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-5020,5020.T,ＥＮＥＯＳホールディングス株式会社,Oil and Coal Products,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-5026,5026.T,株式会社トリプルアイズ,Information & Communication,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-5027,5027.T,ＡｎｙＭｉｎｄ　Ｇｒｏｕｐ株式会社,Information & Communication,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-5036,5036.T,日本ビジネスシステムズ株式会社,Information & Communication,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-5076,5076.T,インフロニア・ホールディングス株式会社,Construction,False,True,False,False,False,False,False,False,False,True,False,other_data_quality_issue
-5101,5101.T,横浜ゴム株式会社,Rubber Products,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-5108,5108.T,株式会社ブリヂストン,Rubber Products,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-5110,5110.T,住友ゴム工業株式会社,Rubber Products,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-5129,5129.T,株式会社ＦＩＸＥＲ,Information & Communication,False,True,False,False,False,True,False,False,True,False,False,repeated_negative_operating_cf;extreme_profitability_outlier
-5136,5136.T,ｔｒｉｐｌａ株式会社,Information & Communication,False,True,False,False,False,False,True,False,False,True,False,excessive_leverage;other_data_quality_issue
-5195,5195.T,バンドー化学株式会社,Rubber Products,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-5201,5201.T,ＡＧＣ株式会社,Glass and Ceramics Products,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-5202,5202.T,日本板硝子株式会社,Glass and Ceramics Products,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-5216,5216.T,株式会社倉元製作所,Glass and Ceramics Products,False,True,False,False,True,True,False,False,True,True,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier;other_data_quality_issue
-5240,5240.T,ｍｏｎｏＡＩ　ｔｅｃｈｎｏｌｏｇｙ株式会社,Information & Communication,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-5246,5246.T,株式会社ＥＬＥＭＥＮＴＳ,Information & Communication,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-5255,5255.T,株式会社モンスターラボ,Information & Communication,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-5280,5280.T,ヨシコン株式会社,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-5334,5334.T,日本特殊陶業株式会社,Glass and Ceramics Products,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-5341,5341.T,ＡＳＡＨＩ　ＥＩＴＯホールディングス株式会社,Glass and Ceramics Products,False,True,False,True,True,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
-5401,5401.T,日本製鉄株式会社,Iron and Steel,False,True,True,False,False,False,False,True,False,False,False,missing_financial_data;extreme_valuation_outlier
-5411,5411.T,ＪＦＥホールディングス株式会社,Iron and Steel,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-5482,5482.T,愛知製鋼株式会社,Iron and Steel,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-5491,5491.T,日本金属株式会社,Iron and Steel,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-5527,5527.T,株式会社ｐｒｏｐｅｒｔｙ　ｔｅｃｈｎｏｌｏｇｉｅｓ,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-5535,5535.T,ミガロホールディングス株式会社,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-5541,5541.T,大平洋金属株式会社,Iron and Steel,False,True,False,False,True,False,False,False,True,False,False,repeated_operating_loss;extreme_profitability_outlier
-5597,5597.T,ブルーイノベーション株式会社,Information & Communication,False,True,False,True,True,True,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier
-5603,5603.T,虹技株式会社,Iron and Steel,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-5631,5631.T,株式会社日本製鋼所,Machinery,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-5707,5707.T,東邦亜鉛株式会社,Nonferrous Metals,False,True,False,True,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
-5713,5713.T,住友金属鉱山株式会社,Nonferrous Metals,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-5721,5721.T,株式会社エス・サイエンス,Nonferrous Metals,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-5838,5838.T,楽天銀行株式会社,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-5856,5856.T,株式会社エルアイイーエイチ,Retail Trade,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-5857,5857.T,ＡＲＥホールディングス株式会社,Nonferrous Metals,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-5889,5889.T,Ｊａｐａｎ　Ｅｙｅｗｅａｒ　Ｈｏｌｄｉｎｇｓ株式会社,Retail Trade,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-5909,5909.T,株式会社　コロナ,Metal Products,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-5911,5911.T,株式会社横河ブリッジホールディングス,Metal Products,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-5915,5915.T,株式会社駒井ハルテック,Metal Products,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-5918,5918.T,瀧上工業株式会社,Metal Products,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-5938,5938.T,株式会社ＬＩＸＩＬ,Metal Products,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-5986,5986.T,モリテックスチール株式会社,Metal Products,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-5989,5989.T,株式会社エイチワン,Metal Products,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6005,6005.T,三浦工業株式会社,Machinery,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6013,6013.T,株式会社タクマ,Machinery,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6030,6030.T,株式会社アドベンチャー,Services,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6047,6047.T,株式会社Ｇｕｎｏｓｙ,Services,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6069,6069.T,トレンダーズ株式会社,Services,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6081,6081.T,アライドアーキテクツ株式会社,Services,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-6085,6085.T,アーキテクツ・スタジオ・ジャパン株式会社,Services,False,True,False,True,True,True,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier
-6089,6089.T,株式会社ウィルグループ,Services,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6094,6094.T,株式会社フリークアウト・ホールディングス,Services,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6098,6098.T,株式会社リクルートホールディングス,Services,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6101,6101.T,株式会社ツガミ,Machinery,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6113,6113.T,株式会社アマダ,Machinery,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6141,6141.T,ＤＭＧ森精機株式会社,Machinery,False,True,True,False,True,False,False,False,False,False,False,missing_financial_data;repeated_operating_loss
-6166,6166.T,株式会社中村超硬,Machinery,False,True,False,True,True,False,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;excessive_leverage
-6173,6173.T,株式会社アクアライン,Services,False,True,False,True,True,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
-6177,6177.T,ＡｐｐＢａｎｋ株式会社,Services,True,True,False,False,True,False,False,False,False,False,False,repeated_operating_loss
-6183,6183.T,株式会社ベルシステム２４ホールディングス,Services,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6191,6191.T,株式会社エアトリ,Services,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6201,6201.T,株式会社豊田自動織機,Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6203,6203.T,豊和工業株式会社,Machinery,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6208,6208.T,株式会社石川製作所,Machinery,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6217,6217.T,津田駒工業株式会社,Machinery,False,True,False,True,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
-6222,6222.T,株式会社島精機製作所,Machinery,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6227,6227.T,ＡＩメカテック株式会社,Machinery,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6228,6228.T,株式会社ジェイ・イー・ティ,Machinery,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6232,6232.T,株式会社ＡＣＳＬ,Machinery,False,True,False,False,True,True,False,True,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_valuation_outlier;extreme_profitability_outlier
-6245,6245.T,株式会社ヒラノテクシード,Machinery,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6246,6246.T,株式会社テクノスマート,Machinery,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6254,6254.T,野村マイクロ・サイエンス株式会社,Machinery,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6258,6258.T,平田機工株式会社,Machinery,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6268,6268.T,ナブテスコ株式会社,Machinery,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6269,6269.T,三井海洋開発株式会社,Machinery,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6276,6276.T,シリウスビジョン株式会社,Electric Appliances,False,True,False,False,True,False,False,False,False,False,False,repeated_operating_loss
-6294,6294.T,オカダアイヨン株式会社,Machinery,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6301,6301.T,株式会社小松製作所,Machinery,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6305,6305.T,日立建機株式会社,Machinery,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6324,6324.T,株式会社ハーモニック・ドライブ・システムズ,Machinery,False,True,False,False,False,False,False,True,False,False,False,extreme_valuation_outlier
-6326,6326.T,株式会社　クボタ,Machinery,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6330,6330.T,東洋エンジニアリング株式会社,Construction,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6347,6347.T,株式会社プラコー,Machinery,False,True,False,False,True,False,False,False,False,False,False,repeated_operating_loss
-6361,6361.T,株式会社荏原製作所,Machinery,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6366,6366.T,千代田化工建設株式会社,Construction,False,True,True,True,False,False,True,False,False,False,False,missing_financial_data;low_equity_ratio;excessive_leverage
-6370,6370.T,栗田工業株式会社,Machinery,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6376,6376.T,日機装株式会社,Precision Instruments,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6379,6379.T,レイズネクスト株式会社,Construction,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6390,6390.T,株式会社加藤製作所,Machinery,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6403,6403.T,水道機工株式会社,Machinery,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6418,6418.T,日本金銭機械株式会社,Machinery,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6425,6425.T,株式会社ユニバーサルエンターテインメント,Machinery,False,True,False,False,False,False,False,False,True,False,False,extreme_profitability_outlier
-6433,6433.T,ヒーハイスト株式会社,Machinery,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-6444,6444.T,サンデン株式会社,Machinery,False,True,False,True,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
-6448,6448.T,ブラザー工業株式会社,Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6464,6464.T,株式会社ツバキ・ナカシマ,Machinery,False,True,True,False,True,False,False,False,False,False,False,missing_financial_data;repeated_operating_loss
-6471,6471.T,日本精工株式会社,Machinery,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6473,6473.T,株式会社ジェイテクト,Machinery,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6479,6479.T,ミネベアミツミ株式会社,Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6481,6481.T,ＴＨＫ株式会社,Machinery,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6501,6501.T,株式会社日立製作所,Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6503,6503.T,三菱電機株式会社,Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6506,6506.T,株式会社安川電機,Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6516,6516.T,山洋電気株式会社,Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6522,6522.T,株式会社アスタリスク,Electric Appliances,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-6523,6523.T,ＰＨＣホールディングス株式会社,Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6525,6525.T,株式会社ＫＯＫＵＳＡＩ　ＥＬＥＣＴＲＩＣ,Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6540,6540.T,株式会社船場,Services,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6562,6562.T,株式会社ジーニー,Services,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6571,6571.T,キュービーネットホールディングス株式会社,Services,False,True,True,False,True,False,False,False,False,False,False,missing_financial_data;repeated_operating_loss
-6573,6573.T,ＣＲＡＶＩＡ株式会社,Services,False,True,False,True,True,True,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier
-6574,6574.T,株式会社コンヴァノ,Services,False,True,True,False,True,False,False,False,False,False,False,missing_financial_data;repeated_operating_loss
-6579,6579.T,ログリー株式会社,Services,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-6586,6586.T,株式会社マキタ,Machinery,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6594,6594.T,ニデック株式会社,Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6613,6613.T,株式会社ＱＤレーザ,Electric Appliances,False,True,False,False,True,True,False,True,False,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_valuation_outlier
-6619,6619.T,ダブル・スコープ株式会社,Electric Appliances,False,True,False,False,True,False,False,False,True,False,False,repeated_operating_loss;extreme_profitability_outlier
-6622,6622.T,株式会社ダイヘン,Electric Appliances,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6632,6632.T,株式会社ＪＶＣケンウッド,Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6634,6634.T,株式会社ネクスグループ,Electric Appliances,False,True,False,True,True,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
-6645,6645.T,オムロン株式会社,Electric Appliances,False,True,True,False,True,False,False,False,False,False,False,missing_financial_data;repeated_operating_loss
-6659,6659.T,株式会社メディアリンクス,Electric Appliances,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-6663,6663.T,太洋テクノレックス株式会社,Electric Appliances,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6696,6696.T,株式会社トラース・オン・プロダクト,Electric Appliances,False,True,False,True,True,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
-6701,6701.T,日本電気株式会社,Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6702,6702.T,富士通株式会社,Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6706,6706.T,電気興業株式会社,Electric Appliances,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6721,6721.T,ウインテスト株式会社,Electric Appliances,False,True,False,True,True,True,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier
-6723,6723.T,ルネサスエレクトロニクス株式会社,Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6724,6724.T,セイコーエプソン株式会社,Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6731,6731.T,株式会社ピクセラ,Electric Appliances,False,True,False,True,True,True,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier
-6736,6736.T,サン電子株式会社,Electric Appliances,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6740,6740.T,株式会社ジャパンディスプレイ,Electric Appliances,False,True,False,True,True,True,True,True,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_valuation_outlier
-6742,6742.T,株式会社京三製作所,Electric Appliances,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6743,6743.T,大同信号株式会社,Electric Appliances,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6752,6752.T,パナソニックホールディングス株式会社,Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6753,6753.T,シャープ株式会社,Electric Appliances,False,True,False,True,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
-6754,6754.T,アンリツ株式会社,Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6758,6758.T,ソニーグループ株式会社,Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6762,6762.T,ＴＤＫ株式会社,Electric Appliances,False,True,True,False,True,False,False,False,False,False,False,missing_financial_data;repeated_operating_loss
-6769,6769.T,ザインエレクトロニクス株式会社,Electric Appliances,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-6771,6771.T,池上通信機株式会社,Electric Appliances,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6775,6775.T,株式会社ＴＢグループ,Electric Appliances,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-6779,6779.T,日本電波工業株式会社,Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6803,6803.T,ティアック株式会社,Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6806,6806.T,ヒロセ電機株式会社,Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6817,6817.T,スミダコーポレーション株式会社,Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6836,6836.T,ぷらっとホーム株式会社,Electric Appliances,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-6838,6838.T,株式会社多摩川ホールディングス,Electric Appliances,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6840,6840.T,株式会社ＡＫＩＢＡホールディングス,Electric Appliances,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6857,6857.T,株式会社アドバンテスト,Electric Appliances,False,True,True,False,False,False,False,True,False,False,False,missing_financial_data;extreme_valuation_outlier
-6869,6869.T,シスメックス株式会社,Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6902,6902.T,株式会社デンソー,Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6918,6918.T,株式会社アバールデータ,Electric Appliances,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6946,6946.T,日本アビオニクス株式会社,Electric Appliances,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-6955,6955.T,ＦＤＫ株式会社,Electric Appliances,False,True,False,True,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
-6971,6971.T,京セラ株式会社,Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6976,6976.T,太陽誘電株式会社,Electric Appliances,False,True,False,False,False,False,False,True,False,False,False,extreme_valuation_outlier
-6981,6981.T,株式会社村田製作所,Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6988,6988.T,日東電工株式会社,Chemicals,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-6993,6993.T,大黒屋ホールディングス株式会社,Retail Trade,False,True,False,True,True,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
-6997,6997.T,日本ケミコン株式会社,Electric Appliances,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-7003,7003.T,株式会社三井Ｅ＆Ｓ,Machinery,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-7011,7011.T,三菱重工業株式会社,Machinery,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7012,7012.T,川崎重工業株式会社,Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7013,7013.T,株式会社ＩＨＩ,Machinery,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7018,7018.T,内海造船株式会社,Transportation Equipment,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-7047,7047.T,ポート株式会社,Services,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7063,7063.T,株式会社Ｂｉｒｄｍａｎ,Services,False,True,False,True,True,True,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier
-7119,7119.T,株式会社ハルメクホールディングス,Retail Trade,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7138,7138.T,株式会社ＴＯＲＩＣＯ,Retail Trade,False,True,False,False,True,True,False,False,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier
-7157,7157.T,ライフネット生命保険株式会社,Insurance,True,True,True,True,False,False,True,False,False,False,False,missing_financial_data;low_equity_ratio;excessive_leverage
-7181,7181.T,株式会社かんぽ生命保険,Insurance,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7182,7182.T,株式会社ゆうちょ銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7184,7184.T,株式会社　富山第一銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7201,7201.T,日産自動車株式会社,Transportation Equipment,False,True,False,False,False,False,False,True,False,False,False,extreme_valuation_outlier
-7203,7203.T,トヨタ自動車株式会社,Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7220,7220.T,武蔵精密工業株式会社,Transportation Equipment,False,True,False,False,False,False,False,True,False,False,False,extreme_valuation_outlier
-7226,7226.T,極東開発工業株式会社,Transportation Equipment,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-7229,7229.T,株式会社ユタカ技研,Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7242,7242.T,カヤバ株式会社,Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7256,7256.T,河西工業株式会社,Transportation Equipment,False,True,False,True,False,True,True,False,False,False,False,low_equity_ratio;repeated_negative_operating_cf;excessive_leverage
-7259,7259.T,株式会社アイシン,Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7267,7267.T,本田技研工業株式会社,Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7269,7269.T,スズキ株式会社,Transportation Equipment,False,True,False,False,False,False,False,False,False,True,False,other_data_quality_issue
-7270,7270.T,株式会社ＳＵＢＡＲＵ,Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7278,7278.T,株式会社エクセディ,Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7282,7282.T,豊田合成株式会社,Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7287,7287.T,日本精機株式会社,Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7296,7296.T,株式会社エフ・シー・シー,Transportation Equipment,False,True,True,False,True,False,False,False,False,False,False,missing_financial_data;repeated_operating_loss
-7313,7313.T,テイ・エス　テック株式会社,Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7354,7354.T,株式会社ダイレクトマーケティングミックス,Services,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7375,7375.T,株式会社リファインバースグループ,Services,False,True,False,True,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
-7376,7376.T,ＢＣＣ株式会社,Services,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-7378,7378.T,株式会社アシロ,Services,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7412,7412.T,株式会社アトム,Retail Trade,False,True,False,False,True,False,False,False,False,False,False,repeated_operating_loss
-7527,7527.T,株式会社システムソフト,Information & Communication,False,True,False,False,True,False,False,False,False,False,False,repeated_operating_loss
-7593,7593.T,ＶＴホールディングス株式会社,Retail Trade,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7602,7602.T,株式会社レダックス,Wholesale Trade,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-7603,7603.T,ジーイエット株式会社,Retail Trade,False,True,False,True,True,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
-7615,7615.T,株式会社京都きもの友禅ホールディングス,Retail Trade,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-7616,7616.T,株式会社　コロワイド,Retail Trade,False,True,True,False,True,False,False,False,True,False,False,missing_financial_data;repeated_operating_loss;extreme_profitability_outlier
-7707,7707.T,プレシジョン・システム・サイエンス株式会社,Precision Instruments,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-7709,7709.T,クボテック株式会社,Precision Instruments,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-7717,7717.T,株式会社ブイ・テクノロジー,Precision Instruments,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-7721,7721.T,東京計器株式会社,Precision Instruments,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-7731,7731.T,株式会社ニコン,Precision Instruments,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7733,7733.T,オリンパス株式会社,Precision Instruments,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7741,7741.T,ＨＯＹＡ株式会社,Precision Instruments,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7744,7744.T,ノーリツ鋼機株式会社,Precision Instruments,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7751,7751.T,キヤノン株式会社,Electric Appliances,False,True,True,True,False,False,True,False,False,False,False,missing_financial_data;low_equity_ratio;excessive_leverage
-7752,7752.T,株式会社リコー,Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7771,7771.T,日本精密株式会社,Precision Instruments,False,True,False,True,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
-7774,7774.T,株式会社ジャパン・ティッシュエンジニアリング,Precision Instruments,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-7776,7776.T,株式会社セルシード,Precision Instruments,False,True,False,False,True,True,False,False,True,True,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier;other_data_quality_issue
-7777,7777.T,株式会社スリー・ディー・マトリックス,Precision Instruments,False,True,False,True,True,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
-7779,7779.T,ＣＹＢＥＲＤＹＮＥ株式会社,Precision Instruments,False,True,True,False,True,False,False,False,True,False,False,missing_financial_data;repeated_operating_loss;extreme_profitability_outlier
-7794,7794.T,株式会社イーディーピー,Other Products,False,True,False,False,True,True,False,False,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier
-7810,7810.T,株式会社クロスフォー,Other Products,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-7893,7893.T,株式会社プロネクサス,Other Products,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7901,7901.T,株式会社マツモト,Other Products,False,True,False,False,True,True,False,False,False,True,False,repeated_operating_loss;repeated_negative_operating_cf;other_data_quality_issue
-7915,7915.T,ＮＩＳＳＨＡ株式会社,Other Products,False,True,True,False,True,False,False,False,False,False,False,missing_financial_data;repeated_operating_loss
-7937,7937.T,株式会社ツツミ,Other Products,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-7951,7951.T,ヤマハ株式会社,Other Products,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-7952,7952.T,株式会社河合楽器製作所,Other Products,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-8001,8001.T,伊藤忠商事株式会社,Wholesale Trade,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8002,8002.T,丸紅株式会社,Wholesale Trade,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8015,8015.T,豊田通商株式会社,Wholesale Trade,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8020,8020.T,兼松株式会社,Wholesale Trade,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8031,8031.T,三井物産株式会社,Wholesale Trade,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8053,8053.T,住友商事株式会社,Wholesale Trade,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8056,8056.T,ＢＩＰＲＯＧＹ株式会社,Information & Communication,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8058,8058.T,三菱商事株式会社,Wholesale Trade,False,True,True,False,True,False,False,False,False,False,False,missing_financial_data;repeated_operating_loss
-8093,8093.T,極東貿易株式会社,Wholesale Trade,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-8105,8105.T,堀田丸正株式会社,Wholesale Trade,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-8113,8113.T,ユニ・チャーム株式会社,Chemicals,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8129,8129.T,東邦ホールディングス株式会社,Wholesale Trade,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-8133,8133.T,伊藤忠エネクス株式会社,Wholesale Trade,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8139,8139.T,株式会社ナガホリ,Wholesale Trade,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-8165,8165.T,株式会社千趣会,Retail Trade,False,True,False,False,True,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
-8226,8226.T,株式会社　理経,Wholesale Trade,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-8304,8304.T,株式会社あおぞら銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8331,8331.T,株式会社千葉銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8334,8334.T,株式会社　群馬銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8336,8336.T,株式会社武蔵野銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8337,8337.T,株式会社千葉興業銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8338,8338.T,株式会社筑波銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8341,8341.T,株式会社七十七銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8343,8343.T,株式会社秋田銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8344,8344.T,株式会社山形銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8345,8345.T,株式会社岩手銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8346,8346.T,株式会社東邦銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8349,8349.T,株式会社　東北銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8358,8358.T,スルガ銀行株式会社,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8359,8359.T,株式会社八十二銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8360,8360.T,株式会社　山梨中央銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8361,8361.T,株式会社　大垣共立銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8362,8362.T,株式会社福井銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8364,8364.T,株式会社清水銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8365,8365.T,株式会社　富山銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8366,8366.T,株式会社滋賀銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8367,8367.T,株式会社南都銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8368,8368.T,株式会社　百五銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8370,8370.T,株式会社紀陽銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8381,8381.T,株式会社山陰合同銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8383,8383.T,株式会社　鳥取銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8386,8386.T,株式会社百十四銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8387,8387.T,株式会社四国銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8388,8388.T,株式会社阿波銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8392,8392.T,株式会社大分銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8393,8393.T,株式会社宮崎銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8395,8395.T,株式会社佐賀銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8399,8399.T,株式会社琉球銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8410,8410.T,株式会社セブン銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8416,8416.T,株式会社高知銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8511,8511.T,日本証券金融株式会社,Other Financing Business,True,True,False,True,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
-8522,8522.T,株式会社　名古屋銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8524,8524.T,株式会社北洋銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8537,8537.T,株式会社大光銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8541,8541.T,株式会社　愛媛銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8542,8542.T,株式会社トマト銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8544,8544.T,株式会社　京葉銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8550,8550.T,株式会社　栃木銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8551,8551.T,株式会社　北日本銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8558,8558.T,株式会社東和銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8562,8562.T,株式会社　福島銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8563,8563.T,株式会社大東銀行,Banks,True,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8783,8783.T,ａｂｃ株式会社,Other Financing Business,True,True,False,False,True,False,False,False,False,False,False,repeated_operating_loss
-8798,8798.T,株式会社アドバンスクリエイト,Insurance,True,True,False,False,True,False,False,False,True,False,False,repeated_operating_loss;extreme_profitability_outlier
-8844,8844.T,株式会社コスモスイニシア,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-8869,8869.T,明和地所株式会社,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-8871,8871.T,株式会社ゴールドクレスト,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-8876,8876.T,株式会社リログループ,Services,False,True,True,False,False,False,False,False,True,False,False,missing_financial_data;extreme_profitability_outlier
-8877,8877.T,エスリード株式会社,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-8881,8881.T,株式会社日神グループホールディングス,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-8891,8891.T,ＡＭＧホールディングス株式会社,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-8892,8892.T,株式会社日本エスコン,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-8894,8894.T,株式会社ＲＥＶＯＬＵＴＩＯＮ,Real Estate,False,True,False,False,True,False,False,False,True,False,False,repeated_operating_loss;extreme_profitability_outlier
-8918,8918.T,株式会社ランド,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-8923,8923.T,トーセイ株式会社,Real Estate,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-8927,8927.T,株式会社明豊エンタープライズ,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-8928,8928.T,穴吹興産株式会社,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-8931,8931.T,和田興産株式会社,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-8934,8934.T,サンフロンティア不動産株式会社,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-8935,8935.T,株式会社ＦＪネクストホールディングス,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-8944,8944.T,株式会社ランドビジネス,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-8999,8999.T,グランディハウス株式会社,Real Estate,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-9028,9028.T,株式会社ゼロ,Land Transportation,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-9130,9130.T,共栄タンカー株式会社,Marine Transportation,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-9147,9147.T,ＮＩＰＰＯＮ　ＥＸＰＲＥＳＳホールディングス株式会社,Land Transportation,False,True,True,False,False,False,False,True,False,False,False,missing_financial_data;extreme_valuation_outlier
-9158,9158.T,株式会社シーユーシー,Services,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-9160,9160.T,株式会社ノバレーゼ,Services,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-9163,9163.T,株式会社ナレルグループ,Services,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-9168,9168.T,株式会社ライズ・コンサルティング・グループ,Services,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-9201,9201.T,日本航空株式会社,Air Transportation,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-9204,9204.T,スカイマーク株式会社,Air Transportation,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-9211,9211.T,株式会社エフ・コード,Services,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-9212,9212.T,Ｇｒｅｅｎ　Ｅａｒｔｈ　Ｉｎｓｔｉｔｕｔｅ株式会社,Services,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-9227,9227.T,マイクロ波化学株式会社,Services,False,True,False,False,False,False,False,False,False,True,False,other_data_quality_issue
-9235,9235.T,売れるネット広告社グループ株式会社,Services,False,True,False,False,True,True,False,False,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier
-9251,9251.T,株式会社ＡＢ＆Ｃｏｍｐａｎｙ,Services,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-9268,9268.T,株式会社オプティマスグループ,Wholesale Trade,False,True,False,False,False,False,True,False,False,False,False,excessive_leverage
-9348,9348.T,株式会社ｉｓｐａｃｅ,Services,False,True,False,True,True,True,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier
-9417,9417.T,株式会社スマートバリュー,Information & Communication,False,True,False,False,True,False,False,False,False,False,False,repeated_operating_loss
-9425,9425.T,ＲｅＹｕｕ　Ｊａｐａｎ株式会社,Information & Communication,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-9432,9432.T,日本電信電話株式会社,Information & Communication,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-9433,9433.T,ＫＤＤＩ株式会社,Information & Communication,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-9435,9435.T,株式会社光通信,Information & Communication,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-9436,9436.T,沖縄セルラー電話株式会社,Information & Communication,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-9478,9478.T,ＳＥホールディングス・アンド・インキュベーションズ株式会社,Information & Communication,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-9519,9519.T,株式会社レノバ,Electric Power and Gas,False,True,True,False,True,False,False,False,False,False,False,missing_financial_data;repeated_operating_loss
-9551,9551.T,メタウォーター株式会社,Electric Power and Gas,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-9552,9552.T,株式会社Ｍ＆Ａ総研ホールディングス,Services,False,True,False,False,False,False,False,False,True,True,False,extreme_profitability_outlier;other_data_quality_issue
-9602,9602.T,東宝株式会社,Information & Communication,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-9610,9610.T,ウィルソン・ラーニング　ワールドワイド株式会社,Services,False,True,False,True,True,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
-9622,9622.T,株式会社スペース,Services,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-9658,9658.T,株式会社ビジネスブレイン太田昭和,Information & Communication,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-9765,9765.T,株式会社オオバ,Services,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-9766,9766.T,コナミグループ株式会社,Information & Communication,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
-9843,9843.T,株式会社ニトリホールディングス,Retail Trade,False,True,False,False,False,False,False,False,False,True,False,other_data_quality_issue
-9854,9854.T,愛眼株式会社,Retail Trade,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-9946,9946.T,ミニストップ株式会社,Retail Trade,False,True,False,False,True,False,False,False,False,False,False,repeated_operating_loss
-9973,9973.T,ＫＯＺＯホールディングス株式会社,Retail Trade,False,True,False,True,False,True,True,False,False,False,False,low_equity_ratio;repeated_negative_operating_cf;excessive_leverage
-9980,9980.T,ＭＲＫホールディングス株式会社,Retail Trade,False,True,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
-9983,9983.T,株式会社ファーストリテイリング,Retail Trade,False,True,True,False,False,False,False,False,False,False,False,missing_financial_data
+code,ticker,company_name,market,sector_33,is_financial_like,liquidity_passed,missing_financial_data,low_equity_ratio,repeated_operating_loss,repeated_profit_loss,repeated_negative_operating_cf,excessive_leverage,extreme_valuation_outlier,extreme_profitability_outlier,other_data_quality_issue,investment_eligible,exclusion_reasons
+1301,1301.T,株式会社　極洋,Prime Market (Domestic),"Fishery, Agriculture and Forestry",False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+1375,1375.T,ユキグニファクトリー株式会社,Prime Market (Domestic),"Fishery, Agriculture and Forestry",False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+1430,1430.T,ファーストコーポレーション株式会社,Standard Market(Domestic),Construction,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+1433,1433.T,ベステラ株式会社,Prime Market (Domestic),Construction,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+1434,1434.T,ＪＥＳＣＯホールディングス株式会社,Standard Market(Domestic),Construction,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+1605,1605.T,株式会社ＩＮＰＥＸ,Prime Market (Domestic),Mining,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+1711,1711.T,株式会社ＳＤＳホールディングス,Standard Market(Domestic),Construction,False,True,False,True,True,False,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
+1762,1762.T,株式会社髙松コンストラクショングループ,Prime Market (Domestic),Construction,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+1768,1768.T,株式会社ソネック,Standard Market(Domestic),Construction,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+1783,1783.T,株式会社ｆａｎｔａｓｉｓｔａ,Standard Market(Domestic),Real Estate,False,True,False,True,False,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
+1811,1811.T,株式会社錢高組,Standard Market(Domestic),Construction,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+1814,1814.T,大末建設株式会社,Prime Market (Domestic),Construction,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+1815,1815.T,鉄建建設株式会社,Prime Market (Domestic),Construction,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+1827,1827.T,株式会社ナカノフドー建設,Standard Market(Domestic),Construction,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+1833,1833.T,株式会社奥村組,Prime Market (Domestic),Construction,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+1844,1844.T,株式会社大盛工業,Standard Market(Domestic),Construction,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+1885,1885.T,東亜建設工業株式会社,Prime Market (Domestic),Construction,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+1887,1887.T,日本国土開発株式会社,Prime Market (Domestic),Construction,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+1888,1888.T,若築建設株式会社,Prime Market (Domestic),Construction,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+1914,1914.T,日本基礎技術株式会社,Standard Market(Domestic),Construction,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+1944,1944.T,株式会社きんでん,Prime Market (Domestic),Construction,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+1950,1950.T,日本電設工業株式会社,Prime Market (Domestic),Construction,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+1960,1960.T,株式会社サンテック,Standard Market(Domestic),Construction,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+1964,1964.T,中外炉工業株式会社,Prime Market (Domestic),Construction,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+1965,1965.T,株式会社テクノ菱和,Standard Market(Domestic),Construction,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+1966,1966.T,株式会社　高田工業所,Standard Market(Domestic),Construction,False,True,True,False,False,False,True,False,False,False,False,False,missing_financial_data;repeated_negative_operating_cf
+1968,1968.T,太平電業株式会社,Prime Market (Domestic),Construction,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+1980,1980.T,ダイダン株式会社,Prime Market (Domestic),Construction,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+2108,2108.T,日本甜菜製糖株式会社,Prime Market (Domestic),Foods,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+2117,2117.T,ウェルネオシュガー株式会社,Prime Market (Domestic),Foods,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+2120,2120.T,株式会社ＬＩＦＵＬＬ,Prime Market (Domestic),Services,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+2134,2134.T,北浜キャピタルパートナーズ株式会社,Standard Market(Domestic),Services,False,True,False,True,True,False,True,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier
+2148,2148.T,アイティメディア株式会社,Prime Market (Domestic),Services,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+2153,2153.T,Ｅ・Ｊホールディングス株式会社,Prime Market (Domestic),Services,False,True,False,False,False,False,False,False,False,True,False,False,extreme_profitability_outlier
+2154,2154.T,株式会社オープンアップグループ,Prime Market (Domestic),Services,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+2160,2160.T,株式会社ジーエヌアイグループ,Growth Market(Domestic),Pharmaceutical,False,True,True,False,True,False,False,False,False,True,False,False,missing_financial_data;repeated_operating_loss;extreme_profitability_outlier
+2170,2170.T,株式会社リンクアンドモチベーション,Prime Market (Domestic),Services,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+2193,2193.T,クックパッド株式会社,Standard Market(Domestic),Services,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+2282,2282.T,日本ハム株式会社,Prime Market (Domestic),Foods,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+2321,2321.T,株式会社ソフトフロントホールディングス,Growth Market(Domestic),Information & Communication,False,True,False,False,True,False,False,False,False,False,False,False,repeated_operating_loss
+2327,2327.T,日鉄ソリューションズ株式会社,Prime Market (Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+2334,2334.T,株式会社イオレ,Growth Market(Domestic),Services,False,True,False,True,False,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
+2337,2337.T,いちご株式会社,Prime Market (Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+2338,2338.T,クオンタムソリューションズ株式会社,Standard Market(Domestic),Information & Communication,False,True,False,True,True,False,True,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier
+2342,2342.T,株式会社トランスジェニックグループ,Standard Market(Domestic),Services,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+2345,2345.T,株式会社クシム,Standard Market(Domestic),Information & Communication,False,True,False,False,True,False,True,False,False,True,True,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier;other_data_quality_issue
+2370,2370.T,株式会社メディネット,Growth Market(Domestic),Services,False,True,False,False,True,False,True,False,False,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier
+2371,2371.T,株式会社カカクコム,Prime Market (Domestic),Services,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+2385,2385.T,株式会社総医研ホールディングス,Growth Market(Domestic),Services,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+2413,2413.T,エムスリー株式会社,Prime Market (Domestic),Services,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+2429,2429.T,株式会社ワールドホールディングス,Prime Market (Domestic),Services,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+2432,2432.T,株式会社ディー・エヌ・エー,Prime Market (Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+2435,2435.T,株式会社シダー,Standard Market(Domestic),Services,False,True,False,True,False,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
+2437,2437.T,Ｓｈｉｎｗａ　Ｗｉｓｅ　Ｈｏｌｄｉｎｇｓ株式会社,Standard Market(Domestic),Services,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+2440,2440.T,株式会社ぐるなび,Standard Market(Domestic),Services,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+2445,2445.T,株式会社タカミヤ,Standard Market(Domestic),Services,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+2459,2459.T,アウンコンサルティング株式会社,Standard Market(Domestic),Services,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+2471,2471.T,株式会社エスプール,Prime Market (Domestic),Services,False,True,True,False,True,False,False,False,False,False,False,False,missing_financial_data;repeated_operating_loss
+2484,2484.T,株式会社出前館,Standard Market(Domestic),Information & Communication,False,True,False,False,True,False,True,False,False,False,True,False,repeated_operating_loss;repeated_negative_operating_cf;other_data_quality_issue
+2491,2491.T,バリューコマース株式会社,Prime Market (Domestic),Services,False,True,False,False,False,False,False,False,False,False,True,False,other_data_quality_issue
+2498,2498.T,株式会社オリエンタルコンサルタンツホールディングス,Standard Market(Domestic),Services,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+2501,2501.T,サッポロホールディングス株式会社,Prime Market (Domestic),Foods,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+2502,2502.T,アサヒグループホールディングス株式会社,Prime Market (Domestic),Foods,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+2503,2503.T,キリンホールディングス株式会社,Prime Market (Domestic),Foods,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+2579,2579.T,コカ・コーラボトラーズジャパンホールディングス株式会社,Prime Market (Domestic),Foods,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+2586,2586.T,株式会社フルッタフルッタ,Growth Market(Domestic),Foods,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+2587,2587.T,サントリー食品インターナショナル株式会社,Prime Market (Domestic),Foods,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+2588,2588.T,株式会社プレミアムウォーターホールディングス,Standard Market(Domestic),Foods,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+2594,2594.T,キーコーヒー株式会社,Prime Market (Domestic),Foods,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+2656,2656.T,株式会社ベクターホールディングス,Standard Market(Domestic),Retail Trade,False,True,False,True,True,False,True,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier
+2667,2667.T,株式会社イメージワン,Standard Market(Domestic),Wholesale Trade,False,True,False,True,True,False,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
+2673,2673.T,夢みつけ隊株式会社,Standard Market(Domestic),Retail Trade,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+2686,2686.T,株式会社ジーフット,Standard Market(Domestic),Retail Trade,False,True,False,True,True,False,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
+2700,2700.T,木徳神糧株式会社,Standard Market(Domestic),Wholesale Trade,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+2750,2750.T,石光商事株式会社,Standard Market(Domestic),Wholesale Trade,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+2763,2763.T,株式会社エフティグループ,Standard Market(Domestic),Wholesale Trade,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+2764,2764.T,株式会社ひらまつ,Standard Market(Domestic),Retail Trade,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+2768,2768.T,双日株式会社,Prime Market (Domestic),Wholesale Trade,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+2776,2776.T,新都ホールディングス株式会社,Standard Market(Domestic),Wholesale Trade,False,True,False,True,False,False,True,True,False,False,False,False,low_equity_ratio;repeated_negative_operating_cf;excessive_leverage
+2780,2780.T,株式会社コメ兵ホールディングス,Standard Market(Domestic),Retail Trade,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+2801,2801.T,キッコーマン株式会社,Prime Market (Domestic),Foods,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+2802,2802.T,味の素株式会社,Prime Market (Domestic),Foods,False,True,True,False,True,False,False,False,False,False,False,False,missing_financial_data;repeated_operating_loss
+2811,2811.T,カゴメ株式会社,Prime Market (Domestic),Foods,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+2897,2897.T,日清食品ホールディングス株式会社,Prime Market (Domestic),Foods,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+2901,2901.T,株式会社ウェルディッシュ,Standard Market(Domestic),Foods,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+2914,2914.T,日本たばこ産業株式会社,Prime Market (Domestic),Foods,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+2962,2962.T,株式会社テクニスコ,Standard Market(Domestic),Metal Products,False,True,False,False,True,False,True,False,False,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier
+2970,2970.T,ＧＬＣ　ＧＲＯＵＰ株式会社,Standard Market(Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+2975,2975.T,スター・マイカ・ホールディングス株式会社,Prime Market (Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+2981,2981.T,株式会社ランディックス,Growth Market(Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+2982,2982.T,株式会社ＡＤワークスグループ,Prime Market (Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+2986,2986.T,株式会社ＬＡホールディングス,Growth Market(Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+2998,2998.T,クリアル株式会社,Growth Market(Domestic),Real Estate,False,True,False,True,False,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
+3070,3070.T,株式会社ジェリービーンズグループ,Growth Market(Domestic),Wholesale Trade,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+3083,3083.T,スターシーズ株式会社,Standard Market(Domestic),Retail Trade,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+3086,3086.T,Ｊ．フロント　リテイリング株式会社,Prime Market (Domestic),Retail Trade,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+3103,3103.T,ユニチカ株式会社,Standard Market(Domestic),Textiles and Apparels,False,True,False,False,False,False,False,True,False,True,False,False,excessive_leverage;extreme_profitability_outlier
+3113,3113.T,株式会社ＵＮＩＶＡ・Ｏａｋホールディングス,Standard Market(Domestic),Securities and Commodities Futures,True,True,False,False,False,True,False,False,False,False,False,False,repeated_profit_loss
+3116,3116.T,トヨタ紡織株式会社,Prime Market (Domestic),Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+3133,3133.T,株式会社海帆,Growth Market(Domestic),Retail Trade,False,True,False,True,True,False,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
+3137,3137.T,株式会社ファンデリー,Standard Market(Domestic),Retail Trade,False,True,False,True,True,False,False,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;excessive_leverage;extreme_profitability_outlier
+3151,3151.T,株式会社バイタルケーエスケー・ホールディングス,Prime Market (Domestic),Wholesale Trade,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+3185,3185.T,夢展望株式会社,Growth Market(Domestic),Retail Trade,False,True,True,True,True,False,False,True,False,False,False,False,missing_financial_data;low_equity_ratio;repeated_operating_loss;excessive_leverage
+3189,3189.T,株式会社ＡＮＡＰホールディングス,Standard Market(Domestic),Retail Trade,False,True,False,False,True,False,True,False,False,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier
+3192,3192.T,株式会社白鳩,Standard Market(Domestic),Retail Trade,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+3197,3197.T,株式会社すかいらーくホールディングス,Prime Market (Domestic),Retail Trade,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+3199,3199.T,綿半ホールディングス株式会社,Prime Market (Domestic),Retail Trade,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+3205,3205.T,株式会社ダイドーリミテッド,Standard Market(Domestic),Textiles and Apparels,False,True,False,False,True,False,False,False,False,False,False,False,repeated_operating_loss
+3231,3231.T,野村不動産ホールディングス株式会社,Prime Market (Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+3237,3237.T,株式会社イントランス,Growth Market(Domestic),Real Estate,False,True,False,True,True,False,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
+3242,3242.T,株式会社アーバネットコーポレーション,Standard Market(Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+3252,3252.T,地主株式会社,Prime Market (Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+3267,3267.T,株式会社フィル・カンパニー,Standard Market(Domestic),Construction,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+3284,3284.T,株式会社フージャースホールディングス,Prime Market (Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+3291,3291.T,飯田グループホールディングス株式会社,Prime Market (Domestic),Real Estate,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+3294,3294.T,株式会社イーグランド,Standard Market(Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+3315,3315.T,日本コークス工業株式会社,Prime Market (Domestic),Oil and Coal Products,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+3323,3323.T,レカム株式会社,Standard Market(Domestic),Wholesale Trade,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+3370,3370.T,株式会社フジタコーポレーション,Standard Market(Domestic),Retail Trade,False,True,False,True,False,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
+3387,3387.T,株式会社クリエイト・レストランツ・ホールディングス,Prime Market (Domestic),Retail Trade,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+3397,3397.T,株式会社トリドールホールディングス,Prime Market (Domestic),Retail Trade,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+3402,3402.T,東レ株式会社,Prime Market (Domestic),Textiles and Apparels,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+3444,3444.T,株式会社菊池製作所,Standard Market(Domestic),Metal Products,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+3447,3447.T,信和株式会社,Standard Market(Domestic),Metal Products,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+3465,3465.T,ケイアイスター不動産株式会社,Prime Market (Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+3467,3467.T,アグレ都市デザイン株式会社,Standard Market(Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+3475,3475.T,株式会社グッドコムアセット,Prime Market (Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+3482,3482.T,ロードスターキャピタル株式会社,Prime Market (Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+3489,3489.T,株式会社フェイスネットワーク,Standard Market(Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+3491,3491.T,株式会社ＧＡ　ｔｅｃｈｎｏｌｏｇｉｅｓ,Growth Market(Domestic),Real Estate,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+3498,3498.T,霞ヶ関キャピタル株式会社,Prime Market (Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+3529,3529.T,アツギ株式会社,Standard Market(Domestic),Textiles and Apparels,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+3543,3543.T,株式会社コメダホールディングス,Prime Market (Domestic),Wholesale Trade,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+3563,3563.T,株式会社ＦＯＯＤ　＆　ＬＩＦＥ　ＣＯＭＰＡＮＩＥＳ,Prime Market (Domestic),Retail Trade,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+3591,3591.T,株式会社ワコールホールディングス,Prime Market (Domestic),Textiles and Apparels,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+3608,3608.T,株式会社ＴＳＩホールディングス,Prime Market (Domestic),Textiles and Apparels,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+3612,3612.T,株式会社ワールド,Prime Market (Domestic),Textiles and Apparels,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+3623,3623.T,ビリングシステム株式会社,Growth Market(Domestic),Information & Communication,False,True,False,False,False,False,False,True,False,False,False,False,excessive_leverage
+3624,3624.T,アクセルマーク株式会社,Growth Market(Domestic),Information & Communication,False,True,False,False,True,False,True,False,False,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier
+3628,3628.T,株式会社データホライゾン,Growth Market(Domestic),Information & Communication,False,True,False,True,True,False,True,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier
+3634,3634.T,株式会社ソケッツ,Standard Market(Domestic),Information & Communication,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+3647,3647.T,株式会社ジー・スリーホールディングス,Standard Market(Domestic),Information & Communication,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+3656,3656.T,ＫＬａｂ株式会社,Prime Market (Domestic),Information & Communication,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+3659,3659.T,株式会社ネクソン,Prime Market (Domestic),Information & Communication,False,True,True,False,True,False,False,False,False,True,False,False,missing_financial_data;repeated_operating_loss;extreme_profitability_outlier
+3663,3663.T,株式会社セルシス,Prime Market (Domestic),Information & Communication,False,True,False,True,False,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
+3664,3664.T,株式会社モブキャストホールディングス,Growth Market(Domestic),Information & Communication,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+3667,3667.T,株式会社ｅｎｉｓｈ,Standard Market(Domestic),Information & Communication,False,True,False,True,True,False,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
+3672,3672.T,株式会社オルトプラス,Standard Market(Domestic),Information & Communication,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+3673,3673.T,株式会社ブロードリーフ,Prime Market (Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+3679,3679.T,株式会社じげん,Prime Market (Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+3681,3681.T,株式会社ブイキューブ,Prime Market (Domestic),Information & Communication,False,True,False,True,True,False,False,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;excessive_leverage
+3686,3686.T,株式会社ディー・エル・イー,Standard Market(Domestic),Information & Communication,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+3691,3691.T,株式会社デジタルプラス,Growth Market(Domestic),Information & Communication,False,True,True,False,True,False,False,False,False,True,False,False,missing_financial_data;repeated_operating_loss;extreme_profitability_outlier
+3719,3719.T,ＡＩストーム株式会社,Standard Market(Domestic),Information & Communication,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+3727,3727.T,株式会社アプリックス,Growth Market(Domestic),Information & Communication,False,True,True,False,True,False,False,False,False,True,False,False,missing_financial_data;repeated_operating_loss;extreme_profitability_outlier
+3753,3753.T,株式会社フライトソリューションズ,Standard Market(Domestic),Information & Communication,False,True,False,True,True,False,False,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;excessive_leverage
+3762,3762.T,テクマトリックス株式会社,Prime Market (Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+3769,3769.T,ＧＭＯペイメントゲートウェイ株式会社,Prime Market (Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+3772,3772.T,ウェルス・マネジメント株式会社,Standard Market(Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+3774,3774.T,株式会社インターネットイニシアティブ,Prime Market (Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+3777,3777.T,株式会社環境フレンドリーホールディングス,Growth Market(Domestic),Information & Communication,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+3778,3778.T,さくらインターネット株式会社,Prime Market (Domestic),Information & Communication,False,True,False,False,False,False,False,False,True,False,False,False,extreme_valuation_outlier
+3803,3803.T,イメージ情報開発株式会社,Growth Market(Domestic),Information & Communication,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+3810,3810.T,サイバーステップ株式会社,Standard Market(Domestic),Information & Communication,False,True,False,True,True,False,True,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier
+3823,3823.T,ＴＨＥ　ＷＨＹ　ＨＯＷ　ＤＯ　ＣＯＭＰＡＮＹ株式会社,Standard Market(Domestic),Information & Communication,False,True,False,True,True,False,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
+3825,3825.T,株式会社リミックスポイント,Standard Market(Domestic),Retail Trade,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+3840,3840.T,パス株式会社,Standard Market(Domestic),Information & Communication,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+3845,3845.T,株式会社アイフリークモバイル,Standard Market(Domestic),Information & Communication,False,True,False,False,True,False,False,False,False,False,False,False,repeated_operating_loss
+3853,3853.T,アステリア株式会社,Prime Market (Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+3903,3903.T,株式会社ｇｕｍｉ,Prime Market (Domestic),Information & Communication,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+3905,3905.T,データセクション株式会社,Growth Market(Domestic),Information & Communication,False,True,False,True,True,False,False,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;excessive_leverage
+3911,3911.T,株式会社Ａｉｍｉｎｇ,Growth Market(Domestic),Information & Communication,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+3926,3926.T,株式会社オープンドア,Standard Market(Domestic),Information & Communication,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+3936,3936.T,株式会社グローバルウェイ,Growth Market(Domestic),Information & Communication,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+3962,3962.T,株式会社チェンジホールディングス,Prime Market (Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+3983,3983.T,株式会社オロ,Prime Market (Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+3987,3987.T,エコモット株式会社,Growth Market(Domestic),Information & Communication,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+3989,3989.T,シェアリングテクノロジー株式会社,Growth Market(Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+3994,3994.T,株式会社マネーフォワード,Prime Market (Domestic),Information & Communication,False,True,False,False,True,False,False,False,False,False,False,False,repeated_operating_loss
+4004,4004.T,株式会社レゾナック・ホールディングス,Prime Market (Domestic),Chemicals,False,True,False,False,False,False,False,False,False,False,True,False,other_data_quality_issue
+4005,4005.T,住友化学株式会社,Prime Market (Domestic),Chemicals,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4023,4023.T,株式会社クレハ,Prime Market (Domestic),Chemicals,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4028,4028.T,石原産業株式会社,Prime Market (Domestic),Chemicals,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+4088,4088.T,エア・ウォーター株式会社,Prime Market (Domestic),Chemicals,False,True,True,False,True,False,False,False,False,False,False,False,missing_financial_data;repeated_operating_loss
+4091,4091.T,日本酸素ホールディングス株式会社,Prime Market (Domestic),Chemicals,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4114,4114.T,株式会社日本触媒,Prime Market (Domestic),Chemicals,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4151,4151.T,協和キリン株式会社,Prime Market (Domestic),Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4169,4169.T,ＥＮＥＣＨＡＮＧＥ株式会社,Growth Market(Domestic),Information & Communication,False,True,False,False,True,False,True,False,False,True,True,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier;other_data_quality_issue
+4175,4175.T,株式会社ｃｏｌｙ,Growth Market(Domestic),Information & Communication,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+4180,4180.T,Ａｐｐｉｅｒ　Ｇｒｏｕｐ株式会社,Prime Market (Domestic),Information & Communication,False,True,True,False,True,False,False,False,False,True,False,False,missing_financial_data;repeated_operating_loss;extreme_profitability_outlier
+4183,4183.T,三井化学株式会社,Prime Market (Domestic),Chemicals,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4188,4188.T,三菱ケミカルグループ株式会社,Prime Market (Domestic),Chemicals,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4192,4192.T,スパイダープラス株式会社,Growth Market(Domestic),Information & Communication,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+4199,4199.T,ワンダープラネット株式会社,Growth Market(Domestic),Information & Communication,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+4203,4203.T,住友ベークライト株式会社,Prime Market (Domestic),Chemicals,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4235,4235.T,ウルトラファブリックス・ホールディングス株式会社,Standard Market(Domestic),Chemicals,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4241,4241.T,株式会社アテクト,Standard Market(Domestic),Chemicals,False,True,False,False,True,False,False,False,False,False,False,False,repeated_operating_loss
+4259,4259.T,株式会社エクサウィザーズ,Growth Market(Domestic),Information & Communication,False,True,False,False,False,False,False,False,False,True,False,False,extreme_profitability_outlier
+4263,4263.T,サスメド株式会社,Growth Market(Domestic),Information & Communication,False,True,True,False,False,False,True,False,False,False,True,False,missing_financial_data;repeated_negative_operating_cf;other_data_quality_issue
+4265,4265.T,Ｉｎｓｔｉｔｕｔｉｏｎ　ｆｏｒ　ａ　Ｇｌｏｂａｌ　Ｓｏｃｉｅｔｙ株式会社,Growth Market(Domestic),Information & Communication,False,True,False,False,True,False,True,False,False,True,True,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier;other_data_quality_issue
+4286,4286.T,株式会社ＣＬホールディングス,Standard Market(Domestic),Services,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4288,4288.T,株式会社アズジェント,Standard Market(Domestic),Information & Communication,False,True,False,False,True,False,True,False,False,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier
+4293,4293.T,株式会社セプテーニ・ホールディングス,Standard Market(Domestic),Services,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4301,4301.T,株式会社アミューズ,Prime Market (Domestic),Services,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4307,4307.T,株式会社野村総合研究所,Prime Market (Domestic),Information & Communication,False,True,True,False,False,False,False,False,True,False,False,False,missing_financial_data;extreme_valuation_outlier
+4316,4316.T,株式会社ビーマップ,Growth Market(Domestic),Information & Communication,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+4324,4324.T,株式会社電通グループ,Prime Market (Domestic),Services,False,True,True,True,False,False,False,True,False,True,False,False,missing_financial_data;low_equity_ratio;excessive_leverage;extreme_profitability_outlier
+4337,4337.T,ぴあ株式会社,Prime Market (Domestic),Services,False,True,False,True,False,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
+4344,4344.T,ソースネクスト株式会社,Prime Market (Domestic),Information & Communication,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+4360,4360.T,株式会社マナック・ケミカル・パートナーズ,Standard Market(Domestic),Chemicals,False,True,False,False,True,False,False,False,False,False,False,False,repeated_operating_loss
+4373,4373.T,シンプレクス・ホールディングス株式会社,Prime Market (Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4375,4375.T,セーフィー株式会社,Growth Market(Domestic),Information & Communication,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+4415,4415.T,株式会社ブロードエンタープライズ,Growth Market(Domestic),Information & Communication,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+4419,4419.T,株式会社Ｆｉｎａｔｅｘｔホールディングス,Growth Market(Domestic),Information & Communication,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+4422,4422.T,ＶＡＬＵＥＮＥＸ株式会社,Growth Market(Domestic),Information & Communication,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+4425,4425.T,Ｋｕｄａｎ株式会社,Growth Market(Domestic),Information & Communication,False,True,False,False,True,False,True,False,False,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier
+4432,4432.T,ウイングアーク１ｓｔ株式会社,Prime Market (Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4436,4436.T,株式会社ミンカブ・ジ・インフォノイド,Growth Market(Domestic),Information & Communication,False,True,False,True,True,False,False,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;excessive_leverage;extreme_profitability_outlier
+4438,4438.T,株式会社Ｗｅｌｂｙ,Growth Market(Domestic),Information & Communication,False,True,False,True,True,False,True,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier
+4448,4448.T,株式会社ｋｕｂｅｌｌ,Growth Market(Domestic),Information & Communication,False,True,False,True,False,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
+4449,4449.T,株式会社ギフティ,Prime Market (Domestic),Information & Communication,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+4452,4452.T,花王株式会社,Prime Market (Domestic),Chemicals,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4478,4478.T,フリー株式会社,Growth Market(Domestic),Information & Communication,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+4479,4479.T,株式会社マクアケ,Growth Market(Domestic),Information & Communication,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+4483,4483.T,株式会社ＪＭＤＣ,Prime Market (Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4490,4490.T,株式会社ビザスク,Growth Market(Domestic),Information & Communication,False,True,False,True,False,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
+4499,4499.T,株式会社Ｓｐｅｅｅ,Standard Market(Domestic),Information & Communication,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+4502,4502.T,武田薬品工業株式会社,Prime Market (Domestic),Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4503,4503.T,アステラス製薬株式会社,Prime Market (Domestic),Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4506,4506.T,住友ファーマ株式会社,Prime Market (Domestic),Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4507,4507.T,塩野義製薬株式会社,Prime Market (Domestic),Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4512,4512.T,わかもと製薬株式会社,Standard Market(Domestic),Pharmaceutical,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+4516,4516.T,日本新薬株式会社,Prime Market (Domestic),Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4519,4519.T,中外製薬株式会社,Prime Market (Domestic),Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4523,4523.T,エーザイ株式会社,Prime Market (Domestic),Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4528,4528.T,小野薬品工業株式会社,Prime Market (Domestic),Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4536,4536.T,参天製薬株式会社,Prime Market (Domestic),Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4543,4543.T,テルモ株式会社,Prime Market (Domestic),Precision Instruments,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4547,4547.T,キッセイ薬品工業株式会社,Prime Market (Domestic),Pharmaceutical,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+4552,4552.T,ＪＣＲファーマ株式会社,Prime Market (Domestic),Pharmaceutical,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+4563,4563.T,アンジェス株式会社,Growth Market(Domestic),Pharmaceutical,False,True,True,True,False,False,True,True,False,False,False,False,missing_financial_data;low_equity_ratio;repeated_negative_operating_cf;excessive_leverage
+4564,4564.T,オンコセラピー・サイエンス株式会社,Growth Market(Domestic),Pharmaceutical,False,True,False,False,True,False,True,False,False,True,True,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier;other_data_quality_issue
+4565,4565.T,ネクセラファーマ株式会社,Prime Market (Domestic),Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4568,4568.T,第一三共株式会社,Prime Market (Domestic),Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4571,4571.T,ＮＡＮＯ　ＭＲＮＡ株式会社,Growth Market(Domestic),Pharmaceutical,False,True,False,False,True,False,True,False,False,True,True,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier;other_data_quality_issue
+4572,4572.T,カルナバイオサイエンス株式会社,Growth Market(Domestic),Pharmaceutical,False,True,False,False,True,False,True,False,False,True,True,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier;other_data_quality_issue
+4575,4575.T,株式会社キャンバス,Growth Market(Domestic),Pharmaceutical,False,True,True,True,False,False,True,True,False,False,False,False,missing_financial_data;low_equity_ratio;repeated_negative_operating_cf;excessive_leverage
+4576,4576.T,株式会社デ・ウエスタン・セラピテクス研究所,Growth Market(Domestic),Pharmaceutical,False,True,False,False,True,False,True,False,False,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier
+4578,4578.T,大塚ホールディングス株式会社,Prime Market (Domestic),Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4579,4579.T,ラクオリア創薬株式会社,Growth Market(Domestic),Pharmaceutical,False,True,True,False,False,False,True,False,False,False,False,False,missing_financial_data;repeated_negative_operating_cf
+4582,4582.T,シンバイオ製薬株式会社,Growth Market(Domestic),Pharmaceutical,False,True,False,True,True,False,True,True,False,True,True,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier;other_data_quality_issue
+4583,4583.T,株式会社カイオム・バイオサイエンス,Growth Market(Domestic),Pharmaceutical,False,True,False,False,True,False,True,False,False,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier
+4584,4584.T,キッズウェル・バイオ株式会社,Growth Market(Domestic),Pharmaceutical,False,True,False,True,False,False,True,True,False,False,False,False,low_equity_ratio;repeated_negative_operating_cf;excessive_leverage
+4586,4586.T,株式会社メドレックス,Growth Market(Domestic),Pharmaceutical,False,True,False,False,True,False,True,False,False,True,True,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier;other_data_quality_issue
+4587,4587.T,ペプチドリーム株式会社,Prime Market (Domestic),Pharmaceutical,False,True,True,False,False,False,False,False,False,True,False,False,missing_financial_data;extreme_profitability_outlier
+4588,4588.T,オンコリスバイオファーマ株式会社,Growth Market(Domestic),Pharmaceutical,False,True,False,False,True,False,True,False,True,True,True,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_valuation_outlier;extreme_profitability_outlier;other_data_quality_issue
+4591,4591.T,株式会社リボミック,Growth Market(Domestic),Pharmaceutical,False,True,True,False,False,False,True,False,False,False,True,False,missing_financial_data;repeated_negative_operating_cf;other_data_quality_issue
+4592,4592.T,サンバイオ株式会社,Growth Market(Domestic),Pharmaceutical,False,True,True,False,False,False,True,False,False,False,True,False,missing_financial_data;repeated_negative_operating_cf;other_data_quality_issue
+4593,4593.T,株式会社ヘリオス,Growth Market(Domestic),Pharmaceutical,False,True,True,False,True,False,False,False,False,True,False,False,missing_financial_data;repeated_operating_loss;extreme_profitability_outlier
+4594,4594.T,ブライトパス・バイオ株式会社,Growth Market(Domestic),Pharmaceutical,False,True,False,True,True,False,True,True,False,True,True,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier;other_data_quality_issue
+4596,4596.T,窪田製薬ホールディングス株式会社,Growth Market(Domestic),Pharmaceutical,False,True,True,False,True,False,False,False,False,True,True,False,missing_financial_data;repeated_operating_loss;extreme_profitability_outlier;other_data_quality_issue
+4597,4597.T,ソレイジア・ファーマ株式会社,Growth Market(Domestic),Pharmaceutical,False,True,True,False,True,False,False,False,False,True,False,False,missing_financial_data;repeated_operating_loss;extreme_profitability_outlier
+4598,4598.T,ＤｅｌｔａーＦｌｙ　Ｐｈａｒｍａ株式会社,Growth Market(Domestic),Pharmaceutical,False,True,True,True,False,False,True,True,False,False,False,False,missing_financial_data;low_equity_ratio;repeated_negative_operating_cf;excessive_leverage
+4599,4599.T,株式会社ステムリム,Growth Market(Domestic),Pharmaceutical,False,True,True,False,False,False,True,False,False,False,True,False,missing_financial_data;repeated_negative_operating_cf;other_data_quality_issue
+4612,4612.T,日本ペイントホールディングス株式会社,Prime Market (Domestic),Chemicals,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4680,4680.T,株式会社ラウンドワン,Prime Market (Domestic),Services,False,True,False,False,False,False,False,False,False,False,True,False,other_data_quality_issue
+4689,4689.T,ＬＩＮＥヤフー株式会社,Prime Market (Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4755,4755.T,楽天グループ株式会社,Prime Market (Domestic),Services,False,True,True,False,False,False,False,False,True,False,False,False,missing_financial_data;extreme_valuation_outlier
+4772,4772.T,株式会社ＳＭ　ＥＮＴＥＲＴＡＩＮＭＥＮＴ　ＪＡＰＡＮ,Growth Market(Domestic),Information & Communication,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+4813,4813.T,株式会社ＡＣＣＥＳＳ,Prime Market (Domestic),Information & Communication,False,True,False,True,True,False,False,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;excessive_leverage
+4819,4819.T,株式会社デジタルガレージ,Prime Market (Domestic),Information & Communication,False,True,True,False,True,False,False,False,False,True,False,False,missing_financial_data;repeated_operating_loss;extreme_profitability_outlier
+4833,4833.T,株式会社Ｄｅｆ　ｃｏｎｓｕｌｔｉｎｇ,Growth Market(Domestic),Services,False,True,False,False,True,False,True,False,False,True,True,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier;other_data_quality_issue
+4840,4840.T,株式会社トライアイズ,Standard Market(Domestic),Services,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+4881,4881.T,株式会社ファンペップ,Growth Market(Domestic),Pharmaceutical,False,True,True,True,False,False,True,True,False,False,False,False,missing_financial_data;low_equity_ratio;repeated_negative_operating_cf;excessive_leverage
+4882,4882.T,株式会社ペルセウスプロテオミクス,Growth Market(Domestic),Pharmaceutical,False,True,False,True,True,False,True,True,False,True,True,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier;other_data_quality_issue
+4883,4883.T,株式会社モダリス,Growth Market(Domestic),Pharmaceutical,False,True,True,False,False,False,True,False,False,True,False,False,missing_financial_data;repeated_negative_operating_cf;extreme_profitability_outlier
+4884,4884.T,クリングルファーマ株式会社,Growth Market(Domestic),Pharmaceutical,False,True,False,False,True,False,True,False,False,True,True,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier;other_data_quality_issue
+4887,4887.T,サワイグループホールディングス株式会社,Prime Market (Domestic),Pharmaceutical,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4888,4888.T,ステラファーマ株式会社,Growth Market(Domestic),Pharmaceutical,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+4889,4889.T,株式会社レナサイエンス,Growth Market(Domestic),Pharmaceutical,False,True,True,False,False,False,True,False,False,False,False,False,missing_financial_data;repeated_negative_operating_cf
+4890,4890.T,株式会社坪田ラボ,Growth Market(Domestic),Pharmaceutical,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+4891,4891.T,㈱ティムス,Growth Market(Domestic),Pharmaceutical,False,True,True,False,False,False,True,False,False,False,False,False,missing_financial_data;repeated_negative_operating_cf
+4892,4892.T,株式会社サイフューズ,Growth Market(Domestic),Pharmaceutical,False,True,False,False,True,False,True,False,False,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier
+4893,4893.T,ノイルイミューン・バイオテック株式会社,Growth Market(Domestic),Pharmaceutical,False,True,True,True,False,False,True,True,False,False,False,False,missing_financial_data;low_equity_ratio;repeated_negative_operating_cf;excessive_leverage
+4894,4894.T,クオリプス株式会社,Growth Market(Domestic),Pharmaceutical,False,True,False,False,True,False,True,False,False,True,True,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier;other_data_quality_issue
+4896,4896.T,株式会社ケイファーマ,Growth Market(Domestic),Pharmaceutical,False,True,False,False,True,False,True,False,False,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier
+4901,4901.T,富士フイルムホールディングス株式会社,Prime Market (Domestic),Chemicals,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4902,4902.T,コニカミノルタ株式会社,Prime Market (Domestic),Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4911,4911.T,株式会社資生堂,Prime Market (Domestic),Chemicals,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4912,4912.T,ライオン株式会社,Prime Market (Domestic),Chemicals,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+4935,4935.T,株式会社リベルタ,Standard Market(Domestic),Chemicals,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+4978,4978.T,株式会社リプロセル,Growth Market(Domestic),Chemicals,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+4997,4997.T,日本農薬株式会社,Prime Market (Domestic),Chemicals,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+5016,5016.T,ＪＸ金属株式会社,Prime Market (Domestic),Nonferrous Metals,False,True,True,False,False,False,False,False,False,False,True,False,missing_financial_data;other_data_quality_issue
+5020,5020.T,ＥＮＥＯＳホールディングス株式会社,Prime Market (Domestic),Oil and Coal Products,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+5026,5026.T,株式会社トリプルアイズ,Growth Market(Domestic),Information & Communication,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+5027,5027.T,ＡｎｙＭｉｎｄ　Ｇｒｏｕｐ株式会社,Growth Market(Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+5036,5036.T,日本ビジネスシステムズ株式会社,Prime Market (Domestic),Information & Communication,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+5076,5076.T,インフロニア・ホールディングス株式会社,Prime Market (Domestic),Construction,False,True,False,False,False,False,False,False,False,False,True,False,other_data_quality_issue
+5101,5101.T,横浜ゴム株式会社,Prime Market (Domestic),Rubber Products,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+5108,5108.T,株式会社ブリヂストン,Prime Market (Domestic),Rubber Products,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+5110,5110.T,住友ゴム工業株式会社,Prime Market (Domestic),Rubber Products,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+5129,5129.T,株式会社ＦＩＸＥＲ,Growth Market(Domestic),Information & Communication,False,True,False,False,False,False,True,False,False,True,False,False,repeated_negative_operating_cf;extreme_profitability_outlier
+5136,5136.T,ｔｒｉｐｌａ株式会社,Growth Market(Domestic),Information & Communication,False,True,False,False,False,False,False,True,False,False,True,False,excessive_leverage;other_data_quality_issue
+5195,5195.T,バンドー化学株式会社,Prime Market (Domestic),Rubber Products,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+5201,5201.T,ＡＧＣ株式会社,Prime Market (Domestic),Glass and Ceramics Products,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+5202,5202.T,日本板硝子株式会社,Prime Market (Domestic),Glass and Ceramics Products,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+5216,5216.T,株式会社倉元製作所,Standard Market(Domestic),Glass and Ceramics Products,False,True,False,False,True,False,True,False,False,True,True,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier;other_data_quality_issue
+5240,5240.T,ｍｏｎｏＡＩ　ｔｅｃｈｎｏｌｏｇｙ株式会社,Growth Market(Domestic),Information & Communication,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+5246,5246.T,株式会社ＥＬＥＭＥＮＴＳ,Growth Market(Domestic),Information & Communication,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+5255,5255.T,株式会社モンスターラボ,Growth Market(Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+5280,5280.T,ヨシコン株式会社,Standard Market(Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+5334,5334.T,日本特殊陶業株式会社,Prime Market (Domestic),Glass and Ceramics Products,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+5341,5341.T,ＡＳＡＨＩ　ＥＩＴＯホールディングス株式会社,Standard Market(Domestic),Glass and Ceramics Products,False,True,False,True,True,False,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
+5401,5401.T,日本製鉄株式会社,Prime Market (Domestic),Iron and Steel,False,True,True,False,False,False,False,False,True,False,False,False,missing_financial_data;extreme_valuation_outlier
+5411,5411.T,ＪＦＥホールディングス株式会社,Prime Market (Domestic),Iron and Steel,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+5482,5482.T,愛知製鋼株式会社,Prime Market (Domestic),Iron and Steel,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+5491,5491.T,日本金属株式会社,Standard Market(Domestic),Iron and Steel,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+5527,5527.T,株式会社ｐｒｏｐｅｒｔｙ　ｔｅｃｈｎｏｌｏｇｉｅｓ,Growth Market(Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+5535,5535.T,ミガロホールディングス株式会社,Prime Market (Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+5541,5541.T,大平洋金属株式会社,Prime Market (Domestic),Iron and Steel,False,True,False,False,True,False,False,False,False,True,False,False,repeated_operating_loss;extreme_profitability_outlier
+5597,5597.T,ブルーイノベーション株式会社,Growth Market(Domestic),Information & Communication,False,True,False,True,True,False,True,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier
+5603,5603.T,虹技株式会社,Standard Market(Domestic),Iron and Steel,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+5631,5631.T,株式会社日本製鋼所,Prime Market (Domestic),Machinery,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+5707,5707.T,東邦亜鉛株式会社,Prime Market (Domestic),Nonferrous Metals,False,True,False,True,False,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
+5713,5713.T,住友金属鉱山株式会社,Prime Market (Domestic),Nonferrous Metals,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+5721,5721.T,株式会社エス・サイエンス,Standard Market(Domestic),Nonferrous Metals,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+5856,5856.T,株式会社エルアイイーエイチ,Standard Market(Domestic),Retail Trade,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+5857,5857.T,ＡＲＥホールディングス株式会社,Prime Market (Domestic),Nonferrous Metals,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+5889,5889.T,Ｊａｐａｎ　Ｅｙｅｗｅａｒ　Ｈｏｌｄｉｎｇｓ株式会社,Prime Market (Domestic),Retail Trade,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+5909,5909.T,株式会社　コロナ,Standard Market(Domestic),Metal Products,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+5911,5911.T,株式会社横河ブリッジホールディングス,Prime Market (Domestic),Metal Products,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+5915,5915.T,株式会社駒井ハルテック,Standard Market(Domestic),Metal Products,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+5918,5918.T,瀧上工業株式会社,Standard Market(Domestic),Metal Products,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+5938,5938.T,株式会社ＬＩＸＩＬ,Prime Market (Domestic),Metal Products,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+5986,5986.T,モリテックスチール株式会社,Standard Market(Domestic),Metal Products,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+5989,5989.T,株式会社エイチワン,Prime Market (Domestic),Metal Products,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6005,6005.T,三浦工業株式会社,Prime Market (Domestic),Machinery,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6013,6013.T,株式会社タクマ,Prime Market (Domestic),Machinery,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6030,6030.T,株式会社アドベンチャー,Growth Market(Domestic),Services,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6047,6047.T,株式会社Ｇｕｎｏｓｙ,Prime Market (Domestic),Services,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6069,6069.T,トレンダーズ株式会社,Growth Market(Domestic),Services,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6081,6081.T,アライドアーキテクツ株式会社,Growth Market(Domestic),Services,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+6085,6085.T,アーキテクツ・スタジオ・ジャパン株式会社,Growth Market(Domestic),Services,False,True,False,True,True,False,True,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier
+6089,6089.T,株式会社ウィルグループ,Prime Market (Domestic),Services,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6094,6094.T,株式会社フリークアウト・ホールディングス,Growth Market(Domestic),Services,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6098,6098.T,株式会社リクルートホールディングス,Prime Market (Domestic),Services,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6101,6101.T,株式会社ツガミ,Prime Market (Domestic),Machinery,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6113,6113.T,株式会社アマダ,Prime Market (Domestic),Machinery,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6141,6141.T,ＤＭＧ森精機株式会社,Prime Market (Domestic),Machinery,False,True,True,False,True,False,False,False,False,False,False,False,missing_financial_data;repeated_operating_loss
+6166,6166.T,株式会社中村超硬,Growth Market(Domestic),Machinery,False,True,False,True,True,False,False,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;excessive_leverage
+6173,6173.T,株式会社アクアライン,Growth Market(Domestic),Services,False,True,False,True,True,False,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
+6177,6177.T,ＡｐｐＢａｎｋ株式会社,Growth Market(Domestic),Services,False,True,False,False,True,False,True,False,False,False,True,False,repeated_operating_loss;repeated_negative_operating_cf;other_data_quality_issue
+6178,6178.T,日本郵政株式会社,Prime Market (Domestic),Services,False,True,False,True,False,False,True,True,False,False,True,False,low_equity_ratio;repeated_negative_operating_cf;excessive_leverage;other_data_quality_issue
+6183,6183.T,株式会社ベルシステム２４ホールディングス,Prime Market (Domestic),Services,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6191,6191.T,株式会社エアトリ,Prime Market (Domestic),Services,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6201,6201.T,株式会社豊田自動織機,Prime Market (Domestic),Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6203,6203.T,豊和工業株式会社,Standard Market(Domestic),Machinery,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6208,6208.T,株式会社石川製作所,Standard Market(Domestic),Machinery,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6217,6217.T,津田駒工業株式会社,Standard Market(Domestic),Machinery,False,True,False,True,False,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
+6222,6222.T,株式会社島精機製作所,Prime Market (Domestic),Machinery,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6227,6227.T,ＡＩメカテック株式会社,Standard Market(Domestic),Machinery,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6228,6228.T,株式会社ジェイ・イー・ティ,Standard Market(Domestic),Machinery,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6232,6232.T,株式会社ＡＣＳＬ,Growth Market(Domestic),Machinery,False,True,False,False,True,False,True,False,True,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_valuation_outlier;extreme_profitability_outlier
+6245,6245.T,株式会社ヒラノテクシード,Standard Market(Domestic),Machinery,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6246,6246.T,株式会社テクノスマート,Standard Market(Domestic),Machinery,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6254,6254.T,野村マイクロ・サイエンス株式会社,Prime Market (Domestic),Machinery,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6258,6258.T,平田機工株式会社,Prime Market (Domestic),Machinery,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6268,6268.T,ナブテスコ株式会社,Prime Market (Domestic),Machinery,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6269,6269.T,三井海洋開発株式会社,Prime Market (Domestic),Machinery,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6276,6276.T,シリウスビジョン株式会社,Standard Market(Domestic),Electric Appliances,False,True,False,False,True,False,False,False,False,False,False,False,repeated_operating_loss
+6294,6294.T,オカダアイヨン株式会社,Prime Market (Domestic),Machinery,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6301,6301.T,株式会社小松製作所,Prime Market (Domestic),Machinery,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6305,6305.T,日立建機株式会社,Prime Market (Domestic),Machinery,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6324,6324.T,株式会社ハーモニック・ドライブ・システムズ,Prime Market (Domestic),Machinery,False,True,False,False,False,False,False,False,True,False,False,False,extreme_valuation_outlier
+6326,6326.T,株式会社　クボタ,Prime Market (Domestic),Machinery,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6330,6330.T,東洋エンジニアリング株式会社,Prime Market (Domestic),Construction,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6347,6347.T,株式会社プラコー,Standard Market(Domestic),Machinery,False,True,False,False,True,False,False,False,False,False,False,False,repeated_operating_loss
+6361,6361.T,株式会社荏原製作所,Prime Market (Domestic),Machinery,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6366,6366.T,千代田化工建設株式会社,Standard Market(Domestic),Construction,False,True,True,True,False,False,False,True,False,False,False,False,missing_financial_data;low_equity_ratio;excessive_leverage
+6370,6370.T,栗田工業株式会社,Prime Market (Domestic),Machinery,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6376,6376.T,日機装株式会社,Prime Market (Domestic),Precision Instruments,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6379,6379.T,レイズネクスト株式会社,Prime Market (Domestic),Construction,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6390,6390.T,株式会社加藤製作所,Prime Market (Domestic),Machinery,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6403,6403.T,水道機工株式会社,Standard Market(Domestic),Machinery,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6418,6418.T,日本金銭機械株式会社,Prime Market (Domestic),Machinery,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6425,6425.T,株式会社ユニバーサルエンターテインメント,Standard Market(Domestic),Machinery,False,True,False,False,False,False,False,False,False,True,False,False,extreme_profitability_outlier
+6433,6433.T,ヒーハイスト株式会社,Standard Market(Domestic),Machinery,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+6444,6444.T,サンデン株式会社,Standard Market(Domestic),Machinery,False,True,False,True,False,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
+6448,6448.T,ブラザー工業株式会社,Prime Market (Domestic),Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6464,6464.T,株式会社ツバキ・ナカシマ,Prime Market (Domestic),Machinery,False,True,True,False,True,False,False,False,False,False,False,False,missing_financial_data;repeated_operating_loss
+6471,6471.T,日本精工株式会社,Prime Market (Domestic),Machinery,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6473,6473.T,株式会社ジェイテクト,Prime Market (Domestic),Machinery,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6479,6479.T,ミネベアミツミ株式会社,Prime Market (Domestic),Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6481,6481.T,ＴＨＫ株式会社,Prime Market (Domestic),Machinery,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6501,6501.T,株式会社日立製作所,Prime Market (Domestic),Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6503,6503.T,三菱電機株式会社,Prime Market (Domestic),Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6506,6506.T,株式会社安川電機,Prime Market (Domestic),Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6516,6516.T,山洋電気株式会社,Prime Market (Domestic),Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6522,6522.T,株式会社アスタリスク,Growth Market(Domestic),Electric Appliances,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+6523,6523.T,ＰＨＣホールディングス株式会社,Prime Market (Domestic),Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6525,6525.T,株式会社ＫＯＫＵＳＡＩ　ＥＬＥＣＴＲＩＣ,Prime Market (Domestic),Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6540,6540.T,株式会社船場,Standard Market(Domestic),Services,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6562,6562.T,株式会社ジーニー,Growth Market(Domestic),Services,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6571,6571.T,キュービーネットホールディングス株式会社,Prime Market (Domestic),Services,False,True,True,False,True,False,False,False,False,False,False,False,missing_financial_data;repeated_operating_loss
+6573,6573.T,ＣＲＡＶＩＡ株式会社,Growth Market(Domestic),Services,False,True,False,True,True,False,True,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier
+6574,6574.T,株式会社コンヴァノ,Growth Market(Domestic),Services,False,True,True,False,True,False,False,False,False,False,False,False,missing_financial_data;repeated_operating_loss
+6579,6579.T,ログリー株式会社,Growth Market(Domestic),Services,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+6586,6586.T,株式会社マキタ,Prime Market (Domestic),Machinery,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6594,6594.T,ニデック株式会社,Prime Market (Domestic),Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6613,6613.T,株式会社ＱＤレーザ,Growth Market(Domestic),Electric Appliances,False,True,False,False,True,False,True,False,True,False,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_valuation_outlier
+6619,6619.T,ダブル・スコープ株式会社,Prime Market (Domestic),Electric Appliances,False,True,False,False,True,False,False,False,False,True,False,False,repeated_operating_loss;extreme_profitability_outlier
+6622,6622.T,株式会社ダイヘン,Prime Market (Domestic),Electric Appliances,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6632,6632.T,株式会社ＪＶＣケンウッド,Prime Market (Domestic),Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6634,6634.T,株式会社ネクスグループ,Standard Market(Domestic),Electric Appliances,False,True,False,True,True,False,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
+6645,6645.T,オムロン株式会社,Prime Market (Domestic),Electric Appliances,False,True,True,False,True,False,False,False,False,False,False,False,missing_financial_data;repeated_operating_loss
+6659,6659.T,株式会社メディアリンクス,Standard Market(Domestic),Electric Appliances,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+6663,6663.T,太洋テクノレックス株式会社,Standard Market(Domestic),Electric Appliances,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6696,6696.T,株式会社トラース・オン・プロダクト,Growth Market(Domestic),Electric Appliances,False,True,False,True,True,False,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
+6701,6701.T,日本電気株式会社,Prime Market (Domestic),Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6702,6702.T,富士通株式会社,Prime Market (Domestic),Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6706,6706.T,電気興業株式会社,Prime Market (Domestic),Electric Appliances,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6721,6721.T,ウインテスト株式会社,Standard Market(Domestic),Electric Appliances,False,True,False,True,True,False,True,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier
+6723,6723.T,ルネサスエレクトロニクス株式会社,Prime Market (Domestic),Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6724,6724.T,セイコーエプソン株式会社,Prime Market (Domestic),Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6731,6731.T,株式会社ピクセラ,Standard Market(Domestic),Electric Appliances,False,True,False,True,True,False,True,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier
+6736,6736.T,サン電子株式会社,Standard Market(Domestic),Electric Appliances,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6740,6740.T,株式会社ジャパンディスプレイ,Prime Market (Domestic),Electric Appliances,False,True,False,True,True,False,True,True,True,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_valuation_outlier
+6742,6742.T,株式会社京三製作所,Prime Market (Domestic),Electric Appliances,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6743,6743.T,大同信号株式会社,Standard Market(Domestic),Electric Appliances,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6752,6752.T,パナソニックホールディングス株式会社,Prime Market (Domestic),Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6753,6753.T,シャープ株式会社,Prime Market (Domestic),Electric Appliances,False,True,False,True,False,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
+6754,6754.T,アンリツ株式会社,Prime Market (Domestic),Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6758,6758.T,ソニーグループ株式会社,Prime Market (Domestic),Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6762,6762.T,ＴＤＫ株式会社,Prime Market (Domestic),Electric Appliances,False,True,True,False,True,False,False,False,False,False,False,False,missing_financial_data;repeated_operating_loss
+6769,6769.T,ザインエレクトロニクス株式会社,Standard Market(Domestic),Electric Appliances,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+6771,6771.T,池上通信機株式会社,Standard Market(Domestic),Electric Appliances,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6775,6775.T,株式会社ＴＢグループ,Standard Market(Domestic),Electric Appliances,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+6779,6779.T,日本電波工業株式会社,Prime Market (Domestic),Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6803,6803.T,ティアック株式会社,Standard Market(Domestic),Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6806,6806.T,ヒロセ電機株式会社,Prime Market (Domestic),Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6817,6817.T,スミダコーポレーション株式会社,Prime Market (Domestic),Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6836,6836.T,ぷらっとホーム株式会社,Standard Market(Domestic),Electric Appliances,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+6838,6838.T,株式会社多摩川ホールディングス,Standard Market(Domestic),Electric Appliances,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6840,6840.T,株式会社ＡＫＩＢＡホールディングス,Standard Market(Domestic),Electric Appliances,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6857,6857.T,株式会社アドバンテスト,Prime Market (Domestic),Electric Appliances,False,True,True,False,False,False,False,False,True,False,False,False,missing_financial_data;extreme_valuation_outlier
+6869,6869.T,シスメックス株式会社,Prime Market (Domestic),Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6902,6902.T,株式会社デンソー,Prime Market (Domestic),Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6918,6918.T,株式会社アバールデータ,Standard Market(Domestic),Electric Appliances,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6946,6946.T,日本アビオニクス株式会社,Standard Market(Domestic),Electric Appliances,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+6955,6955.T,ＦＤＫ株式会社,Standard Market(Domestic),Electric Appliances,False,True,False,True,False,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
+6971,6971.T,京セラ株式会社,Prime Market (Domestic),Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6976,6976.T,太陽誘電株式会社,Prime Market (Domestic),Electric Appliances,False,True,False,False,False,False,False,False,True,False,False,False,extreme_valuation_outlier
+6981,6981.T,株式会社村田製作所,Prime Market (Domestic),Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6988,6988.T,日東電工株式会社,Prime Market (Domestic),Chemicals,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+6993,6993.T,大黒屋ホールディングス株式会社,Standard Market(Domestic),Retail Trade,False,True,False,True,True,False,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
+6997,6997.T,日本ケミコン株式会社,Prime Market (Domestic),Electric Appliances,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+7003,7003.T,株式会社三井Ｅ＆Ｓ,Prime Market (Domestic),Machinery,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+7011,7011.T,三菱重工業株式会社,Prime Market (Domestic),Machinery,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+7012,7012.T,川崎重工業株式会社,Prime Market (Domestic),Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+7013,7013.T,株式会社ＩＨＩ,Prime Market (Domestic),Machinery,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+7018,7018.T,内海造船株式会社,Standard Market(Domestic),Transportation Equipment,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+7047,7047.T,ポート株式会社,Growth Market(Domestic),Services,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+7063,7063.T,株式会社Ｂｉｒｄｍａｎ,Growth Market(Domestic),Services,False,True,False,True,True,False,True,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier
+7119,7119.T,株式会社ハルメクホールディングス,Growth Market(Domestic),Retail Trade,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+7138,7138.T,株式会社ＴＯＲＩＣＯ,Growth Market(Domestic),Retail Trade,False,True,False,False,True,False,True,False,False,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier
+7157,7157.T,ライフネット生命保険株式会社,Prime Market (Domestic),Insurance,True,True,False,False,False,True,False,False,False,False,False,False,repeated_profit_loss
+7198,7198.T,ＳＢＩアルヒ株式会社,Prime Market (Domestic),Other Financing Business,True,True,False,False,False,True,False,False,False,False,False,False,repeated_profit_loss
+7201,7201.T,日産自動車株式会社,Prime Market (Domestic),Transportation Equipment,False,True,False,False,False,False,False,False,True,False,False,False,extreme_valuation_outlier
+7203,7203.T,トヨタ自動車株式会社,Prime Market (Domestic),Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+7220,7220.T,武蔵精密工業株式会社,Prime Market (Domestic),Transportation Equipment,False,True,False,False,False,False,False,False,True,False,False,False,extreme_valuation_outlier
+7226,7226.T,極東開発工業株式会社,Prime Market (Domestic),Transportation Equipment,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+7229,7229.T,株式会社ユタカ技研,Standard Market(Domestic),Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+7242,7242.T,カヤバ株式会社,Prime Market (Domestic),Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+7256,7256.T,河西工業株式会社,Standard Market(Domestic),Transportation Equipment,False,True,False,True,False,False,True,True,False,False,False,False,low_equity_ratio;repeated_negative_operating_cf;excessive_leverage
+7259,7259.T,株式会社アイシン,Prime Market (Domestic),Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+7267,7267.T,本田技研工業株式会社,Prime Market (Domestic),Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+7269,7269.T,スズキ株式会社,Prime Market (Domestic),Transportation Equipment,False,True,False,False,False,False,False,False,False,False,True,False,other_data_quality_issue
+7270,7270.T,株式会社ＳＵＢＡＲＵ,Prime Market (Domestic),Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+7278,7278.T,株式会社エクセディ,Prime Market (Domestic),Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+7282,7282.T,豊田合成株式会社,Prime Market (Domestic),Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+7287,7287.T,日本精機株式会社,Standard Market(Domestic),Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+7296,7296.T,株式会社エフ・シー・シー,Prime Market (Domestic),Transportation Equipment,False,True,True,False,True,False,False,False,False,False,False,False,missing_financial_data;repeated_operating_loss
+7313,7313.T,テイ・エス　テック株式会社,Prime Market (Domestic),Transportation Equipment,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+7354,7354.T,株式会社ダイレクトマーケティングミックス,Standard Market(Domestic),Services,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+7375,7375.T,株式会社リファインバースグループ,Growth Market(Domestic),Services,False,True,False,True,False,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
+7376,7376.T,ＢＣＣ株式会社,Growth Market(Domestic),Services,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+7378,7378.T,株式会社アシロ,Growth Market(Domestic),Services,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+7412,7412.T,株式会社アトム,Standard Market(Domestic),Retail Trade,False,True,False,False,True,False,False,False,False,False,False,False,repeated_operating_loss
+7527,7527.T,株式会社システムソフト,Standard Market(Domestic),Information & Communication,False,True,False,False,True,False,False,False,False,False,False,False,repeated_operating_loss
+7593,7593.T,ＶＴホールディングス株式会社,Prime Market (Domestic),Retail Trade,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+7602,7602.T,株式会社レダックス,Standard Market(Domestic),Wholesale Trade,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+7603,7603.T,ジーイエット株式会社,Standard Market(Domestic),Retail Trade,False,True,False,True,True,False,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
+7615,7615.T,株式会社京都きもの友禅ホールディングス,Standard Market(Domestic),Retail Trade,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+7616,7616.T,株式会社　コロワイド,Prime Market (Domestic),Retail Trade,False,True,True,False,True,False,False,False,False,True,False,False,missing_financial_data;repeated_operating_loss;extreme_profitability_outlier
+7707,7707.T,プレシジョン・システム・サイエンス株式会社,Growth Market(Domestic),Precision Instruments,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+7709,7709.T,クボテック株式会社,Standard Market(Domestic),Precision Instruments,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+7717,7717.T,株式会社ブイ・テクノロジー,Prime Market (Domestic),Precision Instruments,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+7721,7721.T,東京計器株式会社,Prime Market (Domestic),Precision Instruments,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+7731,7731.T,株式会社ニコン,Prime Market (Domestic),Precision Instruments,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+7733,7733.T,オリンパス株式会社,Prime Market (Domestic),Precision Instruments,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+7741,7741.T,ＨＯＹＡ株式会社,Prime Market (Domestic),Precision Instruments,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+7744,7744.T,ノーリツ鋼機株式会社,Prime Market (Domestic),Precision Instruments,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+7751,7751.T,キヤノン株式会社,Prime Market (Domestic),Electric Appliances,False,True,True,True,False,False,False,True,False,False,False,False,missing_financial_data;low_equity_ratio;excessive_leverage
+7752,7752.T,株式会社リコー,Prime Market (Domestic),Electric Appliances,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+7771,7771.T,日本精密株式会社,Standard Market(Domestic),Precision Instruments,False,True,False,True,False,False,False,True,False,False,False,False,low_equity_ratio;excessive_leverage
+7774,7774.T,株式会社ジャパン・ティッシュエンジニアリング,Growth Market(Domestic),Precision Instruments,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+7776,7776.T,株式会社セルシード,Growth Market(Domestic),Precision Instruments,False,True,False,False,True,False,True,False,False,True,True,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier;other_data_quality_issue
+7777,7777.T,株式会社スリー・ディー・マトリックス,Growth Market(Domestic),Precision Instruments,False,True,False,True,True,False,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
+7779,7779.T,ＣＹＢＥＲＤＹＮＥ株式会社,Growth Market(Domestic),Precision Instruments,False,True,True,False,True,False,False,False,False,True,False,False,missing_financial_data;repeated_operating_loss;extreme_profitability_outlier
+7794,7794.T,株式会社イーディーピー,Growth Market(Domestic),Other Products,False,True,False,False,True,False,True,False,False,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier
+7810,7810.T,株式会社クロスフォー,Standard Market(Domestic),Other Products,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+7893,7893.T,株式会社プロネクサス,Prime Market (Domestic),Other Products,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+7901,7901.T,株式会社マツモト,Standard Market(Domestic),Other Products,False,True,False,False,True,False,True,False,False,False,True,False,repeated_operating_loss;repeated_negative_operating_cf;other_data_quality_issue
+7915,7915.T,ＮＩＳＳＨＡ株式会社,Prime Market (Domestic),Other Products,False,True,True,False,True,False,False,False,False,False,False,False,missing_financial_data;repeated_operating_loss
+7937,7937.T,株式会社ツツミ,Standard Market(Domestic),Other Products,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+7951,7951.T,ヤマハ株式会社,Prime Market (Domestic),Other Products,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+7952,7952.T,株式会社河合楽器製作所,Prime Market (Domestic),Other Products,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+8001,8001.T,伊藤忠商事株式会社,Prime Market (Domestic),Wholesale Trade,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+8002,8002.T,丸紅株式会社,Prime Market (Domestic),Wholesale Trade,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+8015,8015.T,豊田通商株式会社,Prime Market (Domestic),Wholesale Trade,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+8020,8020.T,兼松株式会社,Prime Market (Domestic),Wholesale Trade,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+8031,8031.T,三井物産株式会社,Prime Market (Domestic),Wholesale Trade,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+8053,8053.T,住友商事株式会社,Prime Market (Domestic),Wholesale Trade,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+8056,8056.T,ＢＩＰＲＯＧＹ株式会社,Prime Market (Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+8058,8058.T,三菱商事株式会社,Prime Market (Domestic),Wholesale Trade,False,True,True,False,True,False,False,False,False,False,False,False,missing_financial_data;repeated_operating_loss
+8093,8093.T,極東貿易株式会社,Prime Market (Domestic),Wholesale Trade,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+8105,8105.T,堀田丸正株式会社,Standard Market(Domestic),Wholesale Trade,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+8113,8113.T,ユニ・チャーム株式会社,Prime Market (Domestic),Chemicals,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+8129,8129.T,東邦ホールディングス株式会社,Prime Market (Domestic),Wholesale Trade,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+8133,8133.T,伊藤忠エネクス株式会社,Prime Market (Domestic),Wholesale Trade,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+8139,8139.T,株式会社ナガホリ,Standard Market(Domestic),Wholesale Trade,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+8165,8165.T,株式会社千趣会,Standard Market(Domestic),Retail Trade,False,True,False,False,True,False,True,False,False,False,False,False,repeated_operating_loss;repeated_negative_operating_cf
+8226,8226.T,株式会社　理経,Standard Market(Domestic),Wholesale Trade,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+8303,8303.T,株式会社ＳＢＩ新生銀行,Prime Market (Domestic),Banks,True,True,False,False,False,False,False,False,False,False,True,False,other_data_quality_issue
+8508,8508.T,Ｊトラスト株式会社,Standard Market(Domestic),Other Financing Business,True,True,False,False,False,True,False,False,False,False,False,False,repeated_profit_loss
+8729,8729.T,Sony Financial Group Inc.,Prime Market (Domestic),Insurance,True,True,True,False,False,False,False,False,False,False,True,False,missing_financial_data;other_data_quality_issue
+8798,8798.T,株式会社アドバンスクリエイト,Prime Market (Domestic),Insurance,True,True,False,False,False,True,False,False,False,True,False,False,repeated_profit_loss;extreme_profitability_outlier
+8844,8844.T,株式会社コスモスイニシア,Standard Market(Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+8869,8869.T,明和地所株式会社,Standard Market(Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+8871,8871.T,株式会社ゴールドクレスト,Standard Market(Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+8876,8876.T,株式会社リログループ,Prime Market (Domestic),Services,False,True,True,False,False,False,False,False,False,True,False,False,missing_financial_data;extreme_profitability_outlier
+8877,8877.T,エスリード株式会社,Prime Market (Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+8881,8881.T,株式会社日神グループホールディングス,Prime Market (Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+8891,8891.T,ＡＭＧホールディングス株式会社,Standard Market(Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+8892,8892.T,株式会社日本エスコン,Prime Market (Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+8894,8894.T,株式会社ＲＥＶＯＬＵＴＩＯＮ,Standard Market(Domestic),Real Estate,False,True,False,False,True,False,False,False,False,True,False,False,repeated_operating_loss;extreme_profitability_outlier
+8918,8918.T,株式会社ランド,Standard Market(Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+8923,8923.T,トーセイ株式会社,Prime Market (Domestic),Real Estate,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+8927,8927.T,株式会社明豊エンタープライズ,Standard Market(Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+8928,8928.T,穴吹興産株式会社,Standard Market(Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+8931,8931.T,和田興産株式会社,Standard Market(Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+8934,8934.T,サンフロンティア不動産株式会社,Prime Market (Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+8935,8935.T,株式会社ＦＪネクストホールディングス,Prime Market (Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+8944,8944.T,株式会社ランドビジネス,Standard Market(Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+8999,8999.T,グランディハウス株式会社,Prime Market (Domestic),Real Estate,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+9023,9023.T,東京地下鉄株式会社,Prime Market (Domestic),Land Transportation,False,True,False,False,False,False,False,False,False,False,True,False,other_data_quality_issue
+9028,9028.T,株式会社ゼロ,Standard Market(Domestic),Land Transportation,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+9130,9130.T,共栄タンカー株式会社,Standard Market(Domestic),Marine Transportation,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+9147,9147.T,ＮＩＰＰＯＮ　ＥＸＰＲＥＳＳホールディングス株式会社,Prime Market (Domestic),Land Transportation,False,True,True,False,False,False,False,False,True,False,False,False,missing_financial_data;extreme_valuation_outlier
+9158,9158.T,株式会社シーユーシー,Growth Market(Domestic),Services,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+9160,9160.T,株式会社ノバレーゼ,Standard Market(Domestic),Services,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+9163,9163.T,株式会社ナレルグループ,Growth Market(Domestic),Services,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+9168,9168.T,株式会社ライズ・コンサルティング・グループ,Growth Market(Domestic),Services,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+9201,9201.T,日本航空株式会社,Prime Market (Domestic),Air Transportation,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+9204,9204.T,スカイマーク株式会社,Growth Market(Domestic),Air Transportation,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+9211,9211.T,株式会社エフ・コード,Growth Market(Domestic),Services,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+9212,9212.T,Ｇｒｅｅｎ　Ｅａｒｔｈ　Ｉｎｓｔｉｔｕｔｅ株式会社,Growth Market(Domestic),Services,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+9227,9227.T,マイクロ波化学株式会社,Growth Market(Domestic),Services,False,True,False,False,False,False,False,False,False,False,True,False,other_data_quality_issue
+9235,9235.T,売れるネット広告社グループ株式会社,Growth Market(Domestic),Services,False,True,False,False,True,False,True,False,False,True,False,False,repeated_operating_loss;repeated_negative_operating_cf;extreme_profitability_outlier
+9251,9251.T,株式会社ＡＢ＆Ｃｏｍｐａｎｙ,Growth Market(Domestic),Services,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+9268,9268.T,株式会社オプティマスグループ,Standard Market(Domestic),Wholesale Trade,False,True,False,False,False,False,False,True,False,False,False,False,excessive_leverage
+9348,9348.T,株式会社ｉｓｐａｃｅ,Growth Market(Domestic),Services,False,True,False,True,True,False,True,True,False,True,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage;extreme_profitability_outlier
+9417,9417.T,株式会社スマートバリュー,Standard Market(Domestic),Information & Communication,False,True,False,False,True,False,False,False,False,False,False,False,repeated_operating_loss
+9425,9425.T,ＲｅＹｕｕ　Ｊａｐａｎ株式会社,Standard Market(Domestic),Information & Communication,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+9432,9432.T,日本電信電話株式会社,Prime Market (Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+9433,9433.T,ＫＤＤＩ株式会社,Prime Market (Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+9434,9434.T,ソフトバンク株式会社,Prime Market (Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+9435,9435.T,株式会社光通信,Prime Market (Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+9436,9436.T,沖縄セルラー電話株式会社,Standard Market(Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+9478,9478.T,ＳＥホールディングス・アンド・インキュベーションズ株式会社,Standard Market(Domestic),Information & Communication,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+9519,9519.T,株式会社レノバ,Prime Market (Domestic),Electric Power and Gas,False,True,True,False,True,False,False,False,False,False,False,False,missing_financial_data;repeated_operating_loss
+9551,9551.T,メタウォーター株式会社,Prime Market (Domestic),Electric Power and Gas,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+9552,9552.T,株式会社Ｍ＆Ａ総研ホールディングス,Prime Market (Domestic),Services,False,True,False,False,False,False,False,False,False,True,True,False,extreme_profitability_outlier;other_data_quality_issue
+9602,9602.T,東宝株式会社,Prime Market (Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+9610,9610.T,ウィルソン・ラーニング　ワールドワイド株式会社,Standard Market(Domestic),Services,False,True,False,True,True,False,True,True,False,False,False,False,low_equity_ratio;repeated_operating_loss;repeated_negative_operating_cf;excessive_leverage
+9622,9622.T,株式会社スペース,Prime Market (Domestic),Services,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+9658,9658.T,株式会社ビジネスブレイン太田昭和,Prime Market (Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+9765,9765.T,株式会社オオバ,Prime Market (Domestic),Services,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+9766,9766.T,コナミグループ株式会社,Prime Market (Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+9843,9843.T,株式会社ニトリホールディングス,Prime Market (Domestic),Retail Trade,False,True,False,False,False,False,False,False,False,False,True,False,other_data_quality_issue
+9854,9854.T,愛眼株式会社,Standard Market(Domestic),Retail Trade,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+9946,9946.T,ミニストップ株式会社,Prime Market (Domestic),Retail Trade,False,True,False,False,True,False,False,False,False,False,False,False,repeated_operating_loss
+9973,9973.T,ＫＯＺＯホールディングス株式会社,Standard Market(Domestic),Retail Trade,False,True,False,True,False,False,True,True,False,False,False,False,low_equity_ratio;repeated_negative_operating_cf;excessive_leverage
+9980,9980.T,ＭＲＫホールディングス株式会社,Standard Market(Domestic),Retail Trade,False,True,False,False,False,False,True,False,False,False,False,False,repeated_negative_operating_cf
+9983,9983.T,株式会社ファーストリテイリング,Prime Market (Domestic),Retail Trade,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
+9984,9984.T,ソフトバンクグループ株式会社,Prime Market (Domestic),Information & Communication,False,True,True,False,False,False,False,False,False,False,False,False,missing_financial_data
