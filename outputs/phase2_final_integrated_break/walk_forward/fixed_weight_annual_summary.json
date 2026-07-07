@@ -1,0 +1,10 @@
+{
+  "fixed_weight_out_of_time_validation_completed": true,
+  "years": [
+    2023,
+    2024,
+    2025
+  ],
+  "mean_strict_ready_rate": 0.8344444444444443,
+  "mean_feature_missing_review_rate": 0.165
+}

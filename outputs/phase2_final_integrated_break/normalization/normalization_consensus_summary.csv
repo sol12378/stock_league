@@ -1,0 +1,5 @@
+scope,metric,value
+all_universe,normalization_core_count,1024
+all_universe,normalization_robust_count,1320
+all_universe,normalization_fragile_count,29
+all_universe,sector_adjusted_candidate_count,181

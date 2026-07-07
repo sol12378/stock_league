@@ -1,0 +1,14 @@
+{
+  "formal_topn": 1200,
+  "utility_max_topn": 2000,
+  "financial_exclusion_applied": true,
+  "distress_hard_exclusion_applied": true,
+  "phase1_top5_coverage": 5,
+  "normalization_core_in_top1200": 970,
+  "normalization_robust_in_top1200": 1135,
+  "strict_true_walk_forward_completed": false,
+  "fixed_weight_out_of_time_validation_completed": true,
+  "annual_top1200_financial_count_after_fix": 0,
+  "annual_top1200_distress_count_after_fix": 0,
+  "zip_validation": "passed"
+}

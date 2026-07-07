@@ -1,0 +1,19 @@
+{
+  "project": "BEYOND BUFFETT",
+  "phase": "Phase2 Final Integrated Break",
+  "created_at": "2026-07-07T17:55:44.087198+00:00",
+  "formal_candidate_universe": "formal_top1200/phase2_formal_top1200_candidates.csv",
+  "formal_topn": 1200,
+  "utility_max_topn": 2000,
+  "top2000_role": "reference_universe",
+  "financial_exclusion_applied": true,
+  "distress_hard_exclusion_applied": true,
+  "normalization_consensus_applied": true,
+  "point_in_time_panel_built": true,
+  "strict_true_walk_forward_completed": false,
+  "fixed_weight_out_of_time_validation_completed": true,
+  "phase1_top5_coverage": 5,
+  "annual_top1200_financial_count_after_fix": 0,
+  "annual_top1200_distress_count_after_fix": 0,
+  "important_note": "This artifact constructs a Phase3 candidate universe. It does not claim future return predictability."
+}
