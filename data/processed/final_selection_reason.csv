@@ -8,11 +8,11 @@ code,company_name,score_rank,selected,reason,risk_note,qualitative_check_needed
 6524,湖北工業株式会社,9,True,,,True
 6387,サムコ　株式会社,10,True,,,True
 8473,ＳＢＩホールディングス株式会社,12,True,,,True
-6800,株式会社ヨコオ,13,True,,,True
+6800,株式会社ヨコオ,13,False,,,True
 9513,電源開発株式会社,14,True,,,True
 8309,三井住友トラストグループ株式会社,15,True,,,True
-8050,セイコーグループ株式会社,16,True,,,True
-6617,株式会社東光高岳,19,True,,,True
+8050,セイコーグループ株式会社,16,False,,,True
+6617,株式会社東光高岳,19,False,,,True
 6356,日本ギア工業株式会社,20,True,,,True
 1909,日本ドライケミカル株式会社,21,False,,,True
 4971,メック株式会社,22,True,,,True
@@ -21,14 +21,14 @@ code,company_name,score_rank,selected,reason,risk_note,qualitative_check_needed
 6941,山一電機株式会社,25,False,,,True
 6871,株式会社日本マイクロニクス,27,False,,,True
 6264,株式会社マルマエ,28,False,,,True
-6920,レーザーテック株式会社,29,False,,,True
-5985,サンコール株式会社,30,True,,,True
+6920,レーザーテック株式会社,29,True,,,True
+5985,サンコール株式会社,30,False,,,True
 6648,株式会社かわでん,32,False,,,True
 6327,北川精機株式会社,33,False,,,True
 4368,扶桑化学工業株式会社,34,True,,,True
 6745,ホーチキ株式会社,35,False,,,True
 9502,中部電力株式会社,36,False,,,True
-1662,石油資源開発株式会社,39,False,,,True
+1662,石油資源開発株式会社,39,True,,,True
 6994,株式会社指月電機製作所,41,False,,,True
 6834,株式会社　精工技研,43,False,,,True
 7762,シチズン時計株式会社,45,False,,,True
@@ -47,7 +47,7 @@ code,company_name,score_rank,selected,reason,risk_note,qualitative_check_needed
 6490,株式会社ＰＩＬＬＡＲ,62,False,,,True
 6961,株式会社エンプラス,65,False,,,True
 6960,フクダ電子株式会社,66,False,,,True
-6419,株式会社マースグループホールディングス,67,False,,,True
+6419,株式会社マースグループホールディングス,67,True,,,True
 7747,朝日インテック株式会社,68,False,,,True
 5214,日本電気硝子株式会社,69,False,,,True
 6866,日置電機株式会社,72,False,,,True
@@ -75,7 +75,7 @@ code,company_name,score_rank,selected,reason,risk_note,qualitative_check_needed
 6508,株式会社明電舎,104,False,,,True
 6998,日本タングステン株式会社,107,False,,,True
 6644,大崎電気工業株式会社,108,False,,,True
-6861,株式会社キーエンス,110,False,,,True
+6861,株式会社キーエンス,110,True,,,True
 6928,株式会社エノモト,111,False,,,True
 6134,株式会社ＦＵＪＩ,112,False,,,True
 7740,株式会社タムロン,114,False,,,True

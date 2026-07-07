@@ -1,0 +1,14 @@
+positive_weights:
+  keys: [w_bm, w_ep, w_gp, w_piotroski, w_sloan, w_distress, w_liquidity]
+  constraint: non_negative_sum_to_one
+  sampler: dirichlet
+penalty_weights:
+  keys: [w_anomaly, w_microcap, w_onetime, w_missing]
+  range: [0.0, 0.30]
+baseline_candidates:
+  - equal_weight
+  - phase1_like_weight
+  - value_heavy
+  - quality_heavy
+  - safety_heavy
+  - liquidity_light

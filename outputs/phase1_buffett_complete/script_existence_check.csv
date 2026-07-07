@@ -1,0 +1,11 @@
+script,exists
+01_inventory_inputs.py,True
+02_metric_coverage_audit.py,True
+03_anomaly_review.py,True
+04_build_base_final20.py,True
+05_build_conservative_final20.py,True
+06_build_sector_adjusted_final20.py,True
+07_allocate_5m.py,True
+08_generate_reports.py,True
+build_complete.py,True
+run_all.sh,True

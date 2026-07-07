@@ -1,0 +1,101 @@
+scenario,rank,code,ticker,company_name,sector_33,sensitivity_score
+基本配分,1,9022,9022.T,東海旅客鉄道株式会社,Land Transportation,1.0397238446401906
+基本配分,2,7181,7181.T,株式会社かんぽ生命保険,Insurance,0.976053636073037
+基本配分,3,9501,9501.T,東京電力ホールディングス株式会社,Electric Power and Gas,0.8868899270365259
+基本配分,4,3449,3449.T,株式会社テクノフレックス,Metal Products,0.8494919596774049
+基本配分,5,6777,6777.T,ｓａｎｔｅｃ　Ｈｏｌｄｉｎｇｓ株式会社,Electric Appliances,0.7686452854279032
+基本配分,6,6627,6627.T,株式会社テラプローブ,Electric Appliances,0.7493433520355965
+基本配分,7,6524,6524.T,湖北工業株式会社,Electric Appliances,0.7491186038260512
+基本配分,8,6387,6387.T,サムコ　株式会社,Machinery,0.7072750147913675
+基本配分,9,8473,8473.T,ＳＢＩホールディングス株式会社,Securities and Commodities Futures,0.705101813875711
+基本配分,10,6800,6800.T,株式会社ヨコオ,Electric Appliances,0.7004234832402013
+基本配分,11,9513,9513.T,電源開発株式会社,Electric Power and Gas,0.6926902727173072
+基本配分,12,8309,8309.T,三井住友トラストグループ株式会社,Banks,0.6823521176588503
+基本配分,13,8050,8050.T,セイコーグループ株式会社,Precision Instruments,0.6784572489379831
+基本配分,14,6617,6617.T,株式会社東光高岳,Electric Appliances,0.6578866726282621
+基本配分,15,6356,6356.T,日本ギア工業株式会社,Machinery,0.6566912419648452
+基本配分,16,1909,1909.T,日本ドライケミカル株式会社,Machinery,0.6566703113640656
+基本配分,17,4971,4971.T,メック株式会社,Chemicals,0.6421869729103601
+基本配分,18,6278,6278.T,ユニオンツール株式会社,Machinery,0.6418621881878204
+基本配分,19,9503,9503.T,関西電力株式会社,Electric Power and Gas,0.6352080237170188
+基本配分,20,6941,6941.T,山一電機株式会社,Electric Appliances,0.6343907303498482
+Moat重視,1,9022,9022.T,東海旅客鉄道株式会社,Land Transportation,1.0339972928410524
+Moat重視,2,7181,7181.T,株式会社かんぽ生命保険,Insurance,0.9846895301673784
+Moat重視,3,3449,3449.T,株式会社テクノフレックス,Metal Products,0.8754426868054599
+Moat重視,4,6777,6777.T,ｓａｎｔｅｃ　Ｈｏｌｄｉｎｇｓ株式会社,Electric Appliances,0.7559392851375779
+Moat重視,5,8309,8309.T,三井住友トラストグループ株式会社,Banks,0.7468563207651069
+Moat重視,6,8473,8473.T,ＳＢＩホールディングス株式会社,Securities and Commodities Futures,0.7400895946677675
+Moat重視,7,9501,9501.T,東京電力ホールディングス株式会社,Electric Power and Gas,0.7340049252551766
+Moat重視,8,6627,6627.T,株式会社テラプローブ,Electric Appliances,0.7295537666542233
+Moat重視,9,6524,6524.T,湖北工業株式会社,Electric Appliances,0.720978699138567
+Moat重視,10,6387,6387.T,サムコ　株式会社,Machinery,0.6862969955255849
+Moat重視,11,9513,9513.T,電源開発株式会社,Electric Power and Gas,0.6570095812967804
+Moat重視,12,4368,4368.T,扶桑化学工業株式会社,Chemicals,0.6522902697547296
+Moat重視,13,6800,6800.T,株式会社ヨコオ,Electric Appliances,0.6499076397255136
+Moat重視,14,4971,4971.T,メック株式会社,Chemicals,0.6454292754719648
+Moat重視,15,6920,6920.T,レーザーテック株式会社,Electric Appliances,0.6438168168855682
+Moat重視,16,3723,3723.T,日本ファルコム株式会社,Information & Communication,0.6376777750318194
+Moat重視,17,6941,6941.T,山一電機株式会社,Electric Appliances,0.634795262165871
+Moat重視,18,1909,1909.T,日本ドライケミカル株式会社,Machinery,0.631988701125464
+Moat重視,19,8050,8050.T,セイコーグループ株式会社,Precision Instruments,0.628125189461844
+Moat重視,20,1662,1662.T,石油資源開発株式会社,Mining,0.626002346910268
+Transformation重視,1,9022,9022.T,東海旅客鉄道株式会社,Land Transportation,1.214110343447257
+Transformation重視,2,7181,7181.T,株式会社かんぽ生命保険,Insurance,1.1019040662520114
+Transformation重視,3,9501,9501.T,東京電力ホールディングス株式会社,Electric Power and Gas,1.0984076679808603
+Transformation重視,4,3449,3449.T,株式会社テクノフレックス,Metal Products,0.827494481957931
+Transformation重視,5,8473,8473.T,ＳＢＩホールディングス株式会社,Securities and Commodities Futures,0.7984932253052321
+Transformation重視,6,8309,8309.T,三井住友トラストグループ株式会社,Banks,0.7632611879236813
+Transformation重視,7,9513,9513.T,電源開発株式会社,Electric Power and Gas,0.7560911665114117
+Transformation重視,8,6777,6777.T,ｓａｎｔｅｃ　Ｈｏｌｄｉｎｇｓ株式会社,Electric Appliances,0.7065671649525469
+Transformation重視,9,9503,9503.T,関西電力株式会社,Electric Power and Gas,0.7059580918163517
+Transformation重視,10,5985,5985.T,サンコール株式会社,Metal Products,0.6899469212194613
+Transformation重視,11,6627,6627.T,株式会社テラプローブ,Electric Appliances,0.6867465707074436
+Transformation重視,12,6524,6524.T,湖北工業株式会社,Electric Appliances,0.6831559607567644
+Transformation重視,13,1662,1662.T,石油資源開発株式会社,Mining,0.6724772765288791
+Transformation重視,14,9502,9502.T,中部電力株式会社,Electric Power and Gas,0.6709638152656684
+Transformation重視,15,6387,6387.T,サムコ　株式会社,Machinery,0.6585667089404984
+Transformation重視,16,6800,6800.T,株式会社ヨコオ,Electric Appliances,0.645395858337522
+Transformation重視,17,4971,4971.T,メック株式会社,Chemicals,0.6393021992745753
+Transformation重視,18,6356,6356.T,日本ギア工業株式会社,Machinery,0.6349391561312394
+Transformation重視,19,8050,8050.T,セイコーグループ株式会社,Precision Instruments,0.6320335626248939
+Transformation重視,20,7261,7261.T,マツダ株式会社,Transportation Equipment,0.6151099910686959
+Future Moat重視,1,9022,9022.T,東海旅客鉄道株式会社,Land Transportation,0.871063897632262
+Future Moat重視,2,3449,3449.T,株式会社テクノフレックス,Metal Products,0.8455387102688237
+Future Moat重視,3,6777,6777.T,ｓａｎｔｅｃ　Ｈｏｌｄｉｎｇｓ株式会社,Electric Appliances,0.843429406193585
+Future Moat重視,4,6524,6524.T,湖北工業株式会社,Electric Appliances,0.8432211515828223
+Future Moat重視,5,7181,7181.T,株式会社かんぽ生命保険,Insurance,0.8415673117997211
+Future Moat重視,6,6627,6627.T,株式会社テラプローブ,Electric Appliances,0.8317297187451225
+Future Moat重視,7,9501,9501.T,東京電力ホールディングス株式会社,Electric Power and Gas,0.8282571878735411
+Future Moat重視,8,6800,6800.T,株式会社ヨコオ,Electric Appliances,0.8059669516575686
+Future Moat重視,9,6387,6387.T,サムコ　株式会社,Machinery,0.7769613399080191
+Future Moat重視,10,8050,8050.T,セイコーグループ株式会社,Precision Instruments,0.7752129947272114
+Future Moat重視,11,6617,6617.T,株式会社東光高岳,Electric Appliances,0.7572690621206266
+Future Moat重視,12,6941,6941.T,山一電機株式会社,Electric Appliances,0.7442201501490175
+Future Moat重視,13,1909,1909.T,日本ドライケミカル株式会社,Machinery,0.7279804540280844
+Future Moat重視,14,6278,6278.T,ユニオンツール株式会社,Machinery,0.716368288591983
+Future Moat重視,15,6356,6356.T,日本ギア工業株式会社,Machinery,0.7155623628714591
+Future Moat重視,16,6871,6871.T,株式会社日本マイクロニクス,Electric Appliances,0.7024043508057692
+Future Moat重視,17,6327,6327.T,北川精機株式会社,Machinery,0.6993731497898262
+Future Moat重視,18,6834,6834.T,株式会社　精工技研,Electric Appliances,0.6959908783915053
+Future Moat重視,19,6994,6994.T,株式会社指月電機製作所,Electric Appliances,0.6847359719507272
+Future Moat重視,20,6648,6648.T,株式会社かわでん,Electric Appliances,0.6814819555087773
+価格規律重視,1,9022,9022.T,東海旅客鉄道株式会社,Land Transportation,1.3025807036869337
+価格規律重視,2,9501,9501.T,東京電力ホールディングス株式会社,Electric Power and Gas,1.2165488202194332
+価格規律重視,3,7181,7181.T,株式会社かんぽ生命保険,Insurance,1.150319196343669
+価格規律重視,4,8473,8473.T,ＳＢＩホールディングス株式会社,Securities and Commodities Futures,0.8659371508680489
+価格規律重視,5,3449,3449.T,株式会社テクノフレックス,Metal Products,0.8155871994049315
+価格規律重視,6,9513,9513.T,電源開発株式会社,Electric Power and Gas,0.8026295284125676
+価格規律重視,7,9503,9503.T,関西電力株式会社,Electric Power and Gas,0.8007844220820617
+価格規律重視,8,8309,8309.T,三井住友トラストグループ株式会社,Banks,0.739378832034332
+価格規律重視,9,1662,1662.T,石油資源開発株式会社,Mining,0.7293819535543464
+価格規律重視,10,9502,9502.T,中部電力株式会社,Electric Power and Gas,0.7138578671700144
+価格規律重視,11,5985,5985.T,サンコール株式会社,Metal Products,0.7130857263596738
+価格規律重視,12,6627,6627.T,株式会社テラプローブ,Electric Appliances,0.6861674018809047
+価格規律重視,13,6524,6524.T,湖北工業株式会社,Electric Appliances,0.6749538175928144
+価格規律重視,14,6777,6777.T,ｓａｎｔｅｃ　Ｈｏｌｄｉｎｇｓ株式会社,Electric Appliances,0.661093160969632
+価格規律重視,15,6387,6387.T,サムコ　株式会社,Machinery,0.6572944664368697
+価格規律重視,16,6800,6800.T,株式会社ヨコオ,Electric Appliances,0.6552086530325615
+価格規律重視,17,6356,6356.T,日本ギア工業株式会社,Machinery,0.6457595358332111
+価格規律重視,18,8050,8050.T,セイコーグループ株式会社,Precision Instruments,0.630251916508114
+価格規律重視,19,4971,4971.T,メック株式会社,Chemicals,0.6170502609876239
+価格規律重視,20,6617,6617.T,株式会社東光高岳,Electric Appliances,0.6099512580721458

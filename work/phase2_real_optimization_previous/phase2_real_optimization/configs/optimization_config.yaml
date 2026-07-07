@@ -1,0 +1,9 @@
+optuna_tpe:
+  sampler: optuna.samplers.TPESampler(seed=42, multivariate=True, group=True)
+  n_trials: 5000
+nsga2:
+  sampler: optuna.samplers.NSGAIISampler(seed=43, population_size=100)
+  n_trials: 3000
+random_search:
+  n_trials: 10000
+main_score_name: Exploratory Weighted Buffett Score

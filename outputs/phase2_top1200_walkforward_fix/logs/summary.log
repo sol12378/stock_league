@@ -1,0 +1,32 @@
+Phase2 Top1200 Walk-forward Fix completed.
+
+Output directory:
+outputs/phase2_top1200_walkforward_fix/
+
+ZIP:
+outputs/phase2_top1200_walkforward_fix.zip
+
+Formal Phase2 candidate universe:
+top1200_final/phase2_optimized_top1200_candidates.csv
+
+Selected solution:
+top1200_final/selected_phase2_top1200_solution.json
+
+Key reports:
+reports/phase2_top1200_final_report.md
+reports/top1200_vs_top2000_decision.md
+reports/normalization_fix_report.md
+reports/walk_forward_report_final.md
+reports/phase2_to_phase3_handoff_top1200.md
+
+Summary:
+- selected_topn = 1200
+- utility_max_topn = 2000
+- top1200_formally_adopted = true
+- phase1_top5_coverage = 5/5
+- walk_forward_level = Level 2
+- normalization_core_count = 1024
+- normalization_robust_count = 1320
+- normalization_fragile_count = 29
+- zip_validation = passed
+- zip_size_mb = 3.661

@@ -1,0 +1,12 @@
+path,exists,size_bytes,used_for_phase2
+data/processed/scores.csv,True,5195154,True
+data/processed/fundamentals_clean.csv,True,1418350,True
+data/processed/fundamentals_raw.csv,True,2230956,False
+data/processed/latest_prices.csv,True,221548,False
+data/processed/yfinance_metrics.csv,True,32675,False
+data/processed/prices_daily.parquet,True,66370845,False
+outputs/phase1_top5/phase1_buffett_core_top5.csv,True,2975,True
+outputs/phase1_top5/phase1_top5_candidate_pool.csv,True,31399,True
+outputs/phase1_top5/report_tables/phase1_top5_screening_funnel.csv,True,257,False
+outputs/phase1_top5/report_tables/phase1_top5_metrics_table.csv,True,2975,False
+outputs/phase1_buffett_complete/screening_candidates_complete.csv,True,2756142,True

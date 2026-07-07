@@ -1,0 +1,31 @@
+{
+  "project": "BEYOND BUFFETT",
+  "phase": "Phase2 Real Optimization",
+  "created_at": "2026-07-08T00:56:51+09:00",
+  "description": "本物のOptuna TPESamplerとNSGAIISamplerを用いたPhase2（破）の重み・TopN・欠損処理・業種調整の本格探索成果物。",
+  "input_files": [
+    "outputs/phase2_weight_optimization.zip",
+    "outputs/phase2_weight_optimization",
+    "outputs/phase1_top5",
+    "outputs/phase1_buffett_complete",
+    "data/processed",
+    "data/raw",
+    "outputs/phase1_buffett_complete/screening_candidates_complete.csv",
+    "outputs/phase1_top5/phase1_buffett_core_top5.csv",
+    "outputs/phase1_top5/phase1_top5_candidate_pool.csv",
+    "data/processed/scores.csv",
+    "data/processed/fundamentals_clean.csv",
+    "data/processed/prices_daily.parquet"
+  ],
+  "main_outputs": [
+    "reports/phase2_real_optimization_report.md",
+    "reports/top1200_optimality_report.md",
+    "reports/phase2_to_phase3_handoff_final.md",
+    "optimization/selected_phase2_solution.json",
+    "optimization/optuna_tpe_real_trials.csv",
+    "optimization/nsga2_pareto_front.csv",
+    "topn_selection/topn_metrics.csv",
+    "rankings/final_weighted_top1200.csv"
+  ],
+  "important_note": "Exploratory Weighted Buffett Score is not the official Phase1 Buffett Core formula."
+}

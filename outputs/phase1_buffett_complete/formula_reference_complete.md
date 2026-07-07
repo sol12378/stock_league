@@ -1,0 +1,16 @@
+# Formula Reference Complete
+
+| formula | paper | authors | year | journal | original_formula | variables | what_it_measures | buffett_link | implementation_status | departure | report_label |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| B/M | Common risk factors in the returns on stocks and bonds | Fama and French | 1993 | Journal of Financial Economics | Book Equity / Market Equity | Book equity, market equity | 割安性 | 高すぎない価格で良い会社を買う | 実装 | 欠損補完なし | B/M |
+| E/P | The relationship between earnings yield, market value, and return | Basu | 1977/1983 | Journal of Finance / JFE | Earnings / Market Equity | earnings, market equity | 利益利回り | 利益に対して高すぎない価格を確認 | 実装 | 正の利益のみ | E/P |
+| Gross Profitability | The other side of value | Novy-Marx | 2013 | Journal of Financial Economics | Gross Profit / Total Assets | gross profit, assets | Quality/収益性 | 良い会社を買う条件の中心 | 実装 | XBRL取得可能範囲 | Gross Profitability |
+| Piotroski F-Score / available signal score | Value Investing: The Use of Historical Financial Statement Information to Separate Winners from Losers | Piotroski | 2000 | Journal of Accounting Research | 9 binary signals | profitability, leverage, liquidity, issuance | 財務健全性 | 悪化企業を避ける | available版 | 6/9信号のためF-Score単独表記しない | Piotroski available signal score |
+| Sloan Accruals | Do Stock Prices Fully Reflect Information in Accruals and Cash Flows about Future Earnings? | Sloan | 1996 | The Accounting Review | (NI - CFO) / Avg Assets | net income, operating cash flow, assets | 利益の質 | キャッシュを伴わない利益への警戒 | 実装 | CFOベース | Sloan Accruals |
+| Ohlson O-Score | Financial Ratios and the Probabilistic Prediction of Bankruptcy | Ohlson | 1980 | Journal of Accounting Research | logit bankruptcy model | size, leverage, liquidity, losses, FFO etc. | 倒産リスク | 破綻リスク回避 | 未実装 | 原式入力が不足 | Not implemented |
+| Altman Z-Score | Financial Ratios, Discriminant Analysis and the Prediction of Corporate Bankruptcy | Altman | 1968 | Journal of Finance | Z = weighted accounting ratios | working capital, retained earnings, EBIT, sales etc. | 倒産リスク | 破綻リスク回避 | 未実装 | 原式入力が不足 | Not implemented |
+| Simple distress guardrail | Implementation guardrail | N/A | N/A | N/A | negative equity/loss/leverage flags | equity, income, OCF, leverage | 資本毀損・損失回避 | 安全域の確認 | 実装 | Ohlson/Altmanとは呼ばない | Simple distress guardrail |
+| Liquidity filter | Implementation guardrail | N/A | N/A | N/A | avg(close x volume, 60d) | close, volume | 売買可能性 | 実際に買える銘柄に限定 | 実装 | alpha指標ではない | Liquidity filter |
+| Markowitz | Portfolio Selection | Markowitz | 1952 | Journal of Finance | mean-variance optimization | expected return, variance, covariance | 分散投資 | 過度集中を避ける参考概念 | 未使用 | Phase1では最適化で銘柄を入れ替えない | Reference only |
+| Sharpe Ratio | Mutual Fund Performance | Sharpe | 1966 | Journal of Business | (Rp - Rf) / sigma | return, risk-free rate, volatility | リスク調整リターン | Phase2以降の検証候補 | 未使用 | バックテスト選別禁止 | Reference only |
+| Jensen's Alpha | The Performance of Mutual Funds in the Period 1945-1964 | Jensen | 1968 | Journal of Finance | Rp - expected CAPM return | portfolio return, beta, market return | 超過収益 | Phase2以降の検証候補 | 未使用 | Phase1銘柄選定には使わない | Reference only |

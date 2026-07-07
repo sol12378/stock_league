@@ -112,6 +112,24 @@ def average_series(parts: list[pd.Series]) -> pd.Series:
     return combined.fillna(0).mean(axis=1)
 
 
+def _score_percentile(series: pd.Series, mask: pd.Series) -> pd.Series:
+    numeric = pd.to_numeric(series, errors="coerce")
+    out = pd.Series(np.nan, index=series.index)
+    valid = mask.fillna(False).astype(bool) & numeric.notna()
+    if valid.any():
+        out.loc[valid] = numeric.loc[valid].rank(pct=True, method="average")
+    return out
+
+
+def _score_rank(series: pd.Series, mask: pd.Series) -> pd.Series:
+    numeric = pd.to_numeric(series, errors="coerce")
+    out = pd.Series(np.nan, index=series.index)
+    valid = mask.fillna(False).astype(bool) & numeric.notna()
+    if valid.any():
+        out.loc[valid] = numeric.loc[valid].rank(ascending=False, method="min")
+    return out
+
+
 def _safe_inverse(series: pd.Series, positive_only: bool = True) -> pd.Series:
     numeric = pd.to_numeric(series, errors="coerce")
     if positive_only:
@@ -253,8 +271,21 @@ def _write_financial_handling_outputs(
         "cash_generation_score",
         "stability_score",
         "competitive_position_score",
+        "moat_component_profitability",
+        "moat_component_cashflow",
+        "moat_component_stability",
+        "moat_component_competitive_position",
         "moat_score",
+        "transformation_component_valuation_gap",
+        "transformation_component_capital_efficiency",
+        "transformation_component_shareholder_return",
+        "transformation_component_reform_signal",
         "transformation_score",
+        "future_moat_component_ai_infrastructure",
+        "future_moat_component_intangible_asset",
+        "future_moat_component_automation",
+        "future_moat_component_data",
+        "future_moat_component_trust",
         "future_moat_score",
         "valuation_score",
         "momentum_score",
@@ -337,6 +368,12 @@ def _investment_eligibility(
         "low_equity_ratio": base_liquidity
         & ~financial_like
         & (equity_ratio < 0.10),
+        "ticker_or_join_mismatch": base_liquidity
+        & (
+            df["ticker"].fillna("").astype(str).str.len().eq(0)
+            | df["code"].fillna("").astype(str).str.len().eq(0)
+            | df.get("company_name", pd.Series("", index=df.index)).fillna("").astype(str).str.len().eq(0)
+        ),
         "repeated_operating_loss": base_liquidity
         & ~financial_like
         & (operating_income_years >= 2)
@@ -397,6 +434,20 @@ def _investment_eligibility(
         lambda row: ";".join([column for column, value in row.items() if bool(value)]),
         axis=1,
     )
+
+    all_reason_bits = reason_frame[reason_columns].copy()
+    all_reasons = all_reason_bits.apply(
+        lambda row: ";".join([column for column, value in row.items() if bool(value)]),
+        axis=1,
+    )
+    price_available = _truthy(df.get("price_available", pd.Series(False, index=df.index)))
+    df["investment_exclusion_reasons"] = ""
+    df.loc[~price_available, "investment_exclusion_reasons"] = "price_unavailable"
+    df.loc[price_available & ~base_liquidity, "investment_exclusion_reasons"] = "low_liquidity"
+    df.loc[base_liquidity & ~eligible, "investment_exclusion_reasons"] = all_reasons.loc[
+        base_liquidity & ~eligible
+    ].to_numpy()
+
     reason_frame = reason_frame[base_liquidity & ~eligible].copy()
     missing_reason = reason_frame["exclusion_reasons"].fillna("").astype(str).str.len() == 0
     if missing_reason.any():
@@ -587,7 +638,20 @@ def score_universe(config: AppConfig, preliminary: bool = False) -> pd.DataFrame
         + 0.20 * df["stability_score"]
         + 0.20 * df["competitive_position_score"]
     )
+    df["moat_component_profitability"] = df["profitability_score"]
+    df["moat_component_cashflow"] = df["cash_generation_score"]
+    df["moat_component_stability"] = df["stability_score"]
+    df["moat_component_competitive_position"] = df["competitive_position_score"]
 
+    valuation_gap_component = average_series(
+        [
+            zscore(_safe_inverse(df["pbr_for_score"])).fillna(0),
+            zscore(_safe_inverse(df["pe_for_score"])).fillna(0),
+        ]
+    )
+    capital_efficiency_component = average_z(df, ["roe", "revenue_growth", "operating_income_growth"]).fillna(0)
+    shareholder_return_component = zscore(df["dividend_yield_clean"]).fillna(0)
+    reform_signal_component = average_z(df, ["operating_income_growth", "revenue_growth"]).fillna(0)
     df["transformation_score"] = (
         0.35 * zscore(_safe_inverse(df["pbr_for_score"])).fillna(0)
         + 0.20 * zscore(_safe_inverse(df["pe_for_score"])).fillna(0)
@@ -601,17 +665,76 @@ def score_universe(config: AppConfig, preliminary: bool = False) -> pd.DataFrame
         + 0.20 * masked_zscore(df["dividend_yield_clean"], financial_mask)
     )
     df.loc[financial_mask, "transformation_score"] = financial_transformation.loc[financial_mask]
+    financial_valuation_gap = average_series(
+        [
+            masked_zscore(_safe_inverse(df["pbr_for_score"]), financial_mask),
+            masked_zscore(_safe_inverse(df["pe_for_score"]), financial_mask),
+        ]
+    )
+    financial_capital_efficiency = masked_zscore(df["roe"], financial_mask)
+    financial_shareholder_return = masked_zscore(df["dividend_yield_clean"], financial_mask)
+    financial_reform_signal = average_series(
+        [
+            masked_zscore(df["roe"], financial_mask),
+            masked_zscore(df["return_12m_ex_1m"], financial_mask),
+        ]
+    )
+    df["transformation_component_valuation_gap"] = valuation_gap_component
+    df["transformation_component_capital_efficiency"] = capital_efficiency_component
+    df["transformation_component_shareholder_return"] = shareholder_return_component
+    df["transformation_component_reform_signal"] = reform_signal_component
+    df.loc[financial_mask, "transformation_component_valuation_gap"] = financial_valuation_gap.loc[
+        financial_mask
+    ]
+    df.loc[financial_mask, "transformation_component_capital_efficiency"] = financial_capital_efficiency.loc[
+        financial_mask
+    ]
+    df.loc[financial_mask, "transformation_component_shareholder_return"] = financial_shareholder_return.loc[
+        financial_mask
+    ]
+    df.loc[financial_mask, "transformation_component_reform_signal"] = financial_reform_signal.loc[
+        financial_mask
+    ]
 
     for bucket in FUTURE_KEYWORDS:
         df[f"{bucket}_exposure"] = df.apply(lambda row: _future_exposure(row, bucket), axis=1)
     df["intangible_investment_score"] = zscore(df.get("rd_ratio", pd.Series(np.nan, index=df.index))).fillna(0)
+    df["future_moat_component_ai_infrastructure"] = zscore(df["ai_infrastructure_exposure"]).fillna(0)
+    df["future_moat_component_intangible_asset"] = df["intangible_investment_score"]
+    df["future_moat_component_automation"] = zscore(df["automation_exposure"]).fillna(0)
+    df["future_moat_component_data"] = zscore(df["data_software_exposure"]).fillna(0)
+    df["future_moat_component_trust"] = zscore(df["trust_security_exposure"]).fillna(0)
     df["future_moat_score"] = (
-        0.30 * zscore(df["ai_infrastructure_exposure"]).fillna(0)
-        + 0.25 * df["intangible_investment_score"]
-        + 0.20 * zscore(df["automation_exposure"]).fillna(0)
-        + 0.15 * zscore(df["data_software_exposure"]).fillna(0)
-        + 0.10 * zscore(df["trust_security_exposure"]).fillna(0)
+        0.30 * df["future_moat_component_ai_infrastructure"]
+        + 0.25 * df["future_moat_component_intangible_asset"]
+        + 0.20 * df["future_moat_component_automation"]
+        + 0.15 * df["future_moat_component_data"]
+        + 0.10 * df["future_moat_component_trust"]
     )
+    future_flag_labels = {
+        "ai_infrastructure": "半導体・光通信・データセンター・電力",
+        "automation": "電子部品・精密機器・省人化",
+        "data_software": "クラウド・SaaS・業務データ",
+        "trust_security": "セキュリティ・監査・信頼",
+    }
+
+    def _future_flags(row: pd.Series) -> str:
+        flags = [
+            label
+            for bucket, label in future_flag_labels.items()
+            if float(row.get(f"{bucket}_exposure", 0) or 0) > 0
+        ]
+        return ";".join(flags)
+
+    def _future_evidence(row: pd.Series) -> str:
+        evidence = []
+        for bucket, keywords in FUTURE_KEYWORDS.items():
+            if float(row.get(f"{bucket}_exposure", 0) or 0) > 0:
+                evidence.append(f"{bucket}: {', '.join(keywords[:6])}")
+        return "; ".join(evidence)
+
+    df["future_moat_category_flags"] = df.apply(_future_flags, axis=1)
+    df["future_moat_keyword_evidence"] = df.apply(_future_evidence, axis=1)
 
     df["valuation_score"] = (
         0.50 * zscore(_safe_inverse(df["pe_for_score"])).fillna(0)
@@ -644,7 +767,20 @@ def score_universe(config: AppConfig, preliminary: bool = False) -> pd.DataFrame
     df["investment_eligible"], _ = _investment_eligibility(df, liquid_20m_60d, config)
     if preliminary:
         df.loc[df["close"].notna() & (df["close"] > 0), "investment_eligible"] = True
-    scored_mask = df["investment_eligible"] & df["adjusted_bb_score"].notna()
+    scored_mask = df["investment_eligible"].fillna(False).astype(bool)
+    df["score_calculation_target"] = scored_mask
+    for score_name in [
+        "moat_score",
+        "transformation_score",
+        "future_moat_score",
+        "valuation_score",
+        "momentum_score",
+        "risk_score",
+        "adjusted_bb_score",
+    ]:
+        prefix = score_name.removesuffix("_score")
+        df[f"{prefix}_rank"] = _score_rank(df[score_name], scored_mask)
+        df[f"{prefix}_percentile"] = _score_percentile(df[score_name], scored_mask)
     df["category"] = df.apply(_category, axis=1)
     df = df.sort_values("adjusted_bb_score", ascending=False).reset_index(drop=True)
     df["score_rank"] = np.arange(1, len(df) + 1)

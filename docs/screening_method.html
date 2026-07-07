@@ -1,0 +1,1134 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BEYOND BUFFETT スクリーニングの考え方と式</title>
+    <style>
+      :root {
+        --bg: #f5f1e8;
+        --paper: #fffdf8;
+        --ink: #182024;
+        --muted: #5f686c;
+        --line: #d8d1c4;
+        --green: #1f6b55;
+        --blue: #245c8f;
+        --red: #9d3f3f;
+        --gold: #b5832f;
+        --shadow: 0 18px 50px rgb(24 32 36 / 12%);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Yu Gothic UI", Meiryo, sans-serif;
+        line-height: 1.75;
+      }
+
+      img {
+        display: block;
+        max-width: 100%;
+      }
+
+      code {
+        display: block;
+        overflow-x: auto;
+        padding: 14px 16px;
+        border: 1px solid #cfd7db;
+        border-left: 5px solid var(--blue);
+        background: #f8fbfc;
+        color: #17344a;
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+        font-size: 0.9rem;
+        line-height: 1.55;
+        white-space: nowrap;
+      }
+
+      .hero {
+        min-height: 78vh;
+        display: grid;
+        align-items: end;
+        padding: 64px 24px;
+        background:
+          linear-gradient(90deg, rgb(24 32 36 / 86%), rgb(24 32 36 / 45%)),
+          url("../submission_assets/figures/background/09_screening_funnel.png") center / cover;
+        color: #fffdf8;
+      }
+
+      .hero__inner,
+      .section {
+        width: min(1120px, calc(100% - 40px));
+        margin-inline: auto;
+      }
+
+      .kicker,
+      .section__eyebrow {
+        margin: 0 0 10px;
+        color: var(--gold);
+        font-size: 0.8rem;
+        font-weight: 800;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      .hero h1 {
+        max-width: 900px;
+        margin: 0;
+        font-size: clamp(2.4rem, 6vw, 5.7rem);
+        line-height: 1.05;
+        letter-spacing: 0;
+      }
+
+      .lead {
+        max-width: 760px;
+        margin: 28px 0 0;
+        color: rgb(255 253 248 / 88%);
+        font-size: 1.15rem;
+      }
+
+      .section {
+        padding: 72px 0;
+      }
+
+      .section__heading {
+        display: grid;
+        grid-template-columns: 220px 1fr;
+        gap: 28px;
+        align-items: baseline;
+        margin-bottom: 28px;
+        border-top: 1px solid var(--line);
+        padding-top: 24px;
+      }
+
+      .section h2 {
+        margin: 0;
+        font-size: clamp(1.8rem, 3vw, 3rem);
+        line-height: 1.2;
+      }
+
+      .principles {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+      }
+
+      .principles article,
+      .formula,
+      .scorebook__list article,
+      .roles article,
+      .eligibility aside {
+        background: var(--paper);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        box-shadow: var(--shadow);
+      }
+
+      .principles article {
+        padding: 24px;
+      }
+
+      .principles__number {
+        display: inline-grid;
+        place-items: center;
+        width: 34px;
+        height: 34px;
+        margin-bottom: 18px;
+        border-radius: 50%;
+        background: var(--green);
+        color: #fff;
+        font-weight: 800;
+      }
+
+      h3 {
+        margin: 0 0 10px;
+        font-size: 1.15rem;
+        line-height: 1.35;
+      }
+
+      p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .funnel__grid {
+        display: grid;
+        grid-template-columns: 0.88fr 1.12fr;
+        gap: 28px;
+        align-items: start;
+      }
+
+      .steps {
+        display: grid;
+        gap: 12px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        counter-reset: step;
+      }
+
+      .steps li {
+        position: relative;
+        padding: 18px 18px 18px 58px;
+        background: var(--paper);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+      }
+
+      .steps li::before {
+        counter-increment: step;
+        content: counter(step);
+        position: absolute;
+        left: 18px;
+        top: 19px;
+        display: grid;
+        place-items: center;
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        background: var(--blue);
+        color: #fff;
+        font-size: 0.8rem;
+        font-weight: 800;
+      }
+
+      .steps strong,
+      .steps span {
+        display: block;
+      }
+
+      .steps span {
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      .figure {
+        margin: 0;
+        padding: 16px;
+        background: var(--paper);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+      }
+
+      .figure img {
+        border-radius: 4px;
+      }
+
+      .figure figcaption {
+        margin-top: 12px;
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+
+      .formula-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+      }
+
+      .formula {
+        padding: 22px;
+      }
+
+      .formula p {
+        margin-bottom: 16px;
+      }
+
+      .scorebook__list {
+        display: grid;
+        gap: 14px;
+      }
+
+      .scorebook__list article {
+        display: grid;
+        grid-template-columns: 270px 1fr;
+        gap: 18px;
+        align-items: start;
+        padding: 20px;
+      }
+
+      .scorebook__list article p {
+        margin-bottom: 12px;
+      }
+
+      .eligibility__content {
+        display: grid;
+        grid-template-columns: 1.35fr 0.65fr;
+        gap: 24px;
+        align-items: start;
+      }
+
+      .eligibility__content > div {
+        min-width: 0;
+      }
+
+      table {
+        width: 100%;
+        margin-top: 22px;
+        border-collapse: collapse;
+        background: var(--paper);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      th,
+      td {
+        padding: 12px 14px;
+        border-bottom: 1px solid var(--line);
+        text-align: left;
+      }
+
+      th {
+        background: #e8eee9;
+        color: #23352e;
+      }
+
+      td:last-child,
+      th:last-child {
+        text-align: right;
+        font-variant-numeric: tabular-nums;
+      }
+
+      tr:last-child td {
+        border-bottom: 0;
+      }
+
+      .eligibility aside {
+        padding: 24px;
+        border-top: 5px solid var(--red);
+      }
+
+      .roles {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        margin-bottom: 18px;
+      }
+
+      .roles article {
+        padding: 24px;
+      }
+
+      .roles ul {
+        display: grid;
+        gap: 8px;
+        margin: 0;
+        padding-left: 1.2em;
+        color: var(--muted);
+      }
+
+      .compact article {
+        grid-template-columns: 250px 1fr;
+      }
+
+      .detail-stack {
+        display: grid;
+        gap: 22px;
+      }
+
+      .detail-card {
+        background: var(--paper);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        box-shadow: var(--shadow);
+        overflow: hidden;
+      }
+
+      .detail-card__header {
+        padding: 22px 24px;
+        border-bottom: 1px solid var(--line);
+        background: #edf3ef;
+      }
+
+      .detail-card__header p {
+        max-width: 850px;
+      }
+
+      .detail-layout {
+        display: grid;
+        grid-template-columns: 1fr 0.9fr;
+        gap: 0;
+      }
+
+      .detail-main,
+      .detail-side {
+        padding: 24px;
+      }
+
+      .detail-side {
+        border-left: 1px solid var(--line);
+        background: #fbf8ef;
+      }
+
+      .detail-card h4 {
+        margin: 0 0 10px;
+        font-size: 1rem;
+      }
+
+      .detail-card ul {
+        display: grid;
+        gap: 8px;
+        margin: 0 0 18px;
+        padding-left: 1.2em;
+        color: var(--muted);
+      }
+
+      .detail-card li strong {
+        color: var(--ink);
+      }
+
+      .report-box {
+        margin-top: 18px;
+        padding: 16px 18px;
+        border-left: 5px solid var(--green);
+        background: #eef6f1;
+      }
+
+      .report-box strong {
+        display: block;
+        margin-bottom: 6px;
+      }
+
+      .formula-caption {
+        margin: 10px 0 0;
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+
+      .metric-table th:last-child,
+      .metric-table td:last-child {
+        text-align: left;
+      }
+
+      .tag-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 12px;
+      }
+
+      .tag-list span {
+        display: inline-flex;
+        align-items: center;
+        min-height: 30px;
+        padding: 4px 10px;
+        border: 1px solid #cbd8d1;
+        border-radius: 999px;
+        background: #f7fbf8;
+        color: #24483c;
+        font-size: 0.86rem;
+        font-weight: 700;
+      }
+
+      @media (max-width: 900px) {
+        .section__heading,
+        .funnel__grid,
+        .eligibility__content,
+        .scorebook__list article,
+        .compact article,
+        .detail-layout {
+          grid-template-columns: 1fr;
+        }
+
+        .detail-side {
+          border-left: 0;
+          border-top: 1px solid var(--line);
+        }
+
+        .principles,
+        .formula-grid,
+        .roles {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      @media (max-width: 620px) {
+        .hero {
+          min-height: 72vh;
+          padding: 48px 20px;
+        }
+
+        .hero__inner,
+        .section {
+          width: min(100% - 28px, 1120px);
+        }
+
+        .section {
+          padding: 52px 0;
+        }
+
+        .principles,
+        .formula-grid,
+        .roles {
+          grid-template-columns: 1fr;
+        }
+
+        code {
+          font-size: 0.82rem;
+        }
+      }
+
+      @media print {
+        body {
+          background: #fff;
+        }
+
+        .hero {
+          min-height: auto;
+          color: var(--ink);
+          background: none;
+          padding: 36px 24px;
+        }
+
+        .lead {
+          color: var(--muted);
+        }
+
+        .principles article,
+        .formula,
+        .scorebook__list article,
+        .roles article,
+        .eligibility aside {
+          box-shadow: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__inner">
+        <p class="kicker">Stock League Screening Method</p>
+        <h1>BEYOND BUFFETT<br>スクリーニングの考え方と式</h1>
+        <p class="lead">
+          「完成された堀」だけでなく、日本企業の資本効率改善、事業変革、AI時代の新しい産業基盤を評価するため、
+          財務・株価・テーマ性を統合したスコアで候補銘柄を選定した。
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section class="section overview">
+        <div class="section__heading">
+          <p class="section__eyebrow">01 / Framework</p>
+          <h2>基本思想</h2>
+        </div>
+        <div class="principles">
+          <article>
+            <span class="principles__number">1</span>
+            <h3>守る堀</h3>
+            <p>収益性、キャッシュ創出力、安定性、競争地位から、既に強い事業基盤を持つ企業を評価する。</p>
+          </article>
+          <article>
+            <span class="principles__number">2</span>
+            <h3>変わる堀</h3>
+            <p>低PBR・低PER、ROE改善、配当、成長率から、資本効率改善や再評価余地を評価する。</p>
+          </article>
+          <article>
+            <span class="principles__number">3</span>
+            <h3>生まれる堀</h3>
+            <p>半導体、光通信、データセンター、電力、省人化、データ・ソフトウェアなど、将来の堀を評価する。</p>
+          </article>
+          <article>
+            <span class="principles__number">4</span>
+            <h3>価格規律とリスク</h3>
+            <p>良い企業を高値づかみしないため、PER・PBR・配当利回り、モメンタム、ボラティリティを加味する。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section funnel">
+        <div class="section__heading">
+          <p class="section__eyebrow">02 / Funnel</p>
+          <h2>絞り込みの流れ</h2>
+        </div>
+        <div class="funnel__grid">
+          <ol class="steps">
+            <li>
+              <strong>東証上場銘柄</strong>
+              <span>3,649社を初期ユニバースに設定。</span>
+            </li>
+            <li>
+              <strong>株価取得可能</strong>
+              <span>終値が取得でき、価格が正の銘柄に限定。3,648社。</span>
+            </li>
+            <li>
+              <strong>流動性条件</strong>
+              <span>60日平均売買代金が2,000万円以上。2,560社。</span>
+            </li>
+            <li>
+              <strong>投資適格性</strong>
+              <span>財務安全性、継続収益力、営業CF、異常値、データ品質を確認。1,963社。</span>
+            </li>
+            <li>
+              <strong>スコア上位80社</strong>
+              <span>Adjusted Beyond Buffett Scoreの上位80社を候補母集団にする。</span>
+            </li>
+            <li>
+              <strong>最終20社</strong>
+              <span>役割別スコアと分散制約で、20銘柄のポートフォリオ候補を選ぶ。</span>
+            </li>
+          </ol>
+          <figure class="figure">
+            <img src="../submission_assets/screening/screening_funnel_japanese.png" alt="スクリーニングファネル">
+            <figcaption>実際のスクリーニング通過社数。投資適格性通過数とスコア算出対象数は一致させた。</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section formulas">
+        <div class="section__heading">
+          <p class="section__eyebrow">03 / Normalization</p>
+          <h2>スコア化の前処理</h2>
+        </div>
+        <div class="formula-grid">
+          <article class="formula">
+            <h3>外れ値処理</h3>
+            <p>各指標は1%点から99%点の範囲にクリップし、極端な値の影響を抑えた。</p>
+            <code>winsorize(x) = clip(x, q01, q99)</code>
+          </article>
+          <article class="formula">
+            <h3>標準化</h3>
+            <p>指標間の単位差をなくすため、横断面のZスコアに変換した。</p>
+            <code>z(x) = (winsorize(x) - mean) / std</code>
+          </article>
+          <article class="formula">
+            <h3>割安指標の反転</h3>
+            <p>PER・PBRは低いほど評価されるため、逆数を標準化して使った。</p>
+            <code>cheapness(PER) = z(1 / PER)</code>
+          </article>
+        </div>
+      </section>
+
+      <section class="section scorebook">
+        <div class="section__heading">
+          <p class="section__eyebrow">04 / Score Formula</p>
+          <h2>主要スコアの式</h2>
+        </div>
+        <div class="scorebook__list">
+          <article>
+            <h3>Moat Score: 既存の堀</h3>
+            <p>収益力、キャッシュ創出力、安定性、競争地位を統合する。</p>
+            <code>Moat = 0.35 Profitability + 0.25 CashGeneration + 0.20 Stability + 0.20 CompetitivePosition</code>
+          </article>
+          <article>
+            <h3>Transformation Score: 変わる堀</h3>
+            <p>低PBR・低PER、売上・営業利益の成長、配当利回りから、再評価余地と資本効率改善を測る。</p>
+            <code>Transformation = 0.35 z(1/PBR) + 0.20 z(1/PER) + 0.20 avg_z(RevenueGrowth, OperatingIncomeGrowth) + 0.15 z(DividendYield)</code>
+          </article>
+          <article>
+            <h3>Future Moat Score: 生まれる堀</h3>
+            <p>AIインフラ、無形資産投資、省人化、データ・ソフトウェア、信頼・セキュリティへの露出を評価する。</p>
+            <code>FutureMoat = 0.30 AIInfrastructure + 0.25 IntangibleAsset + 0.20 Automation + 0.15 DataSoftware + 0.10 TrustSecurity</code>
+          </article>
+          <article>
+            <h3>Valuation Score: 価格規律</h3>
+            <p>利益、純資産、株主還元の3面から、価格の妥当性を確認する。</p>
+            <code>Valuation = 0.50 z(1/PER) + 0.35 z(1/PBR) + 0.15 z(DividendYield)</code>
+          </article>
+          <article>
+            <h3>Beyond Buffett Score</h3>
+            <p>守る堀、変わる堀、生まれる堀を中核にし、最後に価格規律を加える。</p>
+            <code>BB = 0.30 Moat + 0.25 Transformation + 0.30 FutureMoat + 0.15 Valuation</code>
+          </article>
+          <article>
+            <h3>Adjusted Beyond Buffett Score</h3>
+            <p>直近12か月から直近1か月を除いたモメンタムを加点し、ボラティリティと最大ドローダウンを減点する。</p>
+            <code>AdjustedBB = BB + 0.10 Momentum - 0.10 Risk</code>
+          </article>
+        </div>
+      </section>
+
+      <section class="section score-details">
+        <div class="section__heading">
+          <p class="section__eyebrow">05 / Deep Dive</p>
+          <h2>式ごとの説明変数と有効性</h2>
+        </div>
+
+        <div class="detail-stack">
+          <article class="detail-card">
+            <div class="detail-card__header">
+              <h3>前処理: winsorize、Zスコア、逆数化</h3>
+              <p>異なる単位の財務指標を同じ土俵で比較し、極端な外れ値に順位全体が支配されないようにした。</p>
+            </div>
+            <div class="detail-layout">
+              <div class="detail-main">
+                <code>winsorize(x) = clip(x, q01, q99)</code>
+                <p class="formula-caption">1%点未満は1%点に、99%点超は99%点に丸める。</p>
+                <code>z(x) = (winsorize(x) - mean) / std</code>
+                <p class="formula-caption">各銘柄が母集団平均との差でどれだけ優れているかを表す。</p>
+                <code>cheapness(PER, PBR) = z(1 / PER), z(1 / PBR)</code>
+                <p class="formula-caption">PER・PBRは低いほど割安なので、逆数にしてから標準化する。</p>
+              </div>
+              <div class="detail-side">
+                <h4>なぜ有効か</h4>
+                <ul>
+                  <li><strong>単位差を消す:</strong> ROE、売買代金、配当利回りなどを重み付きで足し合わせられる。</li>
+                  <li><strong>外れ値を抑える:</strong> 一時的な赤字や会計上の特殊要因による極端値の影響を小さくする。</li>
+                  <li><strong>横断比較に向く:</strong> 同じ時点の日本株全体の中で、相対的に強い企業を見つけられる。</li>
+                </ul>
+                <div class="report-box">
+                  <strong>レポート接続文</strong>
+                  本分析では、各財務指標をそのまま足し合わせず、外れ値処理後にZスコア化した。これにより、単位の異なる指標を同一尺度で比較し、極端な一社にスコアが過度に左右されることを避けた。
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="detail-card">
+            <div class="detail-card__header">
+              <h3>投資適格性フィルター</h3>
+              <p>スコア以前に、500万円の仮想ポートフォリオに組み入れる最低条件を満たすかを確認した。</p>
+            </div>
+            <div class="detail-layout">
+              <div class="detail-main">
+                <table class="metric-table">
+                  <thead>
+                    <tr>
+                      <th>条件</th>
+                      <th>説明変数</th>
+                      <th>狙い</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>株価取得可能</td><td>close &gt; 0</td><td>実際に購入価格を置ける銘柄に限定する。</td></tr>
+                    <tr><td>流動性</td><td>avg_trading_value_60d &gt;= 20,000,000円</td><td>売買代金が小さすぎる銘柄を避ける。</td></tr>
+                    <tr><td>財務安全性</td><td>equity_ratio、total_assets、equity</td><td>債務超過や自己資本が薄い企業を除く。</td></tr>
+                    <tr><td>継続収益力</td><td>operating_income、ordinary_income、net_income</td><td>赤字が続く企業を機械的に高評価しない。</td></tr>
+                    <tr><td>営業CF</td><td>operating_cf、ocf_margin</td><td>利益が現金化されているかを見る。</td></tr>
+                    <tr><td>データ品質</td><td>price_history_days、PER/PBR/ROE異常値</td><td>スコア計算の信頼性を確保する。</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="detail-side">
+                <h4>なぜ有効か</h4>
+                <ul>
+                  <li><strong>投資不能銘柄を除く:</strong> 株価や流動性が不足する銘柄は、理論上よく見えても実践的ではない。</li>
+                  <li><strong>バリュートラップを避ける:</strong> 低PER・低PBRでも、財務悪化や赤字継続がある場合は割安とは限らない。</li>
+                  <li><strong>説明責任を高める:</strong> 除外理由を分類することで、恣意的な銘柄選定ではないことを示せる。</li>
+                </ul>
+                <div class="report-box">
+                  <strong>レポート接続文</strong>
+                  第0段階では、スコアの高低ではなく投資対象としての最低条件を確認した。これは、単なるランキング作成ではなく、実際に500万円を配分する前提で、価格取得可能性、流動性、財務安全性、データ品質を満たす銘柄に分析対象を限定するためである。
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="detail-card">
+            <div class="detail-card__header">
+              <h3>Moat Score: 守る堀</h3>
+              <p>既存事業の強さを、利益率、現金創出、株価安定性、競争地位から評価した。</p>
+            </div>
+            <div class="detail-layout">
+              <div class="detail-main">
+                <code>Moat = 0.35 Profitability + 0.25 CashGeneration + 0.20 Stability + 0.20 CompetitivePosition</code>
+                <table class="metric-table">
+                  <thead>
+                    <tr>
+                      <th>説明変数</th>
+                      <th>主な元指標</th>
+                      <th>意味</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>Profitability</td><td>operating_margin、roe、equity_ratio</td><td>高い利益率と資本効率を継続できる力。</td></tr>
+                    <tr><td>CashGeneration</td><td>ocf_margin</td><td>会計上の利益が営業キャッシュフローに変わる力。</td></tr>
+                    <tr><td>Stability</td><td>-annual_volatility</td><td>株価変動が相対的に小さく、事業評価が安定していること。</td></tr>
+                    <tr><td>CompetitivePosition</td><td>rd_ratio、operating_margin</td><td>研究開発や利益率に表れる競争地位。</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="detail-side">
+                <h4>なぜ有効か</h4>
+                <ul>
+                  <li><strong>Buffett型の中核:</strong> 高収益・高キャッシュ創出企業は、景気変動時にも耐久力を持ちやすい。</li>
+                  <li><strong>利益の質を見る:</strong> 営業CFを入れることで、見かけの利益だけでなく現金化能力を評価する。</li>
+                  <li><strong>ポートフォリオの土台:</strong> Future Moatの成長リスクを、既存Moat銘柄で支える設計にできる。</li>
+                </ul>
+                <div class="report-box">
+                  <strong>レポート接続文</strong>
+                  Moat Scoreは、既に強い事業基盤を持つ企業を見つけるための指標である。収益性だけでなく営業キャッシュフローと安定性を加えることで、一時的な利益ではなく、継続的に稼ぐ力を評価した。
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="detail-card">
+            <div class="detail-card__header">
+              <h3>Transformation Score: 変わる堀</h3>
+              <p>日本株市場で重要な、低PBR是正、資本効率改善、事業改革、株主還元の余地を評価した。</p>
+            </div>
+            <div class="detail-layout">
+              <div class="detail-main">
+                <code>Transformation = 0.35 z(1/PBR) + 0.20 z(1/PER) + 0.20 avg_z(RevenueGrowth, OperatingIncomeGrowth) + 0.15 z(DividendYield)</code>
+                <table class="metric-table">
+                  <thead>
+                    <tr>
+                      <th>説明変数</th>
+                      <th>意味</th>
+                      <th>評価の方向</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>z(1/PBR)</td><td>純資産対比の割安さ。</td><td>PBRが低いほど高評価。</td></tr>
+                    <tr><td>z(1/PER)</td><td>利益対比の割安さ。</td><td>PERが低いほど高評価。</td></tr>
+                    <tr><td>RevenueGrowth</td><td>売上成長。</td><td>成長率が高いほど高評価。</td></tr>
+                    <tr><td>OperatingIncomeGrowth</td><td>営業利益成長。</td><td>利益改善が強いほど高評価。</td></tr>
+                    <tr><td>DividendYield</td><td>株主還元。</td><td>配当利回りが高いほど高評価。</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="detail-side">
+                <h4>なぜ有効か</h4>
+                <ul>
+                  <li><strong>低PBR是正に対応:</strong> 日本企業では資本効率改善や株主還元強化が株価再評価につながりやすい。</li>
+                  <li><strong>単なる割安を避ける:</strong> 成長率を入れることで、低PBRだが停滞している企業だけを拾うリスクを抑える。</li>
+                  <li><strong>変化を買う:</strong> 現在の完成度よりも、資本政策や業績改善で評価が変わる余地を重視する。</li>
+                </ul>
+                <div class="report-box">
+                  <strong>レポート接続文</strong>
+                  Transformation Scoreは、現在の優良企業だけでなく、資本効率改善によって市場評価が変わる企業を拾うための指標である。低PBR・低PERに成長率と配当利回りを組み合わせることで、割安さと変化の兆しを同時に評価した。
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="detail-card">
+            <div class="detail-card__header">
+              <h3>Future Moat Score: 生まれる堀</h3>
+              <p>AI時代に新しく形成される産業基盤への接続度を、事業テーマと無形資産投資から評価した。</p>
+            </div>
+            <div class="detail-layout">
+              <div class="detail-main">
+                <code>FutureMoat = 0.30 AIInfrastructure + 0.25 IntangibleAsset + 0.20 Automation + 0.15 DataSoftware + 0.10 TrustSecurity</code>
+                <table class="metric-table">
+                  <thead>
+                    <tr>
+                      <th>説明変数</th>
+                      <th>主な判定材料</th>
+                      <th>意味</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>AIInfrastructure</td><td>半導体、光通信、データセンター、電力、電子部品</td><td>AI普及を支える物理インフラ。</td></tr>
+                    <tr><td>IntangibleAsset</td><td>rd_ratio</td><td>研究開発など、将来競争力への投資。</td></tr>
+                    <tr><td>Automation</td><td>ロボット、FA、センサー、精密機器、機械</td><td>人手不足と省人化需要への対応力。</td></tr>
+                    <tr><td>DataSoftware</td><td>ソフトウェア、クラウド、SaaS、情報通信</td><td>データ活用と業務デジタル化の基盤。</td></tr>
+                    <tr><td>TrustSecurity</td><td>セキュリティ、検査、品質、監査、保険</td><td>AI・データ社会で重要になる信頼性の基盤。</td></tr>
+                  </tbody>
+                </table>
+                <div class="tag-list">
+                  <span>半導体</span>
+                  <span>光通信</span>
+                  <span>データセンター</span>
+                  <span>電力</span>
+                  <span>省人化</span>
+                  <span>ソフトウェア</span>
+                  <span>セキュリティ</span>
+                </div>
+              </div>
+              <div class="detail-side">
+                <h4>なぜ有効か</h4>
+                <ul>
+                  <li><strong>過去財務だけでは見えない:</strong> 将来の堀は、現在の利益率よりも産業構造の変化から生まれることがある。</li>
+                  <li><strong>AI時代の需要に接続:</strong> 半導体、通信、電力、データ基盤は、AI利用拡大のボトルネックになりやすい。</li>
+                  <li><strong>テーマ投資を定量化:</strong> キーワードと業種情報を使い、単なる主観ではなく再現可能な形でテーマ性を点数化する。</li>
+                </ul>
+                <div class="report-box">
+                  <strong>レポート接続文</strong>
+                  Future Moat Scoreは、AI時代に新しく生まれる競争優位を捉えるための指標である。半導体、光通信、データセンター、電力、省人化、ソフトウェア、セキュリティといった領域への接続度を評価し、過去の財務指標だけでは見落としやすい将来の成長基盤を取り込んだ。
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="detail-card">
+            <div class="detail-card__header">
+              <h3>Valuation Score: 価格規律</h3>
+              <p>良い企業や成長テーマを、高すぎる価格で買わないための制約として使った。</p>
+            </div>
+            <div class="detail-layout">
+              <div class="detail-main">
+                <code>Valuation = 0.50 z(1/PER) + 0.35 z(1/PBR) + 0.15 z(DividendYield)</code>
+                <table class="metric-table">
+                  <thead>
+                    <tr>
+                      <th>説明変数</th>
+                      <th>意味</th>
+                      <th>重みの理由</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>z(1/PER)</td><td>利益に対して株価が割安か。</td><td>現在の利益との対応を最も重視。</td></tr>
+                    <tr><td>z(1/PBR)</td><td>純資産に対して株価が割安か。</td><td>日本株の低PBR是正テーマと接続。</td></tr>
+                    <tr><td>z(DividendYield)</td><td>株主還元の厚さ。</td><td>下値耐性と資本政策の姿勢を補助的に評価。</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="detail-side">
+                <h4>なぜ有効か</h4>
+                <ul>
+                  <li><strong>高値づかみを抑える:</strong> Future Moat銘柄は期待が先行しやすいため、価格規律を別に置く必要がある。</li>
+                  <li><strong>利益と資産の両面を見る:</strong> PERだけでは資産価値、PBRだけでは収益力を見落とす。</li>
+                  <li><strong>株主還元を加味:</strong> 配当利回りは、企業が株主へ利益を返す姿勢を反映する。</li>
+                </ul>
+                <div class="report-box">
+                  <strong>レポート接続文</strong>
+                  Valuation Scoreは、投資テーマの魅力と購入価格を切り離して考えるために導入した。PER、PBR、配当利回りを用いることで、成長期待だけでなく、現在の利益・純資産・株主還元に対して妥当な価格かを確認した。
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="detail-card">
+            <div class="detail-card__header">
+              <h3>Momentum Score と Risk Score</h3>
+              <p>市場が既に評価し始めている銘柄を加点しつつ、値動きが大きすぎる銘柄にはリスク控除を入れた。</p>
+            </div>
+            <div class="detail-layout">
+              <div class="detail-main">
+                <code>Momentum = z(Return12M - Return1M)</code>
+                <p class="formula-caption">直近12か月リターンから直近1か月リターンを除き、短期的な過熱を少し抑える。</p>
+                <code>Risk = avg_z(AnnualVolatility, Abs(MaxDrawdown))</code>
+                <p class="formula-caption">年率ボラティリティと最大ドローダウンの大きさを平均する。</p>
+                <table class="metric-table">
+                  <thead>
+                    <tr>
+                      <th>説明変数</th>
+                      <th>意味</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>Return12M - Return1M</td><td>短期急騰だけでなく、中期的な市場評価を捉える。</td></tr>
+                    <tr><td>AnnualVolatility</td><td>日次リターンの標準偏差を年率換算した値。</td></tr>
+                    <tr><td>Abs(MaxDrawdown)</td><td>過去期間でピークからどれだけ下落したか。</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="detail-side">
+                <h4>なぜ有効か</h4>
+                <ul>
+                  <li><strong>市場の確認を使う:</strong> 財務やテーマが良くても、市場評価が全くついていない銘柄は時間がかかる可能性がある。</li>
+                  <li><strong>短期過熱を抑える:</strong> 直近1か月を除くことで、急騰直後だけを拾うリスクを減らす。</li>
+                  <li><strong>下落耐性を意識:</strong> ボラティリティとドローダウンを入れ、リターンだけを追う選定にしない。</li>
+                </ul>
+                <div class="report-box">
+                  <strong>レポート接続文</strong>
+                  Momentum Scoreは、市場が企業価値の変化を認識し始めているかを見る補助指標である。一方、Risk Scoreはボラティリティと最大ドローダウンを用い、期待リターンだけでなく損失の大きさも選定に反映した。
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="detail-card">
+            <div class="detail-card__header">
+              <h3>Beyond Buffett Score と Adjusted Beyond Buffett Score</h3>
+              <p>守る堀、変わる堀、生まれる堀、価格規律を統合し、最後に市場評価とリスクで補正した。</p>
+            </div>
+            <div class="detail-layout">
+              <div class="detail-main">
+                <code>BB = 0.30 Moat + 0.25 Transformation + 0.30 FutureMoat + 0.15 Valuation</code>
+                <code>AdjustedBB = BB + 0.10 Momentum - 0.10 Risk</code>
+                <table class="metric-table">
+                  <thead>
+                    <tr>
+                      <th>構成要素</th>
+                      <th>重み</th>
+                      <th>役割</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>Moat</td><td>30%</td><td>既存の事業基盤と安定性。</td></tr>
+                    <tr><td>Transformation</td><td>25%</td><td>日本株再評価と資本効率改善。</td></tr>
+                    <tr><td>Future Moat</td><td>30%</td><td>AI時代の新しい成長基盤。</td></tr>
+                    <tr><td>Valuation</td><td>15%</td><td>高値づかみを避ける価格規律。</td></tr>
+                    <tr><td>Momentum</td><td>+10%</td><td>市場評価の確認。</td></tr>
+                    <tr><td>Risk</td><td>-10%</td><td>価格変動と下落リスクの控除。</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="detail-side">
+                <h4>なぜ有効か</h4>
+                <ul>
+                  <li><strong>一つの価値観に偏らない:</strong> 既存優良株、割安再評価株、未来成長株を同時に比較できる。</li>
+                  <li><strong>テーマと規律を両立:</strong> Future Moatを重視しつつ、ValuationとRiskで過度な期待先行を抑える。</li>
+                  <li><strong>最終選定の母集団を作る:</strong> AdjustedBB上位80社を選ぶことで、定量的に優位な候補だけを次段階に進める。</li>
+                </ul>
+                <div class="report-box">
+                  <strong>レポート接続文</strong>
+                  Beyond Buffett Scoreは、Buffett型の既存Moatに、日本株のTransformation MoatとAI時代のFuture Moatを加えた統合指標である。Adjusted Scoreでは、モメンタムを加点し、リスクを控除することで、成長期待と価格変動リスクのバランスを取った。
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="detail-card">
+            <div class="detail-card__header">
+              <h3>金融業の別処理</h3>
+              <p>銀行、保険、証券は一般事業会社と財務構造が異なるため、同じ営業CF・自己資本比率基準を機械的に当てない。</p>
+            </div>
+            <div class="detail-layout">
+              <div class="detail-main">
+                <table class="metric-table">
+                  <thead>
+                    <tr>
+                      <th>一般事業会社で重視</th>
+                      <th>金融業で重視</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>営業利益率、営業CF、自己資本比率</td><td>ROE、純利益・経常利益の安定性</td></tr>
+                    <tr><td>有利子負債倍率、OCFマージン</td><td>PBR、PER、配当利回り</td></tr>
+                    <tr><td>売上成長、営業利益成長</td><td>資本効率、株主還元、業種内相対評価</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="detail-side">
+                <h4>なぜ有効か</h4>
+                <ul>
+                  <li><strong>財務構造の違い:</strong> 金融業の負債や営業CFは、一般事業会社と同じ意味を持たない。</li>
+                  <li><strong>不自然な除外を避ける:</strong> 機械的な自己資本比率や営業CF基準では、金融業が過度に不利になる。</li>
+                  <li><strong>金融業に合う評価軸:</strong> ROE、PBR、利益安定性、株主還元は、金融銘柄の再評価余地を説明しやすい。</li>
+                </ul>
+                <div class="report-box">
+                  <strong>レポート接続文</strong>
+                  金融業については、一般事業会社と同じ営業CFや負債倍率を用いると評価が歪むため、ROE、PBR、利益安定性、株主還元を中心に業種内で相対評価した。これにより、金融業を機械的に排除せず、Transformation Moatの観点から評価できるようにした。
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section eligibility">
+        <div class="section__heading">
+          <p class="section__eyebrow">06 / Eligibility</p>
+          <h2>投資適格性フィルター</h2>
+        </div>
+        <div class="eligibility__content">
+          <div>
+            <p>
+              流動性を満たした銘柄に対して、財務データの欠損、自己資本比率、赤字継続、営業CF、過大レバレッジ、
+              PER・PBR・ROEなどの異常値、価格履歴不足を確認した。重複を含む除外理由の主な件数は以下の通り。
+            </p>
+            <table>
+              <thead>
+                <tr>
+                  <th>除外理由</th>
+                  <th>件数</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>財務データ欠損</td><td>262</td></tr>
+                <tr><td>自己資本比率10%未満</td><td>69</td></tr>
+                <tr><td>営業赤字の継続</td><td>151</td></tr>
+                <tr><td>営業CFマイナス継続</td><td>284</td></tr>
+                <tr><td>過大レバレッジ</td><td>73</td></tr>
+                <tr><td>バリュエーション異常値</td><td>14</td></tr>
+                <tr><td>収益性異常値</td><td>70</td></tr>
+                <tr><td>その他データ品質</td><td>38</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <aside>
+            <h3>金融業の扱い</h3>
+            <p>
+              銀行、保険、証券などは一般事業会社と財務構造が異なるため、営業CF、自己資本比率、
+              有利子負債倍率を同一基準で機械的に除外しない。金融業はROE、PBR、利益安定性、
+              株主還元、資本政策を中心に業種内で相対評価した。
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section final-selection">
+        <div class="section__heading">
+          <p class="section__eyebrow">07 / Final 20</p>
+          <h2>最終20社の選び方</h2>
+        </div>
+        <div class="roles">
+          <article>
+            <h3>役割別の枠</h3>
+            <ul>
+              <li>変わる堀: 6社</li>
+              <li>生まれる堀: 7社</li>
+              <li>守る堀: 5社</li>
+              <li>分散・橋渡し枠: 2社</li>
+            </ul>
+          </article>
+          <article>
+            <h3>分散制約</h3>
+            <ul>
+              <li>同一33業種は最大5社まで。</li>
+              <li>金融業は最大3社まで。</li>
+              <li>電力・ガスは最大3社まで。</li>
+              <li>同一銘柄の重複採用は不可。</li>
+            </ul>
+          </article>
+        </div>
+        <div class="scorebook__list compact">
+          <article>
+            <h3>変わる堀の役割スコア</h3>
+            <code>0.45 AdjustedBB + 0.25 Transformation + 0.20 Valuation + 0.10 Moat - 0.05 RiskPenalty</code>
+          </article>
+          <article>
+            <h3>生まれる堀の役割スコア</h3>
+            <code>0.45 AdjustedBB + 0.25 FutureMoat + 0.10 Moat + 0.05 Transformation - 0.04 RiskPenalty + themeBonus</code>
+          </article>
+          <article>
+            <h3>守る堀の役割スコア</h3>
+            <code>0.35 AdjustedBB + 0.35 Moat + 0.10 Transformation + 0.05 FutureMoat + 0.05 Valuation - 0.05 RiskPenalty + moatBonus</code>
+          </article>
+          <article>
+            <h3>分散・橋渡し枠の役割スコア</h3>
+            <code>0.45 AdjustedBB + 0.20 Moat + 0.15 Transformation + 0.10 FutureMoat + 0.10 Valuation - 0.05 RiskPenalty</code>
+          </article>
+        </div>
+        <div class="detail-stack">
+          <article class="detail-card">
+            <div class="detail-card__header">
+              <h3>役割別スコアを使う理由</h3>
+              <p>AdjustedBB上位だけで20社を選ぶと、似た特徴の銘柄に偏りやすい。そこで、最終段階では役割ごとの目的に合わせて重みを変えた。</p>
+            </div>
+            <div class="detail-layout">
+              <div class="detail-main">
+                <table class="metric-table">
+                  <thead>
+                    <tr>
+                      <th>役割</th>
+                      <th>重視する説明変数</th>
+                      <th>選定上の意味</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>変わる堀</td><td>AdjustedBB、Transformation、Valuation、Moat</td><td>再評価余地があり、かつ価格面の説得力がある企業を選ぶ。</td></tr>
+                    <tr><td>生まれる堀</td><td>AdjustedBB、FutureMoat、Moat、Transformation、themeBonus</td><td>AIインフラや省人化など、将来の堀に接続する企業を選ぶ。</td></tr>
+                    <tr><td>守る堀</td><td>AdjustedBB、Moat、Transformation、FutureMoat、moatBonus</td><td>ポートフォリオの安定性を支える既存優良企業を選ぶ。</td></tr>
+                    <tr><td>分散・橋渡し枠</td><td>AdjustedBB、Moat、Transformation、FutureMoat、Valuation</td><td>特定テーマへの偏りを抑え、全体のバランスを整える。</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="detail-side">
+                <h4>なぜ有効か</h4>
+                <ul>
+                  <li><strong>上位ランキング依存を避ける:</strong> スコア上位だけでは、モメンタムや特定業種に偏る可能性がある。</li>
+                  <li><strong>投資仮説を形にする:</strong> 守る堀、変わる堀、生まれる堀を明示的に配分することで、戦略の意図が読み手に伝わる。</li>
+                  <li><strong>分散を同時に満たす:</strong> 業種上限、金融業上限、電力・ガス上限を置き、テーマ集中と個別リスクを抑える。</li>
+                </ul>
+                <div class="report-box">
+                  <strong>レポート接続文</strong>
+                  最終20社は、AdjustedBB上位80社をそのまま採用したものではない。ポートフォリオ全体が「守る堀」「変わる堀」「生まれる堀」の三層構造になるよう、役割別スコアと分散制約を用いて選定した。これにより、定量スコアの高さと投資ストーリーの一貫性を両立させた。
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

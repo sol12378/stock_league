@@ -1,0 +1,2 @@
+status,reason,detected_periods
+unavailable,No reliable multi-period Phase1 formula snapshot with lookahead-safe filing dates was available.,"[[""effective_date"", 1], [""latest_date"", 9]]"

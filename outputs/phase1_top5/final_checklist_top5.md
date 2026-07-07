@@ -1,0 +1,22 @@
+# Final Checklist Top5
+
+- Ohlsonに必要な変数を探索したか: YES
+- Altmanに必要な変数を探索したか: YES
+- Ohlson原式の実装可否を正直に書いたか: YES
+- Altman原式の実装可否を正直に書いたか: YES
+- Simple distress guardrailを使ったか: YES
+- B/Mを使ったか: YES
+- E/Pを使ったか: YES
+- Gross Profitabilityを使ったか: YES
+- Piotroski available signal scoreを使ったか: YES
+- Sloan Accrualsを使ったか: YES
+- Liquidityを確認したか: YES
+- Anomaly reviewを行ったか: YES
+- Top5を出したか: YES
+- Top5の業種集中を確認したか: YES
+- Top5各社の採用理由を書いたか: YES
+- Top5を最終20社に組み込む計画を書いたか: YES
+- scriptsを実ファイルとして同梱したか: YES
+- READMEと実ファイル構成は一致しているか: YES
+- 独自重み付きスコアを作っていないか: YES
+- Future Moat / Transformation Moat / AI関連を使っていないか: YES

@@ -1,0 +1,8 @@
+item,value
+experiment_id,exp001
+financial_sector_companies,167
+financial_sector_liquid_20m_60d,151
+financial_sector_excluded_after_liquidity,7
+financial_sector_investment_eligible,144
+different_handling,"No mechanical low_equity_ratio, repeated_negative_operating_cf, excessive_leverage, operating_margin_outlier, or ROIC-style exclusion; use ROE, ordinary/net profit continuity, valuation outliers, price/liquidity, and core data availability instead."
+unavailable_financial_specific_data,"Bank capital adequacy, non-performing loan ratios, and insurer solvency margin are not available in the current structured dataset."

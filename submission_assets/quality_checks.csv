@@ -1,0 +1,7 @@
+check,passed,value
+liquidity_minus_eligible_equals_unique_excluded_total,True,2560 - 1963 = 597
+investment_eligible_equals_scored,True,1963 vs 1963
+final20_all_investment_eligible,True,True
+final20_has_primary_role,True,生まれる堀:7; 変わる堀:6; 守る堀:5; 分散・橋渡し枠:2
+investment_total_lte_capital,True,"4,999,452円"
+single_weight_lte_8pct,True,8.0%

@@ -1,0 +1,25 @@
+{
+  "project": "BEYOND BUFFETT",
+  "score_name": "Exploratory Weighted Buffett Score",
+  "selected_trial_id": 0,
+  "algorithm": "baseline",
+  "overall_weight_objective": 0.9616012840542285,
+  "positive_weights": {
+    "bm": 0.14285714285714285,
+    "distress": 0.14285714285714285,
+    "ep": 0.14285714285714285,
+    "gp": 0.14285714285714285,
+    "liquidity": 0.14285714285714285,
+    "piotroski": 0.14285714285714285,
+    "sloan": 0.14285714285714285
+  },
+  "penalty_weights": {
+    "anomaly": 0.12,
+    "microcap": 0.1,
+    "missing": 0.08,
+    "onetime": 0.1
+  },
+  "normalization_method": "market_percentile",
+  "missing_handling": "median_impute_with_missing_penalty",
+  "important_note": "This weighted score is exploratory and must not be described as the official Phase1 Buffett Core selection formula."
+}

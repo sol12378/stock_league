@@ -1,0 +1,13 @@
+path,exists,is_dir,size_bytes
+outputs/phase2_weight_optimization.zip,True,False,1412149
+outputs/phase2_weight_optimization,True,True,
+outputs/phase1_top5,True,True,
+outputs/phase1_buffett_complete,True,True,
+data/processed,True,True,
+data/raw,True,True,
+outputs/phase1_buffett_complete/screening_candidates_complete.csv,True,False,2756142
+outputs/phase1_top5/phase1_buffett_core_top5.csv,True,False,2975
+outputs/phase1_top5/phase1_top5_candidate_pool.csv,True,False,31399
+data/processed/scores.csv,True,False,5195154
+data/processed/fundamentals_clean.csv,True,False,1418350
+data/processed/prices_daily.parquet,True,False,66370845

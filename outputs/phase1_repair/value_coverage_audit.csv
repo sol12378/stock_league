@@ -1,0 +1,71 @@
+metric,count,coverage
+phase1_nonfinancial_universe_count,3169,1.0
+market_equity_available_count,3169,1.0
+bm_available_count,3089,0.9747554433575261
+ep_available_count,2750,0.8677816345850426
+bm_ep_both_available_count,2740,0.8646260650047334
+market_equity_method:close_times_edinet_shares_outstanding,3006,0.9485642158409593
+market_equity_method:raw_market_cap,163,0.05143578415904071
+bm_method:book_equity_over_market_equity,3088,0.9744398863994951
+bm_method:missing,80,0.025244556642473968
+bm_method:inverse_raw_pbr,1,0.0003155569580309246
+ep_method:net_income_over_market_equity,2750,0.8677816345850426
+ep_method:missing,419,0.1322183654149574
+sector_bm_coverage:Air Transportation,4,1.0
+sector_ep_coverage:Air Transportation,4,1.0
+sector_bm_coverage:Chemicals,185,1.0
+sector_ep_coverage:Chemicals,170,0.918918918918919
+sector_bm_coverage:Construction,134,0.9925925925925926
+sector_ep_coverage:Construction,133,0.9851851851851852
+sector_bm_coverage:Electric Appliances,189,0.9692307692307692
+sector_ep_coverage:Electric Appliances,160,0.8205128205128205
+sector_bm_coverage:Electric Power and Gas,26,1.0
+sector_ep_coverage:Electric Power and Gas,25,0.9615384615384616
+"sector_bm_coverage:Fishery, Agriculture and Forestry",11,1.0
+"sector_ep_coverage:Fishery, Agriculture and Forestry",11,1.0
+sector_bm_coverage:Foods,107,0.9907407407407407
+sector_ep_coverage:Foods,100,0.9259259259259259
+sector_bm_coverage:Glass and Ceramics Products,44,0.9777777777777777
+sector_ep_coverage:Glass and Ceramics Products,41,0.9111111111111111
+sector_bm_coverage:Information & Communication,496,0.9612403100775194
+sector_ep_coverage:Information & Communication,409,0.7926356589147286
+sector_bm_coverage:Iron and Steel,35,1.0
+sector_ep_coverage:Iron and Steel,33,0.9428571428571428
+sector_bm_coverage:Land Transportation,54,1.0
+sector_ep_coverage:Land Transportation,53,0.9814814814814815
+sector_bm_coverage:Machinery,188,0.9842931937172775
+sector_ep_coverage:Machinery,174,0.9109947643979057
+sector_bm_coverage:Marine Transportation,11,1.0
+sector_ep_coverage:Marine Transportation,11,1.0
+sector_bm_coverage:Metal Products,82,1.0
+sector_ep_coverage:Metal Products,69,0.8414634146341463
+sector_bm_coverage:Mining,4,1.0
+sector_ep_coverage:Mining,4,1.0
+sector_bm_coverage:Nonferrous Metals,29,0.9666666666666667
+sector_ep_coverage:Nonferrous Metals,25,0.8333333333333334
+sector_bm_coverage:Oil and Coal Products,8,1.0
+sector_ep_coverage:Oil and Coal Products,7,0.875
+sector_bm_coverage:Other Products,98,0.98
+sector_ep_coverage:Other Products,84,0.84
+sector_bm_coverage:Pharmaceutical,46,0.8363636363636363
+sector_ep_coverage:Pharmaceutical,27,0.4909090909090909
+sector_bm_coverage:Precision Instruments,38,0.95
+sector_ep_coverage:Precision Instruments,34,0.85
+sector_bm_coverage:Pulp and Paper,24,1.0
+sector_ep_coverage:Pulp and Paper,22,0.9166666666666666
+sector_bm_coverage:Real Estate,123,0.984
+sector_ep_coverage:Real Estate,118,0.944
+sector_bm_coverage:Retail Trade,294,0.9639344262295082
+sector_ep_coverage:Retail Trade,259,0.8491803278688524
+sector_bm_coverage:Rubber Products,12,0.9230769230769231
+sector_ep_coverage:Rubber Products,11,0.8461538461538461
+sector_bm_coverage:Services,447,0.9717391304347827
+sector_ep_coverage:Services,391,0.85
+sector_bm_coverage:Textiles and Apparels,41,0.9534883720930233
+sector_ep_coverage:Textiles and Apparels,35,0.813953488372093
+sector_bm_coverage:Transportation Equipment,66,0.9850746268656716
+sector_ep_coverage:Transportation Equipment,58,0.8656716417910447
+sector_bm_coverage:Warehousing and Harbor Transportation Service,30,0.967741935483871
+sector_ep_coverage:Warehousing and Harbor Transportation Service,31,1.0
+sector_bm_coverage:Wholesale Trade,263,0.9887218045112782
+sector_ep_coverage:Wholesale Trade,251,0.943609022556391

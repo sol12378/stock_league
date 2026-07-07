@@ -1,0 +1,15 @@
+file,section,caption,reading
+figures/background/01_buffett_vs_beyond_buffett.png,導入,バフェット型投資とBEYOND BUFFETTの違い,完成された堀から進化する堀へ視点を広げる。
+figures/background/02_four_roles.png,選定方針,ポートフォリオを構成する4つの役割,20社は役割分担で説明する。
+figures/background/03_evolving_moat.png,投資テーマ,完成された堀から進化する堀へ,守る・変わる・生まれる堀を連続的に捉える。
+figures/background/04_three_turning_points.png,市場環境,現代日本株の3つの転換点,資本効率改革とAIインフラ化が企業価値を変える。
+figures/background/05_three_requirements.png,投資テーマ,BEYOND BUFFETT企業の3要件,3要件の重なりを評価する。
+figures/background/06_issue_requirement_screening.png,スクリーニング,課題・要件・スクリーニング対応表,各課題をどのスクリーニングで確認したか示す。
+figures/background/07_ai_infrastructure_map.png,Future Moat,AI時代の産業基盤マップ,AI関連をモデル企業だけに限定しない。
+figures/background/08_company_matrix.png,最終20社,企業分類マトリクス,変革余地とFuture Moatの位置を比較する。
+figures/background/09_screening_funnel.png,スクリーニング,スクリーニング・ファネル,投資可能性から最終20社までの整合性を示す。
+figures/background/10_final20_role_map.png,最終20社,最終20社の役割マップ,各社の主役割を一覧化する。
+figures/analysis/score_correlation_heatmap.png,スコア検証,スコア相関,単一スコアへの依存を確認する。
+figures/analysis/cumulative_return_comparison.png,バックテスト,累積リターン比較,最終20社と指数を比較する。
+figures/analysis/drawdown_chart.png,リスク,ドローダウン,下落局面の大きさを確認する。
+figures/analysis/contribution_by_stock.png,寄与分析,銘柄別寄与度,寄与集中の有無を確認する。

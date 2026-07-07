@@ -1,0 +1,7 @@
+topn: [20, 50, 100, 300, 500, 1000, 1200, 1500]
+stability:
+  bootstrap_iterations: 120
+  normalization_methods: [market_percentile, sector_percentile, winsorized_zscore, robust_zscore]
+return_validation:
+  role: reference_only
+  not_primary_objective: true

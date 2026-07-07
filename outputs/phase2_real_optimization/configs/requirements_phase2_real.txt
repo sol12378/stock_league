@@ -1,0 +1,7 @@
+optuna==4.9.0
+pymoo==0.6.1.5
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib

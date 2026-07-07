@@ -1,0 +1,35 @@
+{
+  "project": "BEYOND BUFFETT",
+  "phase": "Phase2 Weight Optimization Experiment",
+  "created_at": "2026-07-08T00:23:11+09:00",
+  "description": "Phase1で使用した先行研究式の重み最適化を行う探索実験。正式な銘柄選定式ではなく、Phase3候補探索のための感度分析として位置づける。",
+  "input_files": [
+    "data/processed/scores.csv",
+    "data/processed/fundamentals_clean.csv",
+    "data/processed/fundamentals_raw.csv",
+    "data/processed/latest_prices.csv",
+    "data/processed/yfinance_metrics.csv",
+    "data/processed/prices_daily.parquet",
+    "outputs/phase1_top5/phase1_buffett_core_top5.csv",
+    "outputs/phase1_top5/phase1_top5_candidate_pool.csv",
+    "outputs/phase1_top5/report_tables/phase1_top5_screening_funnel.csv",
+    "outputs/phase1_top5/report_tables/phase1_top5_metrics_table.csv",
+    "outputs/phase1_buffett_complete/screening_candidates_complete.csv"
+  ],
+  "main_outputs": [
+    "reports/weight_optimization_report.md",
+    "reports/phase1_vs_weighted_experiment_report.md",
+    "reports/limitations.md",
+    "reports/phase3_handoff_from_weight_experiment.md",
+    "rankings/exploratory_weighted_ranking_all.csv",
+    "rankings/exploratory_weighted_top100.csv",
+    "rankings/exploratory_weighted_top300.csv",
+    "rankings/exploratory_weighted_top1000.csv",
+    "rankings/phase1_top5_rank_check.csv",
+    "optimization/all_weight_trials.csv",
+    "optimization/best_weight_trials.csv",
+    "optimization/pareto_weight_solutions.csv",
+    "optimization/selected_weight_solution.json"
+  ],
+  "important_note": "This weighted score is exploratory and must not be described as the official Phase1 Buffett Core selection formula."
+}

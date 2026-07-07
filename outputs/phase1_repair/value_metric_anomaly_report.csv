@@ -1,0 +1,130 @@
+code,company_name,sector,bm_raw,ep_raw,market_equity_final,anomaly_flags
+6675,"SAXA,Inc.",Electric Appliances,2.7866595192696706,0.6279132683518839,11039741234.0,extreme_high_ep_top1pct
+4976,"TOYO DRILUBE CO.,LTD.",Chemicals,5.952482720958137,0.4059028223334127,1742515600.0,extreme_high_bm_top1pct
+6217,TSUDAKOMA Corp.,Machinery,,,8808300445.0,book_equity_market_equity_scale_check
+6513,"Origin Company,Limited",Electric Appliances,4.562416244951553,0.0852951776008086,5675092234.0,extreme_high_bm_top1pct
+6772,"Tokyo Cosmos Electric Co.,Ltd.",Electric Appliances,4.639266979155057,0.5153492468066291,1632914000.0,extreme_high_bm_top1pct;extreme_high_ep_top1pct
+4119,Nippon Pigment Holdings Company Limited,Chemicals,2.4998928214959824,0.5822166854545188,8632794500.0,extreme_high_ep_top1pct
+4635,"TOKYO PRINTING INK MFG.CO.,LTD.",Chemicals,9.354728654462726,0.457842641397056,3188868550.0,extreme_high_bm_top1pct
+4008,"Sumitomo Seika Chemicals Company,Limited.",Chemicals,5.6570385109242745,0.3575537213039655,16671620640.0,extreme_high_bm_top1pct
+4116,"Dainichiseika Color & Chemicals Mfg.Co.,Ltd.",Chemicals,7.553085315367375,0.762965973372359,17277310470.0,extreme_high_bm_top1pct;extreme_high_ep_top1pct
+7034,"Prored Partners CO.,LTD.",Services,2.86284908454678,1.1281499698604336,4154008000.0,extreme_high_ep_top1pct
+7771,"Nihon Seimitsu Co.,Ltd.",Precision Instruments,,,7511752259.0,book_equity_market_equity_scale_check
+5729,"NIHON SEIKO CO.,LTD",Nonferrous Metals,3.157979799669256,0.6499922511622728,3778631200.0,extreme_high_ep_top1pct
+7256,"KASAI KOGYO CO.,LTD.",Transportation Equipment,,,14296221504.0,book_equity_market_equity_scale_check
+6059,"UCHIYAMA HOLDINGS Co.,Ltd.",Services,2.1093866531046976,0.5130007946447758,6751821900.0,extreme_high_ep_top1pct
+3443,"KAWADA TECHNOLOGIES,INC.",Metal Products,4.521292353321165,0.5508857668643782,20252837650.0,extreme_high_ep_top1pct
+6664,"OPTOELECTRONICS CO.,LTD.",Electric Appliances,1.4051182322243967,0.5748374646662318,3679200000.0,extreme_high_ep_top1pct
+4914,TAKASAGO INTERNATIONAL CORPORATION,Chemicals,6.871953337584902,0.6407983593000498,21303113221.0,extreme_high_bm_top1pct;extreme_high_ep_top1pct
+8046,"MARUFUJI SHEET PILING CO.,LTD.",Wholesale Trade,10.435943432772763,0.5176465506652467,2963412000.0,extreme_high_bm_top1pct;extreme_high_ep_top1pct;book_equity_market_equity_scale_check
+3798,"ULS Group,Inc.",Information & Communication,3.635223515424532,0.5880049488161639,2882628800.0,extreme_high_ep_top1pct
+8006,"YUASA FUNASHOKU Co.,Ltd.",Wholesale Trade,5.807256622068278,0.3041755630841665,6769117082.0,extreme_high_bm_top1pct
+6740,Japan Display Inc.,Electric Appliances,,,209541251072.0,book_equity_market_equity_scale_check
+1798,MORIYA CORPORATION,Construction,7.427956472163237,0.7696978931785171,2146029000.0,extreme_high_bm_top1pct;extreme_high_ep_top1pct
+7777,"3-D Matrix,Ltd.",Precision Instruments,,,43563505488.0,book_equity_market_equity_scale_check
+7887,"NANKAI PLYWOOD CO.,LTD.",Other Products,16.160700938157447,,1513920720.0,extreme_high_bm_top1pct;book_equity_market_equity_scale_check
+5445,"TOKYO TEKKO CO.,LTD.",Iron and Steel,3.8043713735119606,0.7048341316825955,15695891420.0,extreme_high_ep_top1pct
+6753,Sharp Corporation,Electric Appliances,,,408928967066.3778,book_equity_market_equity_scale_check
+4404,"Miyoshi Oil & Fat Co.,Ltd.",Foods,2.210393923453058,0.5019902397868293,19305156220.0,extreme_high_ep_top1pct
+5451,"YODOKO,Ltd.",Iron and Steel,6.088685152290662,0.4253475291401267,35331109200.0,extreme_high_bm_top1pct
+2769,"Village Vanguard CO.,LTD.",Retail Trade,,,6391067000.0,book_equity_market_equity_scale_check
+6444,SANDEN CORPORATION,Machinery,,,17819577267.0,book_equity_market_equity_scale_check
+3538,WILLPLUS Holdings Corporation,Retail Trade,1.4024663698643778,0.4916576253206854,8702336300.0,extreme_high_ep_top1pct
+3143,O'will Corporation,Wholesale Trade,2.7221336642102805,0.4736810056900317,1934576200.0,extreme_high_ep_top1pct
+1972,"SANKO METAL INDUSTRIAL CO.,LTD.",Construction,5.872611119388193,0.6372486183123889,4615153200.0,extreme_high_bm_top1pct;extreme_high_ep_top1pct
+5932,"Sankyo Tateyama,Inc.",Metal Products,4.891692395199802,,19380613567.0,extreme_high_bm_top1pct
+2146,"UT Group Co.,Ltd.",Services,5.029684116829541,1.4965951582934691,7221725889.0,extreme_high_bm_top1pct;extreme_high_ep_top1pct
+7215,"FALTEC Co.,Ltd.",Transportation Equipment,5.045679821143538,0.1308793086333476,4248188700.0,extreme_high_bm_top1pct
+2334,eole Inc.,Services,,,1603588920.0,book_equity_market_equity_scale_check
+5602,"Kurimoto,Ltd.",Iron and Steel,5.287539962581643,0.4187554202531729,16771126200.0,extreme_high_bm_top1pct
+8057,"UCHIDA YOKO CO.,LTD.",Wholesale Trade,3.543090566391733,0.4937458458948836,19983965601.0,extreme_high_ep_top1pct
+8078,"HANWA CO.,LTD.",Wholesale Trade,5.464287205831343,0.6473469373175293,71275536100.0,extreme_high_bm_top1pct;extreme_high_ep_top1pct
+9008,Keio Corporation,Land Transportation,4.810417889203984,0.498442507797169,86220575748.90503,extreme_high_bm_top1pct;extreme_high_ep_top1pct
+2340,"GOKURAKUYU HOLDINGS CO.,LTD.",Services,,0.0582049156686131,14859105800.0,book_equity_market_equity_scale_check
+9760,"SHINGAKUKAI HOLDINGS CO.,LTD.",Services,7.558527922749447,,2064886200.0,extreme_high_bm_top1pct
+6955,FDK CORPORATION,Electric Appliances,,0.0374767899645341,14595700446.0,book_equity_market_equity_scale_check
+9130,"KYOEI TANKER CO.,LTD.",Marine Transportation,2.461903490437214,0.5021790408408564,10179088700.0,extreme_high_ep_top1pct
+6166,"NAKAMURA CHOUKOU CO.,LTD.",Machinery,,,5003488600.0,book_equity_market_equity_scale_check
+7212,F-TECH INC.,Transportation Equipment,5.145526872888359,,12485796224.0,extreme_high_bm_top1pct
+1866,KITANO CONSTRUCTION CORP.,Construction,7.958711452655596,0.571596884274657,5934252081.0,extreme_high_bm_top1pct;extreme_high_ep_top1pct
+8219,"AOYAMA TRADING Co.,Ltd.",Retail Trade,5.753480929211984,0.2840810873006879,33078583616.0,extreme_high_bm_top1pct
+3174,"Happiness and D Co.,Ltd.",Retail Trade,,,1321270200.0,book_equity_market_equity_scale_check
+7898,"WOOD ONE CO.,LTD.",Other Products,5.658205052272892,0.2312205510903817,8061567154.0,extreme_high_bm_top1pct
+3663,"CELSYS,Inc.",Information & Communication,,0.0329846799323196,50966145600.0,book_equity_market_equity_scale_check
+6181,Tameny Inc.,Services,,,1948316400.0,book_equity_market_equity_scale_check
+5707,"Toho Zinc Co.,Ltd.",Nonferrous Metals,,,13279108938.0,book_equity_market_equity_scale_check
+1518,"MITSUI MATSUSHIMA HOLDINGS CO.,LTD.",Other Products,4.173219273964876,0.5551673477116726,15690764300.0,extreme_high_ep_top1pct
+7214,GMB CORPORATION,Transportation Equipment,6.809732406344733,0.2518337973651101,4989981540.0,extreme_high_bm_top1pct
+5491,"NIPPON KINZOKU CO.,LTD.",Iron and Steel,4.598095411965398,0.1160418249070819,6058160500.0,extreme_high_bm_top1pct
+2686,"GFOOT CO.,LTD.",Retail Trade,,,12600305600.0,book_equity_market_equity_scale_check
+8165,"SENSHUKAI CO.,LTD.",Retail Trade,5.450404066495383,0.7815796816534065,5519590774.0,extreme_high_bm_top1pct;extreme_high_ep_top1pct
+6993,"Daikokuya Holdings Co.,Ltd.",Retail Trade,,,17511894494.0,book_equity_market_equity_scale_check
+2291,"FUKUTOME MEAT PACKERS,LTD.",Foods,,,1791646800.0,book_equity_market_equity_scale_check
+7090,Ligua Inc.,Services,,,1348540500.0,book_equity_market_equity_scale_check
+5103,"Showa Holdings Co.,Ltd.",Rubber Products,,,2958057414.0,book_equity_market_equity_scale_check
+3905,Datasection Inc.,Information & Communication,0.1219580015669164,,157590716416.0,book_equity_market_equity_scale_check
+7831,Wellco Holdings Corporation,Other Products,,,1179691000.0,book_equity_market_equity_scale_check
+2998,CREAL Inc.,Real Estate,1.9896576397850716,0.5098456791311171,2650594200.0,extreme_high_ep_top1pct
+6696,TRaaS On Product Inc.,Electric Appliances,,,1486682428.0,book_equity_market_equity_scale_check
+3111,"OMIKENSHI CO.,LTD.",Textiles and Apparels,4.828208478284886,0.2484924589956194,1207280097.0,extreme_high_bm_top1pct
+4436,"MINKABU THE INFONOID,Inc.",Information & Communication,,,6908453800.0,book_equity_market_equity_scale_check
+8254,"Saikaya Department Store Co.,Ltd.",Retail Trade,,0.1059794763445984,1040342940.0,book_equity_market_equity_scale_check
+2776,"SHINTO Holdings,Inc.",Wholesale Trade,,0.0450818284088107,6368796700.0,book_equity_market_equity_scale_check
+4448,"kubell Co.,Ltd.",Information & Communication,,0.0165488412769265,12994927947.0,book_equity_market_equity_scale_check
+9973,"KOZO Holdings Co.,Ltd.",Retail Trade,,,6481515678.0,book_equity_market_equity_scale_check
+3224,"General Oyster,Inc.",Retail Trade,,,3665356800.0,book_equity_market_equity_scale_check
+9250,GRCS Inc.,Services,,,1443740760.0,book_equity_market_equity_scale_check
+3370,"FUJITA CORPORATION Co.,Ltd.",Retail Trade,,0.0653029052162136,1713476600.0,book_equity_market_equity_scale_check
+4073,"Global Communication Planning Co.,Ltd.",Information & Communication,,,1228910880.0,book_equity_market_equity_scale_check
+7992,"The Sailor Pen Co.,Ltd.",Other Products,,,3142195524.0,book_equity_market_equity_scale_check
+7074,Twenty-four seven Holdings Inc.,Services,,,1408692600.0,book_equity_market_equity_scale_check
+4381,"BPLATS,Inc.",Information & Communication,,,749737264.0,book_equity_market_equity_scale_check
+1783,"Fantasista Co.,Ltd.",Real Estate,,,9522388456.0,book_equity_market_equity_scale_check
+4777,GALA INCORPORATED,Information & Communication,,,6081403300.0,book_equity_market_equity_scale_check
+4490,VisasQ Inc.,Information & Communication,,0.1484811357417382,6006830400.0,book_equity_market_equity_scale_check
+7946,KOYOSHA INC.,Other Products,9.00418673523175,0.414966622807547,198818400.0,extreme_high_bm_top1pct
+4813,"ACCESS CO.,LTD.",Information & Communication,,,18855912600.0,book_equity_market_equity_scale_check
+5341,"ASAHI EITO HOLDINGS CO.,LTD.",Glass and Ceramics Products,,,1528221552.0,book_equity_market_equity_scale_check
+3753,FLIGHT SOLUTIONS Inc.,Information & Communication,,,2127745500.0,book_equity_market_equity_scale_check
+8107,KIMURATAN CORPORATION,Textiles and Apparels,,,8440591830.0,book_equity_market_equity_scale_check
+3681,"V-cube,Inc.",Information & Communication,,,621060000.0,book_equity_market_equity_scale_check
+5597,"Blue innovation Co.,Ltd.",Information & Communication,,,7253929599.0,book_equity_market_equity_scale_check
+4584,Kidswell Bio Corporation,Pharmaceutical,,0.078592061419813,7096569169.0,book_equity_market_equity_scale_check
+3628,"DATA HORIZON CO.,LTD.",Information & Communication,,,7728989520.0,book_equity_market_equity_scale_check
+4881,FunPep Company Limited,Pharmaceutical,,,2373168600.0,book_equity_market_equity_scale_check
+6085,ARCHITECTS STUDIO JAPAN INC.,Services,,,41460226914.0,book_equity_market_equity_scale_check
+3409,"KITABO CO.,LTD",Textiles and Apparels,,,2688854812.0,book_equity_market_equity_scale_check
+1711,"SDS HOLDINGS Co.,Ltd.",Construction,,,2322816771.0,book_equity_market_equity_scale_check
+4179,G-NEXT Inc.,Information & Communication,,,1730356804.0,book_equity_market_equity_scale_check
+4563,"AnGes,Inc.",Pharmaceutical,,,18990064800.0,book_equity_market_equity_scale_check
+4893,Noile-Immune Biotech Inc.,Pharmaceutical,,,5845724775.0,book_equity_market_equity_scale_check
+9327,"e-LogiT co.,ltd.",Warehousing and Harbor Transportation Service,,0.0722435640493068,1712443200.0,book_equity_market_equity_scale_check
+6173,Aqualine Ltd.,Services,,,90260677.0,book_equity_market_equity_scale_check
+3823,"THE WHY HOW DO COMPANY,Inc.",Information & Communication,,,4731144948.0,book_equity_market_equity_scale_check
+8894,"REVOLUTION CO.,LTD.",Real Estate,5.962257372324668,,3032865888.0,extreme_high_bm_top1pct
+4598,"Delta-Fly Pharma,Inc.",Pharmaceutical,,,1584110500.0,book_equity_market_equity_scale_check
+3133,"kaihan co.,Ltd.",Retail Trade,,,8474367450.0,book_equity_market_equity_scale_check
+9610,WILSON LEARNING WORLDWIDE INC.,Services,,,904336740.0,book_equity_market_equity_scale_check
+3787,"Techno Mathematical Co.,Ltd.",Information & Communication,,,860876000.0,book_equity_market_equity_scale_check
+5856,"Life Intelligent Enterprise Holdings Co.,Ltd.",Retail Trade,4.190649271975942,0.7282220530743929,762646500.0,extreme_high_ep_top1pct
+4575,"CanBas Co.,Ltd.",Pharmaceutical,,,11683970915.0,book_equity_market_equity_scale_check
+4438,Welby Inc.,Information & Communication,,,2176478066.0,book_equity_market_equity_scale_check
+3667,"enish,inc.",Information & Communication,,,1363409760.0,book_equity_market_equity_scale_check
+6573,CRAVIA Inc.,Services,,,976867320.0,book_equity_market_equity_scale_check
+3237,"INTRANCE CO.,LTD.",Real Estate,,,3254466880.0,book_equity_market_equity_scale_check
+7603,"Gyet Co.,Ltd.",Retail Trade,,,5215793660.0,book_equity_market_equity_scale_check
+6731,PIXELA CORPORATION,Electric Appliances,,,14127926088.0,book_equity_market_equity_scale_check
+2667,"ImageONE Co.,Ltd.",Wholesale Trade,,,2695929600.0,book_equity_market_equity_scale_check
+6721,Wintest Corp.,Electric Appliances,,,4528280800.0,book_equity_market_equity_scale_check
+3750,"ADR120S,Inc.",Information & Communication,,,7160431638.0,book_equity_market_equity_scale_check
+3810,"CyberStep Holdings,Inc.",Information & Communication,,,4245538944.0,book_equity_market_equity_scale_check
+4564,"OncoTherapy Science,Inc.",Pharmaceutical,4.719379191781941,,5830515600.0,extreme_high_bm_top1pct
+2656,Vector HOLDINGS Inc.,Retail Trade,,,4333403400.0,book_equity_market_equity_scale_check
+9348,"ispace,inc.",Services,,,62229053124.0,book_equity_market_equity_scale_check
+7063,Birdman Inc.,Services,,,1738020500.0,book_equity_market_equity_scale_check
+2338,"Quantum Solutions Co.,Ltd.",Information & Communication,,,6682073448.0,book_equity_market_equity_scale_check
+2134,"Kitahama Capital Partners Co.,Ltd.",Services,,,15163595804.0,book_equity_market_equity_scale_check
+2721,J-Holdings Corp.,Wholesale Trade,,,1131427500.0,book_equity_market_equity_scale_check
+4594,"BrightPath Biotherapeutics Co.,Ltd.",Pharmaceutical,,,5045830200.0,book_equity_market_equity_scale_check
+4882,Perseus Proteomics Inc.,Pharmaceutical,,,2256673500.0,book_equity_market_equity_scale_check
+4582,SymBio Pharmaceuticals Limited,Pharmaceutical,,,5383312950.0,book_equity_market_equity_scale_check

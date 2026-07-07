@@ -1,0 +1,13 @@
+missing_handling,topn,jaccard
+neutral_rank_with_missing_penalty,100,0.9801980198019802
+neutral_rank_with_missing_penalty,300,0.948051948051948
+neutral_rank_with_missing_penalty,1000,0.9249278152069298
+neutral_rank_with_missing_penalty,1200,0.9230769230769231
+median_impute_with_missing_penalty,100,0.9801980198019802
+median_impute_with_missing_penalty,300,0.9672131147540983
+median_impute_with_missing_penalty,1000,0.9286403085824494
+median_impute_with_missing_penalty,1200,0.9308125502815768
+exclude_if_core_missing,100,1.0
+exclude_if_core_missing,300,1.0
+exclude_if_core_missing,1000,1.0
+exclude_if_core_missing,1200,1.0

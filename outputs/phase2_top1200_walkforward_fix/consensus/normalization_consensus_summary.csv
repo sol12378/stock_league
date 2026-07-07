@@ -1,0 +1,6 @@
+metric,value
+normalization_core_count,1024
+normalization_robust_count,1320
+normalization_fragile_count,29
+sector_adjusted_candidate_count,181
+outlier_sensitive_count,1338

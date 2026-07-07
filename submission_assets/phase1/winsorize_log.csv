@@ -1,0 +1,2 @@
+metric,winsor_lower,winsor_upper,raw_min,raw_max,winsor_min,winsor_max
+accruals,0.01,0.99,-1.2882622757216093,0.499992233447449,-0.26980696863040654,0.19742227953923633

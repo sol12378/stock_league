@@ -1,0 +1,6 @@
+code,company_name,phase1_top5_order,weighted_rank,weighted_score,in_top100,in_top300,in_top1000,in_top1200,in_selected_topn
+3539,"JM HOLDINGS CO.,LTD.",1,46,0.9545126937979272,True,True,True,True,True
+4350,"MEDICAL SYSTEM NETWORK Co.,Ltd.",2,355,0.9085700636774872,False,False,True,True,True
+6430,"DAIKOKU DENKI CO.,LTD.",3,72,0.9463890451018464,True,True,True,True,True
+7803,Bushiroad Inc.,4,75,0.9461874584572638,True,True,True,True,True
+9470,"GAKKEN HOLDINGS CO.,LTD.",5,136,0.9329350394286179,False,True,True,True,True

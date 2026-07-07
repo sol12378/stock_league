@@ -1,0 +1,21 @@
+code,company_name,sector,price,shares,investment_amount,weight,cash_remaining,allocation_note
+3539,"JM HOLDINGS CO.,LTD.",Retail Trade,1248.0,200,249600.0,0.04992,7300.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+4350,"MEDICAL SYSTEM NETWORK Co.,Ltd.",Retail Trade,514.0,500,257000.0,0.0514,7300.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+9990,SAC'S BAR HOLDINGS INC.,Retail Trade,712.0,300,213600.0,0.04272,7300.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+8278,"FUJI CO.,LTD.",Retail Trade,1927.0,200,385400.0,0.07708,7300.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+6430,"DAIKOKU DENKI CO.,LTD.",Machinery,2085.0,100,208500.0,0.0417,7300.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+7803,Bushiroad Inc.,Other Products,258.0,900,232200.0,0.04644,7300.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+9470,"GAKKEN HOLDINGS CO.,LTD.",Information & Communication,941.0,200,188200.0,0.03764,7300.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+9274,"KPP GROUP HOLDINGS CO.,LTD.",Wholesale Trade,972.0,200,194400.0,0.03888,7300.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+9507,"Shikoku Electric Power Company,Incorporated",Electric Power and Gas,1416.0,100,141600.0,0.02832,7300.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+6454,"MAX CO.,LTD.",Machinery,1640.0,200,328000.0,0.0656,7300.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+1873,"NIHON HOUSE HOLDINGS CO.,LTD.",Construction,289.0,800,231200.0,0.04624,7300.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+2918,"WARABEYA NICHIYO HOLDINGS CO.,LTD.",Foods,2616.0,100,261600.0,0.05232,7300.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+6257,"FUJISHOJI CO.,LTD.",Machinery,995.0,200,199000.0,0.0398,7300.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+4093,"Toho Acetylene Co.,Ltd.",Chemicals,385.0,600,231000.0,0.0462,7300.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+6286,SEIKO CORPORATION,Machinery,1450.0,200,290000.0,0.058,7300.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+6718,"AIPHONE CO.,LTD.",Electric Appliances,2682.0,100,268200.0,0.05364,7300.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+4433,"HITO-Communications Holdings,Inc.",Services,830.0,300,249000.0,0.0498,7300.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+2915,"KENKO Mayonnaise Co.,Ltd.",Foods,1932.0,200,386400.0,0.07728,7300.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+2733,ARATA CORPORATION,Wholesale Trade,2503.0,100,250300.0,0.05006,7300.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+6658,"Shirai Electronics Industrial Co.,Ltd.",Electric Appliances,455.0,500,227500.0,0.0455,7300.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.

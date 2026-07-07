@@ -1,0 +1,6 @@
+step,criterion,count_before,count_after,removed_count,explanation,source_paper
+0_universe,included_phase1 == True,3137,3137,0,"Non-financial, price history >= 500 days, and minimum financial fields available.",Repository data audit
+1_value,B/M top 30% and positive E/P top 50%,3137,46,3091,Strict value screen.,Fama-French; Basu
+2_quality_financial_strength,available Piotroski F-Score >= 6,46,9,37,Financial strength screen using available signals.,Piotroski (2000)
+3_earnings_quality,Sloan accruals not in worst 30%,9,9,0,High accrual firms excluded.,Sloan (1996)
+4_distress,Ohlson/Altman extreme tail exclusion if available,9,9,0,No exclusion applied because original formulas are unavailable.,Ohlson; Altman

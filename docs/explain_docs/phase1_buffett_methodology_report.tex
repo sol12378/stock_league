@@ -1,0 +1,1079 @@
+
+\documentclass[11pt,a4paper]{article}
+\usepackage{xeCJK}
+\setCJKmainfont{Noto Serif CJK JP}
+\setCJKsansfont{Noto Sans CJK JP}
+\setCJKmonofont{Noto Sans Mono CJK JP}
+\usepackage{fontspec}
+\setmainfont{Noto Serif}
+\setsansfont{Noto Sans}
+\setmonofont{Noto Sans Mono}
+\usepackage[a4paper,top=20mm,bottom=22mm,left=20mm,right=20mm]{geometry}
+\usepackage{amsmath,amssymb,mathtools,bm}
+\usepackage{booktabs,longtable,tabularx,array,multirow}
+\usepackage[dvipsnames,table]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,shapes.geometric,calc,fit,matrix,backgrounds}
+\usepackage[most]{tcolorbox}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{bookmark}
+\usepackage{float}
+\usepackage{siunitx}
+\hypersetup{colorlinks=true,linkcolor=blue!40!black,citecolor=blue!40!black,urlcolor=blue!40!black}
+\setlength{\parskip}{0.55em}
+\setlength{\parindent}{0pt}
+\renewcommand{\arraystretch}{1.22}
+\captionsetup[figure]{labelfont=bf,font=small}
+\captionsetup[table]{labelfont=bf,font=small,position=top}
+\setlength{\headheight}{14pt}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{BEYOND BUFFETT Phase1 Methodology}
+\rhead{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\definecolor{MainBlue}{HTML}{164A7A}
+\definecolor{MainGreen}{HTML}{2E7D5B}
+\definecolor{LightBlue}{HTML}{EAF3FF}
+\definecolor{LightGreen}{HTML}{EAF7F0}
+\definecolor{LightYellow}{HTML}{FFF7DF}
+\definecolor{LightRed}{HTML}{FFF0F0}
+\definecolor{DarkGray}{HTML}{3C3C3C}
+\definecolor{Accent}{HTML}{C47F00}
+\titleformat{\section}{\Large\bfseries\sffamily\color{MainBlue}}{\thesection}{0.75em}{}
+\titleformat{\subsection}{\large\bfseries\sffamily\color{MainGreen}}{\thesubsection}{0.6em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries\sffamily\color{DarkGray}}{\thesubsubsection}{0.5em}{}
+\newcommand{\BE}{\mathrm{BE}}
+\newcommand{\ME}{\mathrm{ME}}
+\newcommand{\NI}{\mathrm{NI}}
+\newcommand{\TA}{\mathrm{TA}}
+\newcommand{\TL}{\mathrm{TL}}
+\newcommand{\GP}{\mathrm{GP}}
+\newcommand{\COGS}{\mathrm{COGS}}
+\newcommand{\CFO}{\mathrm{CFO}}
+\newcommand{\WC}{\mathrm{WC}}
+\newcommand{\RE}{\mathrm{RE}}
+\newcommand{\MVE}{\mathrm{MVE}}
+\newcommand{\BMratio}{\mathrm{B/M}}
+\newcommand{\EPratio}{\mathrm{E/P}}
+\newcommand{\GPA}{\mathrm{GP/A}}
+\newcommand{\Acc}{\mathrm{Accruals}}
+\newcommand{\ADV}{\mathrm{ADV}}
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\first}{first}
+\DeclareMathOperator{\sort}{sort}
+\newcommand{\ind}{\mathbb{1}}
+\newtcolorbox{keybox}[1][]{enhanced,breakable,colback=LightBlue,colframe=MainBlue,title=#1,fonttitle=\bfseries\sffamily,boxrule=0.8pt,arc=2mm,left=2.5mm,right=2.5mm,top=1.5mm,bottom=1.5mm}
+\newtcolorbox{warnbox}[1][]{enhanced,breakable,colback=LightYellow,colframe=Accent,title=#1,fonttitle=\bfseries\sffamily,boxrule=0.8pt,arc=2mm,left=2.5mm,right=2.5mm,top=1.5mm,bottom=1.5mm}
+\newtcolorbox{defbox}[1][]{enhanced,breakable,colback=LightGreen,colframe=MainGreen,title=#1,fonttitle=\bfseries\sffamily,boxrule=0.8pt,arc=2mm,left=2.5mm,right=2.5mm,top=1.5mm,bottom=1.5mm}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\begin{document}
+
+\begin{titlepage}
+\centering
+\vspace*{14mm}
+{\Huge\bfseries\sffamily\color{MainBlue} BEYOND BUFFETT\\[2mm] Phase1 解説レポート}\par
+\vspace{6mm}
+{\Large 先行研究式による「守る堀」の定量化}\par
+\vspace{5mm}
+{\large Buffett Proxy Portfolio をどう構成するか}\par
+\vspace{13mm}
+\begin{tikzpicture}[node distance=16mm,>=Stealth]
+\node[draw,rounded corners,fill=LightBlue,minimum width=34mm,minimum height=12mm,align=center] (s) {守\\先行研究式};
+\node[draw,rounded corners,fill=LightYellow,minimum width=34mm,minimum height=12mm,align=center,right=of s] (h) {破\\適用条件の最適化};
+\node[draw,rounded corners,fill=LightGreen,minimum width=34mm,minimum height=12mm,align=center,right=of h] (r) {離\\変わるMoat\\生まれるMoat};
+\draw[->,thick] (s) -- (h);
+\draw[->,thick] (h) -- (r);
+\end{tikzpicture}
+\vfill
+\begin{keybox}[このPDFの目的]
+本資料は、簿記や株式投資の知識がない読者でも、Phase1で使う式の意味、変数、出典、選定理由、そしてそれらがなぜバフェット型投資の「守」を表すのかを0から理解できるように作成した方法論レポートである。数式は、式番号・変数定義・参照を明確にし、文中の英字は必要に応じてローマン体にするなど、読みやすい組版を意識した。
+\end{keybox}
+\vspace{8mm}
+{\small 作成日：\today}\par
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\section{エグゼクティブサマリー}
+
+Phase1の目的は、ウォーレン・バフェットの投資判断そのものを完全に再現することではない。バフェットには、経営者との対話、保険フロート、非公開企業買収、税務、長期の関係資本など、公開データだけでは再現できない要素が多くある。したがって本資料では、公開データで観測できる部分に限定して、バフェット型投資を定量化する。
+
+本資料でいうバフェット型投資とは、次の一文で表せる。
+
+\begin{keybox}[Phase1の一文定義]
+\centering
+\Large 良い会社を、高すぎない価格で買い、長期保有に耐えない企業を避ける。
+\end{keybox}
+
+この一文を、先行研究で検証された式へ分解すると、表\ref{tab:summary-map}のようになる。
+
+\begin{table}[tbp]
+\caption{Phase1で用いる考え方と式の対応}
+\label{tab:summary-map}
+\centering
+\small
+\begin{tabularx}{\linewidth}{p{28mm}Y Y}
+\toprule
+投資上の問い & 定量化する概念 & 使用する主な式 \\
+\midrule
+高すぎない価格か & Value & $\BMratio$, $\EPratio$ \\
+良い会社か & Quality / Profitability & Gross Profitability ($\GPA$) \\
+財務が悪化していないか & Financial Strength & Piotroski available signal score \\
+利益は現金を伴うか & Earnings Quality & Sloan Accruals \\
+長期保有に耐えるか & Low Distress & Ohlson, Altman, simple distress guardrail \\
+実際に買えるか & Liquidity & 60日平均売買代金 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+重要なのは、Phase1では独自の重み付き合成式を使わないことである。Phase1は「守」であり、最初から独自色を強める段階ではない。したがって、Fama and French、Basu、Novy-Marx、Piotroski、Sloan、Altman、Ohlsonなど、先行研究で使われてきた式やスクリーニング規則を使う。独自の変わるMoat、生まれるMoatは、Phase2以降で導入する。
+
+
+\clearpage
+\section{この資料の読み方：0から理解するための順序}
+
+本資料は、数式に慣れている読者だけを想定していない。まず「何を見たいのか」を日本語で押さえ、その後に式を読むと理解しやすい。たとえば、$\BMratio$は難しい式ではなく、「会社の会計上の持ち分に対して、株式市場はいくらの値段を付けているか」を見る式である。
+
+\begin{defbox}[式を読むときの3ステップ]
+\begin{enumerate}[leftmargin=1.8em]
+\item 分子を見る：何を成果として測っているか。利益か、現金か、純資産か。
+\item 分母を見る：何と比べているか。時価総額か、総資産か、平均総資産か。
+\item 大きい方が良いのか、小さい方が良いのかを確認する。
+\end{enumerate}
+\end{defbox}
+
+\begin{table}[tbp]
+\caption{Phase1の式を読むためのミニ辞書}
+\label{tab:minidict}
+\centering
+\small
+\begin{tabularx}{\linewidth}{p{30mm}p{45mm}Y}
+\toprule
+言葉 & 初学者向けの意味 & Phase1での使い方 \\
+\midrule
+時価総額 & 株式市場が会社全体に付けた値段 & 割安性の分母として使う \\
+簿価自己資本 & 会計上の株主の持ち分 & B/Mの分子として使う \\
+純利益 & 最終的に残った会計上の利益 & E/PやSloanで使う \\
+営業CF & 本業から実際に入った現金 & 利益の質を見る \\
+売上総利益 & 売上から原価を引いた付加価値 & Gross Profitabilityで使う \\
+総資産 & 会社が事業に使う資産全体 & 収益性を資産規模で割る \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{選定式と検証式を分ける}
+
+投資レポートでは、銘柄を選ぶ式と、選んだ後に成果を検証する式を混同しやすい。Phase1では、銘柄選定にはB/M、E/P、Gross Profitability、Piotroski、Sloan、Distress、Liquidityを使う。一方、Markowitz分散、Sharpe Ratio、Jensen's Alphaは、ポートフォリオを選んだ後に検証するための式であり、Phase1のTop5選定には使わない。
+
+\begin{table}[tbp]
+\caption{選定式と検証式の違い}
+\label{tab:selection-validation}
+\centering
+\small
+\begin{tabularx}{\linewidth}{p{30mm}Y Y}
+\toprule
+区分 & 目的 & 例 \\
+\midrule
+選定式 & どの企業を候補に残すか決める & B/M, E/P, Gross Profitability, Piotroski, Sloan \\
+除外条件 & 危険な企業や扱いにくい企業を落とす & Distress guardrail, Liquidity filter, Anomaly review \\
+検証式 & 選んだ後のリスク・リターンを評価する & Markowitz, Sharpe Ratio, Jensen's Alpha \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\clearpage
+\section{なぜPhase1が必要なのか}
+
+\subsection{守・破・離の中でのPhase1}
+
+本プロジェクト全体は、守・破・離で設計する。図\ref{fig:roadmap}のように、Phase1はバフェット型投資の基準線を作る段階であり、Phase2・Phase3の独自性を評価するための土台となる。
+
+\begin{figure}[tbp]
+\centering
+\begin{tikzpicture}[>=Stealth,node distance=13mm]
+\tikzstyle{phase}=[draw,rounded corners,minimum height=14mm,minimum width=38mm,align=center,font=\sffamily\bfseries]
+\node[phase,fill=LightBlue] (p1) {Phase1：守\\先行研究式で\\Buffett Core};
+\node[phase,fill=LightYellow,right=of p1] (p2) {Phase2：破\\閾値・分位・\\適用条件を最適化};
+\node[phase,fill=LightGreen,right=of p2] (p3) {Phase3：離\\変わるMoat・\\生まれるMoat};
+\draw[->,thick] (p1) -- (p2);
+\draw[->,thick] (p2) -- (p3);
+\node[below=7mm of p1,align=center,text width=37mm] {完成された堀を\par 観測する};
+\node[below=7mm of p2,align=center,text width=37mm] {式を変えずに\par 使い方を調整};
+\node[below=7mm of p3,align=center,text width=37mm] {未来の堀と\par 企業変化を評価};
+\end{tikzpicture}
+\caption{守・破・離におけるPhase1の位置づけ。Phase1は独自仮説を置く前に、先行研究式によって「守る堀」を測る基準線である。}
+\label{fig:roadmap}
+\end{figure}
+
+Phase1を丁寧に作る理由は二つある。第一に、最終ポートフォリオが単なるAIテーマ株や低PBR株ではなく、最低限の企業品質を持つことを示すためである。第二に、Phase2以降で独自の「変わるMoat」「生まれるMoat」を加えたとき、どの部分がバフェット型からの拡張なのかを明確にするためである。
+
+\subsection{再現できるものと再現できないもの}
+
+バフェット型投資を完全に数式化することはできない。そこで、表\ref{tab:replicable}のように、公開データで再現できる部分とできない部分を分ける。
+
+\begin{table}[tbp]
+\caption{公開データで再現できるものとできないもの}
+\label{tab:replicable}
+\centering
+\small
+\begin{tabularx}{\linewidth}{Y Y}
+\toprule
+再現できるもの & 再現できないもの \\
+\midrule
+株価に対する割安性 & 経営者との直接対話 \\
+会計上の収益性 & 保険フロートによる資金調達 \\
+キャッシュフローを伴う利益 & 非公開企業買収 \\
+財務健全性と破綻リスクの低さ & 税務戦略や長期の資本配分判断 \\
+流動性と売買可能性 & バフェット本人の事業理解や交渉力 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+この整理により、Phase1の目標は明確になる。Phase1は「バフェット本人」ではなく、「Buffett Proxy」を作る。Proxyとは代理指標のことである。つまり、公開財務データから見えるバフェット型の特徴を、できるだけ誠実に近似するという意味である。
+
+\subsection{バフェット型を「cheap, safe, high-quality」に分ける}
+
+Frazzini, Kabiller, and PedersenのBuffett's Alphaは、バフェットの成績を、割安性、安全性、高品質性といったファクターでかなり説明できることを示した研究として有名である。本資料では、この考え方を高校生・学部生でも理解できる形に言い換え、次の三つに分ける。
+
+\begin{table}[tbp]
+\caption{cheap, safe, high-qualityをPhase1指標に落とす}
+\label{tab:cheap-safe-quality}
+\centering
+\small
+\begin{tabularx}{\linewidth}{p{25mm}Y Y}
+\toprule
+要素 & 日本語での意味 & Phase1の対応 \\
+\midrule
+cheap & 高すぎない価格で買う & B/M, E/P \\
+high-quality & 事業の収益力が高い & Gross Profitability \\
+safe & 財務的に壊れにくい & Piotroski, Sloan, Distress guardrail \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+ここで重要なのは、cheapだけではバフェット型ではないという点である。安いだけならバリュートラップを拾う可能性がある。high-qualityだけでも、高すぎる価格で買えば投資妙味は弱い。safeだけでも、リターンの源泉がない。三つを同時に満たす企業こそ、Phase1で探すBuffett Core候補である。
+
+
+\clearpage
+\section{簿記と株の知識を0から整理する}
+
+\subsection{企業を見るための三つの表}
+
+Phase1で使う式は、主に三つの情報から作られる。
+
+\begin{enumerate}[leftmargin=2em]
+\item 貸借対照表：企業がどれだけ資産を持ち、どれだけ負債を抱え、株主の持ち分がどれだけあるかを示す。
+\item 損益計算書：1年間でどれだけ売上を出し、どれだけ利益を残したかを示す。
+\item キャッシュフロー計算書：会計上の利益ではなく、実際に現金が増えたか減ったかを示す。
+\end{enumerate}
+
+\begin{figure}[tbp]
+\centering
+\begin{tikzpicture}[node distance=8mm,>=Stealth]
+\tikzstyle{box}=[draw,rounded corners,minimum width=45mm,minimum height=12mm,align=center]
+\node[box,fill=LightBlue] (bs) {貸借対照表\\資産・負債・純資産};
+\node[box,fill=LightGreen,right=of bs] (pl) {損益計算書\\売上・費用・利益};
+\node[box,fill=LightYellow,right=of pl] (cf) {キャッシュフロー\\実際の現金};
+\node[below=10mm of pl,draw,rounded corners,fill=white,minimum width=125mm,minimum height=14mm,align=center] (score) {Phase1の式：B/M, E/P, Gross Profitability, Piotroski, Sloan, Distress};
+\draw[->,thick] (bs) -- (score);
+\draw[->,thick] (pl) -- (score);
+\draw[->,thick] (cf) -- (score);
+\end{tikzpicture}
+\caption{Phase1の式が利用する三つの財務情報。簿記を知らなくても、どの表からどの変数が来るのかを押さえれば式の意味は理解できる。}
+\label{fig:statements}
+\end{figure}
+
+\subsection{株価と時価総額}
+
+投資では、会社の良し悪しだけでなく、いくらで買うかが重要である。そこで株価と時価総額を使う。
+
+\begin{equation}
+\ME_i \coloneqq P_i \times N_i,
+\label{eq:market-equity}
+\end{equation}
+
+ここで、$P_i$は企業$i$の株価、$N_i$は発行済株式数、$\ME_i$は時価総額である。時価総額は「株式市場がその会社全体をいくらと評価しているか」を表す。
+
+\clearpage
+\section{Phase1で使う式の全体像}
+
+\subsection{5つの問いに分解する}
+
+バフェット型投資の考え方を、式で測れる問いに分解すると、図\ref{fig:decompose}になる。
+
+\begin{figure}[tbp]
+\centering
+\begin{tikzpicture}[>=Stealth,node distance=7mm]
+\node[draw,rounded corners,fill=MainBlue!12,minimum width=112mm,minimum height=10mm,align=center,font=\bfseries\sffamily] (root) {バフェット型投資：良い会社を、高すぎない価格で買う};
+\node[draw,rounded corners,fill=LightYellow,below left=10mm and -2mm of root,minimum width=33mm,align=center] (v) {Value\\$\BMratio$, $\EPratio$};
+\node[draw,rounded corners,fill=LightGreen,right=4mm of v,minimum width=33mm,align=center] (q) {Quality\\$\GPA$};
+\node[draw,rounded corners,fill=LightBlue,right=4mm of q,minimum width=33mm,align=center] (f) {Financial\\Strength};
+\node[draw,rounded corners,fill=LightGreen,below=9mm of q,minimum width=33mm,align=center] (e) {Earnings\\Quality};
+\node[draw,rounded corners,fill=LightRed,right=4mm of e,minimum width=33mm,align=center] (d) {Low\\Distress};
+\draw[->,thick] (root) -- (v);
+\draw[->,thick] (root) -- (q);
+\draw[->,thick] (root) -- (f);
+\draw[->,thick] (root) -- (e);
+\draw[->,thick] (root) -- (d);
+\end{tikzpicture}
+\caption{バフェット型投資を公開データで測れる五つの問いへ分解する。Phase1ではこの五つを先行研究式で測る。}
+\label{fig:decompose}
+\end{figure}
+
+\subsection{なぜ独自式ではなく先行研究式なのか}
+
+独自式は、テーマへの適合性を高める一方で、係数の根拠が弱くなりやすい。たとえば、$0.35\times\mathrm{収益性}+0.25\times\mathrm{キャッシュ創出力}$のような式は直感的には分かりやすいが、その重みがなぜ0.35なのかを説明する必要がある。
+
+Phase1は「守」であるため、まずは研究史の中で検証されてきた式を使う。これにより、Phase2以降で独自の最適化やMoat仮説を加えたとき、その差分が明確になる。
+
+\begin{keybox}[Phase1のルール]
+Phase1では、独自の重み付き総合スコアを作らない。式そのものは先行研究に由来するものを使い、最終的な候補選定は段階的スクリーニングと逐次的なタイブレークで行う。
+\end{keybox}
+
+\clearpage
+\section{Value：B/MとE/P}
+
+\subsection{B/M：純資産に対して安いか}
+
+$\BMratio$は、Book-to-Marketの略であり、株主資本に対して時価総額がどれだけ低いかを示す。
+
+\begin{equation}
+\mathrm{BM}_i \coloneqq \frac{\BE_i}{\ME_i}.
+\label{eq:bm}
+\end{equation}
+
+ここで、$\BE_i$は企業$i$の簿価自己資本、$\ME_i$は式\eqref{eq:market-equity}で定義した時価総額である。もしPBRが利用可能であれば、次の関係が成り立つ。
+
+\begin{equation}
+\mathrm{BM}_i = \frac{1}{\mathrm{PBR}_i}.
+\label{eq:bm-pbr}
+\end{equation}
+
+\begin{defbox}[直感]
+簿価自己資本が100億円の会社を、市場が80億円で評価しているなら、$\mathrm{BM}=100/80=1.25$である。この会社は、会計上の純資産に対して割安に見える。ただし、本当に割安なのか、事業が悪いから安いのかは別途確認が必要である。
+\end{defbox}
+
+\begin{table}[tbp]
+\caption{B/Mの読み方}
+\label{tab:bm-example}
+\centering
+\small
+\begin{tabular}{lrrrrl}
+\toprule
+企業 & 簿価自己資本 & 時価総額 & $\mathrm{BM}$ & 解釈 \\
+\midrule
+A社 & 100 & 200 & 0.50 & 高く評価されている \\
+B社 & 100 & 100 & 1.00 & 簿価と市場評価が同程度 \\
+C社 & 100 & 70 & 1.43 & 割安に見えるが理由確認が必要 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+B/MはFama and FrenchのHML要因と関係が深い。HMLはHigh book-to-market minus Low book-to-marketの略で、割安株と割高株のリターン差を捉える考え方である。Phase1では、B/Mを「良い会社を高すぎない価格で買う」ための価格規律として使う。
+
+\subsection{E/P：利益に対して安いか}
+
+$\EPratio$はEarnings-to-Priceの略であり、利益利回りとも呼ばれる。
+
+\begin{equation}
+\mathrm{EP}_i \coloneqq \frac{\NI_i}{\ME_i}.
+\label{eq:ep}
+\end{equation}
+
+$\NI_i$は当期純利益である。PERが利用可能な場合、次の関係が成り立つ。
+
+\begin{equation}
+\mathrm{EP}_i = \frac{1}{\mathrm{PER}_i}.
+\label{eq:ep-per}
+\end{equation}
+
+PERは「利益の何倍の価格で株が買われているか」を示す。E/Pはその逆数なので、「株価に対して利益がどれだけ出ているか」を示す。
+
+\begin{defbox}[直感]
+時価総額100億円の企業が年間10億円の利益を出していれば、$\mathrm{EP}=10/100=10\%$である。これは、会社全体を100億円で買ったときに、1年で10億円の利益を生むイメージに近い。
+\end{defbox}
+
+Basuの研究は、E/Pが株式リターンと関係することを示した古典的研究である。Phase1では、E/PをB/Mと併用する。B/Mだけでは資産ベースの割安性しか見えないが、E/Pを加えると利益に対する価格の安さも確認できる。
+
+\subsection{B/M・E/Pだけでは不十分な理由}
+
+B/MやE/Pが高い企業は安く見える。しかし、安い企業には二種類ある。
+
+\begin{enumerate}[leftmargin=2em]
+\item 本当に市場から見落とされている企業。
+\item 業績悪化や財務リスクがあるため、安く評価されて当然の企業。
+\end{enumerate}
+
+後者はバリュートラップと呼ばれる。したがって、Phase1ではValueだけで選ばない。次に説明するQuality、Financial Strength、Earnings Quality、Low Distressを組み合わせる。
+
+\subsection{ミニ演習：安い会社と良い会社は違う}
+
+以下の例では、C社はB/MもE/Pも高く、もっとも安く見える。しかし、営業CFが赤字で、売上総利益率も低く、財務悪化が続いているなら、バフェット型のCore銘柄にはならない。
+
+\begin{table}[tbp]
+\caption{Valueだけで選ぶ危険性の例}
+\label{tab:value-trap}
+\centering
+\small
+\begin{tabular}{lrrrrl}
+\toprule
+企業 & B/M & E/P & GP/A & Accruals & 解釈 \\
+\midrule
+A社 & 0.8 & 6\% & 0.45 & -0.02 & 高品質だが割安性は中程度 \\
+B社 & 1.2 & 8\% & 0.38 & -0.01 & ValueとQualityのバランスが良い \\
+C社 & 2.5 & 20\% & 0.05 & 0.18 & 安く見えるが利益の質に注意 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+このため、Phase1では「Valueで入口を作り、QualityとSafetyでバリュートラップを避ける」という構造を採用する。
+
+
+\clearpage
+\section{Quality：Gross Profitability}
+
+\subsection{売上総利益とは何か}
+
+売上総利益は、売上高から売上原価を引いたものである。
+
+\begin{equation}
+\GP_i \coloneqq \mathrm{Sales}_i - \COGS_i.
+\label{eq:gross-profit}
+\end{equation}
+
+ここで、$\mathrm{Sales}_i$は売上高、$\COGS_i$は売上原価である。売上総利益は、会社が商品やサービスにどれだけ付加価値を乗せられているかを示す。
+
+\begin{figure}[tbp]
+\centering
+\begin{tikzpicture}[x=1mm,y=1mm]
+\draw[fill=LightBlue,draw=MainBlue] (0,0) rectangle (110,14);
+\draw[fill=LightRed,draw=red!50!black] (0,0) rectangle (58,14);
+\draw[fill=LightGreen,draw=MainGreen] (58,0) rectangle (110,14);
+\node at (29,7) {売上原価};
+\node at (84,7) {売上総利益};
+\node[above] at (55,16) {売上高};
+\end{tikzpicture}
+\caption{売上高のうち、原価を支払った後に残る部分が売上総利益である。Phase1では、この売上総利益を総資産と比べる。}
+\label{fig:gross-profit}
+\end{figure}
+
+\subsection{Gross Profitabilityの式}
+
+Novy-MarxのGross Profitabilityは、売上総利益を総資産で割る。
+
+\begin{equation}
+\mathrm{GPA}_i \coloneqq \frac{\GP_i}{\TA_i}.
+\label{eq:gpa}
+\end{equation}
+
+ここで、$\TA_i$は総資産である。総資産は、企業が事業のために使っている資産全体を表す。
+
+\begin{defbox}[直感]
+同じ100億円の資産を使うなら、5億円の売上総利益しか生まない企業より、30億円の売上総利益を生む企業の方が、資産を効率よく使って付加価値を生み出している。
+\end{defbox}
+
+Gross Profitabilityが有用な理由は、事業の根本的な収益エンジンを測りやすいからである。営業利益や純利益は、販管費、減価償却、金融費用、税金、特別損益の影響を受ける。一方、売上総利益は、商品やサービスがどれだけ高い付加価値を生んでいるかを比較的直接に表す。
+
+バフェット型投資におけるMoatは、価格決定力やブランド力、効率的な事業構造として利益率に現れる。したがって、Gross Profitabilityは「完成された堀」が財務諸表に現れたものとして解釈できる。
+
+\subsection{業種差への注意}
+
+Gross Profitabilityは有用だが、業種によって出やすさが異なる。小売業では粗利益率が比較的高く出やすい一方、電力や素材などでは資産規模が大きく、数値が低くなりやすい。そのため、最終的なTop5選定では、全市場順位だけでなく、業種集中や業種内での相対的な強さも確認する。
+
+\subsection{なぜROEだけではなくGross Profitabilityを使うのか}
+
+ROEは有名な指標だが、負債を多く使うと高く見える場合がある。また、純利益は一時的な特別利益や税金の影響を受ける。Gross Profitabilityは、より事業の入口に近い売上総利益を見るため、事業の付加価値そのものを捉えやすい。
+
+\begin{table}[tbp]
+\caption{収益性指標の比較}
+\label{tab:profitability-compare}
+\centering
+\small
+\begin{tabularx}{\linewidth}{p{25mm}p{38mm}Y}
+\toprule
+指標 & 式の例 & 注意点 \\
+\midrule
+ROE & 純利益 / 自己資本 & レバレッジで高く見えることがある \\
+ROA & 純利益 / 総資産 & 純利益が特別要因に左右されることがある \\
+営業利益率 & 営業利益 / 売上高 & 販管費構造の差を受ける \\
+Gross Profitability & 売上総利益 / 総資産 & 事業の付加価値を資産規模と比べる \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+したがって、Phase1ではGross ProfitabilityをQualityの中心に置き、必要に応じてPiotroskiやSloanで補強する。
+
+
+\clearpage
+\section{Financial Strength：Piotroski available signal score}
+
+\subsection{Piotroski F-Scoreの考え方}
+
+Piotroski F-Scoreは、割安株の中から財務状態が良い企業を選ぶための9つの二値シグナルである。
+
+\begin{equation}
+F_i \coloneqq \sum_{k=1}^{9} I_{i,k},
+\label{eq:piotroski}
+\end{equation}
+
+ここで、$I_{i,k}$は企業$i$がシグナル$k$を満たすとき1、満たさないとき0を取る指示関数である。
+
+\begin{equation}
+I_{i,k} \coloneqq
+\begin{cases}
+1, & \text{企業 } i \text{ が条件 } k \text{ を満たすとき},\\
+0, & \text{それ以外}.
+\end{cases}
+\label{eq:indicator}
+\end{equation}
+
+\begin{table}[tbp]
+\caption{Piotroski F-Scoreの9シグナル}
+\label{tab:piotroski}
+\centering
+\scriptsize
+\begin{tabularx}{\linewidth}{p{22mm}p{30mm}Y}
+\toprule
+区分 & シグナル & 意味 \\
+\midrule
+収益性 & $\mathrm{ROA}>0$ & 総資産に対して利益が出ている \\
+収益性 & $\CFO>0$ & 本業から現金が入っている \\
+収益性 & $\Delta\mathrm{ROA}>0$ & 収益性が改善している \\
+利益の質 & $\CFO>\mathrm{ROA}$ & 会計利益が現金に裏付けられている \\
+安全性 & レバレッジ低下 & 借入依存が下がっている \\
+安全性 & 流動性改善 & 短期の支払い能力が改善している \\
+安全性 & 株式発行なし & 株主価値の希薄化を避けている \\
+効率性 & 粗利率改善 & 採算性が改善している \\
+効率性 & 資産回転率改善 & 資産を効率的に使えている \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{available版を使う場合の表記}
+
+日本株データでは、9シグナルすべてが完全に取得できない場合がある。そのときは、勝手に完全版と呼ばない。利用可能なシグナルだけで作る場合、次のように定義する。
+
+\begin{equation}
+F^{\mathrm{avail}}_i \coloneqq \sum_{k\in \mathcal{K}_i} I_{i,k},
+\qquad
+R^{\mathrm{avail}}_i \coloneqq \frac{F^{\mathrm{avail}}_i}{\lvert\mathcal{K}_i\rvert}.
+\label{eq:piotroski-avail}
+\end{equation}
+
+$\mathcal{K}_i$は企業$i$について利用可能なシグナルの集合である。$R^{\mathrm{avail}}_i$は、利用可能なシグナルのうち何割を満たしているかを表す。
+
+\begin{warnbox}[表記上の注意]
+9シグナルすべてを実装できた場合のみ「Piotroski F-Score」と呼ぶ。9未満の場合は「Piotroski available signal score」と表記する。これは専門家から見ても重要な誠実性である。
+\end{warnbox}
+
+\clearpage
+\section{Earnings Quality：Sloan Accruals}
+
+\subsection{利益と現金の違い}
+
+企業の純利益は、会計ルールに基づいて計算される。一方、営業キャッシュフローは、本業から実際に入った現金を表す。利益が出ていても、現金が入っていなければ、長期保有に耐える企業とは言いにくい。
+
+\begin{equation}
+\Acc_i \coloneqq \frac{\NI_i - \CFO_i}{\overline{\TA}_i},
+\qquad
+\overline{\TA}_i \coloneqq \frac{\TA_{i,t}+\TA_{i,t-1}}{2}.
+\label{eq:sloan}
+\end{equation}
+
+$\Acc_i$が高いほど、純利益に対して営業キャッシュフローが少ないことを意味する。つまり、利益のうち現金を伴わない部分が大きい可能性がある。
+
+\begin{table}[tbp]
+\caption{Sloan Accrualsの直感例}
+\label{tab:sloan-example}
+\centering
+\small
+\begin{tabular}{lrrrl}
+\toprule
+企業 & 純利益 & 営業CF & 解釈 & 注意度 \\
+\midrule
+A社 & 100 & 110 & 利益が現金化されている & 低 \\
+B社 & 100 & 20 & 利益に現金の裏付けが弱い & 高 \\
+C社 & 30 & 80 & 利益以上に現金を生む & 低 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+バフェット型投資では、会計上の利益よりも、実際に現金を生む力が重要である。Sloan Accrualsは、この「利益の質」を確認するために使う。
+
+\clearpage
+\section{Low Distress：Ohlson、Altman、Guardrail}
+
+\subsection{なぜ破綻リスクを見るのか}
+
+バフェット型投資は長期保有を前提とする。したがって、いくら割安で高収益に見えても、財務危機に陥る可能性が高い企業は避けるべきである。Phase1では、Ohlson O-Score、Altman Z-Scoreを検討し、原式が実装できない場合はsimple distress guardrailを使う。
+
+\subsection{Altman Z-Score}
+
+Altman Z-Scoreは、複数の財務比率を使って倒産リスクを測る古典的な式である。
+
+\begin{align}
+Z_i &= 1.2X_{1,i}+1.4X_{2,i}+3.3X_{3,i}+0.6X_{4,i}+1.0X_{5,i},
+\label{eq:altman}\\
+X_{1,i} &= \frac{\WC_i}{\TA_i},
+& X_{2,i} &= \frac{\RE_i}{\TA_i},
+& X_{3,i} &= \frac{\mathrm{EBIT}_i}{\TA_i},\nonumber\\
+X_{4,i} &= \frac{\MVE_i}{\TL_i},
+& X_{5,i} &= \frac{\mathrm{Sales}_i}{\TA_i}.\nonumber
+\end{align}
+
+ここで、$\WC$は運転資本、$\RE$は利益剰余金、$\mathrm{EBIT}$は利払前税引前利益、$\MVE$は株式時価総額、$\TL$は総負債である。
+
+\begin{warnbox}[日本株への適用注意]
+Altmanの原式は主に製造業を念頭に置いているため、日本株の非金融企業全体に絶対的な閾値をそのまま当てはめるのは危険である。Phase1では、原式が十分に実装できた場合でも、危険側の下位分位をレビューする目的で使うのが安全である。
+\end{warnbox}
+
+\subsection{Ohlson O-Score}
+
+Ohlson O-Scoreは、財務比率を用いて破綻確率を推定するロジット型のモデルである。代表的な1年モデルは、式\eqref{eq:ohlson}の形で書ける。
+
+\begin{align}
+O_i ={}& -1.32 -0.407\log\!\left(\frac{\TA_i}{\mathrm{GNP}}\right)
++6.03\frac{\TL_i}{\TA_i}
+-1.43\frac{\WC_i}{\TA_i}
++0.0757\frac{\mathrm{CL}_i}{\mathrm{CA}_i}
+\nonumber\\
+&-1.72\mathrm{OENEG}_i
+-2.37\frac{\NI_i}{\TA_i}
+-1.83\frac{\mathrm{FFO}_i}{\TL_i}
++0.285\mathrm{INTWO}_i
+-0.521\mathrm{CHIN}_i.
+\label{eq:ohlson}
+\end{align}
+
+さらに、破綻確率の形に変換する場合は次のロジスティック関数を使う。
+
+\begin{equation}
+\Pr(\mathrm{distress}_i) \coloneqq \frac{1}{1+\exp(-O_i)}.
+\label{eq:ohlson-prob}
+\end{equation}
+
+Ohlsonは有用だが、$\mathrm{GNP}$、$\mathrm{FFO}$、流動資産、流動負債など、取得が難しい変数がある。したがって、原式に必要な情報が揃わない場合は、無理に簡略版を作って「Ohlson」と呼ばない。
+
+\subsection{simple distress guardrail}
+
+OhlsonやAltmanを原式通りに実装できない場合でも、財務危機を完全に無視するべきではない。そこで、Phase1ではsimple distress guardrailを使う。
+
+\begin{equation}
+G_i \coloneqq \ind\{\BE_i<0\}
+\lor \ind\{\NI_{i,t}<0 \land \NI_{i,t-1}<0\}
+\lor \ind\{\CFO_{i,t}<0 \land \CFO_{i,t-1}<0\}
+\lor \ind\{\TL_i/\TA_i \text{ が極端に高い}\}.
+\label{eq:guardrail}
+\end{equation}
+
+$G_i=1$の企業は、Top5候補から原則除外する。これはOhlsonやAltmanの代替ではなく、長期保有に不適な企業を避けるための最低限の安全柵である。
+
+\clearpage
+\section{LiquidityとAnomaly Review}
+
+\subsection{流動性フィルター}
+
+日経STOCKリーグでは500万円の仮想ポートフォリオを構築する。したがって、理論上良い企業でも、売買代金が極端に小さい銘柄は扱いにくい。流動性は60営業日の平均売買代金で見る。
+
+\begin{equation}
+\ADV_{i,60} \coloneqq \frac{1}{60}\sum_{t=1}^{60} P_{i,t}V_{i,t},
+\label{eq:adv}
+\end{equation}
+
+$P_{i,t}$は株価、$V_{i,t}$は出来高である。Phase1では、原則として1日平均売買代金が1,000万円以上の企業を優先する。
+
+\subsection{異常値レビュー}
+
+数式は強力だが、データの単位ミス、一過性利益、特殊要因を自動的には見抜けない。そのため、表\ref{tab:anomaly}のような異常値レビューを行う。
+
+\begin{table}[tbp]
+\caption{Phase1で確認する異常値}
+\label{tab:anomaly}
+\centering
+\small
+\begin{tabularx}{\linewidth}{p{35mm}Y}
+\toprule
+フラグ & 意味 \\
+\midrule
+extreme high B/M & 簿価に対して極端に安く見える。市場が重大なリスクを見ている可能性。 \\
+extreme high E/P & 利益に対して極端に安い。一過性利益や時価総額のズレを確認。 \\
+scale check & 株価、株式数、財務数値の単位ズレの可能性。 \\
+microcap flag & 時価総額が小さすぎ、流動性や情報量に注意。 \\
+one-time profit suspected & 特別利益などでE/Pが一時的に高く見える可能性。 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\clearpage
+\section{Value × Qualityマトリクス}
+
+Phase1の核心は、ValueとQualityの同時確認である。図\ref{fig:value-quality}は、候補企業を二軸で整理する。
+
+\begin{figure}[tbp]
+\centering
+\begin{tikzpicture}[x=1mm,y=1mm]
+\draw[->,thick] (0,0) -- (105,0) node[right] {Value 高};
+\draw[->,thick] (0,0) -- (0,75) node[above] {Quality 高};
+\draw[dashed] (52,0) -- (52,70);
+\draw[dashed] (0,37) -- (100,37);
+\node[draw,rounded corners,fill=LightGreen,minimum width=42mm,minimum height=20mm,align=center] at (76,55) {高Quality\par 高Value\par \bfseries Buffett Core候補};
+\node[draw,rounded corners,fill=LightYellow,minimum width=42mm,minimum height=20mm,align=center] at (25,55) {高Quality\par 低Value\par 良い会社だが高値注意};
+\node[draw,rounded corners,fill=LightRed,minimum width=42mm,minimum height=20mm,align=center] at (76,18) {低Quality\par 高Value\par バリュートラップ注意};
+\node[draw,rounded corners,fill=gray!12,minimum width=42mm,minimum height=20mm,align=center] at (25,18) {低Quality\par 低Value\par 除外候補};
+\end{tikzpicture}
+\caption{ValueとQualityの二軸マトリクス。Phase1のTop5は右上、つまり高品質かつ割安なセルから選ぶ。}
+\label{fig:value-quality}
+\end{figure}
+
+バフェット型投資で重要なのは、右下の「安いが低品質」ではなく、右上の「高品質かつ合理的価格」である。B/M・E/Pだけでは右下を拾う可能性があるため、Gross ProfitabilityやPiotroski、Sloan、Distressが必要になる。
+
+\clearpage
+\section{Buffett Core Top5の選び方}
+
+\subsection{候補集合の定義}
+
+Phase1では、まず非金融普通株のユニバース$\mathcal{U}_{\mathrm{nf}}$を作る。そのうえで、次の条件を満たす企業集合を候補集合$\mathcal{C}_{\mathrm{core}}$とする。
+
+\begin{align}
+\mathcal{C}_{\mathrm{core}} \coloneqq \{ i\in\mathcal{U}_{\mathrm{nf}} \mid{}&
+\mathrm{BM}_i \in Q_{\mathrm{top}\,30\%},\
+\mathrm{EP}_i \in Q^{+}_{\mathrm{top}\,50\%},
+\GPA_i \ge \operatorname{median}(\GPA),
+\nonumber\\
+& R^{\mathrm{avail}}_i \ge 0.65,
+\Acc_i \notin Q_{\mathrm{worst}\,30\%},
+G_i=0,
+\ADV_{i,60}\ge 10{,}000{,}000
+\}.
+\label{eq:core-candidates}
+\end{align}
+
+ここで、$Q_{\mathrm{top}\,30\%}$は上位30\%の分位集合、$Q^{+}_{\mathrm{top}\,50\%}$は正のE/P銘柄の上位50\%を表す。
+
+\subsection{逐次タイブレーク}
+
+候補が5社を超える場合、独自重み付きスコアではなく、逐次タイブレークで選ぶ。
+
+\begin{equation}
+\mathrm{Top5} \coloneqq \first_5\!\left(
+\sort_{\mathrm{lex}}\left(
+\mathcal{C}_{\mathrm{core}};
+\GPA\downarrow,
+\mathrm{EP}\downarrow,
+\mathrm{BM}\downarrow,
+R^{\mathrm{avail}}\downarrow,
+\Acc\uparrow,
+\ADV\downarrow
+\right)
+\right).
+\label{eq:top5}
+\end{equation}
+
+$\downarrow$は大きいほど優先、$\uparrow$は小さいほど優先を意味する。Accrualsは低いほど利益の質が高いと解釈するため、$\uparrow$で並べる。
+
+\begin{figure}[tbp]
+\centering
+\begin{tikzpicture}[>=Stealth,node distance=7mm]
+\tikzset{sbox/.style={draw,rounded corners,fill=LightBlue,minimum width=38mm,minimum height=9mm,align=center}}
+\node[sbox] (u) {非金融ユニバース};
+\node[sbox,below=of u] (v) {Value\\B/M・E/P};
+\node[sbox,below=of v] (q) {Quality\\Gross Profitability};
+\node[sbox,below=of q] (f) {Financial Strength\\Piotroski available};
+\node[sbox,below=of f] (e) {Earnings Quality\\Sloan Accruals};
+\node[sbox,below=of e] (d) {Distress・Liquidity\\Guardrail};
+\node[sbox,below=of d,fill=LightGreen] (t) {Buffett Core Top5};
+\draw[->,thick] (u) -- (v);
+\draw[->,thick] (v) -- (q);
+\draw[->,thick] (q) -- (f);
+\draw[->,thick] (f) -- (e);
+\draw[->,thick] (e) -- (d);
+\draw[->,thick] (d) -- (t);
+\end{tikzpicture}
+\caption{Phase1 Top5の選定フロー。式を重みで混ぜるのではなく、段階的に危険な企業を落とし、最後に逐次タイブレークで選ぶ。}
+\label{fig:top5-flow}
+\end{figure}
+
+
+\clearpage
+\section{計算例：一つの企業を0から評価する}
+
+ここでは、架空のB社を使って、Phase1の式を順に計算する。数字は説明のための例であり、実在企業のデータではない。
+
+\begin{table}[tbp]
+\caption{架空企業B社の入力データ}
+\label{tab:worked-input}
+\centering
+\small
+\begin{tabular}{lr}
+\toprule
+項目 & 値 \\
+\midrule
+株価 $P$ & 1,000円 \\
+発行済株式数 $N$ & 10,000,000株 \\
+簿価自己資本 $\BE$ & 14,000百万円 \\
+純利益 $\NI$ & 1,200百万円 \\
+営業CF $\CFO$ & 1,500百万円 \\
+売上総利益 $\GP$ & 8,000百万円 \\
+総資産 $\TA$ & 20,000百万円 \\
+平均総資産 $\overline{\TA}$ & 19,000百万円 \\
+60日平均売買代金 $\ADV_{60}$ & 45百万円 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+まず時価総額は、
+\begin{equation}
+\ME = 1{,}000\times 10{,}000{,}000 = 10{,}000\text{百万円}
+\end{equation}
+である。したがって、B/MとE/Pは次のようになる。
+\begin{align}
+\mathrm{BM} &= \frac{14{,}000}{10{,}000}=1.40,\\
+\mathrm{EP} &= \frac{1{,}200}{10{,}000}=12\%.
+\end{align}
+
+次にQualityを見る。
+\begin{equation}
+\mathrm{GPA} = \frac{8{,}000}{20{,}000}=40\%.
+\end{equation}
+
+利益の質は、
+\begin{equation}
+\mathrm{Accruals} = \frac{1{,}200-1{,}500}{19{,}000}=-1.58\%
+\end{equation}
+となる。Accrualsが低いことは、純利益より営業CFが大きいことを意味し、利益の質に安心感がある。
+
+この例では、B社はValue、Quality、Earnings Quality、Liquidityのいずれも良好であり、さらにPiotroskiとDistress guardrailを通過すれば、Buffett Core候補として残る。
+
+\clearpage
+\section{実装例：指標カバレッジと分散版の考え方}
+
+実装では、式が理論上正しくても、データが十分に取得できなければ使えない。表\ref{tab:coverage}は、Phase1実装で確認した指標カバレッジの例である。
+
+\begin{table}[tbp]
+\caption{Phase1実装における指標カバレッジ例}
+\label{tab:coverage}
+\centering
+\small
+\begin{tabular}{lrrr}
+\toprule
+指標 & 利用可能社数 & ユニバース & カバレッジ \\
+\midrule
+B/M & 3,089 & 3,099 & 99.68\% \\
+E/P & 2,750 & 3,099 & 88.74\% \\
+Gross Profitability & 3,042 & 3,099 & 98.16\% \\
+Piotroski available signal score & 3,099 & 3,099 & 100.00\% \\
+Sloan Accruals & 3,070 & 3,099 & 99.06\% \\
+Liquidity & 3,099 & 3,099 & 100.00\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+また、式を機械的に適用すると、特定業種に偏ることがある。たとえば、小売業はGross Profitabilityが高く出やすいため、候補に多く残る可能性がある。そのため、レポート用の正式版ではsector-adjusted版を作り、業種集中を抑える。
+
+\begin{table}[tbp]
+\caption{sector-adjusted版の業種構成例}
+\label{tab:sector-example}
+\centering
+\small
+\begin{tabular}{lr}
+\toprule
+業種 & 社数 \\
+\midrule
+Retail Trade & 4 \\
+Machinery & 4 \\
+Wholesale Trade & 2 \\
+Foods & 2 \\
+Electric Appliances & 2 \\
+Other Products & 1 \\
+Information \& Communication & 1 \\
+Electric Power and Gas & 1 \\
+Construction & 1 \\
+Chemicals & 1 \\
+Services & 1 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\clearpage
+\section{最終20社への組み込み}
+
+Phase1で選ぶTop5は、最終20社すべてではない。役割は、最終ポートフォリオの「守る堀Core」である。残り15社には、Phase2・Phase3で選ぶ「変わるMoat」「生まれるMoat」を組み込む。
+
+\begin{table}[tbp]
+\caption{最終20社における役割設計}
+\label{tab:final20-structure}
+\centering
+\small
+\begin{tabularx}{\linewidth}{p{35mm}cY}
+\toprule
+枠 & 社数目安 & 役割 \\
+\midrule
+Buffett Core & 5 & 先行研究式で確認した守る堀。最終20社の土台。 \\
+変わるMoat & 5--6 & 資本効率改善、株主還元、改革余地による再評価候補。 \\
+生まれるMoat & 5--6 & AI・電力・半導体・データ・自動化などの将来Moat候補。 \\
+重複枠 & 2--3 & 変わるMoatと生まれるMoatを同時に持つ企業。 \\
+分散・橋渡し枠 & 1--2 & 業種・リスク・役割の偏りを調整する企業。 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+この設計により、Phase1だけでレポート紙幅を使い切らず、BEYOND BUFFETTの本質であるPhase2・Phase3に十分な説明余地を残せる。
+
+\subsection{なぜTop20ではなくTop5に圧縮するのか}
+
+Phase1の式を厳密に説明し、さらに20社すべての採用理由を書くと、最終レポートのページ上限を大きく圧迫する。そこで、Phase1は「守る堀の代表例」としてTop5に圧縮する。これにより、読者はバフェット型の基準線を理解しやすくなり、残り15社で「破」「離」の独自性を説明する紙幅を確保できる。
+
+Top5は少数であるため、各社について「なぜValueなのか」「なぜQualityなのか」「どのリスクを確認したのか」を丁寧に説明できる。結果として、Phase1の説得力はむしろ高まる。
+
+
+\clearpage
+\section{限界と誠実な書き方}
+
+Phase1は強力な基準線だが、万能ではない。限界を明記することで、かえってレポートの信頼性は高まる。
+
+\begin{warnbox}[Phase1の主な限界]
+\begin{itemize}[leftmargin=1.5em]
+\item バフェット本人の投資判断を完全再現するものではない。
+\item 保険フロート、非公開企業買収、経営者評価、税務戦略は再現できない。
+\item 先行研究式は将来リターンを保証しない。
+\item Piotroskiはデータ制約によりavailable版になる場合がある。
+\item OhlsonやAltmanは原式に必要な変数が不足する場合がある。
+\item Gross Profitabilityは業種差が出る。
+\item 高B/M・高E/Pはバリュートラップを含む可能性がある。
+\end{itemize}
+\end{warnbox}
+
+したがって、本文では「科学的に証明された式で将来勝てる」と書くのではなく、「先行研究で広く検証された式を用いて、公開データで再現可能なバフェット型の特徴を近似する」と表現する。
+
+
+\clearpage
+\section{検証式：なぜPhase1の選定には使わないのか}
+
+Markowitz分散、Sharpe Ratio、Jensen's Alphaは重要な式である。しかし、Phase1のTop5を選ぶ式としては使わない。理由は、Phase1の目的が過去リターン最大化ではなく、先行研究に基づくBuffett Coreの構成だからである。
+
+\subsection{Markowitz分散}
+
+ポートフォリオ分散は、個別銘柄のリスクだけでなく、銘柄間の共分散で決まる。
+\begin{equation}
+\sigma_p^2 \coloneqq \sum_{i=1}^{n}\sum_{j=1}^{n} w_iw_j\sigma_{ij}.
+\label{eq:markowitz}
+\end{equation}
+これは最終20社の配分検証には有用だが、Phase1のBuffett Coreを選ぶ段階で使うと、先行研究式による守の純度が下がる。
+
+\subsection{Sharpe Ratio}
+
+Sharpe Ratioは、リスク1単位あたりの超過リターンを測る。
+\begin{equation}
+\mathrm{SR}_p \coloneqq \frac{R_p-R_f}{\sigma_p}.
+\label{eq:sharpe}
+\end{equation}
+これは成果検証には有用だが、これを最大化して銘柄を選ぶと、過去リターンへの過剰適合になりやすい。
+
+\subsection{Jensen's Alpha}
+
+Jensen's Alphaは、市場要因で説明できない超過リターンを測る。
+\begin{equation}
+R_{p,t}-R_{f,t}=\alpha_p+\beta_p\bigl(R_{m,t}-R_{f,t}\bigr)+\varepsilon_{p,t}.
+\label{eq:jensen}
+\end{equation}
+これも検証式であり、Phase1では銘柄選定の根拠にしない。
+
+\clearpage
+\section{レポート本文に入れるための圧縮版}
+
+最終提出レポートでは、以下のように短くまとめるとよい。
+
+\begin{keybox}[本文用要約案]
+Phase1では、独自の重み付きMOAT式を使わず、先行研究で検証されてきた指標を用いて、公開データで再現可能なバフェット型投資を構成した。具体的には、B/MとE/Pで高すぎない価格を確認し、Gross Profitabilityで企業の収益エンジンを測り、Piotroski available signal scoreで財務健全性を確認した。さらに、Sloan Accrualsで利益の質を見て、Ohlson・Altmanまたはsimple distress guardrailで長期保有に耐えない企業を避けた。この結果得られるTop5を、最終20社の「Buffett Core枠」として組み込む。
+\end{keybox}
+
+\clearpage
+\section{Appendix A：式と変数の一覧}
+
+\begin{longtable}{p{30mm}p{34mm}p{78mm}}
+\caption{Phase1で使う主な変数}\label{tab:variables}\\
+\toprule
+記号 & 名称 & 意味 \\
+\midrule
+\endfirsthead
+\toprule
+記号 & 名称 & 意味 \\
+\midrule
+\endhead
+$P_i$ & 株価 & 企業$i$の1株あたり価格。 \\
+$N_i$ & 発行済株式数 & 市場に存在する株式数。 \\
+$\ME_i$ & 時価総額 & $P_i\times N_i$。市場が企業全体をいくらと評価しているか。 \\
+$\BE_i$ & 簿価自己資本 & 会計上の株主の持ち分。 \\
+$\NI_i$ & 純利益 & 1年間で最終的に残った会計上の利益。 \\
+$\CFO_i$ & 営業CF & 本業から実際に得た現金。 \\
+$\GP_i$ & 売上総利益 & 売上高から売上原価を引いた付加価値。 \\
+$\TA_i$ & 総資産 & 企業が事業に使っている資産全体。 \\
+$\TL_i$ & 総負債 & 企業が返済義務を負う負債全体。 \\
+$\WC_i$ & 運転資本 & 流動資産から流動負債を引いたもの。 \\
+$\ADV_{i,60}$ & 60日平均売買代金 & 直近60営業日の株価×出来高の平均。 \\
+\bottomrule
+\end{longtable}
+
+\clearpage
+\section{Appendix B：式別リファレンス}
+
+\begin{longtable}{p{25mm}p{38mm}p{30mm}p{63mm}}
+\caption{Phase1の式と出典}\label{tab:references-formula}\\
+\toprule
+式 & 主な出典 & 測るもの & Phase1での役割 \\
+\midrule
+\endfirsthead
+\toprule
+式 & 主な出典 & 測るもの & Phase1での役割 \\
+\midrule
+\endhead
+B/M & Fama and French (1993) & 資産価値に対する割安性 & 高すぎない価格で買うためのValue軸。 \\
+E/P & Basu (1977, 1983) & 利益に対する割安性 & 利益利回りとして価格規律を補強。 \\
+Gross Profitability & Novy-Marx (2013) & 事業の根本的な収益力 & 良い会社を買うためのQuality軸。 \\
+Piotroski F-Score & Piotroski (2000) & 財務健全性と改善 & 安いだけの企業を避ける安全装置。 \\
+Sloan Accruals & Sloan (1996) & 利益の質 & 会計利益が現金を伴うかを確認。 \\
+Ohlson O-Score & Ohlson (1980) & 破綻確率 & Low Distress確認。ただし原式実装に注意。 \\
+Altman Z-Score & Altman (1968) & 倒産リスク & Low Distress確認。日本株では分位利用が安全。 \\
+Liquidity filter & 実装上の制約 & 売買可能性 & 500万円ポートフォリオとして扱えるか確認。 \\
+\bottomrule
+\end{longtable}
+
+\clearpage
+\section{Appendix C：数式組版の方針}
+
+本PDFでは、数式を読みやすくするため、以下の方針を採用した。
+
+\begin{itemize}[leftmargin=1.7em]
+\item 式番号が必要な数式は\texttt{equation}や\texttt{align}環境で示し、本文では\eqref{eq:bm}のように参照する。
+\item 会計項目や略語は斜体の変数ではなく、$\BE$、$\ME$、$\CFO$のようにローマン体で表記する。
+\item $\log$、$\exp$、$\operatorname{median}$などの演算子は、数式用の演算子として表記する。
+\item 定義には$\coloneqq$を使い、「等しい」ではなく「ここで定義する」という意味を明確にする。
+\item 場合分けには\texttt{cases}環境を用い、指示関数は$\ind\{\cdot\}$で表す。
+\item 長い式は\texttt{align}で複数行に分け、可読性を優先する。
+\end{itemize}
+
+\newpage
+\begin{thebibliography}{99}
+\bibitem{altman1968} Altman, E. I. (1968). Financial Ratios, Discriminant Analysis and the Prediction of Corporate Bankruptcy. \textit{Journal of Finance}, 23(4), 589--609.
+\bibitem{asness2019} Asness, C. S., Frazzini, A., and Pedersen, L. H. (2019). Quality Minus Junk. \textit{Review of Accounting Studies}, 24, 34--112.
+\bibitem{basu1977} Basu, S. (1977). Investment Performance of Common Stocks in Relation to Their Price-Earnings Ratios. \textit{Journal of Finance}, 32(3), 663--682.
+\bibitem{basu1983} Basu, S. (1983). The Relationship between Earnings' Yield, Market Value and Return for NYSE Common Stocks. \textit{Journal of Financial Economics}, 12(1), 129--156.
+\bibitem{fama1993} Fama, E. F., and French, K. R. (1993). Common Risk Factors in the Returns on Stocks and Bonds. \textit{Journal of Financial Economics}, 33(1), 3--56.
+\bibitem{fama2015} Fama, E. F., and French, K. R. (2015). A Five-Factor Asset Pricing Model. \textit{Journal of Financial Economics}, 116(1), 1--22.
+\bibitem{frazzini2018} Frazzini, A., Kabiller, D., and Pedersen, L. H. (2018). Buffett's Alpha. \textit{Financial Analysts Journal}, 74(4), 35--55.
+\bibitem{markowitz1952} Markowitz, H. (1952). Portfolio Selection. \textit{Journal of Finance}, 7(1), 77--91.
+\bibitem{novymarx2013} Novy-Marx, R. (2013). The Other Side of Value: The Gross Profitability Premium. \textit{Journal of Financial Economics}, 108(1), 1--28.
+\bibitem{ohlson1980} Ohlson, J. A. (1980). Financial Ratios and the Probabilistic Prediction of Bankruptcy. \textit{Journal of Accounting Research}, 18(1), 109--131.
+\bibitem{piotroski2000} Piotroski, J. D. (2000). Value Investing: The Use of Historical Financial Statement Information to Separate Winners from Losers. \textit{Journal of Accounting Research}, 38, 1--41.
+\bibitem{sloan1996} Sloan, R. G. (1996). Do Stock Prices Fully Reflect Information in Accruals and Cash Flows about Future Earnings? \textit{The Accounting Review}, 71(3), 289--315.
+\bibitem{qiita} Birdwatcher. (2019/2025). LaTeXにおける正しい論文の書き方. Qiita.
+\end{thebibliography}
+
+\end{document}

@@ -1,0 +1,16 @@
+Phase2 weight optimization completed.
+Output directory: outputs/phase2_weight_optimization/
+ZIP file: outputs/phase2_weight_optimization.zip
+ZIP size: 1.347 MB
+Main report: outputs/phase2_weight_optimization/reports/weight_optimization_report.md
+Ranking file: outputs/phase2_weight_optimization/rankings/exploratory_weighted_ranking_all.csv
+Phase1 Top5 check: outputs/phase2_weight_optimization/rankings/phase1_top5_rank_check.csv
+Selected weights: outputs/phase2_weight_optimization/optimization/selected_weight_solution.json
+Handoff report: outputs/phase2_weight_optimization/reports/phase3_handoff_from_weight_experiment.md
+
+Best weights: {"bm": 0.14285714285714285, "distress": 0.14285714285714285, "ep": 0.14285714285714285, "gp": 0.14285714285714285, "liquidity": 0.14285714285714285, "piotroski": 0.14285714285714285, "sloan": 0.14285714285714285}
+Best objective score: 0.9616
+Top1000 sector HHI: 0.0754
+Top1000 distress flag rate: 0.0000
+Top1000 anomaly flag rate: 0.0020
+Stability Jaccard mean: 0.5739

@@ -1,0 +1,11 @@
+metric,direction,rationale
+bm_raw,higher_is_better,B/M value discipline
+ep_raw,higher_is_better,E/P value discipline
+gross_profitability,higher_is_better,quality
+piotroski_available_ratio,higher_is_better,financial strength proxy
+sloan_accruals,lower_is_better,earnings quality
+distress_exclusion_flag,lower_is_better,safety proxy
+avg_daily_value_60d,higher_is_better,liquidity
+anomaly_flags,lower_is_better,review penalty
+microcap_flag,lower_is_better,size/liquidity penalty
+one_time_profit_suspected,lower_is_better,quality penalty

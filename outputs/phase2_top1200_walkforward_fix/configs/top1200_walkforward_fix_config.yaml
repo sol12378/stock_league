@@ -1,0 +1,4 @@
+selected_topn: 1200
+utility_max_topn: 2000
+normalization_primary: market_percentile
+walk_forward_policy: level_2_if_possible_else_level_4

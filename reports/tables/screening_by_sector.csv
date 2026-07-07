@@ -1,19 +1,19 @@
 sector_33,universe,price_available,liquid_20m_60d,investment_eligible,candidates_top80,portfolio_selected
 Electric Appliances,228,228,199,141,38,5
+Machinery,210,210,172,130,13,3
 Electric Power and Gas,27,27,25,23,4,3
-Machinery,210,210,172,130,13,2
 Chemicals,202,202,170,147,3,2
-Metal Products,87,87,51,41,2,2
-Precision Instruments,47,47,41,26,10,1
+Metal Products,87,87,51,41,2,1
 Information & Communication,566,566,360,259,1,1
 Banks,79,79,78,77,1,1
 Land Transportation,59,59,40,37,1,1
 Securities and Commodities Futures,36,36,29,28,1,1
 Insurance,16,16,12,9,1,1
+Mining,5,5,5,4,1,1
+Precision Instruments,47,47,41,26,10,0
 Nonferrous Metals,33,33,29,24,2,0
 Construction,140,140,108,79,1,0
 Glass and Ceramics Products,49,49,40,35,1,0
-Mining,5,5,5,4,1,0
 Services,508,507,280,209,0,0
 Retail Trade,322,322,200,164,0,0
 Wholesale Trade,285,285,185,160,0,0

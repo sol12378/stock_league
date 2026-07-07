@@ -1,0 +1,4 @@
+fiscal_year,selected_weight_drift,note
+2023,0.0,Weights fixed from Phase2 selected solution; no per-year re-optimization due to incomplete panel.
+2024,0.0,Weights fixed from Phase2 selected solution; no per-year re-optimization due to incomplete panel.
+2025,0.0,Weights fixed from Phase2 selected solution; no per-year re-optimization due to incomplete panel.

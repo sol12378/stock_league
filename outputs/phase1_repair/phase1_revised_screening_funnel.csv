@@ -1,0 +1,6 @@
+step,criterion,count_before,count_after,removed_count,source_paper
+1_value_available,B/M and positive E/P available,3169,2740,429,Fama-French; Basu
+2_value_screen,B/M top 30% and E/P top 50%,2740,593,2147,Fama-French; Basu
+3_piotroski_available,Piotroski available signal score >= 4 of 6,593,444,149,"Piotroski (2000), partial implementation"
+4_sloan_accruals,Sloan accruals not worst 30%,444,336,108,Sloan (1996)
+5_distress,Ohlson/Altman unavailable; no original-formula exclusion,336,336,0,Ohlson; Altman audit only

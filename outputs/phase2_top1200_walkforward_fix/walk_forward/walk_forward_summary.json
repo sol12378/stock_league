@@ -1,0 +1,12 @@
+{
+  "walk_forward_level": "Level 2",
+  "years": [
+    2023,
+    2024,
+    2025
+  ],
+  "fold_count": 3,
+  "mean_top1200_jaccard": 0.6826119086695845,
+  "strict_full_walk_forward": false,
+  "note": "Level 2 snapshot walk-forward proxy; not a future return prediction model."
+}

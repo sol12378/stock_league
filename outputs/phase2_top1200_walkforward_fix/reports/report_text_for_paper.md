@@ -1,0 +1,7 @@
+# Report Text For Paper
+
+Phase2では、Phase1で採用した先行研究式の定義は変更せず、重み・候補群サイズ・正規化方法・業種調整を検証した。候補数を含むutilityを最大化するとTop2000が最良となったが、Phase2の目的は候補数の最大化ではなく、Phase3で分析可能な候補宇宙を作ることである。Top1200はPhase1 Top5をすべて保持し、財務安全性、利益の質、流動性、業種分散の面で良好であり、レビュー負荷も現実的である。したがって本研究ではTop1200をPhase2 optimized candidate universeとして採用し、Top2000は取りこぼし確認用の参照群とした。
+
+また、正規化方式によって候補群に差異が生じたため、market percentileを主基準としつつ、sector percentile、robust z-score、winsorized z-scoreによるランキングも作成した。複数方式で共通して上位に残る企業をnormalization robust候補としてタグ付けし、Phase3で優先的に確認する。
+
+Walk-forward検証については、利用可能な過去財務スナップショットの範囲で実施した。厳密な実施に必要な複数年度の開示日ベースデータが不足する場合には、単一時点の横断面最適化であることを明記し、将来リターン予測力ではなく候補群構成ルールとして解釈する。

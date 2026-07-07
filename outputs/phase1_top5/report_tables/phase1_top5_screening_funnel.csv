@@ -1,0 +1,9 @@
+step,count_before,count_after,removed_count
+A_universe_metric_available,3099,2669,430
+B_value,2669,566,2103
+C_quality,566,105,461
+D_financial_strength,105,82,23
+E_earnings_quality,82,62,20
+F_low_distress,62,62,0
+G_liquidity,62,36,26
+H_anomaly_clean,36,33,3

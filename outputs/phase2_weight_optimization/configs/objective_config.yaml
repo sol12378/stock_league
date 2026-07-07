@@ -1,0 +1,10 @@
+overall_weight_objective:
+  phase1_top5_rank_score: 0.20
+  quality_preservation_score: 0.18
+  value_discipline_score: 0.15
+  distress_control_score: 0.15
+  liquidity_adequacy_score: 0.10
+  sector_diversity_score: 0.10
+  stability_score: 0.07
+  interpretability_score: 0.05
+primary_warning: Do not optimize or market this as a future return maximization model.

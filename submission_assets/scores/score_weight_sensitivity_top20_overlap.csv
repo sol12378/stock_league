@@ -1,0 +1,6 @@
+scenario,overlap_with_basic_top20,overlap_ratio
+基本配分,20,1.0
+Moat重視,16,0.8
+Transformation重視,16,0.8
+Future Moat重視,15,0.75
+価格規律重視,17,0.85

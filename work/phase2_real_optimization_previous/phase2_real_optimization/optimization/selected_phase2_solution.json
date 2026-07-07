@@ -1,0 +1,68 @@
+{
+  "selected_method": "random_search_real",
+  "selected_weights": {
+    "bm": 0.18445915574257452,
+    "distress": 0.2506101343460851,
+    "ep": 0.05724894173929047,
+    "gp": 0.14717910156895553,
+    "liquidity": 0.33011280681347804,
+    "piotroski": 0.009821470657685773,
+    "sloan": 0.020568389131930525
+  },
+  "selected_penalty_weights": {
+    "anomaly": 0.29713500327930653,
+    "microcap": 0.19871292956780232,
+    "missing": 0.25850377194395013,
+    "onetime": 0.1949619853730527
+  },
+  "selected_params": {
+    "gp_missing_penalty_strength": 0.09543232002449449,
+    "missing_handling": "exclude_if_core_missing",
+    "normalization_method": "market_percentile",
+    "sector_adjustment": false,
+    "weight_concentration_penalty_strength": 0.020860948586379907
+  },
+  "selected_topn": 2000,
+  "top1200_is_optimal": false,
+  "top1200_is_defensible": true,
+  "best_topn_by_utility": 2000,
+  "best_topn_feasible_max_breadth": 2000,
+  "best_balanced_topn": 1200,
+  "optuna_best_trial": 3841,
+  "nsga2_selected_solution": {
+    "trial_id": 1217,
+    "algorithm": "nsga2_real",
+    "params_json": "{\"gp_missing_penalty_strength\": 0.03233903799165592, \"missing_handling\": \"neutral_rank_with_missing_penalty\", \"normalization_method\": \"robust_zscore\", \"sector_adjustment\": false, \"weight_concentration_penalty_strength\": 0.21400361510070073}",
+    "weights_json": "{\"bm\": 0.03901011925613641, \"distress\": 0.04277159579543259, \"ep\": 0.3128944838832257, \"gp\": 0.06866926495919658, \"liquidity\": 0.2193108506630448, \"piotroski\": 0.29016794228783416, \"sloan\": 0.02717574315512973}",
+    "penalty_weights_json": "{\"anomaly\": 0.25045412999827255, \"microcap\": 0.14225514214226562, \"missing\": 0.24672935179956992, \"onetime\": 0.06886396658330082}",
+    "objective": 0.7630862653906725,
+    "topn_utility_best": 0.7836617899667899,
+    "best_topn_for_trial": 2000,
+    "top1200_utility": 0.452777815697888,
+    "top1200_feasible": false,
+    "top1200_rank_among_topn": 5,
+    "top1000_metrics": "{\"topn\": 1000, \"candidate_count\": 1000, \"bm_median\": 0.8609451973157813, \"ep_median\": 0.0839874118456004, \"gross_profitability_median\": 0.2428731270367646, \"piotroski_available_ratio_median\": 0.8333333333333334, \"sloan_accruals_median\": -0.0263224127836245, \"adv60_median\": 514988466.6666666, \"distress_flag_rate\": 0.0, \"review_flag_rate\": 0.0, \"anomaly_flag_rate\": 0.007, \"gp_missing_rate\": 0.028, \"missingness_rate\": 0.007333333333333333, \"sector_hhi\": 0.06354399999999999, \"max_sector_share\": 0.097, \"phase1_top5_count\": 5, \"phase1_top5_rank_coverage\": 1.0, \"stability_jaccard\": 0.715, \"quality_vs_market_margin\": -0.014019712808949591, \"value_vs_market_margin\": -0.01569894039432762, \"safety_margin\": 0.99125, \"liquidity_margin\": 6.2730654489572, \"negative_equity_count\": 0, \"feasible\": false, \"topn_utility\": 0.4321202020195083, \"count_breadth_score\": 0.5, \"quality_margin_score\": 0.4859802871910504, \"value_margin_score\": 0.4843010596056724, \"safety_score\": 0.99125, \"liquidity_score\": 1, \"sector_diversity_score\": 0.68228, \"phase1_top5_coverage_score\": 1.0, \"anomaly_review_penalty\": 0.007, \"gp_missing_penalty\": 0.028, \"topn_utility_rank\": 7}",
+    "top1200_metrics": "{\"topn\": 1200, \"candidate_count\": 1200, \"bm_median\": 0.8686851784506529, \"ep_median\": 0.08471875734269099, \"gross_profitability_median\": 0.24794464449849785, \"piotroski_available_ratio_median\": 0.8333333333333334, \"sloan_accruals_median\": -0.025595899300053897, \"adv60_median\": 399101303.3333334, \"distress_flag_rate\": 0.0, \"review_flag_rate\": 0.0016666666666666668, \"anomaly_flag_rate\": 0.009166666666666667, \"gp_missing_rate\": 0.023333333333333334, \"missingness_rate\": 0.006388888888888888, \"sector_hhi\": 0.06622222222222224, \"max_sector_share\": 0.10416666666666667, \"phase1_top5_count\": 5, \"phase1_top5_rank_coverage\": 1.0, \"stability_jaccard\": 0.7175, \"quality_vs_market_margin\": -0.008948195347216359, \"value_vs_market_margin\": -0.007958959259456111, \"safety_margin\": 0.9910416666666666, \"liquidity_margin\": 4.636417294343525, \"negative_equity_count\": 0, \"feasible\": false, \"topn_utility\": 0.452777815697888, \"count_breadth_score\": 0.6, \"quality_margin_score\": 0.49105180465278364, \"value_margin_score\": 0.4920410407405439, \"safety_score\": 0.9910416666666666, \"liquidity_score\": 1, \"sector_diversity_score\": 0.6688888888888889, \"phase1_top5_coverage_score\": 1.0, \"anomaly_review_penalty\": 0.010833333333333334, \"gp_missing_penalty\": 0.023333333333333334, \"topn_utility_rank\": 5}",
+    "top1500_metrics": "{\"topn\": 1500, \"candidate_count\": 1500, \"bm_median\": 0.8848095327400614, \"ep_median\": 0.0838022461303105, \"gross_profitability_median\": 0.2537083821433108, \"piotroski_available_ratio_median\": 0.8333333333333334, \"sloan_accruals_median\": -0.0253994978156431, \"adv60_median\": 271997090.8333334, \"distress_flag_rate\": 0.0, \"review_flag_rate\": 0.002, \"anomaly_flag_rate\": 0.01, \"gp_missing_rate\": 0.019333333333333334, \"missingness_rate\": 0.005888888888888888, \"sector_hhi\": 0.06884977777777777, \"max_sector_share\": 0.11333333333333333, \"phase1_top5_count\": 5, \"phase1_top5_rank_coverage\": 1.0, \"stability_jaccard\": 0.7206666666666667, \"quality_vs_market_margin\": -0.003184457702403387, \"value_vs_market_margin\": 0.008165395029952394, \"safety_margin\": 0.9916666666666667, \"liquidity_margin\": 2.8413532954656273, \"negative_equity_count\": 0, \"feasible\": false, \"topn_utility\": 0.48522225171024347, \"count_breadth_score\": 0.75, \"quality_margin_score\": 0.4968155422975966, \"value_margin_score\": 0.5081653950299524, \"safety_score\": 0.9916666666666667, \"liquidity_score\": 1, \"sector_diversity_score\": 0.6557511111111112, \"phase1_top5_coverage_score\": 1.0, \"anomaly_review_penalty\": 0.012, \"gp_missing_penalty\": 0.019333333333333334, \"topn_utility_rank\": 3}",
+    "phase1_top5_coverage": 5,
+    "sector_hhi": 0.06622222222222224,
+    "anomaly_rate": 0.009166666666666667,
+    "review_rate": 0.0016666666666666668,
+    "gp_missing_rate": 0.023333333333333334,
+    "missingness_rate": 0.006388888888888888,
+    "stability_proxy": 0.7175,
+    "weight_concentration": 0.23900282977199017,
+    "effective_number_of_weights": 4.184050879037728,
+    "eval_time_sec": 0.01396650000003774,
+    "solution_label": "best_balanced_solution"
+  },
+  "phase1_top5_coverage": 5,
+  "stability_summary": {
+    "stability_proxy_top1200": 0.75
+  },
+  "limitations": [
+    "Exploratory Weighted Buffett Score is not the official Phase1 formula.",
+    "The cross-section is primarily single snapshot because reliable multi-period filings were not available in the Phase1 artifact.",
+    "TopN optimality depends on the utility function and hard constraints used here."
+  ]
+}

@@ -1,0 +1,8 @@
+metric,available_count,universe_count,coverage,phase1_use_judgement,notes
+B/M,3089,3099,0.9967731526298806,usable,Book Equity / Market Equity. 欠損補完なし。
+E/P,2750,3099,0.8873830267828332,usable,positive earnings only. 欠損補完なし。
+Gross Profitability,3042,3099,0.9816069699903195,usable,Gross Profit / Total Assets. Qualityの中心条件。
+Piotroski available signal score,3099,3099,1.0,usable_as_available_version,9信号完全版ではないためF-Score単独表記は禁止。
+Sloan Accruals,3070,3099,0.9906421426266537,usable,(Net Income - Operating Cash Flow) / Average Total Assets。
+Simple distress guardrail,3099,3099,1.0,usable,Ohlson/Altmanではなく、資本毀損・損失・レバレッジの簡易ガードレール。
+Liquidity,3099,3099,1.0,usable,average close x volume over latest 60 trading days。

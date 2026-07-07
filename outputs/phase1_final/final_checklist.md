@@ -1,0 +1,21 @@
+# Final Checklist
+
+- B/Mカバレッジは70%以上か: YES
+- E/Pカバレッジは70%以上か: YES
+- market_equityの出所が全銘柄で記録されているか: YES
+- raw PBR/PERと加工済みスコアを混同していないか: YES
+- Gross Profitabilityを実装できたか: YES
+- Piotroski完全版とavailable版を区別したか: YES
+- Sloan Accrualsの計算方法を明記したか: YES
+- Ohlson/Altmanの実装可否を正直に書いたか: YES
+- Simple distress guardrailを実装したか: YES
+- 流動性監査を実装したか: YES
+- Anomaly reviewを実施したか: YES
+- extreme value銘柄を無確認で採用していないか: YES
+- base final20 と conservative final20 を出したか: YES
+- 500万円配分の投資率が95%以上か: YES
+- scripts/phase1_final/*.py を同梱したか: YES
+- Future Moat / Transformation Moat / AI関連キーワードを使っていないか: YES
+- 独自重み付き総合スコアを作っていないか: YES
+- バックテスト結果で銘柄を入れ替えていないか: YES
+- レポートにそのまま使えるMarkdownを作ったか: YES

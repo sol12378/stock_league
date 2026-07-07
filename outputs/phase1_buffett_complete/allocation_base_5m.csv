@@ -1,0 +1,21 @@
+code,company_name,sector,price,shares,investment_amount,weight,cash_remaining,allocation_note
+7544,"Three F Co.,Ltd.",Retail Trade,553.0,400,221200.0,0.04424,1500.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+3317,"FLYING GARDEN CO.,LTD.",Retail Trade,1365.0,200,273000.0,0.0546,1500.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+3539,"JM HOLDINGS CO.,LTD.",Retail Trade,1248.0,200,249600.0,0.04992,1500.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+4350,"MEDICAL SYSTEM NETWORK Co.,Ltd.",Retail Trade,514.0,400,205600.0,0.04112,1500.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+3352,"BUFFALO CO.,LTD.",Retail Trade,1700.0,200,340000.0,0.068,1500.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+4925,"HABA LABORATORIES,INC.",Chemicals,1705.0,200,341000.0,0.0682,1500.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+9990,SAC'S BAR HOLDINGS INC.,Retail Trade,712.0,300,213600.0,0.04272,1500.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+7120,SHINKO Inc.,Wholesale Trade,1004.0,300,301200.0,0.06024,1500.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+8278,"FUJI CO.,LTD.",Retail Trade,1927.0,200,385400.0,0.07708,1500.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+7614,"OM2Network Co.,Ltd.",Retail Trade,1541.0,200,308200.0,0.06164,1500.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+9993,"YAMAZAWA CO.,LTD.",Retail Trade,1156.0,200,231200.0,0.04624,1500.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+9890,"MAKIYA CO.,LTD.",Retail Trade,1459.0,200,291800.0,0.05836,1500.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+8167,"RETAIL PARTNERS CO.,LTD.",Retail Trade,1260.0,100,126000.0,0.0252,1500.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+7791,"DREAMBED CO.,LTD.",Other Products,784.0,300,235200.0,0.04704,1500.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+7034,"Prored Partners CO.,LTD.",Services,380.0,600,228000.0,0.0456,1500.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+2907,"AHJIKAN CO.,LTD.",Foods,1362.0,100,136200.0,0.02724,1500.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+8276,"HEIWADO CO.,LTD.",Retail Trade,2500.0,100,250000.0,0.05,1500.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+3172,"Tea Life Co.,Ltd.",Retail Trade,1148.0,200,229600.0,0.04592,1500.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+6430,"DAIKOKU DENKI CO.,LTD.",Machinery,2085.0,100,208500.0,0.0417,1500.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.
+2499,"NIHONWASOU HOLDINGS,INC.",Services,279.0,800,223200.0,0.04464,1500.0,Equal amount target; 100-share lot; greedy cash minimization; 8% single-name cap; selected companies fixed.

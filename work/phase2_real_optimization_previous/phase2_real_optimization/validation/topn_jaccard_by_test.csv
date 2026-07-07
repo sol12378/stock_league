@@ -1,0 +1,9 @@
+test,topn,jaccard
+bootstrap_universe,100,0.4040489839377868
+bootstrap_universe,300,0.40262553576320237
+bootstrap_universe,1000,0.39983719024033576
+bootstrap_universe,1200,0.3999244532308526
+weight_perturbation,100,0.9281366584751115
+weight_perturbation,300,0.9198033557072272
+weight_perturbation,1000,0.9445810806282251
+weight_perturbation,1200,0.9609524238828285

@@ -1,0 +1,513 @@
+code,ticker,company_name,sector,market_segment,is_financial,is_common_stock,data_available,included_phase1,exclusion_reason
+7181,7181.T,"JAPAN POST INSURANCE Co.,Ltd.",Insurance,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+7267,7267.T,"HONDA MOTOR CO.,LTD.",Transportation Equipment,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8473,8473.T,"SBI Holdings,Inc.",Securities and Commodities Futures,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_operating_cf
+8309,8309.T,"Sumitomo Mitsui Trust Group,Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+5411,5411.T,"JFE Holdings,Inc.",Iron and Steel,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+9984,9984.T,SoftBank Group Corp.,Information & Communication,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+5857,5857.T,"ARE Holdings,Inc.",Nonferrous Metals,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6527,6527.T,"WAKA MANUFACTURING CO.,LTD.",Electric Appliances,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+6817,6817.T,SUMIDA CORPORATION,Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+9432,9432.T,"NTT,Inc.",Information & Communication,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6981,6981.T,"Murata Manufacturing Co.,Ltd.",Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6101,6101.T,TSUGAMI CORPORATION,Machinery,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+4188,4188.T,Mitsubishi Chemical Group Corporation,Chemicals,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6168,6168.T,ONE GROUP CORP.,Machinery,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+6448,6448.T,"BROTHER INDUSTRIES,LTD.",Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6857,6857.T,ADVANTEST CORPORATION,Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6779,6779.T,"NIHON DEMPA KOGYO CO.,LTD.",Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+1605,1605.T,INPEX CORPORATION,Mining,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6596,6596.T,"TSUKUBASEIKO Co.,Ltd.",Electric Appliances,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+6701,6701.T,NEC Corporation,Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+9435,9435.T,"HIKARI TSUSHIN,INC.",Information & Communication,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+5020,5020.T,"ENEOS Holdings,Inc.",Oil and Coal Products,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6797,6797.T,"NAGOYA ELECTRIC WORKS CO.,LTD.",Electric Appliances,Standard Market(Domestic),False,True,False,False,price_history_lt_500
+6376,6376.T,"NIKKISO CO.,LTD.",Precision Instruments,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6503,6503.T,Mitsubishi Electric Corporation,Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6806,6806.T,"HIROSE ELECTRIC CO.,LTD.",Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6752,6752.T,Panasonic Holdings Corporation,Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6301,6301.T,KOMATSU LTD.,Machinery,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+5101,5101.T,"The Yokohama Rubber Company,Limited",Rubber Products,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+7013,7013.T,IHI Corporation,Machinery,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8725,8725.T,"MS&AD Insurance Group Holdings,Inc.",Insurance,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+7203,7203.T,TOYOTA MOTOR CORPORATION,Transportation Equipment,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6516,6516.T,"SANYO DENKI CO.,LTD.",Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6326,6326.T,KUBOTA CORPORATION,Machinery,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+3853,3853.T,ASTERIA Corporation,Information & Communication,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6762,6762.T,TDK Corporation,Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+3448,3448.T,"SUGA STEEL Co.,LTD.",Metal Products,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+6479,6479.T,MINEBEA MITSUMI Inc.,Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+4612,4612.T,"NIPPON PAINT HOLDINGS CO.,LTD.",Chemicals,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+3543,3543.T,"KOMEDA Holdings Co.,Ltd.",Wholesale Trade,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+3450,3450.T,"Sato Sangyo Co.,Ltd,",Metal Products,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+9201,9201.T,"Japan Airlines Co.,Ltd.",Air Transportation,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+5249,5249.T,"Asakawa Systems Co.,Ltd.",Information & Communication,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+5573,5573.T,"Doraku Holdings Co.,Ltd.",Information & Communication,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+5037,5037.T,"Fitworks Co.,Ltd.",Information & Communication,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+5584,5584.T,"Strawberry jams Co.,Ltd.",Information & Communication,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+5135,5135.T,AIR-U LTD.,Information & Communication,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+5620,5620.T,SPO Entertainment Inc.,Information & Communication,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+5617,5617.T,WiLLDo Inc.,Information & Communication,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+5622,5622.T,"OneBe,Inc.",Information & Communication,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+5594,5594.T,M.D.B Corporation,Information & Communication,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+5598,5598.T,"Yottavias Co.,Ltd.",Information & Communication,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+7259,7259.T,AISIN CORPORATION,Transportation Equipment,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+5713,5713.T,"Sumitomo Metal Mining Co.,Ltd.",Nonferrous Metals,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+5130,5130.T,"HiroHoldings Co.,ltd.",Information & Communication,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+5110,5110.T,"Sumitomo Rubber Industries,Ltd.",Rubber Products,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+2579,2579.T,Coca-Cola Bottlers Japan Holdings Inc.,Foods,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+2452,2452.T,"Computer Mind Co.,Ltd.",Information & Communication,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+6723,6723.T,Renesas Electronics Corporation,Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+5251,5251.T,"WISS1 Co.,Ltd.",Information & Communication,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+9436,9436.T,OKINAWA CELLULAR TELEPHONE COMPANY,Information & Communication,Standard Market(Domestic),False,True,False,False,missing_revenue
+4365,4365.T,"MATSUMOTO YUSHI-SEIYAKU CO.,LTD.",Chemicals,Standard Market(Domestic),False,True,False,False,price_history_lt_500
+6724,6724.T,SEIKO EPSON CORPORATION,Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+2502,2502.T,"Asahi Group Holdings,Ltd.",Foods,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6758,6758.T,SONY GROUP CORPORATION,Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+7751,7751.T,CANON INC.,Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6113,6113.T,"AMADA CO.,LTD.",Machinery,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+9239,9239.T,KET Inc.,Services,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+7744,7744.T,"Noritsu Koki Co.,Ltd.",Precision Instruments,Prime Market (Domestic),False,True,False,False,missing_revenue;missing_operating_cf
+9335,9335.T,"techno-creative CO.,LTD.",Services,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+9156,9156.T,"HANA HOLDINGS Co.,Ltd.",Services,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+7364,7364.T,"RYUKYU ASTEEDA Sports Club Co.,Ltd.",Services,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+5866,5866.T,WizBiz Inc.,Services,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+9334,9334.T,"IBIS HOLDINGS Co.,Ltd.",Services,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+6174,6174.T,"DENTAS CO.,LTD.",Services,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+7355,7355.T,"Issunbou Co.,Ltd.",Services,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+7098,7098.T,Agent Inc.,Services,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+6754,6754.T,ANRITSU CORPORATION,Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+9226,9226.T,IGER Inc.,Services,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+9169,9169.T,Daishinsha Inc.,Services,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+6471,6471.T,NSK Ltd.,Machinery,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+7011,7011.T,"Mitsubishi Heavy Industries,Ltd.",Machinery,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6971,6971.T,KYOCERA CORPORATION,Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+4005,4005.T,"SUMITOMO CHEMICAL COMPANY,LIMITED",Chemicals,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6473,6473.T,JTEKT Corporation,Machinery,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6269,6269.T,"MODEC,INC.",Machinery,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+2154,2154.T,Open Up Group Inc.,Services,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+4887,4887.T,"SAWAI GROUP HOLDINGS Co.,Ltd.",Pharmaceutical,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+4578,4578.T,"Otsuka Holdings Co.,Ltd.",Pharmaceutical,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+7741,7741.T,HOYA CORPORATION,Precision Instruments,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+4324,4324.T,DENTSU GROUP INC.,Services,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6305,6305.T,"Hitachi Construction Machinery Co.,Ltd.",Machinery,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+3591,3591.T,WACOAL HOLDINGS CORP.,Textiles and Apparels,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8630,8630.T,"Sompo Holdings,Inc.",Insurance,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+7270,7270.T,SUBARU CORPORATION,Transportation Equipment,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+4091,4091.T,NIPPON SANSO HOLDINGS CORPORATION,Chemicals,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+7731,7731.T,NIKON CORPORATION,Precision Instruments,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8361,8361.T,"The Ogaki Kyoritsu Bank,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+3962,3962.T,"CHANGE Holdings,Inc.",Information & Communication,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6005,6005.T,"MIURA CO.,LTD.",Machinery,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+5016,5016.T,JX Advanced Metals Corporation,Nonferrous Metals,Prime Market (Domestic),False,True,False,False,price_history_lt_500;missing_operating_cf
+5581,5581.T,"Chi-technology Co.,Ltd.",Information & Communication,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+8392,8392.T,"THE OITA BANK,LTD.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+6523,6523.T,PHC Holdings Corporation,Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6366,6366.T,Chiyoda Corporation,Construction,Standard Market(Domestic),False,True,False,False,missing_revenue
+8393,8393.T,"The Miyazaki Bank,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+7199,7199.T,"Premium Group Co.,Ltd.",Other Financing Business,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_operating_cf
+6902,6902.T,DENSO CORPORATION,Transportation Equipment,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+4203,4203.T,"Sumitomo Bakelite Company,Limited",Chemicals,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+4845,4845.T,"Scala,Inc.",Information & Communication,Standard Market(Domestic),False,True,False,False,missing_operating_cf
+8593,8593.T,Mitsubishi HC Capital Inc.,Other Financing Business,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+6525,6525.T,KOKUSAI ELECTRIC CORPORATION,Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6586,6586.T,Makita Corporation,Machinery,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+5921,5921.T,"Kawagishi Bridge Works Co.,Ltd.",Metal Products,Standard Market(Domestic),False,True,False,False,missing_revenue
+6803,6803.T,TEAC CORPORATION,Electric Appliances,Standard Market(Domestic),False,True,False,False,missing_operating_cf
+6361,6361.T,EBARA CORPORATION,Machinery,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+4114,4114.T,"NIPPON SHOKUBAI CO.,LTD.",Chemicals,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+4901,4901.T,FUJIFILM Holdings Corporation,Chemicals,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8377,8377.T,"Hokuhoku Financial Group, Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+8876,8876.T,"Relo Group,Inc.",Services,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+9622,9622.T,"SPACE CO.,LTD.",Services,Prime Market (Domestic),False,True,False,False,missing_revenue
+7752,7752.T,"RICOH COMPANY,LTD.",Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+2432,2432.T,"DeNA Co.,Ltd.",Information & Communication,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+4712,4712.T,"KeyHolder,Inc.",Services,Standard Market(Domestic),False,True,False,False,missing_operating_cf
+7173,7173.T,"Tokyo Kiraboshi Financial Group,Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+4503,4503.T,Astellas Pharma Inc.,Pharmaceutical,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+9983,9983.T,"FAST RETAILING CO.,LTD.",Retail Trade,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+7593,7593.T,"VT HOLDINGS CO.,LTD.",Retail Trade,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+3673,3673.T,"Broadleaf Co.,Ltd.",Information & Communication,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6506,6506.T,YASKAWA Electric Corporation,Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+2327,2327.T,NS Solutions Corporation,Information & Communication,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8368,8368.T,"The Hyakugo Bank,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+7278,7278.T,EXEDY Corporation,Transportation Equipment,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8053,8053.T,"SUMITOMO CORPORATION (SUMITOMO SHOJI KAISHA,LTD.)",Wholesale Trade,Prime Market (Domestic),False,True,False,False,missing_revenue;missing_operating_cf
+4507,4507.T,"Shionogi & Co.,Ltd.",Pharmaceutical,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+9146,9146.T,"GOKENDO Holdings,Inc.",Land Transportation,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+7132,7132.T,FLOBAL CORPORATION,Wholesale Trade,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+2801,2801.T,KIKKOMAN CORPORATION,Foods,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+7322,7322.T,"San ju San Financial Group,Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+5528,5528.T,"Frontier House Co.,Ltd.",Real Estate,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+7693,7693.T,"Hokkaido Shika Sangyo Co.,Ltd.",Wholesale Trade,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+5844,5844.T,"Kyoto Financial Group,Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+8544,8544.T,"The Keiyo Bank,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+9149,9149.T,"Otomo Logistics Service Co.,Ltd.",Land Transportation,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+5534,5534.T,Angel Group Inc.,Real Estate,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+5072,5072.T,"ART FORCE JAPAN Co.,Ltd.",Construction,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+2992,2992.T,URBAN LiKE INC.,Real Estate,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+5022,5022.T,REVO International Inc.,Oil and Coal Products,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+1452,1452.T,"YOKOHAMA WRIGHT Industries Co.,LTD",Construction,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+5890,5890.T,OFFICEBUSTERS CORPORATION,Retail Trade,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+7680,7680.T,"KEIJIDOUSHAKAN.Co.,Ltd.",Retail Trade,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+7691,7691.T,C Channel Corporation,Retail Trade,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+8921,8921.T,"C's Create Co.,Ltd",Real Estate,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+2994,2994.T,"Answer Holdings Co.,Ltd",Real Estate,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+5886,5886.T,"OOKABE GLASS CO.,LTD.",Wholesale Trade,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+7136,7136.T,"Wellbin Group Co.,Ltd.",Retail Trade,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+1432,1432.T,"DORYOKU Co.,Ltd.",Construction,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+1445,1445.T,"Hikari Holdings Co.,Ltd.",Construction,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+5887,5887.T,"Kokyo,Inc.",Wholesale Trade,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+7690,7690.T,CURRENT MOTOR Corporation,Wholesale Trade,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+3291,3291.T,"Iida Group Holdings Co.,Ltd.",Real Estate,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+9433,9433.T,KDDI CORPORATION,Information & Communication,Prime Market (Domestic),False,True,False,False,missing_revenue;missing_operating_cf
+4902,4902.T,"KONICA MINOLTA,INC.",Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+5893,5893.T,RAVIPA Ltd.,Retail Trade,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+7139,7139.T,"TOKYO KOATSU Co.,Ltd.",Wholesale Trade,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+4912,4912.T,Lion Corporation,Chemicals,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+5525,5525.T,"Frontier Holdings Co.,Ltd.",Real Estate,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+4543,4543.T,TERUMO CORPORATION,Precision Instruments,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+7137,7137.T,"Grantomato Co.,Ltd.",Retail Trade,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+2990,2990.T,"Aida Sekkei Co.,Ltd.",Real Estate,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+6268,6268.T,Nabtesco Corporation,Machinery,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6988,6988.T,NITTO DENKO CORPORATION,Chemicals,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+7389,7389.T,"Aichi Financial Group,Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+5077,5077.T,"Hands Co.,Ltd.",Construction,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+2995,2995.T,J-REX Corporation,Real Estate,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+6702,6702.T,Fujitsu Limited,Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+7378,7378.T,ASIRO Inc.,Services,Growth Market(Domestic),False,True,False,False,missing_operating_cf
+4426,4426.T,"Passlogy Co.,Ltd.",Information & Communication,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+5831,5831.T,"Shizuoka Financial Group,Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+2768,2768.T,Sojitz Corporation,Wholesale Trade,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+3483,3483.T,"SHOEI CO.,LTD.",Real Estate,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+8345,8345.T,"The Bank of Iwate,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+6632,6632.T,JVCKENWOOD Corporation,Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+7380,7380.T,"Juroku Financial Group,Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+6576,6576.T,"Youkosha Co.,Ltd.",Services,PRO Market,False,True,False,False,price_unavailable;missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+4689,4689.T,LY Corporation,Information & Communication,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+3447,3447.T,"Shinwa Co.,Ltd.",Metal Products,Standard Market(Domestic),False,True,False,False,missing_operating_cf
+7184,7184.T,"THE FIRST BANK OF TOYAMA,LTD.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+8628,8628.T,"MATSUI SECURITIES CO.,LTD.",Securities and Commodities Futures,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue
+5531,5531.T,"NAKAYAMA FUDOUSAN Co.,Ltd.",Real Estate,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+5830,5830.T,"Iyogin Holdings,Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+8386,8386.T,"The Hyakujushi Bank,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+6501,6501.T,"Hitachi,Ltd.",Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+7313,7313.T,"TS TECH CO.,LTD.",Transportation Equipment,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+9163,9163.T,Nareru Group Inc.,Services,Growth Market(Domestic),False,True,False,False,missing_operating_cf
+4506,4506.T,"Sumitomo Pharma Co.,Ltd.",Pharmaceutical,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+2985,2985.T,First Stage Corporation,Real Estate,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+5536,5536.T,"Kyobashi Art Residence Co.,Ltd.",Real Estate,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+7350,7350.T,"Okinawa Financial Group,Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+9658,9658.T,BUSINESS BRAIN SHOWA・OTA INC.,Information & Communication,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8387,8387.T,"The Shikoku Bank, Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+8388,8388.T,"The Awa Bank,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+8336,8336.T,"The Musashino Bank,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+8362,8362.T,"The Fukui Bank,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+8418,8418.T,"Yamaguchi Financial Group,Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+8395,8395.T,THE BANK OF SAGA LTD.,Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+8601,8601.T,Daiwa Securities Group Inc.,Securities and Commodities Futures,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue
+8604,8604.T,"Nomura Holdings, Inc.",Securities and Commodities Futures,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_cf
+5108,5108.T,BRIDGESTONE CORPORATION,Rubber Products,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+2503,2503.T,"Kirin Holdings Company,Limited",Foods,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+2117,2117.T,"WELLNEO SUGAR Co.,Ltd.",Foods,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+7327,7327.T,"Daishi Hokuetsu Financial Group,Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+9434,9434.T,SoftBank Corp.,Information & Communication,Prime Market (Domestic),False,True,False,False,missing_revenue;missing_operating_cf
+4301,4301.T,AMUSE INC.,Services,Prime Market (Domestic),False,True,False,False,missing_revenue
+9766,9766.T,KONAMI GROUP CORPORATION,Information & Communication,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+4183,4183.T,"Mitsui Chemicals,Inc.",Chemicals,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8600,8600.T,"TOMONY Holdings,Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+6594,6594.T,NIDEC CORPORATION,Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+4528,4528.T,"ONO PHARMACEUTICAL CO.,LTD.",Pharmaceutical,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+1950,1950.T,"NIPPON DENSETSU KOGYO CO.,LTD.",Construction,Prime Market (Domestic),False,True,False,False,missing_revenue
+6370,6370.T,Kurita Water Industries Ltd.,Machinery,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+7296,7296.T,"F.C.C.CO.,LTD.",Transportation Equipment,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+7282,7282.T,"TOYODA GOSEI CO.,LTD.",Transportation Equipment,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+2763,2763.T,"FTGroup CO.,LTD.",Wholesale Trade,Standard Market(Domestic),False,True,False,False,missing_operating_cf
+5840,5840.T,"Nippon Souken Co.,Ltd.",Insurance,PRO Market,True,True,False,False,financial_sector_excluded;missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+9206,9206.T,Star Flyer Inc.,Air Transportation,Standard Market(Domestic),False,True,False,False,missing_revenue
+7242,7242.T,KYB Corporation,Transportation Equipment,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8750,8750.T,"Daiichi Life Group,Inc.",Insurance,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+3769,3769.T,"GMO Payment Gateway,Inc.",Information & Communication,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+3086,3086.T,"J.FRONT RETAILING Co.,Ltd.",Retail Trade,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+2588,2588.T,"Premium Water Holdings,Inc.",Foods,Standard Market(Domestic),False,True,False,False,missing_operating_cf
+7229,7229.T,"YUTAKA GIKEN CO.,LTD.",Transportation Equipment,Standard Market(Domestic),False,True,False,False,missing_operating_cf
+7187,7187.T,"J-LEASE CO.,LTD.",Other Financing Business,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+9243,9243.T,"FT Holdings Co.,Inc.",Services,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+7177,7177.T,"GMO Financial Holdings,Inc.",Securities and Commodities Futures,Standard Market(Domestic),True,True,True,False,financial_sector_excluded
+8399,8399.T,"Bank of The Ryukyus,Limited",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+7189,7189.T,"Nishi-Nippon Financial Holdings,Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+2587,2587.T,Suntory Beverage & Food Limited,Foods,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8522,8522.T,"The Bank of Nagoya,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+8334,8334.T,"The Gunma Bank,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+8359,8359.T,"Hachijuni Nagano Bank,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+8715,8715.T,"Anicom Holdings,Inc.",Insurance,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+8707,8707.T,"IwaiCosmo Holdings,Inc.",Securities and Commodities Futures,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue
+8341,8341.T,"The 77 Bank,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+7167,7167.T,"Mebuki Financial Group,Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+8367,8367.T,"The Nanto Bank,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+3774,3774.T,Internet Initiative Japan Inc.,Information & Communication,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6098,6098.T,"Recruit Holdings Co.,Ltd.",Services,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8002,8002.T,Marubeni Corporation,Wholesale Trade,Prime Market (Domestic),False,True,False,False,missing_revenue;missing_operating_cf
+9160,9160.T,"ON THE PAGE,Inc.",Services,Standard Market(Domestic),False,True,False,False,missing_operating_cf
+8056,8056.T,BIPROGY Inc.,Information & Communication,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+5201,5201.T,AGC Inc.,Glass and Ceramics Products,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+5832,5832.T,"Chugin Financial Group,Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+7326,7326.T,"SBI Insurance Group Co.,Ltd.",Insurance,Growth Market(Domestic),True,True,True,False,financial_sector_excluded
+5989,5989.T,"H-ONE CO.,LTD.",Metal Products,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8360,8360.T,"The Yamanashi Chuo Bank,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+8020,8020.T,KANEMATSU CORPORATION,Wholesale Trade,Prime Market (Domestic),False,True,False,False,missing_revenue;missing_operating_cf
+6183,6183.T,"BELLSYSTEM24 HOLDINGS,INC.",Services,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+4023,4023.T,KUREHA CORPORATION,Chemicals,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8370,8370.T,"The Kiyo Bank,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+6869,6869.T,SYSMEX CORPORATION,Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+7337,7337.T,"Hirogin Holdings,Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+7287,7287.T,"NIPPON SEIKI CO.,LTD.",Transportation Equipment,Standard Market(Domestic),False,True,False,False,missing_operating_cf
+1980,1980.T,"DAI-DAN CO.,LTD.",Construction,Prime Market (Domestic),False,True,False,False,missing_revenue
+8714,8714.T,"Senshu Ikeda Holdings,Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+8354,8354.T,"Fukuoka Financial Group,Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+5401,5401.T,NIPPON STEEL CORPORATION,Iron and Steel,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8747,8747.T,"YUTAKA TRUSTY SECURITIES CO.,LTD.",Securities and Commodities Futures,Standard Market(Domestic),True,True,False,False,financial_sector_excluded;missing_revenue
+4373,4373.T,"Simplex Holdings,Inc.",Information & Communication,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+4293,4293.T,"SEPTENI HOLDINGS CO.,LTD.",Services,Standard Market(Domestic),False,True,False,False,missing_operating_cf
+7779,7779.T,"CYBERDYNE,INC.",Precision Instruments,Growth Market(Domestic),False,True,False,False,missing_operating_cf
+8425,8425.T,"Mizuho Leasing Company,Limited",Other Financing Business,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+8411,8411.T,"Mizuho Financial Group,Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+7148,7148.T,"Financial Partners Group Co.,Ltd.",Securities and Commodities Futures,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+8923,8923.T,TOSEI CORPORATION,Real Estate,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+9034,9034.T,"NANSO Transport Co.,Ltd.",Land Transportation,Standard Market(Domestic),False,True,False,False,missing_revenue
+6089,6089.T,"WILL GROUP,INC.",Services,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+5195,5195.T,"Bando Chemical Industries,Ltd.",Rubber Products,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+4452,4452.T,Kao Corporation,Chemicals,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+7186,7186.T,"Yokohama Financial Group,Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+5334,5334.T,"Niterra Co.,Ltd.",Glass and Ceramics Products,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8616,8616.T,"Tokai Tokyo Financial Holdings,Inc.",Securities and Commodities Futures,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+8346,8346.T,"The Toho Bank,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+8766,8766.T,"Tokio Marine Holdings,Inc.",Insurance,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+8343,8343.T,"THE AKITA BANK,LTD.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+7164,7164.T,"ZENKOKU HOSHO Co.,Ltd.",Other Financing Business,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+5938,5938.T,LIXIL Corporation,Metal Products,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8358,8358.T,Suruga Bank Ltd.,Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+8316,8316.T,"Sumitomo Mitsui Financial Group,Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+9251,9251.T,"AB&Company Co.,Ltd.",Services,Growth Market(Domestic),False,True,False,False,missing_operating_cf
+8031,8031.T,"MITSUI & CO.,LTD.",Wholesale Trade,Prime Market (Domestic),False,True,False,False,missing_revenue;missing_operating_cf
+9023,9023.T,"Tokyo Metro Co.,Ltd.",Land Transportation,Prime Market (Domestic),False,True,False,False,price_history_lt_500
+8704,8704.T,"TRADERS HOLDINGS CO.,LTD.",Securities and Commodities Futures,Standard Market(Domestic),True,True,True,False,financial_sector_excluded
+7180,7180.T,"Kyushu Financial Group,Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+3762,3762.T,TECHMATRIX CORPORATION,Information & Communication,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+9602,9602.T,"TOHO CO.,LTD",Information & Communication,Prime Market (Domestic),False,True,False,False,missing_revenue
+2148,2148.T,ITmedia Inc.,Services,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+7384,7384.T,"Procrea Holdings,Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+8541,8541.T,"The Ehime Bank,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+8795,8795.T,"T&D Holdings, Inc.",Insurance,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+1944,1944.T,KINDEN CORPORATION,Construction,Prime Market (Domestic),False,True,False,False,missing_revenue
+8591,8591.T,ORIX CORPORATION,Other Financing Business,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_operating_cf
+8739,8739.T,"SPARX Group Co.,Ltd.",Securities and Commodities Futures,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue
+8737,8737.T,Akatsuki Corp.,Securities and Commodities Futures,Standard Market(Domestic),True,True,True,False,financial_sector_excluded
+6201,6201.T,TOYOTA INDUSTRIES CORPORATION,Transportation Equipment,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8338,8338.T,"Tsukuba Bank,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+8303,8303.T,"SBI Shinsei Bank,Limited",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;price_history_lt_500;missing_revenue;missing_operating_income
+7182,7182.T,"JAPAN POST BANK Co.,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+3983,3983.T,"ORO Co.,Ltd.",Information & Communication,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+3402,3402.T,"TORAY INDUSTRIES,INC.",Textiles and Apparels,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8306,8306.T,"Mitsubishi UFJ Financial Group,Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+1375,1375.T,"YUKIGUNI FACTORY CO.,LTD.","Fishery, Agriculture and Forestry",Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6555,6555.T,"MS&Consulting Co.,Ltd.",Services,Standard Market(Domestic),False,True,False,False,missing_operating_cf
+8613,8613.T,"Marusan Securities Co.,Ltd.",Securities and Commodities Futures,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue
+7354,7354.T,Direct Marketing MiX Inc.,Services,Standard Market(Domestic),False,True,False,False,missing_operating_cf
+8364,8364.T,"THE SHIMIZU BANK,LTD.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+8344,8344.T,"The Yamagata Bank,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+4432,4432.T,WingArc1st Inc.,Information & Communication,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8381,8381.T,"The San-in Godo Bank,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+8253,8253.T,"Credit Saison Co.,Ltd.",Other Financing Business,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_cf
+8551,8551.T,"The Kita-Nippon Bank,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+6645,6645.T,OMRON Corporation,Electric Appliances,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+3116,3116.T,TOYOTA BOSHOKU CORPORATION,Transportation Equipment,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+7381,7381.T,"CCI Group,Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+7170,7170.T,"CHUOU INTERNATIONAL GROUP CO.,LTD.",Insurance,PRO Market,True,True,False,False,financial_sector_excluded;missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+8524,8524.T,"North Pacific Bank,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+8439,8439.T,Tokyo Century Corporation,Other Financing Business,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+8366,8366.T,"THE SHIGA BANK,LTD.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+6379,6379.T,RAIZNEXT Corporation,Construction,Prime Market (Domestic),False,True,False,False,missing_revenue
+7191,7191.T,Entrust Inc.,Other Financing Business,Standard Market(Domestic),True,True,True,False,financial_sector_excluded
+8511,8511.T,"Japan Securities Finance Co.,Ltd.",Other Financing Business,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+8015,8015.T,TOYOTA TSUSHO CORPORATION,Wholesale Trade,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8113,8113.T,UNICHARM CORPORATION,Chemicals,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8424,8424.T,"Fuyo General Lease Co.,Ltd.",Other Financing Business,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+8410,8410.T,"Seven Bank,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+6571,6571.T,"QB Net Holdings Co.,Ltd.",Services,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+2120,2120.T,"LIFULL Co.,Ltd.",Services,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+2282,2282.T,NH Foods Ltd.,Foods,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+2351,2351.T,ASJ INC.,Information & Communication,Standard Market(Domestic),False,True,False,False,missing_operating_cf
+8558,8558.T,"THE TOWA BANK,LTD.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+2914,2914.T,JAPAN TOBACCO INC.,Foods,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8566,8566.T,"RICOH LEASING COMPANY,LTD.",Other Financing Business,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+7893,7893.T,PRONEXUS INC.,Other Products,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+9222,9222.T,"manaby Co.,Ltd.",Services,PRO Market,False,True,False,False,missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+7176,7176.T,"Simplex Financial Holdings Co.,Ltd.",Securities and Commodities Futures,PRO Market,True,True,False,False,financial_sector_excluded;missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+3387,3387.T,create restaurants holdings inc.,Retail Trade,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+4088,4088.T,AIR WATER INC.,Chemicals,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+9028,9028.T,"ZERO CO.,LTD.",Land Transportation,Standard Market(Domestic),False,True,False,False,missing_operating_cf
+3679,3679.T,"ZIGExN Co.,Ltd.",Information & Communication,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8537,8537.T,"THE TAIKO BANK,LTD.",Banks,Standard Market(Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+4502,4502.T,Takeda Pharmaceutical Company Limited,Pharmaceutical,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+2811,2811.T,"KAGOME CO.,LTD.",Foods,Prime Market (Domestic),False,True,False,False,missing_revenue;missing_operating_cf
+7733,7733.T,OLYMPUS CORPORATION,Precision Instruments,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8624,8624.T,"Ichiyoshi Securities Co.,Ltd.",Securities and Commodities Futures,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue
+6481,6481.T,"THK CO.,LTD.",Machinery,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+5482,5482.T,AICHI STEEL CORPORATION,Iron and Steel,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8570,8570.T,"AEON Financial Service Co.,Ltd.",Other Financing Business,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+4151,4151.T,"Kyowa Kirin Co.,Ltd.",Pharmaceutical,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+2897,2897.T,"NISSIN FOODS HOLDINGS CO.,LTD.",Foods,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+4235,4235.T,"Ultrafabrics Holdings Co.,Ltd.",Chemicals,Standard Market(Domestic),False,True,False,False,missing_operating_cf
+8133,8133.T,"ITOCHU ENEX CO.,LTD.",Wholesale Trade,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8542,8542.T,"TOMATO BANK,LTD.",Banks,Standard Market(Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+4536,4536.T,"SANTEN PHARMACEUTICAL CO.,LTD.",Pharmaceutical,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+4755,4755.T,"Rakuten Group,Inc.",Services,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8349,8349.T,"THE TOHOKU BANK,LTD.",Banks,Standard Market(Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+8563,8563.T,"THE DAITO BANK,LTD.",Banks,Standard Market(Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+8337,8337.T,"The Chiba Kogyo Bank,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+5843,5843.T,"Nippon Insure Co.,Ltd.",Other Financing Business,Standard Market(Domestic),True,True,True,False,financial_sector_excluded
+8699,8699.T,"HS Holdings Co.,Ltd.",Securities and Commodities Futures,Standard Market(Domestic),True,True,True,False,financial_sector_excluded
+8001,8001.T,ITOCHU Corporation,Wholesale Trade,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+2802,2802.T,"Ajinomoto Co.,Inc.",Foods,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8614,8614.T,"TOYO SECURITIES CO.,LTD.",Securities and Commodities Futures,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue
+9147,9147.T,"NIPPON EXPRESS HOLDINGS,INC.",Land Transportation,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8304,8304.T,"Aozora Bank,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+5834,5834.T,"SBI Leasing Services Co.,Ltd.",Securities and Commodities Futures,Growth Market(Domestic),True,True,True,False,financial_sector_excluded
+9130,9130.T,"KYOEI TANKER CO.,LTD.",Marine Transportation,Standard Market(Domestic),False,True,False,False,missing_revenue
+8789,8789.T,FinTech Global Incorporated,Other Financing Business,Standard Market(Domestic),True,True,True,False,financial_sector_excluded
+5845,5845.T,"ZENHOREN CO.,LTD.",Other Financing Business,Standard Market(Domestic),True,True,True,False,financial_sector_excluded
+8713,8713.T,FIDEA Holdings Co.Ltd.,Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+6464,6464.T,"TSUBAKI NAKASHIMA CO.,LTD.",Machinery,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8772,8772.T,"ASAX CO.,LTD.",Other Financing Business,Standard Market(Domestic),True,True,False,False,financial_sector_excluded;missing_revenue
+8383,8383.T,"THE TOTTORI BANK,LTD.",Banks,Standard Market(Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+9365,9365.T,TRADIA CORPORATION,Warehousing and Harbor Transportation Service,Standard Market(Domestic),False,True,False,False,missing_revenue
+8308,8308.T,"Resona Holdings, Inc.",Banks,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+4286,4286.T,CL Holdings Inc.,Services,Standard Market(Domestic),False,True,False,False,missing_operating_cf
+8609,8609.T,OKASAN SECURITIES GROUP INC.,Securities and Commodities Futures,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+1914,1914.T,"JAPAN FOUNDATION ENGINEERING CO.,LTD.",Construction,Standard Market(Domestic),False,True,False,False,missing_revenue
+7172,7172.T,"Japan Investment Adviser Co.,Ltd.",Securities and Commodities Futures,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+8700,8700.T,"Maruhachi Securities Co.,Ltd.",Securities and Commodities Futures,Standard Market(Domestic),True,True,False,False,financial_sector_excluded;missing_revenue
+8331,8331.T,"The Chiba Bank,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+3989,3989.T,SHARINGTECHNOLOGY.INC,Information & Communication,Growth Market(Domestic),False,True,False,False,missing_operating_cf
+8706,8706.T,"KYOKUTO SECURITIES CO.,LTD.",Securities and Commodities Futures,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue
+8584,8584.T,"JACCS CO.,LTD.",Other Financing Business,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+3612,3612.T,"WORLD CO.,LTD.",Textiles and Apparels,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8771,8771.T,"eGuarantee,Inc.",Other Financing Business,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+3197,3197.T,"SKYLARK HOLDINGS CO.,LTD.",Retail Trade,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+7192,7192.T,Mortgage Service Japan Limited,Other Financing Business,Standard Market(Domestic),True,True,True,False,financial_sector_excluded
+8793,8793.T,NEC Capital Solutions Limited,Other Financing Business,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+7185,7185.T,Hirose Tusyo Inc.,Securities and Commodities Futures,Standard Market(Domestic),True,True,True,False,financial_sector_excluded
+8572,8572.T,"ACOM CO.,LTD.",Other Financing Business,Standard Market(Domestic),True,True,True,False,financial_sector_excluded
+8595,8595.T,"JAFCO Group Co.,Ltd.",Securities and Commodities Futures,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+4516,4516.T,"Nippon Shinyaku Co.,Ltd.",Pharmaceutical,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8585,8585.T,Orient Corporation,Other Financing Business,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+8058,8058.T,Mitsubishi Corporation,Wholesale Trade,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+5889,5889.T,"Japan Eyewear Holdings Co.,Ltd.",Retail Trade,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+2170,2170.T,Link and Motivation Inc.,Services,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8697,8697.T,"Japan Exchange Group,Inc.",Other Financing Business,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_operating_cf
+7325,7325.T,IRRC Corporation,Insurance,Growth Market(Domestic),True,True,True,False,financial_sector_excluded
+7951,7951.T,YAMAHA CORPORATION,Other Products,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+7012,7012.T,"Kawasaki Heavy Industries,Ltd.",Transportation Equipment,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8365,8365.T,"The Bank of Toyama,Ltd.",Banks,Standard Market(Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+5271,5271.T,"TOYO ASANO FOUNDATION CO.,LTD.",Glass and Ceramics Products,Standard Market(Domestic),False,True,False,False,price_history_lt_500
+8550,8550.T,"THE TOCHIGI BANK,LTD.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+7175,7175.T,"The Imamura Securities Co.,Ltd.",Securities and Commodities Futures,Standard Market(Domestic),True,True,False,False,financial_sector_excluded;missing_revenue
+6141,6141.T,"DMG MORI CO.,LTD.",Machinery,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+2371,2371.T,"Kakaku.com,Inc.",Services,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+7119,7119.T,"halmek holdings Co.,Ltd.",Retail Trade,Growth Market(Domestic),False,True,False,False,missing_operating_cf
+6574,6574.T,Convano Inc.,Services,Growth Market(Domestic),False,True,False,False,missing_operating_cf
+8622,8622.T,"Mito Securities Co.,Ltd.",Securities and Commodities Futures,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue
+7157,7157.T,LIFENET INSURANCE COMPANY,Insurance,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+8416,8416.T,"THE BANK OF KOCHI,LTD.",Banks,Standard Market(Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+3323,3323.T,"RECOMM CO.,LTD.",Wholesale Trade,Standard Market(Domestic),False,True,False,False,missing_operating_cf
+8596,8596.T,"KYUSHU LEASING SERVICE CO.,LTD.",Other Financing Business,Standard Market(Domestic),True,True,True,False,financial_sector_excluded
+4483,4483.T,JMDC Inc.,Information & Communication,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+1966,1966.T,TAKADA CORPORATION,Construction,Standard Market(Domestic),False,True,False,False,missing_revenue
+4519,4519.T,"CHUGAI PHARMACEUTICAL CO.,LTD.",Pharmaceutical,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8705,8705.T,"Nissan Securities Group Co.,Ltd.",Securities and Commodities Futures,Standard Market(Domestic),True,True,False,False,financial_sector_excluded;missing_revenue
+6562,6562.T,"Geniee,Inc.",Services,Growth Market(Domestic),False,True,False,False,missing_operating_cf
+7161,7161.T,"Jimoto Holdings,Inc.",Banks,Standard Market(Domestic),True,True,True,False,financial_sector_excluded
+4346,4346.T,NEXYZ.Group Corporation,Other Financing Business,Standard Market(Domestic),True,True,True,False,financial_sector_excluded
+2471,2471.T,"S-Pool,Inc.",Services,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6330,6330.T,TOYO ENGINEERING CORPORATION,Construction,Prime Market (Domestic),False,True,False,False,missing_revenue
+8742,8742.T,"KOBAYASHI YOKO CO.,LTD.",Securities and Commodities Futures,Standard Market(Domestic),True,True,True,False,financial_sector_excluded
+3659,3659.T,"NEXON Co.,Ltd.",Information & Communication,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+5202,5202.T,"Nippon Sheet Glass Company,Limited",Glass and Ceramics Products,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+4263,4263.T,"SUSMED,Inc.",Information & Communication,Growth Market(Domestic),False,True,False,False,missing_revenue
+4523,4523.T,"Eisai Co.,Ltd.",Pharmaceutical,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+3397,3397.T,TORIDOLL Holdings Corporation,Retail Trade,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+4911,4911.T,"Shiseido Company,Limited",Chemicals,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+7150,7150.T,"THE SHIMANE BANK,LTD.",Banks,Standard Market(Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+9519,9519.T,"RENOVA,Inc.",Electric Power and Gas,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+9168,9168.T,"Rise Consulting Group,Inc.",Services,Growth Market(Domestic),False,True,False,False,missing_operating_cf
+8708,8708.T,"AIZAWA SECURITIES GROUP CO.,LTD.",Securities and Commodities Futures,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+2413,2413.T,"M3,Inc.",Services,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+5838,5838.T,"Rakuten Bank,Ltd.",Banks,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+7347,7347.T,"Mercuria Holdings Co.,Ltd.",Securities and Commodities Futures,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+7196,7196.T,Casa Inc.,Other Financing Business,Standard Market(Domestic),True,True,True,False,financial_sector_excluded
+7047,7047.T,PORT INC.,Services,Growth Market(Domestic),False,True,False,False,missing_operating_cf
+2501,2501.T,SAPPORO HOLDINGS LIMITED,Foods,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+6191,6191.T,AirTrip Corp.,Services,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8562,8562.T,"THE FUKUSHIMA BANK,LTD.",Banks,Standard Market(Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_income
+7372,7372.T,Decollte Holdings Corporation,Services,Growth Market(Domestic),False,True,False,False,missing_operating_cf
+2193,2193.T,Cookpad Inc.,Services,Standard Market(Domestic),False,True,False,False,missing_operating_cf
+4579,4579.T,RaQualia Pharma Inc.,Pharmaceutical,Growth Market(Domestic),False,True,False,False,missing_revenue
+8508,8508.T,"J Trust Co.,Ltd.",Other Financing Business,Standard Market(Domestic),True,True,False,False,financial_sector_excluded;missing_revenue;missing_operating_cf
+2156,2156.T,SAYLOR ADVERTISING INC.,Services,Standard Market(Domestic),False,True,False,False,missing_revenue
+7915,7915.T,"Nissha Co.,Ltd.",Other Products,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+7388,7388.T,FP Partner Inc.,Insurance,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+6034,6034.T,MRT Inc.,Services,Growth Market(Domestic),False,True,False,False,missing_operating_cf
+8729,8729.T,Sony Financial Group Inc.,Insurance,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;price_history_lt_500;missing_total_assets;missing_equity;missing_roe;missing_revenue;missing_operating_income;missing_operating_cf
+5842,5842.T,Integral Corporation,Securities and Commodities Futures,Growth Market(Domestic),True,True,False,False,financial_sector_excluded;missing_operating_cf
+4307,4307.T,"Nomura Research Institute,Ltd.",Information & Communication,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+3491,3491.T,"GAtechnologies Co.,Ltd.",Real Estate,Growth Market(Domestic),False,True,False,False,missing_operating_cf
+4568,4568.T,"DAIICHI SANKYO COMPANY,LIMITED",Pharmaceutical,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+7343,7343.T,"Broad-Minded Co.,Ltd.",Insurance,Growth Market(Domestic),True,True,True,False,financial_sector_excluded
+5027,5027.T,AnyMind Group Inc.,Information & Communication,Growth Market(Domestic),False,True,False,False,missing_revenue;missing_operating_cf
+9204,9204.T,Skymark Airlines Inc.,Air Transportation,Growth Market(Domestic),False,True,False,False,missing_revenue
+3563,3563.T,FOOD & LIFE COMPANIES LTD.,Retail Trade,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+4351,4351.T,YAMADA SERVICER SYNTHETIC OFFICE,Other Financing Business,Standard Market(Domestic),True,True,True,False,financial_sector_excluded
+3680,3680.T,Hotto Link Inc.,Information & Communication,Growth Market(Domestic),False,True,False,False,missing_operating_cf
+3691,3691.T,"DIGITAL PLUS,Inc.",Information & Communication,Growth Market(Domestic),False,True,False,False,missing_operating_cf
+7198,7198.T,SBI ARUHI Corporation,Other Financing Business,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_operating_cf
+9158,9158.T,CUC Inc.,Services,Growth Market(Domestic),False,True,False,False,missing_operating_cf
+4260,4260.T,"Hybrid Technologies Co.,Ltd.",Information & Communication,Growth Market(Domestic),False,True,False,False,missing_operating_cf
+4565,4565.T,"Nxera Pharma Co.,Ltd.",Pharmaceutical,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+8617,8617.T,"The Kosei Securities Co.,Ltd.",Securities and Commodities Futures,Standard Market(Domestic),True,True,False,False,financial_sector_excluded;missing_revenue
+7183,7183.T,"Anshin Guarantor Service Co.,Ltd.",Other Financing Business,Standard Market(Domestic),True,True,True,False,financial_sector_excluded
+3727,3727.T,Aplix Corporation,Information & Communication,Growth Market(Domestic),False,True,False,False,missing_operating_cf
+7616,7616.T,"COLOWIDE CO.,LTD.",Retail Trade,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+7111,7111.T,"INEST,Inc.",Wholesale Trade,Standard Market(Domestic),False,True,False,False,missing_operating_cf
+4599,4599.T,StemRIM Inc.,Pharmaceutical,Growth Market(Domestic),False,True,False,False,missing_revenue
+8698,8698.T,"Monex Group,Inc.",Securities and Commodities Futures,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_operating_cf
+7345,7345.T,Ai Partners Financial Inc.,Other Financing Business,Growth Market(Domestic),True,True,True,False,financial_sector_excluded
+6030,6030.T,"Adventure,Inc.",Services,Growth Market(Domestic),False,True,False,False,missing_operating_cf
+8518,8518.T,"Japan Asia Investment Company,Limited",Securities and Commodities Futures,Standard Market(Domestic),True,True,True,False,financial_sector_excluded
+4819,4819.T,"Digital Garage,Inc.",Information & Communication,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+4180,4180.T,"Appier Group,Inc.",Information & Communication,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+4889,4889.T,Renascience Inc.,Pharmaceutical,Growth Market(Domestic),False,True,False,False,missing_revenue
+5255,5255.T,Monstarlab Inc.,Information & Communication,Growth Market(Domestic),False,True,False,False,missing_operating_cf
+4591,4591.T,RIBOMIC Inc.,Pharmaceutical,Growth Market(Domestic),False,True,False,False,missing_revenue
+4891,4891.T,"TMS Co.,Ltd.",Pharmaceutical,Growth Market(Domestic),False,True,False,False,missing_revenue
+8746,8746.T,unbanked inc.,Securities and Commodities Futures,Standard Market(Domestic),True,True,True,False,financial_sector_excluded
+4881,4881.T,FunPep Company Limited,Pharmaceutical,Growth Market(Domestic),False,True,False,False,missing_revenue
+4592,4592.T,SanBio Company Limited,Pharmaceutical,Growth Market(Domestic),False,True,False,False,missing_revenue
+8783,8783.T,"abc Co.,Ltd.",Other Financing Business,Standard Market(Domestic),True,True,True,False,financial_sector_excluded
+7383,7383.T,"Net Protections Holdings,Inc.",Other Financing Business,Prime Market (Domestic),True,True,False,False,financial_sector_excluded;missing_operating_cf
+9211,9211.T,f-code Inc.,Services,Growth Market(Domestic),False,True,False,False,missing_operating_cf
+2388,2388.T,"Wedge Holdings CO.,LTD.",Other Financing Business,Growth Market(Domestic),True,True,True,False,financial_sector_excluded
+3185,3185.T,"DREAM VISION CO.,LTD.",Retail Trade,Growth Market(Domestic),False,True,False,False,missing_operating_cf
+4563,4563.T,"AnGes,Inc.",Pharmaceutical,Growth Market(Domestic),False,True,False,False,missing_revenue
+7320,7320.T,Solvvy Inc.,Other Financing Business,Growth Market(Domestic),True,True,True,False,financial_sector_excluded
+4893,4893.T,Noile-Immune Biotech Inc.,Pharmaceutical,Growth Market(Domestic),False,True,False,False,missing_revenue
+3113,3113.T,UNIVA Oak Holdings Limited,Securities and Commodities Futures,Standard Market(Domestic),True,True,True,False,financial_sector_excluded
+4883,4883.T,Modalis Therapeutics Corporation,Pharmaceutical,Growth Market(Domestic),False,True,False,False,missing_revenue
+2160,2160.T,GNI Group Ltd.,Pharmaceutical,Growth Market(Domestic),False,True,False,False,missing_operating_cf
+4587,4587.T,PeptiDream Inc.,Pharmaceutical,Prime Market (Domestic),False,True,False,False,missing_operating_cf
+4598,4598.T,"Delta-Fly Pharma,Inc.",Pharmaceutical,Growth Market(Domestic),False,True,False,False,missing_revenue
+4575,4575.T,"CanBas Co.,Ltd.",Pharmaceutical,Growth Market(Domestic),False,True,False,False,missing_revenue
+8798,8798.T,"Advance Create Co.,Ltd.",Insurance,Prime Market (Domestic),True,True,True,False,financial_sector_excluded
+4596,4596.T,"Kubota Pharmaceutical Holdings Co.,Ltd.",Pharmaceutical,Growth Market(Domestic),False,True,False,False,missing_operating_cf
+4593,4593.T,HEALIOS K.K.,Pharmaceutical,Growth Market(Domestic),False,True,False,False,missing_operating_cf
+4597,4597.T,Solasia Pharma K.K.,Pharmaceutical,Growth Market(Domestic),False,True,False,False,missing_operating_cf

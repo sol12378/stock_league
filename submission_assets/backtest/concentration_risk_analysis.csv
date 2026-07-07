@@ -1,0 +1,7 @@
+analysis,cumulative_return,note
+baseline,3.3367663552221787,v12 final20
+santec除外,2.8905936883790275,除外: 6777.T
+上位3寄与銘柄除外,2.3767455544746854,"除外: 6777.T, 3449.T, 6627.T"
+上位5寄与銘柄除外,2.0474619330782855,"除外: 6777.T, 3449.T, 6627.T, 1662.T, 6356.T"
+Future Moat寄与集中,,"Future Moat weight=32.2%, contribution=171.0%"
+単一銘柄上限,,"max weight=8.0%, limit=8.0%"

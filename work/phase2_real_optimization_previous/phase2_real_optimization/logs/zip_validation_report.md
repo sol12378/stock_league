@@ -1,0 +1,98 @@
+# ZIP Validation Report
+
+- ZIP exists: True
+- ZIP size MB: 19.482
+
+## Required checks
+- phase2_real_optimization/README.md: OK
+- phase2_real_optimization/manifest.json: OK
+- phase2_real_optimization/reports/phase2_real_optimization_report.md: OK
+- phase2_real_optimization/reports/top1200_optimality_report.md: OK
+- phase2_real_optimization/reports/phase2_to_phase3_handoff_final.md: OK
+- phase2_real_optimization/optimization/selected_phase2_solution.json: OK
+- phase2_real_optimization/optimization/optuna_tpe_real_trials.csv: OK
+- phase2_real_optimization/optimization/nsga2_pareto_front.csv: OK
+- phase2_real_optimization/topn_selection/topn_metrics.csv: OK
+- phase2_real_optimization/rankings/final_weighted_top1200.csv: OK
+- phase2_real_optimization/rankings/phase1_top5_rank_check_final.csv: OK
+- phase2_real_optimization/validation/stability_results_real.csv: OK
+- phase2_real_optimization/data_audit/gp_missing_review.csv: OK
+- phase2_real_optimization/logs/zip_validation_report.md: OK
+
+## Missing
+- None
+
+## File listing
+- phase2_real_optimization/README.md
+- phase2_real_optimization/ablation/ablation_results_real.csv
+- phase2_real_optimization/checksums.txt
+- phase2_real_optimization/configs/optimization_config.yaml
+- phase2_real_optimization/configs/requirements_phase2_real.txt
+- phase2_real_optimization/data_audit/gp_missing_penalty_rank_diff.csv
+- phase2_real_optimization/data_audit/gp_missing_review.csv
+- phase2_real_optimization/data_audit/input_files_detected.csv
+- phase2_real_optimization/data_audit/missing_inputs_and_columns.md
+- phase2_real_optimization/data_audit/missingness_report.csv
+- phase2_real_optimization/data_audit/normalization_report.md
+- phase2_real_optimization/figures/ablation_importance_real.png
+- phase2_real_optimization/figures/nsga2_pareto_front.png
+- phase2_real_optimization/figures/nsga2_tradeoff_sector_vs_quality.png
+- phase2_real_optimization/figures/nsga2_tradeoff_topn_vs_quality.png
+- phase2_real_optimization/figures/optuna_optimization_history.png
+- phase2_real_optimization/figures/optuna_param_importance.png
+- phase2_real_optimization/figures/stability_jaccard_heatmap_real.png
+- phase2_real_optimization/figures/topn_anomaly_review_curve.png
+- phase2_real_optimization/figures/topn_metric_curves.png
+- phase2_real_optimization/figures/topn_phase1_top5_coverage.png
+- phase2_real_optimization/figures/topn_sector_hhi_curve.png
+- phase2_real_optimization/logs/environment_report.csv
+- phase2_real_optimization/logs/environment_report.md
+- phase2_real_optimization/logs/final_validation_errors.md
+- phase2_real_optimization/logs/summary.log
+- phase2_real_optimization/logs/zip_validation_report.md
+- phase2_real_optimization/manifest.json
+- phase2_real_optimization/normalized_metrics/normalized_metric_table.csv
+- phase2_real_optimization/normalized_metrics/sector_adjusted_metric_table.csv
+- phase2_real_optimization/optimization/baseline_weight_results.csv
+- phase2_real_optimization/optimization/nsga2_pareto_front.csv
+- phase2_real_optimization/optimization/nsga2_real_trials.csv
+- phase2_real_optimization/optimization/nsga2_selected_solutions.json
+- phase2_real_optimization/optimization/optuna_study.pkl
+- phase2_real_optimization/optimization/optuna_study.sqlite3
+- phase2_real_optimization/optimization/optuna_tpe_real_best.json
+- phase2_real_optimization/optimization/optuna_tpe_real_trials.csv
+- phase2_real_optimization/optimization/random_search_real_trials.csv
+- phase2_real_optimization/optimization/selected_phase2_solution.json
+- phase2_real_optimization/previous_review/previous_artifact_review.md
+- phase2_real_optimization/rankings/final_weighted_ranking_all.csv
+- phase2_real_optimization/rankings/final_weighted_top100.csv
+- phase2_real_optimization/rankings/final_weighted_top1000.csv
+- phase2_real_optimization/rankings/final_weighted_top1200.csv
+- phase2_real_optimization/rankings/final_weighted_top1500.csv
+- phase2_real_optimization/rankings/final_weighted_top20.csv
+- phase2_real_optimization/rankings/final_weighted_top300.csv
+- phase2_real_optimization/rankings/final_weighted_top50.csv
+- phase2_real_optimization/rankings/phase1_top5_rank_check_final.csv
+- phase2_real_optimization/reports/ablation_report_real.md
+- phase2_real_optimization/reports/gp_missing_review_report.md
+- phase2_real_optimization/reports/phase2_real_optimization_report.md
+- phase2_real_optimization/reports/phase2_to_phase3_handoff_final.md
+- phase2_real_optimization/reports/stability_report_real.md
+- phase2_real_optimization/reports/top1200_optimality_report.md
+- phase2_real_optimization/reports/walk_forward_report.md
+- phase2_real_optimization/scripts/phase2_real_optimizer/__init__.py
+- phase2_real_optimization/scripts/phase2_real_optimizer/nsga2_real.py
+- phase2_real_optimization/scripts/phase2_real_optimizer/optuna_tpe_real.py
+- phase2_real_optimization/scripts/phase2_real_optimizer/random_search_real.py
+- phase2_real_optimization/scripts/phase2_real_optimizer/reporting_real.py
+- phase2_real_optimization/scripts/phase2_real_optimizer/run_all.sh
+- phase2_real_optimization/scripts/phase2_real_optimizer/run_real_optimization.py
+- phase2_real_optimization/scripts/phase2_real_optimizer/validation_real.py
+- phase2_real_optimization/topn_selection/topn_metrics.csv
+- phase2_real_optimization/topn_selection/topn_selection_report.md
+- phase2_real_optimization/validation/missing_handling_sensitivity.csv
+- phase2_real_optimization/validation/normalization_sensitivity.csv
+- phase2_real_optimization/validation/stability_results_real.csv
+- phase2_real_optimization/validation/topn_jaccard_by_test.csv
+- phase2_real_optimization/validation/walk_forward_real.csv
+- phase2_real_optimization/validation/walk_forward_unavailable.md

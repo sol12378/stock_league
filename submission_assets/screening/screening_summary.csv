@@ -1,0 +1,8 @@
+stage,stage_label,count
+universe,東証上場企業,3649
+price_available,株価取得可能,3648
+liquid_20m_60d,流動性条件通過,2560
+investment_eligible,投資適格性通過,1963
+scored,スコア算出対象,1963
+candidates_top80,統合スコア上位80社,80
+portfolio_candidates,最終20社,20

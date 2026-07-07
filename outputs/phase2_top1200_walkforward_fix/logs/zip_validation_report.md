@@ -1,0 +1,76 @@
+# ZIP Validation Report
+
+- ZIP exists: True
+- ZIP size MB: 3.662
+
+## Required checks
+- phase2_top1200_walkforward_fix/README.md: OK
+- phase2_top1200_walkforward_fix/manifest.json: OK
+- phase2_top1200_walkforward_fix/reports/phase2_top1200_final_report.md: OK
+- phase2_top1200_walkforward_fix/reports/top1200_vs_top2000_decision.md: OK
+- phase2_top1200_walkforward_fix/reports/normalization_fix_report.md: OK
+- phase2_top1200_walkforward_fix/reports/walk_forward_report_final.md: OK
+- phase2_top1200_walkforward_fix/reports/phase2_to_phase3_handoff_top1200.md: OK
+- phase2_top1200_walkforward_fix/top1200_final/phase2_optimized_top1200_candidates.csv: OK
+- phase2_top1200_walkforward_fix/top1200_final/selected_phase2_top1200_solution.json: OK
+- phase2_top1200_walkforward_fix/consensus/normalization_consensus_table.csv: OK
+- phase2_top1200_walkforward_fix/rankings/final_weighted_top2000_reference.csv: OK
+- phase2_top1200_walkforward_fix/logs/zip_validation_report.md: OK
+- phase2_top1200_walkforward_fix/logs/summary.log: OK
+
+## Missing
+- None
+
+## File listing
+- phase2_top1200_walkforward_fix/README.md
+- phase2_top1200_walkforward_fix/checksums.txt
+- phase2_top1200_walkforward_fix/configs/top1200_walkforward_fix_config.yaml
+- phase2_top1200_walkforward_fix/consensus/normalization_consensus_summary.csv
+- phase2_top1200_walkforward_fix/consensus/normalization_consensus_table.csv
+- phase2_top1200_walkforward_fix/data_audit/input_files_detected.csv
+- phase2_top1200_walkforward_fix/data_audit/missing_inputs_and_columns.md
+- phase2_top1200_walkforward_fix/figures/normalization_consensus_counts.png
+- phase2_top1200_walkforward_fix/figures/normalization_jaccard_matrix.png
+- phase2_top1200_walkforward_fix/figures/normalization_overlap_venn_or_bar.png
+- phase2_top1200_walkforward_fix/figures/normalization_rank_correlation.png
+- phase2_top1200_walkforward_fix/figures/phase2_to_phase3_flow.png
+- phase2_top1200_walkforward_fix/figures/top1200_metric_vs_market.png
+- phase2_top1200_walkforward_fix/figures/top1200_sector_distribution.png
+- phase2_top1200_walkforward_fix/figures/top1200_vs_top2000_metrics.png
+- phase2_top1200_walkforward_fix/figures/topn_utility_curve_highlight_top1200.png
+- phase2_top1200_walkforward_fix/figures/walk_forward_jaccard.png
+- phase2_top1200_walkforward_fix/figures/walk_forward_metric_stability.png
+- phase2_top1200_walkforward_fix/figures/walk_forward_sector_hhi.png
+- phase2_top1200_walkforward_fix/logs/final_validation_errors.md
+- phase2_top1200_walkforward_fix/logs/summary.log
+- phase2_top1200_walkforward_fix/logs/zip_validation_report.md
+- phase2_top1200_walkforward_fix/manifest.json
+- phase2_top1200_walkforward_fix/normalization_fix/ranking_market_percentile_top1200.csv
+- phase2_top1200_walkforward_fix/normalization_fix/ranking_robust_zscore_top1200.csv
+- phase2_top1200_walkforward_fix/normalization_fix/ranking_sector_percentile_top1200.csv
+- phase2_top1200_walkforward_fix/normalization_fix/ranking_winsorized_zscore_top1200.csv
+- phase2_top1200_walkforward_fix/previous_review/previous_result_review.md
+- phase2_top1200_walkforward_fix/rankings/final_weighted_top1200_fixed.csv
+- phase2_top1200_walkforward_fix/rankings/final_weighted_top2000_reference.csv
+- phase2_top1200_walkforward_fix/reports/normalization_fix_report.md
+- phase2_top1200_walkforward_fix/reports/phase2_to_phase3_handoff_top1200.md
+- phase2_top1200_walkforward_fix/reports/phase2_top1200_final_report.md
+- phase2_top1200_walkforward_fix/reports/previous_result_review.md
+- phase2_top1200_walkforward_fix/reports/report_text_for_paper.md
+- phase2_top1200_walkforward_fix/reports/top1200_vs_top2000_decision.md
+- phase2_top1200_walkforward_fix/reports/top2000_reference_note.md
+- phase2_top1200_walkforward_fix/reports/walk_forward_report_final.md
+- phase2_top1200_walkforward_fix/scripts/phase2_top1200_walkforward_fix/__init__.py
+- phase2_top1200_walkforward_fix/scripts/phase2_top1200_walkforward_fix/generate_top1200_walkforward_fix.py
+- phase2_top1200_walkforward_fix/scripts/phase2_top1200_walkforward_fix/run_all.sh
+- phase2_top1200_walkforward_fix/top1200_final/phase2_optimized_top1200_candidates.csv
+- phase2_top1200_walkforward_fix/top1200_final/phase2_optimized_top1200_summary.csv
+- phase2_top1200_walkforward_fix/top1200_final/phase2_top1200_metric_distribution.csv
+- phase2_top1200_walkforward_fix/top1200_final/phase2_top1200_sector_distribution.csv
+- phase2_top1200_walkforward_fix/top1200_final/selected_phase2_top1200_solution.json
+- phase2_top1200_walkforward_fix/validation/final_validation_summary.md
+- phase2_top1200_walkforward_fix/walk_forward/walk_forward_fold_details.csv
+- phase2_top1200_walkforward_fix/walk_forward/walk_forward_results.csv
+- phase2_top1200_walkforward_fix/walk_forward/walk_forward_summary.json
+- phase2_top1200_walkforward_fix/walk_forward/walk_forward_top1200_overlap.csv
+- phase2_top1200_walkforward_fix/walk_forward/walk_forward_weight_drift.csv

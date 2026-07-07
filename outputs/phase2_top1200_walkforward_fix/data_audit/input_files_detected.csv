@@ -1,0 +1,8 @@
+path,exists,size_bytes
+outputs/phase2_real_optimization.zip,True,20427937
+outputs/phase2_real_optimization,True,
+outputs/phase1_buffett_complete/screening_candidates_complete.csv,True,2756142
+outputs/phase1_top5/phase1_buffett_core_top5.csv,True,2975
+data/processed/fundamentals_raw.csv,True,2230956
+data/processed/fundamentals_clean.csv,True,1418350
+data/processed/prices_daily.parquet,True,66370845

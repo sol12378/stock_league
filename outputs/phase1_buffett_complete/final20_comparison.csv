@@ -1,0 +1,4 @@
+portfolio,company_count,overlap_with_base,overlap_with_conservative,overlap_with_sector_adjusted,sector_count,market_count,average_bm,average_ep,average_gross_profitability,average_piotroski_available_ratio,average_sloan_accruals,human_review_required_count,liquidity_review_count,distress_review_count,extreme_value_count,retail_trade_count,retail_trade_ratio,adoption_judgement
+base,20,20,8,5,7,2,1.5927449887584768,0.1915747903704838,0.6796823199119083,0.8416666666666668,-0.036772630752050145,12,10,0,1,13,0.65,comparison_reference
+conservative,20,8,20,11,7,3,1.5301272012807563,0.14086270931912143,0.46283490321524356,0.8750000000000002,-0.022759459469665063,0,0,0,0,13,0.65,comparison_reference
+sector_adjusted,20,5,11,20,11,3,1.5055310186087567,0.1494881223746015,0.4127726538953972,0.875,-0.03075492364864364,0,0,0,0,4,0.2,formal_phase1_recommended

@@ -1,0 +1,20 @@
+{
+  "selected_topn": 1200,
+  "utility_max_topn": 2000,
+  "top1200_is_utility_optimal": false,
+  "top1200_is_formally_adopted": true,
+  "reason": "Top1200 is adopted because it balances candidate breadth, quality, safety, liquidity, sector diversity, interpretability, and review burden for Phase3.",
+  "phase1_top5_coverage": "5/5",
+  "top2000_role": "reference_universe_for_missed_theme_candidates",
+  "normalization_primary": "market_percentile",
+  "normalization_fix": "consensus tagging across market_percentile, sector_percentile, robust_zscore, winsorized_zscore",
+  "walk_forward_level": "Level 2",
+  "normalization_core_count": 1024,
+  "normalization_robust_count": 1320,
+  "normalization_fragile_count": 29,
+  "limitations": [
+    "This is not a future return maximization model.",
+    "Exploratory Weighted Buffett Score is not the official Phase1 formula.",
+    "Walk-forward depends on availability of historical snapshots."
+  ]
+}

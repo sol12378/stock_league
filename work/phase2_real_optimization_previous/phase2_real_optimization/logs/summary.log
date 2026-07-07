@@ -1,0 +1,36 @@
+Phase2 real optimization completed.
+
+Output directory:
+outputs/phase2_real_optimization/
+
+ZIP:
+outputs/phase2_real_optimization.zip
+
+Key reports:
+- reports/phase2_real_optimization_report.md
+- reports/top1200_optimality_report.md
+- reports/phase2_to_phase3_handoff_final.md
+- reports/stability_report_real.md
+- reports/ablation_report_real.md
+- reports/gp_missing_review_report.md
+
+Key data:
+- optimization/selected_phase2_solution.json
+- optimization/optuna_tpe_real_trials.csv
+- optimization/nsga2_pareto_front.csv
+- topn_selection/topn_metrics.csv
+- rankings/final_weighted_top1200.csv
+- rankings/phase1_top5_rank_check_final.csv
+
+Summary:
+- selected_topn = 2000
+- top1200_is_optimal = False
+- top1200_is_defensible = True
+- optuna_trials = 5000
+- nsga2_trials = 3000
+- phase1_top5_coverage = 5/5
+- stability_top1200_jaccard = 0.6804
+- sector_hhi_top1200 = 0.0707
+- distress_flag_rate_top1200 = 0.0000
+- anomaly_rate_top1200 = 0.0000
+- zip_size_mb = 19.482
