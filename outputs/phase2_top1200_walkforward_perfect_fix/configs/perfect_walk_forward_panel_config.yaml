@@ -1,0 +1,7 @@
+output: outputs/phase2_top1200_walkforward_perfect_fix/
+availability_date: edinet_submit_date
+decision_date_rule: first_trading_day_on_or_after_submit_date_plus_one_calendar_day
+future_return_horizons_trading_days: [63, 126, 252]
+fold_rule: availability_year_train_before_test_calendar_year
+ranking_topn: 1200
+gross_profit_priority: direct_xbrl_then_revenue_minus_cost_of_sales

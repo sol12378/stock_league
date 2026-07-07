@@ -1,0 +1,14 @@
+column,coverage,missing_count
+revenue,0.9733009708737864,286
+gross_profit,0.914301717699776,918
+operating_income,0.9854368932038835,156
+net_income,1.0,0
+total_assets,1.0,0
+equity,1.0,0
+operating_cf,0.9249439880507841,804
+current_assets,0.9856235997012696,154
+current_liabilities,0.9856235997012696,154
+shares_outstanding_pti,1.0,0
+decision_close,0.9999066467513069,1
+decision_adv60,0.9985063480209111,16
+future_return_252d,0.6470313666915609,3781

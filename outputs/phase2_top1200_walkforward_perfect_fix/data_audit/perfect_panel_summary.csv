@@ -1,0 +1,8 @@
+metric,value
+xbrl_fact_rows,10712
+xbrl_parse_error_count,0
+panel_rows,10712
+strict_fact_complete_rows,9155
+strict_walk_forward_ready_rows,9141
+future_return_252d_available_rows,6931
+fold_count,3

@@ -1,0 +1,4 @@
+fold_test_availability_year,strict_train_test_separated,train_ready_count,test_ready_count,top1200_ready_rate,top1200_future_return_252d_available_rate,eligible_for_63d_validation,eligible_for_126d_validation,eligible_for_252d_validation,complete_walk_forward_status,main_limitation
+2023,True,1,2263,0.8441666666666666,1.0,False,False,False,panel_ready_but_not_full_252d_validation,insufficient train history
+2024,True,2264,3055,0.8525,1.0,True,True,True,eligible_252d,none
+2025,True,5319,3052,0.8683333333333333,0.1375,True,True,False,panel_ready_but_not_full_252d_validation,252d forward target not mature

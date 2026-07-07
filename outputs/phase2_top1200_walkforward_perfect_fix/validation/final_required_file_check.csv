@@ -1,0 +1,17 @@
+file,exists,non_empty
+README.md,True,True
+manifest.json,True,True
+checksums.txt,True,True
+xbrl_facts/edinet_xbrl_extended_facts.csv,True,True
+data_panel/historical_point_in_time_panel.csv,True,True
+data_panel/walk_forward_feature_panel.csv,True,True
+walk_forward/fold_definitions.csv,True,True
+walk_forward/strict_walk_forward_results.csv,True,True
+walk_forward/annual_rankings_all.csv,True,True
+walk_forward/annual_top1200_by_year.csv,True,True
+reports/data_panel_construction_report.md,True,True
+reports/strict_walk_forward_report.md,True,True
+reports/walk_forward_completeness_audit.md,True,True
+reports/limitations.md,True,True
+reports/phase3_handoff_from_perfect_panel.md,True,True
+scripts/phase2_top1200_walkforward_perfect_fix/run_all.sh,True,True

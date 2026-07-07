@@ -1,0 +1,6 @@
+input,exists,role
+data/processed/edinet_documents.csv,True,EDINET annual security report metadata
+data/raw/edinet/xbrl,True,EDINET XBRL ZIP directory
+data/processed/prices_daily.parquet,True,daily prices for point-in-time valuation and forward returns
+data/processed/fundamentals_clean.csv,True,company names and sector metadata
+outputs/phase2_top1200_walkforward_fix/top1200_final/phase2_optimized_top1200_candidates.csv,True,Phase2 Top1200 reference

@@ -1,0 +1,11 @@
+task,status,output
+EDINET document metadata loaded,done,xbrl_facts/edinet_xbrl_extended_facts.csv
+Inline XBRL nonFraction name/context/scale parsed,done,xbrl_facts/edinet_xbrl_extended_facts.csv
+Gross Profit direct fact extracted or revenue-cost fallback marked,done,data_panel/historical_point_in_time_panel.csv
+Historical shares outstanding extracted from XBRL issued/treasury shares,done,data_panel/historical_point_in_time_panel.csv
+Decision date set after submit_date to avoid filing-day lookahead,done,data_panel/historical_point_in_time_panel.csv
+Daily price data joined as of conservative decision date,done,data_panel/historical_point_in_time_panel.csv
+Forward returns 63/126/252 trading days generated,done,data_panel/historical_point_in_time_panel.csv
+Piotroski components computed with component-level missingness,done,data_panel/walk_forward_feature_panel.csv
+Strict train/test fold definitions emitted,done,walk_forward/fold_definitions.csv
+Annual Top1200 rankings generated from point-in-time panel,done,walk_forward/annual_rankings_all.csv

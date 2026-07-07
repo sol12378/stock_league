@@ -1,0 +1,30 @@
+{
+  "project": "BEYOND BUFFETT",
+  "phase": "Phase2 Top1200 Walk-forward Perfect Fix",
+  "created_at": "2026-07-07T17:07:49.192030+00:00",
+  "description": "Complete walk-forward data panel construction task: EDINET/XBRL point-in-time facts, conservative decision-date price joins, forward returns, fold definitions, and annual Top1200 rankings.",
+  "output_directory": "outputs/phase2_top1200_walkforward_perfect_fix/",
+  "input_files": [
+    "data/processed/edinet_documents.csv",
+    "data/raw/edinet/xbrl",
+    "data/processed/prices_daily.parquet",
+    "data/processed/fundamentals_clean.csv",
+    "outputs/phase2_top1200_walkforward_fix/top1200_final/phase2_optimized_top1200_candidates.csv"
+  ],
+  "main_outputs": [
+    "xbrl_facts/edinet_xbrl_extended_facts.csv",
+    "data_panel/historical_point_in_time_panel.csv",
+    "data_panel/walk_forward_feature_panel.csv",
+    "walk_forward/fold_definitions.csv",
+    "walk_forward/strict_walk_forward_results.csv",
+    "walk_forward/annual_rankings_all.csv",
+    "walk_forward/annual_top1200_by_year.csv",
+    "reports/data_panel_construction_report.md",
+    "reports/strict_walk_forward_report.md",
+    "reports/walk_forward_completeness_audit.md",
+    "reports/limitations.md",
+    "reports/phase3_handoff_from_perfect_panel.md"
+  ],
+  "walk_forward_panel_claim": "Point-in-time panel construction completed; statistical walk-forward strength depends on available fiscal years and target coverage.",
+  "important_note": "Future return columns are validation targets only and must not be used as ranking features."
+}

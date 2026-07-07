@@ -1,0 +1,48 @@
+# ZIP Validation Report
+
+- ZIP exists: True
+- ZIP size MB: 21.037
+- phase2_top1200_walkforward_perfect_fix/README.md: OK
+- phase2_top1200_walkforward_perfect_fix/manifest.json: OK
+- phase2_top1200_walkforward_perfect_fix/checksums.txt: OK
+- phase2_top1200_walkforward_perfect_fix/data_panel/historical_point_in_time_panel.csv: OK
+- phase2_top1200_walkforward_perfect_fix/data_panel/walk_forward_feature_panel.csv: OK
+- phase2_top1200_walkforward_perfect_fix/walk_forward/strict_walk_forward_results.csv: OK
+- phase2_top1200_walkforward_perfect_fix/reports/data_panel_construction_report.md: OK
+- phase2_top1200_walkforward_perfect_fix/reports/strict_walk_forward_report.md: OK
+- phase2_top1200_walkforward_perfect_fix/reports/walk_forward_completeness_audit.md: OK
+- phase2_top1200_walkforward_perfect_fix/reports/limitations.md: OK
+
+## File List
+- phase2_top1200_walkforward_perfect_fix/README.md
+- phase2_top1200_walkforward_perfect_fix/checksums.txt
+- phase2_top1200_walkforward_perfect_fix/configs/perfect_walk_forward_panel_config.yaml
+- phase2_top1200_walkforward_perfect_fix/data_audit/input_inventory.csv
+- phase2_top1200_walkforward_perfect_fix/data_audit/perfect_panel_summary.csv
+- phase2_top1200_walkforward_perfect_fix/data_audit/perfect_walk_forward_panel_tasks.csv
+- phase2_top1200_walkforward_perfect_fix/data_audit/strict_panel_column_coverage.csv
+- phase2_top1200_walkforward_perfect_fix/data_audit/xbrl_fact_coverage_by_year.csv
+- phase2_top1200_walkforward_perfect_fix/data_audit/xbrl_parse_errors.csv
+- phase2_top1200_walkforward_perfect_fix/data_panel/historical_point_in_time_panel.csv
+- phase2_top1200_walkforward_perfect_fix/data_panel/walk_forward_feature_panel.csv
+- phase2_top1200_walkforward_perfect_fix/figures/future_return_252d_distribution.png
+- phase2_top1200_walkforward_perfect_fix/figures/walk_forward_panel_readiness.png
+- phase2_top1200_walkforward_perfect_fix/figures/xbrl_fact_coverage_by_year.png
+- phase2_top1200_walkforward_perfect_fix/logs/final_validation_errors.md
+- phase2_top1200_walkforward_perfect_fix/logs/zip_validation_report.md
+- phase2_top1200_walkforward_perfect_fix/manifest.json
+- phase2_top1200_walkforward_perfect_fix/rankings/walk_forward_top1200_by_year.csv
+- phase2_top1200_walkforward_perfect_fix/reports/data_panel_construction_report.md
+- phase2_top1200_walkforward_perfect_fix/reports/limitations.md
+- phase2_top1200_walkforward_perfect_fix/reports/phase3_handoff_from_perfect_panel.md
+- phase2_top1200_walkforward_perfect_fix/reports/strict_walk_forward_report.md
+- phase2_top1200_walkforward_perfect_fix/reports/walk_forward_completeness_audit.md
+- phase2_top1200_walkforward_perfect_fix/scripts/phase2_top1200_walkforward_perfect_fix/generate_perfect_walkforward_panel.py
+- phase2_top1200_walkforward_perfect_fix/scripts/phase2_top1200_walkforward_perfect_fix/run_all.sh
+- phase2_top1200_walkforward_perfect_fix/validation/final_required_file_check.csv
+- phase2_top1200_walkforward_perfect_fix/validation/walk_forward_completeness_audit.csv
+- phase2_top1200_walkforward_perfect_fix/walk_forward/annual_rankings_all.csv
+- phase2_top1200_walkforward_perfect_fix/walk_forward/annual_top1200_by_year.csv
+- phase2_top1200_walkforward_perfect_fix/walk_forward/fold_definitions.csv
+- phase2_top1200_walkforward_perfect_fix/walk_forward/strict_walk_forward_results.csv
+- phase2_top1200_walkforward_perfect_fix/xbrl_facts/edinet_xbrl_extended_facts.csv
