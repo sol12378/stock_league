@@ -515,6 +515,7 @@ def score_annual(sub: pd.DataFrame, weights: dict[str, float]) -> pd.DataFrame:
 
 def annual_top1200(inputs: dict[str, pd.DataFrame]) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     panel = inputs["panel"].copy()
+    phase1_codes = set(inputs["phase1_top5"]["code"].astype(str)) if "phase1_top5" in inputs else set()
     panel["availability_date"] = pd.to_datetime(panel["availability_date"], errors="coerce")
     panel["availability_year"] = panel["availability_date"].dt.year
     panel["financial_exclusion_flag"] = is_financial_frame(panel)
@@ -549,11 +550,13 @@ def annual_top1200(inputs: dict[str, pd.DataFrame]) -> tuple[pd.DataFrame, pd.Da
         ranked = score_annual(sub, weights)
         top = ranked.head(min(1200, len(ranked))).copy()
         top["top1200_variant"] = "nonfinancial_non_distress"
+        top["phase1_top5_flag"] = top["code"].astype(str).isin(phase1_codes)
         nonfinancial_rows.append(top)
         strict_pool = sub[bool_series(sub.get("strict_walk_forward_ready", False))].copy()
         strict_ranked = score_annual(strict_pool, weights)
         strict_top = strict_ranked.head(min(1200, len(strict_ranked))).copy()
         strict_top["top1200_variant"] = "strict_ready"
+        strict_top["phase1_top5_flag"] = strict_top["code"].astype(str).isin(phase1_codes)
         strict_rows.append(strict_top)
         review_rows.append(
             top[
@@ -584,7 +587,7 @@ def annual_top1200(inputs: dict[str, pd.DataFrame]) -> tuple[pd.DataFrame, pd.Da
                 "financial_count": int(is_financial_frame(top).sum()) if len(top) else 0,
                 "sector_hhi": hhi(top["sector"]) if "sector" in top else 0.0,
                 "max_sector_share": float(top["sector"].value_counts(normalize=True).iloc[0]) if len(top) and "sector" in top else 0.0,
-                "phase1_top5_coverage": np.nan,
+                "phase1_top5_coverage": int(top["phase1_top5_flag"].sum()) if phase1_codes else np.nan,
                 "252d_forward_return_eligible_count": int(top["future_return_252d"].notna().sum()) if "future_return_252d" in top else 0,
                 "optional_median_forward_return_252d": float(top["future_return_252d"].median(skipna=True)) if "future_return_252d" in top else np.nan,
                 "optional_volatility_forward_return_252d": float(top["future_return_252d"].std(skipna=True)) if "future_return_252d" in top else np.nan,
@@ -603,6 +606,19 @@ def annual_top1200(inputs: dict[str, pd.DataFrame]) -> tuple[pd.DataFrame, pd.Da
     summary.to_csv(OUT / "point_in_time_panel" / "annual_top1200_summary_by_year.csv", index=False)
     panel.to_csv(OUT / "point_in_time_panel" / "point_in_time_feature_panel_with_filters.csv", index=False)
     return nonfinancial, strict, reviews, summary
+
+
+def build_rankings(formal: pd.DataFrame, top2000: pd.DataFrame, annual_nonfinancial: pd.DataFrame) -> None:
+    formal.to_csv(OUT / "rankings" / "phase2_formal_top1200_candidates.csv", index=False)
+    formal.head(100).to_csv(OUT / "rankings" / "phase2_formal_top100.csv", index=False)
+    formal.head(300).to_csv(OUT / "rankings" / "phase2_formal_top300.csv", index=False)
+    top2000.to_csv(OUT / "rankings" / "phase2_top2000_reference.csv", index=False)
+    if not annual_nonfinancial.empty:
+        annual_nonfinancial.to_csv(OUT / "rankings" / "annual_top1200_nonfinancial_by_year.csv", index=False)
+    write_text(
+        OUT / "rankings" / "README.md",
+        "# Rankings\n\nThis directory mirrors the main formal and annual ranking outputs for quick inspection. The authoritative formal universe remains `formal_top1200/phase2_formal_top1200_candidates.csv`.",
+    )
 
 
 def fixed_weight_validation(nonfinancial: pd.DataFrame, summary: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
@@ -1133,6 +1149,7 @@ def main() -> None:
     fixed_validation, overlap = fixed_weight_validation(annual_nonfinancial, annual_summary)
     true_completed = true_walk_forward_status(inputs, fixed_validation)
     audits(formal, annual_nonfinancial)
+    build_rankings(formal, top2000, annual_nonfinancial)
     # Mirror key optimization/ablation inputs when available.
     if SELECTED_SOLUTION.exists():
         shutil.copy2(SELECTED_SOLUTION, OUT / "optimization" / "selected_phase2_solution.json")

@@ -1,7 +1,7 @@
 {
   "project": "BEYOND BUFFETT",
   "phase": "Phase2 Final Integrated Break",
-  "created_at": "2026-07-07T17:55:44.087198+00:00",
+  "created_at": "2026-07-08T00:31:01.723085+00:00",
   "formal_candidate_universe": "formal_top1200/phase2_formal_top1200_candidates.csv",
   "formal_topn": 1200,
   "utility_max_topn": 2000,

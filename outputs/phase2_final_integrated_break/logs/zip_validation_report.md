@@ -1,7 +1,7 @@
 # ZIP Validation Report
 
 - ZIP exists: True
-- ZIP size MB: 10.114
+- ZIP size MB: 12.614
 - Required files present: True
 
 | zip_path | present |
