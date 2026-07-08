@@ -1,0 +1,9 @@
+review_reason,count
+outlier_sensitive,622
+none,360
+top300_priority_check,200
+top100_priority_check,100
+gross_profitability_unverified,29
+normalization_fragile,29
+sector_adjusted_only,19
+gross_profitability_proxy,3

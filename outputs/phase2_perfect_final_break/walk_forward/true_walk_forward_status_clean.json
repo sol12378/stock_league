@@ -1,0 +1,10 @@
+{
+  "strict_true_walk_forward_completed": false,
+  "reason": "Eligible train/test folds were insufficient for reliable true walk-forward optimization.",
+  "fixed_weight_out_of_time_validation_completed": true,
+  "point_in_time_panel_built": true,
+  "what_was_done": "The selected Phase2 weights were applied to EDINET submit-date based annual snapshots to verify candidate-universe quality outside the original snapshot.",
+  "what_was_not_done": "Weights were not re-optimized within each training window and evaluated on multiple independent future test windows.",
+  "claim_allowed": "Point-in-time fixed-weight out-of-time validation was performed.",
+  "claim_not_allowed": "Strict train/test walk-forward optimization proved future predictive performance."
+}

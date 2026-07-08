@@ -1,0 +1,185 @@
+code,ticker,company_name,sector,distress_exclusion_flag,equity,negative_equity_flag
+4169,4169.T,ENECHANGE Ltd.,Information & Communication,True,11683546000.0,False
+4564,4564.T,"OncoTherapy Science,Inc.",Pharmaceutical,True,27516414000.0,False
+6425,6425.T,Universal Entertainment Corporation,Machinery,True,183724000000.0,False
+6619,6619.T,W-SCOPE Corporation,Electric Appliances,True,43415000000.0,False
+3663,3663.T,"CELSYS,Inc.",Information & Communication,True,-6644237000.0,True
+4259,4259.T,ExaWizards Inc.,Information & Communication,True,4588000000.0,False
+2931,2931.T,"Euglena Co.,Ltd.",Foods,True,30196000000.0,False
+5541,5541.T,"PACIFIC METALS CO.,LTD.",Iron and Steel,True,67656000000.0,False
+6659,6659.T,"MEDIA LINKS CO.,LTD.",Electric Appliances,True,2959088000.0,False
+6699,6699.T,"DIAMOND ELECTRIC HOLDINGS Co.,Ltd.",Electric Appliances,True,11553000000.0,False
+3936,3936.T,"Globalway,Inc.",Information & Communication,True,1496659000.0,False
+9854,9854.T,"AIGAN CO.,LTD.",Retail Trade,True,14283000000.0,False
+5852,5852.T,AHRESTY CORPORATION,Nonferrous Metals,True,51989000000.0,False
+6844,6844.T,"Shindengen Electric Manufacturing Co.,Ltd.",Electric Appliances,True,66144000000.0,False
+3994,3994.T,"Money Forward,Inc.",Information & Communication,True,55865356000.0,False
+5985,5985.T,SUNCALL CORPORATION,Metal Products,True,26592000000.0,False
+6522,6522.T,Asterisk Inc.,Electric Appliances,True,1729225000.0,False
+6521,6521.T,OXIDE Corporation,Electric Appliances,True,5137977000.0,False
+6081,6081.T,"Allied Architects,Inc.",Services,True,1950234000.0,False
+3103,3103.T,UNITIKA LTD.,Textiles and Apparels,True,16233000000.0,False
+3905,3905.T,Datasection Inc.,Information & Communication,True,-3292684000.0,True
+5246,5246.T,"ELEMENTS,Inc.",Information & Communication,True,4971006000.0,False
+9946,9946.T,"MINISTOP CO.,LTD.",Retail Trade,True,27163000000.0,False
+3656,3656.T,KLab Inc.,Information & Communication,True,10625928000.0,False
+3668,3668.T,"COLOPL,Inc.",Information & Communication,True,68940000000.0,False
+9235,9235.T,"Ureru Net Advertising Group Co.,Ltd.",Services,True,733570000.0,False
+4884,4884.T,"Kringle Pharma,Inc.",Pharmaceutical,True,2888081000.0,False
+4584,4584.T,Kidswell Bio Corporation,Pharmaceutical,True,-12730223000.0,True
+4344,4344.T,SOURCENEXT CORPORATION,Information & Communication,True,11596643000.0,False
+6997,6997.T,NIPPON CHEMI-CON CORPORATION,Electric Appliances,True,57343000000.0,False
+3070,3070.T,"JELLY BEANS GROUP Co.,Ltd.",Wholesale Trade,True,4931231000.0,False
+7707,7707.T,"Precision System Science Co.,Ltd.",Precision Instruments,True,5825117000.0,False
+3840,3840.T,PATH Corporation,Information & Communication,True,3390247000.0,False
+2342,2342.T,TRANSGENIC GROUP INC.,Services,True,4856181000.0,False
+4448,4448.T,"kubell Co.,Ltd.",Information & Communication,True,-4021176000.0,True
+8944,8944.T,"LAND BUSINESS  CO.,LTD.",Real Estate,True,16328241000.0,False
+4814,4814.T,Nextware Ltd.,Information & Communication,True,1310965000.0,False
+2484,2484.T,"DEMAE-CAN CO.,LTD",Information & Communication,True,49371000000.0,False
+4222,4222.T,"KODAMA CHEMICAL INDUSTRY CO.,LTD.",Chemicals,True,5470477000.0,False
+4888,4888.T,STELLA PHARMA CORPORATION,Pharmaceutical,True,3207485000.0,False
+7922,7922.T,"SANKO SANGYO CO.,LTD.",Other Products,True,8775616000.0,False
+7294,7294.T,YOROZU CORPORATION,Transportation Equipment,True,61204000000.0,False
+4100,4100.T,TODA KOGYO CORP.,Chemicals,True,11777000000.0,False
+6552,6552.T,"GameWith,Inc.",Services,True,2675487000.0,False
+2321,2321.T,Softfront Holdings,Information & Communication,True,1289423000.0,False
+5994,5994.T,"FINE SINTER CO.,LTD.",Metal Products,True,16993773000.0,False
+6798,6798.T,SMK Corporation,Electric Appliances,True,29221000000.0,False
+7640,7640.T,"TOP CULTURE Co.,Ltd.",Retail Trade,True,3990197000.0,False
+6613,6613.T,"QD Laser,Inc.",Electric Appliances,True,6252463000.0,False
+2437,2437.T,"SHINWA WISE HOLDINGS CO.,LTD.",Services,True,2999234000.0,False
+6232,6232.T,ACSL Ltd.,Machinery,True,2294904000.0,False
+6955,6955.T,FDK CORPORATION,Electric Appliances,True,-51929000000.0,True
+4192,4192.T,SpiderPlus & Co.,Information & Communication,True,2791407000.0,False
+6433,6433.T,"HEPHAIST CO.,LTD.",Machinery,True,2818636000.0,False
+6666,6666.T,RIVER ELETEC CORPORATION,Electric Appliances,True,4497657000.0,False
+7872,7872.T,"ESTELLE HOLDINGS CO.,LTD.",Other Products,True,12238000000.0,False
+4978,4978.T,ReproCELL Incorporated,Chemicals,True,8991188000.0,False
+6616,6616.T,TOREX SEMICONDUCTOR LTD.,Electric Appliances,True,17400632000.0,False
+6094,6094.T,"FreakOut Holdings,inc.",Services,True,12143118000.0,False
+4588,4588.T,Oncolys BioPharma Inc.,Pharmaceutical,True,4366132000.0,False
+3059,3059.T,"HIRAKI CO.,LTD.",Retail Trade,True,6507401000.0,False
+9625,9625.T,"CERESPO CO.,LTD.",Services,True,9154647000.0,False
+7038,7038.T,Frontier Management Inc.,Services,True,9943623000.0,False
+2375,2375.T,GiG Works Inc.,Services,True,2797259000.0,False
+4591,4591.T,RIBOMIC Inc.,Pharmaceutical,True,4685581000.0,False
+7794,7794.T,EDP Corporation,Other Products,True,3539613000.0,False
+2345,2345.T,"HODL1,inc.",Information & Communication,True,5673782000.0,False
+3189,3189.T,ANAP HOLDINGS INC.,Retail Trade,True,12935161000.0,False
+6634,6634.T,JN Group Inc.,Electric Appliances,True,7039811000.0,False
+3917,3917.T,"iRidge,Inc.",Information & Communication,True,2572580000.0,False
+9972,9972.T,"ALTECH CO.,LTD.",Wholesale Trade,True,8470134000.0,False
+3747,3747.T,"INTERTRADE Co.,Ltd.",Information & Communication,True,1478433000.0,False
+4894,4894.T,Cuorips Inc.,Pharmaceutical,True,6566108000.0,False
+7527,7527.T,SystemSoft Corporation,Information & Communication,True,4354235000.0,False
+6656,6656.T,inspec Inc.,Electric Appliances,True,958564000.0,False
+4425,4425.T,Kudan Inc.,Information & Communication,True,3927201000.0,False
+7879,7879.T,NODA CORPORATION,Other Products,True,39550422000.0,False
+7138,7138.T,"TORICO Co.,Ltd.",Retail Trade,True,808744000.0,False
+4382,4382.T,"HEROZ,Inc.",Information & Communication,True,5345260000.0,False
+4056,4056.T,Neural Group Inc.,Information & Communication,True,2266898000.0,False
+2454,2454.T,"All About,Inc.",Services,True,4447276000.0,False
+4929,4929.T,"ADJUVANT HOLDINGS CO.,LTD.",Chemicals,True,4178925000.0,False
+4572,4572.T,"Carna Biosciences,Inc.",Pharmaceutical,True,2196625000.0,False
+4586,4586.T,"Medrx Co.,Ltd.",Pharmaceutical,True,2358402000.0,False
+4571,4571.T,"Nano Holdings,Inc.",Pharmaceutical,True,5546832000.0,False
+6347,6347.T,"PLACO CO.,LTD.",Machinery,True,1585120000.0,False
+3686,3686.T,DLE Inc.,Information & Communication,True,2512066000.0,False
+7501,7501.T,TIEMCO LTD.,Wholesale Trade,True,4373886000.0,False
+3976,3976.T,SHANON Inc.,Information & Communication,True,1084365000.0,False
+6046,6046.T,LINKBAL INC.,Services,True,817132000.0,False
+3967,3967.T,"Eltes Co.,Ltd.",Information & Communication,True,2631165000.0,False
+3175,3175.T,"AP HOLDINGS CO.,LTD.",Retail Trade,True,383471000.0,False
+3926,3926.T,Open Door Inc.,Information & Communication,True,4589787000.0,False
+3422,3422.T,"J-MAX Co.,Ltd.",Metal Products,True,19609000000.0,False
+2776,2776.T,"SHINTO Holdings,Inc.",Wholesale Trade,True,-6764532000.0,True
+5998,5998.T,Advanex Inc.,Metal Products,True,8093444000.0,False
+3726,3726.T,"4Cs HD Co.,Ltd.",Retail Trade,True,1945753000.0,False
+6897,6897.T,TWINBIRD CORPORATION,Electric Appliances,True,6567192000.0,False
+2962,2962.T,"TECNISCO,LTD.",Metal Products,True,3027640000.0,False
+3664,3664.T,WIZE INC.,Information & Communication,True,2050146000.0,False
+7060,7060.T,geechs inc.,Services,True,2994347000.0,False
+4892,4892.T,Cyfuse Biomedical K.K.,Pharmaceutical,True,4450471000.0,False
+3987,3987.T,Ecomott Inc.,Information & Communication,True,784207000.0,False
+9258,9258.T,"CS-C.Co.,Ltd.",Services,True,2291718000.0,False
+4592,4592.T,SanBio Company Limited,Pharmaceutical,True,19465240000.0,False
+6177,6177.T,AppBank Inc.,Services,True,2022501000.0,False
+4583,4583.T,Chiome Bioscience Inc.,Pharmaceutical,True,2025797000.0,False
+6155,6155.T,"TAKAMATSU MACHINERY CO.,LTD.",Machinery,True,16282000000.0,False
+4883,4883.T,Modalis Therapeutics Corporation,Pharmaceutical,True,3049832000.0,False
+4166,4166.T,Cacco Inc.,Information & Communication,True,826968000.0,False
+9969,9969.T,"SHOKUBUN CO.,LTD.",Retail Trade,True,3230160000.0,False
+7674,7674.T,"NATTY SWANKY holdings Co.,Ltd.",Retail Trade,True,1318125000.0,False
+4615,4615.T,"SHINTO PAINT COMPANY,LIMITED",Chemicals,True,14617000000.0,False
+2762,2762.T,"SANKO MARKETING FOODS CO.,LTD.",Retail Trade,True,1241000000.0,False
+3647,3647.T,"ASULINA Co.,Ltd.",Information & Communication,True,1173293000.0,False
+3845,3845.T,I-FREEK MOBILE INC.,Information & Communication,True,859783000.0,False
+9853,9853.T,"GINZA RENOIR CO.,LTD.",Retail Trade,True,3107049000.0,False
+6276,6276.T,"SiriusVision CO.,LTD.",Electric Appliances,True,1951442000.0,False
+9760,9760.T,"SHINGAKUKAI HOLDINGS CO.,LTD.",Services,True,15607500000.0,False
+6548,6548.T,TABIKOBO Co.Ltd.,Services,True,2011108000.0,False
+2340,2340.T,"GOKURAKUYU HOLDINGS CO.,LTD.",Services,True,-6835768000.0,True
+4422,4422.T,VALUENEX Japan Inc.,Information & Communication,True,794326000.0,False
+7776,7776.T,CellSeed Inc.,Precision Instruments,True,2256326000.0,False
+4937,4937.T,Waqoo Inc.,Chemicals,True,2466417000.0,False
+3067,3067.T,"TOKYO ICHIBAN FOODS CO.,LTD.",Retail Trade,True,1670745000.0,False
+7135,7135.T,"JAPAN CRAFT HOLDINGS CO.,LTD.",Retail Trade,True,4021657000.0,False
+7983,7983.T,Miroku Corporation,Other Products,True,10747786000.0,False
+4124,4124.T,OSAKA YUKA INDUSTRY LTD.,Chemicals,True,1647773000.0,False
+4576,4576.T,"D.Western Therapeutics Institute, Inc.",Pharmaceutical,True,1435449000.0,False
+9561,9561.T,GLAD CUBE Inc.,Services,True,748295000.0,False
+7615,7615.T,"KYOTO KIMONO YUZEN HOLDINGS Co.,Ltd.",Retail Trade,True,1979310000.0,False
+4263,4263.T,"SUSMED,Inc.",Information & Communication,True,5441390000.0,False
+4265,4265.T,Institution for a Global Society Corporation,Information & Communication,True,982467000.0,False
+3474,3474.T,"G-FACTORY CO.,LTD.",Real Estate,True,2180723000.0,False
+6942,6942.T,"SOPHIA HOLDINGS CO.,LTD.",Information & Communication,True,2822395000.0,False
+4490,4490.T,VisasQ Inc.,Information & Communication,True,-11384015000.0,True
+2370,2370.T,"MEDINET Co.,Ltd.",Services,True,5102250000.0,False
+7709,7709.T,KUBOTEK CORPORATION,Precision Instruments,True,1951750000.0,False
+5987,5987.T,ONEX Corporation,Metal Products,True,5437204000.0,False
+4288,4288.T,"Asgent,Inc.",Information & Communication,True,771110000.0,False
+9082,9082.T,"Daiwa Motor Transportation Co.,Ltd.",Land Transportation,True,9262000000.0,False
+6190,6190.T,"PhoenixBio Co.,Ltd.",Services,True,2569896000.0,False
+3672,3672.T,AltPlusInc.,Information & Communication,True,1389670000.0,False
+3807,3807.T,FISCO Ltd.,Information & Communication,True,1131691000.0,False
+9425,9425.T,ReYuu Japan Inc.,Information & Communication,True,1429910000.0,False
+6662,6662.T,"Ubiteq,INC.",Electric Appliances,True,1515008000.0,False
+3815,3815.T,"Media Kobo,Inc.",Information & Communication,True,708001000.0,False
+6775,6775.T,TB GROUP INC.,Electric Appliances,True,1057959000.0,False
+3370,3370.T,"FUJITA CORPORATION Co.,Ltd.",Retail Trade,True,-1205885000.0,True
+5618,5618.T,Nyle Inc.,Information & Communication,True,596582000.0,False
+4679,4679.T,"TAYA Co.,Ltd.",Services,True,3144769000.0,False
+7901,7901.T,MATSUMOTO INC.,Other Products,True,2521310000.0,False
+4599,4599.T,StemRIM Inc.,Pharmaceutical,True,9634875000.0,False
+6786,6786.T,RVH Inc.,Services,True,1917377000.0,False
+3634,3634.T,Sockets Inc.,Information & Communication,True,552246000.0,False
+4891,4891.T,"TMS Co.,Ltd.",Pharmaceutical,True,2771131000.0,False
+4896,4896.T,"K Pharma,Inc.",Pharmaceutical,True,2248487000.0,False
+5131,5131.T,Linkers Corporation,Information & Communication,True,1281546000.0,False
+7426,7426.T,Yamadai Corporation,Wholesale Trade,True,2280000000.0,False
+7886,7886.T,"YAMATO Mobility & Mfg. Co.,Ltd.",Chemicals,True,1875600000.0,False
+3909,3909.T,Showcase Inc.,Information & Communication,True,2030567000.0,False
+5240,5240.T,"monoAI technology Co.,Ltd.",Information & Communication,True,1510319000.0,False
+3803,3803.T,Image Information Inc.,Information & Communication,True,352285000.0,False
+6977,6977.T,"JAPAN RESISTOR MFG. CO.,LTD.",Electric Appliances,True,1654746000.0,False
+8143,8143.T,"LAPINE CO.,LTD.",Textiles and Apparels,True,849263000.0,False
+7376,7376.T,"BCC Co.,Ltd.",Services,True,568695000.0,False
+9331,9331.T,Caster Co.Ltd.,Services,True,1580963000.0,False
+7093,7093.T,"adish Co.,Ltd.",Services,True,542833000.0,False
+4833,4833.T,"Def consulting,inc.",Services,True,943178000.0,False
+4052,4052.T,Ficha Inc.,Information & Communication,True,689803000.0,False
+3624,3624.T,AXEL MARK INC.,Information & Communication,True,1452044000.0,False
+6579,6579.T,"logly,Inc.",Services,True,601434000.0,False
+8254,8254.T,"Saikaya Department Store Co.,Ltd.",Retail Trade,True,-3418529000.0,True
+3910,3910.T,MKSystem Corporation,Information & Communication,True,940112000.0,False
+7865,7865.T,"People Co.,Ltd.",Other Products,True,1679787000.0,False
+9327,9327.T,"e-LogiT co.,ltd.",Warehousing and Harbor Transportation Service,True,-1330570000.0,True
+4424,4424.T,"Amazia,inc.",Information & Communication,True,907103000.0,False
+2459,2459.T,"AUN CONSULTING,Inc.",Services,True,538774000.0,False
+4720,4720.T,"JOHNAN ACADEMIC PREPARATORY INSTITUTE,INC.",Services,True,1730143000.0,False
+7585,7585.T,KAN-NANMARU CORPORATION,Retail Trade,True,800000000.0,False
+7689,7689.T,Copa Corporation Inc.,Wholesale Trade,True,767532000.0,False
+9236,9236.T,Japan M&A Solution Incorporated,Services,True,584229000.0,False
+6558,6558.T,"Cookbiz Co.,Ltd.",Services,True,1098426000.0,False
+5616,5616.T,"Ame Kaze Taiyo,Inc.",Information & Communication,True,347992000.0,False

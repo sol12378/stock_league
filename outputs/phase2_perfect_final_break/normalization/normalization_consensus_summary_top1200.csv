@@ -1,0 +1,5 @@
+scope,metric,value
+formal_top1200,normalization_core_count,970
+formal_top1200,normalization_robust_count,1135
+formal_top1200,normalization_fragile_count,29
+formal_top1200,sector_adjusted_candidate_count,19

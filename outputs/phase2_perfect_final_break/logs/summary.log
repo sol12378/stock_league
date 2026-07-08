@@ -1,0 +1,15 @@
+{
+  "formal_selected_topn": 1200,
+  "utility_selected_topn": 2000,
+  "phase1_top5_coverage": "5/5",
+  "financial_count_top1200": 0,
+  "distress_count_top1200": 0,
+  "anomaly_flags_standardized": true,
+  "normalization_core_in_top1200": 970,
+  "normalization_robust_in_top1200": 1135,
+  "fixed_weight_out_of_time_validation_completed": true,
+  "strict_true_walk_forward_completed": false,
+  "future_return_prediction_claim": false,
+  "phase2_pass_fail_judgement": "PASS",
+  "zip_validation": "passed"
+}
