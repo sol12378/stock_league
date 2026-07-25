@@ -1,0 +1,15 @@
+{
+ "total_excluded": 1180,
+ "pool": 1200,
+ "selected": 20,
+ "categories": {
+  "ai_keyword_only": 577,
+  "already_represented_by_better_candidate": 221,
+  "distress_or_quality_risk": 32,
+  "value_trap_risk": 17,
+  "low_pbr_only": 15,
+  "score_below_cutoff": 318
+ },
+ "audited_subtotal": 862,
+ "score_below_cutoff": 318
+}

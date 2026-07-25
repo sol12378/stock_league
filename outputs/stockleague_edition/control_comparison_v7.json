@@ -1,0 +1,222 @@
+{
+ "ours": {
+  "3y": {
+   "ann_return": 0.5468,
+   "topix_ann_return": 0.2396,
+   "nikkei_ann_return": 0.3279,
+   "excess_vs_topix": 0.3072,
+   "volatility": 0.2615,
+   "sharpe": 2.091,
+   "max_drawdown": -0.3006,
+   "topix_max_drawdown": -0.233,
+   "beta_vs_topix": 1.074,
+   "information_ratio": 1.565
+  },
+  "1y": {
+   "ann_return": 1.2405,
+   "topix_ann_return": 0.4108,
+   "nikkei_ann_return": 0.7876,
+   "excess_vs_topix": 0.8298,
+   "volatility": 0.2495,
+   "sharpe": 4.972,
+   "max_drawdown": -0.0969,
+   "topix_max_drawdown": -0.1143,
+   "beta_vs_topix": 1.051,
+   "information_ratio": 2.92
+  }
+ },
+ "control_buffett": {
+  "3y": {
+   "ann_return": 0.4259,
+   "topix_ann_return": 0.2396,
+   "nikkei_ann_return": 0.3279,
+   "excess_vs_topix": 0.1863,
+   "volatility": 0.3149,
+   "sharpe": 1.353,
+   "max_drawdown": -0.3274,
+   "topix_max_drawdown": -0.233,
+   "beta_vs_topix": 1.183,
+   "information_ratio": 0.76
+  },
+  "1y": {
+   "ann_return": 0.6102,
+   "topix_ann_return": 0.4108,
+   "nikkei_ann_return": 0.7876,
+   "excess_vs_topix": 0.1995,
+   "volatility": 0.3013,
+   "sharpe": 2.026,
+   "max_drawdown": -0.1329,
+   "topix_max_drawdown": -0.1143,
+   "beta_vs_topix": 1.136,
+   "information_ratio": 0.564
+  }
+ },
+ "control_graham": {
+  "3y": {
+   "ann_return": 0.1332,
+   "topix_ann_return": 0.2396,
+   "nikkei_ann_return": 0.3279,
+   "excess_vs_topix": -0.1064,
+   "volatility": 0.1649,
+   "sharpe": 0.808,
+   "max_drawdown": -0.1842,
+   "topix_max_drawdown": -0.233,
+   "beta_vs_topix": 0.635,
+   "information_ratio": -0.785
+  },
+  "1y": {
+   "ann_return": 0.128,
+   "topix_ann_return": 0.4108,
+   "nikkei_ann_return": 0.7876,
+   "excess_vs_topix": -0.2828,
+   "volatility": 0.1292,
+   "sharpe": 0.991,
+   "max_drawdown": -0.1262,
+   "topix_max_drawdown": -0.1143,
+   "beta_vs_topix": 0.492,
+   "information_ratio": -1.827
+  }
+ },
+ "convention": "主規約=固定重み日次リバランス(v5裁定2・保守的)。BHは極端な複利で1年155%等のin-sample人工物になりやすいため参考(bh_reference)に降格。",
+ "bh_reference": {
+  "ours": {
+   "3y": {
+    "ann_return": 0.5866,
+    "topix_ann_return": 0.2396,
+    "nikkei_ann_return": 0.3279,
+    "excess_vs_topix": 0.347,
+    "volatility": 0.3257,
+    "sharpe": 1.801,
+    "max_drawdown": -0.3525,
+    "topix_max_drawdown": -0.233,
+    "beta_vs_topix": 1.235,
+    "information_ratio": 1.208
+   },
+   "1y": {
+    "ann_return": 1.5509,
+    "topix_ann_return": 0.4108,
+    "nikkei_ann_return": 0.7876,
+    "excess_vs_topix": 1.1401,
+    "volatility": 0.3177,
+    "sharpe": 4.882,
+    "max_drawdown": -0.1296,
+    "topix_max_drawdown": -0.1143,
+    "beta_vs_topix": 1.23,
+    "information_ratio": 2.639
+   }
+  },
+  "control_buffett": {
+   "3y": {
+    "ann_return": 0.3979,
+    "topix_ann_return": 0.2396,
+    "nikkei_ann_return": 0.3279,
+    "excess_vs_topix": 0.1582,
+    "volatility": 0.355,
+    "sharpe": 1.121,
+    "max_drawdown": -0.4068,
+    "topix_max_drawdown": -0.233,
+    "beta_vs_topix": 1.273,
+    "information_ratio": 0.588
+   },
+   "1y": {
+    "ann_return": 0.6833,
+    "topix_ann_return": 0.4108,
+    "nikkei_ann_return": 0.7876,
+    "excess_vs_topix": 0.2726,
+    "volatility": 0.3543,
+    "sharpe": 1.929,
+    "max_drawdown": -0.1458,
+    "topix_max_drawdown": -0.1143,
+    "beta_vs_topix": 1.283,
+    "information_ratio": 0.67
+   }
+  },
+  "control_graham": {
+   "3y": {
+    "ann_return": 0.1275,
+    "topix_ann_return": 0.2396,
+    "nikkei_ann_return": 0.3279,
+    "excess_vs_topix": -0.1121,
+    "volatility": 0.1658,
+    "sharpe": 0.769,
+    "max_drawdown": -0.1836,
+    "topix_max_drawdown": -0.233,
+    "beta_vs_topix": 0.632,
+    "information_ratio": -0.812
+   },
+   "1y": {
+    "ann_return": 0.1146,
+    "topix_ann_return": 0.4108,
+    "nikkei_ann_return": 0.7876,
+    "excess_vs_topix": -0.2962,
+    "volatility": 0.1319,
+    "sharpe": 0.869,
+    "max_drawdown": -0.1336,
+    "topix_max_drawdown": -0.1143,
+    "beta_vs_topix": 0.503,
+    "information_ratio": -1.921
+   }
+  }
+ },
+ "method": "3y=756/1y=252営業日。1306.T×10補正(2026-03-30〜)。pct_change(fill_method=None)。TOPIX=1306.T・日経=^N225。",
+ "baskets": {
+  "ours_v7_rolebudget": [
+   "3092.T",
+   "4716.T",
+   "7014.T",
+   "8136.T",
+   "6920.T",
+   "9022.T",
+   "9513.T",
+   "9503.T",
+   "1662.T",
+   "5214.T",
+   "6777.T",
+   "6871.T",
+   "6590.T",
+   "6387.T",
+   "6627.T",
+   "6861.T",
+   "7725.T",
+   "6929.T",
+   "3449.T",
+   "4971.T"
+  ],
+  "control_buffett_top12": [
+   "3092",
+   "4716",
+   "7014",
+   "8136",
+   "6920",
+   "7735",
+   "3064",
+   "3697",
+   "7832",
+   "6383",
+   "4021",
+   "6146"
+  ],
+  "control_graham20": [
+   "3539",
+   "4350",
+   "6430",
+   "7803",
+   "9470",
+   "9274",
+   "9507",
+   "6454",
+   "1873",
+   "9537",
+   "2918",
+   "4093",
+   "6718",
+   "2915",
+   "2733",
+   "6658",
+   "4998",
+   "7987",
+   "7551",
+   "5958"
+  ]
+ }
+}

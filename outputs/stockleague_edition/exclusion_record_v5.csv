@@ -1,0 +1,1181 @@
+code,company_name,sector,rejection_reason_category,reason_source
+7261,Mazda Motor Corporation,Transportation Equipment,already_represented_by_better_candidate,audited
+7211,MITSUBISHI MOTORS CORPORATION,Transportation Equipment,already_represented_by_better_candidate,audited
+9533,"TOHO GAS CO.,LTD.",Electric Power and Gas,already_represented_by_better_candidate,audited
+9507,"Shikoku Electric Power Company,Incorporated",Electric Power and Gas,already_represented_by_better_candidate,audited
+7419,"Nojima Co.,Ltd.",Retail Trade,already_represented_by_better_candidate,audited
+8012,"NAGASE & CO.,LTD.",Wholesale Trade,already_represented_by_better_candidate,audited
+2695,"Kura Sushi,Inc.",Retail Trade,already_represented_by_better_candidate,audited
+4022,"Rasa Industries,Ltd.",Chemicals,ai_keyword_only,audited
+1333,Umios Corporation,"Fishery, Agriculture and Forestry",already_represented_by_better_candidate,audited
+1515,"Nittetsu Mining Co.,Ltd.",Mining,already_represented_by_better_candidate,audited
+8111,Goldwin Inc.,Textiles and Apparels,already_represented_by_better_candidate,audited
+9684,"SQUARE ENIX HOLDINGS CO.,LTD.",Information & Communication,ai_keyword_only,audited
+6745,HOCHIKI CORPORATION,Electric Appliances,ai_keyword_only,audited
+9831,"YAMADA HOLDINGS CO.,LTD.",Retail Trade,already_represented_by_better_candidate,audited
+8273,"IZUMI CO.,LTD.",Retail Trade,already_represented_by_better_candidate,audited
+5021,"COSMO ENERGY HOLDINGS COMPANY,LIMITED",Oil and Coal Products,already_represented_by_better_candidate,audited
+1909,"Nippon Dry-Chemical CO.,LTD.",Machinery,ai_keyword_only,audited
+6454,"MAX CO.,LTD.",Machinery,ai_keyword_only,audited
+8060,Canon Marketing Japan Inc.,Wholesale Trade,already_represented_by_better_candidate,audited
+1911,"Sumitomo Forestry Co.,Ltd.",Construction,ai_keyword_only,audited
+3028,"Alpen Co.,Ltd.",Retail Trade,already_represented_by_better_candidate,audited
+2602,"The Nisshin OilliO Group,Ltd.",Foods,already_represented_by_better_candidate,audited
+2791,"DAIKOKUTENBUSSAN CO.,LTD.",Retail Trade,already_represented_by_better_candidate,audited
+9682,DTS CORPORATION,Information & Communication,ai_keyword_only,audited
+5105,Toyo Tire Corporation,Rubber Products,already_represented_by_better_candidate,audited
+9997,"BELLUNA CO.,LTD.",Retail Trade,already_represented_by_better_candidate,audited
+5406,"Kobe Steel,Ltd.",Iron and Steel,already_represented_by_better_candidate,audited
+8276,"HEIWADO CO.,LTD.",Retail Trade,already_represented_by_better_candidate,audited
+1414,"SHO-BOND Holdings Co.,Ltd.",Construction,ai_keyword_only,audited
+3382,"Seven & i Holdings Co.,Ltd.",Retail Trade,already_represented_by_better_candidate,audited
+4204,"Sekisui Chemical Co.,Ltd.",Chemicals,ai_keyword_only,audited
+8278,"FUJI CO.,LTD.",Retail Trade,already_represented_by_better_candidate,audited
+1723,"NIHON DENGI CO.,LTD.",Construction,ai_keyword_only,audited
+2121,"MIXI,Inc.",Information & Communication,ai_keyword_only,audited
+1662,"Japan Petroleum Exploration Co.,Ltd.",Mining,already_represented_by_better_candidate,audited
+9956,"VALOR HOLDINGS CO.,LTD.",Retail Trade,already_represented_by_better_candidate,audited
+7516,"KOHNAN SHOJI CO.,LTD.",Retail Trade,already_represented_by_better_candidate,audited
+4922,KOSE Holdings Corporation,Chemicals,ai_keyword_only,audited
+2212,"YAMAZAKI BAKING CO.,LTD.",Foods,already_represented_by_better_candidate,audited
+3608,"TSI HOLDINGS CO.,LTD.",Textiles and Apparels,value_trap_risk,audited
+6457,GLORY LTD.,Machinery,ai_keyword_only,audited
+3405,"KURARAY CO.,LTD.",Chemicals,low_pbr_only,audited
+2220,"KAMEDA SEIKA CO.,LTD.",Foods,already_represented_by_better_candidate,audited
+2918,"WARABEYA NICHIYO HOLDINGS CO.,LTD.",Foods,already_represented_by_better_candidate,audited
+8016,"ONWARD HOLDINGS CO.,LTD.",Textiles and Apparels,already_represented_by_better_candidate,audited
+9101,Nippon Yusen Kabushiki Kaisha,Marine Transportation,low_pbr_only,audited
+6196,"Strike Group Co.,Ltd.",Services,ai_keyword_only,audited
+4118,KANEKA CORPORATION,Chemicals,ai_keyword_only,audited
+6648,KAWADEN CORPORATION,Electric Appliances,ai_keyword_only,audited
+2730,EDION Corporation,Retail Trade,already_represented_by_better_candidate,audited
+1861,"Kumagai Gumi Co.,Ltd.",Construction,ai_keyword_only,audited
+4202,Daicel Corporation,Chemicals,ai_keyword_only,audited
+6440,JUKI CORPORATION,Machinery,ai_keyword_only,audited
+1961,"SANKI ENGINEERING CO.,LTD.",Construction,ai_keyword_only,audited
+6417,"SANKYO CO.,LTD.",Machinery,ai_keyword_only,audited
+7917,ZACROS Corporation,Chemicals,ai_keyword_only,audited
+5393,NICHIAS CORPORATION,Glass and Ceramics Products,already_represented_by_better_candidate,audited
+7649,"SUGI HOLDINGS Co.,LTD.",Retail Trade,already_represented_by_better_candidate,audited
+7552,HAPPINET CORPORATION,Wholesale Trade,already_represented_by_better_candidate,audited
+4318,"QUICK CO.,LTD.",Services,ai_keyword_only,audited
+2664,CAWACHI LIMITED,Retail Trade,already_represented_by_better_candidate,audited
+8194,LIFE CORPORATION,Retail Trade,already_represented_by_better_candidate,audited
+6369,TOYO KANETSU K.K.,Machinery,ai_keyword_only,audited
+8218,"KOMERI CO.,LTD.",Retail Trade,already_represented_by_better_candidate,audited
+9104,"Mitsui O.S.K.Lines,Ltd.",Marine Transportation,already_represented_by_better_candidate,audited
+5410,"Godo Steel,Ltd.",Iron and Steel,already_represented_by_better_candidate,audited
+6770,"ALPS ALPINE CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+2267,"YAKULT HONSHA CO.,LTD.",Foods,already_represented_by_better_candidate,audited
+6676,BUFFALO INC.,Electric Appliances,ai_keyword_only,audited
+3391,TSURUHA HOLDINGS INC.,Retail Trade,already_represented_by_better_candidate,audited
+4569,"KYORIN Pharmaceutical Co.,Ltd.",Pharmaceutical,already_represented_by_better_candidate,audited
+5463,Maruichi Steel Tube Ltd.,Iron and Steel,already_represented_by_better_candidate,audited
+6104,"SHIBAURA MACHINE CO.,LTD.",Machinery,ai_keyword_only,audited
+9274,"KPP GROUP HOLDINGS CO.,LTD.",Wholesale Trade,already_represented_by_better_candidate,audited
+8242,H2O RETAILING CORPORATION,Retail Trade,already_represented_by_better_candidate,audited
+4849,en Inc.,Services,ai_keyword_only,audited
+6310,"ISEKI & CO.,LTD.",Machinery,ai_keyword_only,audited
+4633,SAKATA INX CORPORATION,Chemicals,ai_keyword_only,audited
+2681,GEO HOLDINGS CORPORATION,Retail Trade,already_represented_by_better_candidate,audited
+3333,"ASAHI CO.,LTD.",Retail Trade,already_represented_by_better_candidate,audited
+3861,Oji Holdings Corporation,Pulp and Paper,low_pbr_only,audited
+4042,TOSOH CORPORATION,Chemicals,ai_keyword_only,audited
+8227,"SHIMAMURA Co.,Ltd.",Retail Trade,already_represented_by_better_candidate,audited
+3134,Hamee Corp.,Retail Trade,already_represented_by_better_candidate,audited
+4521,"KAKEN PHARMACEUTICAL CO.,LTD.",Pharmaceutical,already_represented_by_better_candidate,audited
+9948,"ARCS COMPANY,LIMITED",Retail Trade,already_represented_by_better_candidate,audited
+7280,MITSUBA Corporation,Electric Appliances,ai_keyword_only,audited
+8088,IWATANI  CORPORATION,Wholesale Trade,already_represented_by_better_candidate,audited
+9842,ARCLANDS CORPORATION,Retail Trade,already_represented_by_better_candidate,audited
+2734,SALA CORPORATION,Retail Trade,already_represented_by_better_candidate,audited
+1925,"DAIWA HOUSE INDUSTRY CO.,LTD.",Construction,ai_keyword_only,audited
+7595,ARGO GRAPHICS Inc.,Information & Communication,ai_keyword_only,audited
+8281,"XEBIO holdings CO.,LTD.",Retail Trade,already_represented_by_better_candidate,audited
+2491,"ValueCommerce Co.,Ltd.",Services,ai_keyword_only,audited
+5947,RINNAI CORPORATION,Metal Products,already_represented_by_better_candidate,audited
+4828,Business Engineering Corporation,Information & Communication,ai_keyword_only,audited
+8167,"RETAIL PARTNERS CO.,LTD.",Retail Trade,already_represented_by_better_candidate,audited
+9115,"Meiji Shipping Group Co.,Ltd.",Marine Transportation,already_represented_by_better_candidate,audited
+1928,"Sekisui House,Ltd.",Construction,ai_keyword_only,audited
+3104,"Fujibo Holdings,Inc.",Textiles and Apparels,already_represented_by_better_candidate,audited
+8061,SEIKA CORPORATION,Wholesale Trade,already_represented_by_better_candidate,audited
+9989,"SUNDRUG CO.,LTD.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+8173,Joshin Corporation,Retail Trade,score_below_cutoff,score_below_cutoff_v5
+4540,TSUMURA & CO.,Pharmaceutical,already_represented_by_better_candidate,audited
+2733,ARATA CORPORATION,Wholesale Trade,already_represented_by_better_candidate,audited
+8282,K'S HOLDINGS CORPORATION,Retail Trade,score_below_cutoff,score_below_cutoff_v5
+2433,HAKUHODO DY HOLDINGS INCORPORATED,Services,ai_keyword_only,audited
+7912,"Dai Nippon Printing Co.,Ltd.",Other Products,already_represented_by_better_candidate,audited
+3087,"DOUTOR・NICHIRES Holdings Co.,Ltd.",Retail Trade,already_represented_by_better_candidate,audited
+2001,NIPPN CORPORATION,Foods,already_represented_by_better_candidate,audited
+9934,"INABA DENKISANGYO CO.,LTD.",Wholesale Trade,already_represented_by_better_candidate,audited
+2593,"ITO EN,LTD.",Foods,already_represented_by_better_candidate,audited
+9832,"AUTOBACS SEVEN CO.,LTD.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+3048,BIC CAMERA INC.,Retail Trade,already_represented_by_better_candidate,audited
+2792,"HONEYS HOLDINGS CO.,LTD.",Retail Trade,already_represented_by_better_candidate,audited
+8011,SANYO SHOKAI LTD.,Textiles and Apparels,already_represented_by_better_candidate,audited
+6302,"SUMITOMO HEAVY INDUSTRIES,LTD.",Machinery,ai_keyword_only,audited
+6419,Mars Group Holdings Corporation,Machinery,ai_keyword_only,audited
+7581,"SAIZERIYA CO.,LTD.",Retail Trade,already_represented_by_better_candidate,audited
+2288,"MARUDAI FOOD CO.,LTD.",Foods,already_represented_by_better_candidate,audited
+6794,"Foster Electric Company,Limited",Electric Appliances,ai_keyword_only,audited
+1980,"DAI-DAN CO.,LTD.",Construction,ai_keyword_only,audited
+3349,COSMOS Pharmaceutical Corporation,Retail Trade,score_below_cutoff,score_below_cutoff_v5
+5423,"TOKYO STEEL MANUFACTURING CO.,LTD.",Iron and Steel,already_represented_by_better_candidate,audited
+8214,AOKI Holdings Inc.,Retail Trade,already_represented_by_better_candidate,audited
+2678,ASKUL Corporation,Retail Trade,score_below_cutoff,score_below_cutoff_v5
+2659,"SAN-A CO.,LTD.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+9202,ANA HOLDINGS INC.,Air Transportation,already_represented_by_better_candidate,audited
+3941,"Rengo Co.,Ltd.",Pulp and Paper,already_represented_by_better_candidate,audited
+6814,"FURUNO ELECTRIC CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+4651,SANIX HOLDINGS INCORPORATED,Services,ai_keyword_only,audited
+2685,"and ST HD Co.,Ltd.",Retail Trade,already_represented_by_better_candidate,audited
+6460,SEGA SAMMY HOLDINGS INC.,Machinery,ai_keyword_only,audited
+6588,TOSHIBA TEC CORPORATION,Electric Appliances,ai_keyword_only,audited
+4613,"KANSAI PAINT CO.,LTD.",Chemicals,ai_keyword_only,audited
+4751,"CyberAgent,Inc.",Services,ai_keyword_only,audited
+7911,TOPPAN Holdings Inc.,Other Products,score_below_cutoff,score_below_cutoff_v5
+3148,"CREATE SD HOLDINGS CO.,LTD.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+3407,ASAHI KASEI CORPORATION,Chemicals,ai_keyword_only,audited
+2929,"Pharma Foods International Co.,Ltd.",Foods,value_trap_risk,audited
+2726,"PAL GROUP Holdings CO.,LTD",Retail Trade,already_represented_by_better_candidate,audited
+2002,NISSHIN SEIFUN GROUP INC.,Foods,score_below_cutoff,score_below_cutoff_v5
+7240,NOK CORPORATION,Transportation Equipment,already_represented_by_better_candidate,audited
+7988,NIFCO INC.,Chemicals,ai_keyword_only,audited
+2296,ITOHAM YONEKYU HOLDINGS INC.,Foods,score_below_cutoff,score_below_cutoff_v5
+5019,"Idemitsu Kosan Co.,Ltd.",Oil and Coal Products,score_below_cutoff,score_below_cutoff_v5
+2379,dip Corporation,Services,ai_keyword_only,audited
+5210,"Nihon Yamamura Glass Co.,Ltd.",Glass and Ceramics Products,already_represented_by_better_candidate,audited
+3002,GUNZE LIMITED,Textiles and Apparels,score_below_cutoff,score_below_cutoff_v5
+6039,"Japan Animal Referral Medical Center Co.,Ltd.",Services,ai_keyword_only,audited
+9699,"NISHIO HOLDINGS CO.,LTD.",Services,ai_keyword_only,audited
+4043,Tokuyama Corporation,Chemicals,ai_keyword_only,audited
+2269,"Meiji Holdings Co.,Ltd.",Foods,score_below_cutoff,score_below_cutoff_v5
+9107,"Kawasaki Kisen Kaisha,Ltd.",Marine Transportation,already_represented_by_better_candidate,audited
+5331,"NORITAKE CO.,LIMITED",Glass and Ceramics Products,already_represented_by_better_candidate,audited
+5440,KYOEI STEEL LTD.,Iron and Steel,already_represented_by_better_candidate,audited
+3865,Hokuetsu Corporation,Pulp and Paper,already_represented_by_better_candidate,audited
+9534,"HOKKAIDO GAS CO.,LTD.",Electric Power and Gas,already_represented_by_better_candidate,audited
+5262,Nippon Hume Corporation,Glass and Ceramics Products,already_represented_by_better_candidate,audited
+7130,"YAMAE GROUP HOLDINGS CO.,LTD.",Wholesale Trade,already_represented_by_better_candidate,audited
+7459,MEDIPAL HOLDINGS CORPORATION,Wholesale Trade,already_represented_by_better_candidate,audited
+7245,"DAIDO METAL CO.,LTD.",Transportation Equipment,already_represented_by_better_candidate,audited
+6463,"TPR CO.,LTD.",Machinery,ai_keyword_only,audited
+2613,"J-OIL MILLS, INC.",Foods,already_represented_by_better_candidate,audited
+2670,"ABC-MART,INC.",Retail Trade,already_represented_by_better_candidate,audited
+8255,Axial Retailing Inc.,Retail Trade,already_represented_by_better_candidate,audited
+5408,"NAKAYAMA STEEL WORKS,LTD.",Iron and Steel,already_represented_by_better_candidate,audited
+7606,UNITED ARROWS LTD.,Retail Trade,already_represented_by_better_candidate,audited
+6849,NIHON KOHDEN CORPORATION,Electric Appliances,ai_keyword_only,audited
+9543,"SHIZUOKA GAS CO.,LTD.",Electric Power and Gas,already_represented_by_better_candidate,audited
+4206,"Aica Kogyo Company,Limited",Chemicals,ai_keyword_only,audited
+4631,DIC Corporation,Chemicals,ai_keyword_only,audited
+6995,"TOKAI RIKA CO.,LTD.",Transportation Equipment,already_represented_by_better_candidate,audited
+7832,Bandai Namco Holdings Inc.,Other Products,already_represented_by_better_candidate,audited
+4534,"Mochida Pharmaceutical Co.,Ltd.",Pharmaceutical,score_below_cutoff,score_below_cutoff_v5
+8217,"OKUWA CO.,LTD.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+1766,TOKEN CORPORATION,Construction,ai_keyword_only,audited
+7994,OKAMURA CORPORATION,Other Products,score_below_cutoff,score_below_cutoff_v5
+9603,"H.I.S.Co.,Ltd.",Services,ai_keyword_only,audited
+6580,"Writeup Co.,Ltd.",Services,ai_keyword_only,audited
+6418,"JAPAN CASH MACHINE CO.,LTD.",Machinery,ai_keyword_only,audited
+3092,"ZOZO,Inc.",Retail Trade,already_represented_by_better_candidate,audited
+9247,TRE HOLDINGS CORPORATION,Services,ai_keyword_only,audited
+3479,TKP Corporation,Real Estate,already_represented_by_better_candidate,audited
+9980,MRK HOLDINGS INC.,Retail Trade,already_represented_by_better_candidate,audited
+9974,"Belc CO.,LTD.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+6209,NPR-RIKEN CORPORATION,Machinery,ai_keyword_only,audited
+6923,"Stanley Electric Co.,Ltd.",Electric Appliances,ai_keyword_only,audited
+5929,Sanwa Holdings Corporation,Metal Products,already_represented_by_better_candidate,audited
+4927,POLA ORBIS HOLDINGS INC.,Chemicals,ai_keyword_only,audited
+3050,"DCM Holdings Co.,Ltd.",Retail Trade,already_represented_by_better_candidate,audited
+4112,"Hodogaya Chemical Co.,Ltd.",Chemicals,ai_keyword_only,audited
+6287,SATO CORPORATION,Machinery,ai_keyword_only,audited
+7453,"RYOHIN KEIKAKU CO.,LTD.",Retail Trade,already_represented_by_better_candidate,audited
+2201,"Morinaga & Co.,Ltd.",Foods,score_below_cutoff,score_below_cutoff_v5
+9404,"Nippon Television Holdings,Inc.",Information & Communication,ai_keyword_only,audited
+7610,"TAY TWO CO.,LTD.",Retail Trade,already_represented_by_better_candidate,audited
+7984,"KOKUYO CO.,LTD.",Other Products,already_represented_by_better_candidate,audited
+7600,"Japan Medical Dynamic Marketing,INC.",Precision Instruments,score_below_cutoff,score_below_cutoff_v5
+5970,G-TEKT CORPORATION,Metal Products,already_represented_by_better_candidate,audited
+7599,IDOM Inc.,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+5851,RYOBI LIMITED,Nonferrous Metals,ai_keyword_only,audited
+2206,"Ezaki Glico Co.,Ltd.",Foods,score_below_cutoff,score_below_cutoff_v5
+1301,"KYOKUYO CO.,LTD.","Fishery, Agriculture and Forestry",already_represented_by_better_candidate,audited
+9409,TV Asahi Holdings Corporation,Information & Communication,ai_keyword_only,audited
+9706,"Japan Airport Terminal Co.,ltd.",Real Estate,score_below_cutoff,score_below_cutoff_v5
+9936,OHSHO FOOD SERVICE CORP.,Retail Trade,already_represented_by_better_candidate,audited
+6395,TADANO LTD.,Machinery,ai_keyword_only,audited
+8835,TAIHEIYO KOUHATSU INCORPORATED,Wholesale Trade,already_represented_by_better_candidate,audited
+7550,"ZENSHO HOLDINGS CO.,LTD.",Retail Trade,already_represented_by_better_candidate,audited
+6436,Amano Corporation,Machinery,ai_keyword_only,audited
+8291,"NISSAN TOKYO SALES HOLDINGS CO.,LTD.",Retail Trade,already_represented_by_better_candidate,audited
+4996,"KUMIAI CHEMICAL INDUSTRY CO.,LTD.",Chemicals,ai_keyword_only,audited
+9990,SAC'S BAR HOLDINGS INC.,Retail Trade,already_represented_by_better_candidate,audited
+4401,ADEKA CORPORATION,Chemicals,ai_keyword_only,audited
+5480,"Nippon Yakin kogyo Co.,Ltd.",Iron and Steel,low_pbr_only,audited
+7942,JSP Corporation,Chemicals,ai_keyword_only,audited
+7981,"TAKARA STANDARD CO.,LTD.",Other Products,already_represented_by_better_candidate,audited
+6809,TOA CORPORATION,Electric Appliances,ai_keyword_only,audited
+6058,VECTOR INC.,Services,ai_keyword_only,audited
+7864,"FUJI SEAL INTERNATIONAL,INC.",Other Products,score_below_cutoff,score_below_cutoff_v5
+9861,"YOSHINOYA HOLDINGS CO.,LTD.",Retail Trade,already_represented_by_better_candidate,audited
+2767,TSUBURAYA FIELDS HOLDINGS INC.,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+2810,House Foods Group Inc.,Foods,score_below_cutoff,score_below_cutoff_v5
+6474,NACHI-FUJIKOSHI CORP.,Machinery,ai_keyword_only,audited
+7231,"TOPY INDUSTRIES,LIMITED",Transportation Equipment,already_represented_by_better_candidate,audited
+3660,istyle Inc.,Information & Communication,ai_keyword_only,audited
+4544,"H.U. Group Holdings,Inc.",Services,low_pbr_only,audited
+4776,"Cybozu,Inc.",Information & Communication,ai_keyword_only,audited
+2004,"Showa Sangyo Co.,Ltd.",Foods,already_represented_by_better_candidate,audited
+1377,SAKATA SEED CORPORATION,"Fishery, Agriculture and Forestry",score_below_cutoff,score_below_cutoff_v5
+4665,"DUSKIN CO.,LTD.",Services,ai_keyword_only,audited
+2229,"CALBEE,Inc.",Foods,score_below_cutoff,score_below_cutoff_v5
+6356,"NIPPON GEAR CO.,LTD.",Machinery,ai_keyword_only,audited
+3923,"RAKUS Co.,Ltd.",Information & Communication,ai_keyword_only,audited
+6810,"Maxell,Ltd.",Electric Appliances,ai_keyword_only,audited
+2429,"WORLD HOLDINGS CO.,LTD.",Services,ai_keyword_only,audited
+7867,"TOMY COMPANY,LTD.",Other Products,already_represented_by_better_candidate,audited
+7936,ASICS Corporation,Other Products,already_represented_by_better_candidate,audited
+2270,"MEGMILK SNOW BRAND Co.,Ltd.",Foods,score_below_cutoff,score_below_cutoff_v5
+5703,"Nippon Light Metal Holdings Company,Ltd.",Nonferrous Metals,ai_keyword_only,audited
+4208,UBE Corporation,Chemicals,ai_keyword_only,audited
+3626,TIS Inc.,Information & Communication,ai_keyword_only,audited
+4559,"ZERIA PHARMACEUTICAL CO.,LTD.",Pharmaceutical,score_below_cutoff,score_below_cutoff_v5
+3930,"Hatena Co.,Ltd.",Information & Communication,ai_keyword_only,audited
+2742,"HALOWS CO.,LTD.",Retail Trade,low_pbr_only,audited
+8103,Meiwa Corporation,Wholesale Trade,already_represented_by_better_candidate,audited
+1663,K&O Energy Group Inc.,Mining,score_below_cutoff,score_below_cutoff_v5
+3765,"GungHo Online Entertainment,Inc.",Information & Communication,ai_keyword_only,audited
+6349,KOMORI CORPORATION,Machinery,ai_keyword_only,audited
+7990,"GLOBERIDE,Inc.",Other Products,already_represented_by_better_candidate,audited
+4933,"I-ne CO.,LTD.",Chemicals,ai_keyword_only,audited
+5817,"JMACS Japan Co.,Ltd.",Nonferrous Metals,ai_keyword_only,audited
+9531,"TOKYO GAS CO.,LTD.",Electric Power and Gas,score_below_cutoff,score_below_cutoff_v5
+6367,"DAIKIN INDUSTRIES,LTD.",Machinery,already_represented_by_better_candidate,audited
+3046,JINS HOLDINGS Inc.,Retail Trade,already_represented_by_better_candidate,audited
+7955,Cleanup Corporation,Other Products,score_below_cutoff,score_below_cutoff_v5
+7532,Pan Pacific International Holdings Corporation,Retail Trade,already_represented_by_better_candidate,audited
+4620,"FUJIKURA KASEI CO.,LTD.",Chemicals,ai_keyword_only,audited
+8050,SEIKO GROUP CORPORATION,Precision Instruments,already_represented_by_better_candidate,audited
+7545,"NISHIMATSUYA CHAIN Co.,Ltd.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+9987,"SUZUKEN CO.,LTD.",Wholesale Trade,value_trap_risk,audited
+3167,TOKAI Holdings Corporation,Wholesale Trade,already_represented_by_better_candidate,audited
+3101,"TOYOBO CO.,LTD.",Chemicals,ai_keyword_only,audited
+7004,Kanadevia Corporation,Machinery,ai_keyword_only,audited
+9962,MISUMI Group Inc.,Wholesale Trade,already_represented_by_better_candidate,audited
+9830,TRUSCO NAKAYAMA CORPORATION,Wholesale Trade,already_represented_by_better_candidate,audited
+6850,Chino Corporation,Electric Appliances,ai_keyword_only,audited
+9994,YAMAYA CORPORATION,Retail Trade,already_represented_by_better_candidate,audited
+2809,Kewpie Corporation,Foods,score_below_cutoff,score_below_cutoff_v5
+4611,"Dai Nippon Toryo Company,Limited",Chemicals,ai_keyword_only,audited
+8022,Mizuno Corporation,Other Products,score_below_cutoff,score_below_cutoff_v5
+8086,NIPRO CORPORATION,Precision Instruments,score_below_cutoff,score_below_cutoff_v5
+7279,HI-LEX CORPORATION,Transportation Equipment,already_represented_by_better_candidate,audited
+3088,MatsukiyoCocokara & Co.,Retail Trade,already_represented_by_better_candidate,audited
+2292,S Foods Inc.,Foods,low_pbr_only,audited
+4194,"Visional,Inc.",Information & Communication,ai_keyword_only,audited
+1878,"DAITO TRUST CONSTRUCTION CO.,LTD.",Real Estate,score_below_cutoff,score_below_cutoff_v5
+7520,"Eco's Co.,Ltd.",Retail Trade,already_represented_by_better_candidate,audited
+3558,"JADE GROUP,Inc.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+2782,"Seria Co.,Ltd.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+6952,"CASIO COMPUTER CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+5032,ANYCOLOR Inc.,Information & Communication,ai_keyword_only,audited
+8142,"TOHO Co.,Ltd.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+8267,"AEON CO.,LTD.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+7859,ALMEDIO INC.,Other Products,already_represented_by_better_candidate,audited
+7943,NICHIHA CORPORATION,Glass and Ceramics Products,score_below_cutoff,score_below_cutoff_v5
+6658,"Shirai Electronics Industrial Co.,Ltd.",Electric Appliances,ai_keyword_only,audited
+4527,"ROHTO PHARMACEUTICAL CO.,LTD.",Pharmaceutical,already_represented_by_better_candidate,audited
+5214,"Nippon Electric Glass Co.,Ltd.",Glass and Ceramics Products,score_below_cutoff,score_below_cutoff_v5
+6250,YAMABIKO CORPORATION,Machinery,ai_keyword_only,audited
+9715,transcosmos inc.,Services,ai_keyword_only,audited
+7701,Shimadzu Corporation,Precision Instruments,score_below_cutoff,score_below_cutoff_v5
+8803,"HEIWA REAL ESTATE CO.,LTD.",Real Estate,already_represented_by_better_candidate,audited
+3864,Mitsubishi Paper Mills Limited,Pulp and Paper,already_represented_by_better_candidate,audited
+4205,ZEON CORPORATION,Chemicals,ai_keyword_only,audited
+5273,"MITANI SEKISAN CO.,LTD.",Glass and Ceramics Products,already_represented_by_better_candidate,audited
+8203,MrMax Holdings Ltd.,Retail Trade,already_represented_by_better_candidate,audited
+7956,PIGEON CORPORATION,Other Products,score_below_cutoff,score_below_cutoff_v5
+7458,"DAIICHIKOSHO CO.,LTD.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+9413,TV TOKYO Holdings Corporation,Information & Communication,ai_keyword_only,audited
+6378,"KIMURA CHEMICAL PLANTS CO.,LTD.",Machinery,ai_keyword_only,audited
+7947,FP CORPORATION,Chemicals,ai_keyword_only,audited
+6282,OILES CORPORATION,Machinery,ai_keyword_only,audited
+1847,"ICHIKEN Co.,Ltd.",Construction,ai_keyword_only,audited
+9887,"MATSUYA FOODS HOLDINGS CO.,LTD.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+4547,"KISSEI PHARMACEUTICAL CO.,LTD.",Pharmaceutical,score_below_cutoff,score_below_cutoff_v5
+2784,Alfresa Holdings Corporation,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+6584,"Sanoh Industrial Co.,Ltd.",Transportation Equipment,score_below_cutoff,score_below_cutoff_v5
+4028,"ISHIHARA SANGYO KAISHA,LTD.",Chemicals,ai_keyword_only,audited
+4768,OTSUKA CORPORATION,Information & Communication,ai_keyword_only,audited
+6371,TSUBAKIMOTO CHAIN CO.,Machinery,ai_keyword_only,audited
+9418,"U-NEXT HOLDINGS Co.,Ltd.",Information & Communication,ai_keyword_only,audited
+1332,Nissui Corporation,"Fishery, Agriculture and Forestry",score_below_cutoff,score_below_cutoff_v5
+2871,NICHIREI CORPORATION,Foods,score_below_cutoff,score_below_cutoff_v5
+1969,"Takasago Thermal Engineering Co.,Ltd.",Construction,ai_keyword_only,audited
+8043,Starzen Company Limited,Wholesale Trade,value_trap_risk,audited
+9005,TOKYU CORPORATION,Land Transportation,score_below_cutoff,score_below_cutoff_v5
+7972,ITOKI CORPORATION,Other Products,score_below_cutoff,score_below_cutoff_v5
+7685,"BuySell Technologies Co.,Ltd.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+8185,"CHIYODA CO.,LTD.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+6103,OKUMA Corporation,Machinery,ai_keyword_only,audited
+8897,"MIRARTH HOLDINGS,Inc.",Real Estate,already_represented_by_better_candidate,audited
+8136,"Sanrio Company,Ltd.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+5332,TOTO LTD.,Glass and Ceramics Products,score_below_cutoff,score_below_cutoff_v5
+6932,ENDO Lighting Corporation,Electric Appliances,ai_keyword_only,audited
+6718,"AIPHONE CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+4530,"HISAMITSU PHARMACEUTICAL CO.,INC.",Pharmaceutical,score_below_cutoff,score_below_cutoff_v5
+4634,"artience Co.,Ltd.",Chemicals,ai_keyword_only,audited
+6432,"TAKEUCHI MFG.CO.,LTD.",Machinery,ai_keyword_only,audited
+7846,PILOT CORPORATION,Other Products,score_below_cutoff,score_below_cutoff_v5
+9882,YELLOW HAT LTD.,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+7745,"A&D HOLON Holdings Company,Limited",Precision Instruments,score_below_cutoff,score_below_cutoff_v5
+6351,"TSURUMI MANUFACTURING CO.,LTD.",Machinery,ai_keyword_only,audited
+4617,"Chugoku Marine Paints,Ltd.",Chemicals,ai_keyword_only,audited
+3191,"JOYFUL HONDA CO.,LTD.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+5715,"FURUKAWA CO.,LTD.",Nonferrous Metals,ai_keyword_only,audited
+6951,JEOL Ltd.,Electric Appliances,ai_keyword_only,audited
+5711,Mitsubishi Materials Corporation,Nonferrous Metals,ai_keyword_only,audited
+9678,"KANAMOTO CO.,LTD.",Services,ai_keyword_only,audited
+4368,"FUSO CHEMICAL CO.,LTD.",Chemicals,ai_keyword_only,audited
+4553,"TOWA PHARMACEUTICAL CO.,LTD.",Pharmaceutical,already_represented_by_better_candidate,audited
+9536,"SAIBU GAS HOLDINGS CO.,LTD.",Electric Power and Gas,score_below_cutoff,score_below_cutoff_v5
+7283,"AISAN INDUSTRY CO.,LTD.",Transportation Equipment,already_represented_by_better_candidate,audited
+9532,"OSAKA GAS CO.,LTD.",Electric Power and Gas,score_below_cutoff,score_below_cutoff_v5
+7373,"Aidma Holdings,Inc.",Services,ai_keyword_only,audited
+6465,HOSHIZAKI CORPORATION,Machinery,ai_keyword_only,audited
+5975,Topre Corporation,Metal Products,already_represented_by_better_candidate,audited
+7226,"KYOKUTO KAIHATSU KOGYO CO.,LTD.",Transportation Equipment,score_below_cutoff,score_below_cutoff_v5
+9076,"SEINO HOLDINGS CO.,LTD.",Land Transportation,already_represented_by_better_candidate,audited
+6670,"MCJ Co.,Ltd.",Electric Appliances,ai_keyword_only,audited
+4979,"OAT Agrio Co.,Ltd.",Chemicals,ai_keyword_only,audited
+8179,"ROYAL HOLDINGS Co., Ltd.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+2003,"NITTO FUJI FLOUR MILLING CO.,LTD.",Foods,already_represented_by_better_candidate,audited
+2915,"KENKO Mayonnaise Co.,Ltd.",Foods,already_represented_by_better_candidate,audited
+4526,"RIKEN VITAMIN CO.,LTD.",Foods,already_represented_by_better_candidate,audited
+8005,Scroll Corporation,Retail Trade,score_below_cutoff,score_below_cutoff_v5
+4681,"RESORTTRUST,INC.",Services,ai_keyword_only,audited
+9746,TKC Corporation,Information & Communication,ai_keyword_only,audited
+3034,"Qol Holdings Co.,Ltd.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+7575,"Japan Lifeline Co.,Ltd.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+7762,"Citizen Watch Co.,Ltd.",Precision Instruments,score_below_cutoff,score_below_cutoff_v5
+2585,"LIFEDRINK COMPANY,INC.",Foods,score_below_cutoff,score_below_cutoff_v5
+3907,Silicon Studio Corp.,Information & Communication,ai_keyword_only,audited
+4064,"Nippon Carbide Industries Company,Incorporated",Chemicals,ai_keyword_only,audited
+8007,"Takashima & Co.,Ltd.",Wholesale Trade,value_trap_risk,audited
+5943,NORITZ CORPORATION,Metal Products,score_below_cutoff,score_below_cutoff_v5
+4443,"Sansan,Inc.",Information & Communication,ai_keyword_only,audited
+3097,The Monogatari Corporation,Retail Trade,score_below_cutoff,score_below_cutoff_v5
+7309,SHIMANO INC.,Transportation Equipment,score_below_cutoff,score_below_cutoff_v5
+9039,"Sakai Moving Service Co.,Ltd.",Land Transportation,score_below_cutoff,score_below_cutoff_v5
+6413,RISO KAGAKU CORPORATION,Machinery,ai_keyword_only,audited
+2331,"ALSOK CO.,LTD.",Services,ai_keyword_only,audited
+6835,ALLIED TELESIS HOLDINGS K.K.,Electric Appliances,ai_keyword_only,audited
+4685,"Ryoyu Systems Co.,Ltd.",Information & Communication,ai_keyword_only,audited
+7906,"YONEX CO.,LTD.",Other Products,score_below_cutoff,score_below_cutoff_v5
+4045,"TOAGOSEI CO.,LTD.",Chemicals,ai_keyword_only,audited
+1873,"NIHON HOUSE HOLDINGS CO.,LTD.",Construction,ai_keyword_only,audited
+7483,"DOSHISHA CO.,LTD.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+6703,"Oki Electric Industry Company,Limited",Electric Appliances,ai_keyword_only,audited
+3415,"TOKYO BASE Co.,Ltd.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+4985,Earth Corporation,Chemicals,ai_keyword_only,audited
+3636,"Mitsubishi Research Institute,Inc.",Information & Communication,ai_keyword_only,audited
+7241,"FUTABA INDUSTRIAL CO.,LTD.",Transportation Equipment,already_represented_by_better_candidate,audited
+8153,"MOS FOOD SERVICES,INC.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+6637,"TERASAKI ELECTRIC CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+3099,Isetan Mitsukoshi Holdings Ltd.,Retail Trade,score_below_cutoff,score_below_cutoff_v5
+7246,"PRESS KOGYO CO.,LTD.",Transportation Equipment,low_pbr_only,audited
+4031,Katakura & Co-op Agri Corporation,Chemicals,ai_keyword_only,audited
+3399,Maruchiyo Yamaokaya Corporation,Retail Trade,score_below_cutoff,score_below_cutoff_v5
+3355,KURIYAMA HOLDINGS CORPORATION,Wholesale Trade,already_represented_by_better_candidate,audited
+6644,"Osaki Electric Co.,Ltd.",Electric Appliances,ai_keyword_only,audited
+8130,Sangetsu Corporation,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+5253,COVER Corporation,Information & Communication,ai_keyword_only,audited
+2875,"TOYO SUISAN KAISHA,LTD.",Foods,score_below_cutoff,score_below_cutoff_v5
+6140,"Asahi Diamond Industrial Co.,Ltd.",Machinery,ai_keyword_only,audited
+3696,CERES INC.,Information & Communication,ai_keyword_only,audited
+3911,Aiming Inc.,Information & Communication,ai_keyword_only,audited
+6272,"RHEON AUTOMATIC MACHINERY CO.,LTD.",Machinery,ai_keyword_only,audited
+6961,ENPLAS CORPORATION,Electric Appliances,ai_keyword_only,audited
+6257,"FUJISHOJI CO.,LTD.",Machinery,ai_keyword_only,audited
+5632,"Mitsubishi Steel Mfg.Co.,Ltd.",Iron and Steel,already_represented_by_better_candidate,audited
+9405,ASAHI BROADCASTING GROUP HOLDINGS CORPORATION,Information & Communication,ai_keyword_only,audited
+3946,"TOMOKU CO.,LTD.",Pulp and Paper,already_represented_by_better_candidate,audited
+8035,Tokyo Electron Limited,Electric Appliances,ai_keyword_only,audited
+6238,FURYU CORPORATION,Machinery,ai_keyword_only,audited
+9332,"NISSO HOLDINGS Co.,Ltd.",Services,ai_keyword_only,audited
+5142,Achilles Corporation,Chemicals,ai_keyword_only,audited
+9602,"TOHO CO.,LTD",Information & Communication,ai_keyword_only,audited
+4044,"Central Glass Co.,Ltd.",Chemicals,ai_keyword_only,audited
+9823,Mammy Mart Holdings Corporation,Retail Trade,score_below_cutoff,score_below_cutoff_v5
+7965,Zojirushi Corporation,Electric Appliances,ai_keyword_only,audited
+9304,Shibusawa Logistics Corporation,Warehousing and Harbor Transportation Service,already_represented_by_better_candidate,audited
+6592,"MABUCHI MOTOR CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+5301,"TOKAI CARBON CO.,LTD.",Glass and Ceramics Products,score_below_cutoff,score_below_cutoff_v5
+3395,"Saint Marc Holdings Co.,Ltd.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+7482,"SHIMOJIMA Co.,Ltd.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+4021,Nissan Chemical Corporation,Chemicals,ai_keyword_only,audited
+6777,santec Holdings Corporation,Electric Appliances,ai_keyword_only,audited
+6958,CMK CORPORATION,Electric Appliances,ai_keyword_only,audited
+7780,"Menicon Co.,Ltd.",Precision Instruments,score_below_cutoff,score_below_cutoff_v5
+3064,"MonotaRO Co.,Ltd.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+7014,"Namura Shipbuilding Co.,Ltd.",Transportation Equipment,score_below_cutoff,score_below_cutoff_v5
+9856,"KU HOLDINGS CO.,LTD.",Retail Trade,already_represented_by_better_candidate,audited
+6535,"i-mobile Co.,Ltd.",Services,ai_keyword_only,audited
+7276,"KOITO MANUFACTURING CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+8032,JAPAN PULP AND PAPER COMPANY LIMITED,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+2222,"Kotobuki Spirits Co.,Ltd.",Foods,score_below_cutoff,score_below_cutoff_v5
+9064,"YAMATO HOLDINGS CO.,LTD.",Land Transportation,score_below_cutoff,score_below_cutoff_v5
+5988,"PIOLAX,INC.",Metal Products,already_represented_by_better_candidate,audited
+2060,"FEED ONE CO.,LTD.",Foods,already_represented_by_better_candidate,audited
+5232,"Sumitomo Osaka Cement Co.,Ltd.",Glass and Ceramics Products,score_below_cutoff,score_below_cutoff_v5
+5981,"TOKYO ROPE MFG.CO.,LTD",Metal Products,already_represented_by_better_candidate,audited
+6445,JANOME Corporation,Machinery,ai_keyword_only,audited
+6088,SIGMAXYZ Holdings Inc.,Services,ai_keyword_only,audited
+8051,YAMAZEN CORPORATION,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+7735,"SCREEN Holdings Co.,Ltd.",Electric Appliances,already_represented_by_better_candidate,audited
+3176,"Sanyo Trading Co.,Ltd.",Wholesale Trade,already_represented_by_better_candidate,audited
+3231,"Nomura Real Estate Holdings,Inc.",Real Estate,score_below_cutoff,score_below_cutoff_v5
+8150,"SANSHIN ELECTRONICS CO.,LTD.",Wholesale Trade,already_represented_by_better_candidate,audited
+9743,"TANSEISHA CO.,LTD.",Services,ai_keyword_only,audited
+3320,CROSS PLUS INC.,Wholesale Trade,distress_or_quality_risk,audited
+3105,Nisshinbo Holdings Inc.,Electric Appliances,ai_keyword_only,audited
+6845,Azbil Corporation,Electric Appliances,ai_keyword_only,audited
+6750,"ELECOM CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+4886,"ASKA Pharmaceutical Holdings Co.,Ltd.",Pharmaceutical,score_below_cutoff,score_below_cutoff_v5
+7991,"MAMIYA-OP CO.,LTD",Machinery,ai_keyword_only,audited
+7537,MARUBUN CORPORATION,Wholesale Trade,already_represented_by_better_candidate,audited
+9278,BOOKOFF GROUP HOLDINGS LIMITED,Retail Trade,score_below_cutoff,score_below_cutoff_v5
+9627,AIN HOLDINGS INC.,Retail Trade,score_below_cutoff,score_below_cutoff_v5
+3186,"NEXTAGE Co.,Ltd.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+8801,"Mitsui Fudosan Co.,Ltd.",Real Estate,score_below_cutoff,score_below_cutoff_v5
+3289,Tokyu Fudosan Holdings Corporation,Real Estate,score_below_cutoff,score_below_cutoff_v5
+6638,"MIMAKI ENGINEERING CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+9416,VISION INC.,Information & Communication,ai_keyword_only,audited
+2910,"ROCK FIELD CO.,LTD.",Foods,score_below_cutoff,score_below_cutoff_v5
+7747,"ASAHI INTECC CO.,LTD.",Precision Instruments,score_below_cutoff,score_below_cutoff_v5
+4216,ASAHI YUKIZAI CORPORATION,Chemicals,ai_keyword_only,audited
+6674,GS Yuasa Corporation,Electric Appliances,ai_keyword_only,audited
+6146,DISCO CORPORATION,Machinery,already_represented_by_better_candidate,audited
+3635,"KOEI TECMO HOLDINGS CO.,LTD.",Information & Communication,ai_keyword_only,audited
+5901,"Toyo Seikan Group Holdings,Ltd.",Metal Products,score_below_cutoff,score_below_cutoff_v5
+8097,"SAN-AI OBBLI CO.,LTD.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+3569,"SEIREN CO.,LTD.",Textiles and Apparels,score_below_cutoff,score_below_cutoff_v5
+6890,Ferrotec Corporation,Electric Appliances,ai_keyword_only,audited
+7980,"SHIGEMATSU WORKS CO.,LTD.",Other Products,already_represented_by_better_candidate,audited
+9616,"KYORITSU MAINTENANCE CO.,LTD.",Services,ai_keyword_only,audited
+4694,"BML,INC.",Services,ai_keyword_only,audited
+2301,"GAKUJO CO.,Ltd.",Services,ai_keyword_only,audited
+7305,"ARAYA INDUSTRIAL CO.,LTD.",Iron and Steel,low_pbr_only,audited
+5959,"OKABE CO.,LTD.",Metal Products,already_represented_by_better_candidate,audited
+3003,"Hulic Co.,Ltd.",Real Estate,score_below_cutoff,score_below_cutoff_v5
+7050,FRONTIER INTERNATIONAL INC.,Services,low_pbr_only,audited
+4919,"Milbon Co.,Ltd.",Chemicals,ai_keyword_only,audited
+6136,OSG Corporation,Machinery,ai_keyword_only,audited
+3964,AUCNET INC.,Information & Communication,ai_keyword_only,audited
+3182,Oisix ra daichi Inc.,Retail Trade,score_below_cutoff,score_below_cutoff_v5
+7611,HIDAY HIDAKA Corp.,Retail Trade,score_below_cutoff,score_below_cutoff_v5
+4246,DaikyoNishikawa Corporation,Chemicals,ai_keyword_only,audited
+5290,Vertex Corporation,Glass and Ceramics Products,already_represented_by_better_candidate,audited
+4716,ORACLE CORPORATION JAPAN,Information & Communication,ai_keyword_only,audited
+4825,WEATHERNEWS INC.,Information & Communication,ai_keyword_only,audited
+8850,STARTS CORPORATION INC.,Real Estate,score_below_cutoff,score_below_cutoff_v5
+7059,"COPRO-HOLDINGS.Co.,Ltd.",Services,ai_keyword_only,audited
+8125,"Wakita & Co.,LTD.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+3549,"KUSURI NO AOKI HOLDINGS CO.,LTD.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+6332,"TSUKISHIMA HOLDINGS CO.,LTD.",Machinery,ai_keyword_only,audited
+8804,"Tokyo Tatemono Co.,Ltd.",Real Estate,score_below_cutoff,score_below_cutoff_v5
+5121,FUJIKURA COMPOSITES Inc.,Rubber Products,score_below_cutoff,score_below_cutoff_v5
+7475,"ALBIS Co.,Ltd.",Retail Trade,already_represented_by_better_candidate,audited
+7466,SPK CORPORATION,Wholesale Trade,already_represented_by_better_candidate,audited
+9755,OYO Corporation,Services,ai_keyword_only,audited
+4078,"Sakai Chemical Industry Co.,Ltd.",Chemicals,ai_keyword_only,audited
+6807,"Japan Aviation Electronics Industry,Limited",Electric Appliances,ai_keyword_only,audited
+3489,"FaithNetwork Co.,Ltd",Real Estate,already_represented_by_better_candidate,audited
+4839,WOWOW INC.,Information & Communication,ai_keyword_only,audited
+3232,"Mie Kotsu Group Holdings,Inc.",Real Estate,already_represented_by_better_candidate,audited
+8098,"Inabata & Co.,Ltd.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+7971,TOLI Corporation,Chemicals,ai_keyword_only,audited
+4934,"Premier Anti-Aging Co.,Ltd.",Chemicals,ai_keyword_only,audited
+5204,"ISHIZUKA GLASS CO.,LTD.",Glass and Ceramics Products,already_represented_by_better_candidate,audited
+6908,"IRISO ELECTRONICS CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+2418,TSUKADA GLOBAL HOLDINGS Inc.,Services,ai_keyword_only,audited
+4704,Trend Micro Incorporated,Information & Communication,ai_keyword_only,audited
+6083,"ERI HOLDINGS CO.,LTD.",Services,low_pbr_only,audited
+9726,"KNT-CT Holdings Co.,Ltd.",Services,ai_keyword_only,audited
+5603,KOGI CORPORATION,Iron and Steel,already_represented_by_better_candidate,audited
+2294,"Kakiyasu Honten Co.,Ltd.",Foods,score_below_cutoff,score_below_cutoff_v5
+3431,"MIYAJI ENGINEERING GROUP,INC.",Metal Products,value_trap_risk,audited
+6768,TAMURA CORPORATION,Electric Appliances,ai_keyword_only,audited
+8129,"TOHO HOLDINGS CO.,LTD.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+7966,LINTEC Corporation,Other Products,score_below_cutoff,score_below_cutoff_v5
+9605,"TOEI COMPANY,LTD.",Information & Communication,ai_keyword_only,audited
+3856,Abalance Corporation,Electric Appliances,ai_keyword_only,audited
+5244,"jig.jp co.,ltd.",Information & Communication,ai_keyword_only,audited
+4478,freee K.K.,Information & Communication,ai_keyword_only,audited
+4041,"Nippon Soda Co.,Ltd.",Chemicals,ai_keyword_only,audited
+2492,Infomart Corporation,Services,ai_keyword_only,audited
+5930,"Bunka Shutter Co.,Ltd.",Metal Products,score_below_cutoff,score_below_cutoff_v5
+9697,"CAPCOM CO.,LTD.",Information & Communication,ai_keyword_only,audited
+7239,"TACHI-S CO.,LTD.",Transportation Equipment,already_represented_by_better_candidate,audited
+3288,"Open House Group Co.,Ltd.",Real Estate,score_below_cutoff,score_below_cutoff_v5
+7743,"SEED CO.,LTD.",Precision Instruments,score_below_cutoff,score_below_cutoff_v5
+2264,"MORINAGA MILK INDUSTRY CO.,LTD.",Foods,score_below_cutoff,score_below_cutoff_v5
+7719,TOKYO KOKI CO.LTD.,Precision Instruments,score_below_cutoff,score_below_cutoff_v5
+6023,"DAIHATSU INFINEARTH MFG.CO.,LTD.",Transportation Equipment,score_below_cutoff,score_below_cutoff_v5
+3708,"Tokushu Tokai Paper Co.,Ltd.",Pulp and Paper,already_represented_by_better_candidate,audited
+5013,Yushiro Inc.,Oil and Coal Products,score_below_cutoff,score_below_cutoff_v5
+3201,"THE JAPAN WOOL TEXTILE CO.,LTD.",Textiles and Apparels,score_below_cutoff,score_below_cutoff_v5
+2127,Nihon M&A Center Holdings Inc.,Services,ai_keyword_only,audited
+8029,LOOK HOLDINGS INCORPORATED,Textiles and Apparels,already_represented_by_better_candidate,audited
+5185,"Fukoku Co.,Ltd.",Rubber Products,already_represented_by_better_candidate,audited
+6737,EIZO Corporation,Electric Appliances,ai_keyword_only,audited
+4272,"NIPPON KAYAKU CO.,LTD.",Chemicals,ai_keyword_only,audited
+4471,"SANYO CHEMICAL INDUSTRIES,LTD.",Chemicals,ai_keyword_only,audited
+9535,"HIROSHIMA GAS CO.,LTD.",Electric Power and Gas,score_below_cutoff,score_below_cutoff_v5
+6728,"ULVAC, Inc.",Electric Appliances,ai_keyword_only,audited
+6504,"FUJI ELECTRIC CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+2281,"Prima Meat Packers,Ltd.",Foods,score_below_cutoff,score_below_cutoff_v5
+6960,"FUKUDA DENSHI CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+7806,"MTG Co.,Ltd.",Other Products,score_below_cutoff,score_below_cutoff_v5
+4626,"TAIYO HOLDINGS CO.,LTD.",Chemicals,ai_keyword_only,audited
+2153,E・J Holdings Inc.,Services,ai_keyword_only,audited
+4666,"PARK24 Co.,Ltd.",Real Estate,score_below_cutoff,score_below_cutoff_v5
+9729,TOKAI Corp.,Services,ai_keyword_only,audited
+9279,GIFT HOLDINGS INC.,Retail Trade,score_below_cutoff,score_below_cutoff_v5
+6941,"YAMAICHI ELECTRONICS CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+7740,"Tamron Co.,Ltd.",Precision Instruments,score_below_cutoff,score_below_cutoff_v5
+8008,YONDOSHI HOLDINGS INC.,Retail Trade,score_below_cutoff,score_below_cutoff_v5
+9735,"SECOM CO.,LTD.",Services,ai_keyword_only,audited
+7888,SANKO GOSEI LTD.,Chemicals,ai_keyword_only,audited
+7522,"WATAMI CO.,LTD.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+5018,MORESCO Corporation,Oil and Coal Products,already_represented_by_better_candidate,audited
+2175,"SMS CO.,LTD.",Services,ai_keyword_only,audited
+4221,"Okura Industrial Co.,Ltd.",Chemicals,ai_keyword_only,audited
+9788,"NAC CO.,LTD.",Services,ai_keyword_only,audited
+5933,ALINCO INCORPORATED,Metal Products,already_represented_by_better_candidate,audited
+6143,"Sodick Co.,Ltd.",Machinery,ai_keyword_only,audited
+6486,"EAGLE INDUSTRY CO.,LTD.",Machinery,ai_keyword_only,audited
+7940,"WAVELOCK HOLDINGS CO.,LTD.",Chemicals,ai_keyword_only,audited
+8198,"Maxvalu Tokai Co.,Ltd.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+5304,"SEC CARBON,LIMITED",Glass and Ceramics Products,already_represented_by_better_candidate,audited
+8174,"NIPPON GAS CO.,LTD.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+3038,"KOBE BUSSAN CO.,LTD.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+2531,TAKARA HOLDINGS INC.,Foods,score_below_cutoff,score_below_cutoff_v5
+3661,"m-up holdings,Inc.",Information & Communication,ai_keyword_only,audited
+3498,"Kasumigaseki Capital Co.,Ltd.",Real Estate,score_below_cutoff,score_below_cutoff_v5
+6412,Heiwa Corporation,Machinery,ai_keyword_only,audited
+6339,"Sintokogio,Ltd.",Machinery,ai_keyword_only,audited
+6871,"MICRONICS JAPAN CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+6363,"Torishima Pump Mfg.Co.,Ltd.",Machinery,ai_keyword_only,audited
+6072,"Jibannet Holdings Co.,Ltd.",Services,ai_keyword_only,audited
+7613,SIIX CORPORATION,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+4220,RIKEN TECHNOS CORPORATION,Chemicals,ai_keyword_only,audited
+7979,SHOFU INC.,Precision Instruments,score_below_cutoff,score_below_cutoff_v5
+4125,SANWAYUKA INDUSTRY CORPORATION,Chemicals,ai_keyword_only,audited
+3687,Fixstars Corporation,Information & Communication,ai_keyword_only,audited
+4848,"FULLCAST HOLDINGS CO.,LTD.",Services,ai_keyword_only,audited
+9716,"NOMURA Co.,Ltd.",Services,ai_keyword_only,audited
+6856,"HORIBA,Ltd.",Electric Appliances,ai_keyword_only,audited
+9556,INTLOOP Inc.,Services,ai_keyword_only,audited
+7679,"YAKUODO HOLDINGS Co.,Ltd.",Retail Trade,already_represented_by_better_candidate,audited
+7513,"Kojima Co.,Ltd.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+7987,"NAKABAYASHI CO.,LTD.",Other Products,already_represented_by_better_candidate,audited
+1982,"Hibiya Engineering,Ltd.",Construction,ai_keyword_only,audited
+2395,"SHIN NIPPON BIOMEDICAL LABORATORIES,LTD.",Services,ai_keyword_only,audited
+7931,"MIRAI INDUSTRY CO.,LTD.",Chemicals,ai_keyword_only,audited
+6914,"OPTEX GROUP Company,Limited",Electric Appliances,ai_keyword_only,audited
+4994,"Taisei Lamick Group Head Quarter & Innovation Co.,Ltd.",Chemicals,low_pbr_only,audited
+7949,"KOMATSU WALL INDUSTRY CO.,LTD.",Other Products,score_below_cutoff,score_below_cutoff_v5
+6405,"Suzumo Machinery Co.,Ltd.",Machinery,ai_keyword_only,audited
+4182,"Mitsubishi Gas Chemical Company,Inc.",Chemicals,ai_keyword_only,audited
+9069,"SENKO Group Holdings Co.,Ltd.",Land Transportation,score_below_cutoff,score_below_cutoff_v5
+4427,"EduLab,Inc.",Information & Communication,ai_keyword_only,audited
+2735,"WATTS CO.,LTD.",Retail Trade,value_trap_risk,audited
+4403,NOF CORPORATION,Chemicals,ai_keyword_only,audited
+3196,"HOTLAND HOLDINGS Co.,Ltd.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+6823,"RION CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+3950,THE PACK CORPORATION,Pulp and Paper,score_below_cutoff,score_below_cutoff_v5
+8014,"CHORI CO.,LTD.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+6381,ANEST IWATA Corporation,Machinery,ai_keyword_only,audited
+4097,"KOATSU GAS KOGYO CO.,LTD.",Chemicals,ai_keyword_only,audited
+4092,"Nippon Chemical Industrial Co.,Ltd.",Chemicals,ai_keyword_only,audited
+6651,NITTO KOGYO CORPORATION,Electric Appliances,ai_keyword_only,audited
+2124,"JAC Recruitment Co.,Ltd.",Services,ai_keyword_only,audited
+8154,"KAGA ELECTRONICS CO.,LTD.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+9468,KADOKAWA CORPORATION,Information & Communication,ai_keyword_only,audited
+6200,"Insource Co.,Ltd.",Services,ai_keyword_only,audited
+4095,"NIHON PARKERIZING CO.,LTD.",Chemicals,ai_keyword_only,audited
+6877,Obara Group Incorporated,Electric Appliances,ai_keyword_only,audited
+4967,"KOBAYASHI PHARMACEUTICAL CO.,LTD.",Chemicals,ai_keyword_only,audited
+4113,"TAOKA CHEMICAL COMPANY,LIMITED",Chemicals,ai_keyword_only,audited
+6277,HOSOKAWA MICRON CORPORATION,Machinery,ai_keyword_only,audited
+5563,"Nippon Denko Co.,Ltd.",Iron and Steel,score_below_cutoff,score_below_cutoff_v5
+3360,"SHIP HEALTHCARE HOLDINGS,INC.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+2753,"AMIYAKI TEI CO.,LTD.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+6135,"Makino Milling Machine Co.,Ltd.",Machinery,ai_keyword_only,audited
+8848,LEOPALACE21 CORPORATION,Real Estate,score_below_cutoff,score_below_cutoff_v5
+5698,ENVIPRO HOLDINGS Inc.,Iron and Steel,score_below_cutoff,score_below_cutoff_v5
+3501,"SUMINOE Co.,Ltd.",Textiles and Apparels,already_represented_by_better_candidate,audited
+7414,"ONOKEN CO.,LTD.",Wholesale Trade,already_represented_by_better_candidate,audited
+7871,"FUKUVI CHEMICAL INDUSTRY CO.,LTD.",Chemicals,ai_keyword_only,audited
+6544,"JAPAN ELEVATOR SERVICE HOLDINGS CO.,LTD.",Services,ai_keyword_only,audited
+4784,"GMO internet,Inc.",Services,ai_keyword_only,audited
+7856,HAGIHARA INDUSTRIES INC.,Other Products,score_below_cutoff,score_below_cutoff_v5
+6925,USHIO INC.,Electric Appliances,ai_keyword_only,audited
+2053,"CHUBU SHIRYO CO.,LTD.",Foods,score_below_cutoff,score_below_cutoff_v5
+6547,"GREENS CO.,LTD.",Services,ai_keyword_only,audited
+3546,"Alleanza Holdings Co.,Ltd.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+7839,"SHOEI CO.,LTD.",Other Products,score_below_cutoff,score_below_cutoff_v5
+4548,SEIKAGAKU CORPORATION,Pharmaceutical,score_below_cutoff,score_below_cutoff_v5
+6309,"TOMOE ENGINEERING CO.,LTD.(TOMOE KOGYO CO.,LTD.)",Machinery,ai_keyword_only,audited
+7224,"ShinMaywa Industries,LTD.",Transportation Equipment,score_below_cutoff,score_below_cutoff_v5
+9119,"IINO KAIUN KAISHA,LTD.",Marine Transportation,score_below_cutoff,score_below_cutoff_v5
+9143,"SG HOLDINGS CO.,LTD.",Land Transportation,score_below_cutoff,score_below_cutoff_v5
+3236,"PROPERST CO.,LTD.",Real Estate,already_represented_by_better_candidate,audited
+4189,"KH Neochem Co.,Ltd.",Chemicals,ai_keyword_only,audited
+1379,HOKUTO CORPORATION,"Fishery, Agriculture and Forestry",score_below_cutoff,score_below_cutoff_v5
+5578,"AR advanced technology,Inc.",Information & Communication,ai_keyword_only,audited
+4722,Future Corporation,Information & Communication,ai_keyword_only,audited
+2195,"AMITA HOLDINGS CO.,LTD.",Services,ai_keyword_only,audited
+5243,note inc.,Information & Communication,ai_keyword_only,audited
+1419,"Tama Home Co.,Ltd.",Construction,ai_keyword_only,audited
+7715,"NAGANO KEIKI CO.,LTD.",Precision Instruments,score_below_cutoff,score_below_cutoff_v5
+9991,GECOSS CORPORATION,Wholesale Trade,already_represented_by_better_candidate,audited
+6858,"ONO SOKKI Co.,Ltd.",Electric Appliances,ai_keyword_only,audited
+8283,PALTAC CORPORATION,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+6489,"Maezawa Industries,Inc.",Machinery,ai_keyword_only,audited
+6258,HIRATA Corporation,Machinery,ai_keyword_only,audited
+6590,SHIBAURA MECHATRONICS CORPORATION,Electric Appliances,ai_keyword_only,audited
+1435,robot home Inc.,Real Estate,ai_keyword_only,audited
+6458,SINKO INDUSTRIES LTD.,Machinery,ai_keyword_only,audited
+9110,"NS United Kaiun Kaisha,Ltd.",Marine Transportation,score_below_cutoff,score_below_cutoff_v5
+1899,FUKUDA CORPORATION,Construction,ai_keyword_only,audited
+5344,"MARUWA CO.,LTD.",Glass and Ceramics Products,score_below_cutoff,score_below_cutoff_v5
+6505,"TOYO DENKI SEIZO K.K.(TOYO ELECTRIC MFG.CO.,LTD.)",Electric Appliances,ai_keyword_only,audited
+6455,MORITA HOLDINGS CORPORATION,Transportation Equipment,score_below_cutoff,score_below_cutoff_v5
+8074,"YUASA CO.,LTD.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+6498,KITZ CORPORATION,Machinery,ai_keyword_only,audited
+2982,"A.D.Works Group Co.,Ltd.",Real Estate,value_trap_risk,audited
+7729,"TOKYO SEIMITSU CO.,LTD.",Precision Instruments,score_below_cutoff,score_below_cutoff_v5
+6249,"Gamecard Holdings,Inc.",Machinery,ai_keyword_only,audited
+4974,TAKARA BIO INC.,Chemicals,ai_keyword_only,audited
+4366,Daito Chemix Corporation,Chemicals,ai_keyword_only,audited
+5381,Mipox Corporation,Glass and Ceramics Products,score_below_cutoff,score_below_cutoff_v5
+4951,S.T.CORPORATION,Chemicals,ai_keyword_only,audited
+6965,HAMAMATSU PHOTONICS K.K.,Electric Appliances,ai_keyword_only,audited
+9768,"IDEA Consultants,Inc.",Services,ai_keyword_only,audited
+8095,"Astena Holdings Co.,Ltd.",Wholesale Trade,already_represented_by_better_candidate,audited
+6262,"PEGASUS CO.,LTD.",Machinery,ai_keyword_only,audited
+6859,ESPEC CORP.,Electric Appliances,ai_keyword_only,audited
+4071,"Plus Alpha Consulting Co.,LTD.",Information & Communication,ai_keyword_only,audited
+5302,"Nippon Carbon Co.,Ltd.",Glass and Ceramics Products,already_represented_by_better_candidate,audited
+1719,HAZAMA ANDO CORPORATION,Construction,ai_keyword_only,audited
+9364,"Kamigumi Co.,Ltd.",Warehousing and Harbor Transportation Service,score_below_cutoff,score_below_cutoff_v5
+2935,"PICKLES HOLDINGS CO.,LTD.",Foods,already_represented_by_better_candidate,audited
+5991,"NHK SPRING CO.,LTD.",Metal Products,score_below_cutoff,score_below_cutoff_v5
+3632,"GREE Holdings,Inc.",Information & Communication,ai_keyword_only,audited
+6323,RORZE CORPORATION,Machinery,ai_keyword_only,audited
+6273,SMC CORPORATION,Machinery,ai_keyword_only,audited
+9025,"Konoike Transport Co.,Ltd.",Land Transportation,score_below_cutoff,score_below_cutoff_v5
+6597,HPC SYSTEMS Inc.,Electric Appliances,ai_keyword_only,audited
+7071,"Amvis Holdings,Inc.",Services,ai_keyword_only,audited
+8084,RYODEN CORPORATION,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+7840,"FRANCE BED HOLDINGS CO.,LTD.",Other Products,score_below_cutoff,score_below_cutoff_v5
+9876,"COX CO.,LTD.",Retail Trade,distress_or_quality_risk,audited
+4251,KEIWA Incorporated,Chemicals,ai_keyword_only,audited
+4725,CAC Holdings Corporation,Information & Communication,ai_keyword_only,audited
+4475,HENNGE K.K.,Information & Communication,ai_keyword_only,audited
+8141,"Shinko Shoji Co.,Ltd.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+9744,MEITEC Group Holdings Inc.,Services,ai_keyword_only,audited
+3640,"DENSAN CO.,LTD.",Information & Communication,ai_keyword_only,audited
+3299,"MUGEN ESTATE Co.,Ltd.",Real Estate,value_trap_risk,audited
+6016,Japan Engine Corporation,Transportation Equipment,score_below_cutoff,score_below_cutoff_v5
+5192,Mitsuboshi Belting Ltd.,Rubber Products,score_below_cutoff,score_below_cutoff_v5
+1934,YURTEC CORPORATION,Construction,ai_keyword_only,audited
+6036,"KeePer Technical Laboratory Co.,Ltd.",Services,ai_keyword_only,audited
+9401,"TBS HOLDINGS,INC.",Information & Communication,ai_keyword_only,audited
+3093,"Treasure Factory Co.,LTD.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+3445,"RS Technologies Co.,Ltd.",Metal Products,score_below_cutoff,score_below_cutoff_v5
+6420,GALILEI CO.LTD.,Machinery,ai_keyword_only,audited
+9621,"CTI Engineering Co.,Ltd.",Services,ai_keyword_only,audited
+8252,"MARUI GROUP CO.,LTD.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+6508,MEIDENSHA CORPORATION,Electric Appliances,ai_keyword_only,audited
+3916,Digital Information Technologies Corporation,Information & Communication,ai_keyword_only,audited
+4025,"TAKI CHEMICAL CO.,LTD.",Chemicals,ai_keyword_only,audited
+6804,Hosiden Corporation,Electric Appliances,ai_keyword_only,audited
+7512,Aeon Hokkaido Corporation,Retail Trade,score_below_cutoff,score_below_cutoff_v5
+9347,"NIPPON KANZAI Holdings Co.,Ltd.",Services,ai_keyword_only,audited
+3151,"VITAL KSK HOLDINGS,INC.",Wholesale Trade,value_trap_risk,audited
+5965,FUJIMAK CORPORATION,Metal Products,distress_or_quality_risk,audited
+7989,TACHIKAWA CORPORATION,Metal Products,score_below_cutoff,score_below_cutoff_v5
+9612,"LUCKLAND CO.,LTD.",Services,ai_keyword_only,audited
+9267,"Genky DrugStores Co.,Ltd.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+7800,"Amifa Co.,Ltd.",Other Products,score_below_cutoff,score_below_cutoff_v5
+3245,"DEAR LIFE CO.,LTD.",Real Estate,score_below_cutoff,score_below_cutoff_v5
+4673,"Kawasaki Geological Engineering Co.,Ltd.",Services,ai_keyword_only,audited
+8830,"Sumitomo Realty & Development Co.,Ltd.",Real Estate,score_below_cutoff,score_below_cutoff_v5
+4212,Sekisui Jushi Corporation,Chemicals,ai_keyword_only,audited
+9601,"Shochiku Co.,Ltd.",Information & Communication,ai_keyword_only,audited
+8131,"Mitsuuroko Group Holdings Co.,Ltd.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+7003,"MITSUI E&S Co.,Ltd.",Machinery,ai_keyword_only,audited
+5444,"YAMATO KOGYO CO.,LTD.",Iron and Steel,score_below_cutoff,score_below_cutoff_v5
+3076,Ai Holdings Corporation,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+5915,KOMAIHALTEC Inc.,Metal Products,already_represented_by_better_candidate,audited
+7318,"SERENDIP HOLDINGS Co.,Ltd.",Transportation Equipment,score_below_cutoff,score_below_cutoff_v5
+3179,"Syuppin Co.,Ltd.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+5461,"Chubu Steel Plate Co.,Ltd.",Iron and Steel,score_below_cutoff,score_below_cutoff_v5
+7435,"NADEX CO.,LTD.",Wholesale Trade,low_pbr_only,audited
+8160,"KISOJI CO.,LTD.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+4928,"Noevir Holdings Co.,Ltd.",Chemicals,ai_keyword_only,audited
+9759,"NSD CO.,LTD.",Information & Communication,ai_keyword_only,audited
+5957,"NITTOSEIKO CO.,LTD.",Metal Products,already_represented_by_better_candidate,audited
+7976,"MITSUBISHI PENCIL COMPANY,LIMITED",Other Products,score_below_cutoff,score_below_cutoff_v5
+6226,"Moriya Transportation Engineering and Manufacturing Co.,Ltd.",Machinery,ai_keyword_only,audited
+6622,DAIHEN CORPORATION,Electric Appliances,already_represented_by_better_candidate,audited
+9514,EF-ON INC.,Electric Power and Gas,already_represented_by_better_candidate,audited
+7716,NAKANISHI INC.,Precision Instruments,score_below_cutoff,score_below_cutoff_v5
+7128,UNISOL Holdings Corporation,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+7821,"MAEDA KOSEN CO.,LTD.",Other Products,score_below_cutoff,score_below_cutoff_v5
+5351,"SHINAGAWA REFRA CO.,LTD.",Glass and Ceramics Products,already_represented_by_better_candidate,audited
+2109,"Mitsui DM Sugar Co.,Ltd.",Foods,score_below_cutoff,score_below_cutoff_v5
+6741,"Nippon Signal Company,Limited",Electric Appliances,ai_keyword_only,audited
+4275,"Carlit Co.,Ltd.",Chemicals,ai_keyword_only,audited
+9960,TOTECH CORPORATION,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+7564,"WORKMAN CO.,LTD.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+3922,PR TIMES Corporation,Information & Communication,ai_keyword_only,audited
+6197,Solasto Corporation,Services,ai_keyword_only,audited
+2980,SRE Holdings Corporation,Real Estate,score_below_cutoff,score_below_cutoff_v5
+4554,"Fuji Pharma Co.,Ltd.",Pharmaceutical,score_below_cutoff,score_below_cutoff_v5
+3844,COMTURE CORPORATION,Information & Communication,ai_keyword_only,audited
+4972,"Soken Chemical & Engineering Co.,Ltd.",Chemicals,ai_keyword_only,audited
+3878,TOMOEGAWA CORPORATION,Chemicals,ai_keyword_only,audited
+6861,KEYENCE CORPORATION,Electric Appliances,ai_keyword_only,audited
+7476,AS ONE CORPORATION,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+7944,Roland Corporation,Other Products,score_below_cutoff,score_below_cutoff_v5
+9713,"THE ROYAL HOTEL,LIMITED",Services,ai_keyword_only,audited
+6266,"TAZMO CO.,LTD.",Machinery,ai_keyword_only,audited
+3388,"MEIJI ELECTRIC INDUSTRIES CO.,LTD.",Wholesale Trade,already_represented_by_better_candidate,audited
+2702,"McDonald's Holdings Company(Japan),Ltd.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+6727,"Wacom Co.,Ltd.",Electric Appliances,ai_keyword_only,audited
+7456,"MATSUDA SANGYO Co.,Ltd.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+2211,"Fujiya Co.,Ltd.",Foods,score_below_cutoff,score_below_cutoff_v5
+7244,"ICHIKOH INDUSTRIES,LTD.",Electric Appliances,ai_keyword_only,audited
+4410,"HARIMA CHEMICALS GROUP,INC.",Chemicals,ai_keyword_only,audited
+4063,"Shin-Etsu Chemical Co.,Ltd.",Chemicals,ai_keyword_only,audited
+9065,SANKYU INC.,Land Transportation,score_below_cutoff,score_below_cutoff_v5
+4396,System Support Holdings Inc.,Information & Communication,ai_keyword_only,audited
+8935,"FJ NEXT HOLDINGS CO.,LTD.",Real Estate,value_trap_risk,audited
+1808,HASEKO Corporation,Construction,ai_keyword_only,audited
+5888,"DAIWA CYCLE CO.,LTD.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+3284,"Hoosiers Holdings Co.,Ltd.",Real Estate,value_trap_risk,audited
+4093,"Toho Acetylene Co.,Ltd.",Chemicals,ai_keyword_only,audited
+6822,"Oi Electric Co.,Ltd.",Electric Appliances,ai_keyword_only,audited
+7875,"TAKEDA iP HOLDINGS CO.,LTD.",Other Products,distress_or_quality_risk,audited
+9932,"SUGIMOTO & CO.,LTD.",Wholesale Trade,already_represented_by_better_candidate,audited
+3132,"MACNICA HOLDINGS,INC.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+4167,Kokopelli Inc.,Information & Communication,ai_keyword_only,audited
+1417,MIRAIT ONE Corporation,Construction,ai_keyword_only,audited
+1802,OBAYASHI CORPORATION,Construction,ai_keyword_only,audited
+7914,"Kyodo Printing Co.,Ltd.",Other Products,score_below_cutoff,score_below_cutoff_v5
+8041,OUG Holdings Inc.,Wholesale Trade,distress_or_quality_risk,audited
+5714,"DOWA HOLDINGS CO.,LTD.",Nonferrous Metals,ai_keyword_only,audited
+7433,"Hakuto Co.,Ltd.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+4186,"TOKYO OHKA KOGYO CO.,LTD.",Chemicals,ai_keyword_only,audited
+4977,Nitta Gelatin Inc.,Chemicals,ai_keyword_only,audited
+6866,HIOKI E.E.CORPORATION,Electric Appliances,ai_keyword_only,audited
+8200,"RINGER HUT CO.,LTD.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+9075,"FUKUYAMA TRANSPORTING CO.,LTD.",Land Transportation,score_below_cutoff,score_below_cutoff_v5
+6482,Yushin Company,Machinery,ai_keyword_only,audited
+2612,KADOYA SESAME MILLS INCORPORATED,Foods,distress_or_quality_risk,audited
+7508,G-7 HOLDINGS Inc.,Retail Trade,score_below_cutoff,score_below_cutoff_v5
+7504,KOHSOKU CORPORATION,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+3023,Rasa Corporation,Wholesale Trade,already_represented_by_better_candidate,audited
+4229,"Gun Ei Chemical Industry Co.,Ltd.",Chemicals,ai_keyword_only,audited
+3712,"Information Planning CO.,LTD.",Information & Communication,low_pbr_only,audited
+6652,IDEC CORPORATION,Electric Appliances,ai_keyword_only,audited
+6125,"OKAMOTO MACHINE TOOL WORKS,LTD.",Machinery,ai_keyword_only,audited
+5940,"FUJISASH CO.,LTD.",Metal Products,value_trap_risk,audited
+2204,"NAKAMURAYA CO.,LTD.",Foods,score_below_cutoff,score_below_cutoff_v5
+5384,FUJIMI INCORPORATED,Glass and Ceramics Products,score_below_cutoff,score_below_cutoff_v5
+1887,JDC CORPORATION,Construction,ai_keyword_only,audited
+6240,YAMASHIN-FILTER CORP.,Machinery,ai_keyword_only,audited
+4433,"HITO-Communications Holdings,Inc.",Services,ai_keyword_only,audited
+3193,"Eternal Hospitality Group Co.,Ltd.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+4026,"Konoshima Chemical Co.,Ltd.",Glass and Ceramics Products,score_below_cutoff,score_below_cutoff_v5
+3836,AVANT GROUP CORPORATION,Information & Communication,ai_keyword_only,audited
+6118,"AIDA ENGINEERING,LTD.",Machinery,ai_keyword_only,audited
+7102,"NIPPON SHARYO,LTD.",Transportation Equipment,already_represented_by_better_candidate,audited
+9869,"KATO SANGYO CO.,LTD.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+4971,MEC COMPANY LTD.,Chemicals,ai_keyword_only,audited
+8159,"TACHIBANA ELETECH CO.,LTD.",Wholesale Trade,already_represented_by_better_candidate,audited
+4664,JAPAN RELIANCE SERVICE CORPORATION,Services,ai_keyword_only,audited
+9993,"YAMAZAWA CO.,LTD.",Retail Trade,distress_or_quality_risk,audited
+6229,OKUMURA ENGINEERING corp.,Machinery,ai_keyword_only,audited
+5706,"Mitsui Kinzoku Company,Limited",Nonferrous Metals,ai_keyword_only,audited
+5906,"MK SEIKO CO.,LTD.",Metal Products,already_represented_by_better_candidate,audited
+3877,"Chuetsu Pulp & Paper Co.,Ltd.",Pulp and Paper,already_represented_by_better_candidate,audited
+2157,"KOSHIDAKA HOLDINGS Co.,LTD.",Services,ai_keyword_only,audited
+2326,Digital Arts Inc.,Information & Communication,already_represented_by_better_candidate,audited
+1762,"TAKAMATSU CONSTRUCTION GROUP CO.,LTD.",Construction,ai_keyword_only,audited
+9757,Funai Soken Holdings Incorporated,Services,ai_keyword_only,audited
+6407,CKD Corporation,Machinery,ai_keyword_only,audited
+9837,"MORITO CO.,LTD.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+4393,"Bank of Innovation,Inc.",Information & Communication,ai_keyword_only,audited
+6962,DAISHINKU CORP.,Electric Appliances,ai_keyword_only,audited
+2884,Yoshimura Food Holdings K.K.,Foods,value_trap_risk,audited
+2209,"IMURAYA GROUP CO.,LTD.",Foods,score_below_cutoff,score_below_cutoff_v5
+7974,"Nintendo Co.,Ltd.",Other Products,score_below_cutoff,score_below_cutoff_v5
+6073,ASANTE INCORPORATED,Services,ai_keyword_only,audited
+4661,"ORIENTAL LAND CO.,LTD.",Services,ai_keyword_only,audited
+6137,"KOIKE SANSO KOGYO CO.,LTD.",Machinery,ai_keyword_only,audited
+1835,"TOTETSU KOGYO CO.,LTD.",Construction,ai_keyword_only,audited
+9441,"Bell-Park Co.,Ltd.",Information & Communication,ai_keyword_only,audited
+7460,"YAGI & CO.,LTD.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+7630,"ICHIBANYA CO.,LTD.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+7932,"Nippi,Incorporated",Other Products,score_below_cutoff,score_below_cutoff_v5
+9900,Sagami Holdings Corporation,Retail Trade,score_below_cutoff,score_below_cutoff_v5
+7033,"Management Solutions Co.,Ltd.",Services,ai_keyword_only,audited
+2908,"FUJICCO CO.,LTD.",Foods,score_below_cutoff,score_below_cutoff_v5
+3036,ALCONIX CORPORATION,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+1820,"Nishimatsu Construction Co.,Ltd.",Construction,ai_keyword_only,audited
+7713,"SIGMA KOKI CO.,LTD.",Precision Instruments,score_below_cutoff,score_below_cutoff_v5
+6496,"NAKAKITA SEISAKUSHO CO.,LTD.",Machinery,ai_keyword_only,audited
+4619,"Nihon Tokushu Toryo Co.,Ltd.",Chemicals,ai_keyword_only,audited
+4812,DENTSU SOKEN INC.,Information & Communication,ai_keyword_only,audited
+2286,"Hayashikane Sangyo Co.,Ltd.",Foods,already_represented_by_better_candidate,audited
+3692,"FFRI Security,Inc.",Information & Communication,already_represented_by_better_candidate,audited
+6994,SHIZUKI ELECTRIC COMPANY INC.,Electric Appliances,ai_keyword_only,audited
+6027,"Bengo4.com,Inc.",Services,ai_keyword_only,audited
+3091,"BRONCO BILLY Co.,LTD.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+1941,CHUDENKO CORPORATION,Construction,ai_keyword_only,audited
+6247,"HISAKA WORKS,LTD.",Machinery,ai_keyword_only,audited
+6627,"Tera Probe,Inc.",Electric Appliances,ai_keyword_only,audited
+8237,"MATSUYA CO.,LTD.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+2674,"HARD OFF CORPORATION Co.,Ltd.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+4975,JCU CORPORATION,Chemicals,ai_keyword_only,audited
+6998,"Nippon Tungsten Co.,Ltd.",Electric Appliances,ai_keyword_only,audited
+4732,"USS Co.,Ltd.",Services,ai_keyword_only,audited
+6466,"TVE Co.,Ltd.",Machinery,ai_keyword_only,audited
+6149,"Odawara Engineering Co.,Ltd.",Machinery,ai_keyword_only,audited
+7970,"Shin-Etsu Polymer Co.,Ltd.",Chemicals,ai_keyword_only,audited
+6617,"TAKAOKA TOKO CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+9303,"The Sumitomo Warehouse Co.,Ltd.",Warehousing and Harbor Transportation Service,score_below_cutoff,score_below_cutoff_v5
+2317,Systena Corporation,Information & Communication,ai_keyword_only,audited
+4956,"KONISHI CO.,LTD.",Chemicals,ai_keyword_only,audited
+1786,Oriental Shiraishi Corporation,Construction,ai_keyword_only,audited
+9305,Yamatane Corporation,Wholesale Trade,already_represented_by_better_candidate,audited
+9537,"HOKURIKU GAS CO.,LTD.",Electric Power and Gas,distress_or_quality_risk,audited
+2819,"EBARA Foods Industry,Inc.",Foods,score_below_cutoff,score_below_cutoff_v5
+6333,TEIKOKU CORPORATION,Machinery,ai_keyword_only,audited
+6855,JAPAN ELECTRONIC MATERIALS CORPORATION,Electric Appliances,ai_keyword_only,audited
+6966,"Mitsui High-tec,Inc.",Electric Appliances,ai_keyword_only,audited
+8802,"Mitsubishi Estate Company,Limited",Real Estate,score_below_cutoff,score_below_cutoff_v5
+9692,COMPUTER ENGINEERING & CONSULTING LTD.,Information & Communication,ai_keyword_only,audited
+1720,"TOKYU CONSTRUCTION CO., LTD.",Construction,ai_keyword_only,audited
+6165,"PUNCH INDUSTRY CO.,LTD.",Machinery,ai_keyword_only,audited
+9166,GENDA Inc.,Services,ai_keyword_only,audited
+9890,"MAKIYA CO.,LTD.",Retail Trade,distress_or_quality_risk,audited
+7717,"V Technology Co.,Ltd.",Precision Instruments,score_below_cutoff,score_below_cutoff_v5
+4392,"Future Innovation Group,Inc.",Information & Communication,ai_keyword_only,audited
+9880,INNOTECH CORPORATION,Electric Appliances,ai_keyword_only,audited
+3156,Restar Corporation,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+6820,ICOM INCORPORATED,Electric Appliances,ai_keyword_only,audited
+6677,"SK-Electronics CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+4384,RAKSUL INC.,Information & Communication,ai_keyword_only,audited
+6742,"Kyosan Electric Manufacturing Co.,Ltd.",Electric Appliances,ai_keyword_only,audited
+7727,OVAL Corporation,Precision Instruments,score_below_cutoff,score_below_cutoff_v5
+4816,"TOEI ANIMATION CO.,LTD.",Information & Communication,ai_keyword_only,audited
+8285,"MITANI SANGYO CO.,LTD.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+1443,"Giken Holdings Co.,Ltd.",Construction,ai_keyword_only,audited
+6061,"UNIVERSAL ENGEISHA CO.,LTD",Services,ai_keyword_only,audited
+6055,"JAPAN MATERIAL Co.,Ltd.",Services,ai_keyword_only,audited
+5802,"Sumitomo Electric Industries,Ltd.",Nonferrous Metals,ai_keyword_only,audited
+3553,"KYOWA LEATHER CLOTH CO.,LTD.",Chemicals,ai_keyword_only,audited
+8860,FUJI CORPORATION LIMITED,Real Estate,already_represented_by_better_candidate,audited
+9338,INFORICH INC.,Services,ai_keyword_only,audited
+9740,"CENTRAL SECURITY PATROLS CO.,LTD.",Services,ai_keyword_only,audited
+8075,Shinsho Corporation,Wholesale Trade,already_represented_by_better_candidate,audited
+7868,"KOSAIDO Holdings Co.,Ltd.",Other Products,score_below_cutoff,score_below_cutoff_v5
+2330,"Forside Co.,Ltd.",Information & Communication,ai_keyword_only,audited
+2384,"SBS Holdings,Inc.",Land Transportation,score_below_cutoff,score_below_cutoff_v5
+7921,TAKARA & COMPANY LTD.,Other Products,score_below_cutoff,score_below_cutoff_v5
+9928,"MIROKU JYOHO SERVICE CO.,LTD.",Information & Communication,ai_keyword_only,audited
+3496,"AZOOM CO.,LTD",Real Estate,score_below_cutoff,score_below_cutoff_v5
+2207,"MEITO CO.,LTD.",Foods,score_below_cutoff,score_below_cutoff_v5
+6364,AIRMAN CORPORATION,Machinery,ai_keyword_only,audited
+8052,"TSUBAKIMOTO KOGYO CO.,LTD.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+3177,"ARIGATOU SERVICES COMPANY,LIMITED",Retail Trade,distress_or_quality_risk,audited
+5184,"NICHIRIN CO.,LTD.",Rubber Products,already_represented_by_better_candidate,audited
+2489,Adways Inc.,Services,ai_keyword_only,audited
+5333,NGK Corporation,Glass and Ceramics Products,score_below_cutoff,score_below_cutoff_v5
+6744,NOHMI BOSAI LTD.,Electric Appliances,ai_keyword_only,audited
+9902,NICHIDEN Corporation,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+3159,"Maruzen CHI Holdings Co.,Ltd.",Retail Trade,distress_or_quality_risk,audited
+7427,"ECHO TRADING CO.,LTD.",Wholesale Trade,distress_or_quality_risk,audited
+1885,TOA CORPORATION,Construction,ai_keyword_only,audited
+4461,DKS Co.Ltd.,Chemicals,ai_keyword_only,audited
+4082,"DAIICHI KIGENSO KAGAKU-KOGYO CO.,LTD",Chemicals,ai_keyword_only,audited
+4493,"Cyber Security Cloud,Inc.",Information & Communication,ai_keyword_only,audited
+7730,"MANI,INC.",Precision Instruments,score_below_cutoff,score_below_cutoff_v5
+6203,"Howa Machinery,Ltd.",Machinery,ai_keyword_only,audited
+7247,MIKUNI CORPORATION,Transportation Equipment,already_represented_by_better_candidate,audited
+4966,"C.Uyemura & Co.,Ltd.",Chemicals,ai_keyword_only,audited
+4958,"T.HASEGAWA CO.,LTD.",Chemicals,ai_keyword_only,audited
+4498,"Cybertrust Japan Co.,Ltd.",Information & Communication,ai_keyword_only,audited
+5644,METALART CORPORATION,Iron and Steel,score_below_cutoff,score_below_cutoff_v5
+9672,"TOKYOTOKEIBA CO.,LTD.",Services,ai_keyword_only,audited
+5958,"SANYO INDUSTRIES,LTD.",Metal Products,distress_or_quality_risk,audited
+9889,JBCC Holdings Inc.,Information & Communication,ai_keyword_only,audited
+3107,"Daiwabo Holdings Co.,Ltd.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+4165,"PLAID,Inc.",Information & Communication,ai_keyword_only,audited
+4431,"Smaregi,Inc.",Information & Communication,ai_keyword_only,audited
+4549,"EIKEN CHEMICAL CO.,LTD.",Pharmaceutical,score_below_cutoff,score_below_cutoff_v5
+1815,TEKKEN CORPORATION,Construction,ai_keyword_only,audited
+1952,"Shin Nippon Air Technologies Co.,Ltd.",Construction,ai_keyword_only,audited
+1721,COMSYS Holdings Corporation,Construction,ai_keyword_only,audited
+8151,TOYO Corporation,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+1803,SHIMIZU CORPORATION,Construction,ai_keyword_only,audited
+6134,FUJI CORPORATION,Machinery,ai_keyword_only,audited
+3979,"ULURU.CO.,LTD.",Information & Communication,ai_keyword_only,audited
+9896,"JK Holdings Co.,Ltd.",Wholesale Trade,already_represented_by_better_candidate,audited
+2760,TOKYO ELECTRON DEVICE LIMITED,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+1879,SHINNIHON CORPORATION,Construction,ai_keyword_only,audited
+5801,"Furukawa Electric Co.,Ltd.",Nonferrous Metals,ai_keyword_only,audited
+9227,"Microwave Chemical Co.,Ltd.",Services,ai_keyword_only,audited
+5726,"OSAKA Titanium technologies Co.,Ltd.",Nonferrous Metals,ai_keyword_only,audited
+6882,"Sansha Electric Manufacturing Co.,Ltd.",Electric Appliances,ai_keyword_only,audited
+8244,"Kintetsu Department Store CO.,Ltd.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+9982,"Takihyo Co.,Ltd.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+9301,Mitsubishi Logistics Corporation,Warehousing and Harbor Transportation Service,score_below_cutoff,score_below_cutoff_v5
+1938,"NIPPON RIETEC CO.,LTD.",Construction,ai_keyword_only,audited
+2353,"NIPPON PARKING DEVELOPMENT Co.,Ltd.",Real Estate,score_below_cutoff,score_below_cutoff_v5
+1860,TODA CORPORATION,Construction,ai_keyword_only,audited
+2666,"AUTOWAVE Co.,Ltd.",Retail Trade,distress_or_quality_risk,audited
+6493,NITTAN Corporation,Transportation Equipment,already_represented_by_better_candidate,audited
+9248,"People, Dreams & Technologies Group Co.,Ltd.",Services,ai_keyword_only,audited
+8891,"AMG HOLDINGS CO.,LTD.",Real Estate,already_represented_by_better_candidate,audited
+6643,"Togami Electric Mfg.Co.,Ltd.",Electric Appliances,ai_keyword_only,audited
+4046,"OSAKA SODA CO.,LTD.",Chemicals,ai_keyword_only,audited
+8135,ZETT CORPORATION,Wholesale Trade,distress_or_quality_risk,audited
+8919,"KATITAS CO.,LTD",Real Estate,score_below_cutoff,score_below_cutoff_v5
+4107,ISE CHEMICALS CORPORATION,Chemicals,ai_keyword_only,audited
+7608,"SK JAPAN CO.,LTD.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+5280,"Yoshicon Co.,Ltd.",Real Estate,already_represented_by_better_candidate,audited
+6317,Kitagawa Corporation,Machinery,ai_keyword_only,audited
+1944,KINDEN CORPORATION,Construction,ai_keyword_only,audited
+4686,JUSTSYSTEMS CORPORATION,Information & Communication,ai_keyword_only,audited
+6490,PILLAR Corporation,Machinery,ai_keyword_only,audited
+6507,"SINFONIA TECHNOLOGY CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+9341,"GENOVA,Inc.",Services,ai_keyword_only,audited
+9629,PCA CORPORATION,Information & Communication,ai_keyword_only,audited
+9793,"Daiseki Co.,Ltd.",Services,ai_keyword_only,audited
+7609,"Daitron Co.,Ltd.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+4763,"CREEK & RIVER Co.,Ltd.",Services,ai_keyword_only,audited
+6626,SEMITEC Corporation,Electric Appliances,ai_keyword_only,audited
+1976,"MEISEI INDUSTRIAL Co.,Ltd.",Construction,ai_keyword_only,audited
+2216,Kanro Inc.,Foods,score_below_cutoff,score_below_cutoff_v5
+4465,"Niitaka Co., Ltd.",Chemicals,ai_keyword_only,audited
+1926,"RAITO KOGYO CO.,LTD.",Construction,ai_keyword_only,audited
+1871,"PS Construction Co.,Ltd.",Construction,ai_keyword_only,audited
+8117,CENTRAL AUTOMOTIVE PRODUCTS LTD.,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+6286,SEIKO CORPORATION,Machinery,ai_keyword_only,audited
+7521,"MUSASHI CO.,LTD.",Wholesale Trade,distress_or_quality_risk,audited
+2737,TOMEN DEVICES CORPORATION,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+6947,ZUKEN INC.,Electric Appliances,ai_keyword_only,audited
+3741,"Systems Engineering Consultants Co.,LTD.",Information & Communication,ai_keyword_only,audited
+1930,"HOKURIKU ELECTRICAL CONSTRUCTION CO.,LTD.",Construction,ai_keyword_only,audited
+9324,Yasuda Logistics Corporation,Warehousing and Harbor Transportation Service,score_below_cutoff,score_below_cutoff_v5
+4595,"MIZUHO MEDY CO.,LTD.",Pharmaceutical,score_below_cutoff,score_below_cutoff_v5
+3433,"TOCALO Co.,Ltd.",Metal Products,score_below_cutoff,score_below_cutoff_v5
+7525,RIX CORPORATION,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+5285,YAMAX Corp.,Glass and Ceramics Products,score_below_cutoff,score_below_cutoff_v5
+6834,"SEIKOH GIKEN Co.,Ltd.",Electric Appliances,ai_keyword_only,audited
+4684,"OBIC Co.,Ltd.",Information & Communication,ai_keyword_only,audited
+9467,"AlphaPolis Co.,Ltd.",Information & Communication,ai_keyword_only,audited
+3139,"Lacto Japan Co.,Ltd.",Wholesale Trade,value_trap_risk,audited
+1951,"EXEO Group,Inc.",Construction,ai_keyword_only,audited
+3662,"Ateam Holdings Co.,Ltd.",Information & Communication,ai_keyword_only,audited
+6862,MINATO HOLDINGS INC.,Electric Appliances,ai_keyword_only,audited
+6748,"SEIWA ELECTRIC MFG. CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+4013,"Kinjiro Co.,Ltd.",Information & Communication,ai_keyword_only,audited
+7811,"NAKAMOTO PACKS CO.,LTD.",Other Products,already_represented_by_better_candidate,audited
+4992,"HOKKO CHEMICAL INDUSTRY CO.,LTD.",Chemicals,ai_keyword_only,audited
+9551,"METAWATER Co.,Ltd.",Electric Power and Gas,score_below_cutoff,score_below_cutoff_v5
+4371,Core Concept Technologies Inc.,Information & Communication,ai_keyword_only,audited
+8920,"TOSHO CO.,LTD.",Services,ai_keyword_only,audited
+7438,KONDOTEC INC.,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+3915,"TerraSky Co.,Ltd",Information & Communication,ai_keyword_only,audited
+3565,Ascentech K.K.,Wholesale Trade,already_represented_by_better_candidate,audited
+1882,TOA ROAD CORPORATION,Construction,ai_keyword_only,audited
+3110,"NITTO BOSEKI CO.,LTD.",Glass and Ceramics Products,score_below_cutoff,score_below_cutoff_v5
+1950,"NIPPON DENSETSU KOGYO CO.,LTD.",Construction,ai_keyword_only,audited
+6255,NPC Incorporated,Machinery,ai_keyword_only,audited
+4055,T&S Group Inc.,Information & Communication,ai_keyword_only,audited
+7628,OHASHI TECHNICA INC.,Wholesale Trade,already_represented_by_better_candidate,audited
+8079,SHOEI FOODS CORPORATION,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+7646,"PLANT Co.,Ltd.",Retail Trade,distress_or_quality_risk,audited
+2764,Hiramatsu Inc.,Retail Trade,score_below_cutoff,score_below_cutoff_v5
+6402,"KANEMATSU ENGINEERING CO.,LTD.",Machinery,ai_keyword_only,audited
+3611,MATSUOKA CORPORATION,Textiles and Apparels,already_represented_by_better_candidate,audited
+7085,"CURVES HOLDINGS Co.,Ltd.",Services,ai_keyword_only,audited
+2692,"ITOCHU-SHOKUHIN Co.,Ltd.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+5757,"CK SAN-ETSU Co.,Ltd.",Nonferrous Metals,ai_keyword_only,audited
+6227,"AIMECHATEC,Ltd.",Machinery,ai_keyword_only,audited
+1959,KRAFTIA CORPORATION,Construction,ai_keyword_only,audited
+7235,"TOKYO RADIATOR MFG.CO.,LTD.",Transportation Equipment,already_represented_by_better_candidate,audited
+2341,"ARBEIT-TIMES CO.,LTD.",Services,ai_keyword_only,audited
+6800,"YOKOWO CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+9438,MTI Ltd.,Information & Communication,ai_keyword_only,audited
+6524,"KOHOKU KOGYO CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+3271,The Global Ltd.,Real Estate,score_below_cutoff,score_below_cutoff_v5
+2653,"AEON KYUSHU CO.,LTD.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+3020,"Applied Co.,Ltd.",Retail Trade,distress_or_quality_risk,audited
+4317,Ray Corporation,Services,ai_keyword_only,audited
+3627,TECMIRA HOLDINGS INC.,Information & Communication,ai_keyword_only,audited
+4231,TIGERS POLYMER CORPORATION,Chemicals,ai_keyword_only,audited
+9619,"ICHINEN HOLDINGS CO.,LTD.",Services,ai_keyword_only,audited
+6824,"NEW COSMOS ELECTRIC CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+5820,"MITSUBOSHI CO.,LTD.",Nonferrous Metals,ai_keyword_only,audited
+6336,"ISHII HYOKI CO.,LTD.",Machinery,ai_keyword_only,audited
+7551,"WEDS CO.,LTD.",Transportation Equipment,distress_or_quality_risk,audited
+6331,"Mitsubishi Kakoki Kaisha,Ltd.",Machinery,ai_keyword_only,audited
+5208,"Arisawa Mfg.Co.,Ltd.",Chemicals,ai_keyword_only,audited
+2354,YE DIGITAL Corporation,Information & Communication,ai_keyword_only,audited
+3106,KURABO INDUSTRIES LTD.,Textiles and Apparels,score_below_cutoff,score_below_cutoff_v5
+6383,"DAIFUKU CO.,LTD.",Machinery,ai_keyword_only,audited
+9553,"MicroAd,Inc.",Services,ai_keyword_only,audited
+1420,Sanyo Homes Corporation,Construction,ai_keyword_only,audited
+5449,"OSAKA STEEL CO.,LTD.",Iron and Steel,score_below_cutoff,score_below_cutoff_v5
+2475,"WDB HOLDINGS CO.,LTD.",Services,low_pbr_only,audited
+8101,GSI Creos Corporation,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+6284,"NISSEI ASB MACHINE CO.,LTD.",Machinery,ai_keyword_only,audited
+1870,"YAHAGI CONSTRUCTION CO.,LTD.",Construction,ai_keyword_only,audited
+4931,"Shinnihonseiyaku Co.,Ltd.",Chemicals,ai_keyword_only,audited
+4377,ONE CAREER Inc.,Information & Communication,ai_keyword_only,audited
+5363,TYK CORPORATION,Glass and Ceramics Products,already_represented_by_better_candidate,audited
+1813,Fudo Tetra Corporation,Construction,ai_keyword_only,audited
+4481,"BASE CO.,LTD.",Information & Communication,ai_keyword_only,audited
+2907,"AHJIKAN CO.,LTD.",Foods,distress_or_quality_risk,audited
+6954,FANUC CORPORATION,Electric Appliances,ai_keyword_only,audited
+6459,DAIWA INDUSTRIES LTD.,Machinery,ai_keyword_only,audited
+7614,"OM2Network Co.,Ltd.",Retail Trade,distress_or_quality_risk,audited
+8137,SUN-WA TECHNOS CORPORATION,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+1852,ASANUMA CORPORATION,Construction,ai_keyword_only,audited
+7291,"NIHON PLAST CO.,LTD.",Transportation Equipment,distress_or_quality_risk,audited
+3150,"grems,Inc.",Electric Power and Gas,score_below_cutoff,score_below_cutoff_v5
+7995,"VALQUA,LTD.",Chemicals,ai_keyword_only,audited
+3396,FELISSIMO CORPORATION,Retail Trade,score_below_cutoff,score_below_cutoff_v5
+3763,Pro-Ship Incorporated,Information & Communication,ai_keyword_only,audited
+5946,"CHOFU SEISAKUSHO CO.,LTD.",Metal Products,score_below_cutoff,score_below_cutoff_v5
+4733,"OBIC BUSINESS CONSULTANTS CO.,LTD.",Information & Communication,ai_keyword_only,audited
+1812,KAJIMA CORPORATION,Construction,ai_keyword_only,audited
+6517,"Denyo Co.,Ltd.",Electric Appliances,ai_keyword_only,audited
+5976,"Neturen Co.,Ltd.",Metal Products,score_below_cutoff,score_below_cutoff_v5
+9270,Valuence Holdings Inc.,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+3457,"&Do Holdings Co.,Ltd.",Real Estate,score_below_cutoff,score_below_cutoff_v5
+7925,"MAEZAWA KASEI INDUSTRIES CO.,LTD.",Chemicals,ai_keyword_only,audited
+7544,"Three F Co.,Ltd.",Retail Trade,distress_or_quality_risk,audited
+2158,"FRONTEO,Inc.",Services,ai_keyword_only,audited
+7254,UNIVANCE CORPORATION,Transportation Equipment,distress_or_quality_risk,audited
+7760,IMV CORPORATION,Precision Instruments,score_below_cutoff,score_below_cutoff_v5
+6358,"SAKAI HEAVY INDUSTRIES,LTD.",Machinery,ai_keyword_only,audited
+5574,"ABEJA,Inc.",Information & Communication,ai_keyword_only,audited
+3109,SHIKIBO LTD.,Textiles and Apparels,already_represented_by_better_candidate,audited
+8059,"DAIICHI JITSUGYO CO.,LTD.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+4075,"Brains Technology,Inc.",Information & Communication,ai_keyword_only,audited
+6996,NICHICON CORPORATION,Electric Appliances,ai_keyword_only,audited
+3945,"Superbag Company,Limited",Pulp and Paper,distress_or_quality_risk,audited
+8917,"First Juken Co.,Ltd.",Real Estate,already_represented_by_better_candidate,audited
+6069,"Trenders,Inc.",Services,ai_keyword_only,audited
+7818,"TRANSACTION CO.,Ltd.",Other Products,score_below_cutoff,score_below_cutoff_v5
+9846,"TENMAYA STORE CO.,LTD.",Retail Trade,distress_or_quality_risk,audited
+6946,"Nippon Avionics Co.,Ltd.",Electric Appliances,ai_keyword_only,audited
+5011,"NICHIREKI GROUP CO.,LTD.",Oil and Coal Products,score_below_cutoff,score_below_cutoff_v5
+8091,"NICHIMO CO.,LTD.",Wholesale Trade,value_trap_risk,audited
+5186,Nitta Corporation,Rubber Products,score_below_cutoff,score_below_cutoff_v5
+8030,"Chuo Gyorui Co.,Ltd.",Wholesale Trade,distress_or_quality_risk,audited
+1801,TAISEI CORPORATION,Construction,ai_keyword_only,audited
+7734,"RIKEN KEIKI CO.,LTD.",Precision Instruments,score_below_cutoff,score_below_cutoff_v5
+5805,SWCC Corporation,Nonferrous Metals,ai_keyword_only,audited
+6999,KOA CORPORATION,Electric Appliances,ai_keyword_only,audited
+5821,HIRAKAWA HEWTECH CORP.,Nonferrous Metals,ai_keyword_only,audited
+3547,UNISIA HOLDINGS CO.,Retail Trade,score_below_cutoff,score_below_cutoff_v5
+3486,GLOBAL LINK MANAGEMENT INC.,Real Estate,score_below_cutoff,score_below_cutoff_v5
+7539,"AINAVO HOLDINGS Co.,Ltd.",Wholesale Trade,distress_or_quality_risk,audited
+8163,"SRS HOLDINGS CO.,LTD.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+1946,TOENEC CORPORATION,Construction,ai_keyword_only,audited
+5631,"The Japan Steel Works,Ltd.",Machinery,ai_keyword_only,audited
+4463,"NICCA CHEMICAL CO.,LTD.",Chemicals,ai_keyword_only,audited
+9424,Japan Communications Inc.,Information & Communication,ai_keyword_only,audited
+4820,"EM SYSTEMS CO.,LTD.",Information & Communication,ai_keyword_only,audited
+6071,"IBJ,Inc.",Services,ai_keyword_only,audited
+2652,MANDARAKE INC.,Retail Trade,score_below_cutoff,score_below_cutoff_v5
+9906,Fujii Sangyo Corporation,Wholesale Trade,already_represented_by_better_candidate,audited
+6653,"SEIKO ELECTRIC CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+1799,DAIICHI KENSETSU CORPORATION,Construction,ai_keyword_only,audited
+5939,"OTANI KOGYO CO.,LTD.",Metal Products,score_below_cutoff,score_below_cutoff_v5
+3675,Cross Marketing Group Inc.,Information & Communication,ai_keyword_only,audited
+4187,OSAKA ORGANIC CHEMICAL INDUSTRY LTD.,Chemicals,ai_keyword_only,audited
+7377,"DN HOLDINGS CO.,LTD.",Services,ai_keyword_only,audited
+7409,"AeroEdge Co.,Ltd",Transportation Equipment,score_below_cutoff,score_below_cutoff_v5
+3321,"MITACHI CO.,LTD.",Wholesale Trade,value_trap_risk,audited
+4577,"Daito Pharmaceutical Co.,Ltd.",Pharmaceutical,score_below_cutoff,score_below_cutoff_v5
+9845,PARKER CORPORATION,Chemicals,ai_keyword_only,audited
+9068,"Maruzen Showa Unyu Co.,Ltd.",Land Transportation,score_below_cutoff,score_below_cutoff_v5
+6771,"IKEGAMI TSUSHINKI CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+7421,"KAPPA・CREATE CO.,LTD.",Retail Trade,score_below_cutoff,score_below_cutoff_v5
+6387,SAMCO INC.,Machinery,ai_keyword_only,audited
+7066,"Peers Co.,Ltd.",Services,ai_keyword_only,audited
+9722,FUJITA KANKO INC.,Services,ai_keyword_only,audited
+4027,TAYCA CORPORATION,Chemicals,ai_keyword_only,audited
+9763,"Maruken Lease Co.,Ltd.",Wholesale Trade,already_represented_by_better_candidate,audited
+9827,"Lilycolor Co.,Ltd.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+4826,"Computer Institute of Japan, Ltd.",Information & Communication,ai_keyword_only,audited
+1965,TECHNO RYOWA LTD.,Construction,ai_keyword_only,audited
+6929,"NIPPON CERAMIC CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+7874,"LEC,INC.",Chemicals,ai_keyword_only,audited
+5010,"NIPPON SEIRO CO.,LTD.",Oil and Coal Products,already_represented_by_better_candidate,audited
+7510,TAKEBISHI CORPORATION,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+1384,"Hokuryo Co.,Ltd.","Fishery, Agriculture and Forestry",score_below_cutoff,score_below_cutoff_v5
+1381,"AXYZ CO.,Ltd.","Fishery, Agriculture and Forestry",score_below_cutoff,score_below_cutoff_v5
+7938,REGAL CORPORATION,Other Products,distress_or_quality_risk,audited
+1942,"KANDENKO CO.,LTD.",Construction,ai_keyword_only,audited
+6907,"GEOMATEC CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+6485,"MAEZAWA KYUSO INDUSTRIES CO.,LTD.",Machinery,ai_keyword_only,audited
+2415,"Human Holdings Co.,Ltd.",Services,ai_keyword_only,audited
+5074,"TESS Holdings Co.,Ltd.",Construction,ai_keyword_only,audited
+9412,SKY Perfect JSAT Corporation,Information & Communication,ai_keyword_only,audited
+7722,"KOKUSAI CO.,LTD.",Precision Instruments,score_below_cutoff,score_below_cutoff_v5
+2332,"Quest Co.,Ltd.",Information & Communication,ai_keyword_only,audited
+9310,Japan Transcity Corporation,Warehousing and Harbor Transportation Service,already_represented_by_better_candidate,audited
+4099,SHIKOKU KASEI HOLDINGS CORPORATION,Chemicals,ai_keyword_only,audited
+3843,"FreeBit Co.,Ltd.",Information & Communication,ai_keyword_only,audited
+5592,"Kusurinomadoguchi,Inc.",Information & Communication,ai_keyword_only,audited
+2533,"Oenon Holdings,Inc.",Foods,score_below_cutoff,score_below_cutoff_v5
+3678,"MEDIA DO Co.,Ltd.",Information & Communication,ai_keyword_only,audited
+4449,giftee Inc.,Information & Communication,ai_keyword_only,audited
+3131,SHINDEN HIGHTEX CORPORATION,Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+3676,"DIGITAL HEARTS HOLDINGS Co.,Ltd.",Information & Communication,ai_keyword_only,audited
+4224,LONSEAL CORPORATION,Chemicals,ai_keyword_only,audited
+7885,"TAKANO Co.,Ltd.",Other Products,score_below_cutoff,score_below_cutoff_v5
+4998,FUMAKILLA LIMITED,Chemicals,ai_keyword_only,audited
+7812,CRESTEC Inc.,Other Products,distress_or_quality_risk,audited
+2815,"ARIAKE JAPAN Co.,Ltd.",Foods,score_below_cutoff,score_below_cutoff_v5
+7213,LECIP HOLDINGS CORPORATION,Transportation Equipment,distress_or_quality_risk,audited
+1718,"MIKIKOGYO CO.,LTD.",Construction,ai_keyword_only,audited
+3778,SAKURA internet Inc.,Information & Communication,ai_keyword_only,audited
+3069,JFLA Holdings Inc.,Foods,distress_or_quality_risk,audited
+7963,KOKEN LTD.,Other Products,already_represented_by_better_candidate,audited
+6345,AICHI CORPORATION,Machinery,ai_keyword_only,audited
+7220,"MUSASHI SEIMITSU INDUSTRY CO.,LTD.",Transportation Equipment,score_below_cutoff,score_below_cutoff_v5
+2469,Hibino Corporation,Services,ai_keyword_only,audited
+6382,TRINITY INDUSTRIAL CORPORATION,Machinery,ai_keyword_only,audited
+6788,"NIHON TRIM CO.,LTD.",Electric Appliances,ai_keyword_only,audited
+9824,"SENSHU ELECTRIC CO.,LTD.",Wholesale Trade,score_below_cutoff,score_below_cutoff_v5
+4170,"Kaizen Platform,Inc.",Information & Communication,ai_keyword_only,audited
+7022,Sanoyas Holdings Corporation,Machinery,ai_keyword_only,audited
+1867,UEKI CORPORATION,Construction,ai_keyword_only,audited
+7094,NexTone Inc.,Services,ai_keyword_only,audited

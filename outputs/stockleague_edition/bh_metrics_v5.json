@@ -1,0 +1,31 @@
+{
+ "framing": "buy-and-hold (fixed shares) — matches the stated holding policy; daily-rebalanced figures are in control_comparison_v5.json",
+ "ours": {
+  "3y": {
+   "ann_return": 0.4715,
+   "excess_vs_topix": 0.2215,
+   "volatility": 0.309,
+   "max_drawdown": -0.3062
+  },
+  "1y": {
+   "ann_return": 0.4559,
+   "excess_vs_topix": 0.017,
+   "volatility": 0.2343,
+   "max_drawdown": -0.1283
+  }
+ },
+ "control": {
+  "3y": {
+   "ann_return": 0.1275,
+   "excess_vs_topix": -0.1225,
+   "volatility": 0.1658,
+   "max_drawdown": -0.1836
+  },
+  "1y": {
+   "ann_return": 0.1146,
+   "excess_vs_topix": -0.3243,
+   "volatility": 0.1319,
+   "max_drawdown": -0.1336
+  }
+ }
+}

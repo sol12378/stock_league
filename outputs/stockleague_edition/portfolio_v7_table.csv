@@ -1,0 +1,21 @@
+code,name_ja,name_en,role,sector,weight_pct,amount_yen,moat_hensa,fmoat_hensa,roe_pct
+3092,株式会社ＺＯＺＯ,"ZOZO,Inc.",守 完成した堀,Retail Trade,5.6,280000,78,40,42.9
+4716,日本オラクル株式会社,ORACLE CORPORATION JAPAN,守 完成した堀,Information & Communication,5.6,280000,77,53,37.1
+7014,株式会社名村造船所,"Namura Shipbuilding Co.,Ltd.",守 完成した堀,Transportation Equipment,5.6,280000,45,50,25.2
+8136,株式会社サンリオ,"Sanrio Company,Ltd.",守 完成した堀,Wholesale Trade,5.6,280000,67,40,39.0
+6920,レーザーテック株式会社,Lasertec Corporation,守 完成した堀,Electric Appliances,5.6,280000,75,70,40.3
+9022,東海旅客鉄道株式会社,Central Japan Railway Company,破 変わる堀,Land Transportation,5.6,280000,71,40,10.0
+9513,電源開発株式会社,"Electric Power Development Co.,Ltd.",破 変わる堀,Electric Power and Gas,5.6,280000,52,54,7.0
+9503,関西電力株式会社,"The Kansai Electric Power Company,Incorporated",破 変わる堀,Electric Power and Gas,5.6,280000,48,54,14.5
+1662,石油資源開発株式会社,"Japan Petroleum Exploration Co.,Ltd.",破 変わる堀,Mining,5.6,280000,65,40,14.9
+5214,日本電気硝子株式会社,"Nippon Electric Glass Co.,Ltd.",破 変わる堀,Glass and Ceramics Products,5.6,280000,56,49,6.4
+6777,ｓａｎｔｅｃ　Ｈｏｌｄｉｎｇｓ株式会社,santec Holdings Corporation,離 生まれる堀,Electric Appliances,5.6,280000,60,70,23.7
+6871,株式会社日本マイクロニクス,"MICRONICS JAPAN CO.,LTD.",離 生まれる堀,Electric Appliances,5.6,280000,53,70,18.3
+6590,芝浦メカトロニクス株式会社,SHIBAURA MECHATRONICS CORPORATION,離 生まれる堀,Electric Appliances,5.6,280000,43,70,21.8
+6387,サムコ　株式会社,SAMCO INC.,離 生まれる堀,Machinery,5.6,280000,53,66,12.5
+6627,株式会社テラプローブ,"Tera Probe,Inc.",離 生まれる堀,Electric Appliances,5.6,280000,56,70,11.6
+6861,株式会社キーエンス,KEYENCE CORPORATION,両立型,Electric Appliances,3.33,166667,84,70,12.8
+7725,株式会社インターアクション,INTER ACTION Corporation,両立型,Precision Instruments,3.33,166667,75,70,8.3
+6929,日本セラミック株式会社,"NIPPON CERAMIC CO.,LTD.",両立型,Electric Appliances,3.33,166667,69,70,14.5
+3449,株式会社テクノフレックス,TECHNOFLEX CORPORATION,分散役,Metal Products,3.0,150000,62,54,12.2
+4971,メック株式会社,MEC COMPANY LTD.,分散役,Chemicals,3.0,150000,55,54,18.9

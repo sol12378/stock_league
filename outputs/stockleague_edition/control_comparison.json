@@ -1,0 +1,153 @@
+{
+ "ours": {
+  "3y": {
+   "ann_return": 0.3079,
+   "topix_ann_return": 0.2406,
+   "nikkei_ann_return": 0.3278,
+   "excess_vs_topix": 0.0673,
+   "volatility": 0.2187,
+   "max_drawdown": -0.2487,
+   "topix_max_drawdown": -0.233,
+   "beta_vs_topix": 0.925,
+   "information_ratio": 0.445
+  },
+  "1y": {
+   "ann_return": 0.3785,
+   "topix_ann_return": 0.4066,
+   "nikkei_ann_return": 0.785,
+   "excess_vs_topix": -0.0281,
+   "volatility": 0.1853,
+   "max_drawdown": -0.1174,
+   "topix_max_drawdown": -0.1143,
+   "beta_vs_topix": 0.835,
+   "information_ratio": -0.405
+  }
+ },
+ "control": {
+  "3y": {
+   "ann_return": 0.1338,
+   "topix_ann_return": 0.2406,
+   "nikkei_ann_return": 0.3278,
+   "excess_vs_topix": -0.1068,
+   "volatility": 0.1647,
+   "max_drawdown": -0.1842,
+   "topix_max_drawdown": -0.233,
+   "beta_vs_topix": 0.635,
+   "information_ratio": -0.788
+  },
+  "1y": {
+   "ann_return": 0.1196,
+   "topix_ann_return": 0.4066,
+   "nikkei_ann_return": 0.785,
+   "excess_vs_topix": -0.2871,
+   "volatility": 0.1292,
+   "max_drawdown": -0.1262,
+   "topix_max_drawdown": -0.1143,
+   "beta_vs_topix": 0.493,
+   "information_ratio": -1.864
+  }
+ },
+ "control_members": [
+  {
+   "code": "3539",
+   "name": "JM HOLDINGS CO.,LTD.",
+   "sector": "Retail Trade"
+  },
+  {
+   "code": "4350",
+   "name": "MEDICAL SYSTEM NETWORK Co.,Ltd.",
+   "sector": "Retail Trade"
+  },
+  {
+   "code": "6430",
+   "name": "DAIKOKU DENKI CO.,LTD.",
+   "sector": "Machinery"
+  },
+  {
+   "code": "7803",
+   "name": "Bushiroad Inc.",
+   "sector": "Other Products"
+  },
+  {
+   "code": "9470",
+   "name": "GAKKEN HOLDINGS CO.,LTD.",
+   "sector": "Information & Communication"
+  },
+  {
+   "code": "9274",
+   "name": "KPP GROUP HOLDINGS CO.,LTD.",
+   "sector": "Wholesale Trade"
+  },
+  {
+   "code": "9507",
+   "name": "Shikoku Electric Power Company,Incorporated",
+   "sector": "Electric Power and Gas"
+  },
+  {
+   "code": "6454",
+   "name": "MAX CO.,LTD.",
+   "sector": "Machinery"
+  },
+  {
+   "code": "1873",
+   "name": "NIHON HOUSE HOLDINGS CO.,LTD.",
+   "sector": "Construction"
+  },
+  {
+   "code": "9537",
+   "name": "HOKURIKU GAS CO.,LTD.",
+   "sector": "Electric Power and Gas"
+  },
+  {
+   "code": "2918",
+   "name": "WARABEYA NICHIYO HOLDINGS CO.,LTD.",
+   "sector": "Foods"
+  },
+  {
+   "code": "4093",
+   "name": "Toho Acetylene Co.,Ltd.",
+   "sector": "Chemicals"
+  },
+  {
+   "code": "6718",
+   "name": "AIPHONE CO.,LTD.",
+   "sector": "Electric Appliances"
+  },
+  {
+   "code": "2915",
+   "name": "KENKO Mayonnaise Co.,Ltd.",
+   "sector": "Foods"
+  },
+  {
+   "code": "2733",
+   "name": "ARATA CORPORATION",
+   "sector": "Wholesale Trade"
+  },
+  {
+   "code": "6658",
+   "name": "Shirai Electronics Industrial Co.,Ltd.",
+   "sector": "Electric Appliances"
+  },
+  {
+   "code": "4998",
+   "name": "FUMAKILLA LIMITED",
+   "sector": "Chemicals"
+  },
+  {
+   "code": "7987",
+   "name": "NAKABAYASHI CO.,LTD.",
+   "sector": "Other Products"
+  },
+  {
+   "code": "7551",
+   "name": "WEDS CO.,LTD.",
+   "sector": "Transportation Equipment"
+  },
+  {
+   "code": "5958",
+   "name": "SANYO INDUSTRIES,LTD.",
+   "sector": "Metal Products"
+  }
+ ],
+ "method": "control=phase1固定順プール(本PFのBuffett Coreと同一系譜)上位から業種2社上限で20社・等金額。指標/期間/補正はphase5_validation.pyと同一。"
+}

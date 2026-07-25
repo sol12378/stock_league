@@ -1,0 +1,39 @@
+{
+ "note": "daily excess-return t-stats. Multiple-testing context: 16-way ablation etc. argues for cautious reading (White 2000; Romano-Wolf 2005).",
+ "3y": {
+  "ours_vs_control": {
+   "mean_daily": 0.0006087027388354144,
+   "ann_excess": 0.15339309018652444,
+   "t_plain": 2.242366343662705,
+   "t_newey_west": 2.2582452507509223,
+   "nobs": 756,
+   "nw_lag": 6
+  },
+  "ours_vs_topix": {
+   "mean_daily": 0.00019183454933128407,
+   "ann_excess": 0.048342306431483587,
+   "t_plain": 0.7562911317397667,
+   "t_newey_west": 0.8078803787176215,
+   "nobs": 756,
+   "nw_lag": 6
+  }
+ },
+ "1y": {
+  "ours_vs_control": {
+   "mean_daily": 0.0008612613007892689,
+   "ann_excess": 0.21703784779889576,
+   "t_plain": 1.8515593833660386,
+   "t_newey_west": 1.9278019048250072,
+   "nobs": 252,
+   "nw_lag": 4
+  },
+  "ours_vs_topix": {
+   "mean_daily": -0.00017278981766828704,
+   "ann_excess": -0.043543034052408336,
+   "t_plain": -0.4268434707706375,
+   "t_newey_west": -0.39783029932350267,
+   "nobs": 252,
+   "nw_lag": 4
+  }
+ }
+}

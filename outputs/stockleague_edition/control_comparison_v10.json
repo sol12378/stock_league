@@ -1,0 +1,735 @@
+{
+ "convention": "主規約=固定重み日次リバランス(3年=756営業日・直近1年=252営業日)。主対照=新バフェット型20社・期首時価総額加重(上限25%)。併記=同20社・期末時価総額加重。参考=純正グレアム型20社(等金額)。",
+ "buf_pool": {
+  "buf12": [
+   "3092",
+   "4716",
+   "7014",
+   "8136",
+   "6920",
+   "7735",
+   "3064",
+   "3697",
+   "7832",
+   "6383",
+   "4021",
+   "6146"
+  ],
+  "buf15": [
+   "3092",
+   "4716",
+   "7014",
+   "8136",
+   "6920",
+   "7735",
+   "3064",
+   "3697",
+   "7832",
+   "6383",
+   "4021",
+   "6146",
+   "4186",
+   "5803",
+   "5344"
+  ],
+  "buf20": [
+   "3092",
+   "4716",
+   "7014",
+   "8136",
+   "6920",
+   "7735",
+   "3064",
+   "3697",
+   "7832",
+   "6383",
+   "8035",
+   "4021",
+   "9697",
+   "6146",
+   "6777",
+   "4186",
+   "6871",
+   "7453",
+   "5803",
+   "5344"
+  ]
+ },
+ "graham20": [
+  "3539",
+  "4350",
+  "6430",
+  "7803",
+  "9470",
+  "9274",
+  "9507",
+  "6454",
+  "1873",
+  "9537",
+  "2918",
+  "4093",
+  "6718",
+  "2915",
+  "2733",
+  "6658",
+  "4998",
+  "7987",
+  "7551",
+  "5958"
+ ],
+ "ours": {
+  "3y": {
+   "ann_return": 0.5468,
+   "topix_ann_return": 0.2396,
+   "excess_vs_topix": 0.3072,
+   "volatility": 0.2615,
+   "sharpe": 2.091,
+   "max_drawdown": -0.3006,
+   "topix_max_drawdown": -0.233,
+   "beta_vs_topix": 1.074,
+   "information_ratio": 1.565,
+   "nikkei_ann_return": 0.3279
+  },
+  "1y": {
+   "ann_return": 1.2405,
+   "topix_ann_return": 0.4108,
+   "excess_vs_topix": 0.8298,
+   "volatility": 0.2495,
+   "sharpe": 4.972,
+   "max_drawdown": -0.0969,
+   "topix_max_drawdown": -0.1143,
+   "beta_vs_topix": 1.051,
+   "information_ratio": 2.92,
+   "nikkei_ann_return": 0.7876
+  }
+ },
+ "ours_equal": {
+  "3y": {
+   "ann_return": 0.5378,
+   "topix_ann_return": 0.2396,
+   "excess_vs_topix": 0.2982,
+   "volatility": 0.2558,
+   "sharpe": 2.103,
+   "max_drawdown": -0.2997,
+   "topix_max_drawdown": -0.233,
+   "beta_vs_topix": 1.057,
+   "information_ratio": 1.576,
+   "nikkei_ann_return": 0.3279
+  },
+  "1y": {
+   "ann_return": 1.2919,
+   "topix_ann_return": 0.4108,
+   "excess_vs_topix": 0.8811,
+   "volatility": 0.2482,
+   "sharpe": 5.206,
+   "max_drawdown": -0.097,
+   "topix_max_drawdown": -0.1143,
+   "beta_vs_topix": 1.057,
+   "information_ratio": 3.149,
+   "nikkei_ann_return": 0.7876
+  }
+ },
+ "control_buffett20_start": {
+  "3y": {
+   "ann_return": 0.4073,
+   "topix_ann_return": 0.2396,
+   "excess_vs_topix": 0.1676,
+   "volatility": 0.2969,
+   "sharpe": 1.372,
+   "max_drawdown": -0.3079,
+   "topix_max_drawdown": -0.233,
+   "beta_vs_topix": 1.144,
+   "information_ratio": 0.759,
+   "nikkei_ann_return": 0.3279
+  },
+  "1y": {
+   "ann_return": 0.6026,
+   "topix_ann_return": 0.4108,
+   "excess_vs_topix": 0.1918,
+   "volatility": 0.2687,
+   "sharpe": 2.243,
+   "max_drawdown": -0.1249,
+   "topix_max_drawdown": -0.1143,
+   "beta_vs_topix": 1.029,
+   "information_ratio": 0.619,
+   "nikkei_ann_return": 0.7876
+  }
+ },
+ "control_buffett20_end": {
+  "3y": {
+   "ann_return": 0.7408,
+   "topix_ann_return": 0.2396,
+   "excess_vs_topix": 0.5012,
+   "volatility": 0.3611,
+   "sharpe": 2.051,
+   "max_drawdown": -0.3561,
+   "topix_max_drawdown": -0.233,
+   "beta_vs_topix": 1.373,
+   "information_ratio": 1.542,
+   "nikkei_ann_return": 0.3279
+  },
+  "1y": {
+   "ann_return": 1.2472,
+   "topix_ann_return": 0.4108,
+   "excess_vs_topix": 0.8364,
+   "volatility": 0.3519,
+   "sharpe": 3.544,
+   "max_drawdown": -0.1508,
+   "topix_max_drawdown": -0.1143,
+   "beta_vs_topix": 1.289,
+   "information_ratio": 1.791,
+   "nikkei_ann_return": 0.7876
+  }
+ },
+ "control_graham": {
+  "3y": {
+   "ann_return": 0.1332,
+   "topix_ann_return": 0.2396,
+   "excess_vs_topix": -0.1064,
+   "volatility": 0.1649,
+   "sharpe": 0.808,
+   "max_drawdown": -0.1842,
+   "topix_max_drawdown": -0.233,
+   "beta_vs_topix": 0.635,
+   "information_ratio": -0.785,
+   "nikkei_ann_return": 0.3279
+  },
+  "1y": {
+   "ann_return": 0.128,
+   "topix_ann_return": 0.4108,
+   "excess_vs_topix": -0.2828,
+   "volatility": 0.1292,
+   "sharpe": 0.991,
+   "max_drawdown": -0.1262,
+   "topix_max_drawdown": -0.1143,
+   "beta_vs_topix": 0.492,
+   "information_ratio": -1.827,
+   "nikkei_ann_return": 0.7876
+  }
+ },
+ "ours_vol_matched": {
+  "3y": {
+   "ann_return": 0.7931,
+   "topix_ann_return": 0.2396,
+   "excess_vs_topix": 0.5535,
+   "volatility": 0.3611,
+   "sharpe": 2.196,
+   "max_drawdown": -0.4029,
+   "topix_max_drawdown": -0.233,
+   "beta_vs_topix": 1.484,
+   "information_ratio": 1.816,
+   "leverage": 1.38,
+   "nikkei_ann_return": 0.3279
+  },
+  "1y": {
+   "ann_return": 2.0621,
+   "topix_ann_return": 0.4108,
+   "excess_vs_topix": 1.6514,
+   "volatility": 0.3519,
+   "sharpe": 5.86,
+   "max_drawdown": -0.1384,
+   "topix_max_drawdown": -0.1143,
+   "beta_vs_topix": 1.482,
+   "information_ratio": 3.336,
+   "leverage": 1.41,
+   "nikkei_ann_return": 0.7876
+  }
+ },
+ "weighting_variants": {
+  "均等": {
+   "3y": {
+    "ann_return": 0.5378,
+    "sharpe": 2.103,
+    "max_drawdown": -0.2997,
+    "vs_main_control": 0.1305
+   },
+   "1y": {
+    "ann_return": 1.2919,
+    "sharpe": 5.206,
+    "max_drawdown": -0.097,
+    "vs_main_control": 0.6893
+   }
+  },
+  "役割予算(採用)": {
+   "3y": {
+    "ann_return": 0.5468,
+    "sharpe": 2.091,
+    "max_drawdown": -0.3006,
+    "vs_main_control": 0.1395
+   },
+   "1y": {
+    "ann_return": 1.2405,
+    "sharpe": 4.972,
+    "max_drawdown": -0.0969,
+    "vs_main_control": 0.6379
+   }
+  },
+  "最小分散": {
+   "3y": {
+    "ann_return": 0.2934,
+    "sharpe": 1.721,
+    "max_drawdown": -0.1682,
+    "vs_main_control": -0.1139
+   },
+   "1y": {
+    "ann_return": 0.5235,
+    "sharpe": 3.158,
+    "max_drawdown": -0.0679,
+    "vs_main_control": -0.0791
+   }
+  }
+ },
+ "weights": {
+  "ours": {
+   "3092.T": 0.055999999999999994,
+   "4716.T": 0.055999999999999994,
+   "7014.T": 0.055999999999999994,
+   "8136.T": 0.055999999999999994,
+   "6920.T": 0.055999999999999994,
+   "9022.T": 0.055999999999999994,
+   "9513.T": 0.055999999999999994,
+   "9503.T": 0.055999999999999994,
+   "1662.T": 0.055999999999999994,
+   "5214.T": 0.055999999999999994,
+   "6777.T": 0.055999999999999994,
+   "6871.T": 0.055999999999999994,
+   "6590.T": 0.055999999999999994,
+   "6387.T": 0.055999999999999994,
+   "6627.T": 0.055999999999999994,
+   "6861.T": 0.033333333333333326,
+   "7725.T": 0.033333333333333326,
+   "6929.T": 0.033333333333333326,
+   "3449.T": 0.029999999999999992,
+   "4971.T": 0.029999999999999992
+  },
+  "graham20": {
+   "3539.T": 0.05,
+   "4350.T": 0.05,
+   "6430.T": 0.05,
+   "7803.T": 0.05,
+   "9470.T": 0.05,
+   "9274.T": 0.05,
+   "9507.T": 0.05,
+   "6454.T": 0.05,
+   "1873.T": 0.05,
+   "9537.T": 0.05,
+   "2918.T": 0.05,
+   "4093.T": 0.05,
+   "6718.T": 0.05,
+   "2915.T": 0.05,
+   "2733.T": 0.05,
+   "6658.T": 0.05,
+   "4998.T": 0.05,
+   "7987.T": 0.05,
+   "7551.T": 0.05,
+   "5958.T": 0.05
+  },
+  "buf20_start3y": {
+   "3092.T": 0.04451425954804639,
+   "4716.T": 0.060595842353610554,
+   "7014.T": 0.0014020641482347502,
+   "8136.T": 0.026794025336813406,
+   "6920.T": 0.09543303813006992,
+   "7735.T": 0.02698121691731942,
+   "3064.T": 0.05106978136113533,
+   "3697.T": 0.022774826604142092,
+   "7832.T": 0.10015709878673507,
+   "6383.T": 0.04732796751132615,
+   "8035.T": 0.2720098584777305,
+   "4021.T": 0.03989410388198814,
+   "9697.T": 0.05520189558912439,
+   "6146.T": 0.0930914817487844,
+   "6777.T": 0.0013621392300961327,
+   "4186.T": 0.014870254676487053,
+   "6871.T": 0.002577346747093125,
+   "7453.T": 0.019517943005712135,
+   "5803.T": 0.012754870614966158,
+   "5344.T": 0.011669985330584833
+  },
+  "buf20_end": {
+   "3092.T": 0.017177022807557007,
+   "4716.T": 0.02232973266592274,
+   "7014.T": 0.004672146705567916,
+   "8136.T": 0.021572590800902066,
+   "6920.T": 0.06563716641397131,
+   "7735.T": 0.03923566698662391,
+   "3064.T": 0.018092354243959028,
+   "3697.T": 0.0035465950396635286,
+   "7832.T": 0.04553588428019879,
+   "6383.T": 0.05069105434553816,
+   "8035.T": 0.29209824180462135,
+   "4021.T": 0.019089753628989757,
+   "9697.T": 0.024495264332796366,
+   "6146.T": 0.13195146404417113,
+   "6777.T": 0.005695097569835791,
+   "4186.T": 0.024433208505077096,
+   "6871.T": 0.010724753964346002,
+   "7453.T": 0.037232119581389396,
+   "5803.T": 0.14774967631575006,
+   "5344.T": 0.018040205963118644
+  }
+ },
+ "sensitivity": {
+  "12社_期首加重": {
+   "3y": {
+    "ann_return": 0.2906,
+    "sharpe": 1.129,
+    "max_drawdown": -0.2583,
+    "beta_vs_topix": 0.993,
+    "ours_minus": 0.2562,
+    "t_newey_west": 2.35
+   },
+   "1y": {
+    "ann_return": 0.1898,
+    "sharpe": 0.816,
+    "max_drawdown": -0.1231,
+    "beta_vs_topix": 0.89,
+    "ours_minus": 1.0507,
+    "t_newey_west": 4.62
+   }
+  },
+  "12社_期末加重": {
+   "3y": {
+    "ann_return": 0.4259,
+    "sharpe": 1.353,
+    "max_drawdown": -0.3274,
+    "beta_vs_topix": 1.183,
+    "ours_minus": 0.1209,
+    "t_newey_west": 0.76
+   },
+   "1y": {
+    "ann_return": 0.6102,
+    "sharpe": 2.026,
+    "max_drawdown": -0.1329,
+    "beta_vs_topix": 1.136,
+    "ours_minus": 0.6303,
+    "t_newey_west": 1.97
+   }
+  },
+  "12社_等金額": {
+   "3y": {
+    "ann_return": 0.3457,
+    "sharpe": 1.373,
+    "max_drawdown": -0.2794,
+    "beta_vs_topix": 1.008,
+    "ours_minus": 0.2011,
+    "t_newey_west": 1.96
+   },
+   "1y": {
+    "ann_return": 0.2381,
+    "sharpe": 1.068,
+    "max_drawdown": -0.1257,
+    "beta_vs_topix": 0.9,
+    "ours_minus": 1.0024,
+    "t_newey_west": 4.97
+   }
+  },
+  "15社_期首加重": {
+   "3y": {
+    "ann_return": 0.3355,
+    "sharpe": 1.282,
+    "max_drawdown": -0.2631,
+    "beta_vs_topix": 1.029,
+    "ours_minus": 0.2113,
+    "t_newey_west": 1.99
+   },
+   "1y": {
+    "ann_return": 0.4034,
+    "sharpe": 1.62,
+    "max_drawdown": -0.1212,
+    "beta_vs_topix": 1.004,
+    "ours_minus": 0.8371,
+    "t_newey_west": 3.77
+   }
+  },
+  "15社_期末加重": {
+   "3y": {
+    "ann_return": 0.8064,
+    "sharpe": 2.242,
+    "max_drawdown": -0.3396,
+    "beta_vs_topix": 1.366,
+    "ours_minus": -0.2596,
+    "t_newey_west": -1.77
+   },
+   "1y": {
+    "ann_return": 1.2376,
+    "sharpe": 3.397,
+    "max_drawdown": -0.187,
+    "beta_vs_topix": 1.365,
+    "ours_minus": 0.0029,
+    "t_newey_west": -0.17
+   }
+  },
+  "15社_等金額": {
+   "3y": {
+    "ann_return": 0.4941,
+    "sharpe": 1.813,
+    "max_drawdown": -0.278,
+    "beta_vs_topix": 1.126,
+    "ours_minus": 0.0527,
+    "t_newey_west": 0.48
+   },
+   "1y": {
+    "ann_return": 0.5348,
+    "sharpe": 2.147,
+    "max_drawdown": -0.1263,
+    "beta_vs_topix": 1.065,
+    "ours_minus": 0.7057,
+    "t_newey_west": 3.72
+   }
+  },
+  "20社_期首加重": {
+   "3y": {
+    "ann_return": 0.4073,
+    "sharpe": 1.372,
+    "max_drawdown": -0.3079,
+    "beta_vs_topix": 1.144,
+    "ours_minus": 0.1395,
+    "t_newey_west": 1.01
+   },
+   "1y": {
+    "ann_return": 0.6026,
+    "sharpe": 2.243,
+    "max_drawdown": -0.1249,
+    "beta_vs_topix": 1.029,
+    "ours_minus": 0.6379,
+    "t_newey_west": 2.16
+   }
+  },
+  "20社_期末加重": {
+   "3y": {
+    "ann_return": 0.7408,
+    "sharpe": 2.051,
+    "max_drawdown": -0.3561,
+    "beta_vs_topix": 1.373,
+    "ours_minus": -0.194,
+    "t_newey_west": -1.41
+   },
+   "1y": {
+    "ann_return": 1.2472,
+    "sharpe": 3.544,
+    "max_drawdown": -0.1508,
+    "beta_vs_topix": 1.289,
+    "ours_minus": -0.0067,
+    "t_newey_west": -0.16
+   }
+  },
+  "20社_等金額": {
+   "3y": {
+    "ann_return": 0.5874,
+    "sharpe": 2.096,
+    "max_drawdown": -0.2943,
+    "beta_vs_topix": 1.157,
+    "ours_minus": -0.0406,
+    "t_newey_west": -0.5
+   },
+   "1y": {
+    "ann_return": 0.7465,
+    "sharpe": 2.985,
+    "max_drawdown": -0.132,
+    "beta_vs_topix": 1.052,
+    "ours_minus": 0.494,
+    "t_newey_west": 2.71
+   }
+  }
+ },
+ "phases": {
+  "P1_2021-22利上げ": {
+   "ours": {
+    "ann_return": 0.1929,
+    "topix_ann_return": -0.0123,
+    "excess_vs_topix": 0.2052,
+    "volatility": 0.2233,
+    "sharpe": 0.864,
+    "max_drawdown": -0.1771,
+    "topix_max_drawdown": -0.1612,
+    "beta_vs_topix": 1.048,
+    "information_ratio": 1.511,
+    "coverage": "20/20",
+    "days": 389,
+    "total_return": 0.313
+   },
+   "control_buffett20_start": {
+    "ann_return": 0.0186,
+    "topix_ann_return": -0.0123,
+    "excess_vs_topix": 0.0309,
+    "volatility": 0.2645,
+    "sharpe": 0.07,
+    "max_drawdown": -0.2375,
+    "topix_max_drawdown": -0.1612,
+    "beta_vs_topix": 1.2,
+    "information_ratio": 0.302,
+    "coverage": "20/20",
+    "days": 389,
+    "total_return": 0.0289
+   },
+   "control_buffett20_end": {
+    "ann_return": 0.1115,
+    "topix_ann_return": -0.0123,
+    "excess_vs_topix": 0.1237,
+    "volatility": 0.2786,
+    "sharpe": 0.4,
+    "max_drawdown": -0.2057,
+    "topix_max_drawdown": -0.1612,
+    "beta_vs_topix": 1.275,
+    "information_ratio": 0.799,
+    "coverage": "20/20",
+    "days": 389,
+    "total_return": 0.1772
+   },
+   "topix": {
+    "total_return": -0.0189,
+    "ann_return": -0.0123,
+    "max_drawdown": -0.1612
+   }
+  },
+  "P2_2023-24AI前半": {
+   "ours": {
+    "ann_return": 0.7776,
+    "topix_ann_return": 0.3384,
+    "excess_vs_topix": 0.4391,
+    "volatility": 0.2429,
+    "sharpe": 3.201,
+    "max_drawdown": -0.1272,
+    "topix_max_drawdown": -0.0783,
+    "beta_vs_topix": 1.149,
+    "information_ratio": 1.694,
+    "coverage": "20/20",
+    "days": 365,
+    "total_return": 1.3006
+   },
+   "control_buffett20_start": {
+    "ann_return": 0.7453,
+    "topix_ann_return": 0.3384,
+    "excess_vs_topix": 0.4069,
+    "volatility": 0.2502,
+    "sharpe": 2.979,
+    "max_drawdown": -0.1438,
+    "topix_max_drawdown": -0.0783,
+    "beta_vs_topix": 1.131,
+    "information_ratio": 1.503,
+    "coverage": "20/20",
+    "days": 365,
+    "total_return": 1.2404
+   },
+   "control_buffett20_end": {
+    "ann_return": 1.0532,
+    "topix_ann_return": 0.3384,
+    "excess_vs_topix": 0.7148,
+    "volatility": 0.2706,
+    "sharpe": 3.891,
+    "max_drawdown": -0.1344,
+    "topix_max_drawdown": -0.0783,
+    "beta_vs_topix": 1.202,
+    "information_ratio": 2.166,
+    "coverage": "20/20",
+    "days": 365,
+    "total_return": 1.8348
+   },
+   "topix": {
+    "total_return": 0.5253,
+    "ann_return": 0.3384,
+    "max_drawdown": -0.0783
+   }
+  },
+  "P3_2024-26直近": {
+   "ours": {
+    "ann_return": 0.4222,
+    "topix_ann_return": 0.2021,
+    "excess_vs_topix": 0.2201,
+    "volatility": 0.2963,
+    "sharpe": 1.425,
+    "max_drawdown": -0.2674,
+    "topix_max_drawdown": -0.233,
+    "beta_vs_topix": 1.064,
+    "information_ratio": 1.143,
+    "coverage": "20/20",
+    "days": 465,
+    "total_return": 0.9153
+   },
+   "control_buffett20_start": {
+    "ann_return": 0.2427,
+    "topix_ann_return": 0.2021,
+    "excess_vs_topix": 0.0406,
+    "volatility": 0.3105,
+    "sharpe": 0.782,
+    "max_drawdown": -0.2983,
+    "topix_max_drawdown": -0.233,
+    "beta_vs_topix": 1.102,
+    "information_ratio": 0.309,
+    "coverage": "20/20",
+    "days": 465,
+    "total_return": 0.4932
+   },
+   "control_buffett20_end": {
+    "ann_return": 0.711,
+    "topix_ann_return": 0.2021,
+    "excess_vs_topix": 0.5089,
+    "volatility": 0.4662,
+    "sharpe": 1.525,
+    "max_drawdown": -0.3518,
+    "topix_max_drawdown": -0.233,
+    "beta_vs_topix": 1.49,
+    "information_ratio": 1.317,
+    "coverage": "20/20",
+    "days": 465,
+    "total_return": 1.6941
+   },
+   "topix": {
+    "total_return": 0.4044,
+    "ann_return": 0.2021,
+    "max_drawdown": -0.233
+   }
+  },
+  "crash_2024-08暴落": {
+   "ours": {
+    "ann_return": -0.7119,
+    "topix_ann_return": -0.8658,
+    "excess_vs_topix": 0.154,
+    "volatility": 0.9087,
+    "sharpe": -0.783,
+    "max_drawdown": -0.2091,
+    "topix_max_drawdown": -0.19,
+    "beta_vs_topix": 1.182,
+    "information_ratio": 3.101,
+    "coverage": "20/20",
+    "days": 11,
+    "total_return": -0.0529
+   },
+   "control_buffett20_start": {
+    "ann_return": -0.7031,
+    "topix_ann_return": -0.8658,
+    "excess_vs_topix": 0.1627,
+    "volatility": 1.0114,
+    "sharpe": -0.695,
+    "max_drawdown": -0.22,
+    "topix_max_drawdown": -0.19,
+    "beta_vs_topix": 1.281,
+    "information_ratio": 2.436,
+    "coverage": "20/20",
+    "days": 11,
+    "total_return": -0.0516
+   },
+   "control_buffett20_end": {
+    "ann_return": -0.7268,
+    "topix_ann_return": -0.8658,
+    "excess_vs_topix": 0.139,
+    "volatility": 1.1622,
+    "sharpe": -0.625,
+    "max_drawdown": -0.252,
+    "topix_max_drawdown": -0.19,
+    "beta_vs_topix": 1.516,
+    "information_ratio": 2.203,
+    "coverage": "20/20",
+    "days": 11,
+    "total_return": -0.0551
+   },
+   "topix": {
+    "total_return": -0.0839,
+    "ann_return": -0.8658,
+    "max_drawdown": -0.19
+   }
+  }
+ },
+ "phase_convention": "各期間内は株数固定の買い持ち。期首加重は3年窓の期首株価で算出した重みを流用。"
+}

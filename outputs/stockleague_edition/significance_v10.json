@@ -1,0 +1,62 @@
+{
+ "3y": {
+  "ours_vs_buffett20_start": {
+   "mean_excess_ann": 0.0849,
+   "t_plain": 0.96,
+   "t_newey_west": 1.01,
+   "nw_lag": 6,
+   "n": 755
+  },
+  "ours_vs_buffett20_end": {
+   "mean_excess_ann": -0.1494,
+   "t_plain": -1.37,
+   "t_newey_west": -1.41,
+   "nw_lag": 6,
+   "n": 755
+  },
+  "ours_vs_graham": {
+   "mean_excess_ann": 0.3321,
+   "t_plain": 3.07,
+   "t_newey_west": 2.99,
+   "nw_lag": 6,
+   "n": 755
+  },
+  "ours_vs_topix": {
+   "mean_excess_ann": 0.2224,
+   "t_plain": 2.7,
+   "t_newey_west": 2.8,
+   "nw_lag": 6,
+   "n": 753
+  }
+ },
+ "1y": {
+  "ours_vs_buffett20_start": {
+   "mean_excess_ann": 0.3311,
+   "t_plain": 2.04,
+   "t_newey_west": 2.16,
+   "nw_lag": 4,
+   "n": 251
+  },
+  "ours_vs_buffett20_end": {
+   "mean_excess_ann": -0.0335,
+   "t_plain": -0.16,
+   "t_newey_west": -0.16,
+   "nw_lag": 4,
+   "n": 251
+  },
+  "ours_vs_graham": {
+   "mean_excess_ann": 0.7102,
+   "t_plain": 3.44,
+   "t_newey_west": 3.66,
+   "nw_lag": 4,
+   "n": 251
+  },
+  "ours_vs_topix": {
+   "mean_excess_ann": 0.4408,
+   "t_plain": 2.9,
+   "t_newey_west": 2.95,
+   "nw_lag": 4,
+   "n": 249
+  }
+ }
+}
