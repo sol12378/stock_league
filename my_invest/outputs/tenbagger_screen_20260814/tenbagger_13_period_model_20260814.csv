@@ -1,0 +1,14 @@
+code,company,screening_revenue_cagr_pct,latest_forecast_revenue_growth_pct,latest_forecast_operating_profit_growth_pct,history_constant_years,forecast_op_constant_years,durability_adjusted_initial_growth_pct,durability_adjusted_years,status
+4377,ONE CAREER,40.4,45.2,45.7,6.8,6.1,44.4,10,active
+5032,ANYCOLOR,53.9,4.2,-5.8,5.3,NA,10.1,24,active_but_growth_reset
+5038,eWeLL,29.9,26.1,25.4,8.8,10.2,26.6,17,active
+5132,pluszero,32.1,30.0,44.0,8.3,6.3,36.0,14,active_execution_risk
+5134,POPER,33.1,2.6,-50.8,8.1,NA,0.0,NA,current_conditions_broken
+5136,tripla,43.6,36.1,58.2,6.4,5.0,46.4,10,active_high_balance_sheet_risk
+5253,COVER,65.9,4.1,-0.8,4.5,NA,14.5,21,active_but_growth_reset
+5254,Arent,53.7,45.2,84.9,5.4,3.7,50.0,9,active_ma_comparability_and_dilution_risk
+5537,AlbaLink,74.4,51.9,43.0,4.1,6.4,50.0,9,active_inventory_and_branch_execution_risk
+5575,Globee,41.2,19.8,40.2,6.7,6.8,32.2,15,active_low_liquidity
+5588,Fast Accounting,50.6,31.2,6.9,5.6,34.5,25.4,18,active
+9337,toridori,50.1,34.0,41.3,5.7,6.7,40.1,12,active_parent_net_income_lag
+9338,INFORICH,72.1,18.4,-41.9,4.2,NA,5.0,48,delisted_not_investable
