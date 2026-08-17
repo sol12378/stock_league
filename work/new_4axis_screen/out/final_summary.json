@@ -1,0 +1,175 @@
+{
+  "share_source": {
+    "live_fetched": 1948,
+    "eligible_with_live": 1948,
+    "fallback_to_xbrl": 15,
+    "post_filing_split_detected": 216,
+    "median_factor": 1.0,
+    "note": "XBRLの株式数は提出時点の基準。実勢値との比が1.5倍以上なら提出後の分割"
+  },
+  "price_source": {
+    "basis": "実勢株価(取得日)。6月終値との比が1.8倍以上=その間に分割した銘柄",
+    "live_price": 1948,
+    "fallback_close": 1701,
+    "split_between_jun_and_now": 23
+  },
+  "eps_cross_check": {
+    "checked": 3577,
+    "disagree_over_20pct": 286,
+    "disagree_pct": 7.8,
+    "note": "純利益÷株数 と 分割調整したXBRL報告EPS の突合。Price軸の採否には使わない"
+  },
+  "step0": {
+    "universe": 3649,
+    "eligible_conditions_1_8": 1963,
+    "excluded_by_condition9_valuation": 32,
+    "excluded_no_market_cap": 0,
+    "eligible_final": 1931
+  },
+  "component_coverage_pct": {
+    "gp_to_assets": 90.5,
+    "op_margin": 96.8,
+    "roa": 100.0,
+    "ocf_margin": 96.6,
+    "equity_ratio": 100.0,
+    "piotroski_f_score": 100.0,
+    "delta_roa": 99.9,
+    "delta_gross_margin": 90.5,
+    "delta_asset_turnover": 96.7,
+    "revenue_growth": 96.7,
+    "oi_growth": 97.4,
+    "earnings_to_price": 100.0,
+    "book_to_market": 100.0
+  },
+  "piotroski_available_components_mean": 8.82,
+  "axis_distinct_values": {
+    "moat_p": 1927,
+    "change_p": 1931,
+    "future_p": 18,
+    "price_p": 1632
+  },
+  "axis_spearman": {
+    "moat_p": {
+      "moat_p": 1.0,
+      "change_p": 0.252,
+      "future_p": 0.247,
+      "price_p": -0.263
+    },
+    "change_p": {
+      "moat_p": 0.252,
+      "change_p": 1.0,
+      "future_p": 0.098,
+      "price_p": -0.056
+    },
+    "future_p": {
+      "moat_p": 0.247,
+      "change_p": 0.098,
+      "future_p": 1.0,
+      "price_p": -0.106
+    },
+    "price_p": {
+      "moat_p": -0.263,
+      "change_p": -0.056,
+      "future_p": -0.106,
+      "price_p": 1.0
+    }
+  },
+  "valuation_distribution": {
+    "per_median": 16.17,
+    "pbr_median": 1.33,
+    "pbr_below_1_pct": 31.0
+  },
+  "effective_weight_variance_share": {
+    "moat_p": 0.2397,
+    "change_p": 0.217,
+    "future_p": 0.3873,
+    "price_p": 0.156
+  },
+  "all_four_axes_above": {
+    "50": 121,
+    "60": 24,
+    "70": 1,
+    "80": 0,
+    "90": 0
+  },
+  "step3_buyability": {
+    "not_buyable_within_cap": 334,
+    "note": "1単元が400,000円(上限8%)を超える銘柄は選抜対象から外し次点を繰り上げる"
+  },
+  "step3": {
+    "pool": 1597,
+    "sectors_with_cap": 11,
+    "sectors_without_cap": 5,
+    "mean_total_with_cap": 74.2,
+    "mean_total_without_cap": 77.63,
+    "nodiv_top_sector_share": {
+      "Machinery": 8,
+      "Electric Appliances": 8
+    },
+    "sector_counts": {
+      "Machinery": 2,
+      "Electric Appliances": 2,
+      "Precision Instruments": 2,
+      "Chemicals": 2,
+      "Information & Communication": 2,
+      "Nonferrous Metals": 2,
+      "Electric Power and Gas": 2,
+      "Services": 2,
+      "Metal Products": 2,
+      "Wholesale Trade": 1,
+      "Securities and Commodities Futures": 1
+    },
+    "market_counts": {
+      "Standard Market(Domestic)": 10,
+      "Prime Market (Domestic)": 9,
+      "Growth Market(Domestic)": 1
+    },
+    "scale_counts": {
+      "区分なし": 10,
+      "TOPIX Small 2": 4,
+      "TOPIX Small 1": 3,
+      "TOPIX Mid400": 3
+    }
+  },
+  "step4": {
+    "capital": 5000000,
+    "lot_size": 100,
+    "target_weight_pct": 5.0,
+    "max_weight_pct": 8.0,
+    "invested": 4988650,
+    "cash_left": 11350,
+    "cash_left_pct": 0.23,
+    "weight_min_pct": 3.55,
+    "weight_max_pct": 7.87,
+    "weight_sd_pct": 1.19
+  },
+  "vs_current_v10": {
+    "overlap": 1,
+    "overlap_codes": [
+      "9513"
+    ],
+    "current_matched_in_universe": 20,
+    "current_axis_medians": {
+      "moat_p": 75.3,
+      "change_p": 55.4,
+      "future_p": 78.6,
+      "price_p": 31.7
+    },
+    "new_axis_medians": {
+      "moat_p": 63.5,
+      "change_p": 75.2,
+      "future_p": 78.6,
+      "price_p": 86.7
+    },
+    "current_total_median_percentile": 83.5
+  },
+  "top20_profile": {
+    "per_median": 8.3,
+    "pbr_median": 0.79,
+    "market_cap_median_oku": 170.7,
+    "adv60_median_oku": 0.84,
+    "roe_median": 10.9,
+    "total_min": 67.7,
+    "total_max": 84.4
+  }
+}
