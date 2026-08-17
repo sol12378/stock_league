@@ -13,3 +13,9 @@ data/raw/
 logs/*.log
 
 reports/submission_assets/.DS_Store
+
+# 検査用ダンプ(inspect_xbrl.py が再生成できる。1ファイル94MBになる)
+*.inspect.ndjson
+
+# 一時作業ディレクトリ
+my_invest/.tmp_double_workbook/
