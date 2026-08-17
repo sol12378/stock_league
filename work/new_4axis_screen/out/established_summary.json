@@ -1,0 +1,275 @@
+{
+  "note": "追加抽出項目(R&D・現預金・有利子負債・利益剰余金・有形固定資産)は (code, fiscal_year) で結合しており、前方視は入っていない。",
+  "cohorts": {
+    "FY2024_252d": {
+      "n": 2256,
+      "coverage_pct": {
+        "GPOA": 93.7,
+        "ROE": 100.0,
+        "ROA": 100.0,
+        "CFOA": 89.4,
+        "GMAR": 93.7,
+        "ACC": 89.4,
+        "piotroski": 100.0,
+        "rd_to_market": 64.3,
+        "greenblatt_ey": 97.5,
+        "greenblatt_roc": 95.9,
+        "ff_btm": 100.0,
+        "basu_ep": 100.0,
+        "altman_z": 99.1
+      },
+      "rd_disclosed_pct": 64.2,
+      "altman_distress_pct": 16.8,
+      "rank_ic": {
+        "qmj_profitability": -0.0087,
+        "piotroski": 0.0364,
+        "cls_future": -0.0408,
+        "price_established": 0.2366,
+        "bespoke_moat": 0.034,
+        "bespoke_change": 0.0315,
+        "bespoke_future": -0.0895,
+        "bespoke_price": 0.2211,
+        "total_established": 0.1005,
+        "total_bespoke": 0.0918,
+        "total_magic": 0.1587,
+        "altman_z": -0.0484,
+        "greenblatt_roc": 0.0606
+      },
+      "decile_spread": {
+        "qmj_profitability": -0.0697,
+        "piotroski": -0.0155,
+        "cls_future": 0.0065,
+        "price_established": 0.2542,
+        "bespoke_moat": 0.0269,
+        "bespoke_change": 0.1062,
+        "bespoke_future": -0.0498,
+        "bespoke_price": 0.22,
+        "total_established": 0.1071,
+        "total_bespoke": 0.151,
+        "total_magic": 0.1178,
+        "altman_z": -0.0247,
+        "greenblatt_roc": -0.0401
+      },
+      "agreement": {
+        "spearman_total": 0.822,
+        "moat": 0.802,
+        "change": 0.737,
+        "future": 0.442,
+        "price": 0.953
+      },
+      "axis_corr_established": {
+        "qmj_profitability": {
+          "qmj_profitability": 1.0,
+          "piotroski": 0.271,
+          "cls_future": -0.166,
+          "price_established": 0.025
+        },
+        "piotroski": {
+          "qmj_profitability": 0.271,
+          "piotroski": 1.0,
+          "cls_future": 0.057,
+          "price_established": 0.327
+        },
+        "cls_future": {
+          "qmj_profitability": -0.166,
+          "piotroski": 0.057,
+          "cls_future": 1.0,
+          "price_established": 0.06
+        },
+        "price_established": {
+          "qmj_profitability": 0.025,
+          "piotroski": 0.327,
+          "cls_future": 0.06,
+          "price_established": 1.0
+        }
+      },
+      "r2_vs_sector33": {
+        "qmj_profitability": 0.1817,
+        "piotroski": 0.0565,
+        "cls_future": 0.6272,
+        "price_established": 0.1676,
+        "bespoke_future": 0.994
+      }
+    },
+    "FY2025_126d": {
+      "n": 1779,
+      "coverage_pct": {
+        "GPOA": 93.7,
+        "ROE": 100.0,
+        "ROA": 100.0,
+        "CFOA": 90.0,
+        "GMAR": 93.6,
+        "ACC": 90.0,
+        "piotroski": 100.0,
+        "rd_to_market": 64.9,
+        "greenblatt_ey": 98.3,
+        "greenblatt_roc": 96.5,
+        "ff_btm": 100.0,
+        "basu_ep": 100.0,
+        "altman_z": 99.1
+      },
+      "rd_disclosed_pct": 64.8,
+      "altman_distress_pct": 16.4,
+      "rank_ic": {
+        "qmj_profitability": -0.1874,
+        "piotroski": 0.1089,
+        "cls_future": 0.2763,
+        "price_established": 0.3971,
+        "bespoke_moat": -0.1099,
+        "bespoke_change": 0.0418,
+        "bespoke_future": 0.0952,
+        "bespoke_price": 0.4432,
+        "total_established": 0.2406,
+        "total_bespoke": 0.2038,
+        "total_magic": 0.0618,
+        "altman_z": -0.262,
+        "greenblatt_roc": -0.0943
+      },
+      "decile_spread": {
+        "qmj_profitability": -0.1487,
+        "piotroski": 0.1036,
+        "cls_future": 0.1816,
+        "price_established": 0.3677,
+        "bespoke_moat": -0.098,
+        "bespoke_change": 0.0724,
+        "bespoke_future": 0.0464,
+        "bespoke_price": 0.4109,
+        "total_established": 0.2969,
+        "total_bespoke": 0.2323,
+        "total_magic": 0.0888,
+        "altman_z": -0.1844,
+        "greenblatt_roc": -0.0686
+      },
+      "agreement": {
+        "spearman_total": 0.796,
+        "moat": 0.816,
+        "change": 0.683,
+        "future": 0.475,
+        "price": 0.943
+      },
+      "axis_corr_established": {
+        "qmj_profitability": {
+          "qmj_profitability": 1.0,
+          "piotroski": 0.28,
+          "cls_future": -0.091,
+          "price_established": -0.028
+        },
+        "piotroski": {
+          "qmj_profitability": 0.28,
+          "piotroski": 1.0,
+          "cls_future": 0.078,
+          "price_established": 0.348
+        },
+        "cls_future": {
+          "qmj_profitability": -0.091,
+          "piotroski": 0.078,
+          "cls_future": 1.0,
+          "price_established": 0.115
+        },
+        "price_established": {
+          "qmj_profitability": -0.028,
+          "piotroski": 0.348,
+          "cls_future": 0.115,
+          "price_established": 1.0
+        }
+      },
+      "r2_vs_sector33": {
+        "qmj_profitability": 0.1619,
+        "piotroski": 0.0504,
+        "cls_future": 0.6344,
+        "price_established": 0.1771,
+        "bespoke_future": 0.9939
+      }
+    },
+    "FY2023_252d": {
+      "n": 2183,
+      "coverage_pct": {
+        "GPOA": 93.7,
+        "ROE": 100.0,
+        "ROA": 100.0,
+        "CFOA": 89.9,
+        "GMAR": 93.7,
+        "ACC": 89.9,
+        "piotroski": 100.0,
+        "rd_to_market": 65.4,
+        "greenblatt_ey": 97.2,
+        "greenblatt_roc": 96.4,
+        "ff_btm": 100.0,
+        "basu_ep": 100.0,
+        "altman_z": 99.1
+      },
+      "rd_disclosed_pct": 65.3,
+      "altman_distress_pct": 16.2,
+      "rank_ic": {
+        "qmj_profitability": -0.1324,
+        "piotroski": 0.0411,
+        "cls_future": 0.1313,
+        "price_established": 0.4196,
+        "bespoke_moat": -0.0728,
+        "bespoke_change": 0.0411,
+        "bespoke_future": -0.0753,
+        "bespoke_price": 0.4461,
+        "total_established": 0.1999,
+        "total_bespoke": 0.1415,
+        "total_magic": 0.1308,
+        "altman_z": -0.2036,
+        "greenblatt_roc": -0.0221
+      },
+      "decile_spread": {
+        "qmj_profitability": -0.065,
+        "piotroski": 0.1108,
+        "cls_future": 0.1071,
+        "price_established": 0.5625,
+        "bespoke_moat": -0.0642,
+        "bespoke_change": 0.1084,
+        "bespoke_future": -0.002,
+        "bespoke_price": 0.5915,
+        "total_established": 0.3138,
+        "total_bespoke": 0.2692,
+        "total_magic": 0.2215,
+        "altman_z": -0.2391,
+        "greenblatt_roc": 0.0175
+      },
+      "agreement": {
+        "spearman_total": 0.866,
+        "moat": 0.827,
+        "change": 1.0,
+        "future": 0.423,
+        "price": 0.956
+      },
+      "axis_corr_established": {
+        "qmj_profitability": {
+          "qmj_profitability": 1.0,
+          "piotroski": 0.464,
+          "cls_future": -0.191,
+          "price_established": 0.021
+        },
+        "piotroski": {
+          "qmj_profitability": 0.464,
+          "piotroski": 1.0,
+          "cls_future": -0.16,
+          "price_established": 0.235
+        },
+        "cls_future": {
+          "qmj_profitability": -0.191,
+          "piotroski": -0.16,
+          "cls_future": 1.0,
+          "price_established": 0.111
+        },
+        "price_established": {
+          "qmj_profitability": 0.021,
+          "piotroski": 0.235,
+          "cls_future": 0.111,
+          "price_established": 1.0
+        }
+      },
+      "r2_vs_sector33": {
+        "qmj_profitability": 0.1858,
+        "piotroski": 0.063,
+        "cls_future": 0.6083,
+        "price_established": 0.207,
+        "bespoke_future": 0.9952
+      }
+    }
+  }
+}

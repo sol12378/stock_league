@@ -1,0 +1,89 @@
+{
+  "step0": {
+    "eligible_conditions_1_8": 1963,
+    "excluded_valuation_range": 32,
+    "excluded_altman_distress": 236,
+    "eligible_final": 1695,
+    "altman_threshold": 1.81
+  },
+  "coverage_pct": {
+    "GPOA": 94.2,
+    "ROE": 100.0,
+    "ROA": 100.0,
+    "CFOA": 99.7,
+    "GMAR": 94.2,
+    "ACC": 99.7,
+    "change_raw": 100.0,
+    "rd_expense": 65.3,
+    "greenblatt_ey": 96.8,
+    "ff_btm": 100.0,
+    "basu_ep": 100.0,
+    "altman_z": 96.3
+  },
+  "rd_disclosed_pct": 65.0,
+  "axis_spearman": {
+    "moat_p": {
+      "moat_p": 1.0,
+      "change_p": 0.196,
+      "future_p": -0.094,
+      "price_p": -0.197
+    },
+    "change_p": {
+      "moat_p": 0.196,
+      "change_p": 1.0,
+      "future_p": 0.18,
+      "price_p": 0.105
+    },
+    "future_p": {
+      "moat_p": -0.094,
+      "change_p": 0.18,
+      "future_p": 1.0,
+      "price_p": 0.051
+    },
+    "price_p": {
+      "moat_p": -0.197,
+      "change_p": 0.105,
+      "future_p": 0.051,
+      "price_p": 1.0
+    }
+  },
+  "effective_weight": {
+    "moat_p": 0.2061,
+    "change_p": 0.3277,
+    "future_p": 0.2481,
+    "price_p": 0.2181
+  },
+  "all_four_above": {
+    "50": 100,
+    "60": 40,
+    "70": 6,
+    "80": 2,
+    "90": 0
+  },
+  "not_buyable_within_cap": 310,
+  "result": {
+    "n": 20,
+    "sectors": 12,
+    "per_median": 8.5,
+    "pbr_median": 1.05,
+    "market_cap_median_oku": 381.8,
+    "invested": 4990500,
+    "cash_left_pct": 0.19,
+    "overlap_with_bespoke20": 6,
+    "overlap_with_current_v10": 0,
+    "sector_counts": {
+      "Machinery": 2,
+      "Information & Communication": 2,
+      "Electric Appliances": 2,
+      "Chemicals": 2,
+      "Pharmaceutical": 2,
+      "Wholesale Trade": 2,
+      "Foods": 2,
+      "Transportation Equipment": 2,
+      "Precision Instruments": 1,
+      "Metal Products": 1,
+      "Other Products": 1,
+      "Oil and Coal Products": 1
+    }
+  }
+}
