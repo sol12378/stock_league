@@ -1,0 +1,168 @@
+{
+ "layer": "L2",
+ "inference": "Percentiles against a randomisation distribution. No test statistics are reported in this layer: the portfolio embeds 2026 hindsight by construction, so a p-value would describe the placebo design rather than the portfolio.",
+ "preregistration": "Seed, draw count, pool definition, both drawing schemes and the equal-weight comparison convention were recorded in V11_PROGRESS.md before this script was run.",
+ "seed": 20260725,
+ "n_draws": 10000,
+ "n_holdings": 20,
+ "pool_size": 1469,
+ "holdings_inside_pool": 20,
+ "holdings_total": 20,
+ "pool_definition": "scores.csv: investment_eligible AND price_available AND not financial AND liquid_20m_60d AND net_income>0 AND ROE>=5% AND price history >= 756 trading days. Non-financial matches the universe the team actually selected from.",
+ "convention": "3-year window of 756 trading days ending 2026-06-01, fixed-weight daily rebalancing, equal weights on both sides so that weighting is not a confound. TOPIX ETF 1306.T adjusted for the 2026-03-30 ten-for-one split.",
+ "benchmark_ann_return": 0.249,
+ "actual": {
+  "ours_equal": {
+   "ann_return": 0.5378,
+   "sharpe": 2.104,
+   "max_drawdown": -0.2997,
+   "beta_vs_topix": 1.057
+  },
+  "ours_role_budget": {
+   "ann_return": 0.5468,
+   "sharpe": 2.093,
+   "max_drawdown": -0.3006,
+   "beta_vs_topix": 1.074
+  }
+ },
+ "sector_target": {
+  "Electric Appliances": 7,
+  "Electric Power and Gas": 2,
+  "Retail Trade": 1,
+  "Information & Communication": 1,
+  "Transportation Equipment": 1,
+  "Wholesale Trade": 1,
+  "Land Transportation": 1,
+  "Mining": 1,
+  "Glass and Ceramics Products": 1,
+  "Machinery": 1,
+  "Precision Instruments": 1,
+  "Metal Products": 1,
+  "Chemicals": 1
+ },
+ "sector_shortfall": {},
+ "percentiles": {
+  "unstratified": {
+   "ours_equal": {
+    "ann_return": 100.0,
+    "sharpe": 99.9,
+    "max_drawdown": 0.0,
+    "beta_vs_topix": 100.0
+   },
+   "ours_role_budget": {
+    "ann_return": 100.0,
+    "sharpe": 99.9,
+    "max_drawdown": 0.0,
+    "beta_vs_topix": 100.0
+   }
+  },
+  "sector_matched": {
+   "ours_equal": {
+    "ann_return": 99.9,
+    "sharpe": 98.8,
+    "max_drawdown": 1.6,
+    "beta_vs_topix": 99.7
+   },
+   "ours_role_budget": {
+    "ann_return": 99.9,
+    "sharpe": 98.6,
+    "max_drawdown": 1.5,
+    "beta_vs_topix": 99.9
+   }
+  }
+ },
+ "distribution": {
+  "unstratified": {
+   "ann_return": {
+    "p1": 0.1152,
+    "p5": 0.1452,
+    "p25": 0.1941,
+    "p50": 0.2316,
+    "p75": 0.2712,
+    "p95": 0.3358,
+    "p99": 0.3845,
+    "mean": 0.2341,
+    "sd": 0.0578
+   },
+   "sharpe": {
+    "p1": 0.6105,
+    "p5": 0.776,
+    "p25": 1.03,
+    "p50": 1.2179,
+    "p75": 1.4062,
+    "p95": 1.7011,
+    "p99": 1.915,
+    "mean": 1.2239,
+    "sd": 0.2805
+   },
+   "max_drawdown": {
+    "p1": -0.2732,
+    "p5": -0.2536,
+    "p25": -0.23,
+    "p50": -0.2152,
+    "p75": -0.2006,
+    "p95": -0.18,
+    "p99": -0.1671,
+    "mean": -0.2158,
+    "sd": 0.0223
+   },
+   "beta_vs_topix": {
+    "p1": 0.6268,
+    "p5": 0.6682,
+    "p25": 0.7267,
+    "p50": 0.7686,
+    "p75": 0.8118,
+    "p95": 0.873,
+    "p99": 0.9198,
+    "mean": 0.7695,
+    "sd": 0.0627
+   }
+  },
+  "sector_matched": {
+   "ann_return": {
+    "p1": 0.1895,
+    "p5": 0.2269,
+    "p25": 0.2783,
+    "p50": 0.3173,
+    "p75": 0.36,
+    "p95": 0.4266,
+    "p99": 0.4771,
+    "mean": 0.3209,
+    "sd": 0.0612
+   },
+   "sharpe": {
+    "p1": 0.9306,
+    "p5": 1.1059,
+    "p25": 1.3406,
+    "p50": 1.5093,
+    "p75": 1.6828,
+    "p95": 1.9404,
+    "p99": 2.1231,
+    "mean": 1.5133,
+    "sd": 0.2551
+   },
+   "max_drawdown": {
+    "p1": -0.3052,
+    "p5": -0.2804,
+    "p25": -0.2538,
+    "p50": -0.2383,
+    "p75": -0.2239,
+    "p95": -0.2047,
+    "p99": -0.1917,
+    "mean": -0.2398,
+    "sd": 0.0234
+   },
+   "beta_vs_topix": {
+    "p1": 0.7618,
+    "p5": 0.7992,
+    "p25": 0.8512,
+    "p50": 0.8894,
+    "p75": 0.9295,
+    "p95": 0.9883,
+    "p99": 1.0265,
+    "mean": 0.891,
+    "sd": 0.0574
+   }
+  }
+ }
+}

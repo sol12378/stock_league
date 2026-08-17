@@ -1,0 +1,1420 @@
+{
+ "layer": "L1",
+ "preregistration": "As-of dates, gate translation, ranking formulas, series definitions and the equal-weighted buy-and-hold measurement convention were fixed in V11_PROGRESS.md before any return was computed (2026-07-25).",
+ "gate_translation": "The contest edition requires three consecutive loss-free years. At the earlier as-of dates only two fiscal years are on file, so the gate is translated to 'loss-free over all periods available at the as-of date'. Number of available periods is reported per as-of date.",
+ "ranking_deviation": "The contest selection ranks firms by rank(ROE) + rank(earnings yield). An earnings yield requires a share count. No point-in-time share counts exist in the data, and the 2026 snapshot covers only 300 of 3,649 listed firms -- a set that was itself chosen by the 2026 scoring pipeline, so screening on it would inject selection look-ahead into the as-of pool. The L1 ranking therefore uses the quality leg only, rank(ROE), with rank(ROE)+rank(operating margin) as a robustness check. This is a deviation from the contest formula: L1 validates the quality gate and the quality ranking, not the valuation leg. Disclosed in the Limitations section.",
+ "convention": "Equal-weighted, share-count-fixed buy-and-hold from the last trading day before the as-of date to 2026-06-01. Benchmark = TOPIX ETF 1306.T (adjusted for the 2026-03-30 ten-for-one split) and Nikkei 225. Sector cap = 2 firms per 33-sector code.",
+ "as_of_dates": [
+  "2024-10-01",
+  "2025-04-01",
+  "2025-10-01"
+ ],
+ "end": "2026-06-01",
+ "sector_cap": 2,
+ "specification_count": {
+  "as_of_dates": 3,
+  "series": 3,
+  "ranking_formulas": 2,
+  "total": 18
+ },
+ "funnels": {
+  "2024-10-01": {
+   "as_of": "2024-10-01",
+   "filings_on_file": 5932,
+   "firms_on_file": 3575,
+   "firms_with_2plus_periods": 2357,
+   "firms_screenable": 2224,
+   "passed_quality_gate": 87,
+   "with_price_series": 87,
+   "with_share_count": 10,
+   "measurement_start": "2024-09-30",
+   "median_periods_available": 2.0
+  },
+  "2025-04-01": {
+   "as_of": "2025-04-01",
+   "filings_on_file": 6866,
+   "firms_on_file": 3575,
+   "firms_with_2plus_periods": 3288,
+   "firms_screenable": 3111,
+   "passed_quality_gate": 153,
+   "with_price_series": 153,
+   "with_share_count": 14,
+   "measurement_start": "2025-03-31",
+   "median_periods_available": 2.0
+  },
+  "2025-10-01": {
+   "as_of": "2025-10-01",
+   "filings_on_file": 9508,
+   "firms_on_file": 3577,
+   "firms_with_2plus_periods": 3574,
+   "firms_screenable": 3377,
+   "passed_quality_gate": 176,
+   "with_price_series": 176,
+   "with_share_count": 20,
+   "measurement_start": "2025-09-30",
+   "median_periods_available": 3.0
+  }
+ },
+ "selections": {
+  "2024-10-01": {
+   "shu5_roe_only": [
+    [
+     "3092",
+     "ZOZO,Inc."
+    ],
+    [
+     "9424",
+     "Japan Communications Inc."
+    ],
+    [
+     "5032",
+     "ANYCOLOR Inc."
+    ],
+    [
+     "6920",
+     "Lasertec Corporation"
+    ],
+    [
+     "2222",
+     "Kotobuki Spirits Co.,Ltd."
+    ]
+   ],
+   "buf20_roe_only": [
+    [
+     "3092",
+     "ZOZO,Inc."
+    ],
+    [
+     "9424",
+     "Japan Communications Inc."
+    ],
+    [
+     "5032",
+     "ANYCOLOR Inc."
+    ],
+    [
+     "6920",
+     "Lasertec Corporation"
+    ],
+    [
+     "2222",
+     "Kotobuki Spirits Co.,Ltd."
+    ],
+    [
+     "6036",
+     "KeePer Technical Laboratory Co.,Ltd."
+    ],
+    [
+     "9341",
+     "GENOVA,Inc."
+    ],
+    [
+     "8111",
+     "Goldwin Inc."
+    ],
+    [
+     "3561",
+     "CHIKARANOMOTO HOLDINGS Co.,Ltd."
+    ],
+    [
+     "4932",
+     "ALMADO,INC."
+    ],
+    [
+     "6777",
+     "santec Holdings Corporation"
+    ],
+    [
+     "6146",
+     "DISCO CORPORATION"
+    ],
+    [
+     "6430",
+     "DAIKOKU DENKI CO.,LTD."
+    ],
+    [
+     "3076",
+     "Ai Holdings Corporation"
+    ],
+    [
+     "9049",
+     "Keifuku Electric Railroad Co.,Ltd."
+    ],
+    [
+     "7974",
+     "Nintendo Co.,Ltd."
+    ],
+    [
+     "7317",
+     "Matsuya R&D Co.,Ltd"
+    ],
+    [
+     "5885",
+     "GDEP ADVANCE,Inc."
+    ],
+    [
+     "5445",
+     "TOKYO TEKKO CO.,LTD."
+    ],
+    [
+     "4216",
+     "ASAHI YUKIZAI CORPORATION"
+    ]
+   ],
+   "shu5_roe_margin": [
+    [
+     "5032",
+     "ANYCOLOR Inc."
+    ],
+    [
+     "9341",
+     "GENOVA,Inc."
+    ],
+    [
+     "6920",
+     "Lasertec Corporation"
+    ],
+    [
+     "3092",
+     "ZOZO,Inc."
+    ],
+    [
+     "9424",
+     "Japan Communications Inc."
+    ]
+   ],
+   "buf20_roe_margin": [
+    [
+     "5032",
+     "ANYCOLOR Inc."
+    ],
+    [
+     "9341",
+     "GENOVA,Inc."
+    ],
+    [
+     "6920",
+     "Lasertec Corporation"
+    ],
+    [
+     "3092",
+     "ZOZO,Inc."
+    ],
+    [
+     "9424",
+     "Japan Communications Inc."
+    ],
+    [
+     "6036",
+     "KeePer Technical Laboratory Co.,Ltd."
+    ],
+    [
+     "6146",
+     "DISCO CORPORATION"
+    ],
+    [
+     "6417",
+     "SANKYO CO.,LTD."
+    ],
+    [
+     "2222",
+     "Kotobuki Spirits Co.,Ltd."
+    ],
+    [
+     "6777",
+     "santec Holdings Corporation"
+    ],
+    [
+     "7974",
+     "Nintendo Co.,Ltd."
+    ],
+    [
+     "8111",
+     "Goldwin Inc."
+    ],
+    [
+     "3076",
+     "Ai Holdings Corporation"
+    ],
+    [
+     "7317",
+     "Matsuya R&D Co.,Ltd"
+    ],
+    [
+     "4932",
+     "ALMADO,INC."
+    ],
+    [
+     "3561",
+     "CHIKARANOMOTO HOLDINGS Co.,Ltd."
+    ],
+    [
+     "8117",
+     "CENTRAL AUTOMOTIVE PRODUCTS LTD."
+    ],
+    [
+     "9049",
+     "Keifuku Electric Railroad Co.,Ltd."
+    ],
+    [
+     "4216",
+     "ASAHI YUKIZAI CORPORATION"
+    ],
+    [
+     "5445",
+     "TOKYO TEKKO CO.,LTD."
+    ]
+   ],
+   "pool_eq": [
+    "1717",
+    "2127",
+    "2175",
+    "2222",
+    "2303",
+    "2307",
+    "2326",
+    "2820",
+    "3076",
+    "3092",
+    "3221",
+    "3371",
+    "3561",
+    "3626",
+    "3692",
+    "3694",
+    "3771",
+    "3791",
+    "3817",
+    "3835",
+    "3836",
+    "3844",
+    "3916",
+    "3923",
+    "3925",
+    "3963",
+    "3969",
+    "3984",
+    "4198",
+    "4216",
+    "4318",
+    "4323",
+    "4345",
+    "4398",
+    "4431",
+    "4495",
+    "4716",
+    "4732",
+    "4792",
+    "4828",
+    "4832",
+    "4847",
+    "4932",
+    "5032",
+    "5071",
+    "5138",
+    "5244",
+    "5252",
+    "5254",
+    "5256",
+    "5445",
+    "5885",
+    "5929",
+    "6033",
+    "6036",
+    "6088",
+    "6146",
+    "6195",
+    "6226",
+    "6239",
+    "6342",
+    "6417",
+    "6430",
+    "6490",
+    "6526",
+    "6544",
+    "6777",
+    "6920",
+    "6951",
+    "7079",
+    "7088",
+    "7317",
+    "7367",
+    "7735",
+    "7974",
+    "8111",
+    "8117",
+    "9049",
+    "9336",
+    "9341",
+    "9344",
+    "9346",
+    "9424",
+    "9697",
+    "9744",
+    "9759",
+    "9928"
+   ]
+  },
+  "2025-04-01": {
+   "shu5_roe_only": [
+    [
+     "9552",
+     "Quants Research Institute Holdings,Inc."
+    ],
+    [
+     "3092",
+     "ZOZO,Inc."
+    ],
+    [
+     "9424",
+     "Japan Communications Inc."
+    ],
+    [
+     "5032",
+     "ANYCOLOR Inc."
+    ],
+    [
+     "9564",
+     "FCE Inc."
+    ]
+   ],
+   "buf20_roe_only": [
+    [
+     "9552",
+     "Quants Research Institute Holdings,Inc."
+    ],
+    [
+     "3092",
+     "ZOZO,Inc."
+    ],
+    [
+     "9424",
+     "Japan Communications Inc."
+    ],
+    [
+     "5032",
+     "ANYCOLOR Inc."
+    ],
+    [
+     "9564",
+     "FCE Inc."
+    ],
+    [
+     "6920",
+     "Lasertec Corporation"
+    ],
+    [
+     "3496",
+     "AZOOM CO.,LTD"
+    ],
+    [
+     "2222",
+     "Kotobuki Spirits Co.,Ltd."
+    ],
+    [
+     "7839",
+     "SHOEI CO.,LTD."
+    ],
+    [
+     "7792",
+     "Colan Totte.Co.,Ltd."
+    ],
+    [
+     "3064",
+     "MonotaRO Co.,Ltd."
+    ],
+    [
+     "8111",
+     "Goldwin Inc."
+    ],
+    [
+     "4932",
+     "ALMADO,INC."
+    ],
+    [
+     "6777",
+     "santec Holdings Corporation"
+    ],
+    [
+     "6146",
+     "DISCO CORPORATION"
+    ],
+    [
+     "6430",
+     "DAIKOKU DENKI CO.,LTD."
+    ],
+    [
+     "3076",
+     "Ai Holdings Corporation"
+    ],
+    [
+     "2216",
+     "Kanro Inc."
+    ],
+    [
+     "9049",
+     "Keifuku Electric Railroad Co.,Ltd."
+    ],
+    [
+     "7317",
+     "Matsuya R&D Co.,Ltd"
+    ]
+   ],
+   "shu5_roe_margin": [
+    [
+     "9552",
+     "Quants Research Institute Holdings,Inc."
+    ],
+    [
+     "5032",
+     "ANYCOLOR Inc."
+    ],
+    [
+     "5038",
+     "eWeLL Co.,Ltd."
+    ],
+    [
+     "6920",
+     "Lasertec Corporation"
+    ],
+    [
+     "6200",
+     "Insource Co.,Ltd."
+    ]
+   ],
+   "buf20_roe_margin": [
+    [
+     "9552",
+     "Quants Research Institute Holdings,Inc."
+    ],
+    [
+     "5032",
+     "ANYCOLOR Inc."
+    ],
+    [
+     "5038",
+     "eWeLL Co.,Ltd."
+    ],
+    [
+     "6920",
+     "Lasertec Corporation"
+    ],
+    [
+     "6200",
+     "Insource Co.,Ltd."
+    ],
+    [
+     "3092",
+     "ZOZO,Inc."
+    ],
+    [
+     "6146",
+     "DISCO CORPORATION"
+    ],
+    [
+     "7839",
+     "SHOEI CO.,LTD."
+    ],
+    [
+     "6417",
+     "SANKYO CO.,LTD."
+    ],
+    [
+     "2222",
+     "Kotobuki Spirits Co.,Ltd."
+    ],
+    [
+     "7792",
+     "Colan Totte.Co.,Ltd."
+    ],
+    [
+     "6777",
+     "santec Holdings Corporation"
+    ],
+    [
+     "3496",
+     "AZOOM CO.,LTD"
+    ],
+    [
+     "8111",
+     "Goldwin Inc."
+    ],
+    [
+     "7740",
+     "Tamron Co.,Ltd."
+    ],
+    [
+     "3076",
+     "Ai Holdings Corporation"
+    ],
+    [
+     "3064",
+     "MonotaRO Co.,Ltd."
+    ],
+    [
+     "4932",
+     "ALMADO,INC."
+    ],
+    [
+     "8117",
+     "CENTRAL AUTOMOTIVE PRODUCTS LTD."
+    ],
+    [
+     "7317",
+     "Matsuya R&D Co.,Ltd"
+    ]
+   ],
+   "pool_eq": [
+    "1717",
+    "2124",
+    "2127",
+    "2175",
+    "2198",
+    "2216",
+    "2222",
+    "2301",
+    "2303",
+    "2307",
+    "2326",
+    "2436",
+    "2820",
+    "3064",
+    "3076",
+    "3092",
+    "3221",
+    "3371",
+    "3496",
+    "3561",
+    "3626",
+    "3649",
+    "3663",
+    "3687",
+    "3692",
+    "3694",
+    "3697",
+    "3771",
+    "3791",
+    "3817",
+    "3835",
+    "3836",
+    "3844",
+    "3854",
+    "3916",
+    "3923",
+    "3925",
+    "3939",
+    "3963",
+    "3969",
+    "3984",
+    "3992",
+    "4011",
+    "4012",
+    "4058",
+    "4060",
+    "4071",
+    "4107",
+    "4194",
+    "4198",
+    "4216",
+    "4261",
+    "4318",
+    "4323",
+    "4345",
+    "4371",
+    "4372",
+    "4377",
+    "4398",
+    "4431",
+    "4439",
+    "4481",
+    "4482",
+    "4486",
+    "4493",
+    "4495",
+    "4641",
+    "4716",
+    "4722",
+    "4732",
+    "4776",
+    "4792",
+    "4812",
+    "4828",
+    "4832",
+    "4847",
+    "4932",
+    "5032",
+    "5038",
+    "5071",
+    "5105",
+    "5138",
+    "5244",
+    "5252",
+    "5254",
+    "5256",
+    "5445",
+    "5588",
+    "5867",
+    "5885",
+    "5929",
+    "6033",
+    "6036",
+    "6040",
+    "6071",
+    "6088",
+    "6146",
+    "6176",
+    "6195",
+    "6196",
+    "6199",
+    "6200",
+    "6226",
+    "6239",
+    "6255",
+    "6342",
+    "6417",
+    "6430",
+    "6490",
+    "6526",
+    "6535",
+    "6544",
+    "6777",
+    "6871",
+    "6920",
+    "6951",
+    "7033",
+    "7039",
+    "7079",
+    "7080",
+    "7082",
+    "7088",
+    "7110",
+    "7317",
+    "7367",
+    "7373",
+    "7711",
+    "7735",
+    "7740",
+    "7792",
+    "7818",
+    "7839",
+    "7849",
+    "7974",
+    "8111",
+    "8117",
+    "9049",
+    "9225",
+    "9237",
+    "9336",
+    "9341",
+    "9343",
+    "9344",
+    "9346",
+    "9416",
+    "9424",
+    "9552",
+    "9564",
+    "9697",
+    "9744",
+    "9757",
+    "9759",
+    "9928"
+   ]
+  },
+  "2025-10-01": {
+   "shu5_roe_only": [
+    [
+     "9552",
+     "Quants Research Institute Holdings,Inc."
+    ],
+    [
+     "5032",
+     "ANYCOLOR Inc."
+    ],
+    [
+     "3092",
+     "ZOZO,Inc."
+    ],
+    [
+     "9564",
+     "FCE Inc."
+    ],
+    [
+     "6920",
+     "Lasertec Corporation"
+    ]
+   ],
+   "buf20_roe_only": [
+    [
+     "9552",
+     "Quants Research Institute Holdings,Inc."
+    ],
+    [
+     "5032",
+     "ANYCOLOR Inc."
+    ],
+    [
+     "3092",
+     "ZOZO,Inc."
+    ],
+    [
+     "9564",
+     "FCE Inc."
+    ],
+    [
+     "6920",
+     "Lasertec Corporation"
+    ],
+    [
+     "8136",
+     "Sanrio Company,Ltd."
+    ],
+    [
+     "4716",
+     "ORACLE CORPORATION JAPAN"
+    ],
+    [
+     "3496",
+     "AZOOM CO.,LTD"
+    ],
+    [
+     "2222",
+     "Kotobuki Spirits Co.,Ltd."
+    ],
+    [
+     "8035",
+     "Tokyo Electron Limited"
+    ],
+    [
+     "3150",
+     "grems,Inc."
+    ],
+    [
+     "3093",
+     "Treasure Factory Co.,LTD."
+    ],
+    [
+     "3393",
+     "Startia Holdings,Inc."
+    ],
+    [
+     "7014",
+     "Namura Shipbuilding Co.,Ltd."
+    ],
+    [
+     "6146",
+     "DISCO CORPORATION"
+    ],
+    [
+     "7839",
+     "SHOEI CO.,LTD."
+    ],
+    [
+     "7792",
+     "Colan Totte.Co.,Ltd."
+    ],
+    [
+     "6226",
+     "Moriya Transportation Engineering and Manufacturing Co.,Ltd."
+    ],
+    [
+     "7317",
+     "Matsuya R&D Co.,Ltd"
+    ],
+    [
+     "5803",
+     "Fujikura Ltd."
+    ]
+   ],
+   "shu5_roe_margin": [
+    [
+     "9552",
+     "Quants Research Institute Holdings,Inc."
+    ],
+    [
+     "6920",
+     "Lasertec Corporation"
+    ],
+    [
+     "5032",
+     "ANYCOLOR Inc."
+    ],
+    [
+     "5038",
+     "eWeLL Co.,Ltd."
+    ],
+    [
+     "9343",
+     "ibis inc."
+    ]
+   ],
+   "buf20_roe_margin": [
+    [
+     "9552",
+     "Quants Research Institute Holdings,Inc."
+    ],
+    [
+     "6920",
+     "Lasertec Corporation"
+    ],
+    [
+     "5032",
+     "ANYCOLOR Inc."
+    ],
+    [
+     "5038",
+     "eWeLL Co.,Ltd."
+    ],
+    [
+     "9343",
+     "ibis inc."
+    ],
+    [
+     "3092",
+     "ZOZO,Inc."
+    ],
+    [
+     "8136",
+     "Sanrio Company,Ltd."
+    ],
+    [
+     "6146",
+     "DISCO CORPORATION"
+    ],
+    [
+     "8035",
+     "Tokyo Electron Limited"
+    ],
+    [
+     "7839",
+     "SHOEI CO.,LTD."
+    ],
+    [
+     "2222",
+     "Kotobuki Spirits Co.,Ltd."
+    ],
+    [
+     "7792",
+     "Colan Totte.Co.,Ltd."
+    ],
+    [
+     "3150",
+     "grems,Inc."
+    ],
+    [
+     "3496",
+     "AZOOM CO.,LTD"
+    ],
+    [
+     "7317",
+     "Matsuya R&D Co.,Ltd"
+    ],
+    [
+     "4975",
+     "JCU CORPORATION"
+    ],
+    [
+     "7014",
+     "Namura Shipbuilding Co.,Ltd."
+    ],
+    [
+     "6226",
+     "Moriya Transportation Engineering and Manufacturing Co.,Ltd."
+    ],
+    [
+     "1723",
+     "NIHON DENGI CO.,LTD."
+    ],
+    [
+     "3093",
+     "Treasure Factory Co.,LTD."
+    ]
+   ],
+   "pool_eq": [
+    "1723",
+    "1921",
+    "2124",
+    "2163",
+    "2198",
+    "2216",
+    "2222",
+    "2301",
+    "2303",
+    "2307",
+    "2317",
+    "2379",
+    "2436",
+    "2477",
+    "2479",
+    "2488",
+    "2749",
+    "3064",
+    "3092",
+    "3093",
+    "3150",
+    "3177",
+    "3221",
+    "3371",
+    "3393",
+    "3496",
+    "3649",
+    "3663",
+    "3687",
+    "3692",
+    "3697",
+    "3763",
+    "3771",
+    "3798",
+    "3835",
+    "3836",
+    "3837",
+    "3844",
+    "3854",
+    "3916",
+    "3921",
+    "3922",
+    "3923",
+    "3925",
+    "3937",
+    "3939",
+    "3984",
+    "3992",
+    "4011",
+    "4012",
+    "4021",
+    "4054",
+    "4058",
+    "4060",
+    "4063",
+    "4071",
+    "4107",
+    "4194",
+    "4261",
+    "4323",
+    "4345",
+    "4369",
+    "4371",
+    "4372",
+    "4377",
+    "4380",
+    "4389",
+    "4431",
+    "4437",
+    "4439",
+    "4481",
+    "4482",
+    "4486",
+    "4493",
+    "4495",
+    "4641",
+    "4687",
+    "4709",
+    "4716",
+    "4718",
+    "4722",
+    "4732",
+    "4776",
+    "4800",
+    "4812",
+    "4816",
+    "4828",
+    "4832",
+    "4975",
+    "5032",
+    "5038",
+    "5071",
+    "5105",
+    "5138",
+    "5244",
+    "5253",
+    "5256",
+    "5284",
+    "5344",
+    "5445",
+    "5588",
+    "5599",
+    "5621",
+    "5803",
+    "5867",
+    "5885",
+    "5929",
+    "6033",
+    "6036",
+    "6040",
+    "6071",
+    "6088",
+    "6146",
+    "6176",
+    "6184",
+    "6195",
+    "6196",
+    "6199",
+    "6200",
+    "6226",
+    "6231",
+    "6255",
+    "6323",
+    "6430",
+    "6432",
+    "6507",
+    "6535",
+    "6544",
+    "6564",
+    "6777",
+    "6814",
+    "6819",
+    "6845",
+    "6871",
+    "6920",
+    "7014",
+    "7033",
+    "7039",
+    "7079",
+    "7080",
+    "7082",
+    "7088",
+    "7110",
+    "7317",
+    "7373",
+    "7374",
+    "7575",
+    "7711",
+    "7735",
+    "7740",
+    "7745",
+    "7792",
+    "7818",
+    "7832",
+    "7839",
+    "7849",
+    "8035",
+    "8117",
+    "8136",
+    "9225",
+    "9237",
+    "9336",
+    "9341",
+    "9343",
+    "9346",
+    "9416",
+    "9552",
+    "9564",
+    "9682",
+    "9697",
+    "9744",
+    "9757",
+    "9759",
+    "9790",
+    "9889",
+    "9928"
+   ]
+  }
+ },
+ "results": {
+  "2024-10-01": {
+   "shu5_roe_only": {
+    "days": 404,
+    "total_return": 0.0728,
+    "ann_return": 0.0448,
+    "bench_ann_return": 0.2944,
+    "excess_ann": -0.2496,
+    "volatility": 0.2762,
+    "sharpe": 0.162,
+    "max_drawdown": -0.2446,
+    "bench_max_drawdown": -0.1771,
+    "beta_vs_bench": 0.831,
+    "information_ratio": -0.903,
+    "mean_excess_ann": -0.1976,
+    "t_plain": -1.14,
+    "t_newey_west": -1.1,
+    "nw_lag": 5,
+    "coverage": "5/5",
+    "n_selected": 5,
+    "nikkei_ann_return": 0.4254
+   },
+   "buf20_roe_only": {
+    "days": 404,
+    "total_return": 0.2594,
+    "ann_return": 0.1547,
+    "bench_ann_return": 0.2944,
+    "excess_ann": -0.1397,
+    "volatility": 0.2113,
+    "sharpe": 0.732,
+    "max_drawdown": -0.2073,
+    "bench_max_drawdown": -0.1771,
+    "beta_vs_bench": 0.812,
+    "information_ratio": -0.849,
+    "mean_excess_ann": -0.1134,
+    "t_plain": -1.07,
+    "t_newey_west": -1.08,
+    "nw_lag": 5,
+    "coverage": "20/20",
+    "n_selected": 20,
+    "nikkei_ann_return": 0.4254
+   },
+   "shu5_roe_margin": {
+    "days": 404,
+    "total_return": -0.0935,
+    "ann_return": -0.0594,
+    "bench_ann_return": 0.2944,
+    "excess_ann": -0.3538,
+    "volatility": 0.2997,
+    "sharpe": -0.198,
+    "max_drawdown": -0.2805,
+    "bench_max_drawdown": -0.1771,
+    "beta_vs_bench": 0.877,
+    "information_ratio": -1.234,
+    "mean_excess_ann": -0.2959,
+    "t_plain": -1.56,
+    "t_newey_west": -1.46,
+    "nw_lag": 5,
+    "coverage": "5/5",
+    "n_selected": 5,
+    "nikkei_ann_return": 0.4254
+   },
+   "buf20_roe_margin": {
+    "days": 404,
+    "total_return": 0.2665,
+    "ann_return": 0.1588,
+    "bench_ann_return": 0.2944,
+    "excess_ann": -0.1356,
+    "volatility": 0.1983,
+    "sharpe": 0.801,
+    "max_drawdown": -0.186,
+    "bench_max_drawdown": -0.1771,
+    "beta_vs_bench": 0.77,
+    "information_ratio": -0.885,
+    "mean_excess_ann": -0.1125,
+    "t_plain": -1.12,
+    "t_newey_west": -1.12,
+    "nw_lag": 5,
+    "coverage": "20/20",
+    "n_selected": 20,
+    "nikkei_ann_return": 0.4254
+   },
+   "pool_eq": {
+    "days": 404,
+    "total_return": 0.1091,
+    "ann_return": 0.0668,
+    "bench_ann_return": 0.2944,
+    "excess_ann": -0.2277,
+    "volatility": 0.1745,
+    "sharpe": 0.382,
+    "max_drawdown": -0.1645,
+    "bench_max_drawdown": -0.1771,
+    "beta_vs_bench": 0.714,
+    "information_ratio": -1.817,
+    "mean_excess_ann": -0.1997,
+    "t_plain": -2.3,
+    "t_newey_west": -2.36,
+    "nw_lag": 5,
+    "coverage": "86/87",
+    "n_selected": 87,
+    "nikkei_ann_return": 0.4254
+   }
+  },
+  "2025-04-01": {
+   "shu5_roe_only": {
+    "days": 284,
+    "total_return": -0.1582,
+    "ann_return": -0.1417,
+    "bench_ann_return": 0.4177,
+    "excess_ann": -0.5594,
+    "volatility": 0.2969,
+    "sharpe": -0.477,
+    "max_drawdown": -0.4256,
+    "bench_max_drawdown": -0.138,
+    "beta_vs_bench": 0.716,
+    "information_ratio": -1.886,
+    "mean_excess_ann": -0.4838,
+    "t_plain": -2.0,
+    "t_newey_west": -1.92,
+    "nw_lag": 5,
+    "coverage": "5/5",
+    "n_selected": 5,
+    "nikkei_ann_return": 0.7503
+   },
+   "buf20_roe_only": {
+    "days": 284,
+    "total_return": 0.3691,
+    "ann_return": 0.3215,
+    "bench_ann_return": 0.4177,
+    "excess_ann": -0.0962,
+    "volatility": 0.2333,
+    "sharpe": 1.378,
+    "max_drawdown": -0.1426,
+    "bench_max_drawdown": -0.138,
+    "beta_vs_bench": 0.805,
+    "information_ratio": -0.456,
+    "mean_excess_ann": -0.0689,
+    "t_plain": -0.48,
+    "t_newey_west": -0.48,
+    "nw_lag": 5,
+    "coverage": "20/20",
+    "n_selected": 20,
+    "nikkei_ann_return": 0.7503
+   },
+   "shu5_roe_margin": {
+    "days": 284,
+    "total_return": 0.3094,
+    "ann_return": 0.2702,
+    "bench_ann_return": 0.4177,
+    "excess_ann": -0.1474,
+    "volatility": 0.343,
+    "sharpe": 0.788,
+    "max_drawdown": -0.281,
+    "bench_max_drawdown": -0.138,
+    "beta_vs_bench": 1.042,
+    "information_ratio": -0.311,
+    "mean_excess_ann": -0.0772,
+    "t_plain": -0.33,
+    "t_newey_west": -0.28,
+    "nw_lag": 5,
+    "coverage": "5/5",
+    "n_selected": 5,
+    "nikkei_ann_return": 0.7503
+   },
+   "buf20_roe_margin": {
+    "days": 284,
+    "total_return": 0.3851,
+    "ann_return": 0.3352,
+    "bench_ann_return": 0.4177,
+    "excess_ann": -0.0825,
+    "volatility": 0.2328,
+    "sharpe": 1.44,
+    "max_drawdown": -0.1408,
+    "bench_max_drawdown": -0.138,
+    "beta_vs_bench": 0.818,
+    "information_ratio": -0.403,
+    "mean_excess_ann": -0.0587,
+    "t_plain": -0.43,
+    "t_newey_west": -0.41,
+    "nw_lag": 5,
+    "coverage": "20/20",
+    "n_selected": 20,
+    "nikkei_ann_return": 0.7503
+   },
+   "pool_eq": {
+    "days": 284,
+    "total_return": 0.1652,
+    "ann_return": 0.1453,
+    "bench_ann_return": 0.4177,
+    "excess_ann": -0.2724,
+    "volatility": 0.1986,
+    "sharpe": 0.732,
+    "max_drawdown": -0.1393,
+    "bench_max_drawdown": -0.138,
+    "beta_vs_bench": 0.736,
+    "information_ratio": -1.797,
+    "mean_excess_ann": -0.2196,
+    "t_plain": -1.91,
+    "t_newey_west": -1.94,
+    "nw_lag": 5,
+    "coverage": "152/153",
+    "n_selected": 153,
+    "nikkei_ann_return": 0.7503
+   }
+  },
+  "2025-10-01": {
+   "shu5_roe_only": {
+    "days": 160,
+    "total_return": -0.0889,
+    "ann_return": -0.1363,
+    "bench_ann_return": 0.4602,
+    "excess_ann": -0.5965,
+    "volatility": 0.3214,
+    "sharpe": -0.424,
+    "max_drawdown": -0.2857,
+    "bench_max_drawdown": -0.1143,
+    "beta_vs_bench": 0.942,
+    "information_ratio": -2.007,
+    "mean_excess_ann": -0.4974,
+    "t_plain": -1.6,
+    "t_newey_west": -1.28,
+    "nw_lag": 4,
+    "coverage": "5/5",
+    "n_selected": 5,
+    "nikkei_ann_return": 0.8733
+   },
+   "buf20_roe_only": {
+    "days": 160,
+    "total_return": 0.0802,
+    "ann_return": 0.1291,
+    "bench_ann_return": 0.4602,
+    "excess_ann": -0.331,
+    "volatility": 0.2467,
+    "sharpe": 0.523,
+    "max_drawdown": -0.114,
+    "bench_max_drawdown": -0.1143,
+    "beta_vs_bench": 0.955,
+    "information_ratio": -1.876,
+    "mean_excess_ann": -0.2505,
+    "t_plain": -1.5,
+    "t_newey_west": -1.51,
+    "nw_lag": 4,
+    "coverage": "20/20",
+    "n_selected": 20,
+    "nikkei_ann_return": 0.8733
+   },
+   "shu5_roe_margin": {
+    "days": 160,
+    "total_return": -0.0324,
+    "ann_return": -0.0505,
+    "bench_ann_return": 0.4602,
+    "excess_ann": -0.5107,
+    "volatility": 0.3471,
+    "sharpe": -0.146,
+    "max_drawdown": -0.2725,
+    "bench_max_drawdown": -0.1143,
+    "beta_vs_bench": 1.102,
+    "information_ratio": -1.565,
+    "mean_excess_ann": -0.3943,
+    "t_plain": -1.25,
+    "t_newey_west": -0.98,
+    "nw_lag": 4,
+    "coverage": "5/5",
+    "n_selected": 5,
+    "nikkei_ann_return": 0.8733
+   },
+   "buf20_roe_margin": {
+    "days": 160,
+    "total_return": 0.1143,
+    "ann_return": 0.1858,
+    "bench_ann_return": 0.4602,
+    "excess_ann": -0.2744,
+    "volatility": 0.2368,
+    "sharpe": 0.785,
+    "max_drawdown": -0.1371,
+    "bench_max_drawdown": -0.1143,
+    "beta_vs_bench": 0.955,
+    "information_ratio": -1.789,
+    "mean_excess_ann": -0.2039,
+    "t_plain": -1.43,
+    "t_newey_west": -1.49,
+    "nw_lag": 4,
+    "coverage": "20/20",
+    "n_selected": 20,
+    "nikkei_ann_return": 0.8733
+   },
+   "pool_eq": {
+    "days": 160,
+    "total_return": -0.0212,
+    "ann_return": -0.0332,
+    "bench_ann_return": 0.4602,
+    "excess_ann": -0.4933,
+    "volatility": 0.1839,
+    "sharpe": -0.18,
+    "max_drawdown": -0.1148,
+    "bench_max_drawdown": -0.1143,
+    "beta_vs_bench": 0.743,
+    "information_ratio": -4.036,
+    "mean_excess_ann": -0.4192,
+    "t_plain": -3.22,
+    "t_newey_west": -3.15,
+    "nw_lag": 4,
+    "coverage": "175/176",
+    "n_selected": 176,
+    "nikkei_ann_return": 0.8733
+   }
+  }
+ }
+}

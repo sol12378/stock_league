@@ -1,0 +1,226 @@
+{
+ "saturation": {
+  "score_column": "future_moat_score",
+  "n_firms": 3649,
+  "n_distinct_values": 20,
+  "effective_number_of_levels": 3.91,
+  "largest_tie_size": 1608,
+  "top5_tie_sizes": [
+   1608,
+   562,
+   504,
+   344,
+   273
+  ],
+  "top5_tie_coverage_share": 0.9019,
+  "example_cluster": {
+   "score_value": 0.9723,
+   "n_firms_tied": 273,
+   "n_firms_strictly_above": 3,
+   "firms": [
+    {
+     "code": "6920",
+     "name": "Lasertec Corporation",
+     "sector": "Electric Appliances",
+     "business": "semiconductor photomask inspection (sole global supplier)"
+    },
+    {
+     "code": "6745",
+     "name": "HOCHIKI CORPORATION",
+     "sector": "Electric Appliances",
+     "business": "fire alarms and detection equipment"
+    },
+    {
+     "code": "7762",
+     "name": "Citizen Watch Co.,Ltd.",
+     "sector": "Precision Instruments",
+     "business": "wristwatches"
+    },
+    {
+     "code": "6741",
+     "name": "Nippon Signal Company,Limited",
+     "sector": "Electric Appliances",
+     "business": "railway signalling"
+    },
+    {
+     "code": "6777",
+     "name": "santec Holdings Corporation",
+     "sector": "Electric Appliances",
+     "business": "optical test instruments for fibre networks"
+    }
+   ]
+  },
+  "sector_determinism": {
+   "firms_exactly_at_sector_median": 3613,
+   "share_exactly_at_sector_median": 0.9901,
+   "single_valued_sectors": 18,
+   "n_sectors": 33,
+   "firms_in_single_valued_sectors": 819
+  },
+  "mechanism": {
+   "matched_text_fields": [
+    "company_name",
+    "sector_33",
+    "sector_17",
+    "market",
+    "scale_category"
+   ],
+   "matched_disclosure_text": false,
+   "hard_coded_sector_bonus": "+2 to the AI-infrastructure bucket for Electric Appliances, Machinery, Chemicals, Nonferrous Metals, Metal Products and Precision Instruments; +2 to automation for Machinery, Electric Appliances, Precision Instruments and automobiles; +2 to data/software for Information & Communication and Services; +1 to trust/security for Services, Information & Communication and Insurance.",
+   "continuous_firm_level_input": "R&D intensity (rd_ratio), weight 0.25",
+   "rd_ratio_non_missing": 2,
+   "rd_ratio_imputed_to_zero": 3647,
+   "diagnosis": "The only input that varies across firms within a sector is missing for all but 2 of 3649 firms and is filled with zero, so the score reduces to a weighted function of sector membership. What is presented as a firm-level thematic exposure measure is a sector label."
+  },
+  "tie_table": [
+   {
+    "score": 1.1491,
+    "n_firms": 1
+   },
+   {
+    "score": 1.1352,
+    "n_firms": 2
+   },
+   {
+    "score": 0.9723,
+    "n_firms": 273
+   },
+   {
+    "score": 0.802,
+    "n_firms": 209
+   },
+   {
+    "score": 0.5958,
+    "n_firms": 1
+   },
+   {
+    "score": 0.4758,
+    "n_firms": 2
+   },
+   {
+    "score": 0.4668,
+    "n_firms": 2
+   },
+   {
+    "score": 0.4452,
+    "n_firms": 1
+   },
+   {
+    "score": 0.4097,
+    "n_firms": 5
+   },
+   {
+    "score": 0.3468,
+    "n_firms": 2
+   },
+   {
+    "score": 0.2394,
+    "n_firms": 344
+   },
+   {
+    "score": 0.1854,
+    "n_firms": 562
+   },
+   {
+    "score": 0.0654,
+    "n_firms": 504
+   },
+   {
+    "score": 0.0348,
+    "n_firms": 98
+   },
+   {
+    "score": 0.0087,
+    "n_firms": 1
+   },
+   {
+    "score": -0.0007,
+    "n_firms": 12
+   },
+   {
+    "score": -0.1298,
+    "n_firms": 4
+   },
+   {
+    "score": -0.1926,
+    "n_firms": 16
+   },
+   {
+    "score": -0.2483,
+    "n_firms": 2
+   },
+   {
+    "score": -0.4111,
+    "n_firms": 1608
+   }
+  ]
+ },
+ "evidence_ladder": {
+  "pool": "Top-1200 candidate pool from the contest edition's value-quality screen",
+  "pool_size": 1200,
+  "levels": {
+   "0_no_thematic_link": 600,
+   "1_keyword_hit_only": 586,
+   "2_named_product_or_customer": 8,
+   "3_disclosed_quantity": 6
+  },
+  "operational_definition": {
+   "level_1": "A keyword match places the firm in a theme bucket, with no artefact naming a product, a customer, or an investment plan. In the measure audited above the match is against firm metadata, so level 1 is reachable without the firm having said anything about the theme.",
+   "level_2": "A retrievable artefact -- a filing passage, product page, or IR document -- names a specific product, a specific customer, or a specific committed investment tied to the theme. The coder records the URL and the quoted passage.",
+   "level_3": "The artefact carries a number attributable to the theme: revenue, order book, unit or customer count, or capital expenditure. The number and its as-of date are recorded alongside the quotation.",
+   "coding_protocol": "Each level-2 and level-3 assignment in this study carries a source URL, a source type, and a quoted snippet in curated_evidence.csv, so a third party can re-open the artefact and disagree with the assignment. Level 1 and level 0 are assigned mechanically and require no judgement."
+  },
+  "curated_count": 14,
+  "curated_source_types": {
+   "company_product_page": 5,
+   "company_business_page": 5,
+   "company_service_page": 1,
+   "company_ir_pdf": 1,
+   "company_integrated_report": 1,
+   "company_profile": 1
+  },
+  "keyword_only_rejected": 577,
+  "rejection_categories": {
+   "ai_keyword_only": 577,
+   "already_represented_by_better_candidate": 221,
+   "distress_or_quality_risk": 32,
+   "value_trap_risk": 17,
+   "low_pbr_only": 15
+  },
+  "honest_reading_of_the_577": "The 577 figure is not 577 firms that discussed the theme in their filings and were found wanting on inspection. It is the residual: firms whose metadata matched a theme keyword and for which no level-2 or level-3 artefact was found, discarded as a block. The filings of these firms were not read. Stating it the other way round would overstate the work done.",
+  "validation_status": {
+   "validated": false,
+   "what_is_missing": "We have not shown that the ladder predicts anything. A validation would require (i) coding the ladder at an as-of date from filings available then, on a sample large enough to support a cross-sectional test; (ii) a pre-specified outcome measured afterwards -- realised theme-attributable revenue growth is the natural one, and is disclosed by only a minority of firms; (iii) inter-coder agreement statistics on the level assignments, since levels 2 and 3 require judgement; and (iv) a comparison against the saturated keyword measure on the same sample and horizon. None of that is in this paper."
+  }
+ },
+ "own_portfolio_audit": {
+  "portfolio_source": "work/pure_buffett_benchmark/portfolio_v7.json (the 20 holdings v10 reports)",
+  "n_holdings": 20,
+  "in_candidate_pool_file": 15,
+  "absent_from_candidate_pool_file": [
+   "9022",
+   "9513",
+   "9503",
+   "7725",
+   "3449"
+  ],
+  "absent_note": "These holdings do not appear in the Top-1200 candidate pool at all, so no thematic evidence level was ever assigned to them.",
+  "thematic_level_distribution": {
+   "0": 5,
+   "1": 9,
+   "2": 1
+  },
+  "hand_verified_holdings": [
+   {
+    "code": "6920",
+    "name": "Lasertec Corporation"
+   }
+  ],
+  "n_hand_verified": 1,
+  "overlap_with_pipeline_final20": [
+   "6920"
+  ],
+  "finding": "Of 20 holdings, exactly 1 carries a hand-verified level-2 thematic artefact (Lasertec Corporation); 9 sit at thematic level 1 -- reachable by the metadata keyword screen alone -- 5 at level 0, and 5 were never scored because they are outside the candidate pool. The portfolio also shares only 1 name with the selection pipeline's own final-20 list. The thematic leg of this portfolio therefore sits almost entirely inside the saturated region documented above: it does NOT clear the evidence ladder this paper proposes.",
+  "correction_to_earlier_description": "Earlier drafts described the fifteen non-mechanical holdings as chosen by reading company disclosures. The record does not support that. The role rationales were drafted from general knowledge of the firms, under an explicit note in the working file that each description 'requires verification against IR/EDINET before submission' -- a verification that was completed for the curated set, not for these holdings. The accurate description is narrative judgement informed by general familiarity, with artefact-backed thematic evidence for one holding."
+ }
+}

@@ -1,0 +1,682 @@
+{
+ "layer": "L1/L3 attribution",
+ "note": "Regressions are run on the full 2026 portfolio, which embeds hindsight; the alpha here is therefore an accounting exercise -- how much of the in-sample excess return is spanned by tradable factor exposures -- not evidence of skill. Read alongside Table 1 (out-of-sample) and Table 2 (randomisation).",
+ "hml_absent": "No value factor. A book-to-market sort requires market equity, hence a share count; point-in-time share counts do not exist in this data and the 2026 snapshot covers 300 of 3,649 firms. The size factor sorts on total assets and is an accounting-size proxy, not market capitalisation. Both limitations are stated in the manuscript rather than hidden behind a substitute.",
+ "construction": "Monthly rebalanced, equal-weighted, top/bottom 30% long/short legs sorted at each month-end on data on file at that month-end. QMJ = high ROE minus low ROE. SIZE = small minus big total assets. MOM = 12-1 month return. SECTOR = equal-weighted Electric Appliances minus the equal-weighted universe. MKT = TOPIX ETF monthly return with the risk-free rate set to zero (Japanese short rates were near zero over the sample; stated explicitly rather than assumed away).",
+ "quantile": 0.3,
+ "nw_lag": 3,
+ "sector_factor": "Electric Appliances",
+ "headline_spec": "capm_sector",
+ "headline_rationale": "Chosen on degrees of freedom alone, and recorded before the estimates were inspected: 36 monthly observations do not support five regressors. The richer specifications are reported in the same table. The choice is not self-serving -- the five-factor alpha is larger than the parsimonious one, so preferring the parsimonious model lowers the alpha we report.",
+ "size_proxy_direction": "SIZE sorts on total assets, not market equity. A small high-multiple growth firm has a large market capitalisation but modest assets, so an accounting-size sort places it on the 'small' side more readily than a market-equity sort would. The proxy therefore mismeasures SMB exposure, and for a portfolio tilted toward high-multiple names it understates true small-cap exposure.",
+ "hml_absence_direction": "Unsignable without market equity, so we do not estimate it. One empirical anchor from data we do have: the deep-value (Graham-style) control built from the same universe returned 13.3% annualised over the three-year window against 24.0% for TOPIX, so value exposure was costly in this regime. If this portfolio carries the growth tilt its holdings suggest, omitting a value factor with a negative loading would flatter the reported alpha rather than depress it.",
+ "sample": {
+  "first_month": "2023-07",
+  "last_month": "2026-06",
+  "n_months": 36,
+  "median_firms_per_sort": 3410,
+  "median_sector_firms": 225
+ },
+ "factor_summary": {
+  "MKT": {
+   "mean_monthly": 0.01616,
+   "annualised": 0.2121,
+   "sd_monthly": 0.0382
+  },
+  "QMJ": {
+   "mean_monthly": -6e-05,
+   "annualised": -0.0008,
+   "sd_monthly": 0.0124
+  },
+  "SIZE": {
+   "mean_monthly": -0.00996,
+   "annualised": -0.1131,
+   "sd_monthly": 0.027
+  },
+  "MOM": {
+   "mean_monthly": 0.00818,
+   "annualised": 0.1027,
+   "sd_monthly": 0.0244
+  },
+  "SECTOR": {
+   "mean_monthly": 0.00976,
+   "annualised": 0.1236,
+   "sd_monthly": 0.035
+  }
+ },
+ "factor_correlations": {
+  "MKT": {
+   "MKT": 1.0,
+   "QMJ": 0.12,
+   "SIZE": -0.41,
+   "MOM": 0.79,
+   "SECTOR": 0.66
+  },
+  "QMJ": {
+   "MKT": 0.12,
+   "QMJ": 1.0,
+   "SIZE": -0.09,
+   "MOM": 0.16,
+   "SECTOR": 0.08
+  },
+  "SIZE": {
+   "MKT": -0.41,
+   "QMJ": -0.09,
+   "SIZE": 1.0,
+   "MOM": -0.58,
+   "SECTOR": -0.46
+  },
+  "MOM": {
+   "MKT": 0.79,
+   "QMJ": 0.16,
+   "SIZE": -0.58,
+   "MOM": 1.0,
+   "SECTOR": 0.62
+  },
+  "SECTOR": {
+   "MKT": 0.66,
+   "QMJ": 0.08,
+   "SIZE": -0.46,
+   "MOM": 0.62,
+   "SECTOR": 1.0
+  }
+ },
+ "regressions": {
+  "ours_role_budget": {
+   "capm": {
+    "n_months": 36,
+    "factors": [
+     "MKT"
+    ],
+    "alpha_monthly": 0.01024,
+    "alpha_annualised": 0.13,
+    "alpha_t_newey_west": 1.59,
+    "alpha_se_monthly": 0.00646,
+    "loadings": {
+     "MKT": 1.487
+    },
+    "loading_t": {
+     "MKT": 10.69
+    },
+    "r_squared": 0.631,
+    "adj_r_squared": 0.62,
+    "nw_lag": 3
+   },
+   "capm_sector": {
+    "n_months": 36,
+    "factors": [
+     "MKT",
+     "SECTOR"
+    ],
+    "alpha_monthly": 0.01028,
+    "alpha_annualised": 0.1306,
+    "alpha_t_newey_west": 1.97,
+    "alpha_se_monthly": 0.00522,
+    "loadings": {
+     "MKT": 1.077,
+     "SECTOR": 0.675
+    },
+    "loading_t": {
+     "MKT": 6.64,
+     "SECTOR": 1.93
+    },
+    "r_squared": 0.692,
+    "adj_r_squared": 0.673,
+    "nw_lag": 3
+   },
+   "mkt_qmj_size_mom": {
+    "n_months": 36,
+    "factors": [
+     "MKT",
+     "QMJ",
+     "SIZE",
+     "MOM"
+    ],
+    "alpha_monthly": 0.01293,
+    "alpha_annualised": 0.1667,
+    "alpha_t_newey_west": 1.54,
+    "alpha_se_monthly": 0.00841,
+    "loadings": {
+     "MKT": 1.537,
+     "QMJ": 0.319,
+     "SIZE": 0.469,
+     "MOM": 0.146
+    },
+    "loading_t": {
+     "MKT": 3.82,
+     "QMJ": 0.47,
+     "SIZE": 1.22,
+     "MOM": 0.18
+    },
+    "r_squared": 0.656,
+    "adj_r_squared": 0.612,
+    "nw_lag": 3
+   },
+   "full_with_sector": {
+    "n_months": 36,
+    "factors": [
+     "MKT",
+     "QMJ",
+     "SIZE",
+     "MOM",
+     "SECTOR"
+    ],
+    "alpha_monthly": 0.01409,
+    "alpha_annualised": 0.1829,
+    "alpha_t_newey_west": 2.17,
+    "alpha_se_monthly": 0.00651,
+    "loadings": {
+     "MKT": 1.159,
+     "QMJ": 0.35,
+     "SIZE": 0.676,
+     "MOM": -0.013,
+     "SECTOR": 0.852
+    },
+    "loading_t": {
+     "MKT": 4.95,
+     "QMJ": 0.67,
+     "SIZE": 2.21,
+     "MOM": -0.02,
+     "SECTOR": 2.5
+    },
+    "r_squared": 0.745,
+    "adj_r_squared": 0.702,
+    "nw_lag": 3
+   }
+  },
+  "ours_equal": {
+   "capm": {
+    "n_months": 36,
+    "factors": [
+     "MKT"
+    ],
+    "alpha_monthly": 0.00993,
+    "alpha_annualised": 0.1259,
+    "alpha_t_newey_west": 1.54,
+    "alpha_se_monthly": 0.00644,
+    "loadings": {
+     "MKT": 1.487
+    },
+    "loading_t": {
+     "MKT": 12.96
+    },
+    "r_squared": 0.647,
+    "adj_r_squared": 0.637,
+    "nw_lag": 3
+   },
+   "capm_sector": {
+    "n_months": 36,
+    "factors": [
+     "MKT",
+     "SECTOR"
+    ],
+    "alpha_monthly": 0.00998,
+    "alpha_annualised": 0.1266,
+    "alpha_t_newey_west": 2.09,
+    "alpha_se_monthly": 0.00478,
+    "loadings": {
+     "MKT": 0.986,
+     "SECTOR": 0.824
+    },
+    "loading_t": {
+     "MKT": 6.76,
+     "SECTOR": 2.82
+    },
+    "r_squared": 0.741,
+    "adj_r_squared": 0.725,
+    "nw_lag": 3
+   },
+   "mkt_qmj_size_mom": {
+    "n_months": 36,
+    "factors": [
+     "MKT",
+     "QMJ",
+     "SIZE",
+     "MOM"
+    ],
+    "alpha_monthly": 0.01242,
+    "alpha_annualised": 0.1596,
+    "alpha_t_newey_west": 1.46,
+    "alpha_se_monthly": 0.00851,
+    "loadings": {
+     "MKT": 1.428,
+     "QMJ": 0.36,
+     "SIZE": 0.425,
+     "MOM": 0.334
+    },
+    "loading_t": {
+     "MKT": 3.39,
+     "QMJ": 0.57,
+     "SIZE": 1.13,
+     "MOM": 0.37
+    },
+    "r_squared": 0.669,
+    "adj_r_squared": 0.626,
+    "nw_lag": 3
+   },
+   "full_with_sector": {
+    "n_months": 36,
+    "factors": [
+     "MKT",
+     "QMJ",
+     "SIZE",
+     "MOM",
+     "SECTOR"
+    ],
+    "alpha_monthly": 0.01375,
+    "alpha_annualised": 0.1781,
+    "alpha_t_newey_west": 2.29,
+    "alpha_se_monthly": 0.006,
+    "loadings": {
+     "MKT": 0.993,
+     "QMJ": 0.395,
+     "SIZE": 0.663,
+     "MOM": 0.152,
+     "SECTOR": 0.978
+    },
+    "loading_t": {
+     "MKT": 4.06,
+     "QMJ": 0.89,
+     "SIZE": 2.21,
+     "MOM": 0.27,
+     "SECTOR": 3.44
+    },
+    "r_squared": 0.789,
+    "adj_r_squared": 0.753,
+    "nw_lag": 3
+   }
+  },
+  "benchmark_buf20_equal": {
+   "capm": {
+    "n_months": 36,
+    "factors": [
+     "MKT"
+    ],
+    "alpha_monthly": 0.01138,
+    "alpha_annualised": 0.1454,
+    "alpha_t_newey_west": 2.04,
+    "alpha_se_monthly": 0.00558,
+    "loadings": {
+     "MKT": 1.548
+    },
+    "loading_t": {
+     "MKT": 13.04
+    },
+    "r_squared": 0.588,
+    "adj_r_squared": 0.576,
+    "nw_lag": 3
+   },
+   "capm_sector": {
+    "n_months": 36,
+    "factors": [
+     "MKT",
+     "SECTOR"
+    ],
+    "alpha_monthly": 0.01141,
+    "alpha_annualised": 0.1458,
+    "alpha_t_newey_west": 1.9,
+    "alpha_se_monthly": 0.006,
+    "loadings": {
+     "MKT": 1.279,
+     "SECTOR": 0.443
+    },
+    "loading_t": {
+     "MKT": 6.4,
+     "SECTOR": 1.25
+    },
+    "r_squared": 0.611,
+    "adj_r_squared": 0.587,
+    "nw_lag": 3
+   },
+   "mkt_qmj_size_mom": {
+    "n_months": 36,
+    "factors": [
+     "MKT",
+     "QMJ",
+     "SIZE",
+     "MOM"
+    ],
+    "alpha_monthly": 0.01709,
+    "alpha_annualised": 0.2255,
+    "alpha_t_newey_west": 3.31,
+    "alpha_se_monthly": 0.00516,
+    "loadings": {
+     "MKT": 1.546,
+     "QMJ": 1.202,
+     "SIZE": 0.926,
+     "MOM": 0.442
+    },
+    "loading_t": {
+     "MKT": 7.21,
+     "QMJ": 1.64,
+     "SIZE": 3.05,
+     "MOM": 0.95
+    },
+    "r_squared": 0.694,
+    "adj_r_squared": 0.655,
+    "nw_lag": 3
+   },
+   "full_with_sector": {
+    "n_months": 36,
+    "factors": [
+     "MKT",
+     "QMJ",
+     "SIZE",
+     "MOM",
+     "SECTOR"
+    ],
+    "alpha_monthly": 0.01803,
+    "alpha_annualised": 0.2392,
+    "alpha_t_newey_west": 3.06,
+    "alpha_se_monthly": 0.0059,
+    "loadings": {
+     "MKT": 1.24,
+     "QMJ": 1.227,
+     "SIZE": 1.093,
+     "MOM": 0.315,
+     "SECTOR": 0.688
+    },
+    "loading_t": {
+     "MKT": 5.11,
+     "QMJ": 2.09,
+     "SIZE": 3.92,
+     "MOM": 1.06,
+     "SECTOR": 1.79
+    },
+    "r_squared": 0.744,
+    "adj_r_squared": 0.701,
+    "nw_lag": 3
+   }
+  }
+ },
+ "monthly_factors": [
+  {
+   "month": "2023-07",
+   "MKT": -0.00543,
+   "QMJ": -0.00378,
+   "SIZE": -0.03152,
+   "MOM": 0.00325,
+   "SECTOR": -0.01122
+  },
+  {
+   "month": "2023-08",
+   "MKT": 0.00354,
+   "QMJ": -0.00418,
+   "SIZE": -0.02316,
+   "MOM": 0.02159,
+   "SECTOR": -0.00538
+  },
+  {
+   "month": "2023-09",
+   "MKT": 0.00747,
+   "QMJ": -0.01454,
+   "SIZE": -0.00441,
+   "MOM": 0.01321,
+   "SECTOR": -0.01159
+  },
+  {
+   "month": "2023-10",
+   "MKT": -0.02925,
+   "QMJ": -0.0077,
+   "SIZE": -0.0288,
+   "MOM": -0.00228,
+   "SECTOR": -0.01329
+  },
+  {
+   "month": "2023-11",
+   "MKT": 0.05326,
+   "QMJ": 0.03167,
+   "SIZE": -0.01224,
+   "MOM": 0.02565,
+   "SECTOR": 0.04272
+  },
+  {
+   "month": "2023-12",
+   "MKT": -0.00302,
+   "QMJ": 0.01503,
+   "SIZE": -0.02082,
+   "MOM": 0.01747,
+   "SECTOR": -0.00523
+  },
+  {
+   "month": "2024-01",
+   "MKT": 0.07901,
+   "QMJ": 0.00431,
+   "SIZE": -0.0079,
+   "MOM": 0.04547,
+   "SECTOR": -0.00337
+  },
+  {
+   "month": "2024-02",
+   "MKT": 0.05056,
+   "QMJ": -0.00115,
+   "SIZE": 0.01564,
+   "MOM": 0.01505,
+   "SECTOR": 0.00844
+  },
+  {
+   "month": "2024-03",
+   "MKT": 0.04225,
+   "QMJ": -0.00019,
+   "SIZE": -0.04202,
+   "MOM": 0.01333,
+   "SECTOR": 0.00362
+  },
+  {
+   "month": "2024-04",
+   "MKT": -0.01043,
+   "QMJ": -0.01144,
+   "SIZE": -0.03154,
+   "MOM": -0.0053,
+   "SECTOR": 0.00246
+  },
+  {
+   "month": "2024-05",
+   "MKT": 0.0197,
+   "QMJ": -0.00647,
+   "SIZE": -0.00393,
+   "MOM": -0.00084,
+   "SECTOR": 0.00548
+  },
+  {
+   "month": "2024-06",
+   "MKT": 0.00627,
+   "QMJ": 0.00192,
+   "SIZE": 0.02823,
+   "MOM": -0.019,
+   "SECTOR": 0.00459
+  },
+  {
+   "month": "2024-07",
+   "MKT": -0.02102,
+   "QMJ": -0.00248,
+   "SIZE": -0.00659,
+   "MOM": -0.01374,
+   "SECTOR": -0.02606
+  },
+  {
+   "month": "2024-08",
+   "MKT": -0.03086,
+   "QMJ": 0.01153,
+   "SIZE": -0.00724,
+   "MOM": 0.00388,
+   "SECTOR": 0.00709
+  },
+  {
+   "month": "2024-09",
+   "MKT": -0.01565,
+   "QMJ": 0.01178,
+   "SIZE": -0.02557,
+   "MOM": 0.01531,
+   "SECTOR": -0.01781
+  },
+  {
+   "month": "2024-10",
+   "MKT": 0.01843,
+   "QMJ": 0.00311,
+   "SIZE": -0.01147,
+   "MOM": 0.00412,
+   "SECTOR": 0.01261
+  },
+  {
+   "month": "2024-11",
+   "MKT": -0.00479,
+   "QMJ": 0.00212,
+   "SIZE": 0.02189,
+   "MOM": 0.0072,
+   "SECTOR": -0.03197
+  },
+  {
+   "month": "2024-12",
+   "MKT": 0.04083,
+   "QMJ": 0.01206,
+   "SIZE": -0.02735,
+   "MOM": 0.02411,
+   "SECTOR": 0.01351
+  },
+  {
+   "month": "2025-01",
+   "MKT": 0.00206,
+   "QMJ": -0.01057,
+   "SIZE": 0.03363,
+   "MOM": -0.02494,
+   "SECTOR": -0.00607
+  },
+  {
+   "month": "2025-02",
+   "MKT": -0.03812,
+   "QMJ": -0.02285,
+   "SIZE": 0.03119,
+   "MOM": -0.02627,
+   "SECTOR": -0.01324
+  },
+  {
+   "month": "2025-03",
+   "MKT": 0.00373,
+   "QMJ": 0.00677,
+   "SIZE": 0.00262,
+   "MOM": 0.0067,
+   "SECTOR": -0.01747
+  },
+  {
+   "month": "2025-04",
+   "MKT": 0.00372,
+   "QMJ": 0.01682,
+   "SIZE": -0.00747,
+   "MOM": 0.00925,
+   "SECTOR": -0.03192
+  },
+  {
+   "month": "2025-05",
+   "MKT": 0.04869,
+   "QMJ": 0.01232,
+   "SIZE": 0.02054,
+   "MOM": 0.00301,
+   "SECTOR": 0.02907
+  },
+  {
+   "month": "2025-06",
+   "MKT": 0.01934,
+   "QMJ": 0.00246,
+   "SIZE": 0.02986,
+   "MOM": -0.00877,
+   "SECTOR": 0.02272
+  },
+  {
+   "month": "2025-07",
+   "MKT": 0.01097,
+   "QMJ": -0.0056,
+   "SIZE": -0.0104,
+   "MOM": 0.00221,
+   "SECTOR": 0.0004
+  },
+  {
+   "month": "2025-08",
+   "MKT": 0.04581,
+   "QMJ": -0.01633,
+   "SIZE": 0.01879,
+   "MOM": 0.01975,
+   "SECTOR": -0.00668
+  },
+  {
+   "month": "2025-09",
+   "MKT": 0.02722,
+   "QMJ": 0.00953,
+   "SIZE": -0.03164,
+   "MOM": -0.01285,
+   "SECTOR": 0.01846
+  },
+  {
+   "month": "2025-10",
+   "MKT": 0.06366,
+   "QMJ": 0.01366,
+   "SIZE": -0.04188,
+   "MOM": 0.01759,
+   "SECTOR": 0.07244
+  },
+  {
+   "month": "2025-11",
+   "MKT": 0.01432,
+   "QMJ": 0.00297,
+   "SIZE": -0.04124,
+   "MOM": -0.00268,
+   "SECTOR": -0.01703
+  },
+  {
+   "month": "2025-12",
+   "MKT": 0.01045,
+   "QMJ": -2e-05,
+   "SIZE": -0.02014,
+   "MOM": 0.01461,
+   "SECTOR": 0.01137
+  },
+  {
+   "month": "2026-01",
+   "MKT": 0.0461,
+   "QMJ": -0.02432,
+   "SIZE": 0.006,
+   "MOM": 0.01516,
+   "SECTOR": 0.01984
+  },
+  {
+   "month": "2026-02",
+   "MKT": 0.10337,
+   "QMJ": -0.02301,
+   "SIZE": -0.08041,
+   "MOM": 0.07288,
+   "SECTOR": 0.09026
+  },
+  {
+   "month": "2026-03",
+   "MKT": -0.10094,
+   "QMJ": -0.01179,
+   "SIZE": 0.02966,
+   "MOM": -0.05845,
+   "SECTOR": -0.01885
+  },
+  {
+   "month": "2026-04",
+   "MKT": 0.06112,
+   "QMJ": 0.01324,
+   "SIZE": -0.02357,
+   "MOM": 0.07003,
+   "SECTOR": 0.11548
+  },
+  {
+   "month": "2026-05",
+   "MKT": 0.06039,
+   "QMJ": -0.00885,
+   "SIZE": -0.05797,
+   "MOM": 0.03369,
+   "SECTOR": 0.10064
+  },
+  {
+   "month": "2026-06",
+   "MKT": -0.00096,
+   "QMJ": 0.00171,
+   "SIZE": 0.00284,
+   "MOM": -0.00496,
+   "SECTOR": 0.0072
+  }
+ ]
+}

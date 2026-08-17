@@ -1,0 +1,422 @@
+{
+ "conventions": {
+  "headline": "Monthly rebalancing to fixed target weights, one-way cost of 25 bp plus an assumed odd-lot spread of 15 bp, charged on traded notional (buys plus sells), with an entry cost on the full notional. The contest edition's daily fixed-weight rebalancing is reported alongside as the appendix convention.",
+  "one_way_bp": 25.0,
+  "odd_lot_bp": 15.0,
+  "cost_grid_bp": [
+   0.0,
+   10.0,
+   25.0,
+   50.0,
+   100.0
+  ],
+  "window": "756 trading days ending 2026-06-01"
+ },
+ "results": {
+  "ours_role_budget": {
+   "daily_rebalance_no_cost": {
+    "ann_return": 0.5468,
+    "volatility": 0.2615,
+    "sharpe": 2.091,
+    "max_drawdown": -0.3006,
+    "excess_vs_topix": 0.2978,
+    "beta_vs_topix": 1.072
+   },
+   "monthly_rebalance_no_cost": {
+    "ann_return": 0.5448,
+    "volatility": 0.2605,
+    "sharpe": 2.091,
+    "max_drawdown": -0.3073,
+    "excess_vs_topix": 0.2957,
+    "beta_vs_topix": 1.058
+   },
+   "monthly_headline": {
+    "ann_return": 0.5359,
+    "volatility": 0.2607,
+    "sharpe": 2.056,
+    "max_drawdown": -0.3092,
+    "excess_vs_topix": 0.2868,
+    "beta_vs_topix": 1.059
+   },
+   "daily_rebalance_headline_cost": {
+    "ann_return": 0.5172,
+    "volatility": 0.2615,
+    "sharpe": 1.978,
+    "max_drawdown": -0.309,
+    "excess_vs_topix": 0.2682,
+    "beta_vs_topix": 1.073
+   },
+   "annual_turnover_monthly": 1.107,
+   "annual_turnover_daily": 4.489,
+   "cost_grid_monthly": {
+    "0bp": {
+     "ann_return": 0.5414,
+     "volatility": 0.2606,
+     "sharpe": 2.078,
+     "max_drawdown": -0.308,
+     "excess_vs_topix": 0.2924,
+     "beta_vs_topix": 1.059
+    },
+    "10bp": {
+     "ann_return": 0.5392,
+     "volatility": 0.2606,
+     "sharpe": 2.069,
+     "max_drawdown": -0.3085,
+     "excess_vs_topix": 0.2902,
+     "beta_vs_topix": 1.059
+    },
+    "25bp": {
+     "ann_return": 0.5359,
+     "volatility": 0.2607,
+     "sharpe": 2.056,
+     "max_drawdown": -0.3092,
+     "excess_vs_topix": 0.2868,
+     "beta_vs_topix": 1.059
+    },
+    "50bp": {
+     "ann_return": 0.5303,
+     "volatility": 0.2608,
+     "sharpe": 2.034,
+     "max_drawdown": -0.3103,
+     "excess_vs_topix": 0.2813,
+     "beta_vs_topix": 1.059
+    },
+    "100bp": {
+     "ann_return": 0.5192,
+     "volatility": 0.261,
+     "sharpe": 1.99,
+     "max_drawdown": -0.3126,
+     "excess_vs_topix": 0.2702,
+     "beta_vs_topix": 1.06
+    }
+   }
+  },
+  "ours_equal": {
+   "daily_rebalance_no_cost": {
+    "ann_return": 0.5378,
+    "volatility": 0.2558,
+    "sharpe": 2.103,
+    "max_drawdown": -0.2997,
+    "excess_vs_topix": 0.2888,
+    "beta_vs_topix": 1.055
+   },
+   "monthly_rebalance_no_cost": {
+    "ann_return": 0.5363,
+    "volatility": 0.2549,
+    "sharpe": 2.104,
+    "max_drawdown": -0.3064,
+    "excess_vs_topix": 0.2873,
+    "beta_vs_topix": 1.043
+   },
+   "monthly_headline": {
+    "ann_return": 0.5277,
+    "volatility": 0.2551,
+    "sharpe": 2.069,
+    "max_drawdown": -0.3082,
+    "excess_vs_topix": 0.2786,
+    "beta_vs_topix": 1.043
+   },
+   "daily_rebalance_headline_cost": {
+    "ann_return": 0.5093,
+    "volatility": 0.2559,
+    "sharpe": 1.99,
+    "max_drawdown": -0.3079,
+    "excess_vs_topix": 0.2602,
+    "beta_vs_topix": 1.056
+   },
+   "annual_turnover_monthly": 1.072,
+   "annual_turnover_daily": 4.352,
+   "cost_grid_monthly": {
+    "0bp": {
+     "ann_return": 0.5331,
+     "volatility": 0.255,
+     "sharpe": 2.091,
+     "max_drawdown": -0.3071,
+     "excess_vs_topix": 0.284,
+     "beta_vs_topix": 1.043
+    },
+    "10bp": {
+     "ann_return": 0.5309,
+     "volatility": 0.255,
+     "sharpe": 2.082,
+     "max_drawdown": -0.3075,
+     "excess_vs_topix": 0.2819,
+     "beta_vs_topix": 1.043
+    },
+    "25bp": {
+     "ann_return": 0.5277,
+     "volatility": 0.2551,
+     "sharpe": 2.069,
+     "max_drawdown": -0.3082,
+     "excess_vs_topix": 0.2786,
+     "beta_vs_topix": 1.043
+    },
+    "50bp": {
+     "ann_return": 0.5223,
+     "volatility": 0.2552,
+     "sharpe": 2.047,
+     "max_drawdown": -0.3093,
+     "excess_vs_topix": 0.2733,
+     "beta_vs_topix": 1.043
+    },
+    "100bp": {
+     "ann_return": 0.5116,
+     "volatility": 0.2554,
+     "sharpe": 2.003,
+     "max_drawdown": -0.3115,
+     "excess_vs_topix": 0.2625,
+     "beta_vs_topix": 1.044
+    }
+   }
+  },
+  "benchmark_buf20_equal": {
+   "daily_rebalance_no_cost": {
+    "ann_return": 0.5874,
+    "volatility": 0.2803,
+    "sharpe": 2.096,
+    "max_drawdown": -0.2943,
+    "excess_vs_topix": 0.3383,
+    "beta_vs_topix": 1.156
+   },
+   "monthly_rebalance_no_cost": {
+    "ann_return": 0.588,
+    "volatility": 0.2789,
+    "sharpe": 2.108,
+    "max_drawdown": -0.2935,
+    "excess_vs_topix": 0.3389,
+    "beta_vs_topix": 1.142
+   },
+   "monthly_headline": {
+    "ann_return": 0.5786,
+    "volatility": 0.279,
+    "sharpe": 2.073,
+    "max_drawdown": -0.2937,
+    "excess_vs_topix": 0.3295,
+    "beta_vs_topix": 1.142
+   },
+   "daily_rebalance_headline_cost": {
+    "ann_return": 0.5563,
+    "volatility": 0.2804,
+    "sharpe": 1.984,
+    "max_drawdown": -0.2955,
+    "excess_vs_topix": 0.3073,
+    "beta_vs_topix": 1.156
+   },
+   "annual_turnover_monthly": 1.145,
+   "annual_turnover_daily": 4.609,
+   "cost_grid_monthly": {
+    "0bp": {
+     "ann_return": 0.5844,
+     "volatility": 0.279,
+     "sharpe": 2.095,
+     "max_drawdown": -0.2936,
+     "excess_vs_topix": 0.3354,
+     "beta_vs_topix": 1.142
+    },
+    "10bp": {
+     "ann_return": 0.5821,
+     "volatility": 0.279,
+     "sharpe": 2.086,
+     "max_drawdown": -0.2936,
+     "excess_vs_topix": 0.3331,
+     "beta_vs_topix": 1.142
+    },
+    "25bp": {
+     "ann_return": 0.5786,
+     "volatility": 0.279,
+     "sharpe": 2.073,
+     "max_drawdown": -0.2937,
+     "excess_vs_topix": 0.3295,
+     "beta_vs_topix": 1.142
+    },
+    "50bp": {
+     "ann_return": 0.5727,
+     "volatility": 0.2791,
+     "sharpe": 2.052,
+     "max_drawdown": -0.2939,
+     "excess_vs_topix": 0.3237,
+     "beta_vs_topix": 1.142
+    },
+    "100bp": {
+     "ann_return": 0.5611,
+     "volatility": 0.2793,
+     "sharpe": 2.009,
+     "max_drawdown": -0.2943,
+     "excess_vs_topix": 0.312,
+     "beta_vs_topix": 1.143
+    }
+   }
+  }
+ },
+ "specification_count": {
+  "total": 85,
+  "note": "A lower bound. It counts specifications we can enumerate from the artefacts; informal variants explored and discarded before the artefacts were written are not recoverable and are therefore not counted.",
+  "table": [
+   {
+    "category": "Layer 1 as-of validation",
+    "detail": "3 as-of dates x (3 series x 2 ranking formulas + 3 discarded earnings-yield series)",
+    "n": 27
+   },
+   {
+    "category": "Layer 2 randomisation",
+    "detail": "2 drawing schemes x 2 portfolio weightings",
+    "n": 4
+   },
+   {
+    "category": "Factor attribution",
+    "detail": "3 test portfolios x 4 factor models",
+    "n": 12
+   },
+   {
+    "category": "Benchmark construction (contribution B)",
+    "detail": "3 holding counts x 3 weighting rules",
+    "n": 9
+   },
+   {
+    "category": "Quality-gate threshold robustness (contest edition)",
+    "detail": "8 single-threshold variants",
+    "n": 8
+   },
+   {
+    "category": "Market-phase splits (contest edition)",
+    "detail": "4 phases",
+    "n": 4
+   },
+   {
+    "category": "Allocation rules (contest edition)",
+    "detail": "equal, role budget, minimum variance",
+    "n": 3
+   },
+   {
+    "category": "Measurement windows (contest edition)",
+    "detail": "3-year and 1-year",
+    "n": 2
+   },
+   {
+    "category": "Benchmark comparison pairs (contest edition)",
+    "detail": "4 pairwise comparisons",
+    "n": 4
+   },
+   {
+    "category": "Volatility-matched leverage variant (contest edition)",
+    "detail": "1",
+    "n": 1
+   },
+   {
+    "category": "Graham-style control (contest edition)",
+    "detail": "1",
+    "n": 1
+   },
+   {
+    "category": "Cost conventions (this paper)",
+    "detail": "5-point cost grid x 2 rebalancing frequencies",
+    "n": 10
+   }
+  ]
+ },
+ "deflated_sharpe": {
+  "ours_role_budget": {
+   "sector_matched_trial_sd": {
+    "observed_sharpe_annualised": 1.779,
+    "sharpe_definition": "Arithmetic: mean/sd of daily net returns, annualised by sqrt(252). This is the quantity the Bailey-Lopez de Prado formula is defined on and is NOT the same as the geometric Sharpe reported in the performance tables (annualised compound return / annualised vol), which is higher for these series.",
+    "threshold_sharpe_annualised": 0.631,
+    "deflated_sharpe_probability": 0.9707,
+    "n_trials": 85,
+    "n_observations": 755,
+    "skewness": -0.607,
+    "kurtosis": 11.612,
+    "trial_sharpe_sd_annualised": 0.255,
+    "survives_at_95": true
+   },
+   "unstratified_trial_sd": {
+    "observed_sharpe_annualised": 1.779,
+    "sharpe_definition": "Arithmetic: mean/sd of daily net returns, annualised by sqrt(252). This is the quantity the Bailey-Lopez de Prado formula is defined on and is NOT the same as the geometric Sharpe reported in the performance tables (annualised compound return / annualised vol), which is higher for these series.",
+    "threshold_sharpe_annualised": 0.694,
+    "deflated_sharpe_probability": 0.9631,
+    "n_trials": 85,
+    "n_observations": 755,
+    "skewness": -0.607,
+    "kurtosis": 11.612,
+    "trial_sharpe_sd_annualised": 0.281,
+    "survives_at_95": true
+   }
+  },
+  "ours_equal": {
+   "sector_matched_trial_sd": {
+    "observed_sharpe_annualised": 1.791,
+    "sharpe_definition": "Arithmetic: mean/sd of daily net returns, annualised by sqrt(252). This is the quantity the Bailey-Lopez de Prado formula is defined on and is NOT the same as the geometric Sharpe reported in the performance tables (annualised compound return / annualised vol), which is higher for these series.",
+    "threshold_sharpe_annualised": 0.631,
+    "deflated_sharpe_probability": 0.972,
+    "n_trials": 85,
+    "n_observations": 755,
+    "skewness": -0.604,
+    "kurtosis": 11.698,
+    "trial_sharpe_sd_annualised": 0.255,
+    "survives_at_95": true
+   },
+   "unstratified_trial_sd": {
+    "observed_sharpe_annualised": 1.791,
+    "sharpe_definition": "Arithmetic: mean/sd of daily net returns, annualised by sqrt(252). This is the quantity the Bailey-Lopez de Prado formula is defined on and is NOT the same as the geometric Sharpe reported in the performance tables (annualised compound return / annualised vol), which is higher for these series.",
+    "threshold_sharpe_annualised": 0.694,
+    "deflated_sharpe_probability": 0.9647,
+    "n_trials": 85,
+    "n_observations": 755,
+    "skewness": -0.604,
+    "kurtosis": 11.698,
+    "trial_sharpe_sd_annualised": 0.281,
+    "survives_at_95": true
+   }
+  },
+  "benchmark_buf20_equal": {
+   "sector_matched_trial_sd": {
+    "observed_sharpe_annualised": 1.778,
+    "sharpe_definition": "Arithmetic: mean/sd of daily net returns, annualised by sqrt(252). This is the quantity the Bailey-Lopez de Prado formula is defined on and is NOT the same as the geometric Sharpe reported in the performance tables (annualised compound return / annualised vol), which is higher for these series.",
+    "threshold_sharpe_annualised": 0.631,
+    "deflated_sharpe_probability": 0.9719,
+    "n_trials": 85,
+    "n_observations": 755,
+    "skewness": -0.408,
+    "kurtosis": 11.772,
+    "trial_sharpe_sd_annualised": 0.255,
+    "survives_at_95": true
+   },
+   "unstratified_trial_sd": {
+    "observed_sharpe_annualised": 1.778,
+    "sharpe_definition": "Arithmetic: mean/sd of daily net returns, annualised by sqrt(252). This is the quantity the Bailey-Lopez de Prado formula is defined on and is NOT the same as the geometric Sharpe reported in the performance tables (annualised compound return / annualised vol), which is higher for these series.",
+    "threshold_sharpe_annualised": 0.694,
+    "deflated_sharpe_probability": 0.9644,
+    "n_trials": 85,
+    "n_observations": 755,
+    "skewness": -0.408,
+    "kurtosis": 11.772,
+    "trial_sharpe_sd_annualised": 0.281,
+    "survives_at_95": true
+   }
+  }
+ },
+ "deflated_sharpe_note": "Trial variance is the standard deviation of Sharpe ratios across the Layer 2 placebo draws, which measures how much Sharpe dispersion this pool generates by chance at this holding count. Reported under both the sector-matched and unstratified placebo distributions.",
+ "mde": {
+  "2024-10-01": {
+   "n_days": 404,
+   "tracking_error_annualised": 0.1099,
+   "mde_annualised": 0.2432,
+   "observed_excess_annualised": -0.2277,
+   "detectable": false
+  },
+  "2025-04-01": {
+   "n_days": 284,
+   "tracking_error_annualised": 0.1222,
+   "mde_annualised": 0.3225,
+   "observed_excess_annualised": -0.2724,
+   "detectable": false
+  },
+  "2025-10-01": {
+   "n_days": 160,
+   "tracking_error_annualised": 0.1039,
+   "mde_annualised": 0.3652,
+   "observed_excess_annualised": -0.4933,
+   "detectable": true
+  }
+ },
+ "mde_note": "Minimum detectable annualised excess return, two-sided at the 5%% level with 80%% power, using the realised tracking error of the equal-weighted gate-passing pool at each as-of date. Stated so that the Layer 1 null can be read against the sensitivity of the test."
+}

@@ -1,0 +1,35 @@
+{
+ "retrieval_attempt": "The JPX delisted-companies listing was requested on 2026-07-25 and returned HTTP 403 to an automated request. No delisting list is included in the repository. The bias is therefore NOT quantified, and we do not estimate it.",
+ "panel": {
+  "start": "2021-06-01",
+  "end": "2026-06-01",
+  "n_tickers": 3650
+ },
+ "thresholds_days": [
+  30,
+  60,
+  180
+ ],
+ "stopped_series": {
+  "30": {
+   "n_tickers_stopped": 1,
+   "share_of_panel": 0.00027,
+   "tickers": [
+    "6565.T"
+   ]
+  },
+  "60": {
+   "n_tickers_stopped": 0,
+   "share_of_panel": 0.0,
+   "tickers": []
+  },
+  "180": {
+   "n_tickers_stopped": 0,
+   "share_of_panel": 0.0,
+   "tickers": []
+  }
+ },
+ "direction_of_bias": "Upward for every historical return series in this paper, including the benchmarks and the placebo distribution. A panel assembled from currently listed tickers omits firms that were delisted after failing, so any portfolio drawn from it -- ours, the mechanical benchmark, and each of the 10,000 random draws -- is drawn from a universe with the worst outcomes already removed.",
+ "differential_effect": "Because the bias inflates the placebo distribution as well as the portfolio, the Layer 2 percentile is less exposed to it than a raw return comparison would be. That is an argument for preferring the randomisation framing, not an argument that the bias is small.",
+ "upper_bound_reading": "At the 30-day threshold the panel contains 1 ticker(s) whose series stops early, out of 3650. The panel is, to a first approximation, a survivors-only panel: it does not contain the delistings, so the count of stopped series is an upper bound on what could be recovered from it and not an estimate of how many firms actually delisted."
+}

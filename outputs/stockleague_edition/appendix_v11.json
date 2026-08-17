@@ -1,0 +1,239 @@
+{
+ "robustness": {
+  "base_selection": [
+   "3092",
+   "4716",
+   "7014",
+   "8136",
+   "6920"
+  ],
+  "base_note": "The five mechanically-selected holdings. Each variant perturbs exactly one threshold in the quality gate and re-runs the selection; the overlap column counts how many of the five survive.",
+  "n_variants": 8,
+  "min_overlap": 4,
+  "variants": [
+   {
+    "variant": "ＲＯＥ閾値 12%",
+    "selection": [
+     "7014",
+     "3092",
+     "4716",
+     "8136",
+     "7735"
+    ],
+    "overlap_with_base": 4
+   },
+   {
+    "variant": "ＲＯＥ閾値 18%",
+    "selection": [
+     "3092",
+     "4716",
+     "7014",
+     "8136",
+     "6920"
+    ],
+    "overlap_with_base": 5
+   },
+   {
+    "variant": "営業利益率 5%",
+    "selection": [
+     "3092",
+     "7014",
+     "4716",
+     "8136",
+     "9107"
+    ],
+    "overlap_with_base": 4
+   },
+   {
+    "variant": "自己資本比率 40%",
+    "selection": [
+     "3092",
+     "4716",
+     "7014",
+     "8136",
+     "7735"
+    ],
+    "overlap_with_base": 4
+   },
+   {
+    "variant": "増収増益ゲート外す",
+    "selection": [
+     "3092",
+     "4716",
+     "7014",
+     "4980",
+     "8136"
+    ],
+    "overlap_with_base": 4
+   },
+   {
+    "variant": "無赤字ゲート外す",
+    "selection": [
+     "3092",
+     "4716",
+     "7014",
+     "8136",
+     "7735"
+    ],
+    "overlap_with_base": 4
+   },
+   {
+    "variant": "順位=ＲＯＥのみ",
+    "selection": [
+     "3092",
+     "6920",
+     "8136",
+     "4716",
+     "8035"
+    ],
+    "overlap_with_base": 4
+   },
+   {
+    "variant": "同一業種上限 3",
+    "selection": [
+     "3092",
+     "4716",
+     "7014",
+     "8136",
+     "6920"
+    ],
+    "overlap_with_base": 5
+   }
+  ]
+ },
+ "cost_sensitivity": [
+  {
+   "series": "Portfolio (equal weight)",
+   "annual_turnover_monthly": 1.072,
+   "annual_turnover_daily": 4.352,
+   "monthly_0bp": 0.5331,
+   "monthly_10bp": 0.5309,
+   "monthly_25bp": 0.5277,
+   "monthly_50bp": 0.5223,
+   "monthly_100bp": 0.5116,
+   "daily_no_cost": 0.5378,
+   "daily_headline_cost": 0.5093
+  },
+  {
+   "series": "Mechanical benchmark",
+   "annual_turnover_monthly": 1.145,
+   "annual_turnover_daily": 4.609,
+   "monthly_0bp": 0.5844,
+   "monthly_10bp": 0.5821,
+   "monthly_25bp": 0.5786,
+   "monthly_50bp": 0.5727,
+   "monthly_100bp": 0.5611,
+   "daily_no_cost": 0.5874,
+   "daily_headline_cost": 0.5563
+  }
+ ],
+ "evidence_correspondence": {
+  "question": "Do firms placed higher on the evidence ladder go on to report faster theme-relevant revenue growth? This is the crudest possible version of the validation described in the manuscript, on the only firms for which we have hand-coded levels.",
+  "sample": "The 14 hand-coded level-2 and level-3 firms. Revenue growth is the annualised rate across all fiscal years on file, from the same filing panel used elsewhere; it is TOTAL revenue, not theme-attributable revenue, which almost no firm discloses separately.",
+  "by_level": {
+   "2": {
+    "n": 8,
+    "median_revenue_cagr": 0.1351,
+    "mean_revenue_cagr": 0.1455,
+    "min": -0.011,
+    "max": 0.2827
+   },
+   "3": {
+    "n": 6,
+    "median_revenue_cagr": 0.0776,
+    "mean_revenue_cagr": 0.0755,
+    "min": -0.022,
+    "max": 0.2132
+   }
+  },
+  "firms": [
+   {
+    "code": "6526",
+    "level": 2,
+    "periods": 3,
+    "revenue_cagr": -0.011
+   },
+   {
+    "code": "6367",
+    "level": 2,
+    "periods": 3,
+    "revenue_cagr": 0.0925
+   },
+   {
+    "code": "5803",
+    "level": 2,
+    "periods": 3,
+    "revenue_cagr": 0.1016
+   },
+   {
+    "code": "6622",
+    "level": 2,
+    "periods": 3,
+    "revenue_cagr": 0.1054
+   },
+   {
+    "code": "7735",
+    "level": 2,
+    "periods": 3,
+    "revenue_cagr": 0.1648
+   },
+   {
+    "code": "6146",
+    "level": 2,
+    "periods": 3,
+    "revenue_cagr": 0.1765
+   },
+   {
+    "code": "3692",
+    "level": 2,
+    "periods": 3,
+    "revenue_cagr": 0.2519
+   },
+   {
+    "code": "6920",
+    "level": 2,
+    "periods": 3,
+    "revenue_cagr": 0.2827
+   },
+   {
+    "code": "2326",
+    "level": 3,
+    "periods": 3,
+    "revenue_cagr": -0.022
+   },
+   {
+    "code": "6315",
+    "level": 3,
+    "periods": 3,
+    "revenue_cagr": -0.0032
+   },
+   {
+    "code": "9474",
+    "level": 3,
+    "periods": 3,
+    "revenue_cagr": 0.0451
+   },
+   {
+    "code": "6841",
+    "level": 3,
+    "periods": 3,
+    "revenue_cagr": 0.11
+   },
+   {
+    "code": "6368",
+    "level": 3,
+    "periods": 3,
+    "revenue_cagr": 0.1101
+   },
+   {
+    "code": "3697",
+    "level": 3,
+    "periods": 3,
+    "revenue_cagr": 0.2132
+   }
+  ],
+  "result": "Level-3 firms grew revenue MORE SLOWLY than level-2 firms over this window (median 7.8% versus 13.5%). The ordering runs against our own proposal.",
+  "higher_level_grew_faster": false,
+  "interpretation": "This is not evidence that the ladder fails, and we would resist a reader concluding either way from it. With 8 and 6 firms per cell, total rather than theme-attributable revenue, no as-of coding, and no control for sector or size, the table has no power to order the levels. We report it because it is the honest state of the only correspondence we can compute, and because a paper arguing for careful measurement should not omit the descriptive table that happens to be unflattering."
+ }
+}

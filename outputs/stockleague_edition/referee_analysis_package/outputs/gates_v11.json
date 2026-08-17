@@ -1,0 +1,87 @@
+[
+ {
+  "gate": "G1",
+  "status": "PASS",
+  "detail": "no writes to LOCKED / v10 / VERSION"
+ },
+ {
+  "gate": "G2",
+  "status": "PASS",
+  "detail": "inputs numbers_v11 + 7 generated table files; no hand-typed numbers in prose"
+ },
+ {
+  "gate": "G2d",
+  "status": "PASS",
+  "detail": "referee briefing agrees with 5 generated figures"
+ },
+ {
+  "gate": "G2b",
+  "status": "PASS",
+  "detail": "cover letter agrees with 11 generated figures"
+ },
+ {
+  "gate": "G2c",
+  "status": "PASS",
+  "detail": "seed printed as the bare identifier 20260725"
+ },
+ {
+  "gate": "G3",
+  "status": "PASS",
+  "detail": "no inferential vocabulary in the L2/L3 sections"
+ },
+ {
+  "gate": "G4",
+  "status": "PASS",
+  "detail": "ordering disclosure present in Limitations"
+ },
+ {
+  "gate": "G5",
+  "status": "PASS",
+  "detail": "no beat-Buffett claim outside the disclaimer/motivation framing"
+ },
+ {
+  "gate": "G6",
+  "status": "PASS",
+  "detail": "stated before the Layer 1 table"
+ },
+ {
+  "gate": "G7",
+  "status": "PASS",
+  "detail": "declaration table present; all 12 tables open with one of 6 declared labels"
+ },
+ {
+  "gate": "G8",
+  "status": "PASS",
+  "detail": "17 pages, 0 CJK chars (target 12--18 pages, English body)"
+ },
+ {
+  "gate": "G9",
+  "status": "PASS",
+  "detail": "all 5 key tables present and every generated file is input"
+ },
+ {
+  "gate": "G9c",
+  "status": "PASS",
+  "detail": "all 12 tables are referenced"
+ },
+ {
+  "gate": "G9b",
+  "status": "PASS",
+  "detail": "1 figure(s) included, all files present"
+ },
+ {
+  "gate": "G10",
+  "status": "PASS",
+  "detail": "no unused entries (2 cited/2 in bib)"
+ },
+ {
+  "gate": "G11",
+  "status": "PASS",
+  "detail": "replication README present"
+ },
+ {
+  "gate": "G12",
+  "status": "PASS",
+  "detail": "survivorship direction stated"
+ }
+]
