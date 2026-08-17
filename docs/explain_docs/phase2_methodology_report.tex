@@ -1,0 +1,784 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[top=28mm,bottom=28mm,left=25mm,right=25mm]{geometry}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\setmainfont{Noto Serif}
+\setsansfont{Noto Sans}
+\setCJKmainfont{Noto Serif CJK JP}
+\setCJKsansfont{Noto Sans CJK JP}
+\usepackage{amsmath,amssymb,mathtools,bm}
+\usepackage{booktabs,longtable,array,multirow}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,shapes.geometric,fit,calc}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{setspace}
+\usepackage{tocloft}
+\usepackage{makecell}
+\usepackage{siunitx}
+\usepackage{etoolbox}
+\usepackage{listings}
+
+\hypersetup{colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black}
+\captionsetup[table]{position=top,font=small,labelfont=bf}
+\captionsetup[figure]{position=bottom,font=small,labelfont=bf}
+\renewcommand{\arraystretch}{1.25}
+\setlength{\parskip}{0.35em}
+\setlength{\parindent}{1em}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{BEYOND BUFFETT Phase2 Methodology}
+\rhead{破：適用条件の最適化}
+\cfoot{\thepage}
+\titleformat{\section}{\sffamily\bfseries\Large}{\thesection}{0.6em}{}
+\titleformat{\subsection}{\sffamily\bfseries\large}{\thesubsection}{0.6em}{}
+\titleformat{\subsubsection}{\sffamily\bfseries}{\thesubsubsection}{0.6em}{}
+
+\newcommand{\ME}{\mathrm{ME}}
+\newcommand{\BE}{\mathrm{BE}}
+\newcommand{\NI}{\mathrm{NI}}
+\newcommand{\CFO}{\mathrm{CFO}}
+\newcommand{\GP}{\mathrm{GP}}
+\newcommand{\TA}{\mathrm{TA}}
+\newcommand{\ADV}{\mathrm{ADV}}
+\newcommand{\BM}{\mathrm{BM}}
+\newcommand{\EP}{\mathrm{EP}}
+\newcommand{\GPA}{\mathrm{GPA}}
+\newcommand{\Acc}{\mathrm{Accruals}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\median}{\operatorname{median}}
+\newcommand{\MAD}{\operatorname{MAD}}
+\newcommand{\Top}{\operatorname{Top}}
+\newcommand{\HHI}{\operatorname{HHI}}
+\newcommand{\Jaccard}{\operatorname{Jaccard}}
+\newcommand{\1}{\mathbf{1}}
+
+\definecolor{lightgraybox}{gray}{0.95}
+\newtcolorbox{keybox}{colback=lightgraybox,colframe=black,boxrule=0.4pt,arc=1mm,left=1mm,right=1mm,top=1mm,bottom=1mm}
+\newtcolorbox{warningbox}{colback=white,colframe=black,boxrule=0.8pt,arc=1mm,left=1mm,right=1mm,top=1mm,bottom=1mm}
+
+\begin{document}
+
+\begin{titlepage}
+\centering
+\vspace*{20mm}
+{\sffamily\bfseries\Huge BEYOND BUFFETT\\[2mm] Phase2 解説レポート}\par
+\vspace{5mm}
+{\sffamily\Large 破：先行研究式の「使い方」を最適化する}\par
+\vspace{10mm}
+{\large Phase1 の守る堀を維持しながら，Phase3 に渡す候補宇宙を作る}\par
+\vspace{20mm}
+\begin{tikzpicture}[node distance=16mm, every node/.style={font=\sffamily,align=center}]
+\node[draw, rounded corners, minimum width=33mm, minimum height=17mm] (p1) {Phase1：守\\先行研究式};
+\node[draw, rounded corners, minimum width=33mm, minimum height=17mm, right=of p1] (p2) {Phase2：破\\適用条件の最適化};
+\node[draw, rounded corners, minimum width=33mm, minimum height=17mm, right=of p2] (p3) {Phase3：離\\未来のMoat};
+\draw[-{Stealth[length=3mm]}, thick] (p1) -- (p2);
+\draw[-{Stealth[length=3mm]}, thick] (p2) -- (p3);
+\node[below=5mm of p1, align=center] {完成された堀を観測};
+\node[below=5mm of p2, align=center] {式は変えず\\使い方を調整};
+\node[below=5mm of p3, align=center] {変わるMoat\\生まれるMoat};
+\end{tikzpicture}
+\vfill
+{\large 作成日：\today}\par
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\section*{まず結果：Phase2 は何をしたのか}
+\addcontentsline{toc}{section}{まず結果：Phase2 は何をしたのか}
+
+\begin{keybox}
+Phase2 の結論は，「AI に銘柄を直接選ばせた」ことではない。Phase1 で使った B/M，E/P，Gross Profitability，Piotroski available signal ratio，Sloan Accruals，Distress guardrail，Liquidity の\textbf{式の定義は変えず}，それらをどの強さで使うか，どの正規化で比べるか，何社を Phase3 に渡すかを検証した。utility 最大化では Top2000 が最良だったが，Phase3 で実際に分析できる広さ，品質，安全性，業種分散，レビュー負荷を総合して，\textbf{Top1200 を Phase2 optimized candidate universe として正式採用}する。
+\end{keybox}
+
+\begin{table}[tbp]
+\caption{Phase2 の最重要結果}
+\label{tab:main-result}
+\centering
+\begin{tabular}{lll}
+\toprule
+項目 & 結果 & 解釈 \\
+\midrule
+utility 最大 TopN & Top2000 & 候補数の広さを重く見ると最大 \\
+正式採用 TopN & Top1200 & Phase3 で扱える balanced universe \\
+Phase1 Top5 保持 & 5/5 & Buffett Core と矛盾しない \\
+Top1200 の Distress flag & 0.0\% & 長期保有に不適な明確危険を排除 \\
+Top1200 の Anomaly flag & 0.0\% & 見かけの割安・異常値の混入を抑制 \\
+Top1200 の GP missing & 0.0\% & Quality 指標の欠損混入を抑制 \\
+Top1200 の Sector HHI & 0.0707 & 特定業種への過度な集中を抑制 \\
+Top2000 の役割 & 参照群 & Phase3 の取りこぼし確認に使う \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[tbp]
+\centering
+\includegraphics[width=0.90\linewidth]{figures/phase_flow.png}
+\caption{守・破・離の接続。Phase2 は Phase1 の式を壊すのではなく，式の使い方を調整し，Phase3 の候補宇宙を作る。}
+\label{fig:phase-flow}
+\end{figure}
+
+\newpage
+\section{Phase1 から Phase2 へ：何を守り，何を破るのか}
+
+\subsection{Phase1 の復習：守る堀を Top5 に圧縮した}
+Phase1 は「守」である。ここでは，バフェット型投資を公開データで再現できる範囲に限定し，先行研究式だけを用いて Buffett Core Top5 を作った。Phase1 の一文定義は，次のように整理できる。
+
+\begin{keybox}
+良い会社を，高すぎない価格で買い，長期保有に耐えない企業を避ける。
+\end{keybox}
+
+この考え方は，cheap，high-quality，safe の三つに分解できる。cheap は B/M と E/P，high-quality は Gross Profitability，safe は Piotroski，Sloan，Distress guardrail で測った。Phase1 では，これらを足し合わせた独自スコアを作らず，段階的なフィルターと逐次タイブレークで Top5 を選んだ。
+
+\begin{table}[tbp]
+\caption{Phase1 と Phase2 の違い}
+\label{tab:p1-p2}
+\centering
+\begin{tabular}{p{35mm}p{53mm}p{53mm}}
+\toprule
+項目 & Phase1：守 & Phase2：破 \\
+\midrule
+主目的 & Buffett Core Top5 を作る & Phase3 に渡す候補宇宙を作る \\
+式の扱い & 先行研究式を忠実に使う & 式は変えず，使い方を最適化する \\
+重み付きスコア & 正式には使わない & 探索的補助として使う \\
+候補数 & 3,099社から Top5 & Top1200を正式候補群にする \\
+将来テーマ & 入れない & 入れない。Phase3 で扱う \\
+AI の役割 & 原則使わない & 条件・重み・候補数を比較する \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Phase2 は何を破るのか}
+Phase2 は Phase1 の式そのものを破らない。破るのは，固定された適用条件である。たとえば，Phase1 では B/M 上位 30\%，positive E/P 上位 50\%，Piotroski available ratio 0.65 以上，Sloan Accruals の悪い側 30\% 除外などを用いた。Phase2 では，このような固定条件を絶対視せず，候補数，品質，安全性，流動性，業種分散が保てる範囲を探索する。
+
+\begin{warningbox}
+Phase2 の最適化は，将来リターン最大化ではない。AI は銘柄を直接選ぶのではなく，先行研究式の適用条件と候補群サイズを比較するために使う。
+\end{warningbox}
+
+\section{簿記・株式投資を 0 から理解する}
+
+\subsection{企業を見る三つの表}
+Phase2 で使う式は，Phase1 と同じく，三つの財務情報から作る。貸借対照表は企業の資産・負債・純資産を表す。損益計算書は売上・費用・利益を表す。キャッシュフロー計算書は，実際に現金が入ったか出たかを表す。
+
+\begin{table}[tbp]
+\caption{Phase2 で使う会計用語のミニ辞書}
+\label{tab:dictionary}
+\centering
+\begin{tabular}{p{30mm}p{55mm}p{55mm}}
+\toprule
+用語 & 初学者向けの意味 & Phase2 での使い方 \\
+\midrule
+時価総額 & 市場が会社全体につけた値段 & B/M，E/P の分母 \\
+簿価自己資本 & 会計上の株主の持ち分 & B/M の分子 \\
+純利益 & 最終的に残った会計上の利益 & E/P，Sloan で使う \\
+営業CF & 本業から入った現金 & 利益の質を見る \\
+売上総利益 & 売上から原価を引いた付加価値 & GP/A で使う \\
+総資産 & 会社が事業に使う資産全体 & GP/A，Sloan の分母 \\
+売買代金 & 株価と出来高の積 & 実際に売買できるかを見る \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{時価総額からすべてが始まる}
+企業全体を市場がいくらと見ているかを時価総額で表す。
+
+\begin{equation}
+\ME_i \coloneqq P_i N_i .
+\label{eq:market-equity}
+\end{equation}
+
+ここで，$P_i$ は企業 $i$ の株価，$N_i$ は発行済株式数，$\ME_i$ は時価総額である。以後の Value 指標は，会社の会計上の価値や利益を，この市場評価と比べる。
+
+\section{Phase2 で変えない式：Buffett Proxy の土台}
+
+\subsection{Value：B/M と E/P}
+B/M は，簿価自己資本を時価総額で割る。
+
+\begin{equation}
+\BM_i \coloneqq \frac{\BE_i}{\ME_i} .
+\label{eq:bm}
+\end{equation}
+
+$\BE_i$ は企業 $i$ の簿価自己資本である。B/M が高い会社は，純資産に対して市場価格が低い。これは「高すぎない価格で買う」という Buffett 的な価格規律に対応する。
+
+E/P は，純利益を時価総額で割る。
+
+\begin{equation}
+\EP_i \coloneqq \frac{\NI_i}{\ME_i} .
+\label{eq:ep}
+\end{equation}
+
+$\NI_i$ は純利益である。E/P は利益利回りであり，会社全体を買ったと仮定したときに，価格に対してどれだけ利益を生んでいるかを見る。
+
+\subsection{Quality：Gross Profitability}
+Gross Profitability は，売上総利益を総資産で割る。
+
+\begin{align}
+\GP_i &\coloneqq \mathrm{Sales}_i - \mathrm{COGS}_i, \label{eq:gp}\\
+\GPA_i &\coloneqq \frac{\GP_i}{\TA_i}. \label{eq:gpa}
+\end{align}
+
+$\mathrm{Sales}_i$ は売上高，$\mathrm{COGS}_i$ は売上原価，$\TA_i$ は総資産である。Gross Profitability は，企業が資産を使ってどれだけ付加価値を生むかを測る。バフェット型の Moat は，ブランド力，価格決定力，効率的な事業構造として利益率に現れるため，GP/A は「完成された堀」の痕跡である。
+
+\subsection{Financial Strength：Piotroski available signal ratio}
+Piotroski F-Score は，本来 9 つの二値シグナルからなる。データ制約で全シグナルを使えない場合，Phase2 でも Phase1 と同じく available 版として表記する。
+
+\begin{align}
+F_i^{\mathrm{avail}} &\coloneqq \sum_{k\in K_i} I_{i,k}, \label{eq:favail}\\
+R_i^{\mathrm{avail}} &\coloneqq \frac{F_i^{\mathrm{avail}}}{|K_i|}. \label{eq:ravail}
+\end{align}
+
+ここで，$K_i$ は企業 $i$ について利用可能なシグナル集合，$I_{i,k}$ はシグナル $k$ を満たせば 1，満たさなければ 0 を取る指示関数である。$R_i^{\mathrm{avail}}$ は，利用可能な財務健全性シグナルのうち，何割を満たしたかを表す。
+
+\subsection{Earnings Quality：Sloan Accruals}
+利益が出ていても，現金が入っていなければ長期保有に耐えにくい。Sloan Accruals は，純利益と営業キャッシュフローの差を平均総資産で割る。
+
+\begin{align}
+\overline{\TA}_{i,t} &\coloneqq \frac{\TA_{i,t}+\TA_{i,t-1}}{2}, \label{eq:avgta}\\
+\Acc_i &\coloneqq \frac{\NI_i-\CFO_i}{\overline{\TA}_{i,t}}. \label{eq:accruals}
+\end{align}
+
+$\Acc_i$ が高いほど，純利益に比べて営業CFが少ないことを意味する。したがって，Phase2 では低い Accruals を「利益の質がよい」と解釈する。
+
+\subsection{Low Distress と Liquidity}
+Ohlson や Altman の原式が使えないとき，Phase2 では simple distress guardrail を使う。これは，債務超過，連続赤字，連続営業CF赤字，高負債などを確認する最低限の安全柵である。
+
+\begin{equation}
+G_i \coloneqq \1\{\BE_i<0\}\lor \1\{\NI_{i,t}<0\land \NI_{i,t-1}<0\}\lor \1\{\CFO_{i,t}<0\land \CFO_{i,t-1}<0\}\lor \1\{\mathrm{Leverage}_i \text{ is high}\} .
+\label{eq:guardrail}
+\end{equation}
+
+流動性は 60 営業日の平均売買代金で見る。
+
+\begin{equation}
+\ADV_{i,60} \coloneqq \frac{1}{60}\sum_{t=1}^{60} P_{i,t}V_{i,t} .
+\label{eq:adv}
+\end{equation}
+
+$V_{i,t}$ は出来高である。日経 STOCK リーグでは 500 万円の仮想ポートフォリオを組むため，理論上よい銘柄でも，売買代金が極端に小さい銘柄は扱いにくい。
+
+\section{Phase2 で導入した「使い方」の最適化}
+
+\subsection{なぜ正規化が必要なのか}
+B/M，E/P，GP/A，Liquidity は単位も分布も異なる。生値をそのまま足すと，単位の大きい指標が勝ってしまう。そこで Phase2 では，各指標を 0 から 1 の順位に変換する。
+
+高いほどよい指標 $x_{i,m}$ に対して，市場全体の percentile score を次のように定義する。
+
+\begin{equation}
+S_{i,m}^{\mathrm{mkt}} \coloneqq \frac{\rank(x_{i,m})-1}{n_m-1}, \qquad S_{i,m}^{\mathrm{mkt}}\in[0,1].
+\label{eq:market-percentile}
+\end{equation}
+
+ここで，$n_m$ は指標 $m$ が利用可能な企業数である。低いほどよい指標，たとえば Accruals では，順位の向きを反転する。
+
+\begin{equation}
+S_{i,\Acc}^{\mathrm{mkt}} \coloneqq 1-\frac{\rank(\Acc_i)-1}{n_{\Acc}-1} .
+\label{eq:accrual-score}
+\end{equation}
+
+\subsection{業種内順位}
+Gross Profitability は業種差が出やすい。小売業では高く，電力・素材・インフラでは低く見えやすい。そこで，業種 $g(i)$ の中での順位も計算する。
+
+\begin{equation}
+S_{i,m}^{\mathrm{sec}} \coloneqq \frac{\rank_{j\in g(i)}(x_{j,m})-1}{n_{g(i),m}-1} .
+\label{eq:sector-percentile}
+\end{equation}
+
+これは「市場全体では目立たないが，業種内では良い会社」を見落とさないための補助指標である。
+
+\subsection{Robust z-score と Winsorized z-score}
+順位だけでなく，外れ値への感度も確認した。Robust z-score は中央値と MAD を用いる。
+
+\begin{equation}
+Z_{i,m}^{\mathrm{rob}} \coloneqq \frac{x_{i,m}-\median(x_m)}{1.4826\,\MAD(x_m)} .
+\label{eq:robust-z}
+\end{equation}
+
+また，極端値を上下分位で丸めたあと z-score を計算する winsorized z-score も使った。正規化方式により候補群が揺れる場合，単一スコアを絶対視しないためである。
+
+\section{Exploratory Weighted Buffett Score}
+
+\subsection{正式式ではなく，探索的補助である}
+Phase2 では，Phase1 と異なり，探索的に重み付きスコアを作った。ただし，これは正式な Buffett Score ではない。目的は「どの指標が候補宇宙形成に効くか」を見ることである。
+
+\begin{align}
+\mathrm{EWBS}_i(\bm{w}) \coloneqq {}& w_{\BM}S_{i,\BM}+w_{\EP}S_{i,\EP}+w_{\GPA}S_{i,\GPA}+w_{\mathrm{Pio}}S_{i,\mathrm{Pio}} \notag\\
+&+w_{\Acc}S_{i,\Acc}+w_{\mathrm{Dist}}S_{i,\mathrm{Dist}}+w_{\mathrm{Liq}}S_{i,\mathrm{Liq}} \notag\\
+&-\lambda_{\mathrm{anom}}P_{i,\mathrm{anom}}-\lambda_{\mathrm{micro}}P_{i,\mathrm{micro}}-\lambda_{\mathrm{one}}P_{i,\mathrm{one}}-\lambda_{\mathrm{miss}}P_{i,\mathrm{miss}}.
+\label{eq:ewbs}
+\end{align}
+
+ここで $S_{i,m}$ は正規化済みスコア，$P_{i,\cdot}$ は異常値・小型株・一過性利益・欠損に関するペナルティである。正の重みには次の制約を置いた。
+
+\begin{equation}
+ w_m\ge 0, \qquad \sum_{m\in\mathcal{M}} w_m=1.
+\label{eq:weight-constraint}
+\end{equation}
+
+\subsection{探索で得られた代表重み}
+探索の代表解では，Liquidity，Distress，B/M，Gross Profitability が大きく出た。これは，Phase2 が「安い」「良い」「安全」「実際に買える」を同時に見ていることを示す。
+
+\begin{figure}[tbp]
+\centering
+\includegraphics[width=0.85\linewidth]{figures/optimized_weights.png}
+\caption{探索で得られた代表重み。これは正式な Phase1 式ではなく，Phase2 の探索的補助である。}
+\label{fig:weights}
+\end{figure}
+
+\begin{table}[tbp]
+\caption{代表重みの解釈}
+\label{tab:weights}
+\centering
+\begin{tabular}{lrl}
+\toprule
+指標 & 重み & 解釈 \\
+\midrule
+Liquidity & 0.3301 & 実際に売買できる候補を優先 \\
+Distress & 0.2506 & 長期保有に不適な危険を避ける \\
+B/M & 0.1845 & 高すぎない価格の規律 \\
+Gross Profitability & 0.1472 & 既に表れた事業の堀 \\
+E/P & 0.0572 & 利益に対する割安性 \\
+Sloan & 0.0206 & 利益の質の補助確認 \\
+Piotroski & 0.0098 & 財務健全性の補助確認 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{探索アルゴリズム：なぜ AI 最適化を使うのか}
+
+\subsection{Grid Search と Random Search}
+Grid Search は，決められた候補を総当たりで試す方法である。説明しやすいが，次元が増えると試行数が急増する。Random Search は，広い空間からランダムに試す。重要なパラメータが一部に集中しているとき，Grid Search より効率的な場合がある。
+
+\subsection{Optuna TPE}
+TPE は，過去の試行結果から「良かった領域」と「悪かった領域」を分け，次に試す重みを選ぶ逐次モデルベース最適化である。Phase2 では，重み，ペナルティ，正規化方法，欠損処理などの組み合わせを探索した。
+
+\subsection{NSGA-II}
+Phase2 の目的は一つではない。候補数を増やしたいが，品質・安全性・流動性・業種分散も保ちたい。そこで，単一の最良解ではなく Pareto 解集合を調べる NSGA-II を用いた。
+
+\begin{equation}
+\max_{\bm w,N}\; \left( U_N, Q_N, V_N, D_N, L_N, \mathrm{Stab}_N \right), \qquad \min_{\bm w,N}\; \left( A_N, C_{\bm w}, M_N \right).
+\label{eq:multiobjective}
+\end{equation}
+
+ここで，$U_N$ は総合 utility，$Q_N$ は品質，$V_N$ は Value，$D_N$ は安全性，$L_N$ は流動性，$\mathrm{Stab}_N$ は安定性，$A_N$ は異常値・レビュー負荷，$C_{\bm w}$ は重み集中，$M_N$ は欠損率である。
+
+\section{候補数 TopN の決定}
+
+\subsection{TopN utility の定義}
+候補数は多いほど Phase3 の取りこぼしを防げるが，多すぎると Phase2 で何も絞っていない状態に近づく。そこで，次のような utility を用いた。
+
+\begin{align}
+U_N \coloneqq {}& 0.20 B_N + 0.15 Q_N + 0.15 V_N + 0.12 D_N + 0.10 L_N + 0.10 S_N \notag\\
+&+0.10 T_N +0.08 C_N -0.10 A_N -0.05 G_N.
+\label{eq:topn-utility}
+\end{align}
+
+$B_N$ は候補数の広さ，$Q_N$ は品質維持，$V_N$ は割安性維持，$D_N$ は distress 抑制，$L_N$ は流動性，$S_N$ は業種分散，$T_N$ は安定性，$C_N$ は Phase1 Top5 保持，$A_N$ は異常値・レビュー負荷，$G_N$ は GP 欠損ペナルティである。
+
+
+\subsection{utility の各部品を 0 から理解する}
+式\eqref{eq:topn-utility} は，一見すると複雑に見える。しかし，やっていることは単純である。TopN 候補集合を $\mathcal{C}_N$ と書き，市場全体を $\mathcal{U}$ と書く。候補集合が市場全体より良い性質を保っているかを，一つずつ確認する。
+
+\subsubsection{候補数の広さ：$B_N$}
+Phase2 は Phase3 の入口であるため，候補数はある程度広い方がよい。候補数の広さは，最大参照候補数 $N_{\max}=2000$ を用いて次のように単純化できる。
+
+\begin{equation}
+B_N \coloneqq \frac{N}{N_{\max}} .
+\label{eq:breadth-score}
+\end{equation}
+
+この項があるため，utility だけを最大化すると Top2000 が有利になる。したがって，utility 最大解と正式採用解は分けて解釈する必要がある。
+
+\subsubsection{Quality Preservation：$Q_N$}
+候補群が市場平均より低品質になっていないかを確認する。GP/A と Piotroski が市場中央値以上で，Accruals が市場中央値以下なら高く評価する。
+
+\begin{align}
+Q_N \coloneqq \frac{1}{3}\Bigl(&\1\{\median_{i\in\mathcal{C}_N}(\GPA_i)\ge \median_{i\in\mathcal{U}}(\GPA_i)\} \notag\\
+&+\1\{\median_{i\in\mathcal{C}_N}(R_i^{\mathrm{avail}})\ge \median_{i\in\mathcal{U}}(R_i^{\mathrm{avail}})\} \notag\\
+&+\1\{\median_{i\in\mathcal{C}_N}(\Acc_i)\le \median_{i\in\mathcal{U}}(\Acc_i)\}\Bigr).
+\label{eq:quality-score}
+\end{align}
+
+ここで Accruals は低いほど良いので，不等号の向きが逆になる。
+
+\subsubsection{Value Discipline：$V_N$}
+Phase2 で候補を広げても，高すぎる企業ばかりになってはいけない。そこで，B/M と E/P が市場中央値以上かを確認する。
+
+\begin{equation}
+V_N \coloneqq \frac{1}{2}\Bigl(\1\{\median_{\mathcal{C}_N}(\BM)\ge \median_{\mathcal{U}}(\BM)\}+\1\{\median_{\mathcal{C}_N}(\EP)\ge \median_{\mathcal{U}}(\EP)\}\Bigr).
+\label{eq:value-score}
+\end{equation}
+
+\subsubsection{Safety・Liquidity・Review penalty}
+財務危機企業の混入率を $r_N^{\mathrm{dist}}$，異常値・レビュー対象の混入率を $r_N^{\mathrm{review}}$ とすると，安全性とレビュー負荷は次のように整理できる。
+
+\begin{align}
+D_N &\coloneqq 1-r_N^{\mathrm{dist}}, \label{eq:safety-score}\\
+A_N &\coloneqq r_N^{\mathrm{review}}+r_N^{\mathrm{anom}}, \label{eq:review-penalty}\\
+G_N &\coloneqq r_N^{\mathrm{GP\;miss}}. \label{eq:gp-missing-penalty}
+\end{align}
+
+流動性は市場中央値に対する倍率で見る。ただし，倍率が非常に大きくなりすぎると過度に効くため，上限を設ける。
+
+\begin{equation}
+L_N \coloneqq \min\left\{1,\;\frac{\median_{\mathcal{C}_N}(\ADV_{60})}{\median_{\mathcal{U}}(\ADV_{60})}\right\} .
+\label{eq:liquidity-score}
+\end{equation}
+
+\subsubsection{Phase1 Top5 coverage：$C_N$}
+Phase2 は Phase1 を否定してはいけない。したがって，Phase1 Top5 が候補群に残っているかも確認する。
+
+\begin{equation}
+C_N \coloneqq \frac{\#\{i\in \mathrm{Top5}_{\mathrm{Phase1}}\mid i\in\mathcal{C}_N\}}{5} .
+\label{eq:phase1-coverage}
+\end{equation}
+
+Top1200 では $C_N=1$，つまり Phase1 Top5 の 5 社すべてが残った。
+
+\subsection{なぜ過去リターンを主目的にしないのか}
+Phase2 の目的は，将来リターンを当てることではない。もし過去リターンや Sharpe Ratio を主目的にすると，偶然過去に良かった条件を拾ってしまう危険がある。Phase2 はあくまで，Phase3 で未来 Moat を評価するための候補宇宙を作る段階である。したがって，目的関数はリターンではなく，候補数，品質，安全性，流動性，業種分散，安定性を中心に設計する。
+
+\begin{keybox}
+Phase2 の utility は銘柄スコアではない。候補群の作り方を比較するためのメタ評価である。
+\end{keybox}
+
+\subsection{小さな計算例：三つの企業をどう見るか}
+次の架空例では，A社は高品質だが割安性が弱い。B社は割安性と品質のバランスがよい。C社は一見割安だが，Accruals が高く，利益の現金裏付けに注意が必要である。
+
+\begin{table}[tbp]
+\caption{Phase2 スコアの直感例}
+\label{tab:toy-example}
+\centering
+\begin{tabular}{lrrrrrl}
+\toprule
+企業 & B/M & E/P & GP/A & Piotroski & Accruals & 解釈 \\
+\midrule
+A社 & 0.80 & 0.06 & 0.45 & 0.83 & -0.02 & 良い会社だが価格は中程度 \\
+B社 & 1.20 & 0.08 & 0.38 & 0.83 & -0.01 & Value と Quality のバランスが良い \\
+C社 & 2.50 & 0.20 & 0.05 & 0.50 & 0.18 & 安いがバリュートラップに注意 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Phase2 が目指すのは，C社のような「安い理由のある企業」を大量に通すことではない。B社のように，価格・質・安全性のバランスを持つ企業を広く残すことである。
+
+\subsection{Top1200 と Top2000 の関係}
+utility 最大化では Top2000 が最良になった。しかし，Phase2 の目的は候補数最大化ではない。Phase3 で人間が事業内容，テーマ，変化の兆しを確認するためには，候補数が広すぎると分析負荷が大きい。Top1200 は，Phase1 Top5 をすべて含み，主要 risk flag を 0\% に保ち，業種分散も良い。したがって，Top2000 は取りこぼし確認用の参照群，Top1200 は正式候補宇宙とした。
+
+\begin{figure}[tbp]
+\centering
+\includegraphics[width=0.90\linewidth]{figures/topn_utility_curve.png}
+\caption{TopN utility の推移。候補数を含む utility では Top2000 が最大だが，正式採用は Phase3 の分析可能性を重視して Top1200 とする。}
+\label{fig:topn-utility}
+\end{figure}
+
+\begin{table}[tbp]
+\caption{Top1200，Top2000，市場全体の比較}
+\label{tab:top1200-comparison}
+\centering
+\begin{tabular}{lrrr}
+\toprule
+指標 & Top1200 & Top2000 & 市場全体 \\
+\midrule
+候補数 & 1200 & 2000 & 3099 \\
+B/M 中央値 & 0.9045 & 0.8930 & 0.8766 \\
+E/P 中央値 & 0.0755 & 0.0764 & 0.0735 \\
+GP/A 中央値 & 0.2569 & 0.2620 & 0.2569 \\
+Piotroski 中央値 & 0.8333 & 0.8333 & 0.6667 \\
+Sloan 中央値 & -0.0232 & -0.0193 & -0.0191 \\
+ADV60 中央値 & 3.47億円 & 1.42億円 & 0.71億円 \\
+Distress flag & 0.0\% & 0.0\% & 5.94\% \\
+Anomaly flag & 0.0\% & 0.05\% & 14.33\% \\
+Sector HHI & 0.0707 & 0.0762 & 0.0826 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[tbp]
+\centering
+\includegraphics[width=0.90\linewidth]{figures/top1200_vs_market_metrics.png}
+\caption{Top1200 は市場中央値より Value，Quality，Financial Strength，Earnings Quality，Liquidity を保つ。ADV60 は倍率が大きいため log 表示。}
+\label{fig:top1200-vs-market}
+\end{figure}
+
+\section{業種分散と HHI}
+
+\subsection{なぜ業種分散を見るのか}
+Phase2 が候補宇宙を作る段階で，特定業種に偏りすぎると，Phase3 で未来 Moat を評価するときの視野が狭くなる。そこで業種集中度を Herfindahl-Hirschman Index（HHI）で測る。
+
+\begin{equation}
+\HHI_N \coloneqq \sum_{g\in\mathcal{G}} p_{g,N}^{2}, \qquad p_{g,N}\coloneqq \frac{\#\{i\in\Top(N)\mid g(i)=g\}}{N}.
+\label{eq:hhi}
+\end{equation}
+
+$\HHI_N$ が低いほど，業種が分散している。Top1200 の Sector HHI は 0.0707 であり，市場全体の 0.0826 より低い。
+
+\begin{figure}[tbp]
+\centering
+\includegraphics[width=0.88\linewidth]{figures/top1200_sector_distribution.png}
+\caption{Phase2 正式 Top1200 の主要業種分布。Retail Trade が最大だが，最大比率は約 11.6\% に抑えられている。}
+\label{fig:sector-distribution}
+\end{figure}
+
+\section{正規化方式の揺れと consensus tag}
+
+\subsection{問題：正規化方式で候補が揺れる}
+B/M や E/P は外れ値を持つ。Liquidity は桁が大きく，GP/A は業種差がある。そのため，market percentile，sector percentile，robust z-score，winsorized z-score のどれを使うかでランキングが変わる。
+
+Phase2 では，この揺れを「失敗」とは見なさない。むしろ，Phase3 で注意すべき企業を見つけるための情報として使う。
+
+\subsection{Jaccard similarity}
+候補集合の重なりは Jaccard similarity で測る。
+
+\begin{equation}
+\Jaccard(A,B) \coloneqq \frac{|A\cap B|}{|A\cup B|} .
+\label{eq:jaccard}
+\end{equation}
+
+$A$ と $B$ は二つの正規化方式で得た Top1200 候補集合である。値が 1 に近いほど同じ候補であり，0 に近いほど違う。
+
+\subsection{Normalization core と robust}
+4つの正規化方式のうち，3方式以上で Top1200 に入る企業を normalization core，2方式以上で入る企業を normalization robust とした。
+
+\begin{align}
+C_i &\coloneqq \sum_{r\in\mathcal{R}} \1\{i\in\Top_{r}(1200)\}, \label{eq:consensus-count}\\
+\mathrm{Core}_i &\coloneqq \1\{C_i\ge 3\}, \label{eq:core}\\
+\mathrm{Robust}_i &\coloneqq \1\{C_i\ge 2\}. \label{eq:robust}
+\end{align}
+
+\begin{figure}[tbp]
+\centering
+\includegraphics[width=0.82\linewidth]{figures/normalization_consensus_counts.png}
+\caption{正規化方式に対する頑健性タグ。正式 Top1200 内の大部分は複数方式でも残る候補である。}
+\label{fig:normalization-consensus}
+\end{figure}
+
+このタグにより，Phase3 では次のように扱える。
+
+\begin{table}[tbp]
+\caption{Normalization tag の Phase3 での使い方}
+\label{tab:normalization-tags}
+\centering
+\begin{tabular}{lll}
+\toprule
+タグ & 意味 & Phase3 での扱い \\
+\midrule
+Core & 3方式以上で Top1200 & 優先的に定性確認 \\
+Robust & 2方式以上で Top1200 & 通常候補として確認 \\
+Fragile & market percentile のみで残る & データ・外れ値を要確認 \\
+Sector-adjusted & 業種内順位では強い & 業種特性を考慮して復活候補 \\
+Outlier-sensitive & winsorizeで順位が動く & 財務原データを確認 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Point-in-time panel と Walk-forward の位置づけ}
+
+\subsection{なぜ時点合わせが必要か}
+財務データは，決算期末にすぐ投資家が使えるわけではない。有価証券報告書や決算短信が公表されて初めて利用可能になる。未来の情報を過去に使うと look-ahead bias が生じる。したがって，EDINET の提出日を使って，利用可能日を定義する。
+
+\begin{equation}
+\tau_{i,y} \coloneqq \min\{d\in\mathcal{T}\mid d>\mathrm{submit\_date}_{i,y}\},
+\label{eq:availability-date}
+\end{equation}
+
+ここで，$\mathcal{T}$ は取引日の集合であり，$\tau_{i,y}$ は企業 $i$ の年度 $y$ の情報が投資判断に使える最初の取引日である。
+
+\subsection{Train/test の分離}
+availability year $t$ の検証では，$t$ より前に利用可能だった情報だけを train，$t$ 年に利用可能になる情報を test とする。
+
+\begin{align}
+\mathcal{D}^{\mathrm{train}}_{t} &\coloneqq \{(i,y)\mid \tau_{i,y}<\min \mathcal{T}_{t}\}, \label{eq:train-set}\\
+\mathcal{D}^{\mathrm{test}}_{t} &\coloneqq \{(i,y)\mid \tau_{i,y}\in \mathcal{T}_{t}\}. \label{eq:test-set}
+\end{align}
+
+ただし，今回構築した panel は，完全な train 再最適化を複数foldで行うには期間が不足している。したがって，本レポートでは「完全な Walk-forward によって将来予測力を確認した」とは主張しない。正確には，\textbf{submit date ベースの point-in-time panel を構築し，年度別 snapshot 検証基盤を作った}と表現する。
+
+\begin{table}[tbp]
+\caption{Point-in-time panel のカバレッジ}
+\label{tab:panel-coverage}
+\centering
+\begin{tabular}{lr}
+\toprule
+項目 & 値 \\
+\midrule
+XBRL 抽出行数 & 10,712 \\
+XBRL parse error & 0 \\
+Panel 行数 & 10,712 \\
+strict fact complete rows & 9,155 \\
+strict walk-forward ready rows & 9,141 \\
+252営業日先リターン利用可能行 & 6,931 \\
+fold数 & 3 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[tbp]
+\centering
+\includegraphics[width=0.85\linewidth]{figures/panel_readiness.png}
+\caption{Point-in-time panel の年度別カバレッジ。Gross Profit の直接取得率はおおむね 88\% 台である。}
+\label{fig:panel-readiness}
+\end{figure}
+
+\subsection{現時点での限界}
+年度別 Top1200 には，金融業や distress flag 企業が混ざる問題が残った。これは，年度別 panel の検証基盤と，正式 Top1200 候補群をまだ完全統合していないためである。したがって，panel は Phase2 を補強する補助成果物であり，正式候補群は非金融・non-distress の Top1200 を使う。
+
+\section{なぜこれで Buffett を体現できるのか}
+
+\subsection{Buffett を完全再現するのではなく，公開データで近似する}
+Buffett 本人の投資判断には，経営者との対話，保険フロート，非公開企業買収，税務，長期の関係資本など，公開データだけでは再現できない要素がある。したがって，本プロジェクトは Buffett そのものではなく Buffett Proxy を作る。
+
+\subsection{Phase2 が守る三つの軸}
+Phase2 は候補数を広げるが，次の三つを捨てない。
+
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{cheap：} B/M と E/P により，高すぎない価格を確認する。
+\item \textbf{high-quality：} GP/A により，既に財務諸表に表れた事業の堀を確認する。
+\item \textbf{safe：} Piotroski，Sloan，Distress guardrail，Liquidity により，壊れにくく，現金を伴い，実際に売買できる企業を残す。
+\end{enumerate}
+
+\subsection{Phase2 は「バリュートラップを広げない」ための最適化}
+候補数を広げると，安いだけの企業や，データ異常で割安に見える企業が入りやすい。Phase2 は，単に TopN を増やすのではなく，品質，安全性，異常値，流動性，業種分散を同時に見ることで，バリュートラップの混入を抑えながら間口を広げる。
+
+\section{Phase3 への渡し方}
+
+\subsection{Top100，Top300，Top1200，Top2000 の役割}
+Phase2 の出力は，最終20社ではない。Phase3 で「変わる Moat」「生まれる Moat」を評価するための地図である。
+
+\begin{table}[tbp]
+\caption{Phase3 への候補群の渡し方}
+\label{tab:handoff}
+\centering
+\begin{tabular}{lrl}
+\toprule
+集合 & 社数 & 役割 \\
+\midrule
+Top100 & 100 & 最優先レビュー。まず人間が読む \\
+Top300 & 300 & Phase3 の主要分析対象 \\
+Top1200 & 1200 & Phase2 正式候補宇宙 \\
+Top2000 & 2000 & 取りこぼし確認用の参照群 \\
+Phase1 Top5 & 5 & Buffett Core として原則保持 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Phase3 で追加するもの}
+Phase3 では，Phase2 Top1200 に対して，資本効率改善，株主還元，事業再編，AI，電力，半導体，データ，自動化などの変化・未来テーマを重ねる。重要なのは，テーマ性だけで選ばないことである。Phase2 を通った企業は，最低限の Value，Quality，Safety，Liquidity を確認済みであるため，Phase3 のテーマ分析が「単なるテーマ株探し」になるのを防ぐ。
+
+\begin{figure}[tbp]
+\centering
+\begin{tikzpicture}[node distance=8mm, every node/.style={font=\sffamily\small}]
+\node[draw, rounded corners, minimum width=35mm, minimum height=10mm] (u) {非金融・指標利用可能ユニバース};
+\node[draw, rounded corners, below=of u, minimum width=35mm, minimum height=10mm] (score) {Phase2：EWBS と Top1200};
+\node[draw, rounded corners, below left=11mm and 8mm of score, minimum width=30mm, minimum height=10mm] (core) {Buffett Core};
+\node[draw, rounded corners, below=11mm of score, minimum width=30mm, minimum height=10mm] (trans) {変わる Moat};
+\node[draw, rounded corners, below right=11mm and 8mm of score, minimum width=30mm, minimum height=10mm] (future) {生まれる Moat};
+\node[draw, rounded corners, below=22mm of score, minimum width=40mm, minimum height=10mm] (final) {最終20社};
+\draw[-{Stealth[length=2.5mm]}, thick] (u) -- (score);
+\draw[-{Stealth[length=2.5mm]}, thick] (score) -- (core);
+\draw[-{Stealth[length=2.5mm]}, thick] (score) -- (trans);
+\draw[-{Stealth[length=2.5mm]}, thick] (score) -- (future);
+\draw[-{Stealth[length=2.5mm]}, thick] (core) -- (final);
+\draw[-{Stealth[length=2.5mm]}, thick] (trans) -- (final);
+\draw[-{Stealth[length=2.5mm]}, thick] (future) -- (final);
+\end{tikzpicture}
+\caption{Phase2 から Phase3 への受け渡し。Phase2 は最終20社ではなく，Phase3 の分析対象を作る。}
+\label{fig:p2-p3}
+\end{figure}
+
+\section{限界と誠実な書き方}
+
+Phase2 には強い点と限界がある。限界を明記することは，研究の弱さではなく，信頼性である。
+
+\begin{warningbox}
+\begin{itemize}[leftmargin=2em]
+\item Exploratory Weighted Buffett Score は正式な Phase1 式ではない。
+\item 将来リターンを最大化したモデルではない。
+\item Top1200 は utility 最大解ではなく，Phase3 に渡す balanced universe である。
+\item 完全な Walk-forward 検証には，さらに長い point-in-time パネルが必要である。
+\item Gross Profitability は原則 GP/A だが，過去 panel では proxy を使う場面がある。
+\item 金融業は同じ式で扱うと意味が変わるため，正式候補群では原則除外する。
+\end{itemize}
+\end{warningbox}
+
+\subsection{本文で使える要約文}
+\begin{keybox}
+Phase2 では，Phase1 で採用した先行研究式の定義は変更せず，重み・候補数・正規化方式・業種調整を検証した。候補数を含む utility を最大化すると Top2000 が最良となったが，本研究の目的は候補数の最大化ではなく，Phase3 で分析可能な候補宇宙を作ることである。そこで，Phase1 Top5 をすべて保持し，財務安全性，流動性，業種分散，レビュー負荷のバランスがよい Top1200 を Phase2 optimized candidate universe として採用した。
+\end{keybox}
+
+\section{Appendix A：変数一覧}
+
+\begin{longtable}{p{22mm}p{40mm}p{78mm}}
+\caption{Phase2 で使う主な変数}\label{tab:variables}\\
+\toprule
+記号 & 名称 & 意味 \\
+\midrule
+\endfirsthead
+\toprule
+記号 & 名称 & 意味 \\
+\midrule
+\endhead
+$P_i$ & 株価 & 企業 $i$ の 1 株あたり価格。 \\
+$N_i$ & 発行済株式数 & 市場に存在する株式数。 \\
+$\ME_i$ & 時価総額 & $P_iN_i$。市場が会社全体につけた値段。 \\
+$\BE_i$ & 簿価自己資本 & 会計上の株主の持ち分。 \\
+$\NI_i$ & 純利益 & 最終的に残った会計上の利益。 \\
+$\CFO_i$ & 営業キャッシュフロー & 本業から実際に入った現金。 \\
+$\GP_i$ & 売上総利益 & 売上から売上原価を引いた付加価値。 \\
+$\TA_i$ & 総資産 & 企業が事業に使う資産全体。 \\
+$\BM_i$ & Book-to-Market & 純資産に対する割安性。 \\
+$\EP_i$ & Earnings-to-Price & 利益に対する割安性。 \\
+$\GPA_i$ & Gross Profitability & 資産から付加価値を生む力。 \\
+$R_i^{\mathrm{avail}}$ & Piotroski available ratio & 利用可能な財務健全性シグナルの達成割合。 \\
+$\Acc_i$ & Sloan Accruals & 利益のうち現金を伴わない部分の大きさ。 \\
+$G_i$ & Distress guardrail & 明確な財務危険を示すフラグ。 \\
+$\ADV_{i,60}$ & 60日平均売買代金 & 実際に売買しやすいかの指標。 \\
+$S_{i,m}$ & 正規化スコア & 各指標を 0 から 1 に揃えた値。 \\
+$\mathrm{EWBS}_i$ & 探索的重み付きスコア & Phase2 の補助スコア。正式式ではない。 \\
+\bottomrule
+\end{longtable}
+
+\section{Appendix B：数式組版の方針}
+本レポートでは，数式を読みやすくするため，以下の方針を採用した。
+
+\begin{itemize}[leftmargin=2em]
+\item 式番号が必要な式は \texttt{equation} や \texttt{align} 環境で示し，本文では \eqref{eq:ewbs} のように参照する。
+\item 定義には \texttt{\textbackslash coloneqq} を用いる。
+\item 会計項目は斜体ではなく，$\ME$，$\BE$，$\CFO$ のようにローマン体で表記する。
+\item $\log$，$\exp$，$\rank$，$\median$ などは演算子として表記する。
+\item 図表は本文中で参照し，表のキャプションは上，図のキャプションは下に置く。
+\item 場合分けや条件には，必要に応じて集合の縦棒 $\mid$，指示関数 $\1\{\cdot\}$ を用いる。
+\end{itemize}
+
+\section{References}
+\begin{thebibliography}{99}
+\bibitem{Akiba2019} Akiba, T., Sano, S., Yanase, T., Ohta, T., \& Koyama, M. (2019) Optuna: A Next-generation Hyperparameter Optimization Framework. In \textit{Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining}, pp.2623-2631.
+\bibitem{Altman1968} Altman, E. I. (1968) Financial Ratios, Discriminant Analysis and the Prediction of Corporate Bankruptcy. \textit{The Journal of Finance}, 23(4), pp.589-609.
+\bibitem{Basu1977} Basu, S. (1977) Investment Performance of Common Stocks in Relation to Their Price-Earnings Ratios: A Test of the Efficient Market Hypothesis. \textit{The Journal of Finance}, 32(3), pp.663-682.
+\bibitem{Basu1983} Basu, S. (1983) The Relationship between Earnings' Yield, Market Value and Return for NYSE Common Stocks: Further Evidence. \textit{Journal of Financial Economics}, 12(1), pp.129-156.
+\bibitem{Bergstra2012} Bergstra, J., \& Bengio, Y. (2012) Random Search for Hyper-Parameter Optimization. \textit{Journal of Machine Learning Research}, 13, pp.281-305.
+\bibitem{Deb2002} Deb, K., Pratap, A., Agarwal, S., \& Meyarivan, T. (2002) A Fast and Elitist Multiobjective Genetic Algorithm: NSGA-II. \textit{IEEE Transactions on Evolutionary Computation}, 6(2), pp.182-197.
+\bibitem{FamaFrench1993} Fama, E. F., \& French, K. R. (1993) Common Risk Factors in the Returns on Stocks and Bonds. \textit{Journal of Financial Economics}, 33(1), pp.3-56.
+\bibitem{Frazzini2018} Frazzini, A., Kabiller, D., \& Pedersen, L. H. (2018) Buffett's Alpha. \textit{Financial Analysts Journal}, 74(4), pp.35-55.
+\bibitem{Jaccard1901} Jaccard, P. (1901) Étude comparative de la distribution florale dans une portion des Alpes et des Jura. \textit{Bulletin de la Société Vaudoise des Sciences Naturelles}, 37, pp.547-579.
+\bibitem{NovyMarx2013} Novy-Marx, R. (2013) The Other Side of Value: The Gross Profitability Premium. \textit{Journal of Financial Economics}, 108(1), pp.1-28.
+\bibitem{Ohlson1980} Ohlson, J. A. (1980) Financial Ratios and the Probabilistic Prediction of Bankruptcy. \textit{Journal of Accounting Research}, 18(1), pp.109-131.
+\bibitem{Piotroski2000} Piotroski, J. D. (2000) Value Investing: The Use of Historical Financial Statement Information to Separate Winners from Losers. \textit{Journal of Accounting Research}, 38, Supplement, pp.1-41.
+\bibitem{Sloan1996} Sloan, R. G. (1996) Do Stock Prices Fully Reflect Information in Accruals and Cash Flows about Future Earnings? \textit{The Accounting Review}, 71(3), pp.289-315.
+\bibitem{Snoek2012} Snoek, J., Larochelle, H., \& Adams, R. P. (2012) Practical Bayesian Optimization of Machine Learning Algorithms. In \textit{Advances in Neural Information Processing Systems}, 25, pp.2951-2959.
+\bibitem{Birdwatcher2019} Birdwatcher (2019/2025) 「LaTeX における正しい論文の書き方」Qiita, \url{https://qiita.com/birdwatcher/items/5ec42b35d84d3ee2ffbb}（2026年7月8日）.
+\bibitem{FSAEDINET} 金融庁「EDINET」，\url{https://disclosure2.edinet-fsa.go.jp/}（2026年7月8日）.
+\end{thebibliography}
+
+\end{document}
