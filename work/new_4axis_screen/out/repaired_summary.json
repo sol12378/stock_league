@@ -1,0 +1,86 @@
+{
+  "eligible": 1963,
+  "shares_coverage": {
+    "yfinance_only": 163,
+    "xbrl_repaired": 1963,
+    "xbrl_repaired_pct": 100.0,
+    "shares_fy_distribution": {
+      "2025": 1829,
+      "2026": 134
+    }
+  },
+  "shares_cross_check_vs_yfinance": {
+    "n": 163,
+    "median_ratio": 1.0048,
+    "within_5pct": 136,
+    "within_5pct_share": 83.4
+  },
+  "price_axis_coverage": {
+    "asis_movable_companies": 163,
+    "asis_movable_pct": 8.3,
+    "repaired_movable_companies": 1963,
+    "repaired_movable_pct": 100.0,
+    "asis_price_p_distinct": 164,
+    "repaired_price_p_distinct": 1651
+  },
+  "spearman_asis_vs_repaired_price": 0.2416,
+  "top20_comparison": {
+    "repaired_vs_asis_overlap": 2,
+    "repaired_vs_current_v10_overlap": 0,
+    "asis_vs_current_v10_overlap": 6,
+    "repaired_median_mcap_oku": 205.7,
+    "repaired_median_adv_oku": 2.13,
+    "repaired_sector_counts": {
+      "Machinery": 2,
+      "Chemicals": 2,
+      "Electric Appliances": 2,
+      "Information & Communication": 2,
+      "Services": 2,
+      "Metal Products": 2,
+      "Precision Instruments": 2,
+      "Land Transportation": 2,
+      "Nonferrous Metals": 1,
+      "Real Estate": 1,
+      "Construction": 1,
+      "Securities and Commodities Futures": 1
+    },
+    "repaired_scale_counts": {
+      "区分なし": 11,
+      "TOPIX Small 2": 4,
+      "TOPIX Small 1": 3,
+      "TOPIX Mid400": 2
+    },
+    "repaired_axis_profile": {
+      "moat_p": {
+        "min": 44.9,
+        "median": 70.3,
+        "max": 86.6
+      },
+      "change_p": {
+        "min": 63.1,
+        "median": 85.1,
+        "max": 98.5
+      },
+      "future_p": {
+        "min": 22.7,
+        "median": 78.6,
+        "max": 95.7
+      },
+      "price_p_repaired": {
+        "min": 53.9,
+        "median": 85.6,
+        "max": 98.7
+      }
+    }
+  },
+  "current_v10_portfolio_under_new_axes": {
+    "n_matched": 20,
+    "median_total_repaired_percentile": 78.7,
+    "axis_medians": {
+      "moat_p": 80.5,
+      "change_p": 78.6,
+      "future_p": 78.6,
+      "price_p_repaired": 42.2
+    }
+  }
+}

@@ -1,0 +1,748 @@
+{
+  "config": {
+    "liquidity_yen": 20000000,
+    "n_pick": 20,
+    "sector_cap": 2,
+    "moat_components": [
+      "gross_profitability",
+      "op_margin",
+      "roa",
+      "ocf_margin",
+      "equity_ratio"
+    ],
+    "change_components": [
+      "piotroski_f_score",
+      "delta_roa",
+      "delta_gross_margin",
+      "delta_asset_turnover",
+      "revenue_growth",
+      "oi_growth"
+    ],
+    "future_components": [
+      "future_moat_score"
+    ],
+    "price_components": [
+      "earnings_to_price",
+      "book_to_market"
+    ]
+  },
+  "caveats": [
+    "Future軸のキーワード点は2026年時点のEDINET本文から作られた時点不変値であり、過去コホートに適用するのは前方視バイアスを含む。",
+    "パネルは提出済みの有価証券報告書から構築しているため上場廃止企業が抜けている(生存者バイアス)。",
+    "金融業はPITパネルの利益率系が比較不能なため Step 0 で除外している(現行本番実装は別扱いで残している)。"
+  ],
+  "cohorts": {
+    "FY2024_252d": {
+      "role": "primary",
+      "return_column": "future_return_252d",
+      "n_panel": 3576,
+      "n_after_step0": 2132,
+      "anchor_date_median": "2024-06-28",
+      "component_coverage_pct": {
+        "gross_profitability": 93.8,
+        "op_margin": 99.4,
+        "roa": 100.0,
+        "ocf_margin": 88.4,
+        "equity_ratio": 100.0,
+        "piotroski_f_score": 100.0,
+        "delta_roa": 91.8,
+        "delta_gross_margin": 85.7,
+        "delta_asset_turnover": 91.3,
+        "revenue_growth": 91.3,
+        "oi_growth": 91.7,
+        "future_moat_score": 100.0,
+        "earnings_to_price": 100.0,
+        "book_to_market": 100.0
+      },
+      "axis_distinct_values": {
+        "moat_p": 2132,
+        "change_p": 1961,
+        "future_p": 18,
+        "price_p": 1811
+      },
+      "universe_equal_weight_return": 0.1165,
+      "universe_median_return": 0.0422,
+      "universe_cap_weight_return": 0.0384,
+      "spearman_corr": {
+        "moat_p": {
+          "moat_p": 1.0,
+          "change_p": 0.15,
+          "future_p": 0.163,
+          "price_p": -0.137
+        },
+        "change_p": {
+          "moat_p": 0.15,
+          "change_p": 1.0,
+          "future_p": 0.02,
+          "price_p": 0.081
+        },
+        "future_p": {
+          "moat_p": 0.163,
+          "change_p": 0.02,
+          "future_p": 1.0,
+          "price_p": -0.111
+        },
+        "price_p": {
+          "moat_p": -0.137,
+          "change_p": 0.081,
+          "future_p": -0.111,
+          "price_p": 1.0
+        }
+      },
+      "effective_weight_variance_share": {
+        "moat_p": 0.1974,
+        "change_p": 0.2489,
+        "future_p": 0.3263,
+        "price_p": 0.2275
+      },
+      "rank_ic": {
+        "moat_p": 0.0103,
+        "change_p": 0.0234,
+        "future_p": -0.0914,
+        "price_p": 0.2093,
+        "total_equal25": 0.072,
+        "total_current_weights": 0.0159,
+        "total_3axis_nofuture": 0.1551
+      },
+      "decile_spread": {
+        "moat_p": {
+          "top_decile": 0.1013,
+          "bottom_decile": 0.094,
+          "spread": 0.0073
+        },
+        "change_p": {
+          "top_decile": 0.1663,
+          "bottom_decile": 0.0751,
+          "spread": 0.0912
+        },
+        "future_p": {
+          "top_decile": 0.1264,
+          "bottom_decile": 0.1609,
+          "spread": -0.0344
+        },
+        "price_p": {
+          "top_decile": 0.2348,
+          "bottom_decile": -0.0405,
+          "spread": 0.2753
+        },
+        "total_equal25": {
+          "top_decile": 0.2237,
+          "bottom_decile": 0.0559,
+          "spread": 0.1678
+        },
+        "total_current_weights": {
+          "top_decile": 0.2156,
+          "bottom_decile": 0.0699,
+          "spread": 0.1457
+        },
+        "total_3axis_nofuture": {
+          "top_decile": 0.2163,
+          "bottom_decile": 0.0471,
+          "spread": 0.1692
+        }
+      },
+      "portfolios": {
+        "equal25_sectorcap2": {
+          "n": 20,
+          "mean_return": 0.3355,
+          "median_return": 0.1419,
+          "excess_vs_universe_ew": 0.219,
+          "bootstrap_ci95": [
+            0.0799,
+            0.6735
+          ],
+          "n_sectors": 12,
+          "median_market_cap_oku_yen": 130.6
+        },
+        "equal25_nodiv": {
+          "n": 20,
+          "mean_return": 0.2509,
+          "median_return": 0.2255,
+          "excess_vs_universe_ew": 0.1344,
+          "bootstrap_ci95": [
+            0.1008,
+            0.4068
+          ],
+          "n_sectors": 4,
+          "median_market_cap_oku_yen": 219.6
+        },
+        "current_weights_sectorcap2": {
+          "n": 20,
+          "mean_return": 0.0746,
+          "median_return": 0.0279,
+          "excess_vs_universe_ew": -0.042,
+          "bootstrap_ci95": [
+            -0.066,
+            0.2379
+          ],
+          "n_sectors": 11,
+          "median_market_cap_oku_yen": 130.6
+        },
+        "3axis_nofuture_sectorcap2": {
+          "n": 20,
+          "mean_return": 0.413,
+          "median_return": 0.2022,
+          "excess_vs_universe_ew": 0.2964,
+          "bootstrap_ci95": [
+            0.1322,
+            0.7448
+          ],
+          "n_sectors": 13,
+          "median_market_cap_oku_yen": 169.5
+        },
+        "moat_only_sectorcap2": {
+          "n": 20,
+          "mean_return": 0.0786,
+          "median_return": 0.1122,
+          "excess_vs_universe_ew": -0.0379,
+          "bootstrap_ci95": [
+            -0.0801,
+            0.2371
+          ],
+          "n_sectors": 12,
+          "median_market_cap_oku_yen": 1446.7
+        },
+        "change_only_sectorcap2": {
+          "n": 20,
+          "mean_return": 0.0699,
+          "median_return": -0.0679,
+          "excess_vs_universe_ew": -0.0467,
+          "bootstrap_ci95": [
+            -0.1653,
+            0.412
+          ],
+          "n_sectors": 13,
+          "median_market_cap_oku_yen": 283.3
+        },
+        "future_only_sectorcap2": {
+          "n": 20,
+          "mean_return": 0.2182,
+          "median_return": 0.0945,
+          "excess_vs_universe_ew": 0.1017,
+          "bootstrap_ci95": [
+            -0.0063,
+            0.4783
+          ],
+          "n_sectors": 10,
+          "median_market_cap_oku_yen": 363.7
+        },
+        "price_only_sectorcap2": {
+          "n": 20,
+          "mean_return": 0.2878,
+          "median_return": 0.246,
+          "excess_vs_universe_ew": 0.1712,
+          "bootstrap_ci95": [
+            0.1437,
+            0.4338
+          ],
+          "n_sectors": 13,
+          "median_market_cap_oku_yen": 81.7
+        },
+        "random20_reference": {
+          "mean": 0.1151,
+          "sd": 0.0906,
+          "p05": -0.0184,
+          "p95": 0.273,
+          "percentile_of_equal25": 98.0
+        }
+      },
+      "weight_sensitivity_dirichlet1000": {
+        "mean": 0.2481,
+        "sd": 0.1577,
+        "min": -0.1994,
+        "max": 0.5653,
+        "range": 0.7647,
+        "equal25_percentile": 63.7
+      },
+      "all_four_axes_above_threshold": {
+        "50": 150,
+        "60": 41,
+        "70": 7,
+        "80": 0,
+        "90": 0
+      },
+      "r2_vs_sector33_dummies": {
+        "moat_p": 0.161,
+        "change_p": 0.0425,
+        "future_p": 0.9937,
+        "price_p": 0.2119
+      }
+    },
+    "FY2025_126d": {
+      "role": "secondary",
+      "return_column": "future_return_126d",
+      "n_panel": 3583,
+      "n_after_step0": 1706,
+      "anchor_date_median": "2025-06-26",
+      "component_coverage_pct": {
+        "gross_profitability": 93.7,
+        "op_margin": 99.4,
+        "roa": 100.0,
+        "ocf_margin": 89.1,
+        "equity_ratio": 100.0,
+        "piotroski_f_score": 100.0,
+        "delta_roa": 99.9,
+        "delta_gross_margin": 93.6,
+        "delta_asset_turnover": 99.3,
+        "revenue_growth": 99.3,
+        "oi_growth": 99.8,
+        "future_moat_score": 100.0,
+        "earnings_to_price": 100.0,
+        "book_to_market": 100.0
+      },
+      "axis_distinct_values": {
+        "moat_p": 1706,
+        "change_p": 1706,
+        "future_p": 16,
+        "price_p": 1416
+      },
+      "universe_equal_weight_return": 0.1893,
+      "universe_median_return": 0.1414,
+      "universe_cap_weight_return": 0.2142,
+      "spearman_corr": {
+        "moat_p": {
+          "moat_p": 1.0,
+          "change_p": 0.237,
+          "future_p": 0.168,
+          "price_p": -0.157
+        },
+        "change_p": {
+          "moat_p": 0.237,
+          "change_p": 1.0,
+          "future_p": 0.036,
+          "price_p": 0.033
+        },
+        "future_p": {
+          "moat_p": 0.168,
+          "change_p": 0.036,
+          "future_p": 1.0,
+          "price_p": -0.099
+        },
+        "price_p": {
+          "moat_p": -0.157,
+          "change_p": 0.033,
+          "future_p": -0.099,
+          "price_p": 1.0
+        }
+      },
+      "effective_weight_variance_share": {
+        "moat_p": 0.2156,
+        "change_p": 0.2164,
+        "future_p": 0.3487,
+        "price_p": 0.2193
+      },
+      "rank_ic": {
+        "moat_p": -0.1519,
+        "change_p": 0.0303,
+        "future_p": 0.1047,
+        "price_p": 0.4333,
+        "total_equal25": 0.2184,
+        "total_current_weights": 0.1199,
+        "total_3axis_nofuture": 0.2189
+      },
+      "decile_spread": {
+        "moat_p": {
+          "top_decile": 0.1164,
+          "bottom_decile": 0.275,
+          "spread": -0.1586
+        },
+        "change_p": {
+          "top_decile": 0.2932,
+          "bottom_decile": 0.2187,
+          "spread": 0.0746
+        },
+        "future_p": {
+          "top_decile": 0.2986,
+          "bottom_decile": 0.246,
+          "spread": 0.0526
+        },
+        "price_p": {
+          "top_decile": 0.3523,
+          "bottom_decile": -0.0207,
+          "spread": 0.373
+        },
+        "total_equal25": {
+          "top_decile": 0.3677,
+          "bottom_decile": 0.1195,
+          "spread": 0.2482
+        },
+        "total_current_weights": {
+          "top_decile": 0.3452,
+          "bottom_decile": 0.1505,
+          "spread": 0.1947
+        },
+        "total_3axis_nofuture": {
+          "top_decile": 0.3725,
+          "bottom_decile": 0.1488,
+          "spread": 0.2237
+        }
+      },
+      "portfolios": {
+        "equal25_sectorcap2": {
+          "n": 20,
+          "mean_return": 0.504,
+          "median_return": 0.3845,
+          "excess_vs_universe_ew": 0.3148,
+          "bootstrap_ci95": [
+            0.3415,
+            0.6857
+          ],
+          "n_sectors": 11,
+          "median_market_cap_oku_yen": 236.7
+        },
+        "equal25_nodiv": {
+          "n": 20,
+          "mean_return": 0.5823,
+          "median_return": 0.5472,
+          "excess_vs_universe_ew": 0.393,
+          "bootstrap_ci95": [
+            0.3957,
+            0.7736
+          ],
+          "n_sectors": 5,
+          "median_market_cap_oku_yen": 207.8
+        },
+        "current_weights_sectorcap2": {
+          "n": 20,
+          "mean_return": 0.5124,
+          "median_return": 0.3111,
+          "excess_vs_universe_ew": 0.3231,
+          "bootstrap_ci95": [
+            0.276,
+            0.8435
+          ],
+          "n_sectors": 11,
+          "median_market_cap_oku_yen": 559.6
+        },
+        "3axis_nofuture_sectorcap2": {
+          "n": 20,
+          "mean_return": 0.5449,
+          "median_return": 0.455,
+          "excess_vs_universe_ew": 0.3556,
+          "bootstrap_ci95": [
+            0.3864,
+            0.7123
+          ],
+          "n_sectors": 15,
+          "median_market_cap_oku_yen": 200.1
+        },
+        "moat_only_sectorcap2": {
+          "n": 20,
+          "mean_return": 0.238,
+          "median_return": 0.0733,
+          "excess_vs_universe_ew": 0.0487,
+          "bootstrap_ci95": [
+            0.0362,
+            0.5395
+          ],
+          "n_sectors": 13,
+          "median_market_cap_oku_yen": 1267.5
+        },
+        "change_only_sectorcap2": {
+          "n": 20,
+          "mean_return": 0.3617,
+          "median_return": 0.1083,
+          "excess_vs_universe_ew": 0.1725,
+          "bootstrap_ci95": [
+            0.107,
+            0.6797
+          ],
+          "n_sectors": 15,
+          "median_market_cap_oku_yen": 127.3
+        },
+        "future_only_sectorcap2": {
+          "n": 20,
+          "mean_return": 0.3795,
+          "median_return": 0.3212,
+          "excess_vs_universe_ew": 0.1903,
+          "bootstrap_ci95": [
+            0.2037,
+            0.6244
+          ],
+          "n_sectors": 10,
+          "median_market_cap_oku_yen": 370.7
+        },
+        "price_only_sectorcap2": {
+          "n": 20,
+          "mean_return": 0.3867,
+          "median_return": 0.357,
+          "excess_vs_universe_ew": 0.1974,
+          "bootstrap_ci95": [
+            0.3024,
+            0.4873
+          ],
+          "n_sectors": 14,
+          "median_market_cap_oku_yen": 102.2
+        },
+        "random20_reference": {
+          "mean": 0.1895,
+          "sd": 0.0697,
+          "p05": 0.0837,
+          "p95": 0.3094,
+          "percentile_of_equal25": 100.0
+        }
+      },
+      "weight_sensitivity_dirichlet1000": {
+        "mean": 0.4671,
+        "sd": 0.0763,
+        "min": 0.1589,
+        "max": 0.6204,
+        "range": 0.4615,
+        "equal25_percentile": 64.3
+      },
+      "all_four_axes_above_threshold": {
+        "50": 116,
+        "60": 32,
+        "70": 7,
+        "80": 0,
+        "90": 0
+      },
+      "r2_vs_sector33_dummies": {
+        "moat_p": 0.1617,
+        "change_p": 0.0347,
+        "future_p": 0.9936,
+        "price_p": 0.2383
+      }
+    },
+    "FY2023_252d": {
+      "role": "reference_change_degenerate",
+      "return_column": "future_return_252d",
+      "n_panel": 3287,
+      "n_after_step0": 2038,
+      "anchor_date_median": "2023-06-30",
+      "component_coverage_pct": {
+        "gross_profitability": 93.9,
+        "op_margin": 99.4,
+        "roa": 100.0,
+        "ocf_margin": 88.9,
+        "equity_ratio": 100.0,
+        "piotroski_f_score": 100.0,
+        "delta_roa": 0.0,
+        "delta_gross_margin": 0.0,
+        "delta_asset_turnover": 0.0,
+        "revenue_growth": 0.0,
+        "oi_growth": 0.0,
+        "future_moat_score": 100.0,
+        "earnings_to_price": 100.0,
+        "book_to_market": 100.0
+      },
+      "axis_distinct_values": {
+        "moat_p": 2038,
+        "change_p": 5,
+        "future_p": 15,
+        "price_p": 1714
+      },
+      "universe_equal_weight_return": 0.1149,
+      "universe_median_return": 0.0641,
+      "universe_cap_weight_return": 0.1569,
+      "spearman_corr": {
+        "moat_p": {
+          "moat_p": 1.0,
+          "change_p": 0.283,
+          "future_p": 0.171,
+          "price_p": -0.137
+        },
+        "change_p": {
+          "moat_p": 0.283,
+          "change_p": 1.0,
+          "future_p": -0.045,
+          "price_p": 0.024
+        },
+        "future_p": {
+          "moat_p": 0.171,
+          "change_p": -0.045,
+          "future_p": 1.0,
+          "price_p": -0.099
+        },
+        "price_p": {
+          "moat_p": -0.137,
+          "change_p": 0.024,
+          "future_p": -0.099,
+          "price_p": 1.0
+        }
+      },
+      "effective_weight_variance_share": {
+        "moat_p": 0.2154,
+        "change_p": 0.3067,
+        "future_p": 0.281,
+        "price_p": 0.1969
+      },
+      "rank_ic": {
+        "moat_p": -0.1298,
+        "change_p": -0.0176,
+        "future_p": -0.0837,
+        "price_p": 0.4322,
+        "total_equal25": 0.1036,
+        "total_current_weights": -0.0015,
+        "total_3axis_nofuture": 0.1746
+      },
+      "decile_spread": {
+        "moat_p": {
+          "top_decile": 0.0433,
+          "bottom_decile": 0.1489,
+          "spread": -0.1056
+        },
+        "change_p": {
+          "top_decile": 0.1067,
+          "bottom_decile": 0.0568,
+          "spread": 0.0499
+        },
+        "future_p": {
+          "top_decile": 0.1953,
+          "bottom_decile": 0.2168,
+          "spread": -0.0215
+        },
+        "price_p": {
+          "top_decile": 0.4289,
+          "bottom_decile": -0.1197,
+          "spread": 0.5486
+        },
+        "total_equal25": {
+          "top_decile": 0.2456,
+          "bottom_decile": 0.0194,
+          "spread": 0.2262
+        },
+        "total_current_weights": {
+          "top_decile": 0.1814,
+          "bottom_decile": 0.092,
+          "spread": 0.0895
+        },
+        "total_3axis_nofuture": {
+          "top_decile": 0.2577,
+          "bottom_decile": -0.0072,
+          "spread": 0.2649
+        }
+      },
+      "portfolios": {
+        "equal25_sectorcap2": {
+          "n": 20,
+          "mean_return": 0.2832,
+          "median_return": 0.2386,
+          "excess_vs_universe_ew": 0.1683,
+          "bootstrap_ci95": [
+            0.0773,
+            0.5082
+          ],
+          "n_sectors": 11,
+          "median_market_cap_oku_yen": 260.6
+        },
+        "equal25_nodiv": {
+          "n": 20,
+          "mean_return": 0.3978,
+          "median_return": 0.3952,
+          "excess_vs_universe_ew": 0.2829,
+          "bootstrap_ci95": [
+            0.1701,
+            0.6421
+          ],
+          "n_sectors": 4,
+          "median_market_cap_oku_yen": 317.6
+        },
+        "current_weights_sectorcap2": {
+          "n": 20,
+          "mean_return": 0.2708,
+          "median_return": 0.2386,
+          "excess_vs_universe_ew": 0.1559,
+          "bootstrap_ci95": [
+            0.0624,
+            0.4966
+          ],
+          "n_sectors": 11,
+          "median_market_cap_oku_yen": 317.6
+        },
+        "3axis_nofuture_sectorcap2": {
+          "n": 20,
+          "mean_return": 0.3492,
+          "median_return": 0.2629,
+          "excess_vs_universe_ew": 0.2343,
+          "bootstrap_ci95": [
+            0.156,
+            0.59
+          ],
+          "n_sectors": 14,
+          "median_market_cap_oku_yen": 167.2
+        },
+        "moat_only_sectorcap2": {
+          "n": 20,
+          "mean_return": 0.136,
+          "median_return": 0.0245,
+          "excess_vs_universe_ew": 0.0211,
+          "bootstrap_ci95": [
+            -0.0597,
+            0.3889
+          ],
+          "n_sectors": 11,
+          "median_market_cap_oku_yen": 1579.9
+        },
+        "change_only_sectorcap2": {
+          "n": 20,
+          "mean_return": 0.1109,
+          "median_return": 0.0772,
+          "excess_vs_universe_ew": -0.004,
+          "bootstrap_ci95": [
+            -0.0279,
+            0.2565
+          ],
+          "n_sectors": 12,
+          "median_market_cap_oku_yen": 410.1
+        },
+        "future_only_sectorcap2": {
+          "n": 20,
+          "mean_return": 0.1312,
+          "median_return": 0.0782,
+          "excess_vs_universe_ew": 0.0163,
+          "bootstrap_ci95": [
+            -0.0109,
+            0.2832
+          ],
+          "n_sectors": 10,
+          "median_market_cap_oku_yen": 233.1
+        },
+        "price_only_sectorcap2": {
+          "n": 20,
+          "mean_return": 0.5932,
+          "median_return": 0.4776,
+          "excess_vs_universe_ew": 0.4783,
+          "bootstrap_ci95": [
+            0.4186,
+            0.7701
+          ],
+          "n_sectors": 14,
+          "median_market_cap_oku_yen": 67.8
+        },
+        "random20_reference": {
+          "mean": 0.1136,
+          "sd": 0.0926,
+          "p05": -0.0262,
+          "p95": 0.2793,
+          "percentile_of_equal25": 95.2
+        }
+      },
+      "weight_sensitivity_dirichlet1000": {
+        "mean": 0.3317,
+        "sd": 0.1532,
+        "min": -0.0977,
+        "max": 0.6536,
+        "range": 0.7513,
+        "equal25_percentile": 39.4
+      },
+      "all_four_axes_above_threshold": {
+        "50": 105,
+        "60": 46,
+        "70": 12,
+        "80": 0,
+        "90": 0
+      },
+      "r2_vs_sector33_dummies": {
+        "moat_p": 0.1899,
+        "change_p": 0.0551,
+        "future_p": 0.9962,
+        "price_p": 0.2556
+      }
+    }
+  },
+  "turnover_equal25_FY2024_to_FY2025": {
+    "overlap": 1,
+    "turnover_pct": 95.0
+  }
+}

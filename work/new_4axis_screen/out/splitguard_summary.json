@@ -1,0 +1,88 @@
+{
+  "split_detected_between_filings": {
+    "n_events": 379,
+    "n_codes": 369,
+    "ratio_histogram": {
+      "2.0": 180,
+      "3.0": 100,
+      "5.0": 45,
+      "4.0": 35,
+      "10.0": 7,
+      "6.0": 3,
+      "36.0": 1,
+      "7.0": 1
+    }
+  },
+  "xbrl_shares_error_vs_yfinance": {
+    "n_checked": 163,
+    "within_5pct_pct": 83.4,
+    "within_20pct_pct": 91.4,
+    "materially_wrong_pct": 8.6,
+    "understated_mcap_cases": 13,
+    "overstated_mcap_cases": 1,
+    "note": "ratio<0.8 は提出後の株式分割、ratio>1.2 は優先株など複数株式種類の合算が主因"
+  },
+  "implausible_valuation_flag": {
+    "per_floor": 3.0,
+    "pbr_floor": 0.3,
+    "n_flagged": 78,
+    "flagged_pct": 4.0,
+    "flagged_by_source": {
+      "xbrl": 76,
+      "yfinance": 2
+    },
+    "flag_rate_by_source_pct": {
+      "xbrl": 4.2,
+      "yfinance": 1.2
+    }
+  },
+  "valuation_distribution": {
+    "per_median": 14.01,
+    "pbr_median": 1.17,
+    "pbr_below_1_pct": 39.8
+  },
+  "top20": {
+    "overlap_with_vs_excl_flagged": 12,
+    "n_flagged_inside_top20_with": 8,
+    "excl_flagged_vs_current_v10_overlap": 1,
+    "excl_flagged_median_mcap_oku": 257.9,
+    "excl_flagged_median_per": 6.4,
+    "excl_flagged_median_pbr": 0.81,
+    "excl_flagged_sector_counts": {
+      "Machinery": 2,
+      "Chemicals": 2,
+      "Electric Appliances": 2,
+      "Information & Communication": 2,
+      "Metal Products": 2,
+      "Services": 2,
+      "Precision Instruments": 2,
+      "Real Estate": 1,
+      "Construction": 1,
+      "Securities and Commodities Futures": 1,
+      "Land Transportation": 1,
+      "Nonferrous Metals": 1,
+      "Transportation Equipment": 1
+    }
+  },
+  "pit_panel_exposure": {
+    "2023": {
+      "n": 3287,
+      "implausible_pct": 9.9,
+      "per_median": 11.95,
+      "pbr_median": 0.95
+    },
+    "2024": {
+      "n": 3576,
+      "implausible_pct": 6.4,
+      "per_median": 12.44,
+      "pbr_median": 1.0
+    },
+    "2025": {
+      "n": 3583,
+      "implausible_pct": 5.6,
+      "per_median": 12.55,
+      "pbr_median": 1.06
+    },
+    "note": "PIT側は提出日から意思決定日までが1〜3か月と短いため、分割ズレの露出は現在時点スクリーンより小さい"
+  }
+}

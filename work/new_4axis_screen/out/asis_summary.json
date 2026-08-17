@@ -1,0 +1,188 @@
+{
+  "step0": {
+    "universe": 3649,
+    "eligible": 1963,
+    "price_available": 3648,
+    "liquid_20m_60d": 2560
+  },
+  "degeneracy": [
+    {
+      "axis": "moat",
+      "source_column": "moat_score",
+      "n": 1963,
+      "n_exact_zero": 0,
+      "share_exact_zero_pct": 0.0,
+      "largest_tie_value": 0.6751421209204138,
+      "largest_tie_n": 1,
+      "largest_tie_share_pct": 0.05,
+      "distinct_values": 1963,
+      "raw_std": 0.2712,
+      "pct_std": 28.8749
+    },
+    {
+      "axis": "change",
+      "source_column": "transformation_score",
+      "n": 1963,
+      "n_exact_zero": 1,
+      "share_exact_zero_pct": 0.05,
+      "largest_tie_value": 0.9368823686661948,
+      "largest_tie_n": 2,
+      "largest_tie_share_pct": 0.1,
+      "distinct_values": 1961,
+      "raw_std": 0.2031,
+      "pct_std": 28.8749
+    },
+    {
+      "axis": "future",
+      "source_column": "future_moat_score",
+      "n": 1963,
+      "n_exact_zero": 0,
+      "share_exact_zero_pct": 0.0,
+      "largest_tie_value": -0.411080513804854,
+      "largest_tie_n": 890,
+      "largest_tie_share_pct": 45.34,
+      "distinct_values": 18,
+      "raw_std": 0.4611,
+      "pct_std": 27.4055
+    },
+    {
+      "axis": "price",
+      "source_column": "valuation_score",
+      "n": 1963,
+      "n_exact_zero": 1800,
+      "share_exact_zero_pct": 91.7,
+      "largest_tie_value": 0.0,
+      "largest_tie_n": 1800,
+      "largest_tie_share_pct": 91.7,
+      "distinct_values": 164,
+      "raw_std": 0.2157,
+      "pct_std": 13.8176
+    }
+  ],
+  "spearman_corr": {
+    "moat": {
+      "moat": 1.0,
+      "change": 0.0442,
+      "future": 0.0253,
+      "price": -0.0764
+    },
+    "change": {
+      "moat": 0.0442,
+      "change": 1.0,
+      "future": -0.04,
+      "price": 0.3684
+    },
+    "future": {
+      "moat": 0.0253,
+      "change": -0.04,
+      "future": 1.0,
+      "price": -0.1134
+    },
+    "price": {
+      "moat": -0.0764,
+      "change": 0.3684,
+      "future": -0.1134,
+      "price": 1.0
+    }
+  },
+  "effective_weight_variance_share": {
+    "moat": 0.3064,
+    "change": 0.3512,
+    "future": 0.2481,
+    "price": 0.0942
+  },
+  "price_axis_is_data_inventory": {
+    "n_with_valuation_inputs": 163,
+    "share_with_inputs_pct": 8.3,
+    "price_p_mean_with_inputs": 38.49,
+    "price_p_mean_without_inputs": 51.07,
+    "spearman_price_p_vs_log_trading_value": -0.1227,
+    "auc_price_p_predicts_has_data": 0.0
+  },
+  "formula_overlap": {
+    "change_weight_on_price_multiples": 0.55,
+    "change_weight_on_dividend": 0.15,
+    "change_weight_on_growth": 0.2,
+    "change_weights_sum": 0.9,
+    "price_weight_on_price_multiples": 0.85,
+    "price_weight_on_dividend": 0.15,
+    "nominal_price_exposure_at_equal_25pct": 0.425
+  },
+  "top20": {
+    "nodiv_has_valuation_inputs": 15,
+    "sectorcap2_has_valuation_inputs": 16,
+    "nodiv_sector_counts": {
+      "Machinery": 4,
+      "Insurance": 3,
+      "Electric Power and Gas": 3,
+      "Chemicals": 2,
+      "Rubber Products": 1,
+      "Information & Communication": 1,
+      "Precision Instruments": 1,
+      "Glass and Ceramics Products": 1,
+      "Banks": 1,
+      "Land Transportation": 1,
+      "Securities and Commodities Futures": 1,
+      "Wholesale Trade": 1
+    },
+    "sectorcap2_sector_counts": {
+      "Chemicals": 2,
+      "Insurance": 2,
+      "Electric Power and Gas": 2,
+      "Machinery": 2,
+      "Land Transportation": 2,
+      "Rubber Products": 1,
+      "Information & Communication": 1,
+      "Precision Instruments": 1,
+      "Glass and Ceramics Products": 1,
+      "Banks": 1,
+      "Securities and Commodities Futures": 1,
+      "Wholesale Trade": 1,
+      "Mining": 1,
+      "Electric Appliances": 1,
+      "Real Estate": 1
+    },
+    "overlap_with_current_v10_nodiv": 8,
+    "overlap_with_current_v10_sectorcap2": 9,
+    "overlap_codes": [
+      "1662",
+      "6356",
+      "6419",
+      "6524",
+      "7181",
+      "8309",
+      "8473",
+      "9022",
+      "9513"
+    ]
+  },
+  "all_four_axes_above_threshold": {
+    "50": 287,
+    "60": 3,
+    "70": 1,
+    "80": 0,
+    "90": 0
+  },
+  "top20_axis_profile_sectorcap2": {
+    "moat_p": {
+      "min": 54.6,
+      "median": 95.8,
+      "max": 99.4
+    },
+    "change_p": {
+      "min": 78.9,
+      "median": 97.8,
+      "max": 99.9
+    },
+    "future_p": {
+      "min": 22.7,
+      "median": 47.0,
+      "max": 100.0
+    },
+    "price_p": {
+      "min": 51.1,
+      "median": 98.3,
+      "max": 99.9
+    }
+  }
+}

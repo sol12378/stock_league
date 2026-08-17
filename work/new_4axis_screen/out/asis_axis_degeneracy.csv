@@ -1,0 +1,5 @@
+axis,source_column,n,n_exact_zero,share_exact_zero_pct,largest_tie_value,largest_tie_n,largest_tie_share_pct,distinct_values,raw_std,pct_std
+moat,moat_score,1963,0,0.0,0.6751421209204138,1,0.05,1963,0.2712,28.8749
+change,transformation_score,1963,1,0.05,0.9368823686661948,2,0.1,1961,0.2031,28.8749
+future,future_moat_score,1963,0,0.0,-0.411080513804854,890,45.34,18,0.4611,27.4055
+price,valuation_score,1963,1800,91.7,0.0,1800,91.7,164,0.2157,13.8176
