@@ -1,0 +1,14 @@
+flowchart LR
+    A["東証上場企業<br/>指標算出可能な非金融普通株<br/>n = 3,099"] --> B["Value フィルタ<br/>B/M 上位30% かつ 正のE/P上位50%<br/>n = 2,740"]
+    B --> C["Quality フィルタ<br/>Gross Profitability 中央値以上<br/>n = 583"]
+    C --> D["財務健全性<br/>Piotroski available ratio ≥ 0.65<br/>n = 146"]
+    D --> E["利益の質<br/>Sloan Accruals 悪い側上位30%を除外<br/>n = 112"]
+    E --> F["Distress ガードレール<br/>債務超過・連続損失・営業CF赤字等の除外<br/>n = 90"]
+    F --> G["流動性フィルタ<br/>60日平均売買代金 ≥ 1,000万円<br/>n = 77"]
+    G --> H["逐次 tie-break<br/>GP → E/P → B/M → Piotroski → Sloan → 流動性 → 時価総額<br/>同一業種は原則2社まで"]
+    H --> I["Buffett Core Top5<br/>3539 / 4350 / 6430 / 7803 / 9470"]
+    I --> J["最終20社の『守る堀Core』枠<br/>目標配分 20〜25%（Phase4）"]
+
+    style A fill:#f5f5f5,stroke:#333
+    style I fill:#e8e8e8,stroke:#000,stroke-width:2px
+    style J fill:#ffffff,stroke:#000,stroke-dasharray: 5 5

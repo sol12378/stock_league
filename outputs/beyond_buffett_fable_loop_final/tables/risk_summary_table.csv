@@ -1,0 +1,8 @@
+metric,portfolio,topix_proxy
+"volatility (3y, ann.)",0.2187,0.2046
+max drawdown (3y),-0.2487,-0.233
+beta vs TOPIX (3y),0.925,1.0
+tracking error (3y),0.1108,0.0
+HHI stock,0.0534,
+HHI sector,0.123,
+HHI theme,0.4015,

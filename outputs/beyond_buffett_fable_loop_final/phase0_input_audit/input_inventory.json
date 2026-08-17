@@ -1,0 +1,128 @@
+{
+  "phase1_top5": {
+    "path": "outputs/phase1_top5",
+    "exists": true,
+    "files": 22,
+    "size_mb": 2.2,
+    "mtime": "2026-07-07 23:32"
+  },
+  "phase1_final": {
+    "path": "outputs/phase1_final",
+    "exists": true,
+    "files": 45,
+    "size_mb": 7.6,
+    "mtime": "2026-07-07 16:18"
+  },
+  "phase1_buffett_complete": {
+    "path": "outputs/phase1_buffett_complete",
+    "exists": true,
+    "files": 36,
+    "size_mb": 3.8,
+    "mtime": "2026-07-07 22:38"
+  },
+  "phase1_repair": {
+    "path": "outputs/phase1_repair",
+    "exists": true,
+    "files": 19,
+    "size_mb": 5.3,
+    "mtime": "2026-07-07 15:53"
+  },
+  "phase2_perfect_final_break": {
+    "path": "outputs/phase2_perfect_final_break",
+    "exists": true,
+    "files": 74,
+    "size_mb": 89.0,
+    "mtime": "2026-07-08 11:01"
+  },
+  "phase2_final_integrated_break": {
+    "path": "outputs/phase2_final_integrated_break",
+    "exists": true,
+    "files": 60,
+    "size_mb": 88.2,
+    "mtime": "2026-07-08 09:31"
+  },
+  "phase2_real_optimization": {
+    "path": "outputs/phase2_real_optimization",
+    "exists": true,
+    "files": 73,
+    "size_mb": 119.1,
+    "mtime": "2026-07-08 00:59"
+  },
+  "phase2_top1200_walkforward_fix": {
+    "path": "outputs/phase2_top1200_walkforward_fix",
+    "exists": true,
+    "files": 52,
+    "size_mb": 12.7,
+    "mtime": "2026-07-08 01:28"
+  },
+  "phase2_top1200_walkforward_perfect_fix": {
+    "path": "outputs/phase2_top1200_walkforward_perfect_fix",
+    "exists": true,
+    "files": 32,
+    "size_mb": 171.6,
+    "mtime": "2026-07-08 02:07"
+  },
+  "phase2_weight_optimization": {
+    "path": "outputs/phase2_weight_optimization",
+    "exists": true,
+    "files": 59,
+    "size_mb": 4.1,
+    "mtime": "2026-07-08 00:23"
+  },
+  "phase3_v1": {
+    "path": "outputs/phase3_beyond_buffett",
+    "exists": true,
+    "files": 64,
+    "size_mb": 27.7,
+    "mtime": "2026-07-10 13:49"
+  },
+  "phase3_v2": {
+    "path": "outputs/phase3_beyond_buffett_v2",
+    "exists": true,
+    "files": 87,
+    "size_mb": 31.5,
+    "mtime": "2026-07-10 15:40"
+  },
+  "work_phase2": {
+    "path": "work/phase2_perfect_final_break",
+    "exists": true,
+    "files": 73,
+    "size_mb": 89.0,
+    "mtime": "2026-07-10 15:40"
+  },
+  "work_phase3_v1": {
+    "path": "work/phase3_beyond_buffett_v1",
+    "exists": true,
+    "files": 64,
+    "size_mb": 27.7,
+    "mtime": "2026-07-10 13:49"
+  },
+  "docs": {
+    "path": "docs",
+    "exists": true,
+    "files": 28,
+    "size_mb": 54.3,
+    "mtime": "2026-07-10 19:11"
+  },
+  "docs_explain": {
+    "path": "docs/explain_docs",
+    "exists": true,
+    "files": 9,
+    "size_mb": 2.4,
+    "mtime": "2026-07-10 19:11"
+  },
+  "data": {
+    "path": "data",
+    "exists": true,
+    "files": 12048,
+    "size_mb": 17041.5,
+    "mtime": "2026-06-23 01:05"
+  },
+  "submission_assets": {
+    "path": "submission_assets",
+    "exists": true,
+    "files": 139,
+    "size_mb": 25.6,
+    "mtime": "2026-07-06 18:24"
+  }
+}

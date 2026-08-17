@@ -1,0 +1,19 @@
+{
+  "phase": "Phase4",
+  "loop_id": 1,
+  "score": 97,
+  "pass": true,
+  "subscores": {
+    "allocation_theory_clarity": 20,
+    "constraint_compliance": 20,
+    "unit_share_5m_feasibility": 19,
+    "concentration_risk_analysis": 19,
+    "report_explanability": 19
+  },
+  "critical_issues": [],
+  "repair_tasks": [
+    "R4-1: 単元株数=100株の仮定を取引所データで裏取り（人間確認事項としてFINAL_CHECKに記載）",
+    "R4-2: テーマ間相関の分析をPhase5のカテゴリ寄与で補完",
+    "R4-3: 図の日本語ラベルのdocx体裁確認（Phase7）"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "framing": "in-sample risk characterization; NOT performance prediction",
+  "data_repairs": {
+    "1306.T": "unadjusted 1:10 split on 2026-03-30 corrected (x10 after)"
+  },
+  "window_3y": {
+    "port_ann_return": 0.3079,
+    "topix_ann_return": 0.2406,
+    "nikkei_ann_return": 0.3278,
+    "volatility": 0.2187,
+    "sharpe": 1.408,
+    "sortino": 1.617,
+    "max_drawdown": -0.2487,
+    "topix_max_drawdown": -0.233,
+    "beta_vs_topix": 0.925,
+    "jensens_alpha_ann": 0.0731,
+    "tracking_error": 0.1108,
+    "information_ratio": 0.445
+  },
+  "window_1y": {
+    "port_ann_return": 0.3785,
+    "topix_ann_return": 0.4066,
+    "nikkei_ann_return": 0.785,
+    "volatility": 0.1853,
+    "sharpe": 2.043,
+    "sortino": 2.563,
+    "max_drawdown": -0.1174,
+    "topix_max_drawdown": -0.1143,
+    "beta_vs_topix": 0.835,
+    "jensens_alpha_ann": 0.0363,
+    "tracking_error": 0.1023,
+    "information_ratio": -0.405
+  },
+  "hhi": {
+    "stock": 0.0534,
+    "sector": 0.123,
+    "theme": 0.4015
+  },
+  "role_contribution_3y": {
+    "Emerging Core": 1.7791,
+    "Transformation Core": 0.2155,
+    "Bridge / Diversifier": 0.0963,
+    "Dual Moat": 0.0581,
+    "Buffett Core": 0.0212
+  },
+  "theme_contribution_3y": {
+    "optical_communication": 1.2873,
+    "semiconductor": 0.4457,
+    "non_ai": 0.3331,
+    "factory_automation": 0.0657,
+    "quality_assurance": 0.0291,
+    "business_data": 0.0093
+  },
+  "sector_contribution_top3": {
+    "Nonferrous Metals": 1.2873,
+    "Machinery": 0.4153,
+    "Electric Appliances": 0.1289
+  },
+  "top_contributor": "5803.T",
+  "loo_vol_range": [
+    0.2101,
+    0.2293
+  ],
+  "exclusion_variants": [
+    {
+      "variant": "top contributor excluded (5803.T)",
+      "n": 19,
+      "ann_return": 0.2517,
+      "volatility": 0.212,
+      "max_drawdown": -0.2562
+    },
+    {
+      "variant": "AI infrastructure themes excluded",
+      "n": 12,
+      "ann_return": 0.1749,
+      "volatility": 0.1923,
+      "max_drawdown": -0.1942
+    },
+    {
+      "variant": "low-PBR (PBR<=1) names excluded",
+      "n": 8,
+      "ann_return": 0.5695,
+      "volatility": 0.3549,
+      "max_drawdown": -0.4454
+    }
+  ]
+}

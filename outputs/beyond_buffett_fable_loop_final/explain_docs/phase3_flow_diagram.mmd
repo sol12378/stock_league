@@ -1,0 +1,17 @@
+flowchart LR
+    A["Phase2 正式母集団<br/>formal_top1200（1,200社）"] --> B["Transformation Moat スコア<br/>評価ギャップ・資本効率改善・FCF余力<br/>実行信頼性・利益の質 − トラップペナルティ"]
+    A --> C["Emerging Moat スコア<br/>無形資産・イノベーション・ボトルネック性<br/>AI基盤接続・データ顧客基盤・信頼安全基盤<br/>+ Evidence ボーナス − Hype/Guard ペナルティ"]
+    B --> D["Evidence Level 分離<br/>TQ（定量 0-3）/ TR（改革開示）/ TS（還元）<br/>EM（Emerging 開示 0-3）/ final（役割別）"]
+    C --> D
+    D --> E["Grade 付与<br/>Transformation A/B/C/D・Emerging A/B/C/D<br/>low_pbr_only / ai_keyword_only / hard 除外"]
+    E --> F["役割候補プール<br/>Dual（T×E両立・min式）/ Emerging（EM≥2）<br/>Transformation / Bridge"]
+    G["Phase1 Top5<br/>Buffett Core 固定"] --> H
+    F --> H["クォータ充足選定<br/>Dual 3 → Emerging 5 → Transformation 5 → Bridge 2<br/>業種上限3・テーマ上限4"]
+    H --> I["Final20<br/>5 / 5 / 5 / 3 / 2"]
+    E -.->|"除外 862社を監査記録<br/>ai_keyword_only 577 / 上位互換 221<br/>distress 32 / トラップ 17 / 低PBRのみ 15"| J["Rejected Candidates 監査"]
+    I --> K["Phase4 配分へ"]
+
+    style A fill:#f5f5f5,stroke:#333
+    style G fill:#f5f5f5,stroke:#333
+    style I fill:#e8e8e8,stroke:#000,stroke-width:2px
+    style J fill:#ffffff,stroke:#999,stroke-dasharray: 5 5

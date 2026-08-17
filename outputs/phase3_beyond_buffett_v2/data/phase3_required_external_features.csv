@@ -1,0 +1,22 @@
+﻿feature,available,matched_columns,v2_treatment
+dividend_yield,False,,required external feature
+dividend_per_share,False,,required external feature
+dividend_growth_3y,False,,required external feature
+doe,False,,required external feature
+payout_ratio,False,,required external feature
+total_payout_ratio,False,,required external feature
+buyback_amount,False,,required external feature
+buyback_yield,False,,required external feature
+treasury_stock_change,False,,required external feature
+net_payout_yield,False,,required external feature
+fcf_coverage_of_payout,False,,required external feature
+capital_cost_disclosure_flag,False,,required external feature
+roic_target_flag,False,,required external feature
+pbr_improvement_policy_flag,False,,required external feature
+cross_shareholding_reduction_flag,False,,required external feature
+asset_sale_flag,False,,required external feature
+portfolio_restructuring_flag,False,,required external feature
+business_restructuring_flag,False,,required external feature
+medium_term_plan_kpi_flag,False,,required external feature
+reform_evidence_snippet,False,,required external feature
+reform_evidence_source,False,,required external feature

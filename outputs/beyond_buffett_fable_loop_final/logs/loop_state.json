@@ -1,0 +1,45 @@
+{
+  "project": "beyond_buffett_fable_loop_final",
+  "loop_id": 1,
+  "max_loops": 10,
+  "updated": "2026-07-10T22:20:00+09:00",
+  "status": "success",
+  "phase_status": {
+    "phase0": {"status": "completed", "score": null, "pass": true},
+    "phase1": {"status": "completed", "score": 96, "pass": true},
+    "phase2": {"status": "completed", "score": 96, "pass": true},
+    "phase3": {"status": "completed", "score": 96, "pass": true,
+               "notes": "D1 evidence fix (L3:15/L2:4/L1:1), membership unchanged, sensitivity pm20 (rho>=0.994)"},
+    "phase4": {"status": "completed", "score": 97, "pass": true,
+               "notes": "plan C, roles 25/25/25/15/10, L=1 utilization 99.0%"},
+    "phase5": {"status": "completed", "score": 96, "pass": true,
+               "notes": "A1-A16, base reproduces Final20 20/20, A8=7 min, 1y IR negative disclosed"},
+    "phase6": {"status": "completed", "score": 97, "pass": true,
+               "notes": "integrated review, fixed rho overstatement in phase3 explanation"},
+    "phase7": {"status": "completed", "score": 98, "pass": true,
+               "variant": "nikkei_stock_league_format",
+               "notes": "STOCK League prize-report format (ref 25_01/25_04.pdf); color banners, formula boxes (model name+citation+mathtext image+var defs+caption, 18 eqs), fill-in templates (cover meta/meigara 20/interview/learned); FLOW FIGURES REDRAWN HORIZONTAL (overflow fixed); fit-to-page enforced; body line-spacing 1.35 + per-section page breaks; PDF (19pp) generated via installed MS Word"}
+  },
+  "all_phases_pass": true,
+  "final_scores": {"phase1": 96, "phase2": 96, "phase3": 96, "phase4": 97,
+                   "phase5": 96, "phase6": 97, "phase7": 98},
+  "final20": {
+    "buffett_core": ["3539", "4350", "6430", "7803", "9470"],
+    "transformation_core": ["5902", "9828", "5233", "8037", "3863"],
+    "emerging_core": ["6368", "6315", "6920", "6526", "5803"],
+    "dual_moat": ["3697", "6841", "9474"],
+    "bridge": ["3089", "2112"]
+  },
+  "allocation": {"plan": "C_risk_adjusted", "max_stock": "9474 7.46%",
+                 "invested_L1": 4949198, "cash_remaining_L1": 50801, "utilization_L1": 0.990},
+  "human_check_items": [
+    "official Word template (Moodle) not obtained",
+    "submission deadline not in requirements body",
+    "44 vs 46 chars/line contradiction -> template measurement",
+    "lot size = 100 assumption -> verify with exchange data",
+    "6430 dividend divergence (forecast 4.25% vs trailing 0%)",
+    "S-shares assumed for live execution (L=100 -> 9 unbuyable)",
+    "final_report.pdf not auto-generated (no pandoc/latex/libreoffice)",
+    "docx equations are text -> finalize with Word equation editor"
+  ]
+}

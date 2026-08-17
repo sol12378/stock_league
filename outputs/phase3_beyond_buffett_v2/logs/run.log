@@ -1,0 +1,51 @@
+[2026-07-10T15:40:13] unzipped Phase2 and v1 inputs into work/
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/data/phase3_seed_universe_from_phase2.csv (1,200 rows)
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/data/phase3_guardrail_confidence.csv (1,200 rows)
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/data/phase3_transformation_lite_scores.csv (1,200 rows)
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/data/phase3_required_external_features.csv (21 rows)
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/data/phase3_transformation_fullness.csv (1,200 rows)
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/data/phase3_emerging_systematic_screening.csv (1,200 rows)
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/data/phase3_evidence_levels.csv (1,200 rows)
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/data/phase3_grade_assignment.csv (1,200 rows)
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/data/phase3_role_assignment.csv (1,200 rows)
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/data/phase3_dual_moat_candidates.csv (9 rows)
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/data/phase3_bridge_candidates.csv (822 rows)
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/data/phase3_transformation_scores.csv (1,200 rows)
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/data/phase3_emerging_scores.csv (1,200 rows)
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/data/phase3_scoring_master.csv (1,200 rows)
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/data/phase3_final20_candidates.csv (1,200 rows)
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/data/phase3_final20_selected.csv (20 rows)
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/data/phase3_rejected_candidates.csv (862 rows)
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/data/phase3_allocation_plan.csv (20 rows)
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/data/phase3_ablation_results.csv (15 rows)
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/reports/phase3_phase2_input_audit.md
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/reports/phase3_v1_input_audit.md
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/reports/phase3_v1_to_v2_selection_diff.md
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/reports/phase3_flag_reconciliation_report.md
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/reports/phase3_missing_feature_report.md
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/reports/phase3_transformation_fullness_report.md
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/reports/phase3_evidence_audit_report.md
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/reports/phase3_selection_audit.md
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/reports/phase3_ablation_report.md
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/reports/phase3_formula_lineage_report.md
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/reports/phase3_rejected_candidates.md
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/reports/phase3_summary_report.md
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/docs/phase3_build_design.md
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/docs/phase3_transformation_moat_definition.md
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/docs/phase3_emerging_moat_definition.md
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/docs/phase3_scoring_framework.md
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/docs/phase3_selection_algorithm.md
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/docs/phase3_final20_rationale.md
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/docs/phase3_final20_rationale_for_report.md
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/reports/phase3_final20_rationale_for_report.md
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/docs/phase3_allocation_report.md
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/docs/phase3_ablation_plan.md
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/docs/phase3_risk_and_limitations.md
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/docs/phase3_to_report_handoff.md
+[2026-07-10T15:40:13] wrote outputs/phase3_beyond_buffett_v2/README.md
+[2026-07-10T15:40:14] wrote outputs/phase3_beyond_buffett_v2/MANIFEST.md
+[2026-07-10T15:40:14] created outputs/phase3_beyond_buffett_v2.zip
+[2026-07-10T15:40:14] wrote outputs/phase3_beyond_buffett_v2/FINAL_READINESS_CHECK.md
+[2026-07-10T15:40:14] wrote outputs/phase3_beyond_buffett_v2/README.md
+[2026-07-10T15:40:14] wrote outputs/phase3_beyond_buffett_v2/MANIFEST.md
+[2026-07-10T15:40:14] created outputs/phase3_beyond_buffett_v2.zip

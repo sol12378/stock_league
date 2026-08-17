@@ -1,0 +1,25 @@
+{
+  "phase": "Phase6",
+  "loop_id": 1,
+  "score": 97,
+  "pass": true,
+  "subscores": {
+    "theme_clarity": 10,
+    "prior_research_connection": 10,
+    "shu_ha_ri_consistency": 15,
+    "phase3_originality": 14,
+    "selection_explainability": 10,
+    "allocation_theory": 10,
+    "verification_ablation": 10,
+    "risk_honesty": 10,
+    "figure_formula_quality": 4,
+    "competition_format": 4
+  },
+  "critical_issues": [],
+  "repair_tasks": [
+    "R6-1: 図の日本語ラベルdocx体裁確認（Phase7）",
+    "R6-2: 公式Wordテンプレート未入手→提出前流し込み（人間確認）",
+    "R6-3: 44字vs46字矛盾はテンプレート実測で確定（人間確認）",
+    "R6-4: 参考文献に離(Phase3)関連文献を追補（Phase7 final_references.mdで実施）"
+  ]
+}

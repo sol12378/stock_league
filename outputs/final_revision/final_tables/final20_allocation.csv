@@ -1,0 +1,21 @@
+code_n,company_name,sector,final_role,theme,final_evidence_level,target_weight_final,qty_L1,amount_L1
+9470,"GAKKEN HOLDINGS CO.,LTD.",Information & Communication,Buffett Core,non_ai,3,0.0688214299813433,365,343465.0
+3539,"JM HOLDINGS CO.,LTD.",Retail Trade,Buffett Core,non_ai,3,0.0557709992401953,223,278304.0
+6430,"DAIKOKU DENKI CO.,LTD.",Machinery,Buffett Core,non_ai,3,0.054267532563046,130,271050.0
+4350,"MEDICAL SYSTEM NETWORK Co.,Ltd.",Retail Trade,Buffett Core,non_ai,1,0.0421181661297753,409,210226.0
+7803,Bushiroad Inc.,Other Products,Buffett Core,non_ai,3,0.0290218720856397,562,144996.0
+5902,HOKKAN HOLDINGS LIMITED,Metal Products,Transformation Core,non_ai,3,0.0670331923438411,150,333000.0
+9828,Genki Global Dining Concepts Corporation,Retail Trade,Transformation Core,non_ai,3,0.0550281957397319,99,272646.0
+8037,KAMEI CORPORATION,Wholesale Trade,Transformation Core,non_ai,3,0.0484163040205277,69,238740.0
+3863,"Nippon Paper Industries Co.,Ltd.",Pulp and Paper,Transformation Core,non_ai,3,0.0427643380398444,174,212976.0
+5233,TAIHEIYO CEMENT CORPORATION,Glass and Ceramics Products,Transformation Core,non_ai,3,0.0367579698560547,41,182778.0
+6368,ORGANO CORPORATION,Machinery,Emerging Core,semiconductor,3,0.0691031472312013,21,330750.0
+6526,Socionext Inc.,Electric Appliances,Emerging Core,semiconductor,2,0.0490123795201917,85,243270.0
+6920,Lasertec Corporation,Electric Appliances,Emerging Core,quality_assurance,2,0.0481856568285636,6,230280.0
+6315,TOWA CORPORATION,Machinery,Emerging Core,semiconductor,3,0.0434964704133957,75,216600.0
+5803,Fujikura Ltd.,Nonferrous Metals,Emerging Core,optical_communication,2,0.0402023460066475,42,196434.0
+9474,"ZENRIN CO.,LTD.",Information & Communication,Dual Moat,business_data,3,0.0745942723909646,428,372360.0
+6841,YOKOGAWA ELECTRIC CORPORATION,Electric Appliances,Dual Moat,factory_automation,3,0.0455495025692258,44,223388.0
+3697,SHIFT Inc.,Information & Communication,Dual Moat,quality_assurance,2,0.0298562250398094,205,149076.0025024414
+2112,"Ensuiko Sugar Refining Co.,Ltd.",Foods,Bridge / Diversifier,non_ai,3,0.0639984091374176,749,319823.0
+3089,"Techno Alpha Co.,Ltd.",Wholesale Trade,Bridge / Diversifier,non_ai,3,0.0360015908625823,143,179036.0

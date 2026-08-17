@@ -1,0 +1,26 @@
+{
+  "phase": "Phase7",
+  "loop_id": 1,
+  "variant": "nikkei_stock_league_format",
+  "score": 98,
+  "pass": true,
+  "subscores": {
+    "format_compliance_prize_report": 19,
+    "logical_structure": 20,
+    "figure_formula_quality": 20,
+    "prior_research_references": 20,
+    "submittability": 19
+  },
+  "critical_issues": [],
+  "artifacts": {
+    "final_report_docx": true,
+    "final_report_pdf": "generated via installed Microsoft Word (19 pages)",
+    "equations_rendered": 18,
+    "all_figures_fit_page": true
+  },
+  "repair_tasks": [
+    "R7-1: 提出者が記入：表紙メタ・銘柄紹介20社・インタビュー・アンケート・学んだこと",
+    "R7-2: STOCKリーグ公式の最新ページ規定・締切・提出様式を確認",
+    "R7-3: 必要なら Word 数式エディタで latex_equations から式を再整形（現状は画像で提出可）"
+  ]
+}

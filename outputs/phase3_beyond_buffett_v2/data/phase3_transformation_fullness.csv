@@ -1,0 +1,1201 @@
+﻿code,company_name,transformation_score_type,shareholder_return_data_available,reform_disclosure_data_available,fcf_proxy_available,transformation_fullness_score,transformation_fullness_note
+7261,Mazda Motor Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7211,MITSUBISHI MOTORS CORPORATION,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+9533,"TOHO GAS CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9507,"Shikoku Electric Power Company,Incorporated",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7419,"Nojima Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8012,"NAGASE & CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2695,"Kura Sushi,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4022,"Rasa Industries,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1333,Umios Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1515,"Nittetsu Mining Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+8111,Goldwin Inc.,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+9684,"SQUARE ENIX HOLDINGS CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+6745,HOCHIKI CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9831,"YAMADA HOLDINGS CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+8273,"IZUMI CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+5021,"COSMO ENERGY HOLDINGS COMPANY,LIMITED",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+1909,"Nippon Dry-Chemical CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6454,"MAX CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8060,Canon Marketing Japan Inc.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1911,"Sumitomo Forestry Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+3028,"Alpen Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2602,"The Nisshin OilliO Group,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2791,"DAIKOKUTENBUSSAN CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9682,DTS CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5105,Toyo Tire Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9997,"BELLUNA CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5406,"Kobe Steel,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8276,"HEIWADO CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1414,"SHO-BOND Holdings Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3382,"Seven & i Holdings Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3863,"Nippon Paper Industries Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4204,"Sekisui Chemical Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8278,"FUJI CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1723,"NIHON DENGI CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2121,"MIXI,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1662,"Japan Petroleum Exploration Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9956,"VALOR HOLDINGS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7516,"KOHNAN SHOJI CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+4922,KOSE Holdings Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2212,"YAMAZAKI BAKING CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3608,"TSI HOLDINGS CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6457,GLORY LTD.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3405,"KURARAY CO.,LTD.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+2220,"KAMEDA SEIKA CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2918,"WARABEYA NICHIYO HOLDINGS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3539,"JM HOLDINGS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8016,"ONWARD HOLDINGS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9101,Nippon Yusen Kabushiki Kaisha,lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+6196,"Strike Group Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4118,KANEKA CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6648,KAWADEN CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2730,EDION Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1861,"Kumagai Gumi Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4202,Daicel Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5233,TAIHEIYO CEMENT CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6440,JUKI CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1961,"SANKI ENGINEERING CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6417,"SANKYO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7917,ZACROS Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5393,NICHIAS CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7649,"SUGI HOLDINGS Co.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7552,HAPPINET CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4318,"QUICK CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+2664,CAWACHI LIMITED,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8194,LIFE CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6369,TOYO KANETSU K.K.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8218,"KOMERI CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+9104,"Mitsui O.S.K.Lines,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5410,"Godo Steel,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6770,"ALPS ALPINE CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2267,"YAKULT HONSHA CO.,LTD.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+6430,"DAIKOKU DENKI CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6676,BUFFALO INC.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3391,TSURUHA HOLDINGS INC.,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+7803,Bushiroad Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4569,"KYORIN Pharmaceutical Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5463,Maruichi Steel Tube Ltd.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6104,"SHIBAURA MACHINE CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9274,"KPP GROUP HOLDINGS CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8242,H2O RETAILING CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4849,en Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6310,"ISEKI & CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4633,SAKATA INX CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2681,GEO HOLDINGS CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3333,"ASAHI CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+3861,Oji Holdings Corporation,lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+4042,TOSOH CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8227,"SHIMAMURA Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3134,Hamee Corp.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4521,"KAKEN PHARMACEUTICAL CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9948,"ARCS COMPANY,LIMITED",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+7280,MITSUBA Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8088,IWATANI  CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9842,ARCLANDS CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2734,SALA CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1925,"DAIWA HOUSE INDUSTRY CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7595,ARGO GRAPHICS Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8281,"XEBIO holdings CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2491,"ValueCommerce Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+5947,RINNAI CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4828,Business Engineering Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8167,"RETAIL PARTNERS CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9115,"Meiji Shipping Group Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1928,"Sekisui House,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+3104,"Fujibo Holdings,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8061,SEIKA CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9989,"SUNDRUG CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8173,Joshin Corporation,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+4540,TSUMURA & CO.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2733,ARATA CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8282,K'S HOLDINGS CORPORATION,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+2433,HAKUHODO DY HOLDINGS INCORPORATED,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8037,KAMEI CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7912,"Dai Nippon Printing Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3087,"DOUTOR・NICHIRES Holdings Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2001,NIPPN CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9934,"INABA DENKISANGYO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2593,"ITO EN,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9832,"AUTOBACS SEVEN CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3048,BIC CAMERA INC.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2792,"HONEYS HOLDINGS CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+8011,SANYO SHOKAI LTD.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6302,"SUMITOMO HEAVY INDUSTRIES,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6419,Mars Group Holdings Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7581,"SAIZERIYA CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2288,"MARUDAI FOOD CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6794,"Foster Electric Company,Limited",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1980,"DAI-DAN CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3349,COSMOS Pharmaceutical Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5423,"TOKYO STEEL MANUFACTURING CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8214,AOKI Holdings Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2678,ASKUL Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2659,"SAN-A CO.,LTD.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+9202,ANA HOLDINGS INC.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3941,"Rengo Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9470,"GAKKEN HOLDINGS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6814,"FURUNO ELECTRIC CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4651,SANIX HOLDINGS INCORPORATED,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2685,"and ST HD Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6460,SEGA SAMMY HOLDINGS INC.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6588,TOSHIBA TEC CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4613,"KANSAI PAINT CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4751,"CyberAgent,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7911,TOPPAN Holdings Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3148,"CREATE SD HOLDINGS CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+3407,ASAHI KASEI CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2929,"Pharma Foods International Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2726,"PAL GROUP Holdings CO.,LTD",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2002,NISSHIN SEIFUN GROUP INC.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7240,NOK CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7988,NIFCO INC.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2296,ITOHAM YONEKYU HOLDINGS INC.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5019,"Idemitsu Kosan Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+2379,dip Corporation,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+5210,"Nihon Yamamura Glass Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3002,GUNZE LIMITED,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6039,"Japan Animal Referral Medical Center Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9699,"NISHIO HOLDINGS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4043,Tokuyama Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2269,"Meiji Holdings Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9107,"Kawasaki Kisen Kaisha,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5331,"NORITAKE CO.,LIMITED",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5440,KYOEI STEEL LTD.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3865,Hokuetsu Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9534,"HOKKAIDO GAS CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6526,Socionext Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5262,Nippon Hume Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7130,"YAMAE GROUP HOLDINGS CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7459,MEDIPAL HOLDINGS CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7245,"DAIDO METAL CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6463,"TPR CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2613,"J-OIL MILLS, INC.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2670,"ABC-MART,INC.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8255,Axial Retailing Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5408,"NAKAYAMA STEEL WORKS,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+7606,UNITED ARROWS LTD.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6849,NIHON KOHDEN CORPORATION,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+9543,"SHIZUOKA GAS CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+4206,"Aica Kogyo Company,Limited",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4631,DIC Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6995,"TOKAI RIKA CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7832,Bandai Namco Holdings Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4534,"Mochida Pharmaceutical Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8217,"OKUWA CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+1766,TOKEN CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7994,OKAMURA CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9603,"H.I.S.Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6580,"Writeup Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6418,"JAPAN CASH MACHINE CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3092,"ZOZO,Inc.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+9247,TRE HOLDINGS CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3479,TKP Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9980,MRK HOLDINGS INC.,lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+9974,"Belc CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6209,NPR-RIKEN CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6923,"Stanley Electric Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5929,Sanwa Holdings Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4927,POLA ORBIS HOLDINGS INC.,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+3050,"DCM Holdings Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4112,"Hodogaya Chemical Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6287,SATO CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7453,"RYOHIN KEIKAKU CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2201,"Morinaga & Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9404,"Nippon Television Holdings,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7610,"TAY TWO CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7984,"KOKUYO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7600,"Japan Medical Dynamic Marketing,INC.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+5970,G-TEKT CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7599,IDOM Inc.,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+5851,RYOBI LIMITED,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2206,"Ezaki Glico Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3697,SHIFT Inc.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1301,"KYOKUYO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9409,TV Asahi Holdings Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9706,"Japan Airport Terminal Co.,ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9936,OHSHO FOOD SERVICE CORP.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6395,TADANO LTD.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8835,TAIHEIYO KOUHATSU INCORPORATED,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+7550,"ZENSHO HOLDINGS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6436,Amano Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8291,"NISSAN TOKYO SALES HOLDINGS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4996,"KUMIAI CHEMICAL INDUSTRY CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+9990,SAC'S BAR HOLDINGS INC.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4401,ADEKA CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5480,"Nippon Yakin kogyo Co.,Ltd.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+7942,JSP Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7981,"TAKARA STANDARD CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6809,TOA CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6058,VECTOR INC.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7864,"FUJI SEAL INTERNATIONAL,INC.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9861,"YOSHINOYA HOLDINGS CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+2767,TSUBURAYA FIELDS HOLDINGS INC.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2810,House Foods Group Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6474,NACHI-FUJIKOSHI CORP.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7231,"TOPY INDUSTRIES,LIMITED",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3660,istyle Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4544,"H.U. Group Holdings,Inc.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+4776,"Cybozu,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2004,"Showa Sangyo Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1377,SAKATA SEED CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4665,"DUSKIN CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2229,"CALBEE,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6356,"NIPPON GEAR CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3923,"RAKUS Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6810,"Maxell,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2429,"WORLD HOLDINGS CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+7867,"TOMY COMPANY,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7936,ASICS Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2270,"MEGMILK SNOW BRAND Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5703,"Nippon Light Metal Holdings Company,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4208,UBE Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3626,TIS Inc.,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+4559,"ZERIA PHARMACEUTICAL CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3930,"Hatena Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2742,"HALOWS CO.,LTD.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+8103,Meiwa Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1663,K&O Energy Group Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3765,"GungHo Online Entertainment,Inc.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+6349,KOMORI CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7990,"GLOBERIDE,Inc.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4933,"I-ne CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5817,"JMACS Japan Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9531,"TOKYO GAS CO.,LTD.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+6367,"DAIKIN INDUSTRIES,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3046,JINS HOLDINGS Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7955,Cleanup Corporation,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+7532,Pan Pacific International Holdings Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4620,"FUJIKURA KASEI CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8050,SEIKO GROUP CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7545,"NISHIMATSUYA CHAIN Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+9987,"SUZUKEN CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3167,TOKAI Holdings Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3101,"TOYOBO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7004,Kanadevia Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9962,MISUMI Group Inc.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9830,TRUSCO NAKAYAMA CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6850,Chino Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9994,YAMAYA CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2809,Kewpie Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4611,"Dai Nippon Toryo Company,Limited",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8022,Mizuno Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8086,NIPRO CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7279,HI-LEX CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3088,MatsukiyoCocokara & Co.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2292,S Foods Inc.,lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+4194,"Visional,Inc.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6841,YOKOGAWA ELECTRIC CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1878,"DAITO TRUST CONSTRUCTION CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7520,"Eco's Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3558,"JADE GROUP,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2782,"Seria Co.,Ltd.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+6952,"CASIO COMPUTER CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5032,ANYCOLOR Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8142,"TOHO Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8267,"AEON CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7859,ALMEDIO INC.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7943,NICHIHA CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6658,"Shirai Electronics Industrial Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4527,"ROHTO PHARMACEUTICAL CO.,LTD.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+9474,"ZENRIN CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5214,"Nippon Electric Glass Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6250,YAMABIKO CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9715,transcosmos inc.,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+7701,Shimadzu Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8803,"HEIWA REAL ESTATE CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3864,Mitsubishi Paper Mills Limited,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4205,ZEON CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5273,"MITANI SEKISAN CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8203,MrMax Holdings Ltd.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7956,PIGEON CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7458,"DAIICHIKOSHO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9413,TV TOKYO Holdings Corporation,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+6378,"KIMURA CHEMICAL PLANTS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7947,FP CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6282,OILES CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1847,"ICHIKEN Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9887,"MATSUYA FOODS HOLDINGS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4547,"KISSEI PHARMACEUTICAL CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2784,Alfresa Holdings Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6584,"Sanoh Industrial Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4028,"ISHIHARA SANGYO KAISHA,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4768,OTSUKA CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6371,TSUBAKIMOTO CHAIN CO.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9418,"U-NEXT HOLDINGS Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1332,Nissui Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2871,NICHIREI CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1969,"Takasago Thermal Engineering Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8043,Starzen Company Limited,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9005,TOKYU CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7972,ITOKI CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7685,"BuySell Technologies Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8185,"CHIYODA CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6103,OKUMA Corporation,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+8897,"MIRARTH HOLDINGS,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8136,"Sanrio Company,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5332,TOTO LTD.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6932,ENDO Lighting Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6718,"AIPHONE CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4530,"HISAMITSU PHARMACEUTICAL CO.,INC.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4634,"artience Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6432,"TAKEUCHI MFG.CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7846,PILOT CORPORATION,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+9882,YELLOW HAT LTD.,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+7745,"A&D HOLON Holdings Company,Limited",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6351,"TSURUMI MANUFACTURING CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4617,"Chugoku Marine Paints,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3191,"JOYFUL HONDA CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+5715,"FURUKAWA CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6951,JEOL Ltd.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5711,Mitsubishi Materials Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9678,"KANAMOTO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4368,"FUSO CHEMICAL CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+4553,"TOWA PHARMACEUTICAL CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9536,"SAIBU GAS HOLDINGS CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4350,"MEDICAL SYSTEM NETWORK Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+7283,"AISAN INDUSTRY CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9532,"OSAKA GAS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7373,"Aidma Holdings,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6465,HOSHIZAKI CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5975,Topre Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7226,"KYOKUTO KAIHATSU KOGYO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9076,"SEINO HOLDINGS CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6670,"MCJ Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4979,"OAT Agrio Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8179,"ROYAL HOLDINGS Co., Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2003,"NITTO FUJI FLOUR MILLING CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2915,"KENKO Mayonnaise Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4526,"RIKEN VITAMIN CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8005,Scroll Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4681,"RESORTTRUST,INC.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9746,TKC Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3034,"Qol Holdings Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7575,"Japan Lifeline Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7762,"Citizen Watch Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2585,"LIFEDRINK COMPANY,INC.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3907,Silicon Studio Corp.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3089,"Techno Alpha Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4064,"Nippon Carbide Industries Company,Incorporated",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8007,"Takashima & Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5943,NORITZ CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4443,"Sansan,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3097,The Monogatari Corporation,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+7309,SHIMANO INC.,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+9039,"Sakai Moving Service Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+6413,RISO KAGAKU CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2331,"ALSOK CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6835,ALLIED TELESIS HOLDINGS K.K.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4685,"Ryoyu Systems Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7906,"YONEX CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4045,"TOAGOSEI CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1873,"NIHON HOUSE HOLDINGS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7483,"DOSHISHA CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6703,"Oki Electric Industry Company,Limited",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3415,"TOKYO BASE Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4985,Earth Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3636,"Mitsubishi Research Institute,Inc.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7241,"FUTABA INDUSTRIAL CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8153,"MOS FOOD SERVICES,INC.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6637,"TERASAKI ELECTRIC CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3099,Isetan Mitsukoshi Holdings Ltd.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7246,"PRESS KOGYO CO.,LTD.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+4031,Katakura & Co-op Agri Corporation,lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+3399,Maruchiyo Yamaokaya Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3355,KURIYAMA HOLDINGS CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6644,"Osaki Electric Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8130,Sangetsu Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5253,COVER Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2875,"TOYO SUISAN KAISHA,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6140,"Asahi Diamond Industrial Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3696,CERES INC.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3911,Aiming Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6272,"RHEON AUTOMATIC MACHINERY CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6961,ENPLAS CORPORATION,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+6257,"FUJISHOJI CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+5632,"Mitsubishi Steel Mfg.Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9405,ASAHI BROADCASTING GROUP HOLDINGS CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3946,"TOMOKU CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8035,Tokyo Electron Limited,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6238,FURYU CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9332,"NISSO HOLDINGS Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5142,Achilles Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9602,"TOHO CO.,LTD",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+4044,"Central Glass Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9823,Mammy Mart Holdings Corporation,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+7965,Zojirushi Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9304,Shibusawa Logistics Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6592,"MABUCHI MOTOR CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5301,"TOKAI CARBON CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+3395,"Saint Marc Holdings Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7482,"SHIMOJIMA Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4021,Nissan Chemical Corporation,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+6777,santec Holdings Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6958,CMK CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7780,"Menicon Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+3064,"MonotaRO Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7014,"Namura Shipbuilding Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9856,"KU HOLDINGS CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+6535,"i-mobile Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7276,"KOITO MANUFACTURING CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8032,JAPAN PULP AND PAPER COMPANY LIMITED,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+2222,"Kotobuki Spirits Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9064,"YAMATO HOLDINGS CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+5988,"PIOLAX,INC.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+2060,"FEED ONE CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5232,"Sumitomo Osaka Cement Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5981,"TOKYO ROPE MFG.CO.,LTD",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6445,JANOME Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6088,SIGMAXYZ Holdings Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8051,YAMAZEN CORPORATION,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+7735,"SCREEN Holdings Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3176,"Sanyo Trading Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+3231,"Nomura Real Estate Holdings,Inc.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8150,"SANSHIN ELECTRONICS CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9743,"TANSEISHA CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3320,CROSS PLUS INC.,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+3105,Nisshinbo Holdings Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6845,Azbil Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6750,"ELECOM CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4886,"ASKA Pharmaceutical Holdings Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7991,"MAMIYA-OP CO.,LTD",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7537,MARUBUN CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9278,BOOKOFF GROUP HOLDINGS LIMITED,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9627,AIN HOLDINGS INC.,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+3186,"NEXTAGE Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+8801,"Mitsui Fudosan Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9828,Genki Global Dining Concepts Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3289,Tokyu Fudosan Holdings Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6920,Lasertec Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6638,"MIMAKI ENGINEERING CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9416,VISION INC.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2910,"ROCK FIELD CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7747,"ASAHI INTECC CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4216,ASAHI YUKIZAI CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6674,GS Yuasa Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6146,DISCO CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3635,"KOEI TECMO HOLDINGS CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5901,"Toyo Seikan Group Holdings,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8097,"SAN-AI OBBLI CO.,LTD.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+3569,"SEIREN CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6890,Ferrotec Corporation,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+7980,"SHIGEMATSU WORKS CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+9616,"KYORITSU MAINTENANCE CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4694,"BML,INC.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+2301,"GAKUJO CO.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7305,"ARAYA INDUSTRIAL CO.,LTD.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+5959,"OKABE CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3003,"Hulic Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+7050,FRONTIER INTERNATIONAL INC.,lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+4919,"Milbon Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6136,OSG Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3964,AUCNET INC.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3182,Oisix ra daichi Inc.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7611,HIDAY HIDAKA Corp.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4246,DaikyoNishikawa Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5290,Vertex Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4716,ORACLE CORPORATION JAPAN,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4825,WEATHERNEWS INC.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8850,STARTS CORPORATION INC.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7059,"COPRO-HOLDINGS.Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8125,"Wakita & Co.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3549,"KUSURI NO AOKI HOLDINGS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6332,"TSUKISHIMA HOLDINGS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8804,"Tokyo Tatemono Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5121,FUJIKURA COMPOSITES Inc.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7475,"ALBIS Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7466,SPK CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9755,OYO Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4078,"Sakai Chemical Industry Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6807,"Japan Aviation Electronics Industry,Limited",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3489,"FaithNetwork Co.,Ltd",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4839,WOWOW INC.,lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+3232,"Mie Kotsu Group Holdings,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8098,"Inabata & Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7971,TOLI Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4934,"Premier Anti-Aging Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5204,"ISHIZUKA GLASS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6908,"IRISO ELECTRONICS CO.,LTD.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+2418,TSUKADA GLOBAL HOLDINGS Inc.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4704,Trend Micro Incorporated,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6083,"ERI HOLDINGS CO.,LTD.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+9726,"KNT-CT Holdings Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5603,KOGI CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2294,"Kakiyasu Honten Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+3431,"MIYAJI ENGINEERING GROUP,INC.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6768,TAMURA CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8129,"TOHO HOLDINGS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7966,LINTEC Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9605,"TOEI COMPANY,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3856,Abalance Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5244,"jig.jp co.,ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4478,freee K.K.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4041,"Nippon Soda Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2492,Infomart Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5930,"Bunka Shutter Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9697,"CAPCOM CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+7239,"TACHI-S CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3288,"Open House Group Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+7743,"SEED CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2264,"MORINAGA MILK INDUSTRY CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7719,TOKYO KOKI CO.LTD.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6023,"DAIHATSU INFINEARTH MFG.CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3708,"Tokushu Tokai Paper Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5013,Yushiro Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3201,"THE JAPAN WOOL TEXTILE CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2127,Nihon M&A Center Holdings Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8029,LOOK HOLDINGS INCORPORATED,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5185,"Fukoku Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6737,EIZO Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4272,"NIPPON KAYAKU CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4471,"SANYO CHEMICAL INDUSTRIES,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9535,"HIROSHIMA GAS CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6728,"ULVAC, Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6504,"FUJI ELECTRIC CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2281,"Prima Meat Packers,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6960,"FUKUDA DENSHI CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7806,"MTG Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4626,"TAIYO HOLDINGS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2153,E・J Holdings Inc.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4666,"PARK24 Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9729,TOKAI Corp.,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+9279,GIFT HOLDINGS INC.,lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+6941,"YAMAICHI ELECTRONICS CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+7740,"Tamron Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8008,YONDOSHI HOLDINGS INC.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9735,"SECOM CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7888,SANKO GOSEI LTD.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7522,"WATAMI CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5018,MORESCO Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2175,"SMS CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4221,"Okura Industrial Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9788,"NAC CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+5933,ALINCO INCORPORATED,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6143,"Sodick Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6486,"EAGLE INDUSTRY CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+7940,"WAVELOCK HOLDINGS CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8198,"Maxvalu Tokai Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5304,"SEC CARBON,LIMITED",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8174,"NIPPON GAS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3038,"KOBE BUSSAN CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2531,TAKARA HOLDINGS INC.,lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+3661,"m-up holdings,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3498,"Kasumigaseki Capital Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6412,Heiwa Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6339,"Sintokogio,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6871,"MICRONICS JAPAN CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6363,"Torishima Pump Mfg.Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6072,"Jibannet Holdings Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7613,SIIX CORPORATION,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+4220,RIKEN TECHNOS CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7979,SHOFU INC.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4125,SANWAYUKA INDUSTRY CORPORATION,lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+3687,Fixstars Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4848,"FULLCAST HOLDINGS CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+9716,"NOMURA Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6856,"HORIBA,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+9556,INTLOOP Inc.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7679,"YAKUODO HOLDINGS Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+7513,"Kojima Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7987,"NAKABAYASHI CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1982,"Hibiya Engineering,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5803,Fujikura Ltd.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2395,"SHIN NIPPON BIOMEDICAL LABORATORIES,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+7931,"MIRAI INDUSTRY CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6914,"OPTEX GROUP Company,Limited",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4994,"Taisei Lamick Group Head Quarter & Innovation Co.,Ltd.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+7949,"KOMATSU WALL INDUSTRY CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6405,"Suzumo Machinery Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4182,"Mitsubishi Gas Chemical Company,Inc.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+9069,"SENKO Group Holdings Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4427,"EduLab,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2735,"WATTS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4403,NOF CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3196,"HOTLAND HOLDINGS Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+6823,"RION CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3950,THE PACK CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8014,"CHORI CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6381,ANEST IWATA Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4097,"KOATSU GAS KOGYO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4092,"Nippon Chemical Industrial Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6651,NITTO KOGYO CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2124,"JAC Recruitment Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8154,"KAGA ELECTRONICS CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9468,KADOKAWA CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6200,"Insource Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4095,"NIHON PARKERIZING CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6877,Obara Group Incorporated,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4967,"KOBAYASHI PHARMACEUTICAL CO.,LTD.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+4113,"TAOKA CHEMICAL COMPANY,LIMITED",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6277,HOSOKAWA MICRON CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5563,"Nippon Denko Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3360,"SHIP HEALTHCARE HOLDINGS,INC.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6315,TOWA CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2753,"AMIYAKI TEI CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6135,"Makino Milling Machine Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8848,LEOPALACE21 CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5698,ENVIPRO HOLDINGS Inc.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3501,"SUMINOE Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7414,"ONOKEN CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7871,"FUKUVI CHEMICAL INDUSTRY CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6544,"JAPAN ELEVATOR SERVICE HOLDINGS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4784,"GMO internet,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7856,HAGIHARA INDUSTRIES INC.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6925,USHIO INC.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2053,"CHUBU SHIRYO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6547,"GREENS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3546,"Alleanza Holdings Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7839,"SHOEI CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4548,SEIKAGAKU CORPORATION,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+6309,"TOMOE ENGINEERING CO.,LTD.(TOMOE KOGYO CO.,LTD.)",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7224,"ShinMaywa Industries,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9119,"IINO KAIUN KAISHA,LTD.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+9143,"SG HOLDINGS CO.,LTD.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+3236,"PROPERST CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4189,"KH Neochem Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1379,HOKUTO CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5578,"AR advanced technology,Inc.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4722,Future Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2195,"AMITA HOLDINGS CO.,LTD.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+5243,note inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1419,"Tama Home Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7715,"NAGANO KEIKI CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9991,GECOSS CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6858,"ONO SOKKI Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8283,PALTAC CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6489,"Maezawa Industries,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6258,HIRATA Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6590,SHIBAURA MECHATRONICS CORPORATION,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+1435,robot home Inc.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6458,SINKO INDUSTRIES LTD.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9110,"NS United Kaiun Kaisha,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+1899,FUKUDA CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5344,"MARUWA CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5902,HOKKAN HOLDINGS LIMITED,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6505,"TOYO DENKI SEIZO K.K.(TOYO ELECTRIC MFG.CO.,LTD.)",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6455,MORITA HOLDINGS CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8074,"YUASA CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6498,KITZ CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2982,"A.D.Works Group Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7729,"TOKYO SEIMITSU CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+6249,"Gamecard Holdings,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4974,TAKARA BIO INC.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4366,Daito Chemix Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5381,Mipox Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4951,S.T.CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6965,HAMAMATSU PHOTONICS K.K.,lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+9768,"IDEA Consultants,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8095,"Astena Holdings Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6262,"PEGASUS CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6859,ESPEC CORP.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4071,"Plus Alpha Consulting Co.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5302,"Nippon Carbon Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1719,HAZAMA ANDO CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9364,"Kamigumi Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2935,"PICKLES HOLDINGS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5991,"NHK SPRING CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3632,"GREE Holdings,Inc.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+6323,RORZE CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6273,SMC CORPORATION,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+9025,"Konoike Transport Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6597,HPC SYSTEMS Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7071,"Amvis Holdings,Inc.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+8084,RYODEN CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7840,"FRANCE BED HOLDINGS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9876,"COX CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4251,KEIWA Incorporated,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4725,CAC Holdings Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4475,HENNGE K.K.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8141,"Shinko Shoji Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+9744,MEITEC Group Holdings Inc.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3640,"DENSAN CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3299,"MUGEN ESTATE Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6016,Japan Engine Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5192,Mitsuboshi Belting Ltd.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1934,YURTEC CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6036,"KeePer Technical Laboratory Co.,Ltd.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+9401,"TBS HOLDINGS,INC.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3093,"Treasure Factory Co.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+3445,"RS Technologies Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+6420,GALILEI CO.LTD.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9621,"CTI Engineering Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8252,"MARUI GROUP CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6508,MEIDENSHA CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3916,Digital Information Technologies Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4025,"TAKI CHEMICAL CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6804,Hosiden Corporation,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+7512,Aeon Hokkaido Corporation,lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+9347,"NIPPON KANZAI Holdings Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3151,"VITAL KSK HOLDINGS,INC.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5965,FUJIMAK CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7989,TACHIKAWA CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9612,"LUCKLAND CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9267,"Genky DrugStores Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7800,"Amifa Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3245,"DEAR LIFE CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4673,"Kawasaki Geological Engineering Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8830,"Sumitomo Realty & Development Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4212,Sekisui Jushi Corporation,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+9601,"Shochiku Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8131,"Mitsuuroko Group Holdings Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7003,"MITSUI E&S Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5444,"YAMATO KOGYO CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+3076,Ai Holdings Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5915,KOMAIHALTEC Inc.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7318,"SERENDIP HOLDINGS Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3179,"Syuppin Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5461,"Chubu Steel Plate Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+7435,"NADEX CO.,LTD.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+8160,"KISOJI CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4928,"Noevir Holdings Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9759,"NSD CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5957,"NITTOSEIKO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7976,"MITSUBISHI PENCIL COMPANY,LIMITED",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+6226,"Moriya Transportation Engineering and Manufacturing Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6622,DAIHEN CORPORATION,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+9514,EF-ON INC.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7716,NAKANISHI INC.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7128,UNISOL Holdings Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7821,"MAEDA KOSEN CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5351,"SHINAGAWA REFRA CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2109,"Mitsui DM Sugar Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6741,"Nippon Signal Company,Limited",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4275,"Carlit Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9960,TOTECH CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7564,"WORKMAN CO.,LTD.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+3922,PR TIMES Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6197,Solasto Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2112,"Ensuiko Sugar Refining Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2980,SRE Holdings Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4554,"Fuji Pharma Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3844,COMTURE CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4972,"Soken Chemical & Engineering Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3878,TOMOEGAWA CORPORATION,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+6861,KEYENCE CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7476,AS ONE CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7944,Roland Corporation,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+9713,"THE ROYAL HOTEL,LIMITED",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6266,"TAZMO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3388,"MEIJI ELECTRIC INDUSTRIES CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2702,"McDonald's Holdings Company(Japan),Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6727,"Wacom Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7456,"MATSUDA SANGYO Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+2211,"Fujiya Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7244,"ICHIKOH INDUSTRIES,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+4410,"HARIMA CHEMICALS GROUP,INC.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4063,"Shin-Etsu Chemical Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+9065,SANKYU INC.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4396,System Support Holdings Inc.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8935,"FJ NEXT HOLDINGS CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1808,HASEKO Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5888,"DAIWA CYCLE CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3284,"Hoosiers Holdings Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+4093,"Toho Acetylene Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6822,"Oi Electric Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7875,"TAKEDA iP HOLDINGS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9932,"SUGIMOTO & CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3132,"MACNICA HOLDINGS,INC.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+4167,Kokopelli Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1417,MIRAIT ONE Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1802,OBAYASHI CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7914,"Kyodo Printing Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8041,OUG Holdings Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5714,"DOWA HOLDINGS CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7433,"Hakuto Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4186,"TOKYO OHKA KOGYO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4977,Nitta Gelatin Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6866,HIOKI E.E.CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8200,"RINGER HUT CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9075,"FUKUYAMA TRANSPORTING CO.,LTD.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+6368,ORGANO CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6482,Yushin Company,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2612,KADOYA SESAME MILLS INCORPORATED,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7508,G-7 HOLDINGS Inc.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7504,KOHSOKU CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3023,Rasa Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4229,"Gun Ei Chemical Industry Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3712,"Information Planning CO.,LTD.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+6652,IDEC CORPORATION,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+6125,"OKAMOTO MACHINE TOOL WORKS,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+5940,"FUJISASH CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2204,"NAKAMURAYA CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5384,FUJIMI INCORPORATED,lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+1887,JDC CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6240,YAMASHIN-FILTER CORP.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4433,"HITO-Communications Holdings,Inc.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+3193,"Eternal Hospitality Group Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4026,"Konoshima Chemical Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+3836,AVANT GROUP CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6118,"AIDA ENGINEERING,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7102,"NIPPON SHARYO,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9869,"KATO SANGYO CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4971,MEC COMPANY LTD.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8159,"TACHIBANA ELETECH CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+4664,JAPAN RELIANCE SERVICE CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9993,"YAMAZAWA CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6229,OKUMURA ENGINEERING corp.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5706,"Mitsui Kinzoku Company,Limited",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5906,"MK SEIKO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3877,"Chuetsu Pulp & Paper Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2157,"KOSHIDAKA HOLDINGS Co.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2326,Digital Arts Inc.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1762,"TAKAMATSU CONSTRUCTION GROUP CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+9757,Funai Soken Holdings Incorporated,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6407,CKD Corporation,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+9837,"MORITO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4393,"Bank of Innovation,Inc.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+6962,DAISHINKU CORP.,lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+2884,Yoshimura Food Holdings K.K.,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+2209,"IMURAYA GROUP CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7974,"Nintendo Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6073,ASANTE INCORPORATED,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4661,"ORIENTAL LAND CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6137,"KOIKE SANSO KOGYO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1835,"TOTETSU KOGYO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9441,"Bell-Park Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7460,"YAGI & CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7630,"ICHIBANYA CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7932,"Nippi,Incorporated",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9900,Sagami Holdings Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7033,"Management Solutions Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2908,"FUJICCO CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+3036,ALCONIX CORPORATION,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+1820,"Nishimatsu Construction Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7713,"SIGMA KOKI CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6496,"NAKAKITA SEISAKUSHO CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4619,"Nihon Tokushu Toryo Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4812,DENTSU SOKEN INC.,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+2286,"Hayashikane Sangyo Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3692,"FFRI Security,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6994,SHIZUKI ELECTRIC COMPANY INC.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6027,"Bengo4.com,Inc.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+3091,"BRONCO BILLY Co.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1941,CHUDENKO CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6247,"HISAKA WORKS,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6627,"Tera Probe,Inc.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8237,"MATSUYA CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2674,"HARD OFF CORPORATION Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4975,JCU CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6998,"Nippon Tungsten Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+4732,"USS Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6466,"TVE Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6149,"Odawara Engineering Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7970,"Shin-Etsu Polymer Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6617,"TAKAOKA TOKO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9303,"The Sumitomo Warehouse Co.,Ltd.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+2317,Systena Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4956,"KONISHI CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1786,Oriental Shiraishi Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9305,Yamatane Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9537,"HOKURIKU GAS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2819,"EBARA Foods Industry,Inc.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+6333,TEIKOKU CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6855,JAPAN ELECTRONIC MATERIALS CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6966,"Mitsui High-tec,Inc.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+8802,"Mitsubishi Estate Company,Limited",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+9692,COMPUTER ENGINEERING & CONSULTING LTD.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1720,"TOKYU CONSTRUCTION CO., LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6165,"PUNCH INDUSTRY CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+9166,GENDA Inc.,lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+9890,"MAKIYA CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7717,"V Technology Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4392,"Future Innovation Group,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9880,INNOTECH CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3156,Restar Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6820,ICOM INCORPORATED,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6677,"SK-Electronics CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4384,RAKSUL INC.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6742,"Kyosan Electric Manufacturing Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7727,OVAL Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4816,"TOEI ANIMATION CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8285,"MITANI SANGYO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1443,"Giken Holdings Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6061,"UNIVERSAL ENGEISHA CO.,LTD",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6055,"JAPAN MATERIAL Co.,Ltd.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+5802,"Sumitomo Electric Industries,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3553,"KYOWA LEATHER CLOTH CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8860,FUJI CORPORATION LIMITED,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9338,INFORICH INC.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9740,"CENTRAL SECURITY PATROLS CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+8075,Shinsho Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7868,"KOSAIDO Holdings Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2330,"Forside Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2384,"SBS Holdings,Inc.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+7921,TAKARA & COMPANY LTD.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9928,"MIROKU JYOHO SERVICE CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3496,"AZOOM CO.,LTD",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2207,"MEITO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6364,AIRMAN CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8052,"TSUBAKIMOTO KOGYO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3177,"ARIGATOU SERVICES COMPANY,LIMITED",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5184,"NICHIRIN CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2489,Adways Inc.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5333,NGK Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6744,NOHMI BOSAI LTD.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9902,NICHIDEN Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3159,"Maruzen CHI Holdings Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7427,"ECHO TRADING CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+1885,TOA CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4461,DKS Co.Ltd.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4082,"DAIICHI KIGENSO KAGAKU-KOGYO CO.,LTD",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+4493,"Cyber Security Cloud,Inc.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7730,"MANI,INC.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6203,"Howa Machinery,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7247,MIKUNI CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4966,"C.Uyemura & Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4958,"T.HASEGAWA CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4498,"Cybertrust Japan Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5644,METALART CORPORATION,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+9672,"TOKYOTOKEIBA CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5958,"SANYO INDUSTRIES,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9889,JBCC Holdings Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3107,"Daiwabo Holdings Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4165,"PLAID,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4431,"Smaregi,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4549,"EIKEN CHEMICAL CO.,LTD.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+1815,TEKKEN CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1952,"Shin Nippon Air Technologies Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1721,COMSYS Holdings Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8151,TOYO Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1803,SHIMIZU CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6134,FUJI CORPORATION,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+3979,"ULURU.CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9896,"JK Holdings Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2760,TOKYO ELECTRON DEVICE LIMITED,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1879,SHINNIHON CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5801,"Furukawa Electric Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9227,"Microwave Chemical Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5726,"OSAKA Titanium technologies Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6882,"Sansha Electric Manufacturing Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+8244,"Kintetsu Department Store CO.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9982,"Takihyo Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9301,Mitsubishi Logistics Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1938,"NIPPON RIETEC CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2353,"NIPPON PARKING DEVELOPMENT Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1860,TODA CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2666,"AUTOWAVE Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6493,NITTAN Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9248,"People, Dreams & Technologies Group Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8891,"AMG HOLDINGS CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6643,"Togami Electric Mfg.Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4046,"OSAKA SODA CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8135,ZETT CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8919,"KATITAS CO.,LTD",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4107,ISE CHEMICALS CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7608,"SK JAPAN CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5280,"Yoshicon Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6317,Kitagawa Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1944,KINDEN CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4686,JUSTSYSTEMS CORPORATION,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+6490,PILLAR Corporation,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+6507,"SINFONIA TECHNOLOGY CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9341,"GENOVA,Inc.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9629,PCA CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9793,"Daiseki Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7609,"Daitron Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4763,"CREEK & RIVER Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+6626,SEMITEC Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1976,"MEISEI INDUSTRIAL Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2216,Kanro Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4465,"Niitaka Co., Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1926,"RAITO KOGYO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1871,"PS Construction Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8117,CENTRAL AUTOMOTIVE PRODUCTS LTD.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6286,SEIKO CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7521,"MUSASHI CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2737,TOMEN DEVICES CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6947,ZUKEN INC.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3741,"Systems Engineering Consultants Co.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1930,"HOKURIKU ELECTRICAL CONSTRUCTION CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9324,Yasuda Logistics Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4595,"MIZUHO MEDY CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+3433,"TOCALO Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7525,RIX CORPORATION,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+5285,YAMAX Corp.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6834,"SEIKOH GIKEN Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4684,"OBIC Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9467,"AlphaPolis Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3139,"Lacto Japan Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1951,"EXEO Group,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3662,"Ateam Holdings Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6862,MINATO HOLDINGS INC.,lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+6748,"SEIWA ELECTRIC MFG. CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4013,"Kinjiro Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7811,"NAKAMOTO PACKS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4992,"HOKKO CHEMICAL INDUSTRY CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9551,"METAWATER Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4371,Core Concept Technologies Inc.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8920,"TOSHO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7438,KONDOTEC INC.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3915,"TerraSky Co.,Ltd",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3565,Ascentech K.K.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1882,TOA ROAD CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3110,"NITTO BOSEKI CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1950,"NIPPON DENSETSU KOGYO CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6255,NPC Incorporated,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4055,T&S Group Inc.,lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+7628,OHASHI TECHNICA INC.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8079,SHOEI FOODS CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7646,"PLANT Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2764,Hiramatsu Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6402,"KANEMATSU ENGINEERING CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3611,MATSUOKA CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7085,"CURVES HOLDINGS Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2692,"ITOCHU-SHOKUHIN Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5757,"CK SAN-ETSU Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6227,"AIMECHATEC,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1959,KRAFTIA CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7235,"TOKYO RADIATOR MFG.CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2341,"ARBEIT-TIMES CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6800,"YOKOWO CO.,LTD.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+9438,MTI Ltd.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6524,"KOHOKU KOGYO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3271,The Global Ltd.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2653,"AEON KYUSHU CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+3020,"Applied Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4317,Ray Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3627,TECMIRA HOLDINGS INC.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4231,TIGERS POLYMER CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9619,"ICHINEN HOLDINGS CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6824,"NEW COSMOS ELECTRIC CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+5820,"MITSUBOSHI CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6336,"ISHII HYOKI CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+7551,"WEDS CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6331,"Mitsubishi Kakoki Kaisha,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5208,"Arisawa Mfg.Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2354,YE DIGITAL Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3106,KURABO INDUSTRIES LTD.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6383,"DAIFUKU CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9553,"MicroAd,Inc.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+1420,Sanyo Homes Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5449,"OSAKA STEEL CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2475,"WDB HOLDINGS CO.,LTD.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+8101,GSI Creos Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6284,"NISSEI ASB MACHINE CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1870,"YAHAGI CONSTRUCTION CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4931,"Shinnihonseiyaku Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4377,ONE CAREER Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5363,TYK CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1813,Fudo Tetra Corporation,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+4481,"BASE CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2907,"AHJIKAN CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6954,FANUC CORPORATION,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+6459,DAIWA INDUSTRIES LTD.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7614,"OM2Network Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+8137,SUN-WA TECHNOS CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1852,ASANUMA CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7291,"NIHON PLAST CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3150,"grems,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7995,"VALQUA,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+3396,FELISSIMO CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3763,Pro-Ship Incorporated,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5946,"CHOFU SEISAKUSHO CO.,LTD.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+4733,"OBIC BUSINESS CONSULTANTS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1812,KAJIMA CORPORATION,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+6517,"Denyo Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5976,"Neturen Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9270,Valuence Holdings Inc.,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+3457,"&Do Holdings Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7925,"MAEZAWA KASEI INDUSTRIES CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7544,"Three F Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2158,"FRONTEO,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7254,UNIVANCE CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7760,IMV CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6358,"SAKAI HEAVY INDUSTRIES,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5574,"ABEJA,Inc.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+3109,SHIKIBO LTD.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8059,"DAIICHI JITSUGYO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4075,"Brains Technology,Inc.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+6996,NICHICON CORPORATION,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+3945,"Superbag Company,Limited",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8917,"First Juken Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+6069,"Trenders,Inc.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7818,"TRANSACTION CO.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9846,"TENMAYA STORE CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6946,"Nippon Avionics Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5011,"NICHIREKI GROUP CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8091,"NICHIMO CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5186,Nitta Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8030,"Chuo Gyorui Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1801,TAISEI CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7734,"RIKEN KEIKI CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+5805,SWCC Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6999,KOA CORPORATION,lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+5821,HIRAKAWA HEWTECH CORP.,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+3547,UNISIA HOLDINGS CO.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3486,GLOBAL LINK MANAGEMENT INC.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7539,"AINAVO HOLDINGS Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+8163,"SRS HOLDINGS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1946,TOENEC CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5631,"The Japan Steel Works,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4463,"NICCA CHEMICAL CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9424,Japan Communications Inc.,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+4820,"EM SYSTEMS CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6071,"IBJ,Inc.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2652,MANDARAKE INC.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9906,Fujii Sangyo Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6653,"SEIKO ELECTRIC CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1799,DAIICHI KENSETSU CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5939,"OTANI KOGYO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3675,Cross Marketing Group Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4187,OSAKA ORGANIC CHEMICAL INDUSTRY LTD.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7377,"DN HOLDINGS CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7409,"AeroEdge Co.,Ltd",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3321,"MITACHI CO.,LTD.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+4577,"Daito Pharmaceutical Co.,Ltd.",lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+9845,PARKER CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9068,"Maruzen Showa Unyu Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6771,"IKEGAMI TSUSHINKI CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7421,"KAPPA・CREATE CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6387,SAMCO INC.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7066,"Peers Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9722,FUJITA KANKO INC.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4027,TAYCA CORPORATION,lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+9763,"Maruken Lease Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9827,"Lilycolor Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4826,"Computer Institute of Japan, Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1965,TECHNO RYOWA LTD.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6929,"NIPPON CERAMIC CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7874,"LEC,INC.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5010,"NIPPON SEIRO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7510,TAKEBISHI CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1384,"Hokuryo Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1381,"AXYZ CO.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7938,REGAL CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1942,"KANDENKO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6907,"GEOMATEC CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6485,"MAEZAWA KYUSO INDUSTRIES CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2415,"Human Holdings Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5074,"TESS Holdings Co.,Ltd.",lite,False,True,True,0.35,lite: payout/reform data absent and financial proxy insufficient
+9412,SKY Perfect JSAT Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7722,"KOKUSAI CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2332,"Quest Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9310,Japan Transcity Corporation,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4099,SHIKOKU KASEI HOLDINGS CORPORATION,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3843,"FreeBit Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+5592,"Kusurinomadoguchi,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2533,"Oenon Holdings,Inc.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3678,"MEDIA DO Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4449,giftee Inc.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3131,SHINDEN HIGHTEX CORPORATION,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient
+3676,"DIGITAL HEARTS HOLDINGS Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4224,LONSEAL CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7885,"TAKANO Co.,Ltd.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4998,FUMAKILLA LIMITED,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7812,CRESTEC Inc.,partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2815,"ARIAKE JAPAN Co.,Ltd.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7213,LECIP HOLDINGS CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1718,"MIKIKOGYO CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3778,SAKURA internet Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+3069,JFLA Holdings Inc.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7963,KOKEN LTD.,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6345,AICHI CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7220,"MUSASHI SEIMITSU INDUSTRY CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+2469,Hibino Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6382,TRINITY INDUSTRIAL CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+6788,"NIHON TRIM CO.,LTD.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+9824,"SENSHU ELECTRIC CO.,LTD.",partial,False,True,True,0.6499999999999999,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+4170,"Kaizen Platform,Inc.",partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7022,Sanoyas Holdings Corporation,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+1867,UEKI CORPORATION,partial,False,True,True,0.8,quantitative improvement plus FCF proxy available; formal payout/reform fields still missing
+7094,NexTone Inc.,lite,False,True,True,0.5,lite: payout/reform data absent and financial proxy insufficient

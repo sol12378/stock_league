@@ -1,0 +1,19 @@
+{
+  "phase": "Phase5",
+  "loop_id": 1,
+  "score": 96,
+  "pass": true,
+  "subscores": {
+    "verification_coverage": 19,
+    "ablation_validity": 20,
+    "risk_honesty": 20,
+    "avoids_overfitting": 19,
+    "report_transferability": 18
+  },
+  "critical_issues": [],
+  "repair_tasks": [
+    "R5-1: 図の日本語ラベルのdocx体裁確認（Phase7へ）",
+    "R5-2: Calmar Ratio・条件付きVaR等の追加リスク指標は今後の課題として記載済み（任意）",
+    "R5-3: curated_evidence 依存(D2)の機械抽出置換は今後の課題（out-of-scope、明記済み）"
+  ]
+}

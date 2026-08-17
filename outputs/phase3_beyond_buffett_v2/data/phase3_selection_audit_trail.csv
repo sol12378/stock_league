@@ -1,0 +1,33 @@
+﻿code,requested_role,decision,reason,score
+3697,Dual Moat,selected,highest eligible under constraints,81.07777619193524
+6841,Dual Moat,selected,highest eligible under constraints,79.65815707599248
+9474,Dual Moat,selected,highest eligible under constraints,77.21428276492384
+2326,Emerging Core,skipped,sector_count_cap,88.43570512820513
+6368,Emerging Core,selected,highest eligible under constraints,82.20461538461538
+6315,Emerging Core,selected,highest eligible under constraints,80.67820512820512
+6920,Emerging Core,selected,highest eligible under constraints,77.56423076923078
+6146,Emerging Core,skipped,sector_count_cap,74.30333333333333
+7735,Emerging Core,selected,highest eligible under constraints,72.97948717948718
+3692,Emerging Core,skipped,sector_count_cap,72.19512820512821
+6526,Emerging Core,skipped,sector_count_cap,71.18051282051282
+6367,Emerging Core,skipped,sector_count_cap,65.0852564102564
+5803,Emerging Core,selected,highest eligible under constraints,63.71448717948718
+1909,Transformation Core,skipped,sector_count_cap,85.90611739473599
+6440,Transformation Core,skipped,sector_count_cap,84.17952883423955
+6745,Transformation Core,skipped,sector_count_cap,83.60456020769706
+9612,Transformation Core,selected,highest eligible under constraints,83.0382519189988
+3089,Transformation Core,selected,highest eligible under constraints,82.10777829553952
+3911,Transformation Core,skipped,sector_count_cap,82.03982472419247
+1961,Transformation Core,selected,highest eligible under constraints,81.83667419720837
+6676,Transformation Core,skipped,sector_count_cap,81.76239699190981
+7991,Transformation Core,skipped,sector_count_cap,81.57053977006751
+4113,Transformation Core,selected,highest eligible under constraints,81.13926635349118
+6454,Transformation Core,skipped,sector_count_cap,80.48670925787704
+6822,Transformation Core,skipped,sector_count_cap,80.24534110094169
+6418,Transformation Core,skipped,sector_count_cap,79.86469039135413
+5902,Transformation Core,selected,highest eligible under constraints,79.72906163552022
+3911,Bridge / Diversifier,skipped,sector_count_cap,88.49662210724276
+7991,Bridge / Diversifier,skipped,sector_count_cap,88.21505113476778
+1909,Bridge / Diversifier,skipped,sector_count_cap,87.18003407320523
+9828,Bridge / Diversifier,selected,highest eligible under constraints,86.8853059616673
+5603,Bridge / Diversifier,selected,highest eligible under constraints,86.51715601136164

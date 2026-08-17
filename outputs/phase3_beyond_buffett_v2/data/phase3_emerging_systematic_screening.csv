@@ -1,0 +1,1201 @@
+﻿code,curated_evidence_flag,systematic_screening_flag,emerging_disclosure_level,emerging_evidence_source,emerging_evidence_snippet,emerging_evidence_category,emerging_keyword_hits,emerging_quantitative_evidence_flag,emerging_product_customer_evidence_flag,emerging_keyword_only_flag,theme_hype_penalty_reason
+7261,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7211,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9533,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9507,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7419,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8012,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2695,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4022,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+1333,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1515,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8111,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9684,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+6745,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+9831,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8273,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5021,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1909,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+6454,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+8060,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1911,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+3028,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2602,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2791,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9682,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+5105,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9997,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5406,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8276,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1414,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+3382,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3863,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4204,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+8278,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1723,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+2121,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+1662,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9956,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7516,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4922,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+2212,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3608,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6457,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+3405,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+2220,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2918,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3539,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8016,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9101,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6196,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+4118,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+6648,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+2730,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1861,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+4202,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+5233,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6440,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+1961,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+6417,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+7917,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+5393,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7649,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7552,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4318,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+2664,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8194,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6369,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+8218,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9104,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5410,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6770,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+2267,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6430,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+6676,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+3391,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7803,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4569,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5463,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6104,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+9274,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8242,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4849,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+6310,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+4633,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+2681,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3333,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3861,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4042,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+8227,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3134,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4521,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9948,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7280,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+8088,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9842,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2734,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1925,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+7595,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+8281,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2491,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+5947,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4828,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+8167,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9115,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1928,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+3104,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8061,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9989,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8173,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4540,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2733,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8282,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2433,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+8037,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7912,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3087,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2001,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9934,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2593,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9832,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3048,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2792,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8011,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6302,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+6419,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+7581,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2288,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6794,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+1980,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+3349,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5423,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8214,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2678,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2659,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9202,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3941,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9470,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+6814,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+4651,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+2685,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6460,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+6588,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+4613,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+4751,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+7911,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3148,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3407,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+2929,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2726,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2002,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7240,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7988,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+2296,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5019,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2379,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+5210,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3002,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6039,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+9699,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+4043,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+2269,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9107,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5331,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5440,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3865,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9534,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6526,True,True,2,https://www.socionext.com/en/products/customsoc/,"Custom SoCs are explicitly positioned for data center/networking, automotive, smart-device and industrial applications.",semiconductor,"{""semiconductor"": [""semiconductor""], ""data_center"": [""data center""], ""cybersecurity"": [""soc""]}",False,True,False,none
+5262,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7130,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7459,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7245,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6463,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+2613,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2670,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8255,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5408,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7606,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6849,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+9543,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4206,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+4631,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+6995,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7832,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4534,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8217,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1766,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+7994,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9603,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+6580,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+6418,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+3092,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9247,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+3479,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9980,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9974,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6209,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+6923,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+5929,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4927,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+3050,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4112,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+6287,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+7453,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2201,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9404,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+7610,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7984,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7600,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5970,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7599,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5851,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,optical_communication,"{""optical_communication"": [""cable"", ""optical""]}",False,False,True,keyword-only systematic hit
+2206,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3697,True,True,3,https://service.shiftinc.jp/service_cat/softwaretest/,"SHIFT discloses end-to-end software quality assurance and more than 3,000 customer companies as of April 2024.",quality_assurance,"{""quality_assurance"": [""quality assurance""]}",True,True,False,none
+1301,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9409,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+9706,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9936,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6395,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+8835,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7550,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6436,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+8291,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4996,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+9990,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4401,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+5480,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7942,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+7981,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6809,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+6058,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+7864,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9861,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2767,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2810,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6474,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+7231,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3660,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+4544,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+4776,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+2004,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1377,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4665,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+2229,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6356,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+3923,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+6810,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+2429,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+7867,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7936,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2270,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5703,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,optical_communication,"{""optical_communication"": [""cable"", ""optical""]}",False,False,True,keyword-only systematic hit
+4208,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+3626,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+4559,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3930,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+2742,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8103,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1663,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3765,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+6349,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+7990,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4933,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+5817,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,optical_communication,"{""optical_communication"": [""cable"", ""optical""]}",False,False,True,keyword-only systematic hit
+9531,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6367,True,True,2,https://www.daikin.com/products/ac/applications/modals/23_data_centers,Daikin discloses dedicated data-center cooling systems for 24-hour server protection and energy-efficient operation.,cooling,"{""data_center"": [""server""], ""cooling"": [""cooling""]}",False,True,False,none
+3046,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7955,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7532,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4620,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+8050,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7545,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9987,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3167,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3101,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+7004,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+9962,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9830,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6850,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+9994,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2809,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4611,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+8022,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8086,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7279,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3088,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2292,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4194,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+6841,True,True,3,https://www.yokogawa.com/solutions/products-and-services/control/control-and-safety-system/,"Yokogawa states that more than 30,000 systems use its distributed-control systems for industrial production goals.",factory_automation,"{""factory_automation"": [""automation"", ""control""]}",True,True,False,none
+1878,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7520,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3558,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2782,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6952,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+5032,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+8142,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8267,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7859,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7943,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6658,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+4527,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9474,True,True,3,https://www.zenrin.co.jp/product/category/gis/contents/csd/index.html,ZENRIN describes a company-information database covering about five million records linked to building-level location data.,business_data,"{""business_data"": [""business data"", ""software""]}",True,True,False,none
+5214,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6250,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+9715,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+7701,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8803,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3864,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4205,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+5273,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8203,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7956,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7458,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9413,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+6378,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+7947,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+6282,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+1847,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+9887,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4547,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2784,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6584,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4028,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+4768,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+6371,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+9418,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+1332,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2871,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1969,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+8043,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9005,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7972,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7685,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8185,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6103,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+8897,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8136,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5332,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6932,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+6718,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+4530,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4634,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+6432,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+7846,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9882,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7745,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6351,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+4617,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+3191,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5715,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,optical_communication,"{""optical_communication"": [""cable"", ""optical""]}",False,False,True,keyword-only systematic hit
+6951,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+5711,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+9678,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+4368,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+4553,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9536,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4350,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7283,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9532,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7373,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+6465,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+5975,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7226,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9076,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6670,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+4979,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+8179,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2003,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2915,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4526,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8005,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4681,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+9746,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+3034,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7575,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7762,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2585,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3907,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+3089,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4064,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+8007,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5943,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4443,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+3097,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7309,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9039,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6413,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+2331,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+6835,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+4685,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+7906,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4045,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+1873,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+7483,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6703,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+3415,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4985,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+3636,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+7241,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8153,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6637,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+3099,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7246,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4031,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+3399,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3355,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6644,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+8130,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5253,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+2875,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6140,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+3696,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+3911,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+6272,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+6961,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+6257,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+5632,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9405,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+3946,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8035,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+6238,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+9332,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+5142,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+9602,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+4044,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+9823,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7965,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+9304,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6592,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+5301,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3395,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7482,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4021,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+6777,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+6958,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+7780,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3064,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7014,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9856,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6535,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+7276,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+8032,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2222,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9064,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5988,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2060,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5232,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5981,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6445,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+6088,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+8051,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7735,True,True,2,https://www.screen.co.jp/en/overview,SCREEN identifies semiconductor production equipment and world-leading wet etch and clean equipment as core businesses.,semiconductor,"{""semiconductor"": [""semiconductor""]}",False,True,False,none
+3176,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3231,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8150,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9743,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+3320,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3105,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+6845,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+6750,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+4886,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7991,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+7537,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9278,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9627,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3186,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8801,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9828,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3289,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6920,True,True,2,https://www.lasertec.co.jp/en/company/business.html,Lasertec states that EUV mask blank inspection is a de facto standard and its inspection systems are crucial to semiconductor manufacturing.,quality_assurance,"{""semiconductor"": [""semiconductor"", ""inspection""]}",False,True,False,none
+6638,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+9416,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+2910,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7747,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4216,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+6674,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+6146,True,True,2,https://www.disco.co.jp/eg/introduction/index.html,DISCO supplies precision cutting grinding and polishing equipment plus consumable tools mainly to semiconductor and electronic-component manufacturers.,precision_processing,"{""semiconductor"": [""semiconductor""]}",False,True,False,none
+3635,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+5901,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8097,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3569,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6890,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+7980,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9616,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+4694,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+2301,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+7305,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5959,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3003,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7050,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+4919,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+6136,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+3964,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+3182,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7611,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4246,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+5290,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4716,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+4825,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+8850,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7059,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+8125,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3549,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6332,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+8804,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5121,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7475,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7466,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9755,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+4078,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+6807,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+3489,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4839,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+3232,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8098,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7971,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+4934,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+5204,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6908,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+2418,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+4704,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+6083,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+9726,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+5603,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2294,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3431,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6768,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+8129,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7966,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9605,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+3856,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+5244,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+4478,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+4041,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+2492,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+5930,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9697,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+7239,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3288,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7743,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2264,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7719,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6023,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3708,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5013,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3201,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2127,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+8029,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5185,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6737,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+4272,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+4471,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+9535,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6728,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+6504,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+2281,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6960,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+7806,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4626,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+2153,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+4666,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9729,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+9279,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6941,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+7740,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8008,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9735,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+7888,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+7522,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5018,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2175,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+4221,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+9788,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+5933,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6143,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+6486,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+7940,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+8198,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5304,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8174,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3038,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2531,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3661,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+3498,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6412,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+6339,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+6871,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+6363,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+6072,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+7613,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4220,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+7979,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4125,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+3687,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+4848,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+9716,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+6856,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+9556,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+7679,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7513,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7987,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1982,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+5803,True,True,2,https://www.fujikura.co.jp/eng/resource/pdf/20241107_2.pdf,Fujikura discloses optical-fiber cabling solutions designed for data-center racks and space efficiency.,optical_communication,"{""optical_communication"": [""optical""]}",False,True,False,none
+2395,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+7931,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+6914,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+4994,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+7949,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6405,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+4182,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+9069,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4427,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+2735,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4403,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+3196,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6823,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+3950,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8014,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6381,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+4097,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+4092,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+6651,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+2124,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+8154,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9468,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+6200,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+4095,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+6877,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+4967,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+4113,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+6277,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+5563,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3360,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6315,True,True,3,https://www.towajapan.co.jp/en/wp-content/uploads/sites/3/2025/10/tr2025A3e.pdf,TOWA's integrated report identifies semiconductor sales of JPY39.53bn in FY2025 and links compression molding to advanced packages for generative AI.,semiconductor,"{""semiconductor"": [""semiconductor""]}",True,True,False,none
+2753,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6135,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+8848,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5698,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3501,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7414,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7871,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+6544,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+4784,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+7856,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6925,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+2053,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6547,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+3546,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7839,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4548,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6309,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+7224,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9119,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9143,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3236,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4189,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+1379,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5578,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+4722,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+2195,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+5243,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+1419,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+7715,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9991,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6858,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+8283,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6489,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+6258,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+6590,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+1435,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""robot""]}",False,False,True,keyword-only systematic hit
+6458,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+9110,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1899,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+5344,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5902,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6505,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+6455,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8074,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6498,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+2982,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7729,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6249,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+4974,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+4366,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+5381,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4951,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+6965,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,optical_communication,"{""optical_communication"": [""photonics""]}",False,False,True,keyword-only systematic hit
+9768,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+8095,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6262,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+6859,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+4071,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+5302,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1719,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+9364,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2935,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5991,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3632,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+6323,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+6273,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+9025,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6597,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+7071,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+8084,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7840,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9876,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4251,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+4725,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+4475,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+8141,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9744,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+3640,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+3299,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6016,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5192,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1934,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+6036,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+9401,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+3093,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3445,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6420,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+9621,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+8252,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6508,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+3916,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+4025,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+6804,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+7512,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9347,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+3151,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5965,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7989,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9612,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+9267,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7800,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3245,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4673,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+8830,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4212,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+9601,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+8131,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7003,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+5444,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3076,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5915,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7318,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3179,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5461,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7435,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8160,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4928,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+9759,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+5957,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7976,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6226,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+6622,True,True,2,https://www.daihen.co.jp/en/company/about/,DAIHEN discloses transformers and distribution equipment together with factory-automation robots and semiconductor plasma RF generators.,power_grid,"{""semiconductor"": [""semiconductor""], ""power_grid"": [""grid""], ""factory_automation"": [""automation"", ""robot""]}",False,True,False,none
+9514,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7716,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7128,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7821,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5351,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2109,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6741,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+4275,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+9960,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7564,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3922,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+6197,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+2112,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2980,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4554,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3844,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+4972,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+3878,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+6861,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+7476,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7944,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9713,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+6266,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+3388,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2702,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6727,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+7456,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2211,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7244,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+4410,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+4063,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+9065,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4396,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+8935,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1808,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+5888,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3284,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4093,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+6822,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+7875,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9932,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3132,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4167,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+1417,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+1802,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+7914,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8041,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5714,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,optical_communication,"{""optical_communication"": [""cable"", ""optical""]}",False,False,True,keyword-only systematic hit
+7433,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4186,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+4977,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+6866,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+8200,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9075,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6368,True,True,3,https://www.organo.co.jp/en/about/strengths/,"Organo states that its ultrapure-water systems serve semiconductor plants at capacities up to 1,000 cubic metres per hour.",semiconductor,"{""semiconductor"": [""semiconductor""]}",True,True,False,none
+6482,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+2612,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7508,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7504,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3023,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4229,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+3712,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+6652,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+6125,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+5940,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2204,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5384,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1887,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+6240,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+4433,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+3193,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4026,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3836,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+6118,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+7102,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9869,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4971,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+8159,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4664,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+9993,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6229,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+5706,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,optical_communication,"{""optical_communication"": [""cable"", ""optical""]}",False,False,True,keyword-only systematic hit
+5906,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3877,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2157,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+2326,True,True,3,https://www.daj.jp/en/about/business/,Digital Arts discloses integrated web email and file security products and patents in 27 countries and regions.,cybersecurity,"{""cybersecurity"": [""cybersecurity""]}",True,True,False,none
+1762,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+9757,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+6407,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+9837,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4393,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+6962,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+2884,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2209,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7974,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6073,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+4661,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+6137,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+1835,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+9441,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+7460,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7630,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7932,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9900,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7033,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+2908,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3036,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1820,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+7713,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6496,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+4619,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+4812,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+2286,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3692,True,True,2,https://www.ffri.jp/en/en_products_top,FFRI discloses endpoint security managed services and automated malware-analysis products based on domestic core security R&D.,cybersecurity,"{""cybersecurity"": [""cybersecurity""]}",False,True,False,none
+6994,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+6027,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+3091,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1941,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+6247,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+6627,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+8237,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2674,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4975,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+6998,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+4732,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+6466,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+6149,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+7970,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+6617,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+9303,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2317,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+4956,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+1786,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+9305,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9537,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2819,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6333,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+6855,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+6966,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+8802,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9692,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+1720,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+6165,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+9166,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+9890,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7717,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4392,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+9880,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+3156,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6820,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+6677,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+4384,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+6742,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+7727,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4816,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+8285,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1443,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+6061,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+6055,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+5802,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,optical_communication,"{""optical_communication"": [""cable"", ""optical""]}",False,False,True,keyword-only systematic hit
+3553,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+8860,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9338,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+9740,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+8075,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7868,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2330,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+2384,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7921,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9928,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+3496,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2207,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6364,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+8052,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3177,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5184,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2489,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+5333,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6744,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+9902,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3159,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7427,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1885,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+4461,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+4082,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+4493,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: cybersecurity,cybersecurity,"{""cybersecurity"": [""cyber security""]}",False,False,True,keyword-only systematic hit
+7730,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6203,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+7247,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4966,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+4958,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+4498,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+5644,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9672,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+5958,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9889,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+3107,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4165,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+4431,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+4549,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1815,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+1952,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+1721,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+8151,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1803,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+6134,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+3979,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+9896,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2760,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1879,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+5801,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,optical_communication,"{""optical_communication"": [""cable"", ""optical""]}",False,False,True,keyword-only systematic hit
+9227,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+5726,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,optical_communication,"{""optical_communication"": [""cable"", ""optical""]}",False,False,True,keyword-only systematic hit
+6882,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+8244,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9982,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9301,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1938,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+2353,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1860,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+2666,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6493,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9248,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+8891,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6643,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+4046,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+8135,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8919,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4107,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+7608,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5280,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6317,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+1944,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+4686,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+6490,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+6507,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+9341,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+9629,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+9793,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+7609,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4763,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+6626,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+1976,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+2216,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4465,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+1926,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+1871,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+8117,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6286,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+7521,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2737,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6947,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+3741,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+1930,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+9324,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4595,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3433,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7525,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5285,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6834,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+4684,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+9467,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+3139,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1951,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+3662,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+6862,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+6748,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+4013,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+7811,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4992,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+9551,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4371,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+8920,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+7438,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3915,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+3565,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1882,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+3110,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1950,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+6255,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+4055,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+7628,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8079,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7646,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2764,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6402,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+3611,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7085,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+2692,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5757,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,optical_communication,"{""optical_communication"": [""cable"", ""optical""]}",False,False,True,keyword-only systematic hit
+6227,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+1959,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+7235,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2341,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+6800,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+9438,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+6524,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+3271,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2653,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3020,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4317,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+3627,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+4231,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+9619,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+6824,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+5820,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,optical_communication,"{""optical_communication"": [""cable"", ""optical""]}",False,False,True,keyword-only systematic hit
+6336,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+7551,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6331,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+5208,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+2354,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+3106,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6383,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+9553,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+1420,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+5449,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2475,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+8101,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6284,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+1870,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+4931,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+4377,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+5363,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1813,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+4481,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+2907,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6954,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+6459,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+7614,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8137,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1852,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+7291,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3150,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7995,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+3396,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3763,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+5946,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4733,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+1812,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+6517,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+5976,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9270,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3457,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7925,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+7544,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2158,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+7254,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7760,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6358,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+5574,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+3109,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8059,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4075,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+6996,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+3945,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8917,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6069,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+7818,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9846,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6946,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+5011,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8091,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5186,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8030,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1801,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+7734,False,False,0,,no verified company disclosure,,{},False,False,False,none
+5805,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,optical_communication,"{""optical_communication"": [""cable"", ""optical""]}",False,False,True,keyword-only systematic hit
+6999,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+5821,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,optical_communication,"{""optical_communication"": [""cable"", ""optical""]}",False,False,True,keyword-only systematic hit
+3547,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3486,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7539,False,False,0,,no verified company disclosure,,{},False,False,False,none
+8163,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1946,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+5631,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+4463,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+9424,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+4820,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+6071,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+2652,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9906,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6653,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+1799,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+5939,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3675,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+4187,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+7377,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+7409,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3321,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4577,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9845,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+9068,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6771,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+7421,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6387,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+7066,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+9722,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+4027,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+9763,False,False,0,,no verified company disclosure,,{},False,False,False,none
+9827,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4826,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+1965,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+6929,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+7874,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+5010,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7510,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1384,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1381,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7938,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1942,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+6907,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+6485,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+2415,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+5074,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+9412,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+7722,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2332,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+9310,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4099,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+3843,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+5592,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+2533,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3678,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+4449,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+3131,False,False,0,,no verified company disclosure,,{},False,False,False,none
+3676,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+4224,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+7885,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4998,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,semiconductor,"{""semiconductor"": [""materials""]}",False,False,True,keyword-only systematic hit
+7812,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2815,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7213,False,False,0,,no verified company disclosure,,{},False,False,False,none
+1718,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+3778,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+3069,False,False,0,,no verified company disclosure,,{},False,False,False,none
+7963,False,False,0,,no verified company disclosure,,{},False,False,False,none
+6345,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+7220,False,False,0,,no verified company disclosure,,{},False,False,False,none
+2469,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit
+6382,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+6788,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""sensor"", ""control""]}",False,False,True,keyword-only systematic hit
+9824,False,False,0,,no verified company disclosure,,{},False,False,False,none
+4170,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,business_data,"{""business_data"": [""business data"", ""software""]}",False,False,True,keyword-only systematic hit
+7022,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,factory_automation,"{""factory_automation"": [""automation"", ""inspection""]}",False,False,True,keyword-only systematic hit
+1867,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,power_grid,"{""power_grid"": [""infrastructure""]}",False,False,True,keyword-only systematic hit
+7094,False,True,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,quality_assurance,"{""quality_assurance"": [""service""]}",False,False,True,keyword-only systematic hit

@@ -1,0 +1,1201 @@
+﻿code,ticker,company_name,sector,transformation_quant_evidence_level,transformation_reform_disclosure_level,transformation_shareholder_return_evidence_level,emerging_disclosure_level,final_evidence_level,emerging_evidence_source,emerging_evidence_snippet,curated_evidence_flag,systematic_screening_flag
+7261,7261.T,Mazda Motor Corporation,Transportation Equipment,2,1,1,0,2,,no verified company disclosure,False,False
+7211,7211.T,MITSUBISHI MOTORS CORPORATION,Transportation Equipment,1,1,1,0,1,,no verified company disclosure,False,False
+9533,9533.T,"TOHO GAS CO.,LTD.",Electric Power and Gas,2,1,1,0,2,,no verified company disclosure,False,False
+9507,9507.T,"Shikoku Electric Power Company,Incorporated",Electric Power and Gas,3,1,1,0,3,,no verified company disclosure,False,False
+7419,7419.T,"Nojima Co.,Ltd.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+8012,8012.T,"NAGASE & CO.,LTD.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+2695,2695.T,"Kura Sushi,Inc.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+4022,4022.T,"Rasa Industries,Ltd.",Chemicals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+1333,1333.T,Umios Corporation,"Fishery, Agriculture and Forestry",2,1,1,0,2,,no verified company disclosure,False,False
+1515,1515.T,"Nittetsu Mining Co.,Ltd.",Mining,1,1,1,0,1,,no verified company disclosure,False,False
+8111,8111.T,Goldwin Inc.,Textiles and Apparels,1,1,1,0,1,,no verified company disclosure,False,False
+9684,9684.T,"SQUARE ENIX HOLDINGS CO.,LTD.",Information & Communication,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+6745,6745.T,HOCHIKI CORPORATION,Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+9831,9831.T,"YAMADA HOLDINGS CO.,LTD.",Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+8273,8273.T,"IZUMI CO.,LTD.",Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+5021,5021.T,"COSMO ENERGY HOLDINGS COMPANY,LIMITED",Oil and Coal Products,1,1,1,0,1,,no verified company disclosure,False,False
+1909,1909.T,"Nippon Dry-Chemical CO.,LTD.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6454,6454.T,"MAX CO.,LTD.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+8060,8060.T,Canon Marketing Japan Inc.,Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+1911,1911.T,"Sumitomo Forestry Co.,Ltd.",Construction,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+3028,3028.T,"Alpen Co.,Ltd.",Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+2602,2602.T,"The Nisshin OilliO Group,Ltd.",Foods,3,1,1,0,3,,no verified company disclosure,False,False
+2791,2791.T,"DAIKOKUTENBUSSAN CO.,LTD.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+9682,9682.T,DTS CORPORATION,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+5105,5105.T,Toyo Tire Corporation,Rubber Products,2,1,1,0,2,,no verified company disclosure,False,False
+9997,9997.T,"BELLUNA CO.,LTD.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+5406,5406.T,"Kobe Steel,Ltd.",Iron and Steel,3,1,1,0,3,,no verified company disclosure,False,False
+8276,8276.T,"HEIWADO CO.,LTD.",Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+1414,1414.T,"SHO-BOND Holdings Co.,Ltd.",Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+3382,3382.T,"Seven & i Holdings Co.,Ltd.",Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+3863,3863.T,"Nippon Paper Industries Co.,Ltd.",Pulp and Paper,3,1,1,0,3,,no verified company disclosure,False,False
+4204,4204.T,"Sekisui Chemical Co.,Ltd.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+8278,8278.T,"FUJI CO.,LTD.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+1723,1723.T,"NIHON DENGI CO.,LTD.",Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+2121,2121.T,"MIXI,Inc.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+1662,1662.T,"Japan Petroleum Exploration Co.,Ltd.",Mining,2,1,1,0,2,,no verified company disclosure,False,False
+9956,9956.T,"VALOR HOLDINGS CO.,LTD.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+7516,7516.T,"KOHNAN SHOJI CO.,LTD.",Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+4922,4922.T,KOSE Holdings Corporation,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+2212,2212.T,"YAMAZAKI BAKING CO.,LTD.",Foods,3,1,1,0,3,,no verified company disclosure,False,False
+3608,3608.T,"TSI HOLDINGS CO.,LTD.",Textiles and Apparels,2,1,0,0,2,,no verified company disclosure,False,False
+6457,6457.T,GLORY LTD.,Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+3405,3405.T,"KURARAY CO.,LTD.",Chemicals,0,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+2220,2220.T,"KAMEDA SEIKA CO.,LTD.",Foods,3,1,1,0,3,,no verified company disclosure,False,False
+2918,2918.T,"WARABEYA NICHIYO HOLDINGS CO.,LTD.",Foods,3,1,1,0,3,,no verified company disclosure,False,False
+3539,3539.T,"JM HOLDINGS CO.,LTD.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+8016,8016.T,"ONWARD HOLDINGS CO.,LTD.",Textiles and Apparels,3,1,1,0,3,,no verified company disclosure,False,False
+9101,9101.T,Nippon Yusen Kabushiki Kaisha,Marine Transportation,0,1,1,0,0,,no verified company disclosure,False,False
+6196,6196.T,"Strike Group Co.,Ltd.",Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+4118,4118.T,KANEKA CORPORATION,Chemicals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+6648,6648.T,KAWADEN CORPORATION,Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+2730,2730.T,EDION Corporation,Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+1861,1861.T,"Kumagai Gumi Co.,Ltd.",Construction,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+4202,4202.T,Daicel Corporation,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+5233,5233.T,TAIHEIYO CEMENT CORPORATION,Glass and Ceramics Products,3,1,1,0,3,,no verified company disclosure,False,False
+6440,6440.T,JUKI CORPORATION,Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+1961,1961.T,"SANKI ENGINEERING CO.,LTD.",Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+6417,6417.T,"SANKYO CO.,LTD.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7917,7917.T,ZACROS Corporation,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+5393,5393.T,NICHIAS CORPORATION,Glass and Ceramics Products,3,1,1,0,3,,no verified company disclosure,False,False
+7649,7649.T,"SUGI HOLDINGS Co.,LTD.",Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+7552,7552.T,HAPPINET CORPORATION,Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+4318,4318.T,"QUICK CO.,LTD.",Services,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+2664,2664.T,CAWACHI LIMITED,Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+8194,8194.T,LIFE CORPORATION,Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+6369,6369.T,TOYO KANETSU K.K.,Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+8218,8218.T,"KOMERI CO.,LTD.",Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+9104,9104.T,"Mitsui O.S.K.Lines,Ltd.",Marine Transportation,2,1,1,0,2,,no verified company disclosure,False,False
+5410,5410.T,"Godo Steel,Ltd.",Iron and Steel,2,1,1,0,2,,no verified company disclosure,False,False
+6770,6770.T,"ALPS ALPINE CO.,LTD.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+2267,2267.T,"YAKULT HONSHA CO.,LTD.",Foods,0,1,1,0,0,,no verified company disclosure,False,False
+6430,6430.T,"DAIKOKU DENKI CO.,LTD.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6676,6676.T,BUFFALO INC.,Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+3391,3391.T,TSURUHA HOLDINGS INC.,Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+7803,7803.T,Bushiroad Inc.,Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+4569,4569.T,"KYORIN Pharmaceutical Co.,Ltd.",Pharmaceutical,3,1,1,0,3,,no verified company disclosure,False,False
+5463,5463.T,Maruichi Steel Tube Ltd.,Iron and Steel,2,1,1,0,2,,no verified company disclosure,False,False
+6104,6104.T,"SHIBAURA MACHINE CO.,LTD.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+9274,9274.T,"KPP GROUP HOLDINGS CO.,LTD.",Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+8242,8242.T,H2O RETAILING CORPORATION,Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+4849,4849.T,en Inc.,Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+6310,6310.T,"ISEKI & CO.,LTD.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4633,4633.T,SAKATA INX CORPORATION,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+2681,2681.T,GEO HOLDINGS CORPORATION,Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+3333,3333.T,"ASAHI CO.,LTD.",Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+3861,3861.T,Oji Holdings Corporation,Pulp and Paper,0,1,1,0,0,,no verified company disclosure,False,False
+4042,4042.T,TOSOH CORPORATION,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+8227,8227.T,"SHIMAMURA Co.,Ltd.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+3134,3134.T,Hamee Corp.,Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+4521,4521.T,"KAKEN PHARMACEUTICAL CO.,LTD.",Pharmaceutical,3,1,1,0,3,,no verified company disclosure,False,False
+9948,9948.T,"ARCS COMPANY,LIMITED",Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+7280,7280.T,MITSUBA Corporation,Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+8088,8088.T,IWATANI  CORPORATION,Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+9842,9842.T,ARCLANDS CORPORATION,Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+2734,2734.T,SALA CORPORATION,Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+1925,1925.T,"DAIWA HOUSE INDUSTRY CO.,LTD.",Construction,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+7595,7595.T,ARGO GRAPHICS Inc.,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+8281,8281.T,"XEBIO holdings CO.,LTD.",Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+2491,2491.T,"ValueCommerce Co.,Ltd.",Services,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+5947,5947.T,RINNAI CORPORATION,Metal Products,3,1,1,0,3,,no verified company disclosure,False,False
+4828,4828.T,Business Engineering Corporation,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+8167,8167.T,"RETAIL PARTNERS CO.,LTD.",Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+9115,9115.T,"Meiji Shipping Group Co.,Ltd.",Marine Transportation,3,1,1,0,3,,no verified company disclosure,False,False
+1928,1928.T,"Sekisui House,Ltd.",Construction,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+3104,3104.T,"Fujibo Holdings,Inc.",Textiles and Apparels,3,1,1,0,3,,no verified company disclosure,False,False
+8061,8061.T,SEIKA CORPORATION,Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+9989,9989.T,"SUNDRUG CO.,LTD.",Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+8173,8173.T,Joshin Corporation,Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+4540,4540.T,TSUMURA & CO.,Pharmaceutical,3,1,1,0,3,,no verified company disclosure,False,False
+2733,2733.T,ARATA CORPORATION,Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+8282,8282.T,K'S HOLDINGS CORPORATION,Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+2433,2433.T,HAKUHODO DY HOLDINGS INCORPORATED,Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+8037,8037.T,KAMEI CORPORATION,Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+7912,7912.T,"Dai Nippon Printing Co.,Ltd.",Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+3087,3087.T,"DOUTOR・NICHIRES Holdings Co.,Ltd.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+2001,2001.T,NIPPN CORPORATION,Foods,3,1,1,0,3,,no verified company disclosure,False,False
+9934,9934.T,"INABA DENKISANGYO CO.,LTD.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+2593,2593.T,"ITO EN,LTD.",Foods,3,1,1,0,3,,no verified company disclosure,False,False
+9832,9832.T,"AUTOBACS SEVEN CO.,LTD.",Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+3048,3048.T,BIC CAMERA INC.,Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+2792,2792.T,"HONEYS HOLDINGS CO.,LTD.",Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+8011,8011.T,SANYO SHOKAI LTD.,Textiles and Apparels,2,1,1,0,2,,no verified company disclosure,False,False
+6302,6302.T,"SUMITOMO HEAVY INDUSTRIES,LTD.",Machinery,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6419,6419.T,Mars Group Holdings Corporation,Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7581,7581.T,"SAIZERIYA CO.,LTD.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+2288,2288.T,"MARUDAI FOOD CO.,LTD.",Foods,3,1,1,0,3,,no verified company disclosure,False,False
+6794,6794.T,"Foster Electric Company,Limited",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+1980,1980.T,"DAI-DAN CO.,LTD.",Construction,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+3349,3349.T,COSMOS Pharmaceutical Corporation,Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+5423,5423.T,"TOKYO STEEL MANUFACTURING CO.,LTD.",Iron and Steel,2,1,1,0,2,,no verified company disclosure,False,False
+8214,8214.T,AOKI Holdings Inc.,Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+2678,2678.T,ASKUL Corporation,Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+2659,2659.T,"SAN-A CO.,LTD.",Retail Trade,0,1,1,0,0,,no verified company disclosure,False,False
+9202,9202.T,ANA HOLDINGS INC.,Air Transportation,3,1,1,0,3,,no verified company disclosure,False,False
+3941,3941.T,"Rengo Co.,Ltd.",Pulp and Paper,3,1,1,0,3,,no verified company disclosure,False,False
+9470,9470.T,"GAKKEN HOLDINGS CO.,LTD.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+6814,6814.T,"FURUNO ELECTRIC CO.,LTD.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4651,4651.T,SANIX HOLDINGS INCORPORATED,Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+2685,2685.T,"and ST HD Co.,Ltd.",Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+6460,6460.T,SEGA SAMMY HOLDINGS INC.,Machinery,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6588,6588.T,TOSHIBA TEC CORPORATION,Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4613,4613.T,"KANSAI PAINT CO.,LTD.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+4751,4751.T,"CyberAgent,Inc.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+7911,7911.T,TOPPAN Holdings Inc.,Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+3148,3148.T,"CREATE SD HOLDINGS CO.,LTD.",Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+3407,3407.T,ASAHI KASEI CORPORATION,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+2929,2929.T,"Pharma Foods International Co.,Ltd.",Foods,2,1,0,0,2,,no verified company disclosure,False,False
+2726,2726.T,"PAL GROUP Holdings CO.,LTD",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+2002,2002.T,NISSHIN SEIFUN GROUP INC.,Foods,3,1,1,0,3,,no verified company disclosure,False,False
+7240,7240.T,NOK CORPORATION,Transportation Equipment,3,1,1,0,3,,no verified company disclosure,False,False
+7988,7988.T,NIFCO INC.,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+2296,2296.T,ITOHAM YONEKYU HOLDINGS INC.,Foods,2,1,1,0,2,,no verified company disclosure,False,False
+5019,5019.T,"Idemitsu Kosan Co.,Ltd.",Oil and Coal Products,1,1,1,0,1,,no verified company disclosure,False,False
+2379,2379.T,dip Corporation,Services,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+5210,5210.T,"Nihon Yamamura Glass Co.,Ltd.",Glass and Ceramics Products,3,1,1,0,3,,no verified company disclosure,False,False
+3002,3002.T,GUNZE LIMITED,Textiles and Apparels,3,1,1,0,3,,no verified company disclosure,False,False
+6039,6039.T,"Japan Animal Referral Medical Center Co.,Ltd.",Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+9699,9699.T,"NISHIO HOLDINGS CO.,LTD.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+4043,4043.T,Tokuyama Corporation,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+2269,2269.T,"Meiji Holdings Co.,Ltd.",Foods,2,1,1,0,2,,no verified company disclosure,False,False
+9107,9107.T,"Kawasaki Kisen Kaisha,Ltd.",Marine Transportation,2,1,1,0,2,,no verified company disclosure,False,False
+5331,5331.T,"NORITAKE CO.,LIMITED",Glass and Ceramics Products,3,1,1,0,3,,no verified company disclosure,False,False
+5440,5440.T,KYOEI STEEL LTD.,Iron and Steel,2,1,1,0,2,,no verified company disclosure,False,False
+3865,3865.T,Hokuetsu Corporation,Pulp and Paper,3,1,1,0,3,,no verified company disclosure,False,False
+9534,9534.T,"HOKKAIDO GAS CO.,LTD.",Electric Power and Gas,2,1,1,0,2,,no verified company disclosure,False,False
+6526,6526.T,Socionext Inc.,Electric Appliances,3,1,1,2,3,https://www.socionext.com/en/products/customsoc/,"Custom SoCs are explicitly positioned for data center/networking, automotive, smart-device and industrial applications.",True,True
+5262,5262.T,Nippon Hume Corporation,Glass and Ceramics Products,3,1,1,0,3,,no verified company disclosure,False,False
+7130,7130.T,"YAMAE GROUP HOLDINGS CO.,LTD.",Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+7459,7459.T,MEDIPAL HOLDINGS CORPORATION,Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+7245,7245.T,"DAIDO METAL CO.,LTD.",Transportation Equipment,3,1,1,0,3,,no verified company disclosure,False,False
+6463,6463.T,"TPR CO.,LTD.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+2613,2613.T,"J-OIL MILLS, INC.",Foods,3,1,1,0,3,,no verified company disclosure,False,False
+2670,2670.T,"ABC-MART,INC.",Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+8255,8255.T,Axial Retailing Inc.,Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+5408,5408.T,"NAKAYAMA STEEL WORKS,LTD.",Iron and Steel,1,1,1,0,1,,no verified company disclosure,False,False
+7606,7606.T,UNITED ARROWS LTD.,Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+6849,6849.T,NIHON KOHDEN CORPORATION,Electric Appliances,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+9543,9543.T,"SHIZUOKA GAS CO.,LTD.",Electric Power and Gas,1,1,1,0,1,,no verified company disclosure,False,False
+4206,4206.T,"Aica Kogyo Company,Limited",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+4631,4631.T,DIC Corporation,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+6995,6995.T,"TOKAI RIKA CO.,LTD.",Transportation Equipment,3,1,1,0,3,,no verified company disclosure,False,False
+7832,7832.T,Bandai Namco Holdings Inc.,Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+4534,4534.T,"Mochida Pharmaceutical Co.,Ltd.",Pharmaceutical,2,1,1,0,2,,no verified company disclosure,False,False
+8217,8217.T,"OKUWA CO.,LTD.",Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+1766,1766.T,TOKEN CORPORATION,Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+7994,7994.T,OKAMURA CORPORATION,Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+9603,9603.T,"H.I.S.Co.,Ltd.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+6580,6580.T,"Writeup Co.,Ltd.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+6418,6418.T,"JAPAN CASH MACHINE CO.,LTD.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+3092,3092.T,"ZOZO,Inc.",Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+9247,9247.T,TRE HOLDINGS CORPORATION,Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+3479,3479.T,TKP Corporation,Real Estate,2,1,1,0,2,,no verified company disclosure,False,False
+9980,9980.T,MRK HOLDINGS INC.,Retail Trade,0,1,1,0,0,,no verified company disclosure,False,False
+9974,9974.T,"Belc CO.,LTD.",Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+6209,6209.T,NPR-RIKEN CORPORATION,Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6923,6923.T,"Stanley Electric Co.,Ltd.",Electric Appliances,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+5929,5929.T,Sanwa Holdings Corporation,Metal Products,3,1,1,0,3,,no verified company disclosure,False,False
+4927,4927.T,POLA ORBIS HOLDINGS INC.,Chemicals,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+3050,3050.T,"DCM Holdings Co.,Ltd.",Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+4112,4112.T,"Hodogaya Chemical Co.,Ltd.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+6287,6287.T,SATO CORPORATION,Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7453,7453.T,"RYOHIN KEIKAKU CO.,LTD.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+2201,2201.T,"Morinaga & Co.,Ltd.",Foods,3,1,1,0,3,,no verified company disclosure,False,False
+9404,9404.T,"Nippon Television Holdings,Inc.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+7610,7610.T,"TAY TWO CO.,LTD.",Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+7984,7984.T,"KOKUYO CO.,LTD.",Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+7600,7600.T,"Japan Medical Dynamic Marketing,INC.",Precision Instruments,1,1,1,0,1,,no verified company disclosure,False,False
+5970,5970.T,G-TEKT CORPORATION,Metal Products,3,1,1,0,3,,no verified company disclosure,False,False
+7599,7599.T,IDOM Inc.,Wholesale Trade,1,1,1,0,1,,no verified company disclosure,False,False
+5851,5851.T,RYOBI LIMITED,Nonferrous Metals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,False,True
+2206,2206.T,"Ezaki Glico Co.,Ltd.",Foods,2,1,1,0,2,,no verified company disclosure,False,False
+3697,3697.T,SHIFT Inc.,Information & Communication,2,1,1,3,3,https://service.shiftinc.jp/service_cat/softwaretest/,"SHIFT discloses end-to-end software quality assurance and more than 3,000 customer companies as of April 2024.",True,True
+1301,1301.T,"KYOKUYO CO.,LTD.","Fishery, Agriculture and Forestry",3,1,1,0,3,,no verified company disclosure,False,False
+9409,9409.T,TV Asahi Holdings Corporation,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+9706,9706.T,"Japan Airport Terminal Co.,ltd.",Real Estate,3,1,1,0,3,,no verified company disclosure,False,False
+9936,9936.T,OHSHO FOOD SERVICE CORP.,Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+6395,6395.T,TADANO LTD.,Machinery,2,1,0,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+8835,8835.T,TAIHEIYO KOUHATSU INCORPORATED,Wholesale Trade,1,1,1,0,1,,no verified company disclosure,False,False
+7550,7550.T,"ZENSHO HOLDINGS CO.,LTD.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+6436,6436.T,Amano Corporation,Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+8291,8291.T,"NISSAN TOKYO SALES HOLDINGS CO.,LTD.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+4996,4996.T,"KUMIAI CHEMICAL INDUSTRY CO.,LTD.",Chemicals,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+9990,9990.T,SAC'S BAR HOLDINGS INC.,Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+4401,4401.T,ADEKA CORPORATION,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+5480,5480.T,"Nippon Yakin kogyo Co.,Ltd.",Iron and Steel,0,1,1,0,0,,no verified company disclosure,False,False
+7942,7942.T,JSP Corporation,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+7981,7981.T,"TAKARA STANDARD CO.,LTD.",Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+6809,6809.T,TOA CORPORATION,Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6058,6058.T,VECTOR INC.,Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+7864,7864.T,"FUJI SEAL INTERNATIONAL,INC.",Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+9861,9861.T,"YOSHINOYA HOLDINGS CO.,LTD.",Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+2767,2767.T,TSUBURAYA FIELDS HOLDINGS INC.,Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+2810,2810.T,House Foods Group Inc.,Foods,3,1,1,0,3,,no verified company disclosure,False,False
+6474,6474.T,NACHI-FUJIKOSHI CORP.,Machinery,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7231,7231.T,"TOPY INDUSTRIES,LIMITED",Transportation Equipment,2,1,1,0,2,,no verified company disclosure,False,False
+3660,3660.T,istyle Inc.,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+4544,4544.T,"H.U. Group Holdings,Inc.",Services,0,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+4776,4776.T,"Cybozu,Inc.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+2004,2004.T,"Showa Sangyo Co.,Ltd.",Foods,3,1,1,0,3,,no verified company disclosure,False,False
+1377,1377.T,SAKATA SEED CORPORATION,"Fishery, Agriculture and Forestry",2,1,1,0,2,,no verified company disclosure,False,False
+4665,4665.T,"DUSKIN CO.,LTD.",Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+2229,2229.T,"CALBEE,Inc.",Foods,3,1,1,0,3,,no verified company disclosure,False,False
+6356,6356.T,"NIPPON GEAR CO.,LTD.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+3923,3923.T,"RAKUS Co.,Ltd.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+6810,6810.T,"Maxell,Ltd.",Electric Appliances,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+2429,2429.T,"WORLD HOLDINGS CO.,LTD.",Services,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+7867,7867.T,"TOMY COMPANY,LTD.",Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+7936,7936.T,ASICS Corporation,Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+2270,2270.T,"MEGMILK SNOW BRAND Co.,Ltd.",Foods,3,1,1,0,3,,no verified company disclosure,False,False
+5703,5703.T,"Nippon Light Metal Holdings Company,Ltd.",Nonferrous Metals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,False,True
+4208,4208.T,UBE Corporation,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+3626,3626.T,TIS Inc.,Information & Communication,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+4559,4559.T,"ZERIA PHARMACEUTICAL CO.,LTD.",Pharmaceutical,3,1,1,0,3,,no verified company disclosure,False,False
+3930,3930.T,"Hatena Co.,Ltd.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+2742,2742.T,"HALOWS CO.,LTD.",Retail Trade,0,1,1,0,0,,no verified company disclosure,False,False
+8103,8103.T,Meiwa Corporation,Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+1663,1663.T,K&O Energy Group Inc.,Mining,3,1,1,0,3,,no verified company disclosure,False,False
+3765,3765.T,"GungHo Online Entertainment,Inc.",Information & Communication,1,1,0,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+6349,6349.T,KOMORI CORPORATION,Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7990,7990.T,"GLOBERIDE,Inc.",Other Products,2,1,1,0,2,,no verified company disclosure,False,False
+4933,4933.T,"I-ne CO.,LTD.",Chemicals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+5817,5817.T,"JMACS Japan Co.,Ltd.",Nonferrous Metals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,False,True
+9531,9531.T,"TOKYO GAS CO.,LTD.",Electric Power and Gas,0,1,1,0,0,,no verified company disclosure,False,False
+6367,6367.T,"DAIKIN INDUSTRIES,LTD.",Machinery,2,1,1,2,2,https://www.daikin.com/products/ac/applications/modals/23_data_centers,Daikin discloses dedicated data-center cooling systems for 24-hour server protection and energy-efficient operation.,True,True
+3046,3046.T,JINS HOLDINGS Inc.,Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+7955,7955.T,Cleanup Corporation,Other Products,1,1,1,0,1,,no verified company disclosure,False,False
+7532,7532.T,Pan Pacific International Holdings Corporation,Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+4620,4620.T,"FUJIKURA KASEI CO.,LTD.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+8050,8050.T,SEIKO GROUP CORPORATION,Precision Instruments,3,1,1,0,3,,no verified company disclosure,False,False
+7545,7545.T,"NISHIMATSUYA CHAIN Co.,Ltd.",Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+9987,9987.T,"SUZUKEN CO.,LTD.",Wholesale Trade,3,1,0,0,3,,no verified company disclosure,False,False
+3167,3167.T,TOKAI Holdings Corporation,Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+3101,3101.T,"TOYOBO CO.,LTD.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+7004,7004.T,Kanadevia Corporation,Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+9962,9962.T,MISUMI Group Inc.,Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+9830,9830.T,TRUSCO NAKAYAMA CORPORATION,Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+6850,6850.T,Chino Corporation,Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+9994,9994.T,YAMAYA CORPORATION,Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+2809,2809.T,Kewpie Corporation,Foods,3,1,1,0,3,,no verified company disclosure,False,False
+4611,4611.T,"Dai Nippon Toryo Company,Limited",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+8022,8022.T,Mizuno Corporation,Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+8086,8086.T,NIPRO CORPORATION,Precision Instruments,2,1,1,0,2,,no verified company disclosure,False,False
+7279,7279.T,HI-LEX CORPORATION,Transportation Equipment,3,1,1,0,3,,no verified company disclosure,False,False
+3088,3088.T,MatsukiyoCocokara & Co.,Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+2292,2292.T,S Foods Inc.,Foods,0,1,1,0,0,,no verified company disclosure,False,False
+4194,4194.T,"Visional,Inc.",Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+6841,6841.T,YOKOGAWA ELECTRIC CORPORATION,Electric Appliances,3,1,1,3,3,https://www.yokogawa.com/solutions/products-and-services/control/control-and-safety-system/,"Yokogawa states that more than 30,000 systems use its distributed-control systems for industrial production goals.",True,True
+1878,1878.T,"DAITO TRUST CONSTRUCTION CO.,LTD.",Real Estate,3,1,1,0,3,,no verified company disclosure,False,False
+7520,7520.T,"Eco's Co.,Ltd.",Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+3558,3558.T,"JADE GROUP,Inc.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+2782,2782.T,"Seria Co.,Ltd.",Retail Trade,0,1,1,0,0,,no verified company disclosure,False,False
+6952,6952.T,"CASIO COMPUTER CO.,LTD.",Electric Appliances,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+5032,5032.T,ANYCOLOR Inc.,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+8142,8142.T,"TOHO Co.,Ltd.",Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+8267,8267.T,"AEON CO.,LTD.",Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+7859,7859.T,ALMEDIO INC.,Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+7943,7943.T,NICHIHA CORPORATION,Glass and Ceramics Products,2,1,1,0,2,,no verified company disclosure,False,False
+6658,6658.T,"Shirai Electronics Industrial Co.,Ltd.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4527,4527.T,"ROHTO PHARMACEUTICAL CO.,LTD.",Pharmaceutical,0,1,1,0,0,,no verified company disclosure,False,False
+9474,9474.T,"ZENRIN CO.,LTD.",Information & Communication,3,1,1,3,3,https://www.zenrin.co.jp/product/category/gis/contents/csd/index.html,ZENRIN describes a company-information database covering about five million records linked to building-level location data.,True,True
+5214,5214.T,"Nippon Electric Glass Co.,Ltd.",Glass and Ceramics Products,3,1,1,0,3,,no verified company disclosure,False,False
+6250,6250.T,YAMABIKO CORPORATION,Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+9715,9715.T,transcosmos inc.,Services,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+7701,7701.T,Shimadzu Corporation,Precision Instruments,2,1,1,0,2,,no verified company disclosure,False,False
+8803,8803.T,"HEIWA REAL ESTATE CO.,LTD.",Real Estate,3,1,1,0,3,,no verified company disclosure,False,False
+3864,3864.T,Mitsubishi Paper Mills Limited,Pulp and Paper,3,1,1,0,3,,no verified company disclosure,False,False
+4205,4205.T,ZEON CORPORATION,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+5273,5273.T,"MITANI SEKISAN CO.,LTD.",Glass and Ceramics Products,3,1,1,0,3,,no verified company disclosure,False,False
+8203,8203.T,MrMax Holdings Ltd.,Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+7956,7956.T,PIGEON CORPORATION,Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+7458,7458.T,"DAIICHIKOSHO CO.,LTD.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+9413,9413.T,TV TOKYO Holdings Corporation,Information & Communication,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+6378,6378.T,"KIMURA CHEMICAL PLANTS CO.,LTD.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7947,7947.T,FP CORPORATION,Chemicals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+6282,6282.T,OILES CORPORATION,Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+1847,1847.T,"ICHIKEN Co.,Ltd.",Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+9887,9887.T,"MATSUYA FOODS HOLDINGS CO.,LTD.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+4547,4547.T,"KISSEI PHARMACEUTICAL CO.,LTD.",Pharmaceutical,3,1,1,0,3,,no verified company disclosure,False,False
+2784,2784.T,Alfresa Holdings Corporation,Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+6584,6584.T,"Sanoh Industrial Co.,Ltd.",Transportation Equipment,3,1,1,0,3,,no verified company disclosure,False,False
+4028,4028.T,"ISHIHARA SANGYO KAISHA,LTD.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+4768,4768.T,OTSUKA CORPORATION,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+6371,6371.T,TSUBAKIMOTO CHAIN CO.,Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+9418,9418.T,"U-NEXT HOLDINGS Co.,Ltd.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+1332,1332.T,Nissui Corporation,"Fishery, Agriculture and Forestry",2,1,1,0,2,,no verified company disclosure,False,False
+2871,2871.T,NICHIREI CORPORATION,Foods,3,1,1,0,3,,no verified company disclosure,False,False
+1969,1969.T,"Takasago Thermal Engineering Co.,Ltd.",Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+8043,8043.T,Starzen Company Limited,Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+9005,9005.T,TOKYU CORPORATION,Land Transportation,3,1,1,0,3,,no verified company disclosure,False,False
+7972,7972.T,ITOKI CORPORATION,Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+7685,7685.T,"BuySell Technologies Co.,Ltd.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+8185,8185.T,"CHIYODA CO.,LTD.",Retail Trade,2,1,0,0,2,,no verified company disclosure,False,False
+6103,6103.T,OKUMA Corporation,Machinery,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+8897,8897.T,"MIRARTH HOLDINGS,Inc.",Real Estate,3,1,1,0,3,,no verified company disclosure,False,False
+8136,8136.T,"Sanrio Company,Ltd.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+5332,5332.T,TOTO LTD.,Glass and Ceramics Products,2,1,1,0,2,,no verified company disclosure,False,False
+6932,6932.T,ENDO Lighting Corporation,Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6718,6718.T,"AIPHONE CO.,LTD.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4530,4530.T,"HISAMITSU PHARMACEUTICAL CO.,INC.",Pharmaceutical,3,1,1,0,3,,no verified company disclosure,False,False
+4634,4634.T,"artience Co.,Ltd.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+6432,6432.T,"TAKEUCHI MFG.CO.,LTD.",Machinery,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7846,7846.T,PILOT CORPORATION,Other Products,1,1,1,0,1,,no verified company disclosure,False,False
+9882,9882.T,YELLOW HAT LTD.,Wholesale Trade,1,1,1,0,1,,no verified company disclosure,False,False
+7745,7745.T,"A&D HOLON Holdings Company,Limited",Precision Instruments,3,1,1,0,3,,no verified company disclosure,False,False
+6351,6351.T,"TSURUMI MANUFACTURING CO.,LTD.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4617,4617.T,"Chugoku Marine Paints,Ltd.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+3191,3191.T,"JOYFUL HONDA CO.,LTD.",Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+5715,5715.T,"FURUKAWA CO.,LTD.",Nonferrous Metals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,False,True
+6951,6951.T,JEOL Ltd.,Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+5711,5711.T,Mitsubishi Materials Corporation,Nonferrous Metals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+9678,9678.T,"KANAMOTO CO.,LTD.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+4368,4368.T,"FUSO CHEMICAL CO.,LTD.",Chemicals,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+4553,4553.T,"TOWA PHARMACEUTICAL CO.,LTD.",Pharmaceutical,3,1,1,0,3,,no verified company disclosure,False,False
+9536,9536.T,"SAIBU GAS HOLDINGS CO.,LTD.",Electric Power and Gas,2,1,1,0,2,,no verified company disclosure,False,False
+4350,4350.T,"MEDICAL SYSTEM NETWORK Co.,Ltd.",Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+7283,7283.T,"AISAN INDUSTRY CO.,LTD.",Transportation Equipment,3,1,1,0,3,,no verified company disclosure,False,False
+9532,9532.T,"OSAKA GAS CO.,LTD.",Electric Power and Gas,3,1,1,0,3,,no verified company disclosure,False,False
+7373,7373.T,"Aidma Holdings,Inc.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+6465,6465.T,HOSHIZAKI CORPORATION,Machinery,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+5975,5975.T,Topre Corporation,Metal Products,3,1,1,0,3,,no verified company disclosure,False,False
+7226,7226.T,"KYOKUTO KAIHATSU KOGYO CO.,LTD.",Transportation Equipment,3,1,1,0,3,,no verified company disclosure,False,False
+9076,9076.T,"SEINO HOLDINGS CO.,LTD.",Land Transportation,2,1,1,0,2,,no verified company disclosure,False,False
+6670,6670.T,"MCJ Co.,Ltd.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4979,4979.T,"OAT Agrio Co.,Ltd.",Chemicals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+8179,8179.T,"ROYAL HOLDINGS Co., Ltd.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+2003,2003.T,"NITTO FUJI FLOUR MILLING CO.,LTD.",Foods,2,1,1,0,2,,no verified company disclosure,False,False
+2915,2915.T,"KENKO Mayonnaise Co.,Ltd.",Foods,3,1,1,0,3,,no verified company disclosure,False,False
+4526,4526.T,"RIKEN VITAMIN CO.,LTD.",Foods,3,1,1,0,3,,no verified company disclosure,False,False
+8005,8005.T,Scroll Corporation,Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+4681,4681.T,"RESORTTRUST,INC.",Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+9746,9746.T,TKC Corporation,Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+3034,3034.T,"Qol Holdings Co.,Ltd.",Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+7575,7575.T,"Japan Lifeline Co.,Ltd.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+7762,7762.T,"Citizen Watch Co.,Ltd.",Precision Instruments,2,1,1,0,2,,no verified company disclosure,False,False
+2585,2585.T,"LIFEDRINK COMPANY,INC.",Foods,2,1,1,0,2,,no verified company disclosure,False,False
+3907,3907.T,Silicon Studio Corp.,Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+3089,3089.T,"Techno Alpha Co.,Ltd.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+4064,4064.T,"Nippon Carbide Industries Company,Incorporated",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+8007,8007.T,"Takashima & Co.,Ltd.",Wholesale Trade,2,1,0,0,2,,no verified company disclosure,False,False
+5943,5943.T,NORITZ CORPORATION,Metal Products,2,1,1,0,2,,no verified company disclosure,False,False
+4443,4443.T,"Sansan,Inc.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+3097,3097.T,The Monogatari Corporation,Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+7309,7309.T,SHIMANO INC.,Transportation Equipment,1,1,1,0,1,,no verified company disclosure,False,False
+9039,9039.T,"Sakai Moving Service Co.,Ltd.",Land Transportation,1,1,1,0,1,,no verified company disclosure,False,False
+6413,6413.T,RISO KAGAKU CORPORATION,Machinery,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+2331,2331.T,"ALSOK CO.,LTD.",Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+6835,6835.T,ALLIED TELESIS HOLDINGS K.K.,Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4685,4685.T,"Ryoyu Systems Co.,Ltd.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+7906,7906.T,"YONEX CO.,LTD.",Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+4045,4045.T,"TOAGOSEI CO.,LTD.",Chemicals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+1873,1873.T,"NIHON HOUSE HOLDINGS CO.,LTD.",Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+7483,7483.T,"DOSHISHA CO.,LTD.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+6703,6703.T,"Oki Electric Industry Company,Limited",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+3415,3415.T,"TOKYO BASE Co.,Ltd.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+4985,4985.T,Earth Corporation,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+3636,3636.T,"Mitsubishi Research Institute,Inc.",Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+7241,7241.T,"FUTABA INDUSTRIAL CO.,LTD.",Transportation Equipment,3,1,1,0,3,,no verified company disclosure,False,False
+8153,8153.T,"MOS FOOD SERVICES,INC.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+6637,6637.T,"TERASAKI ELECTRIC CO.,LTD.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+3099,3099.T,Isetan Mitsukoshi Holdings Ltd.,Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+7246,7246.T,"PRESS KOGYO CO.,LTD.",Transportation Equipment,0,1,1,0,0,,no verified company disclosure,False,False
+4031,4031.T,Katakura & Co-op Agri Corporation,Chemicals,0,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+3399,3399.T,Maruchiyo Yamaokaya Corporation,Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+3355,3355.T,KURIYAMA HOLDINGS CORPORATION,Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+6644,6644.T,"Osaki Electric Co.,Ltd.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+8130,8130.T,Sangetsu Corporation,Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+5253,5253.T,COVER Corporation,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+2875,2875.T,"TOYO SUISAN KAISHA,LTD.",Foods,3,1,1,0,3,,no verified company disclosure,False,False
+6140,6140.T,"Asahi Diamond Industrial Co.,Ltd.",Machinery,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+3696,3696.T,CERES INC.,Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+3911,3911.T,Aiming Inc.,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+6272,6272.T,"RHEON AUTOMATIC MACHINERY CO.,LTD.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6961,6961.T,ENPLAS CORPORATION,Electric Appliances,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6257,6257.T,"FUJISHOJI CO.,LTD.",Machinery,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+5632,5632.T,"Mitsubishi Steel Mfg.Co.,Ltd.",Iron and Steel,3,1,1,0,3,,no verified company disclosure,False,False
+9405,9405.T,ASAHI BROADCASTING GROUP HOLDINGS CORPORATION,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+3946,3946.T,"TOMOKU CO.,LTD.",Pulp and Paper,3,1,1,0,3,,no verified company disclosure,False,False
+8035,8035.T,Tokyo Electron Limited,Electric Appliances,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6238,6238.T,FURYU CORPORATION,Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+9332,9332.T,"NISSO HOLDINGS Co.,Ltd.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+5142,5142.T,Achilles Corporation,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+9602,9602.T,"TOHO CO.,LTD",Information & Communication,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+4044,4044.T,"Central Glass Co.,Ltd.",Chemicals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+9823,9823.T,Mammy Mart Holdings Corporation,Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+7965,7965.T,Zojirushi Corporation,Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+9304,9304.T,Shibusawa Logistics Corporation,Warehousing and Harbor Transportation Service,2,1,1,0,2,,no verified company disclosure,False,False
+6592,6592.T,"MABUCHI MOTOR CO.,LTD.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+5301,5301.T,"TOKAI CARBON CO.,LTD.",Glass and Ceramics Products,1,1,1,0,1,,no verified company disclosure,False,False
+3395,3395.T,"Saint Marc Holdings Co.,Ltd.",Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+7482,7482.T,"SHIMOJIMA Co.,Ltd.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+4021,4021.T,Nissan Chemical Corporation,Chemicals,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+6777,6777.T,santec Holdings Corporation,Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6958,6958.T,CMK CORPORATION,Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7780,7780.T,"Menicon Co.,Ltd.",Precision Instruments,1,1,1,0,1,,no verified company disclosure,False,False
+3064,3064.T,"MonotaRO Co.,Ltd.",Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+7014,7014.T,"Namura Shipbuilding Co.,Ltd.",Transportation Equipment,3,1,1,0,3,,no verified company disclosure,False,False
+9856,9856.T,"KU HOLDINGS CO.,LTD.",Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+6535,6535.T,"i-mobile Co.,Ltd.",Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+7276,7276.T,"KOITO MANUFACTURING CO.,LTD.",Electric Appliances,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+8032,8032.T,JAPAN PULP AND PAPER COMPANY LIMITED,Wholesale Trade,1,1,1,0,1,,no verified company disclosure,False,False
+2222,2222.T,"Kotobuki Spirits Co.,Ltd.",Foods,3,1,1,0,3,,no verified company disclosure,False,False
+9064,9064.T,"YAMATO HOLDINGS CO.,LTD.",Land Transportation,1,1,1,0,1,,no verified company disclosure,False,False
+5988,5988.T,"PIOLAX,INC.",Metal Products,1,1,1,0,1,,no verified company disclosure,False,False
+2060,2060.T,"FEED ONE CO.,LTD.",Foods,3,1,1,0,3,,no verified company disclosure,False,False
+5232,5232.T,"Sumitomo Osaka Cement Co.,Ltd.",Glass and Ceramics Products,3,1,1,0,3,,no verified company disclosure,False,False
+5981,5981.T,"TOKYO ROPE MFG.CO.,LTD",Metal Products,2,1,1,0,2,,no verified company disclosure,False,False
+6445,6445.T,JANOME Corporation,Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6088,6088.T,SIGMAXYZ Holdings Inc.,Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+8051,8051.T,YAMAZEN CORPORATION,Wholesale Trade,1,1,1,0,1,,no verified company disclosure,False,False
+7735,7735.T,"SCREEN Holdings Co.,Ltd.",Electric Appliances,3,1,1,2,3,https://www.screen.co.jp/en/overview,SCREEN identifies semiconductor production equipment and world-leading wet etch and clean equipment as core businesses.,True,True
+3176,3176.T,"Sanyo Trading Co.,Ltd.",Wholesale Trade,1,1,1,0,1,,no verified company disclosure,False,False
+3231,3231.T,"Nomura Real Estate Holdings,Inc.",Real Estate,2,1,0,0,2,,no verified company disclosure,False,False
+8150,8150.T,"SANSHIN ELECTRONICS CO.,LTD.",Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+9743,9743.T,"TANSEISHA CO.,LTD.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+3320,3320.T,CROSS PLUS INC.,Wholesale Trade,1,1,1,0,1,,no verified company disclosure,False,False
+3105,3105.T,Nisshinbo Holdings Inc.,Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6845,6845.T,Azbil Corporation,Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6750,6750.T,"ELECOM CO.,LTD.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4886,4886.T,"ASKA Pharmaceutical Holdings Co.,Ltd.",Pharmaceutical,2,1,1,0,2,,no verified company disclosure,False,False
+7991,7991.T,"MAMIYA-OP CO.,LTD",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7537,7537.T,MARUBUN CORPORATION,Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+9278,9278.T,BOOKOFF GROUP HOLDINGS LIMITED,Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+9627,9627.T,AIN HOLDINGS INC.,Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+3186,3186.T,"NEXTAGE Co.,Ltd.",Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+8801,8801.T,"Mitsui Fudosan Co.,Ltd.",Real Estate,3,1,1,0,3,,no verified company disclosure,False,False
+9828,9828.T,Genki Global Dining Concepts Corporation,Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+3289,3289.T,Tokyu Fudosan Holdings Corporation,Real Estate,2,1,1,0,2,,no verified company disclosure,False,False
+6920,6920.T,Lasertec Corporation,Electric Appliances,3,1,1,2,3,https://www.lasertec.co.jp/en/company/business.html,Lasertec states that EUV mask blank inspection is a de facto standard and its inspection systems are crucial to semiconductor manufacturing.,True,True
+6638,6638.T,"MIMAKI ENGINEERING CO.,LTD.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+9416,9416.T,VISION INC.,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+2910,2910.T,"ROCK FIELD CO.,LTD.",Foods,2,1,1,0,2,,no verified company disclosure,False,False
+7747,7747.T,"ASAHI INTECC CO.,LTD.",Precision Instruments,3,1,1,0,3,,no verified company disclosure,False,False
+4216,4216.T,ASAHI YUKIZAI CORPORATION,Chemicals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+6674,6674.T,GS Yuasa Corporation,Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6146,6146.T,DISCO CORPORATION,Machinery,3,1,1,2,3,https://www.disco.co.jp/eg/introduction/index.html,DISCO supplies precision cutting grinding and polishing equipment plus consumable tools mainly to semiconductor and electronic-component manufacturers.,True,True
+3635,3635.T,"KOEI TECMO HOLDINGS CO.,LTD.",Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+5901,5901.T,"Toyo Seikan Group Holdings,Ltd.",Metal Products,3,1,1,0,3,,no verified company disclosure,False,False
+8097,8097.T,"SAN-AI OBBLI CO.,LTD.",Wholesale Trade,0,1,1,0,0,,no verified company disclosure,False,False
+3569,3569.T,"SEIREN CO.,LTD.",Textiles and Apparels,2,1,1,0,2,,no verified company disclosure,False,False
+6890,6890.T,Ferrotec Corporation,Electric Appliances,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7980,7980.T,"SHIGEMATSU WORKS CO.,LTD.",Other Products,1,1,1,0,1,,no verified company disclosure,False,False
+9616,9616.T,"KYORITSU MAINTENANCE CO.,LTD.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+4694,4694.T,"BML,INC.",Services,0,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+2301,2301.T,"GAKUJO CO.,Ltd.",Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+7305,7305.T,"ARAYA INDUSTRIAL CO.,LTD.",Iron and Steel,0,1,1,0,0,,no verified company disclosure,False,False
+5959,5959.T,"OKABE CO.,LTD.",Metal Products,3,1,1,0,3,,no verified company disclosure,False,False
+3003,3003.T,"Hulic Co.,Ltd.",Real Estate,1,1,1,0,1,,no verified company disclosure,False,False
+7050,7050.T,FRONTIER INTERNATIONAL INC.,Services,0,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+4919,4919.T,"Milbon Co.,Ltd.",Chemicals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+6136,6136.T,OSG Corporation,Machinery,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+3964,3964.T,AUCNET INC.,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+3182,3182.T,Oisix ra daichi Inc.,Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+7611,7611.T,HIDAY HIDAKA Corp.,Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+4246,4246.T,DaikyoNishikawa Corporation,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+5290,5290.T,Vertex Corporation,Glass and Ceramics Products,3,1,1,0,3,,no verified company disclosure,False,False
+4716,4716.T,ORACLE CORPORATION JAPAN,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+4825,4825.T,WEATHERNEWS INC.,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+8850,8850.T,STARTS CORPORATION INC.,Real Estate,3,1,1,0,3,,no verified company disclosure,False,False
+7059,7059.T,"COPRO-HOLDINGS.Co.,Ltd.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+8125,8125.T,"Wakita & Co.,LTD.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+3549,3549.T,"KUSURI NO AOKI HOLDINGS CO.,LTD.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+6332,6332.T,"TSUKISHIMA HOLDINGS CO.,LTD.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+8804,8804.T,"Tokyo Tatemono Co.,Ltd.",Real Estate,3,1,1,0,3,,no verified company disclosure,False,False
+5121,5121.T,FUJIKURA COMPOSITES Inc.,Rubber Products,2,1,1,0,2,,no verified company disclosure,False,False
+7475,7475.T,"ALBIS Co.,Ltd.",Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+7466,7466.T,SPK CORPORATION,Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+9755,9755.T,OYO Corporation,Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+4078,4078.T,"Sakai Chemical Industry Co.,Ltd.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+6807,6807.T,"Japan Aviation Electronics Industry,Limited",Electric Appliances,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+3489,3489.T,"FaithNetwork Co.,Ltd",Real Estate,3,1,1,0,3,,no verified company disclosure,False,False
+4839,4839.T,WOWOW INC.,Information & Communication,0,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+3232,3232.T,"Mie Kotsu Group Holdings,Inc.",Real Estate,3,1,1,0,3,,no verified company disclosure,False,False
+8098,8098.T,"Inabata & Co.,Ltd.",Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+7971,7971.T,TOLI Corporation,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+4934,4934.T,"Premier Anti-Aging Co.,Ltd.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+5204,5204.T,"ISHIZUKA GLASS CO.,LTD.",Glass and Ceramics Products,3,1,1,0,3,,no verified company disclosure,False,False
+6908,6908.T,"IRISO ELECTRONICS CO.,LTD.",Electric Appliances,0,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+2418,2418.T,TSUKADA GLOBAL HOLDINGS Inc.,Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+4704,4704.T,Trend Micro Incorporated,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+6083,6083.T,"ERI HOLDINGS CO.,LTD.",Services,0,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+9726,9726.T,"KNT-CT Holdings Co.,Ltd.",Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+5603,5603.T,KOGI CORPORATION,Iron and Steel,3,1,1,0,3,,no verified company disclosure,False,False
+2294,2294.T,"Kakiyasu Honten Co.,Ltd.",Foods,1,1,1,0,1,,no verified company disclosure,False,False
+3431,3431.T,"MIYAJI ENGINEERING GROUP,INC.",Metal Products,3,1,0,0,3,,no verified company disclosure,False,False
+6768,6768.T,TAMURA CORPORATION,Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+8129,8129.T,"TOHO HOLDINGS CO.,LTD.",Wholesale Trade,3,1,0,0,3,,no verified company disclosure,False,False
+7966,7966.T,LINTEC Corporation,Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+9605,9605.T,"TOEI COMPANY,LTD.",Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+3856,3856.T,Abalance Corporation,Electric Appliances,2,1,0,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+5244,5244.T,"jig.jp co.,ltd.",Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+4478,4478.T,freee K.K.,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+4041,4041.T,"Nippon Soda Co.,Ltd.",Chemicals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+2492,2492.T,Infomart Corporation,Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+5930,5930.T,"Bunka Shutter Co.,Ltd.",Metal Products,3,1,1,0,3,,no verified company disclosure,False,False
+9697,9697.T,"CAPCOM CO.,LTD.",Information & Communication,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+7239,7239.T,"TACHI-S CO.,LTD.",Transportation Equipment,3,1,1,0,3,,no verified company disclosure,False,False
+3288,3288.T,"Open House Group Co.,Ltd.",Real Estate,1,1,1,0,1,,no verified company disclosure,False,False
+7743,7743.T,"SEED CO.,LTD.",Precision Instruments,3,1,1,0,3,,no verified company disclosure,False,False
+2264,2264.T,"MORINAGA MILK INDUSTRY CO.,LTD.",Foods,2,1,1,0,2,,no verified company disclosure,False,False
+7719,7719.T,TOKYO KOKI CO.LTD.,Precision Instruments,2,1,1,0,2,,no verified company disclosure,False,False
+6023,6023.T,"DAIHATSU INFINEARTH MFG.CO.,LTD.",Transportation Equipment,3,1,1,0,3,,no verified company disclosure,False,False
+3708,3708.T,"Tokushu Tokai Paper Co.,Ltd.",Pulp and Paper,2,1,1,0,2,,no verified company disclosure,False,False
+5013,5013.T,Yushiro Inc.,Oil and Coal Products,3,1,1,0,3,,no verified company disclosure,False,False
+3201,3201.T,"THE JAPAN WOOL TEXTILE CO.,LTD.",Textiles and Apparels,2,1,1,0,2,,no verified company disclosure,False,False
+2127,2127.T,Nihon M&A Center Holdings Inc.,Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+8029,8029.T,LOOK HOLDINGS INCORPORATED,Textiles and Apparels,2,1,1,0,2,,no verified company disclosure,False,False
+5185,5185.T,"Fukoku Co.,Ltd.",Rubber Products,3,1,1,0,3,,no verified company disclosure,False,False
+6737,6737.T,EIZO Corporation,Electric Appliances,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4272,4272.T,"NIPPON KAYAKU CO.,LTD.",Chemicals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+4471,4471.T,"SANYO CHEMICAL INDUSTRIES,LTD.",Chemicals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+9535,9535.T,"HIROSHIMA GAS CO.,LTD.",Electric Power and Gas,2,1,1,0,2,,no verified company disclosure,False,False
+6728,6728.T,"ULVAC, Inc.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6504,6504.T,"FUJI ELECTRIC CO.,LTD.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+2281,2281.T,"Prima Meat Packers,Ltd.",Foods,2,1,1,0,2,,no verified company disclosure,False,False
+6960,6960.T,"FUKUDA DENSHI CO.,LTD.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7806,7806.T,"MTG Co.,Ltd.",Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+4626,4626.T,"TAIYO HOLDINGS CO.,LTD.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+2153,2153.T,E・J Holdings Inc.,Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+4666,4666.T,"PARK24 Co.,Ltd.",Real Estate,2,1,1,0,2,,no verified company disclosure,False,False
+9729,9729.T,TOKAI Corp.,Services,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+9279,9279.T,GIFT HOLDINGS INC.,Retail Trade,0,1,1,0,0,,no verified company disclosure,False,False
+6941,6941.T,"YAMAICHI ELECTRONICS CO.,LTD.",Electric Appliances,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7740,7740.T,"Tamron Co.,Ltd.",Precision Instruments,2,1,1,0,2,,no verified company disclosure,False,False
+8008,8008.T,YONDOSHI HOLDINGS INC.,Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+9735,9735.T,"SECOM CO.,LTD.",Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+7888,7888.T,SANKO GOSEI LTD.,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+7522,7522.T,"WATAMI CO.,LTD.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+5018,5018.T,MORESCO Corporation,Oil and Coal Products,3,1,1,0,3,,no verified company disclosure,False,False
+2175,2175.T,"SMS CO.,LTD.",Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+4221,4221.T,"Okura Industrial Co.,Ltd.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+9788,9788.T,"NAC CO.,LTD.",Services,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+5933,5933.T,ALINCO INCORPORATED,Metal Products,2,1,1,0,2,,no verified company disclosure,False,False
+6143,6143.T,"Sodick Co.,Ltd.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6486,6486.T,"EAGLE INDUSTRY CO.,LTD.",Machinery,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7940,7940.T,"WAVELOCK HOLDINGS CO.,LTD.",Chemicals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+8198,8198.T,"Maxvalu Tokai Co.,Ltd.",Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+5304,5304.T,"SEC CARBON,LIMITED",Glass and Ceramics Products,2,1,1,0,2,,no verified company disclosure,False,False
+8174,8174.T,"NIPPON GAS CO.,LTD.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+3038,3038.T,"KOBE BUSSAN CO.,LTD.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+2531,2531.T,TAKARA HOLDINGS INC.,Foods,0,1,1,0,0,,no verified company disclosure,False,False
+3661,3661.T,"m-up holdings,Inc.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+3498,3498.T,"Kasumigaseki Capital Co.,Ltd.",Real Estate,3,1,1,0,3,,no verified company disclosure,False,False
+6412,6412.T,Heiwa Corporation,Machinery,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6339,6339.T,"Sintokogio,Ltd.",Machinery,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6871,6871.T,"MICRONICS JAPAN CO.,LTD.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6363,6363.T,"Torishima Pump Mfg.Co.,Ltd.",Machinery,2,1,0,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6072,6072.T,"Jibannet Holdings Co.,Ltd.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+7613,7613.T,SIIX CORPORATION,Wholesale Trade,1,1,1,0,1,,no verified company disclosure,False,False
+4220,4220.T,RIKEN TECHNOS CORPORATION,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+7979,7979.T,SHOFU INC.,Precision Instruments,3,1,1,0,3,,no verified company disclosure,False,False
+4125,4125.T,SANWAYUKA INDUSTRY CORPORATION,Chemicals,0,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+3687,3687.T,Fixstars Corporation,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+4848,4848.T,"FULLCAST HOLDINGS CO.,LTD.",Services,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+9716,9716.T,"NOMURA Co.,Ltd.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+6856,6856.T,"HORIBA,Ltd.",Electric Appliances,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+9556,9556.T,INTLOOP Inc.,Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+7679,7679.T,"YAKUODO HOLDINGS Co.,Ltd.",Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+7513,7513.T,"Kojima Co.,Ltd.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+7987,7987.T,"NAKABAYASHI CO.,LTD.",Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+1982,1982.T,"Hibiya Engineering,Ltd.",Construction,3,1,0,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+5803,5803.T,Fujikura Ltd.,Nonferrous Metals,3,1,1,2,3,https://www.fujikura.co.jp/eng/resource/pdf/20241107_2.pdf,Fujikura discloses optical-fiber cabling solutions designed for data-center racks and space efficiency.,True,True
+2395,2395.T,"SHIN NIPPON BIOMEDICAL LABORATORIES,LTD.",Services,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+7931,7931.T,"MIRAI INDUSTRY CO.,LTD.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+6914,6914.T,"OPTEX GROUP Company,Limited",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4994,4994.T,"Taisei Lamick Group Head Quarter & Innovation Co.,Ltd.",Chemicals,0,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+7949,7949.T,"KOMATSU WALL INDUSTRY CO.,LTD.",Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+6405,6405.T,"Suzumo Machinery Co.,Ltd.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4182,4182.T,"Mitsubishi Gas Chemical Company,Inc.",Chemicals,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+9069,9069.T,"SENKO Group Holdings Co.,Ltd.",Land Transportation,2,1,1,0,2,,no verified company disclosure,False,False
+4427,4427.T,"EduLab,Inc.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+2735,2735.T,"WATTS CO.,LTD.",Retail Trade,3,1,0,0,3,,no verified company disclosure,False,False
+4403,4403.T,NOF CORPORATION,Chemicals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+3196,3196.T,"HOTLAND HOLDINGS Co.,Ltd.",Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+6823,6823.T,"RION CO.,LTD.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+3950,3950.T,THE PACK CORPORATION,Pulp and Paper,2,1,1,0,2,,no verified company disclosure,False,False
+8014,8014.T,"CHORI CO.,LTD.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+6381,6381.T,ANEST IWATA Corporation,Machinery,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4097,4097.T,"KOATSU GAS KOGYO CO.,LTD.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+4092,4092.T,"Nippon Chemical Industrial Co.,Ltd.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+6651,6651.T,NITTO KOGYO CORPORATION,Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+2124,2124.T,"JAC Recruitment Co.,Ltd.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+8154,8154.T,"KAGA ELECTRONICS CO.,LTD.",Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+9468,9468.T,KADOKAWA CORPORATION,Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+6200,6200.T,"Insource Co.,Ltd.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+4095,4095.T,"NIHON PARKERIZING CO.,LTD.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+6877,6877.T,Obara Group Incorporated,Electric Appliances,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4967,4967.T,"KOBAYASHI PHARMACEUTICAL CO.,LTD.",Chemicals,0,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+4113,4113.T,"TAOKA CHEMICAL COMPANY,LIMITED",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+6277,6277.T,HOSOKAWA MICRON CORPORATION,Machinery,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+5563,5563.T,"Nippon Denko Co.,Ltd.",Iron and Steel,2,1,1,0,2,,no verified company disclosure,False,False
+3360,3360.T,"SHIP HEALTHCARE HOLDINGS,INC.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+6315,6315.T,TOWA CORPORATION,Machinery,2,1,1,3,3,https://www.towajapan.co.jp/en/wp-content/uploads/sites/3/2025/10/tr2025A3e.pdf,TOWA's integrated report identifies semiconductor sales of JPY39.53bn in FY2025 and links compression molding to advanced packages for generative AI.,True,True
+2753,2753.T,"AMIYAKI TEI CO.,LTD.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+6135,6135.T,"Makino Milling Machine Co.,Ltd.",Machinery,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+8848,8848.T,LEOPALACE21 CORPORATION,Real Estate,2,1,1,0,2,,no verified company disclosure,False,False
+5698,5698.T,ENVIPRO HOLDINGS Inc.,Iron and Steel,2,1,1,0,2,,no verified company disclosure,False,False
+3501,3501.T,"SUMINOE Co.,Ltd.",Textiles and Apparels,3,1,1,0,3,,no verified company disclosure,False,False
+7414,7414.T,"ONOKEN CO.,LTD.",Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+7871,7871.T,"FUKUVI CHEMICAL INDUSTRY CO.,LTD.",Chemicals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+6544,6544.T,"JAPAN ELEVATOR SERVICE HOLDINGS CO.,LTD.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+4784,4784.T,"GMO internet,Inc.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+7856,7856.T,HAGIHARA INDUSTRIES INC.,Other Products,2,1,1,0,2,,no verified company disclosure,False,False
+6925,6925.T,USHIO INC.,Electric Appliances,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+2053,2053.T,"CHUBU SHIRYO CO.,LTD.",Foods,3,1,1,0,3,,no verified company disclosure,False,False
+6547,6547.T,"GREENS CO.,LTD.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+3546,3546.T,"Alleanza Holdings Co.,Ltd.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+7839,7839.T,"SHOEI CO.,LTD.",Other Products,2,1,1,0,2,,no verified company disclosure,False,False
+4548,4548.T,SEIKAGAKU CORPORATION,Pharmaceutical,1,1,1,0,1,,no verified company disclosure,False,False
+6309,6309.T,"TOMOE ENGINEERING CO.,LTD.(TOMOE KOGYO CO.,LTD.)",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7224,7224.T,"ShinMaywa Industries,LTD.",Transportation Equipment,3,1,1,0,3,,no verified company disclosure,False,False
+9119,9119.T,"IINO KAIUN KAISHA,LTD.",Marine Transportation,0,1,1,0,0,,no verified company disclosure,False,False
+9143,9143.T,"SG HOLDINGS CO.,LTD.",Land Transportation,0,1,1,0,0,,no verified company disclosure,False,False
+3236,3236.T,"PROPERST CO.,LTD.",Real Estate,2,1,1,0,2,,no verified company disclosure,False,False
+4189,4189.T,"KH Neochem Co.,Ltd.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+1379,1379.T,HOKUTO CORPORATION,"Fishery, Agriculture and Forestry",3,1,1,0,3,,no verified company disclosure,False,False
+5578,5578.T,"AR advanced technology,Inc.",Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+4722,4722.T,Future Corporation,Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+2195,2195.T,"AMITA HOLDINGS CO.,LTD.",Services,0,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+5243,5243.T,note inc.,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+1419,1419.T,"Tama Home Co.,Ltd.",Construction,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+7715,7715.T,"NAGANO KEIKI CO.,LTD.",Precision Instruments,3,1,1,0,3,,no verified company disclosure,False,False
+9991,9991.T,GECOSS CORPORATION,Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+6858,6858.T,"ONO SOKKI Co.,Ltd.",Electric Appliances,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+8283,8283.T,PALTAC CORPORATION,Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+6489,6489.T,"Maezawa Industries,Inc.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6258,6258.T,HIRATA Corporation,Machinery,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6590,6590.T,SHIBAURA MECHATRONICS CORPORATION,Electric Appliances,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+1435,1435.T,robot home Inc.,Real Estate,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6458,6458.T,SINKO INDUSTRIES LTD.,Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+9110,9110.T,"NS United Kaiun Kaisha,Ltd.",Marine Transportation,1,1,1,0,1,,no verified company disclosure,False,False
+1899,1899.T,FUKUDA CORPORATION,Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+5344,5344.T,"MARUWA CO.,LTD.",Glass and Ceramics Products,2,1,1,0,2,,no verified company disclosure,False,False
+5902,5902.T,HOKKAN HOLDINGS LIMITED,Metal Products,3,1,1,0,3,,no verified company disclosure,False,False
+6505,6505.T,"TOYO DENKI SEIZO K.K.(TOYO ELECTRIC MFG.CO.,LTD.)",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6455,6455.T,MORITA HOLDINGS CORPORATION,Transportation Equipment,3,1,1,0,3,,no verified company disclosure,False,False
+8074,8074.T,"YUASA CO.,LTD.",Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+6498,6498.T,KITZ CORPORATION,Machinery,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+2982,2982.T,"A.D.Works Group Co.,Ltd.",Real Estate,3,1,0,0,3,,no verified company disclosure,False,False
+7729,7729.T,"TOKYO SEIMITSU CO.,LTD.",Precision Instruments,1,1,1,0,1,,no verified company disclosure,False,False
+6249,6249.T,"Gamecard Holdings,Inc.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4974,4974.T,TAKARA BIO INC.,Chemicals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+4366,4366.T,Daito Chemix Corporation,Chemicals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+5381,5381.T,Mipox Corporation,Glass and Ceramics Products,3,1,1,0,3,,no verified company disclosure,False,False
+4951,4951.T,S.T.CORPORATION,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+6965,6965.T,HAMAMATSU PHOTONICS K.K.,Electric Appliances,0,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,False,True
+9768,9768.T,"IDEA Consultants,Inc.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+8095,8095.T,"Astena Holdings Co.,Ltd.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+6262,6262.T,"PEGASUS CO.,LTD.",Machinery,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6859,6859.T,ESPEC CORP.,Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4071,4071.T,"Plus Alpha Consulting Co.,LTD.",Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+5302,5302.T,"Nippon Carbon Co.,Ltd.",Glass and Ceramics Products,2,1,1,0,2,,no verified company disclosure,False,False
+1719,1719.T,HAZAMA ANDO CORPORATION,Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+9364,9364.T,"Kamigumi Co.,Ltd.",Warehousing and Harbor Transportation Service,3,1,1,0,3,,no verified company disclosure,False,False
+2935,2935.T,"PICKLES HOLDINGS CO.,LTD.",Foods,3,1,1,0,3,,no verified company disclosure,False,False
+5991,5991.T,"NHK SPRING CO.,LTD.",Metal Products,3,1,1,0,3,,no verified company disclosure,False,False
+3632,3632.T,"GREE Holdings,Inc.",Information & Communication,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+6323,6323.T,RORZE CORPORATION,Machinery,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6273,6273.T,SMC CORPORATION,Machinery,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+9025,9025.T,"Konoike Transport Co.,Ltd.",Land Transportation,3,1,1,0,3,,no verified company disclosure,False,False
+6597,6597.T,HPC SYSTEMS Inc.,Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7071,7071.T,"Amvis Holdings,Inc.",Services,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+8084,8084.T,RYODEN CORPORATION,Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+7840,7840.T,"FRANCE BED HOLDINGS CO.,LTD.",Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+9876,9876.T,"COX CO.,LTD.",Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+4251,4251.T,KEIWA Incorporated,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+4725,4725.T,CAC Holdings Corporation,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+4475,4475.T,HENNGE K.K.,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+8141,8141.T,"Shinko Shoji Co.,Ltd.",Wholesale Trade,1,1,1,0,1,,no verified company disclosure,False,False
+9744,9744.T,MEITEC Group Holdings Inc.,Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+3640,3640.T,"DENSAN CO.,LTD.",Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+3299,3299.T,"MUGEN ESTATE Co.,Ltd.",Real Estate,3,1,0,0,3,,no verified company disclosure,False,False
+6016,6016.T,Japan Engine Corporation,Transportation Equipment,3,1,1,0,3,,no verified company disclosure,False,False
+5192,5192.T,Mitsuboshi Belting Ltd.,Rubber Products,3,1,1,0,3,,no verified company disclosure,False,False
+1934,1934.T,YURTEC CORPORATION,Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+6036,6036.T,"KeePer Technical Laboratory Co.,Ltd.",Services,0,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+9401,9401.T,"TBS HOLDINGS,INC.",Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+3093,3093.T,"Treasure Factory Co.,LTD.",Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+3445,3445.T,"RS Technologies Co.,Ltd.",Metal Products,1,1,1,0,1,,no verified company disclosure,False,False
+6420,6420.T,GALILEI CO.LTD.,Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+9621,9621.T,"CTI Engineering Co.,Ltd.",Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+8252,8252.T,"MARUI GROUP CO.,LTD.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+6508,6508.T,MEIDENSHA CORPORATION,Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+3916,3916.T,Digital Information Technologies Corporation,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+4025,4025.T,"TAKI CHEMICAL CO.,LTD.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+6804,6804.T,Hosiden Corporation,Electric Appliances,1,1,0,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7512,7512.T,Aeon Hokkaido Corporation,Retail Trade,0,1,1,0,0,,no verified company disclosure,False,False
+9347,9347.T,"NIPPON KANZAI Holdings Co.,Ltd.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+3151,3151.T,"VITAL KSK HOLDINGS,INC.",Wholesale Trade,3,1,0,0,3,,no verified company disclosure,False,False
+5965,5965.T,FUJIMAK CORPORATION,Metal Products,3,1,1,0,3,,no verified company disclosure,False,False
+7989,7989.T,TACHIKAWA CORPORATION,Metal Products,3,1,1,0,3,,no verified company disclosure,False,False
+9612,9612.T,"LUCKLAND CO.,LTD.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+9267,9267.T,"Genky DrugStores Co.,Ltd.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+7800,7800.T,"Amifa Co.,Ltd.",Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+3245,3245.T,"DEAR LIFE CO.,LTD.",Real Estate,2,1,1,0,2,,no verified company disclosure,False,False
+4673,4673.T,"Kawasaki Geological Engineering Co.,Ltd.",Services,3,1,0,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+8830,8830.T,"Sumitomo Realty & Development Co.,Ltd.",Real Estate,3,1,1,0,3,,no verified company disclosure,False,False
+4212,4212.T,Sekisui Jushi Corporation,Chemicals,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+9601,9601.T,"Shochiku Co.,Ltd.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+8131,8131.T,"Mitsuuroko Group Holdings Co.,Ltd.",Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+7003,7003.T,"MITSUI E&S Co.,Ltd.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+5444,5444.T,"YAMATO KOGYO CO.,LTD.",Iron and Steel,1,1,1,0,1,,no verified company disclosure,False,False
+3076,3076.T,Ai Holdings Corporation,Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+5915,5915.T,KOMAIHALTEC Inc.,Metal Products,2,1,1,0,2,,no verified company disclosure,False,False
+7318,7318.T,"SERENDIP HOLDINGS Co.,Ltd.",Transportation Equipment,3,1,1,0,3,,no verified company disclosure,False,False
+3179,3179.T,"Syuppin Co.,Ltd.",Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+5461,5461.T,"Chubu Steel Plate Co.,Ltd.",Iron and Steel,1,1,1,0,1,,no verified company disclosure,False,False
+7435,7435.T,"NADEX CO.,LTD.",Wholesale Trade,0,1,1,0,0,,no verified company disclosure,False,False
+8160,8160.T,"KISOJI CO.,LTD.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+4928,4928.T,"Noevir Holdings Co.,Ltd.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+9759,9759.T,"NSD CO.,LTD.",Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+5957,5957.T,"NITTOSEIKO CO.,LTD.",Metal Products,3,1,1,0,3,,no verified company disclosure,False,False
+7976,7976.T,"MITSUBISHI PENCIL COMPANY,LIMITED",Other Products,1,1,1,0,1,,no verified company disclosure,False,False
+6226,6226.T,"Moriya Transportation Engineering and Manufacturing Co.,Ltd.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6622,6622.T,DAIHEN CORPORATION,Electric Appliances,1,1,1,2,2,https://www.daihen.co.jp/en/company/about/,DAIHEN discloses transformers and distribution equipment together with factory-automation robots and semiconductor plasma RF generators.,True,True
+9514,9514.T,EF-ON INC.,Electric Power and Gas,2,1,1,0,2,,no verified company disclosure,False,False
+7716,7716.T,NAKANISHI INC.,Precision Instruments,2,1,1,0,2,,no verified company disclosure,False,False
+7128,7128.T,UNISOL Holdings Corporation,Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+7821,7821.T,"MAEDA KOSEN CO.,LTD.",Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+5351,5351.T,"SHINAGAWA REFRA CO.,LTD.",Glass and Ceramics Products,2,1,1,0,2,,no verified company disclosure,False,False
+2109,2109.T,"Mitsui DM Sugar Co.,Ltd.",Foods,2,1,1,0,2,,no verified company disclosure,False,False
+6741,6741.T,"Nippon Signal Company,Limited",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4275,4275.T,"Carlit Co.,Ltd.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+9960,9960.T,TOTECH CORPORATION,Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+7564,7564.T,"WORKMAN CO.,LTD.",Retail Trade,0,1,1,0,0,,no verified company disclosure,False,False
+3922,3922.T,PR TIMES Corporation,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+6197,6197.T,Solasto Corporation,Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+2112,2112.T,"Ensuiko Sugar Refining Co.,Ltd.",Foods,3,1,1,0,3,,no verified company disclosure,False,False
+2980,2980.T,SRE Holdings Corporation,Real Estate,3,1,1,0,3,,no verified company disclosure,False,False
+4554,4554.T,"Fuji Pharma Co.,Ltd.",Pharmaceutical,2,1,1,0,2,,no verified company disclosure,False,False
+3844,3844.T,COMTURE CORPORATION,Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+4972,4972.T,"Soken Chemical & Engineering Co.,Ltd.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+3878,3878.T,TOMOEGAWA CORPORATION,Chemicals,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+6861,6861.T,KEYENCE CORPORATION,Electric Appliances,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7476,7476.T,AS ONE CORPORATION,Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+7944,7944.T,Roland Corporation,Other Products,1,1,1,0,1,,no verified company disclosure,False,False
+9713,9713.T,"THE ROYAL HOTEL,LIMITED",Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+6266,6266.T,"TAZMO CO.,LTD.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+3388,3388.T,"MEIJI ELECTRIC INDUSTRIES CO.,LTD.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+2702,2702.T,"McDonald's Holdings Company(Japan),Ltd.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+6727,6727.T,"Wacom Co.,Ltd.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7456,7456.T,"MATSUDA SANGYO Co.,Ltd.",Wholesale Trade,1,1,1,0,1,,no verified company disclosure,False,False
+2211,2211.T,"Fujiya Co.,Ltd.",Foods,3,1,1,0,3,,no verified company disclosure,False,False
+7244,7244.T,"ICHIKOH INDUSTRIES,LTD.",Electric Appliances,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4410,4410.T,"HARIMA CHEMICALS GROUP,INC.",Chemicals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+4063,4063.T,"Shin-Etsu Chemical Co.,Ltd.",Chemicals,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+9065,9065.T,SANKYU INC.,Land Transportation,3,1,1,0,3,,no verified company disclosure,False,False
+4396,4396.T,System Support Holdings Inc.,Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+8935,8935.T,"FJ NEXT HOLDINGS CO.,LTD.",Real Estate,2,1,0,0,2,,no verified company disclosure,False,False
+1808,1808.T,HASEKO Corporation,Construction,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+5888,5888.T,"DAIWA CYCLE CO.,LTD.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+3284,3284.T,"Hoosiers Holdings Co.,Ltd.",Real Estate,1,1,0,0,1,,no verified company disclosure,False,False
+4093,4093.T,"Toho Acetylene Co.,Ltd.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+6822,6822.T,"Oi Electric Co.,Ltd.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7875,7875.T,"TAKEDA iP HOLDINGS CO.,LTD.",Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+9932,9932.T,"SUGIMOTO & CO.,LTD.",Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+3132,3132.T,"MACNICA HOLDINGS,INC.",Wholesale Trade,1,1,1,0,1,,no verified company disclosure,False,False
+4167,4167.T,Kokopelli Inc.,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+1417,1417.T,MIRAIT ONE Corporation,Construction,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+1802,1802.T,OBAYASHI CORPORATION,Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+7914,7914.T,"Kyodo Printing Co.,Ltd.",Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+8041,8041.T,OUG Holdings Inc.,Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+5714,5714.T,"DOWA HOLDINGS CO.,LTD.",Nonferrous Metals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,False,True
+7433,7433.T,"Hakuto Co.,Ltd.",Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+4186,4186.T,"TOKYO OHKA KOGYO CO.,LTD.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+4977,4977.T,Nitta Gelatin Inc.,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+6866,6866.T,HIOKI E.E.CORPORATION,Electric Appliances,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+8200,8200.T,"RINGER HUT CO.,LTD.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+9075,9075.T,"FUKUYAMA TRANSPORTING CO.,LTD.",Land Transportation,0,1,1,0,0,,no verified company disclosure,False,False
+6368,6368.T,ORGANO CORPORATION,Machinery,3,1,1,3,3,https://www.organo.co.jp/en/about/strengths/,"Organo states that its ultrapure-water systems serve semiconductor plants at capacities up to 1,000 cubic metres per hour.",True,True
+6482,6482.T,Yushin Company,Machinery,2,1,0,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+2612,2612.T,KADOYA SESAME MILLS INCORPORATED,Foods,2,1,1,0,2,,no verified company disclosure,False,False
+7508,7508.T,G-7 HOLDINGS Inc.,Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+7504,7504.T,KOHSOKU CORPORATION,Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+3023,3023.T,Rasa Corporation,Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+4229,4229.T,"Gun Ei Chemical Industry Co.,Ltd.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+3712,3712.T,"Information Planning CO.,LTD.",Information & Communication,0,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+6652,6652.T,IDEC CORPORATION,Electric Appliances,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6125,6125.T,"OKAMOTO MACHINE TOOL WORKS,LTD.",Machinery,1,1,0,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+5940,5940.T,"FUJISASH CO.,LTD.",Metal Products,3,1,0,0,3,,no verified company disclosure,False,False
+2204,2204.T,"NAKAMURAYA CO.,LTD.",Foods,3,1,1,0,3,,no verified company disclosure,False,False
+5384,5384.T,FUJIMI INCORPORATED,Glass and Ceramics Products,0,1,1,0,0,,no verified company disclosure,False,False
+1887,1887.T,JDC CORPORATION,Construction,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+6240,6240.T,YAMASHIN-FILTER CORP.,Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4433,4433.T,"HITO-Communications Holdings,Inc.",Services,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+3193,3193.T,"Eternal Hospitality Group Co.,Ltd.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+4026,4026.T,"Konoshima Chemical Co.,Ltd.",Glass and Ceramics Products,1,1,1,0,1,,no verified company disclosure,False,False
+3836,3836.T,AVANT GROUP CORPORATION,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+6118,6118.T,"AIDA ENGINEERING,LTD.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7102,7102.T,"NIPPON SHARYO,LTD.",Transportation Equipment,3,1,1,0,3,,no verified company disclosure,False,False
+9869,9869.T,"KATO SANGYO CO.,LTD.",Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+4971,4971.T,MEC COMPANY LTD.,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+8159,8159.T,"TACHIBANA ELETECH CO.,LTD.",Wholesale Trade,1,1,1,0,1,,no verified company disclosure,False,False
+4664,4664.T,JAPAN RELIANCE SERVICE CORPORATION,Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+9993,9993.T,"YAMAZAWA CO.,LTD.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+6229,6229.T,OKUMURA ENGINEERING corp.,Machinery,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+5706,5706.T,"Mitsui Kinzoku Company,Limited",Nonferrous Metals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,False,True
+5906,5906.T,"MK SEIKO CO.,LTD.",Metal Products,3,1,1,0,3,,no verified company disclosure,False,False
+3877,3877.T,"Chuetsu Pulp & Paper Co.,Ltd.",Pulp and Paper,2,1,1,0,2,,no verified company disclosure,False,False
+2157,2157.T,"KOSHIDAKA HOLDINGS Co.,LTD.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+2326,2326.T,Digital Arts Inc.,Information & Communication,2,1,1,3,3,https://www.daj.jp/en/about/business/,Digital Arts discloses integrated web email and file security products and patents in 27 countries and regions.,True,True
+1762,1762.T,"TAKAMATSU CONSTRUCTION GROUP CO.,LTD.",Construction,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+9757,9757.T,Funai Soken Holdings Incorporated,Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+6407,6407.T,CKD Corporation,Machinery,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+9837,9837.T,"MORITO CO.,LTD.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+4393,4393.T,"Bank of Innovation,Inc.",Information & Communication,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+6962,6962.T,DAISHINKU CORP.,Electric Appliances,0,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+2884,2884.T,Yoshimura Food Holdings K.K.,Foods,1,1,0,0,1,,no verified company disclosure,False,False
+2209,2209.T,"IMURAYA GROUP CO.,LTD.",Foods,3,1,1,0,3,,no verified company disclosure,False,False
+7974,7974.T,"Nintendo Co.,Ltd.",Other Products,2,1,1,0,2,,no verified company disclosure,False,False
+6073,6073.T,ASANTE INCORPORATED,Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+4661,4661.T,"ORIENTAL LAND CO.,LTD.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+6137,6137.T,"KOIKE SANSO KOGYO CO.,LTD.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+1835,1835.T,"TOTETSU KOGYO CO.,LTD.",Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+9441,9441.T,"Bell-Park Co.,Ltd.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+7460,7460.T,"YAGI & CO.,LTD.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+7630,7630.T,"ICHIBANYA CO.,LTD.",Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+7932,7932.T,"Nippi,Incorporated",Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+9900,9900.T,Sagami Holdings Corporation,Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+7033,7033.T,"Management Solutions Co.,Ltd.",Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+2908,2908.T,"FUJICCO CO.,LTD.",Foods,1,1,1,0,1,,no verified company disclosure,False,False
+3036,3036.T,ALCONIX CORPORATION,Wholesale Trade,1,1,1,0,1,,no verified company disclosure,False,False
+1820,1820.T,"Nishimatsu Construction Co.,Ltd.",Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+7713,7713.T,"SIGMA KOKI CO.,LTD.",Precision Instruments,2,1,1,0,2,,no verified company disclosure,False,False
+6496,6496.T,"NAKAKITA SEISAKUSHO CO.,LTD.",Machinery,2,1,0,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4619,4619.T,"Nihon Tokushu Toryo Co.,Ltd.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+4812,4812.T,DENTSU SOKEN INC.,Information & Communication,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+2286,2286.T,"Hayashikane Sangyo Co.,Ltd.",Foods,3,1,1,0,3,,no verified company disclosure,False,False
+3692,3692.T,"FFRI Security,Inc.",Information & Communication,3,1,1,2,3,https://www.ffri.jp/en/en_products_top,FFRI discloses endpoint security managed services and automated malware-analysis products based on domestic core security R&D.,True,True
+6994,6994.T,SHIZUKI ELECTRIC COMPANY INC.,Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6027,6027.T,"Bengo4.com,Inc.",Services,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+3091,3091.T,"BRONCO BILLY Co.,LTD.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+1941,1941.T,CHUDENKO CORPORATION,Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+6247,6247.T,"HISAKA WORKS,LTD.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6627,6627.T,"Tera Probe,Inc.",Electric Appliances,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+8237,8237.T,"MATSUYA CO.,LTD.",Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+2674,2674.T,"HARD OFF CORPORATION Co.,Ltd.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+4975,4975.T,JCU CORPORATION,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+6998,6998.T,"Nippon Tungsten Co.,Ltd.",Electric Appliances,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4732,4732.T,"USS Co.,Ltd.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+6466,6466.T,"TVE Co.,Ltd.",Machinery,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6149,6149.T,"Odawara Engineering Co.,Ltd.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7970,7970.T,"Shin-Etsu Polymer Co.,Ltd.",Chemicals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+6617,6617.T,"TAKAOKA TOKO CO.,LTD.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+9303,9303.T,"The Sumitomo Warehouse Co.,Ltd.",Warehousing and Harbor Transportation Service,0,1,1,0,0,,no verified company disclosure,False,False
+2317,2317.T,Systena Corporation,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+4956,4956.T,"KONISHI CO.,LTD.",Chemicals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+1786,1786.T,Oriental Shiraishi Corporation,Construction,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+9305,9305.T,Yamatane Corporation,Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+9537,9537.T,"HOKURIKU GAS CO.,LTD.",Electric Power and Gas,3,1,1,0,3,,no verified company disclosure,False,False
+2819,2819.T,"EBARA Foods Industry,Inc.",Foods,1,1,1,0,1,,no verified company disclosure,False,False
+6333,6333.T,TEIKOKU CORPORATION,Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6855,6855.T,JAPAN ELECTRONIC MATERIALS CORPORATION,Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+6966,6966.T,"Mitsui High-tec,Inc.",Electric Appliances,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+8802,8802.T,"Mitsubishi Estate Company,Limited",Real Estate,1,1,1,0,1,,no verified company disclosure,False,False
+9692,9692.T,COMPUTER ENGINEERING & CONSULTING LTD.,Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+1720,1720.T,"TOKYU CONSTRUCTION CO., LTD.",Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+6165,6165.T,"PUNCH INDUSTRY CO.,LTD.",Machinery,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+9166,9166.T,GENDA Inc.,Services,0,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+9890,9890.T,"MAKIYA CO.,LTD.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+7717,7717.T,"V Technology Co.,Ltd.",Precision Instruments,3,1,1,0,3,,no verified company disclosure,False,False
+4392,4392.T,"Future Innovation Group,Inc.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+9880,9880.T,INNOTECH CORPORATION,Electric Appliances,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+3156,3156.T,Restar Corporation,Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+6820,6820.T,ICOM INCORPORATED,Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6677,6677.T,"SK-Electronics CO.,LTD.",Electric Appliances,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4384,4384.T,RAKSUL INC.,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+6742,6742.T,"Kyosan Electric Manufacturing Co.,Ltd.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7727,7727.T,OVAL Corporation,Precision Instruments,3,1,1,0,3,,no verified company disclosure,False,False
+4816,4816.T,"TOEI ANIMATION CO.,LTD.",Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+8285,8285.T,"MITANI SANGYO CO.,LTD.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+1443,1443.T,"Giken Holdings Co.,Ltd.",Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+6061,6061.T,"UNIVERSAL ENGEISHA CO.,LTD",Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+6055,6055.T,"JAPAN MATERIAL Co.,Ltd.",Services,0,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+5802,5802.T,"Sumitomo Electric Industries,Ltd.",Nonferrous Metals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,False,True
+3553,3553.T,"KYOWA LEATHER CLOTH CO.,LTD.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+8860,8860.T,FUJI CORPORATION LIMITED,Real Estate,3,1,1,0,3,,no verified company disclosure,False,False
+9338,9338.T,INFORICH INC.,Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+9740,9740.T,"CENTRAL SECURITY PATROLS CO.,LTD.",Services,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+8075,8075.T,Shinsho Corporation,Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+7868,7868.T,"KOSAIDO Holdings Co.,Ltd.",Other Products,3,1,0,0,3,,no verified company disclosure,False,False
+2330,2330.T,"Forside Co.,Ltd.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+2384,2384.T,"SBS Holdings,Inc.",Land Transportation,1,1,1,0,1,,no verified company disclosure,False,False
+7921,7921.T,TAKARA & COMPANY LTD.,Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+9928,9928.T,"MIROKU JYOHO SERVICE CO.,LTD.",Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+3496,3496.T,"AZOOM CO.,LTD",Real Estate,2,1,1,0,2,,no verified company disclosure,False,False
+2207,2207.T,"MEITO CO.,LTD.",Foods,3,1,1,0,3,,no verified company disclosure,False,False
+6364,6364.T,AIRMAN CORPORATION,Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+8052,8052.T,"TSUBAKIMOTO KOGYO CO.,LTD.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+3177,3177.T,"ARIGATOU SERVICES COMPANY,LIMITED",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+5184,5184.T,"NICHIRIN CO.,LTD.",Rubber Products,2,1,1,0,2,,no verified company disclosure,False,False
+2489,2489.T,Adways Inc.,Services,2,1,0,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+5333,5333.T,NGK Corporation,Glass and Ceramics Products,2,1,1,0,2,,no verified company disclosure,False,False
+6744,6744.T,NOHMI BOSAI LTD.,Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+9902,9902.T,NICHIDEN Corporation,Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+3159,3159.T,"Maruzen CHI Holdings Co.,Ltd.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+7427,7427.T,"ECHO TRADING CO.,LTD.",Wholesale Trade,1,1,1,0,1,,no verified company disclosure,False,False
+1885,1885.T,TOA CORPORATION,Construction,3,1,0,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+4461,4461.T,DKS Co.Ltd.,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+4082,4082.T,"DAIICHI KIGENSO KAGAKU-KOGYO CO.,LTD",Chemicals,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+4493,4493.T,"Cyber Security Cloud,Inc.",Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: cybersecurity,False,True
+7730,7730.T,"MANI,INC.",Precision Instruments,2,1,1,0,2,,no verified company disclosure,False,False
+6203,6203.T,"Howa Machinery,Ltd.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7247,7247.T,MIKUNI CORPORATION,Transportation Equipment,2,1,1,0,2,,no verified company disclosure,False,False
+4966,4966.T,"C.Uyemura & Co.,Ltd.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+4958,4958.T,"T.HASEGAWA CO.,LTD.",Chemicals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+4498,4498.T,"Cybertrust Japan Co.,Ltd.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+5644,5644.T,METALART CORPORATION,Iron and Steel,1,1,1,0,1,,no verified company disclosure,False,False
+9672,9672.T,"TOKYOTOKEIBA CO.,LTD.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+5958,5958.T,"SANYO INDUSTRIES,LTD.",Metal Products,3,1,1,0,3,,no verified company disclosure,False,False
+9889,9889.T,JBCC Holdings Inc.,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+3107,3107.T,"Daiwabo Holdings Co.,Ltd.",Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+4165,4165.T,"PLAID,Inc.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+4431,4431.T,"Smaregi,Inc.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+4549,4549.T,"EIKEN CHEMICAL CO.,LTD.",Pharmaceutical,0,1,1,0,0,,no verified company disclosure,False,False
+1815,1815.T,TEKKEN CORPORATION,Construction,3,1,0,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+1952,1952.T,"Shin Nippon Air Technologies Co.,Ltd.",Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+1721,1721.T,COMSYS Holdings Corporation,Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+8151,8151.T,TOYO Corporation,Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+1803,1803.T,SHIMIZU CORPORATION,Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+6134,6134.T,FUJI CORPORATION,Machinery,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+3979,3979.T,"ULURU.CO.,LTD.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+9896,9896.T,"JK Holdings Co.,Ltd.",Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+2760,2760.T,TOKYO ELECTRON DEVICE LIMITED,Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+1879,1879.T,SHINNIHON CORPORATION,Construction,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+5801,5801.T,"Furukawa Electric Co.,Ltd.",Nonferrous Metals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,False,True
+9227,9227.T,"Microwave Chemical Co.,Ltd.",Services,3,1,0,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+5726,5726.T,"OSAKA Titanium technologies Co.,Ltd.",Nonferrous Metals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,False,True
+6882,6882.T,"Sansha Electric Manufacturing Co.,Ltd.",Electric Appliances,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+8244,8244.T,"Kintetsu Department Store CO.,Ltd.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+9982,9982.T,"Takihyo Co.,Ltd.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+9301,9301.T,Mitsubishi Logistics Corporation,Warehousing and Harbor Transportation Service,2,1,1,0,2,,no verified company disclosure,False,False
+1938,1938.T,"NIPPON RIETEC CO.,LTD.",Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+2353,2353.T,"NIPPON PARKING DEVELOPMENT Co.,Ltd.",Real Estate,2,1,1,0,2,,no verified company disclosure,False,False
+1860,1860.T,TODA CORPORATION,Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+2666,2666.T,"AUTOWAVE Co.,Ltd.",Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+6493,6493.T,NITTAN Corporation,Transportation Equipment,2,1,1,0,2,,no verified company disclosure,False,False
+9248,9248.T,"People, Dreams & Technologies Group Co.,Ltd.",Services,2,1,0,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+8891,8891.T,"AMG HOLDINGS CO.,LTD.",Real Estate,2,1,1,0,2,,no verified company disclosure,False,False
+6643,6643.T,"Togami Electric Mfg.Co.,Ltd.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4046,4046.T,"OSAKA SODA CO.,LTD.",Chemicals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+8135,8135.T,ZETT CORPORATION,Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+8919,8919.T,"KATITAS CO.,LTD",Real Estate,3,1,1,0,3,,no verified company disclosure,False,False
+4107,4107.T,ISE CHEMICALS CORPORATION,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+7608,7608.T,"SK JAPAN CO.,LTD.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+5280,5280.T,"Yoshicon Co.,Ltd.",Real Estate,3,1,1,0,3,,no verified company disclosure,False,False
+6317,6317.T,Kitagawa Corporation,Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+1944,1944.T,KINDEN CORPORATION,Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+4686,4686.T,JUSTSYSTEMS CORPORATION,Information & Communication,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+6490,6490.T,PILLAR Corporation,Machinery,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6507,6507.T,"SINFONIA TECHNOLOGY CO.,LTD.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+9341,9341.T,"GENOVA,Inc.",Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+9629,9629.T,PCA CORPORATION,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+9793,9793.T,"Daiseki Co.,Ltd.",Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+7609,7609.T,"Daitron Co.,Ltd.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+4763,4763.T,"CREEK & RIVER Co.,Ltd.",Services,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+6626,6626.T,SEMITEC Corporation,Electric Appliances,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+1976,1976.T,"MEISEI INDUSTRIAL Co.,Ltd.",Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+2216,2216.T,Kanro Inc.,Foods,3,1,1,0,3,,no verified company disclosure,False,False
+4465,4465.T,"Niitaka Co., Ltd.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+1926,1926.T,"RAITO KOGYO CO.,LTD.",Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+1871,1871.T,"PS Construction Co.,Ltd.",Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+8117,8117.T,CENTRAL AUTOMOTIVE PRODUCTS LTD.,Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+6286,6286.T,SEIKO CORPORATION,Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7521,7521.T,"MUSASHI CO.,LTD.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+2737,2737.T,TOMEN DEVICES CORPORATION,Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+6947,6947.T,ZUKEN INC.,Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+3741,3741.T,"Systems Engineering Consultants Co.,LTD.",Information & Communication,3,1,0,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+1930,1930.T,"HOKURIKU ELECTRICAL CONSTRUCTION CO.,LTD.",Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+9324,9324.T,Yasuda Logistics Corporation,Warehousing and Harbor Transportation Service,2,1,1,0,2,,no verified company disclosure,False,False
+4595,4595.T,"MIZUHO MEDY CO.,LTD.",Pharmaceutical,1,1,1,0,1,,no verified company disclosure,False,False
+3433,3433.T,"TOCALO Co.,Ltd.",Metal Products,3,1,1,0,3,,no verified company disclosure,False,False
+7525,7525.T,RIX CORPORATION,Wholesale Trade,1,1,1,0,1,,no verified company disclosure,False,False
+5285,5285.T,YAMAX Corp.,Glass and Ceramics Products,3,1,1,0,3,,no verified company disclosure,False,False
+6834,6834.T,"SEIKOH GIKEN Co.,Ltd.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4684,4684.T,"OBIC Co.,Ltd.",Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+9467,9467.T,"AlphaPolis Co.,Ltd.",Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+3139,3139.T,"Lacto Japan Co.,Ltd.",Wholesale Trade,3,1,0,0,3,,no verified company disclosure,False,False
+1951,1951.T,"EXEO Group,Inc.",Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+3662,3662.T,"Ateam Holdings Co.,Ltd.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+6862,6862.T,MINATO HOLDINGS INC.,Electric Appliances,0,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6748,6748.T,"SEIWA ELECTRIC MFG. CO.,LTD.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4013,4013.T,"Kinjiro Co.,Ltd.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+7811,7811.T,"NAKAMOTO PACKS CO.,LTD.",Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+4992,4992.T,"HOKKO CHEMICAL INDUSTRY CO.,LTD.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+9551,9551.T,"METAWATER Co.,Ltd.",Electric Power and Gas,2,1,1,0,2,,no verified company disclosure,False,False
+4371,4371.T,Core Concept Technologies Inc.,Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+8920,8920.T,"TOSHO CO.,LTD.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+7438,7438.T,KONDOTEC INC.,Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+3915,3915.T,"TerraSky Co.,Ltd",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+3565,3565.T,Ascentech K.K.,Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+1882,1882.T,TOA ROAD CORPORATION,Construction,3,1,0,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+3110,3110.T,"NITTO BOSEKI CO.,LTD.",Glass and Ceramics Products,3,1,1,0,3,,no verified company disclosure,False,False
+1950,1950.T,"NIPPON DENSETSU KOGYO CO.,LTD.",Construction,2,1,0,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+6255,6255.T,NPC Incorporated,Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4055,4055.T,T&S Group Inc.,Information & Communication,0,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+7628,7628.T,OHASHI TECHNICA INC.,Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+8079,8079.T,SHOEI FOODS CORPORATION,Wholesale Trade,2,1,0,0,2,,no verified company disclosure,False,False
+7646,7646.T,"PLANT Co.,Ltd.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+2764,2764.T,Hiramatsu Inc.,Retail Trade,3,1,0,0,3,,no verified company disclosure,False,False
+6402,6402.T,"KANEMATSU ENGINEERING CO.,LTD.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+3611,3611.T,MATSUOKA CORPORATION,Textiles and Apparels,3,1,1,0,3,,no verified company disclosure,False,False
+7085,7085.T,"CURVES HOLDINGS Co.,Ltd.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+2692,2692.T,"ITOCHU-SHOKUHIN Co.,Ltd.",Wholesale Trade,3,1,0,0,3,,no verified company disclosure,False,False
+5757,5757.T,"CK SAN-ETSU Co.,Ltd.",Nonferrous Metals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,False,True
+6227,6227.T,"AIMECHATEC,Ltd.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+1959,1959.T,KRAFTIA CORPORATION,Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+7235,7235.T,"TOKYO RADIATOR MFG.CO.,LTD.",Transportation Equipment,3,1,1,0,3,,no verified company disclosure,False,False
+2341,2341.T,"ARBEIT-TIMES CO.,LTD.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+6800,6800.T,"YOKOWO CO.,LTD.",Electric Appliances,0,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+9438,9438.T,MTI Ltd.,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+6524,6524.T,"KOHOKU KOGYO CO.,LTD.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+3271,3271.T,The Global Ltd.,Real Estate,3,1,1,0,3,,no verified company disclosure,False,False
+2653,2653.T,"AEON KYUSHU CO.,LTD.",Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+3020,3020.T,"Applied Co.,Ltd.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+4317,4317.T,Ray Corporation,Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+3627,3627.T,TECMIRA HOLDINGS INC.,Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+4231,4231.T,TIGERS POLYMER CORPORATION,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+9619,9619.T,"ICHINEN HOLDINGS CO.,LTD.",Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+6824,6824.T,"NEW COSMOS ELECTRIC CO.,LTD.",Electric Appliances,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+5820,5820.T,"MITSUBOSHI CO.,LTD.",Nonferrous Metals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,False,True
+6336,6336.T,"ISHII HYOKI CO.,LTD.",Machinery,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7551,7551.T,"WEDS CO.,LTD.",Transportation Equipment,2,1,1,0,2,,no verified company disclosure,False,False
+6331,6331.T,"Mitsubishi Kakoki Kaisha,Ltd.",Machinery,3,1,0,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+5208,5208.T,"Arisawa Mfg.Co.,Ltd.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+2354,2354.T,YE DIGITAL Corporation,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+3106,3106.T,KURABO INDUSTRIES LTD.,Textiles and Apparels,3,1,1,0,3,,no verified company disclosure,False,False
+6383,6383.T,"DAIFUKU CO.,LTD.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+9553,9553.T,"MicroAd,Inc.",Services,0,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+1420,1420.T,Sanyo Homes Corporation,Construction,3,1,0,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+5449,5449.T,"OSAKA STEEL CO.,LTD.",Iron and Steel,3,1,1,0,3,,no verified company disclosure,False,False
+2475,2475.T,"WDB HOLDINGS CO.,LTD.",Services,0,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+8101,8101.T,GSI Creos Corporation,Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+6284,6284.T,"NISSEI ASB MACHINE CO.,LTD.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+1870,1870.T,"YAHAGI CONSTRUCTION CO.,LTD.",Construction,3,1,0,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+4931,4931.T,"Shinnihonseiyaku Co.,Ltd.",Chemicals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+4377,4377.T,ONE CAREER Inc.,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+5363,5363.T,TYK CORPORATION,Glass and Ceramics Products,3,1,1,0,3,,no verified company disclosure,False,False
+1813,1813.T,Fudo Tetra Corporation,Construction,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+4481,4481.T,"BASE CO.,LTD.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+2907,2907.T,"AHJIKAN CO.,LTD.",Foods,3,1,1,0,3,,no verified company disclosure,False,False
+6954,6954.T,FANUC CORPORATION,Electric Appliances,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6459,6459.T,DAIWA INDUSTRIES LTD.,Machinery,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7614,7614.T,"OM2Network Co.,Ltd.",Retail Trade,1,1,1,0,1,,no verified company disclosure,False,False
+8137,8137.T,SUN-WA TECHNOS CORPORATION,Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+1852,1852.T,ASANUMA CORPORATION,Construction,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+7291,7291.T,"NIHON PLAST CO.,LTD.",Transportation Equipment,3,1,1,0,3,,no verified company disclosure,False,False
+3150,3150.T,"grems,Inc.",Electric Power and Gas,3,1,1,0,3,,no verified company disclosure,False,False
+7995,7995.T,"VALQUA,LTD.",Chemicals,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+3396,3396.T,FELISSIMO CORPORATION,Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+3763,3763.T,Pro-Ship Incorporated,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+5946,5946.T,"CHOFU SEISAKUSHO CO.,LTD.",Metal Products,0,1,1,0,0,,no verified company disclosure,False,False
+4733,4733.T,"OBIC BUSINESS CONSULTANTS CO.,LTD.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+1812,1812.T,KAJIMA CORPORATION,Construction,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+6517,6517.T,"Denyo Co.,Ltd.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+5976,5976.T,"Neturen Co.,Ltd.",Metal Products,3,1,1,0,3,,no verified company disclosure,False,False
+9270,9270.T,Valuence Holdings Inc.,Wholesale Trade,1,1,0,0,1,,no verified company disclosure,False,False
+3457,3457.T,"&Do Holdings Co.,Ltd.",Real Estate,2,1,1,0,2,,no verified company disclosure,False,False
+7925,7925.T,"MAEZAWA KASEI INDUSTRIES CO.,LTD.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+7544,7544.T,"Three F Co.,Ltd.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+2158,2158.T,"FRONTEO,Inc.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+7254,7254.T,UNIVANCE CORPORATION,Transportation Equipment,3,1,1,0,3,,no verified company disclosure,False,False
+7760,7760.T,IMV CORPORATION,Precision Instruments,3,1,1,0,3,,no verified company disclosure,False,False
+6358,6358.T,"SAKAI HEAVY INDUSTRIES,LTD.",Machinery,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+5574,5574.T,"ABEJA,Inc.",Information & Communication,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+3109,3109.T,SHIKIBO LTD.,Textiles and Apparels,2,1,1,0,2,,no verified company disclosure,False,False
+8059,8059.T,"DAIICHI JITSUGYO CO.,LTD.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+4075,4075.T,"Brains Technology,Inc.",Information & Communication,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+6996,6996.T,NICHICON CORPORATION,Electric Appliances,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+3945,3945.T,"Superbag Company,Limited",Pulp and Paper,3,1,1,0,3,,no verified company disclosure,False,False
+8917,8917.T,"First Juken Co.,Ltd.",Real Estate,1,1,1,0,1,,no verified company disclosure,False,False
+6069,6069.T,"Trenders,Inc.",Services,2,1,0,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+7818,7818.T,"TRANSACTION CO.,Ltd.",Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+9846,9846.T,"TENMAYA STORE CO.,LTD.",Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+6946,6946.T,"Nippon Avionics Co.,Ltd.",Electric Appliances,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+5011,5011.T,"NICHIREKI GROUP CO.,LTD.",Oil and Coal Products,2,1,1,0,2,,no verified company disclosure,False,False
+8091,8091.T,"NICHIMO CO.,LTD.",Wholesale Trade,2,1,0,0,2,,no verified company disclosure,False,False
+5186,5186.T,Nitta Corporation,Rubber Products,2,1,1,0,2,,no verified company disclosure,False,False
+8030,8030.T,"Chuo Gyorui Co.,Ltd.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+1801,1801.T,TAISEI CORPORATION,Construction,3,1,0,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+7734,7734.T,"RIKEN KEIKI CO.,LTD.",Precision Instruments,1,1,1,0,1,,no verified company disclosure,False,False
+5805,5805.T,SWCC Corporation,Nonferrous Metals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,False,True
+6999,6999.T,KOA CORPORATION,Electric Appliances,0,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+5821,5821.T,HIRAKAWA HEWTECH CORP.,Nonferrous Metals,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: optical_communication,False,True
+3547,3547.T,UNISIA HOLDINGS CO.,Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+3486,3486.T,GLOBAL LINK MANAGEMENT INC.,Real Estate,2,1,0,0,2,,no verified company disclosure,False,False
+7539,7539.T,"AINAVO HOLDINGS Co.,Ltd.",Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+8163,8163.T,"SRS HOLDINGS CO.,LTD.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+1946,1946.T,TOENEC CORPORATION,Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+5631,5631.T,"The Japan Steel Works,Ltd.",Machinery,3,1,0,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+4463,4463.T,"NICCA CHEMICAL CO.,LTD.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+9424,9424.T,Japan Communications Inc.,Information & Communication,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+4820,4820.T,"EM SYSTEMS CO.,LTD.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+6071,6071.T,"IBJ,Inc.",Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+2652,2652.T,MANDARAKE INC.,Retail Trade,2,1,1,0,2,,no verified company disclosure,False,False
+9906,9906.T,Fujii Sangyo Corporation,Wholesale Trade,3,1,1,0,3,,no verified company disclosure,False,False
+6653,6653.T,"SEIKO ELECTRIC CO.,LTD.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+1799,1799.T,DAIICHI KENSETSU CORPORATION,Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+5939,5939.T,"OTANI KOGYO CO.,LTD.",Metal Products,3,1,1,0,3,,no verified company disclosure,False,False
+3675,3675.T,Cross Marketing Group Inc.,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+4187,4187.T,OSAKA ORGANIC CHEMICAL INDUSTRY LTD.,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+7377,7377.T,"DN HOLDINGS CO.,LTD.",Services,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+7409,7409.T,"AeroEdge Co.,Ltd",Transportation Equipment,2,1,1,0,2,,no verified company disclosure,False,False
+3321,3321.T,"MITACHI CO.,LTD.",Wholesale Trade,1,1,0,0,1,,no verified company disclosure,False,False
+4577,4577.T,"Daito Pharmaceutical Co.,Ltd.",Pharmaceutical,1,1,1,0,1,,no verified company disclosure,False,False
+9845,9845.T,PARKER CORPORATION,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+9068,9068.T,"Maruzen Showa Unyu Co.,Ltd.",Land Transportation,2,1,1,0,2,,no verified company disclosure,False,False
+6771,6771.T,"IKEGAMI TSUSHINKI CO.,LTD.",Electric Appliances,3,1,0,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7421,7421.T,"KAPPA・CREATE CO.,LTD.",Retail Trade,3,1,1,0,3,,no verified company disclosure,False,False
+6387,6387.T,SAMCO INC.,Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7066,7066.T,"Peers Co.,Ltd.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+9722,9722.T,FUJITA KANKO INC.,Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+4027,4027.T,TAYCA CORPORATION,Chemicals,0,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+9763,9763.T,"Maruken Lease Co.,Ltd.",Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+9827,9827.T,"Lilycolor Co.,Ltd.",Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+4826,4826.T,"Computer Institute of Japan, Ltd.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+1965,1965.T,TECHNO RYOWA LTD.,Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+6929,6929.T,"NIPPON CERAMIC CO.,LTD.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7874,7874.T,"LEC,INC.",Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+5010,5010.T,"NIPPON SEIRO CO.,LTD.",Oil and Coal Products,3,1,1,0,3,,no verified company disclosure,False,False
+7510,7510.T,TAKEBISHI CORPORATION,Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+1384,1384.T,"Hokuryo Co.,Ltd.","Fishery, Agriculture and Forestry",3,1,1,0,3,,no verified company disclosure,False,False
+1381,1381.T,"AXYZ CO.,Ltd.","Fishery, Agriculture and Forestry",3,1,1,0,3,,no verified company disclosure,False,False
+7938,7938.T,REGAL CORPORATION,Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+1942,1942.T,"KANDENKO CO.,LTD.",Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+6907,6907.T,"GEOMATEC CO.,LTD.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6485,6485.T,"MAEZAWA KYUSO INDUSTRIES CO.,LTD.",Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+2415,2415.T,"Human Holdings Co.,Ltd.",Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+5074,5074.T,"TESS Holdings Co.,Ltd.",Construction,0,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+9412,9412.T,SKY Perfect JSAT Corporation,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+7722,7722.T,"KOKUSAI CO.,LTD.",Precision Instruments,3,1,1,0,3,,no verified company disclosure,False,False
+2332,2332.T,"Quest Co.,Ltd.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+9310,9310.T,Japan Transcity Corporation,Warehousing and Harbor Transportation Service,2,1,1,0,2,,no verified company disclosure,False,False
+4099,4099.T,SHIKOKU KASEI HOLDINGS CORPORATION,Chemicals,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+3843,3843.T,"FreeBit Co.,Ltd.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+5592,5592.T,"Kusurinomadoguchi,Inc.",Information & Communication,3,1,0,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+2533,2533.T,"Oenon Holdings,Inc.",Foods,2,1,1,0,2,,no verified company disclosure,False,False
+3678,3678.T,"MEDIA DO Co.,Ltd.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+4449,4449.T,giftee Inc.,Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+3131,3131.T,SHINDEN HIGHTEX CORPORATION,Wholesale Trade,1,1,1,0,1,,no verified company disclosure,False,False
+3676,3676.T,"DIGITAL HEARTS HOLDINGS Co.,Ltd.",Information & Communication,2,1,1,1,2,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+4224,4224.T,LONSEAL CORPORATION,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+7885,7885.T,"TAKANO Co.,Ltd.",Other Products,2,1,1,0,2,,no verified company disclosure,False,False
+4998,4998.T,FUMAKILLA LIMITED,Chemicals,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: semiconductor,False,True
+7812,7812.T,CRESTEC Inc.,Other Products,2,1,1,0,2,,no verified company disclosure,False,False
+2815,2815.T,"ARIAKE JAPAN Co.,Ltd.",Foods,3,1,1,0,3,,no verified company disclosure,False,False
+7213,7213.T,LECIP HOLDINGS CORPORATION,Transportation Equipment,3,1,1,0,3,,no verified company disclosure,False,False
+1718,1718.T,"MIKIKOGYO CO.,LTD.",Construction,3,1,0,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+3778,3778.T,SAKURA internet Inc.,Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+3069,3069.T,JFLA Holdings Inc.,Foods,3,1,1,0,3,,no verified company disclosure,False,False
+7963,7963.T,KOKEN LTD.,Other Products,3,1,1,0,3,,no verified company disclosure,False,False
+6345,6345.T,AICHI CORPORATION,Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+7220,7220.T,"MUSASHI SEIMITSU INDUSTRY CO.,LTD.",Transportation Equipment,3,1,1,0,3,,no verified company disclosure,False,False
+2469,2469.T,Hibino Corporation,Services,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True
+6382,6382.T,TRINITY INDUSTRIAL CORPORATION,Machinery,3,1,0,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+6788,6788.T,"NIHON TRIM CO.,LTD.",Electric Appliances,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+9824,9824.T,"SENSHU ELECTRIC CO.,LTD.",Wholesale Trade,2,1,1,0,2,,no verified company disclosure,False,False
+4170,4170.T,"Kaizen Platform,Inc.",Information & Communication,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: business_data,False,True
+7022,7022.T,Sanoyas Holdings Corporation,Machinery,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: factory_automation,False,True
+1867,1867.T,UEKI CORPORATION,Construction,3,1,1,1,3,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: power_grid,False,True
+7094,7094.T,NexTone Inc.,Services,1,1,1,1,1,systematic_keyword_screen_from_phase2_fields,Systematic keyword/sector screen: quality_assurance,False,True

@@ -1,0 +1,21 @@
+check_id,item,expected,actual,status,source_of_truth
+D1,Final20 銘柄数,20,20,PASS,phase3_moat_construction/final20_selected.csv
+D2,配分 銘柄数,20,20,PASS,phase4_portfolio_allocation/allocation_final.csv
+D3,Final20 と配分の銘柄一致,一致,一致（差分なし）,PASS,final20_selected.csv × allocation_final.csv
+D4,Phase1 Top5 の固定継承,3539/4350/6430/7803/9470 が Final20 に含まれる,全て含まれる,PASS,phase1_review/phase1_explanation_for_report.md
+D5,配分ウェイト合計,1.0,1.0,PASS,allocation_final.csv (target_weight_final)
+D6,役割構成,5/5/5/3/2,BuffettCore5/EmergingCore5/TransformationCore5/DualMoat3/Bridge2,PASS,allocation_final.csv (final_role)
+D7,最大銘柄比率 ≤ 8%,≤0.08,0.0746 (9474 ゼンリン),PASS,allocation_final.csv
+D8,Final Evidence Level 分布,L3+L2+L1=20,L3:15 / L2:4 / L1:1,PASS,phase3_moat_construction/evidence_levels.csv
+D9,L1 該当社と役割,Emerging選定でないこと,4350 MEDICAL SYSTEM NETWORK / Buffett Core / non_ai,PASS,evidence_levels.csv + allocation_final.csv
+D10,アブレーション最小 overlap,A8(Top100限定)が最小,A8 overlap=7（全変種中最小）,PASS,phase5_verification_and_ablation/ablation_results.csv
+D11,A16(ai_keyword_only限定)overlap,ガードが過度拘束的でない,overlap=16,PASS,ablation_results.csv
+D12,3年 in-sample 主要指標,Sharpe/α/β,Sharpe1.41 / α+7.3%/年 / β0.925,PASS,phase5_validation_summary.json
+D13,直近1年 Information Ratio,負値であること（誠実開示対象）,-0.405,PASS(要開示),phase5_validation_summary.json
+D14,3年 Information Ratio,参考,+0.445,PASS,phase5_validation_summary.json
+D15,1306.T 分割補正,2026-03-30 の 1:10 分割を補正,補正記録あり(x10),PASS,phase5_validation_summary.json (data_repairs)
+D16,テーマ集中 HHI,高いこと（リスク開示対象）,0.4015,PASS(要開示),phase5_validation_summary.json
+D17,Transformation スコア種別,partial 19 / lite 1,partial 19 / lite 1,PASS,phase3_formula_lineage.md + final20_selected.csv
+D18,Phase2 母集団,formal_top1200 が正式・Top2000 は参照群,一致,PASS,phase2_review/phase2_explanation_for_report.md
+D19,設計式(3.1)の選定使用,選定に未使用（partial(3.2)が使用）,未使用と明記,PASS,phase3_formula_lineage.md
+D20,選定後バックテストによる入替,なし,なし,PASS,phase3 rebuild audit

@@ -1,0 +1,67 @@
+{
+  "plan_stats": {
+    "A_equal": {
+      "vol": 0.1924,
+      "hhi_stock": 0.05,
+      "max_stock": 0.05,
+      "max_sector": 0.15,
+      "max_sector_name": "Electric Appliances",
+      "max_theme_ex_nonai": 0.15
+    },
+    "B_role_budget": {
+      "vol": 0.1924,
+      "hhi_stock": 0.05,
+      "max_stock": 0.05,
+      "max_sector": 0.15,
+      "max_sector_name": "Machinery",
+      "max_theme_ex_nonai": 0.15
+    },
+    "C_risk_adjusted": {
+      "vol": 0.1853,
+      "hhi_stock": 0.0534,
+      "max_stock": 0.0746,
+      "max_sector": 0.1733,
+      "max_sector_name": "Information & Communication",
+      "max_theme_ex_nonai": 0.1616
+    },
+    "D_minvar": {
+      "vol": 0.1725,
+      "hhi_stock": 0.0638,
+      "max_stock": 0.08,
+      "max_sector": 0.24,
+      "max_sector_name": "Retail Trade",
+      "max_theme_ex_nonai": 0.1793
+    }
+  },
+  "final_plan": "C_risk_adjusted",
+  "execution_L1": {
+    "invested": 4949198,
+    "cash": 50801,
+    "deploy_rate": 0.9898,
+    "max_abs_dev_from_target": 0.003
+  },
+  "execution_L100": {
+    "invested": 2336940,
+    "cash": 2663059,
+    "deploy_rate": 0.4674,
+    "unbuyable": 9,
+    "unbuyable_names": [
+      "YOKOGAWA ELECTRIC CORPORATION",
+      "ORGANO CORPORATION",
+      "TOWA CORPORATION",
+      "Lasertec Corporation",
+      "Socionext Inc.",
+      "Fujikura Ltd.",
+      "Genki Global Dining Concepts Corporation",
+      "TAIHEIYO CEMENT CORPORATION",
+      "KAMEI CORPORATION"
+    ]
+  },
+  "role_totals_final": {
+    "Bridge / Diversifier": 0.1,
+    "Buffett Core": 0.25,
+    "Dual Moat": 0.15,
+    "Emerging Core": 0.25,
+    "Transformation Core": 0.25
+  }
+}
