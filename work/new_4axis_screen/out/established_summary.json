@@ -89,6 +89,54 @@
         "cls_future": 0.6272,
         "price_established": 0.1676,
         "bespoke_future": 0.994
+      },
+      "portfolios": {
+        "universe_equal_weight": 0.1135,
+        "established": {
+          "mean_return": 0.1624,
+          "excess_vs_universe": 0.0488,
+          "ci95": [
+            -0.0023,
+            0.3567
+          ],
+          "n_sectors": 12
+        },
+        "bespoke": {
+          "mean_return": 0.2106,
+          "excess_vs_universe": 0.097,
+          "ci95": [
+            0.053,
+            0.3768
+          ],
+          "n_sectors": 11
+        },
+        "magic_formula": {
+          "mean_return": 0.0132,
+          "excess_vs_universe": -0.1004,
+          "ci95": [
+            -0.1353,
+            0.1792
+          ],
+          "n_sectors": 13
+        },
+        "random20": {
+          "mean": 0.1158,
+          "sd": 0.0945,
+          "percentile_established": 72.8,
+          "percentile_bespoke": 85.5
+        },
+        "weight_sensitivity_established": {
+          "min": 0.0203,
+          "max": 0.487,
+          "range": 0.4667,
+          "equal_percentile": 18.7
+        },
+        "weight_sensitivity_bespoke": {
+          "min": -0.1613,
+          "max": 0.5079,
+          "range": 0.6692,
+          "equal_percentile": 41.7
+        }
       }
     },
     "FY2025_126d": {
@@ -179,6 +227,54 @@
         "cls_future": 0.6344,
         "price_established": 0.1771,
         "bespoke_future": 0.9939
+      },
+      "portfolios": {
+        "universe_equal_weight": 0.185,
+        "established": {
+          "mean_return": 0.5506,
+          "excess_vs_universe": 0.3656,
+          "ci95": [
+            0.3218,
+            0.8483
+          ],
+          "n_sectors": 12
+        },
+        "bespoke": {
+          "mean_return": 0.4792,
+          "excess_vs_universe": 0.2942,
+          "ci95": [
+            0.314,
+            0.6561
+          ],
+          "n_sectors": 12
+        },
+        "magic_formula": {
+          "mean_return": 0.3948,
+          "excess_vs_universe": 0.2098,
+          "ci95": [
+            0.2173,
+            0.5728
+          ],
+          "n_sectors": 12
+        },
+        "random20": {
+          "mean": 0.1886,
+          "sd": 0.0768,
+          "percentile_established": 100.0,
+          "percentile_bespoke": 99.9
+        },
+        "weight_sensitivity_established": {
+          "min": 0.1231,
+          "max": 0.6597,
+          "range": 0.5366,
+          "equal_percentile": 81.7
+        },
+        "weight_sensitivity_bespoke": {
+          "min": 0.2371,
+          "max": 0.6232,
+          "range": 0.3861,
+          "equal_percentile": 40.3
+        }
       }
     },
     "FY2023_252d": {
@@ -269,6 +365,54 @@
         "cls_future": 0.6083,
         "price_established": 0.207,
         "bespoke_future": 0.9952
+      },
+      "portfolios": {
+        "universe_equal_weight": 0.1024,
+        "established": {
+          "mean_return": 0.5507,
+          "excess_vs_universe": 0.4483,
+          "ci95": [
+            0.2608,
+            0.8758
+          ],
+          "n_sectors": 13
+        },
+        "bespoke": {
+          "mean_return": 0.2661,
+          "excess_vs_universe": 0.1637,
+          "ci95": [
+            0.0629,
+            0.4927
+          ],
+          "n_sectors": 11
+        },
+        "magic_formula": {
+          "mean_return": 0.2942,
+          "excess_vs_universe": 0.1918,
+          "ci95": [
+            0.0628,
+            0.5474
+          ],
+          "n_sectors": 12
+        },
+        "random20": {
+          "mean": 0.1005,
+          "sd": 0.0971,
+          "percentile_established": 100.0,
+          "percentile_bespoke": 94.5
+        },
+        "weight_sensitivity_established": {
+          "min": 0.0954,
+          "max": 0.8242,
+          "range": 0.7288,
+          "equal_percentile": 48.7
+        },
+        "weight_sensitivity_bespoke": {
+          "min": -0.0817,
+          "max": 0.6275,
+          "range": 0.7092,
+          "equal_percentile": 43.7
+        }
       }
     }
   }

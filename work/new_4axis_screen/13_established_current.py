@@ -200,7 +200,8 @@ def main() -> None:
         "sector_counts": top["sector_33"].value_counts().to_dict(),
     }
 
-    keep = ["code", "company_name_ja", "company_name", "sector_33", "market", "price_used",
+    keep = ["code", "company_name_ja", "company_name", "sector_33", "market", "scale_category",
+            "price_used",
             "market_cap", "per", "pbr", "altman_z", "rd_expense",
             "moat_p", "change_p", "future_p", "price_p", "total",
             "shares", "cost", "weight_pct"]

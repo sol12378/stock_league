@@ -210,6 +210,58 @@ def main() -> None:
             yr["r2_vs_sector33"][c] = round(
                 float(1 - ((y - X @ beta) ** 2).sum() / ((y - y.mean()) ** 2).sum()), 4)
 
+        # ---- 20社ポートフォリオの実績(両方式を同じ土俵で) ----
+        def pick20(df: pd.DataFrame, key: str, cap: int = 2) -> pd.DataFrame:
+            df = df.sort_values(key, ascending=False)
+            out, cnt = [], {}
+            for _, r in df.iterrows():
+                if cnt.get(r["sector_33"], 0) >= cap:
+                    continue
+                out.append(r)
+                cnt[r["sector_33"]] = cnt.get(r["sector_33"], 0) + 1
+                if len(out) == 20:
+                    break
+            return pd.DataFrame(out)
+
+        rng = np.random.default_rng(20260817)
+        yr["portfolios"] = {"universe_equal_weight": round(float(ret.mean()), 4)}
+        for label, sort_col in [("established", "total_established"),
+                                ("bespoke", "total_bespoke"),
+                                ("magic_formula", "total_magic")]:
+            sel = pick20(d, sort_col)
+            boot = np.array([sel[retcol].sample(len(sel), replace=True,
+                                                random_state=int(rng.integers(1e9))).mean()
+                             for _ in range(2000)])
+            yr["portfolios"][label] = {
+                "mean_return": round(float(sel[retcol].mean()), 4),
+                "excess_vs_universe": round(float(sel[retcol].mean() - ret.mean()), 4),
+                "ci95": [round(float(np.percentile(boot, 2.5)), 4),
+                         round(float(np.percentile(boot, 97.5)), 4)],
+                "n_sectors": int(sel["sector_33"].nunique()),
+            }
+        draws = np.array([ret.sample(20, replace=False,
+                                     random_state=int(rng.integers(1e9))).mean()
+                          for _ in range(2000)])
+        yr["portfolios"]["random20"] = {
+            "mean": round(float(draws.mean()), 4), "sd": round(float(draws.std()), 4),
+            "percentile_established": round(float(
+                (draws < yr["portfolios"]["established"]["mean_return"]).mean() * 100), 1),
+            "percentile_bespoke": round(float(
+                (draws < yr["portfolios"]["bespoke"]["mean_return"]).mean() * 100), 1),
+        }
+        # 重み感度(4軸の重みを1,000通り)
+        for label, cols in [("established", established), ("bespoke", bespoke)]:
+            W = rng.dirichlet(np.ones(4), size=300)
+            vals = pd.DataFrame({c: pctrank(d[c]) for c in cols}).to_numpy()
+            rs = [pick20(d.assign(_t=vals @ w), "_t")[retcol].mean() for w in W]
+            rs = np.array(rs)
+            yr["portfolios"][f"weight_sensitivity_{label}"] = {
+                "min": round(float(rs.min()), 4), "max": round(float(rs.max()), 4),
+                "range": round(float(rs.max() - rs.min()), 4),
+                "equal_percentile": round(float(
+                    (rs < yr["portfolios"][label]["mean_return"]).mean() * 100), 1),
+            }
+
         per[key] = yr
         d[["code", "company_name", "sector_33"] + established + bespoke
           + ["total_established", "total_bespoke", "altman_z", "magic_formula", retcol]
