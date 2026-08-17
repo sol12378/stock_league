@@ -34,3 +34,34 @@
    ページ数が変わったら make_tocmap.py→パス2 を収束するまで繰り返す。
 4. 検証(目視・機械チェック・数値照合)を終えて確定したら `SCORECARD_v3.md` を書き、`touch beyond_buffett_stockleague_v3.LOCKED`。この索引に1行追記する。
 5. 本文の数値は直接書かない(data_real.json / phase5系の正典から自動転記)。図は `scripts/make_contest_figures.py`(印刷実寸スケール)で生成する。
+
+
+## 分析WP(参考資料・v11の一部ではない) — `referee_wp_analysis.pdf`
+
+英文17頁のワーキングペーパー。**当初これをv11として作ったが、v11はストックリーグ提出用レポートで
+あるという訂正(2026-07-26)を受け、v11の名を外して参考資料に降格した**。
+分析の中身(時点外検証・ランダム化推論・ファクター帰属・キーワード飽和の機構・自PF証拠水準監査・
+コスト/DSR・生存者性)は**v11レポートの素材としてそのまま使う**。
+関連: `SCORECARD_analysis_wp.md` / `cover_letter_analysis_wp.md` / `referee_briefing_analysis.md` /
+`referee_analysis_package/`。出力JSONは`*_v11.json`(v11レポートが参照するため名前を維持)。
+
+## v11 — **破棄(2026-07-28・ユーザー指示)**
+
+v11レポートは破棄した。現行の作業版は **v10**(`VERSION`=v10)。
+
+- 移動先: `_discarded/v11/`(docx/pdf・headings/tocmap・V11_*.md・REVIEW_DIFF_v9_to_v11.md・
+  EVIDENCE_WORKSHEET_v11.csv・scripts/build_contest_v11.py)。**削除はしていない**。
+- **残置したもの**: `*_v11.json`・`layer2_draws_v11.npy`・`numbers_v11.tex`・`tables_*_v11.tex`・
+  `fig_layer2_v11.pdf` と対応するビルドスクリプト。これらは分析WP(`referee_wp_analysis.pdf`)の
+  資産であり、v11レポート固有ではない。v12で本文へ載せ直す素材として使う。
+- v11が本文で開示していて**v10には無い**もの(復活候補): 研究開発費比率のゼロ埋め機構(2/3,649)・
+  未来の堀スコアの業種決定性99.0%・`shares_outstanding`が300社のみ・時点外検証(PIT)・
+  ファクター帰属・自PF証拠水準監査。→ 詳細は `V10_AUDIT_v1.md` §E。
+
+## v10の監査結果(2026-07-28)
+
+v10を現行版に戻したため、v10単体の欠陥監査を実施した。正典=`V10_AUDIT_v1.md`(欠陥13件)。
+完成条件の定義は `DEFINITION_OF_DONE_v1.md`。
+**完成を阻んでいるのは4件**: 式(10)のＲ・Ｋ33%が全社未計算／破5の並べ替えキーが本文と不一致／
+主対照20社のうち7社が本PFと同一(未開示)／営業利益成長率のCAGRが赤字年を除外。
+残り9件は開示・表記の修正で足りる(最終20社は動かない)。
