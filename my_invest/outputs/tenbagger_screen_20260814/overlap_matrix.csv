@@ -1,0 +1,5 @@
+condition,c1_cagr_20,c2_operating_margin_10,c3_listed_within_5y,c4_leader_top_holder_strict
+c1_cagr_20,370,180,84,128
+c2_operating_margin_10,180,980,106,172
+c3_listed_within_5y,84,106,314,90
+c4_leader_top_holder_strict,128,172,90,511
