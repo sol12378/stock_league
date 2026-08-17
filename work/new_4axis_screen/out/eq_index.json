@@ -1,0 +1,127 @@
+{
+ "pctrank": {
+  "file": "/Users/satouryuuichi/Desktop/product/hobby/stock_league/work/new_4axis_screen/out/eq/pctrank.png",
+  "w": 250,
+  "h": 44
+ },
+ "axis_mean": {
+  "file": "/Users/satouryuuichi/Desktop/product/hobby/stock_league/work/new_4axis_screen/out/eq/axis_mean.png",
+  "w": 243,
+  "h": 56
+ },
+ "total": {
+  "file": "/Users/satouryuuichi/Desktop/product/hobby/stock_league/work/new_4axis_screen/out/eq/total.png",
+  "w": 515,
+  "h": 29
+ },
+ "effective_weight": {
+  "file": "/Users/satouryuuichi/Desktop/product/hobby/stock_league/work/new_4axis_screen/out/eq/effective_weight.png",
+  "w": 351,
+  "h": 50
+ },
+ "alloc": {
+  "file": "/Users/satouryuuichi/Desktop/product/hobby/stock_league/work/new_4axis_screen/out/eq/alloc.png",
+  "w": 474,
+  "h": 40
+ },
+ "qmj": {
+  "file": "/Users/satouryuuichi/Desktop/product/hobby/stock_league/work/new_4axis_screen/out/eq/qmj.png",
+  "w": 600,
+  "h": 28
+ },
+ "gpoa": {
+  "file": "/Users/satouryuuichi/Desktop/product/hobby/stock_league/work/new_4axis_screen/out/eq/gpoa.png",
+  "w": 291,
+  "h": 42
+ },
+ "roe_roa": {
+  "file": "/Users/satouryuuichi/Desktop/product/hobby/stock_league/work/new_4axis_screen/out/eq/roe_roa.png",
+  "w": 310,
+  "h": 42
+ },
+ "cfoa_gmar": {
+  "file": "/Users/satouryuuichi/Desktop/product/hobby/stock_league/work/new_4axis_screen/out/eq/cfoa_gmar.png",
+  "w": 367,
+  "h": 42
+ },
+ "acc": {
+  "file": "/Users/satouryuuichi/Desktop/product/hobby/stock_league/work/new_4axis_screen/out/eq/acc.png",
+  "w": 210,
+  "h": 42
+ },
+ "zscore_rank": {
+  "file": "/Users/satouryuuichi/Desktop/product/hobby/stock_league/work/new_4axis_screen/out/eq/zscore_rank.png",
+  "w": 219,
+  "h": 49
+ },
+ "fscore": {
+  "file": "/Users/satouryuuichi/Desktop/product/hobby/stock_league/work/new_4axis_screen/out/eq/fscore.png",
+  "w": 336,
+  "h": 68
+ },
+ "fscore_pct": {
+  "file": "/Users/satouryuuichi/Desktop/product/hobby/stock_league/work/new_4axis_screen/out/eq/fscore_pct.png",
+  "w": 195,
+  "h": 30
+ },
+ "cls": {
+  "file": "/Users/satouryuuichi/Desktop/product/hobby/stock_league/work/new_4axis_screen/out/eq/cls.png",
+  "w": 311,
+  "h": 42
+ },
+ "price": {
+  "file": "/Users/satouryuuichi/Desktop/product/hobby/stock_league/work/new_4axis_screen/out/eq/price.png",
+  "w": 395,
+  "h": 36
+ },
+ "ep_bm": {
+  "file": "/Users/satouryuuichi/Desktop/product/hobby/stock_league/work/new_4axis_screen/out/eq/ep_bm.png",
+  "w": 285,
+  "h": 42
+ },
+ "ey_ev": {
+  "file": "/Users/satouryuuichi/Desktop/product/hobby/stock_league/work/new_4axis_screen/out/eq/ey_ev.png",
+  "w": 461,
+  "h": 41
+ },
+ "mc": {
+  "file": "/Users/satouryuuichi/Desktop/product/hobby/stock_league/work/new_4axis_screen/out/eq/mc.png",
+  "w": 157,
+  "h": 29
+ },
+ "altman": {
+  "file": "/Users/satouryuuichi/Desktop/product/hobby/stock_league/work/new_4axis_screen/out/eq/altman.png",
+  "w": 490,
+  "h": 42
+ },
+ "liquidity": {
+  "file": "/Users/satouryuuichi/Desktop/product/hobby/stock_league/work/new_4axis_screen/out/eq/liquidity.png",
+  "w": 318,
+  "h": 68
+ },
+ "bespoke_moat": {
+  "file": "/Users/satouryuuichi/Desktop/product/hobby/stock_league/work/new_4axis_screen/out/eq/bespoke_moat.png",
+  "w": 600,
+  "h": 29
+ },
+ "bespoke_change": {
+  "file": "/Users/satouryuuichi/Desktop/product/hobby/stock_league/work/new_4axis_screen/out/eq/bespoke_change.png",
+  "w": 600,
+  "h": 27
+ },
+ "bespoke_future": {
+  "file": "/Users/satouryuuichi/Desktop/product/hobby/stock_league/work/new_4axis_screen/out/eq/bespoke_future.png",
+  "w": 600,
+  "h": 28
+ },
+ "bespoke_price": {
+  "file": "/Users/satouryuuichi/Desktop/product/hobby/stock_league/work/new_4axis_screen/out/eq/bespoke_price.png",
+  "w": 303,
+  "h": 36
+ },
+ "growth": {
+  "file": "/Users/satouryuuichi/Desktop/product/hobby/stock_league/work/new_4axis_screen/out/eq/growth.png",
+  "w": 491,
+  "h": 50
+ }
+}

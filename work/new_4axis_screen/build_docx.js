@@ -6,10 +6,11 @@ const MODS = "/private/tmp/claude-501/-Users-satouryuuichi-Desktop-product-hobby
 const {
   Document, Packer, Paragraph, TextRun, HeadingLevel, AlignmentType,
   Table, TableRow, TableCell, WidthType, ShadingType, BorderStyle,
-  Footer, PageNumber,
+  Footer, PageNumber, ImageRun,
 } = require(path.join(MODS, "docx"));
 
 const P = JSON.parse(fs.readFileSync(process.argv[2], "utf8"));
+const EQ = P.eq_index ? JSON.parse(fs.readFileSync(P.eq_index, "utf8")) : {};
 
 const FONT = "Yu Gothic";
 const INK = "1B1F27";
@@ -132,6 +133,79 @@ function caption(t) {
   });
 }
 
+// 中央寄せの別行立て数式。右端に式番号を置く。
+function equation(key, number) {
+  const e = EQ[key];
+  if (!e) return para(`[式が見つかりません: ${key}]`, { color: "AA0000" });
+  const img = new ImageRun({
+    type: "png", data: fs.readFileSync(e.file),
+    transformation: { width: e.w, height: e.h },
+  });
+  const cells = [
+    new TableCell({
+      width: { size: 9106, type: WidthType.DXA },
+      margins: { top: 90, bottom: 90, left: 0, right: 0 },
+      borders: {
+        top: { style: BorderStyle.NONE, size: 0, color: "FFFFFF" },
+        bottom: { style: BorderStyle.NONE, size: 0, color: "FFFFFF" },
+        left: { style: BorderStyle.NONE, size: 0, color: "FFFFFF" },
+        right: { style: BorderStyle.NONE, size: 0, color: "FFFFFF" },
+      },
+      children: [new Paragraph({
+        alignment: AlignmentType.CENTER,
+        spacing: { before: 0, after: 0 }, children: [img],
+      })],
+    }),
+    new TableCell({
+      width: { size: 1100, type: WidthType.DXA },
+      margins: { top: 90, bottom: 90, left: 0, right: 0 },
+      verticalAlign: "center",
+      borders: {
+        top: { style: BorderStyle.NONE, size: 0, color: "FFFFFF" },
+        bottom: { style: BorderStyle.NONE, size: 0, color: "FFFFFF" },
+        left: { style: BorderStyle.NONE, size: 0, color: "FFFFFF" },
+        right: { style: BorderStyle.NONE, size: 0, color: "FFFFFF" },
+      },
+      children: [new Paragraph({
+        alignment: AlignmentType.RIGHT, spacing: { before: 0, after: 0 },
+        children: [txt(`(${number})`, { size: 17 })],
+      })],
+    }),
+  ];
+  return new Table({
+    columnWidths: [9106, 1100],
+    width: { size: 10206, type: WidthType.DXA },
+    rows: [new TableRow({ children: cells })],
+  });
+}
+
+// ブロック列を描画する。章4〜7はこれで組み立てる。
+function blocks(list) {
+  const out = [];
+  for (const b of list) {
+    if (b.t === "p") out.push(para(b.text));
+    else if (b.t === "h3") out.push(new Paragraph({
+      spacing: { before: 220, after: 100 },
+      children: [txt(b.text, { size: 18, bold: true })],
+    }));
+    else if (b.t === "eq") {
+      out.push(equation(b.key, b.num));
+      if (b.cap) out.push(new Paragraph({
+        alignment: AlignmentType.CENTER, spacing: { before: 20, after: 130 },
+        children: [txt(b.cap, { size: 15, color: MUTED })],
+      }));
+    } else if (b.t === "table") {
+      if (b.cap) out.push(caption(b.cap));
+      out.push(table(b.widths, b.header, b.rows,
+        { aligns: (b.aligns || []).map((a) => (a === "r" ? R : L)), size: b.size || 16 }));
+    } else if (b.t === "callout") out.push(callout(b.text));
+    else if (b.t === "note") out.push(note(b.text));
+    else if (b.t === "bullets") b.items.forEach((i) => out.push(bullet(i)));
+    else if (b.t === "nums") b.items.forEach((i) => out.push(num(i)));
+  }
+  return out;
+}
+
 const P_ = P;
 const B = [];
 
@@ -176,6 +250,7 @@ B.push(h1("4. Step 0 — 母集団の絞り込み"));
 B.push(para("「儲かる会社を選ぶ」段ではなく、「そもそも買えない会社・データが信用できない会社を落とす」段である。"));
 B.push(caption("除外条件"));
 B.push(table([650, 4650, 4906], ["#", "条件", "趣旨"], P.step0_conditions, { aligns: [R, L, L] }));
+if (P.step0_blocks) B.push(...blocks(P.step0_blocks));
 B.push(caption("ファネル（実測）"));
 B.push(table([3700, 1300, 5206], ["段階", "社数", "内容"], P.funnel, { aligns: [L, R, L] }));
 P.step0_notes.forEach((t) => B.push(note(t)));
@@ -184,21 +259,35 @@ P.step0_notes.forEach((t) => B.push(note(t)));
 B.push(new Paragraph({ children: [], pageBreakBefore: true }));
 B.push(h1("5. Step 1 — 4つの評価軸"));
 B.push(para(P.axes_intro));
+if (P.notation) {
+  B.push(caption("記号の約束"));
+  B.push(table([1700, 4200, 4306], ["記号", "意味", "備考"], P.notation, { aligns: [L, L, L] }));
+  B.push(note("添字 i は企業、k は軸を構成する成分を表す。指標名は立体（ローマン体）で書き、"
+    + "変数は斜体で書く。定義には := を、恒等な等式には = を用いる。"));
+}
 P.axes.forEach((a) => {
   B.push(h2(a.title));
   if (a.source) B.push(para([txt("出典: ", { bold: true, size: 17 }), txt(a.source, { size: 17 })]));
-  B.push(para(a.what));
-  B.push(...code(a.formula));
-  B.push(caption("成分の意味"));
-  B.push(table([2700, 5200, 2306], ["成分", "定義", "取得率"], a.components, { aligns: [L, L, R] }));
-  if (a.note) B.push(note(a.note));
+  if (a.blocks) {
+    B.push(...blocks(a.blocks));
+  } else {
+    B.push(para(a.what));
+    B.push(...code(a.formula));
+    B.push(caption("成分の意味"));
+    B.push(table([2700, 5200, 2306], ["成分", "定義", "取得率"], a.components,
+      { aligns: [L, L, R] }));
+    if (a.note) B.push(note(a.note));
+  }
 });
 
 /* ===================== 6. 合成 ===================== */
-B.push(new Paragraph({ children: [], pageBreakBefore: true }));
 B.push(h1("6. Step 2 — 合成"));
-B.push(...code(P.composite.formula));
-B.push(para(P.composite.text));
+if (P.composite.blocks) {
+  B.push(...blocks(P.composite.blocks));   // blocks 側に趣旨の説明が入っているので text は出さない
+} else {
+  B.push(...code(P.composite.formula));
+  B.push(para(P.composite.text));
+}
 B.push(caption("名目の配点と、実際に総合点を動かした割合"));
 B.push(table([2606, 1900, 1900, 1900, 1900], ["", "Moat", "Change", "Future", "Price"],
   P.composite.effective, { aligns: [L, R, R, R, R], boldCols: [0] }));
@@ -221,7 +310,8 @@ B.push(table([3400, 2200, 4606], ["", "業種数", "上位業種の集中"], P.s
   { aligns: [L, R, L] }));
 B.push(note(P.selection.cap_note));
 B.push(h2("7-2. 保有比率の決め方"));
-B.push(...code(P.selection.alloc_formula));
+if (P.selection.alloc_blocks) B.push(...blocks(P.selection.alloc_blocks));
+else B.push(...code(P.selection.alloc_formula));
 B.push(para(P.selection.alloc_text));
 
 /* ===================== 8. 選定20社 ===================== */

@@ -20,6 +20,8 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+import report_content_established as RCE
+
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 OUT = HERE / "out"
@@ -310,72 +312,9 @@ def build_payload(variant: str, fin: pd.DataFrame, val: dict) -> dict:
     if est:
         axes_intro = ("4つの軸はいずれも、査読論文または著名な実務書で定義が確定している式をそのまま用いる。"
                       "「なぜこの式なのか」に論文名で答えられる状態にすることが、この構成の目的である。"
-                      "重みや境界値を我々が決めた箇所は第13章に列挙する。")
-        axes = [
-            {"title": "① Moat — いま強いか",
-             "source": "Asness, Frazzini & Pedersen (2019) Quality Minus Junk, "
-                       "Review of Accounting Studies 24, pp.34-112 の Profitability 部分",
-             "what": "「利益率が高く、その利益が現金として入ってきていて、会計操作に頼っていない」"
-                     "会社を高く評価する。6つの指標を順位化・標準化して平均する。",
-             "formula": ["Moat = 平均( z(GPOA), z(ROE), z(ROA), z(CFOA), z(GMAR), z(−ACC) )",
-                         "",
-                         "z(x) は x の順位を平均0・標準偏差1に直したもの"],
-             "components": [["GPOA", "売上総利益 ÷ 総資産（Novy-Marx 2013）", f"{cov.get('GPOA', 0):.1f}%"],
-                            ["ROE", "当期純利益 ÷ 自己資本", f"{cov.get('ROE', 0):.1f}%"],
-                            ["ROA", "当期純利益 ÷ 総資産", f"{cov.get('ROA', 0):.1f}%"],
-                            ["CFOA", "営業キャッシュフロー ÷ 総資産", f"{cov.get('CFOA', 0):.1f}%"],
-                            ["GMAR", "売上総利益 ÷ 売上高（粗利率）", f"{cov.get('GMAR', 0):.1f}%"],
-                            ["−ACC", "−(当期純利益 − 営業CF) ÷ 総資産（Sloan 1996。利益の質）",
-                             f"{cov.get('ACC', 0):.1f}%"]],
-             "note": "GPOAはNovy-Marx (2013)、ACCはSloan (1996)。QMJはこれらを束ねた枠組みであり、"
-                     "本軸は「既存式の、既存の束ね方」になっている。"},
-            {"title": "② Change — 良くなっているか",
-             "source": "Piotroski (2000) Value Investing, Journal of Accounting Research 38 "
-                       "Supplement, pp.1-41 の F-Score",
-             "what": "会計上の9つのチェックに1点ずつ付け、0〜9点で「去年より良くなったか」を測る。"
-                     "株価倍率を一切含まないので、Price軸と重複しない。",
-             "formula": ["Change = 次の9項目の合計（各0または1点）",
-                         "",
-                         "  収益性  ① ROAがプラス        ② 営業CFがプラス",
-                         "          ③ ROAが前期より改善   ④ 営業CF > 当期純利益（会計の質）",
-                         "  財務    ⑤ レバレッジが低下   ⑥ 流動比率が改善",
-                         "          ⑦ 増資をしていない",
-                         "  効率    ⑧ 売上総利益率が改善  ⑨ 総資産回転率が改善"],
-             "components": [["F-Score", "上記9項目の合計（0〜9点）", f"{cov.get('change_raw', 0):.1f}%"],
-                            ["（内訳）", "平均8.8項目が計算可能。欠測項目は合計から除く", "—"]],
-             "note": "参考文献では「9項目のうち6項目で実装」と注記していたが、"
-                     "時点データには9項目すべてが入っており原式どおり実装できる。"},
-            {"title": "③ Future — 未来の恩恵を受けられるか",
-             "source": "Chan, Lakonishok & Sougiannis (2001) The Stock Market Valuation of Research "
-                       "and Development Expenditures, Journal of Finance 56(6), pp.2431-2456",
-             "what": "研究開発にどれだけ資源を投じているかで、将来の変化への備えを測る。"
-                     "同論文は研究開発集約度の高い企業に長期の超過リターンがあることを示している。",
-             "formula": ["Future = 平均( 順位(研究開発費 ÷ 時価総額), 順位(研究開発費 ÷ 売上高) )",
-                         "",
-                         "研究開発費の記載がない会社は 0 とする"],
-             "components": [["R&D ÷ 時価総額", "市場評価に対してどれだけ研究開発しているか",
-                             f"{cov.get('rd_expense', 0):.1f}%"],
-                            ["R&D ÷ 売上高", "事業規模に対してどれだけ研究開発しているか",
-                             f"{cov.get('rd_expense', 0):.1f}%"]],
-             "note": "本軸は「イノベーションへの投資量」を測るものであって、"
-                     "「構造変化の恩恵を受けるか」そのものではない。この読み替えは第13章に記載する。"},
-            {"title": "④ Price — 高すぎないか",
-             "source": "Basu (1977) Journal of Finance 32(3) ／ Fama & French (1992) Journal of "
-                       "Finance 47(2) ／ Greenblatt (2005) The Little Book That Beats the Market",
-             "what": "3つの古典的な割安尺度を順位化して平均する。分子が利益・自己資本・EBITと"
-                     "異なるので、一つの会計項目のクセに引きずられにくい。",
-             "formula": ["Price = 平均( 順位(E/P), 順位(B/M), 順位(EBIT/EV) )",
-                         "",
-                         "E/P     = 当期純利益 ÷ 時価総額      （Basu 1977）",
-                         "B/M     = 自己資本 ÷ 時価総額        （Fama-French 1992）",
-                         "EBIT/EV = 営業利益 ÷ 企業価値        （Greenblatt 2005）",
-                         "EV      = 時価総額 + 有利子負債 − 現預金"],
-             "components": [["E/P（益回り）", "当期純利益 ÷ 時価総額", f"{cov.get('basu_ep', 0):.1f}%"],
-                            ["B/M", "自己資本 ÷ 時価総額（PBRの逆数）", f"{cov.get('ff_btm', 0):.1f}%"],
-                            ["EBIT/EV", "営業利益 ÷ 企業価値", f"{cov.get('greenblatt_ey', 0):.1f}%"]],
-             "note": "EBIT/EV を足しても、E/P と B/M だけの版と順位相関0.94〜0.96でほぼ一致する。"
-                     "有利子負債の取得率が82%であることを踏まえ、外す選択も合理的である。"},
-        ]
+                      "以下、各軸について 出典 → なぜこの軸が要るか → 定義 → 記号の意味 → 直感 → "
+                      "注意点 の順に述べる。重みや境界値を我々が決めた箇所は第13章に列挙する。")
+        axes = RCE.axes_blocks(cov)
     else:
         axes_intro = ("4つの軸は、それぞれ複数の指標を母集団内の順位（0〜100点）に直して平均したもの。"
                       "どの指標を選びどう重み付けるかは我々が決めている。その判断が結果をどう左右するかは"
@@ -439,6 +378,7 @@ def build_payload(variant: str, fin: pd.DataFrame, val: dict) -> dict:
 
     # ---------- 合成 ----------
     composite = {
+        "blocks": RCE.composite_blocks(eff, AXES) if est else None,
         "formula": ["総合点 = 0.25×Moat + 0.25×Change + 0.25×Future + 0.25×Price",
                     "",
                     "各軸はいずれも0〜100点なので、総合点も0〜100点になる"],
@@ -642,6 +582,9 @@ def build_payload(variant: str, fin: pd.DataFrame, val: dict) -> dict:
         "step0_conditions": step0_conditions,
         "funnel": funnel,
         "step0_notes": step0_notes,
+        "eq_index": str(OUT / "eq_index.json"),
+        "notation": RCE.notation() if est else None,
+        "step0_blocks": RCE.step0_blocks(s) if est else None,
         "axes_intro": axes_intro,
         "axes": axes,
         "composite": composite,
@@ -651,6 +594,7 @@ def build_payload(variant: str, fin: pd.DataFrame, val: dict) -> dict:
                       "1単元が投資枠の8%（40万円）を超えて買えない銘柄は飛ばし、次点を繰り上げる。",
                       "20社に達したら終了する。"],
             "cap_effect": cap_effect, "cap_note": cap_note,
+            "alloc_blocks": RCE.alloc_blocks() if est else None,
             "alloc_formula": ["1銘柄あたりの目標投資額 = 5,000,000円 × 5% = 250,000円",
                               "単元数 = round( 250,000 ÷ (株価 × 100) )   ただし最低1単元",
                               "1銘柄の投資額が400,000円（上限8%）を超えたら単元数を減らす",
