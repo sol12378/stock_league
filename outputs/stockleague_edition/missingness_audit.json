@@ -1,0 +1,543 @@
+{
+ "D1_yfinance_truncation": {
+  "yfinance_metrics_rows": 300,
+  "universe_rows": 3649,
+  "fetch_code": "fetch_yfinance.py: liquid_tickers=売買代金降順ソート → fetch_quote_metrics(limit=quote_metrics_limit)",
+  "liquidity_rank_of_fetched_min": 1,
+  "liquidity_rank_of_fetched_max": 300,
+  "fetched_are_exactly_top300_by_liquidity": true,
+  "note": "無作為欠測ではなく、売買代金の上位から決定論的に切られている(=規模と完全相関)",
+  "coverage_universe": 0.0822,
+  "coverage_base": 0.0776,
+  "n_covered_base": 139,
+  "n_base": 1791
+ },
+ "D1_coverage_by_scale": {
+  "(欠損)": {
+   "n": 592,
+   "covered": 8,
+   "rate": 0.014
+  },
+  "TOPIX Core30": {
+   "n": 6,
+   "covered": 6,
+   "rate": 1.0
+  },
+  "TOPIX Large70": {
+   "n": 24,
+   "covered": 24,
+   "rate": 1.0
+  },
+  "TOPIX Mid400": {
+   "n": 255,
+   "covered": 86,
+   "rate": 0.337
+  },
+  "TOPIX Small 1": {
+   "n": 381,
+   "covered": 13,
+   "rate": 0.034
+  },
+  "TOPIX Small 2": {
+   "n": 533,
+   "covered": 2,
+   "rate": 0.004
+  }
+ },
+ "D1_coverage_by_market": {
+  "Growth Market(Domestic)": {
+   "n": 118,
+   "covered": 1,
+   "rate": 0.008
+  },
+  "Prime Market (Domestic)": {
+   "n": 1131,
+   "covered": 128,
+   "rate": 0.113
+  },
+  "Standard Market(Domestic)": {
+   "n": 542,
+   "covered": 10,
+   "rate": 0.018
+  }
+ },
+ "D1_coverage_by_liquidity_quintile": {
+  "Q1最小": 0.0,
+  "Q2": 0.0,
+  "Q3": 0.0,
+  "Q4": 0.0,
+  "Q5最大": 0.388
+ },
+ "D2_exact_zero_share_in_base": {
+  "valuation_score": 0.9224,
+  "transformation_component_valuation_gap": 0.9224,
+  "future_moat_component_intangible_asset": 0.9989,
+  "momentum_score": 0.0,
+  "risk_score": 0.0,
+  "note": "0 は『平均並み』の意味を持つため、欠測企業は自動的に中央付近に置かれる(除外もされない)"
+ },
+ "D2_valuation_score_zero_by_coverage": {
+  "yf有り_zero率": 0.0,
+  "yf無し_zero率": 1.0,
+  "yf無し社数": 1652
+ },
+ "D3_transformation_formula": {
+  "weights_in_code": {
+   "z(1/PBR)": 0.35,
+   "z(1/PE)": 0.2,
+   "avg_z(売上・営利成長)": 0.2,
+   "z(配当利回り)": 0.15
+  },
+  "weight_sum": 0.9,
+  "weight_on_yf_only_fields": 0.7000000000000001,
+  "share_of_weight_yf_only": 0.778,
+  "note": "yf無し企業では PBR/PE/配当の3項が全て厳密に0 → transformation = 0.20×成長zスコアのみ",
+  "yf有り_std": 0.5161,
+  "yf有り_mean": -0.0112,
+  "yf有り_max": 2.0404,
+  "yf有り_n": 139,
+  "yf無し_std": 0.1404,
+  "yf無し_mean": -0.001,
+  "yf無し_max": 0.9369,
+  "yf無し_n": 1652
+ },
+ "D3_rank_contamination": {
+  "transformation_score": {
+   "top5": {
+    "yf有り": 5,
+    "率": 1.0
+   },
+   "top10": {
+    "yf有り": 8,
+    "率": 0.8
+   },
+   "top20": {
+    "yf有り": 16,
+    "率": 0.8
+   },
+   "top50": {
+    "yf有り": 25,
+    "率": 0.5
+   },
+   "top100": {
+    "yf有り": 29,
+    "率": 0.29
+   }
+  },
+  "valuation_score": {
+   "top5": {
+    "yf有り": 5,
+    "率": 1.0
+   },
+   "top10": {
+    "yf有り": 10,
+    "率": 1.0
+   },
+   "top20": {
+    "yf有り": 20,
+    "率": 1.0
+   },
+   "top50": {
+    "yf有り": 50,
+    "率": 1.0
+   },
+   "top100": {
+    "yf有り": 52,
+    "率": 0.52
+   }
+  },
+  "bb_score": {
+   "top5": {
+    "yf有り": 4,
+    "率": 0.8
+   },
+   "top10": {
+    "yf有り": 6,
+    "率": 0.6
+   },
+   "top20": {
+    "yf有り": 10,
+    "率": 0.5
+   },
+   "top50": {
+    "yf有り": 12,
+    "率": 0.24
+   },
+   "top100": {
+    "yf有り": 17,
+    "率": 0.17
+   }
+  },
+  "adjusted_bb_score": {
+   "top5": {
+    "yf有り": 3,
+    "率": 0.6
+   },
+   "top10": {
+    "yf有り": 4,
+    "率": 0.4
+   },
+   "top20": {
+    "yf有り": 10,
+    "率": 0.5
+   },
+   "top50": {
+    "yf有り": 15,
+    "率": 0.3
+   },
+   "top100": {
+    "yf有り": 23,
+    "率": 0.23
+   }
+  },
+  "moat_score": {
+   "top5": {
+    "yf有り": 1,
+    "率": 0.2
+   },
+   "top10": {
+    "yf有り": 1,
+    "率": 0.1
+   },
+   "top20": {
+    "yf有り": 3,
+    "率": 0.15
+   },
+   "top50": {
+    "yf有り": 11,
+    "率": 0.22
+   },
+   "top100": {
+    "yf有り": 17,
+    "率": 0.17
+   }
+  },
+  "future_moat_score": {
+   "top5": {
+    "yf有り": 1,
+    "率": 0.2
+   },
+   "top10": {
+    "yf有り": 4,
+    "率": 0.4
+   },
+   "top20": {
+    "yf有り": 5,
+    "率": 0.25
+   },
+   "top50": {
+    "yf有り": 8,
+    "率": 0.16
+   },
+   "top100": {
+    "yf有り": 14,
+    "率": 0.14
+   }
+  },
+  "base_baseline_rate": 0.078
+ },
+ "D4_selected20_yf_coverage": {
+  "守5": {
+   "3092": true,
+   "4716": true,
+   "7014": true,
+   "8136": true,
+   "6920": true
+  },
+  "破5": {
+   "9022": true,
+   "9513": true,
+   "9503": true,
+   "1662": true,
+   "5214": true
+  },
+  "離5": {
+   "6777": true,
+   "6871": true,
+   "6590": true,
+   "6387": false,
+   "6627": false
+  },
+  "両立3": {
+   "6861": true,
+   "7725": false,
+   "6929": false
+  },
+  "分散2": {
+   "3449": false,
+   "4971": false
+  },
+  "20社中yf有り": 14,
+  "base平均カバレッジ": 0.078
+ },
+ "D4_counterfactual_ha5": {
+  "現行の破5(adjusted_bb順)": [
+   "9022",
+   "9513",
+   "9503",
+   "1662",
+   "5214"
+  ],
+  "現行の破5の名前": [
+   "Central Japan Railway Company",
+   "Electric Power Development Co.,Ltd.",
+   "The Kansai Electric Power Company,Incorporated",
+   "Japan Petroleum Exploration Co.,Ltd.",
+   "Nippon Electric Glass Co.,Ltd."
+  ],
+  "yf限定フィールドを外した場合の破5": [
+   "4784",
+   "4418",
+   "6016",
+   "5034",
+   "9338"
+  ],
+  "yf限定を外した破5の名前": [
+   "GMO internet,Inc.",
+   "Japan Data Science Consortium Co.Ltd.",
+   "Japan Engine Corporation",
+   "unerry,Inc.",
+   "INFORICH INC."
+  ],
+  "重複社数": 0,
+  "note": "『変わる堀』プール自体も category=argmax(transformation_score) で決まるため、yf限定フィールドが選抜を支配"
+ },
+ "D4_transformation_moat_category": {
+  "n": 282,
+  "yf有り": 38,
+  "率": 0.135,
+  "base平均": 0.078
+ },
+ "D5_shu_gate_price_rankable": {
+  "品質ゲート通過": 162,
+  "時価総額データあり": 20,
+  "益回り>0も満たす": 20,
+  "データ欠測だけで守5候補から外れた社数": 142,
+  "外れた割合": 0.877,
+  "外れた企業のROE中央値": 19.6,
+  "残った企業のROE中央値": 23.3,
+  "外れた企業の売買代金中央値_百万円": 212.1,
+  "残った企業の売買代金中央値_百万円": 11510.8,
+  "note": "『162社から5社』ではなく実質『20社から5社』。落ちた142社はROEが低いのではなく売買代金が小さい"
+ },
+ "D5_counterfactual_shu5": {
+  "現行守5": [
+   "3092",
+   "4716",
+   "7014",
+   "8136",
+   "6920"
+  ],
+  "ROE順のみ守5": [
+   "5032",
+   "3092",
+   "6920",
+   "4776",
+   "8136"
+  ],
+  "重複": 3,
+  "ROE順のみ守5の名前": [
+   "ANYCOLOR Inc.",
+   "ZOZO,Inc.",
+   "Lasertec Corporation",
+   "Cybozu,Inc.",
+   "Sanrio Company,Ltd."
+  ]
+ },
+ "D6_shu_gate_nan_counts_in_base": {
+  "roe": 0,
+  "operating_margin": 0,
+  "equity_ratio": 0,
+  "operating_loss_years_3y": 0,
+  "net_loss_years_3y": 0,
+  "negative_ocf_years_3y": 0,
+  "operating_cf": 0,
+  "revenue_growth": 0,
+  "operating_income_growth": 24
+ },
+ "D6_shu_gate_nan_any": 24,
+ "D6_note": "NaN>=0.15 は False。欠測企業は『不合格』として静かに落ち、exclusion_record に理由が残らない",
+ "D7_stability_fillna_bug": {
+  "code": "average_z(df.assign(neg_vol=-df[\"annual_volatility\"].fillna(0)), [\"neg_vol\"])",
+  "universe_vol_nan": 1,
+  "base_vol_nan": 0,
+  "vol_min_observed": 0.0,
+  "note": "欠測→neg_vol=0。観測値の neg_vol は全て負なので、欠測企業は安定性で最上位になる",
+  "欠測企業のstability_score中央値": 2.2281,
+  "観測企業のstability_score中央値": 0.2074,
+  "欠測企業のstability_percentile": 0.9893
+ },
+ "D8_average_z_shrinkage": {
+  "profitability_score の材料": [
+   "operating_margin",
+   "roe",
+   "equity_ratio"
+  ],
+  "欠測列数の分布": {
+   "0": 1791
+  },
+  "note": "材料3つ中1つ欠測なら z の平均が 2/3 に縮む(除外ではなく平均寄せ)。競争優位・現金創出も同型",
+  "rd_ratio_nan_base": 1789,
+  "rd_ratio_nan_rate_base": 0.999,
+  "note2": "rd_ratio は future_moat の無形資産項(重み0.25)の材料。欠測は0=平均扱い"
+ },
+ "D9_funnel_label_mismatch": {
+  "screening_summary": {
+   "universe": 3649,
+   "price_available": 3648,
+   "liquid_20m_60d": 2560,
+   "investment_eligible": 1963
+  },
+  "報告書のファネル(funnel_branches_v9.json)": {
+   "0-1 金融を除く普通株(価格データあり)": 3481,
+   "0-2 投資適格(監理・整理銘柄等を除外)": 1819,
+   "0-3 流動性 60日平均売買代金の基準": 1819,
+   "0-4 価格履歴3年": 1791
+  },
+  "実際の内訳": "liquid_20m_60d(売買代金2000万円/日)で 3648→2560 = 1,088社脱落。適格性の理由別除外は 597社(unique)",
+  "note": "報告書は 3481→1819 の 1,662社を『投資適格(監理・整理銘柄等を除外)』に帰属させ、次の『流動性』段の脱落を0にしている。実態は逆で、脱落の主因は流動性しきい値"
+ },
+ "D10_ey_lookahead": {
+  "code": "s[\"mcap\"] = last_px * shares_outstanding ; s[\"ey\"] = net_income / mcap",
+  "note": "守5の Greenblatt 順位に使う益回りの分母が『直近(=期末)株価』。値上がりした銘柄は益回りが下がり不利、下落銘柄は有利。選定時点(2026-04-30)より後の価格情報が順位付けに混入する",
+  "last_price_date": "2026-06-01",
+  "effective_date": "20260430"
+ },
+ "D11_formula10_lite_fallback": {
+  "報告書v10_v11が印字する重み": {
+   "V割安": 0.2,
+   "C資本効率": 0.22,
+   "R株主還元": 0.16,
+   "K改革開示": 0.17,
+   "E実行": 0.13,
+   "Q ワナ耐性": 0.12
+  },
+  "実際に使われた形": "lite (30/20/20/20/10)",
+  "候補_method内訳": {
+   "lite_due_to_missing_shareholder_or_reform_inputs": 1200
+  },
+  "最終20社_method内訳": {
+   "lite_due_to_missing_shareholder_or_reform_inputs": 20
+  },
+  "shareholder_alignment_score_notna_候補": 0,
+  "reform_evidence_score_notna_候補": 0,
+  "候補社数": 1200,
+  "欠測した重みの合計": 0.33,
+  "欠測した重みの割合": 0.33,
+  "code": "phase3_common.py:387-390 enough = notna(shareholder, reform).all() → 偽なら 'lite_due_to_missing_shareholder_or_reform_inputs'",
+  "開示履歴": "v5/v6の技術補遺B-3は『フル形は構造的に到達不能』と開示していたが、v10で補遺を廃止した際に開示も消え、本文はフル形の重みを掲載している"
+ },
+ "D12_ha5_ranking_key": {
+  "正典ビルダー": "work/pure_buffett_benchmark/build_portfolio_v7.py: gpick(trans_pool, 'adjusted_bb_score', 5, picked)",
+  "報告書のファネル2-4ラベル": "変わる堀の点数の上位＋同一業種2社まで",
+  "adjusted_bb_score順(=実装・提出20社と一致)": [
+   {
+    "code": "9022",
+    "name": "Central Japan Railway Company"
+   },
+   {
+    "code": "9513",
+    "name": "Electric Power Development Co.,Ltd."
+   },
+   {
+    "code": "9503",
+    "name": "The Kansai Electric Power Company,Incorporated"
+   },
+   {
+    "code": "1662",
+    "name": "Japan Petroleum Exploration Co.,Ltd."
+   },
+   {
+    "code": "5214",
+    "name": "Nippon Electric Glass Co.,Ltd."
+   }
+  ],
+  "transformation_score順(=ラベルどおりに解釈した場合)": [
+   {
+    "code": "9022",
+    "name": "Central Japan Railway Company"
+   },
+   {
+    "code": "7261",
+    "name": "Mazda Motor Corporation"
+   },
+   {
+    "code": "1911",
+    "name": "Sumitomo Forestry Co.,Ltd."
+   },
+   {
+    "code": "5406",
+    "name": "Kobe Steel,Ltd."
+   },
+   {
+    "code": "9104",
+    "name": "Mitsui O.S.K.Lines,Ltd."
+   }
+  ],
+  "重複社数": 1,
+  "note": "並べ替えキーの15%(valuation_score)は base の92.2%で厳密に0。破5の順位は実質 yf カバー組の中で決まる"
+ },
+ "D13_liquidity_threshold_mismatch": {
+  "実装": "scoring.py:764 avg_trading_value_60d >= 20_000_000 (=2,000万円/日)",
+  "報告書v10_v11の記述": "式(7)の説明『1日あたり1,000万円を基準とする』/ 判定表『約0.1億円以上』/『(実装どおりに開示)』",
+  "通過社数_1000万円基準": 2835,
+  "通過社数_2000万円基準": 2560,
+  "記述と実装で説明が食い違う社数": 275,
+  "最終20社への影響": "なし(20社はいずれも基準を大きく超える)。開示の誤りであって結果の誤りではない"
+ },
+ "D14_competitive_position_duplication": {
+  "code": "competitive_position_score = average_z(df, [\"rd_ratio\", \"operating_margin\"])",
+  "rd_ratio_notna_universe": 2,
+  "universe_n": 3649,
+  "rd_expense_notna": 2,
+  "capex_notna": 0,
+  "corr(competitive_position, z(operating_margin))": 0.9191,
+  "比 competitive/z(margin) の中央値": 0.5,
+  "moat_scoreの実効重み": {
+   "営業利益率": 0.2167,
+   "ＲＯＥ": 0.1167,
+   "自己資本比率": 0.1167,
+   "営業ＣＦ率": 0.25,
+   "低ボラティリティ": 0.2
+  },
+  "note": "rd_ratio が実質全社欠測でゼロ埋めされるため、『競争優位』枠(重み0.20)は 0.5×z(営業利益率) に退化。営業利益率は収益性枠にも入っており二重計上。堀の4本柱は実質3本柱",
+  "v11の開示状況": "離(生まれる堀)の無形資産項については v11 が開示済み。守(moat_score)側の同一欠陥は未開示"
+ },
+ "D15_counterfactual_summary": {
+  "守5": {
+   "現行": [
+    "3092",
+    "4716",
+    "7014",
+    "8136",
+    "6920"
+   ],
+   "ROE順のみ": [
+    "5032",
+    "3092",
+    "6920",
+    "4776",
+    "8136"
+   ],
+   "重複": 3
+  },
+  "破5": {
+   "現行": [
+    "9022",
+    "9513",
+    "9503",
+    "1662",
+    "5214"
+   ],
+   "yf限定フィールドを外す": [
+    "4784",
+    "4418",
+    "6016",
+    "5034",
+    "9338"
+   ],
+   "重複": 0
+  },
+  "note": "守は3/5一致(品質ゲート自体はEDINET財務のみで頑健)。破は0/5一致=yf由来フィールドの在庫が選抜を決めている"
+ }
+}

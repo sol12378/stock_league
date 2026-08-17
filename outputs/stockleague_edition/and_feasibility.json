@@ -1,0 +1,448 @@
+{
+ "n_universe": 3649,
+ "n_base": 1791,
+ "category_counts": {
+  "Core Moat": 1189,
+  "Future Moat": 1006,
+  "Transformation Moat": 767,
+  "Discovery": 687
+ },
+ "category_is_argmax_exclusive": true,
+ "and_of_three_categories": 0,
+ "spearman_base": {
+  "moat_score": {
+   "moat_score": 1.0,
+   "transformation_score": 0.0476,
+   "future_moat_score": 0.0056
+  },
+  "transformation_score": {
+   "moat_score": 0.0476,
+   "transformation_score": 1.0,
+   "future_moat_score": -0.0633
+  },
+  "future_moat_score": {
+   "moat_score": 0.0056,
+   "transformation_score": -0.0633,
+   "future_moat_score": 1.0
+  }
+ },
+ "pearson_base": {
+  "moat_score": {
+   "moat_score": 1.0,
+   "transformation_score": -0.0308,
+   "future_moat_score": -0.0113
+  },
+  "transformation_score": {
+   "moat_score": -0.0308,
+   "transformation_score": 1.0,
+   "future_moat_score": -0.1035
+  },
+  "future_moat_score": {
+   "moat_score": -0.0113,
+   "transformation_score": -0.1035,
+   "future_moat_score": 1.0
+  }
+ },
+ "future_moat_ties": {
+  "n_base": 1791,
+  "n_distinct_values": 17,
+  "largest_tie_value": -0.411081,
+  "largest_tie_n": 748,
+  "top3_tie_ns": [
+   748,
+   246,
+   232
+  ]
+ },
+ "transformation_threshold_median_base": -0.018367,
+ "sequential_and_median_thresholds": [
+  {
+   "step": "0 適格母集団(base)",
+   "n": 1791
+  },
+  {
+   "step": "1 守る堀ゲート(ROE15/OPM10/自己資本50/無赤字/OCF>0/増収増益)",
+   "n": 162
+  },
+  {
+   "step": "2 破る堀ゲート(変革スコア>base中位・黒字・ROE>=5%)",
+   "n": 131
+  },
+  {
+   "step": "3 離れる堀ゲート(未来スコア>base中位)",
+   "n": 77
+  },
+  {
+   "step": "4 価格順位可能(益回り>0・時価総額あり)",
+   "n": 4
+  }
+ ],
+ "survivors_median": [
+  "4186",
+  "6777",
+  "6871",
+  "6920"
+ ],
+ "survivors_median_names": {
+  "6777": "santec Holdings Corporation",
+  "6871": "MICRONICS JAPAN CO.,LTD.",
+  "6920": "Lasertec Corporation",
+  "4186": "TOKYO OHKA KOGYO CO.,LTD."
+ },
+ "threshold_grid": [
+  {
+   "top_q": 0.5,
+   "n_hardgate_shu_AND_tr_AND_fm": 105,
+   "n_all_three_scores_top_q": 278,
+   "n_sectors_b": 8,
+   "expected_if_independent": 223.88
+  },
+  {
+   "top_q": 0.4,
+   "n_hardgate_shu_AND_tr_AND_fm": 58,
+   "n_all_three_scores_top_q": 120,
+   "n_sectors_b": 8,
+   "expected_if_independent": 114.62
+  },
+  {
+   "top_q": 0.3,
+   "n_hardgate_shu_AND_tr_AND_fm": 43,
+   "n_all_three_scores_top_q": 64,
+   "n_sectors_b": 6,
+   "expected_if_independent": 48.36
+  },
+  {
+   "top_q": 0.25,
+   "n_hardgate_shu_AND_tr_AND_fm": 10,
+   "n_all_three_scores_top_q": 17,
+   "n_sectors_b": 6,
+   "expected_if_independent": 27.98
+  },
+  {
+   "top_q": 0.2,
+   "n_hardgate_shu_AND_tr_AND_fm": 9,
+   "n_all_three_scores_top_q": 7,
+   "n_sectors_b": 4,
+   "expected_if_independent": 14.33
+  },
+  {
+   "top_q": 0.15,
+   "n_hardgate_shu_AND_tr_AND_fm": 3,
+   "n_all_three_scores_top_q": 3,
+   "n_sectors_b": 1,
+   "expected_if_independent": 6.04
+  },
+  {
+   "top_q": 0.1,
+   "n_hardgate_shu_AND_tr_AND_fm": 2,
+   "n_all_three_scores_top_q": 1,
+   "n_sectors_b": 1,
+   "expected_if_independent": 1.79
+  },
+  {
+   "top_q": 0.05,
+   "n_hardgate_shu_AND_tr_AND_fm": 0,
+   "n_all_three_scores_top_q": 0,
+   "n_sectors_b": 0,
+   "expected_if_independent": 0.22
+  }
+ ],
+ "pairwise_and": {
+  "0.5": {
+   "moat_only": 896,
+   "tr_only": 896,
+   "fm_only": 980,
+   "moat_AND_tr": 474,
+   "moat_AND_fm": 523,
+   "tr_AND_fm": 496,
+   "all_three": 282
+  },
+  "0.3": {
+   "moat_only": 538,
+   "tr_only": 538,
+   "fm_only": 779,
+   "moat_AND_tr": 170,
+   "moat_AND_fm": 243,
+   "tr_AND_fm": 231,
+   "all_three": 64
+  },
+  "0.2": {
+   "moat_only": 359,
+   "tr_only": 359,
+   "fm_only": 533,
+   "moat_AND_tr": 73,
+   "moat_AND_fm": 90,
+   "tr_AND_fm": 71,
+   "all_three": 7
+  },
+  "0.1": {
+   "moat_only": 180,
+   "tr_only": 180,
+   "fm_only": 294,
+   "moat_AND_tr": 14,
+   "moat_AND_fm": 22,
+   "tr_AND_fm": 11,
+   "all_three": 1
+  }
+ },
+ "shu_gate_n": 162,
+ "shu_gate_transformation_pctile_mean": 0.6634,
+ "shu_gate_future_pctile_mean": 0.4836,
+ "shu_gate_n_above_median_tr": 131,
+ "shu_gate_n_above_median_fm": 95,
+ "verified_semi_vs_shu_gate": [
+  {
+   "code": "6777",
+   "name": "santec Holdings Corporation",
+   "roe": 0.2365,
+   "operating_margin": 0.3092,
+   "equity_ratio": 0.7257,
+   "passes_shu_gate": true,
+   "tr_above_median": true
+  },
+  {
+   "code": "6627",
+   "name": "Tera Probe,Inc.",
+   "roe": 0.116,
+   "operating_margin": 0.213,
+   "equity_ratio": 0.5959,
+   "passes_shu_gate": false,
+   "tr_above_median": true
+  },
+  {
+   "code": "6387",
+   "name": "SAMCO INC.",
+   "roe": 0.1252,
+   "operating_margin": 0.2508,
+   "equity_ratio": 0.7628,
+   "passes_shu_gate": false,
+   "tr_above_median": true
+  },
+  {
+   "code": "6941",
+   "name": "YAMAICHI ELECTRONICS CO.,LTD.",
+   "roe": 0.1321,
+   "operating_margin": 0.1832,
+   "equity_ratio": 0.7431,
+   "passes_shu_gate": false,
+   "tr_above_median": false
+  },
+  {
+   "code": "6871",
+   "name": "MICRONICS JAPAN CO.,LTD.",
+   "roe": 0.1826,
+   "operating_margin": 0.297,
+   "equity_ratio": 0.667,
+   "passes_shu_gate": true,
+   "tr_above_median": true
+  },
+  {
+   "code": "6951",
+   "name": "JEOL Ltd.",
+   "roe": 0.1368,
+   "operating_margin": 0.2135,
+   "equity_ratio": 0.6142,
+   "passes_shu_gate": false,
+   "tr_above_median": true
+  },
+  {
+   "code": "6590",
+   "name": "SHIBAURA MECHATRONICS CORPORATION",
+   "roe": 0.2183,
+   "operating_margin": 0.1726,
+   "equity_ratio": 0.4968,
+   "passes_shu_gate": false,
+   "tr_above_median": false
+  }
+ ],
+ "verified_semi_pass_shu": 2,
+ "current20_gate_matrix": [
+  {
+   "code": "3092",
+   "name": "ZOZO,Inc.",
+   "in_base": true,
+   "shu_gate": true,
+   "tr_gt_median": false,
+   "fm_gt_median": false,
+   "n_gates_passed": 1
+  },
+  {
+   "code": "4716",
+   "name": "ORACLE CORPORATION JAPAN",
+   "in_base": true,
+   "shu_gate": true,
+   "tr_gt_median": false,
+   "fm_gt_median": true,
+   "n_gates_passed": 2
+  },
+  {
+   "code": "7014",
+   "name": "Namura Shipbuilding Co.,Ltd.",
+   "in_base": true,
+   "shu_gate": true,
+   "tr_gt_median": true,
+   "fm_gt_median": false,
+   "n_gates_passed": 2
+  },
+  {
+   "code": "8136",
+   "name": "Sanrio Company,Ltd.",
+   "in_base": true,
+   "shu_gate": true,
+   "tr_gt_median": false,
+   "fm_gt_median": false,
+   "n_gates_passed": 1
+  },
+  {
+   "code": "6920",
+   "name": "Lasertec Corporation",
+   "in_base": true,
+   "shu_gate": true,
+   "tr_gt_median": true,
+   "fm_gt_median": true,
+   "n_gates_passed": 3
+  },
+  {
+   "code": "9022",
+   "name": "Central Japan Railway Company",
+   "in_base": true,
+   "shu_gate": false,
+   "tr_gt_median": true,
+   "fm_gt_median": false,
+   "n_gates_passed": 1
+  },
+  {
+   "code": "9513",
+   "name": "Electric Power Development Co.,Ltd.",
+   "in_base": true,
+   "shu_gate": false,
+   "tr_gt_median": true,
+   "fm_gt_median": true,
+   "n_gates_passed": 2
+  },
+  {
+   "code": "9503",
+   "name": "The Kansai Electric Power Company,Incorporated",
+   "in_base": true,
+   "shu_gate": false,
+   "tr_gt_median": true,
+   "fm_gt_median": true,
+   "n_gates_passed": 2
+  },
+  {
+   "code": "1662",
+   "name": "Japan Petroleum Exploration Co.,Ltd.",
+   "in_base": true,
+   "shu_gate": false,
+   "tr_gt_median": true,
+   "fm_gt_median": false,
+   "n_gates_passed": 1
+  },
+  {
+   "code": "5214",
+   "name": "Nippon Electric Glass Co.,Ltd.",
+   "in_base": true,
+   "shu_gate": false,
+   "tr_gt_median": true,
+   "fm_gt_median": false,
+   "n_gates_passed": 1
+  },
+  {
+   "code": "6777",
+   "name": "santec Holdings Corporation",
+   "in_base": true,
+   "shu_gate": true,
+   "tr_gt_median": true,
+   "fm_gt_median": true,
+   "n_gates_passed": 3
+  },
+  {
+   "code": "6871",
+   "name": "MICRONICS JAPAN CO.,LTD.",
+   "in_base": true,
+   "shu_gate": true,
+   "tr_gt_median": true,
+   "fm_gt_median": true,
+   "n_gates_passed": 3
+  },
+  {
+   "code": "6590",
+   "name": "SHIBAURA MECHATRONICS CORPORATION",
+   "in_base": true,
+   "shu_gate": false,
+   "tr_gt_median": false,
+   "fm_gt_median": true,
+   "n_gates_passed": 1
+  },
+  {
+   "code": "6387",
+   "name": "SAMCO INC.",
+   "in_base": true,
+   "shu_gate": false,
+   "tr_gt_median": true,
+   "fm_gt_median": true,
+   "n_gates_passed": 2
+  },
+  {
+   "code": "6627",
+   "name": "Tera Probe,Inc.",
+   "in_base": true,
+   "shu_gate": false,
+   "tr_gt_median": true,
+   "fm_gt_median": true,
+   "n_gates_passed": 2
+  },
+  {
+   "code": "6861",
+   "name": "KEYENCE CORPORATION",
+   "in_base": true,
+   "shu_gate": false,
+   "tr_gt_median": false,
+   "fm_gt_median": true,
+   "n_gates_passed": 1
+  },
+  {
+   "code": "7725",
+   "name": "INTER ACTION Corporation",
+   "in_base": true,
+   "shu_gate": false,
+   "tr_gt_median": false,
+   "fm_gt_median": true,
+   "n_gates_passed": 1
+  },
+  {
+   "code": "6929",
+   "name": "NIPPON CERAMIC CO.,LTD.",
+   "in_base": true,
+   "shu_gate": false,
+   "tr_gt_median": true,
+   "fm_gt_median": true,
+   "n_gates_passed": 2
+  },
+  {
+   "code": "3449",
+   "name": "TECHNOFLEX CORPORATION",
+   "in_base": true,
+   "shu_gate": false,
+   "tr_gt_median": true,
+   "fm_gt_median": true,
+   "n_gates_passed": 2
+  },
+  {
+   "code": "4971",
+   "name": "MEC COMPANY LTD.",
+   "in_base": true,
+   "shu_gate": true,
+   "tr_gt_median": true,
+   "fm_gt_median": true,
+   "n_gates_passed": 3
+  }
+ ],
+ "current20_pass_all_three": 4,
+ "current20_pass_counts": {
+  "0": 0,
+  "1": 8,
+  "2": 8,
+  "3": 4
+ }
+}

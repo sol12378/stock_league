@@ -1,0 +1,660 @@
+{
+ "thresholds": {
+  "transformation_median": -0.018367,
+  "future_moat_median": 0.065444
+ },
+ "designs": {
+  "A1_逐次AND_中位閾値": {
+   "pool_n": 77,
+   "n_picked": 12,
+   "codes": [
+    "6777",
+    "4971",
+    "6871",
+    "7711",
+    "6417",
+    "4186",
+    "7760",
+    "6328",
+    "3763",
+    "2477",
+    "3150",
+    "5929"
+   ],
+   "names": [
+    "santec Holdings Corporation",
+    "MEC COMPANY LTD.",
+    "MICRONICS JAPAN CO.,LTD.",
+    "SUKEGAWA ELECTRIC CO.,LTD.",
+    "SANKYO CO.,LTD.",
+    "TOKYO OHKA KOGYO CO.,LTD.",
+    "IMV CORPORATION",
+    "EBARA JITSUGYO CO.,LTD.",
+    "Pro-Ship Incorporated",
+    "Temairazu,Inc.",
+    "grems,Inc.",
+    "Sanwa Holdings Corporation"
+   ],
+   "n_sectors": 7,
+   "max_sector_n": 2,
+   "sector_hhi": 0.153,
+   "roe_median": 17.1,
+   "overlap_with_current": [
+    "4971",
+    "6777",
+    "6871"
+   ]
+  },
+  "A2_3スコア上位30%AND": {
+   "pool_n": 64,
+   "n_picked": 12,
+   "codes": [
+    "3449",
+    "6777",
+    "6524",
+    "4971",
+    "6419",
+    "7747",
+    "7716",
+    "6306",
+    "4186",
+    "4441",
+    "3445",
+    "4374"
+   ],
+   "names": [
+    "TECHNOFLEX CORPORATION",
+    "santec Holdings Corporation",
+    "KOHOKU KOGYO CO.,LTD.",
+    "MEC COMPANY LTD.",
+    "Mars Group Holdings Corporation",
+    "ASAHI INTECC CO.,LTD.",
+    "NAKANISHI INC.",
+    "NIKKO CO.,LTD.",
+    "TOKYO OHKA KOGYO CO.,LTD.",
+    "Tobila Systems Inc.",
+    "RS Technologies Co.,Ltd.",
+    "ROBOT PAYMENT INC."
+   ],
+   "n_sectors": 6,
+   "max_sector_n": 2,
+   "sector_hhi": 0.167,
+   "roe_median": 13.5,
+   "overlap_with_current": [
+    "3449",
+    "4971",
+    "6777"
+   ]
+  },
+  "A1c4_逐次AND_業種上限4": {
+   "pool_n": 77,
+   "n_picked": 20,
+   "codes": [
+    "6777",
+    "4971",
+    "6871",
+    "6920",
+    "6814",
+    "7711",
+    "6417",
+    "4186",
+    "7760",
+    "6328",
+    "3763",
+    "6430",
+    "2477",
+    "6226",
+    "7745",
+    "3939",
+    "4828",
+    "7988",
+    "4107",
+    "3150"
+   ],
+   "names": [
+    "santec Holdings Corporation",
+    "MEC COMPANY LTD.",
+    "MICRONICS JAPAN CO.,LTD.",
+    "Lasertec Corporation",
+    "FURUNO ELECTRIC CO.,LTD.",
+    "SUKEGAWA ELECTRIC CO.,LTD.",
+    "SANKYO CO.,LTD.",
+    "TOKYO OHKA KOGYO CO.,LTD.",
+    "IMV CORPORATION",
+    "EBARA JITSUGYO CO.,LTD.",
+    "Pro-Ship Incorporated",
+    "DAIKOKU DENKI CO.,LTD.",
+    "Temairazu,Inc.",
+    "Moriya Transportation Engineering and Manufacturing Co.,Ltd.",
+    "A&D HOLON Holdings Company,Limited",
+    "Kanamic Network Co.,LTD",
+    "Business Engineering Corporation",
+    "NIFCO INC.",
+    "ISE CHEMICALS CORPORATION",
+    "grems,Inc."
+   ],
+   "n_sectors": 6,
+   "max_sector_n": 4,
+   "sector_hhi": 0.185,
+   "roe_median": 17.7,
+   "overlap_with_current": [
+    "4971",
+    "6777",
+    "6871",
+    "6920"
+   ]
+  },
+  "A2c4_上位30%AND_業種上限4": {
+   "pool_n": 64,
+   "n_picked": 20,
+   "codes": [
+    "3449",
+    "6777",
+    "6524",
+    "4971",
+    "6741",
+    "6785",
+    "6419",
+    "7747",
+    "7716",
+    "6306",
+    "4186",
+    "4972",
+    "6284",
+    "7991",
+    "4441",
+    "7979",
+    "4204",
+    "3445",
+    "4374",
+    "3939"
+   ],
+   "names": [
+    "TECHNOFLEX CORPORATION",
+    "santec Holdings Corporation",
+    "KOHOKU KOGYO CO.,LTD.",
+    "MEC COMPANY LTD.",
+    "Nippon Signal Company,Limited",
+    "SUZUKI CO.,LTD.",
+    "Mars Group Holdings Corporation",
+    "ASAHI INTECC CO.,LTD.",
+    "NAKANISHI INC.",
+    "NIKKO CO.,LTD.",
+    "TOKYO OHKA KOGYO CO.,LTD.",
+    "Soken Chemical & Engineering Co.,Ltd.",
+    "NISSEI ASB MACHINE CO.,LTD.",
+    "MAMIYA-OP CO.,LTD",
+    "Tobila Systems Inc.",
+    "SHOFU INC.",
+    "Sekisui Chemical Co.,Ltd.",
+    "RS Technologies Co.,Ltd.",
+    "ROBOT PAYMENT INC.",
+    "Kanamic Network Co.,LTD"
+   ],
+   "n_sectors": 6,
+   "max_sector_n": 4,
+   "sector_hhi": 0.175,
+   "roe_median": 12.5,
+   "overlap_with_current": [
+    "3449",
+    "4971",
+    "6777"
+   ]
+  },
+  "A3_厳格AND_離は事業検証": {
+   "pool_n": 2,
+   "n_picked": 2,
+   "codes": [
+    "6777",
+    "6871"
+   ],
+   "names": [
+    "santec Holdings Corporation",
+    "MICRONICS JAPAN CO.,LTD."
+   ],
+   "n_sectors": 1,
+   "max_sector_n": 2,
+   "sector_hhi": 1.0,
+   "roe_median": 21.0,
+   "overlap_with_current": [
+    "6777",
+    "6871"
+   ]
+  },
+  "A4_3スコア順位和上位": {
+   "pool_n": 1463,
+   "n_picked": 20,
+   "codes": [
+    "6419",
+    "4374",
+    "6430",
+    "7747",
+    "6524",
+    "6777",
+    "4058",
+    "7716",
+    "3449",
+    "4369",
+    "4971",
+    "6037",
+    "6040",
+    "9513",
+    "3445",
+    "5105",
+    "3150",
+    "9024",
+    "7317",
+    "9022"
+   ],
+   "names": [
+    "Mars Group Holdings Corporation",
+    "ROBOT PAYMENT INC.",
+    "DAIKOKU DENKI CO.,LTD.",
+    "ASAHI INTECC CO.,LTD.",
+    "KOHOKU KOGYO CO.,LTD.",
+    "santec Holdings Corporation",
+    "Toyokumo,Inc.",
+    "NAKANISHI INC.",
+    "TECHNOFLEX CORPORATION",
+    "Tri Chemical Laboratories Inc.",
+    "MEC COMPANY LTD.",
+    "RAKUMACHI,INC.",
+    "Nippon Ski Resort Development Co.,Ltd.",
+    "Electric Power Development Co.,Ltd.",
+    "RS Technologies Co.,Ltd.",
+    "Toyo Tire Corporation",
+    "grems,Inc.",
+    "SEIBU HOLDINGS INC.",
+    "Matsuya R&D Co.,Ltd",
+    "Central Japan Railway Company"
+   ],
+   "n_sectors": 11,
+   "max_sector_n": 2,
+   "sector_hhi": 0.095,
+   "roe_median": 16.2,
+   "overlap_with_current": [
+    "3449",
+    "4971",
+    "6777",
+    "9022",
+    "9513"
+   ]
+  },
+  "現行20社_役割分担": {
+   "pool_n": null,
+   "n_picked": 20,
+   "codes": [
+    "3092",
+    "4716",
+    "7014",
+    "8136",
+    "6920",
+    "9022",
+    "9513",
+    "9503",
+    "1662",
+    "5214",
+    "6777",
+    "6871",
+    "6590",
+    "6387",
+    "6627",
+    "6861",
+    "7725",
+    "6929",
+    "3449",
+    "4971"
+   ],
+   "names": [
+    "ZOZO,Inc.",
+    "ORACLE CORPORATION JAPAN",
+    "Namura Shipbuilding Co.,Ltd.",
+    "Sanrio Company,Ltd.",
+    "Lasertec Corporation",
+    "Central Japan Railway Company",
+    "Electric Power Development Co.,Ltd.",
+    "The Kansai Electric Power Company,Incorporated",
+    "Japan Petroleum Exploration Co.,Ltd.",
+    "Nippon Electric Glass Co.,Ltd.",
+    "santec Holdings Corporation",
+    "MICRONICS JAPAN CO.,LTD.",
+    "SHIBAURA MECHATRONICS CORPORATION",
+    "SAMCO INC.",
+    "Tera Probe,Inc.",
+    "KEYENCE CORPORATION",
+    "INTER ACTION Corporation",
+    "NIPPON CERAMIC CO.,LTD.",
+    "TECHNOFLEX CORPORATION",
+    "MEC COMPANY LTD."
+   ],
+   "n_sectors": 13,
+   "max_sector_n": 7,
+   "sector_hhi": 0.16,
+   "roe_median": 14.7,
+   "overlap_with_current": [
+    "1662",
+    "3092",
+    "3449",
+    "4716",
+    "4971",
+    "5214",
+    "6387",
+    "6590",
+    "6627",
+    "6777",
+    "6861",
+    "6871",
+    "6920",
+    "6929",
+    "7014",
+    "7725",
+    "8136",
+    "9022",
+    "9503",
+    "9513"
+   ]
+  }
+ },
+ "results": {
+  "full_21-26": {
+   "topix_ann": 0.159,
+   "A1_逐次AND_中位閾値 (等ウェイト)": {
+    "ann_return": 0.4085,
+    "excess_vs_topix": 0.2495,
+    "volatility": 0.2932,
+    "sharpe": 1.393,
+    "max_drawdown": -0.3215,
+    "beta": 1.149,
+    "coverage": "12/12"
+   },
+   "A2_3スコア上位30%AND (等ウェイト)": {
+    "ann_return": 0.363,
+    "excess_vs_topix": 0.2041,
+    "volatility": 0.2788,
+    "sharpe": 1.302,
+    "max_drawdown": -0.3944,
+    "beta": 1.054,
+    "coverage": "10/12"
+   },
+   "A1c4_逐次AND_業種上限4 (等ウェイト)": {
+    "ann_return": 0.3854,
+    "excess_vs_topix": 0.2264,
+    "volatility": 0.2848,
+    "sharpe": 1.353,
+    "max_drawdown": -0.3577,
+    "beta": 1.144,
+    "coverage": "19/20"
+   },
+   "A2c4_上位30%AND_業種上限4 (等ウェイト)": {
+    "ann_return": 0.296,
+    "excess_vs_topix": 0.137,
+    "volatility": 0.2288,
+    "sharpe": 1.294,
+    "max_drawdown": -0.2827,
+    "beta": 0.94,
+    "coverage": "18/20"
+   },
+   "A3_厳格AND_離は事業検証 (等ウェイト)": {
+    "ann_return": 0.7098,
+    "excess_vs_topix": 0.5508,
+    "volatility": 0.5001,
+    "sharpe": 1.419,
+    "max_drawdown": -0.6355,
+    "beta": 1.495,
+    "coverage": "2/2"
+   },
+   "A4_3スコア順位和上位 (等ウェイト)": {
+    "ann_return": 0.2824,
+    "excess_vs_topix": 0.1234,
+    "volatility": 0.228,
+    "sharpe": 1.239,
+    "max_drawdown": -0.2547,
+    "beta": 0.923,
+    "coverage": "18/20"
+   },
+   "現行20社_役割分担 (等ウェイト)": {
+    "ann_return": 0.4205,
+    "excess_vs_topix": 0.2615,
+    "volatility": 0.2975,
+    "sharpe": 1.413,
+    "max_drawdown": -0.3339,
+    "beta": 1.207,
+    "coverage": "20/20"
+   },
+   "現行20社 (役割予算=提出版)": {
+    "ann_return": 0.4341,
+    "excess_vs_topix": 0.2751,
+    "volatility": 0.3033,
+    "sharpe": 1.431,
+    "max_drawdown": -0.3382,
+    "beta": 1.218,
+    "coverage": "20/20"
+   }
+  },
+  "P1_利上21-22": {
+   "topix_ann": -0.0123,
+   "A1_逐次AND_中位閾値 (等ウェイト)": {
+    "ann_return": 0.1128,
+    "excess_vs_topix": 0.1251,
+    "volatility": 0.2363,
+    "sharpe": 0.478,
+    "max_drawdown": -0.2184,
+    "beta": 1.09,
+    "coverage": "12/12"
+   },
+   "A2_3スコア上位30%AND (等ウェイト)": {
+    "ann_return": 0.0695,
+    "excess_vs_topix": 0.0818,
+    "volatility": 0.2166,
+    "sharpe": 0.321,
+    "max_drawdown": -0.2254,
+    "beta": 0.992,
+    "coverage": "10/12"
+   },
+   "A1c4_逐次AND_業種上限4 (等ウェイト)": {
+    "ann_return": 0.1495,
+    "excess_vs_topix": 0.1617,
+    "volatility": 0.2114,
+    "sharpe": 0.707,
+    "max_drawdown": -0.2095,
+    "beta": 1.011,
+    "coverage": "19/20"
+   },
+   "A2c4_上位30%AND_業種上限4 (等ウェイト)": {
+    "ann_return": 0.0893,
+    "excess_vs_topix": 0.1016,
+    "volatility": 0.1804,
+    "sharpe": 0.495,
+    "max_drawdown": -0.2109,
+    "beta": 0.873,
+    "coverage": "18/20"
+   },
+   "A3_厳格AND_離は事業検証 (等ウェイト)": {
+    "ann_return": 0.2552,
+    "excess_vs_topix": 0.2674,
+    "volatility": 0.386,
+    "sharpe": 0.661,
+    "max_drawdown": -0.2965,
+    "beta": 1.305,
+    "coverage": "2/2"
+   },
+   "A4_3スコア順位和上位 (等ウェイト)": {
+    "ann_return": 0.0958,
+    "excess_vs_topix": 0.1081,
+    "volatility": 0.184,
+    "sharpe": 0.521,
+    "max_drawdown": -0.2038,
+    "beta": 0.884,
+    "coverage": "18/20"
+   },
+   "現行20社_役割分担 (等ウェイト)": {
+    "ann_return": 0.1648,
+    "excess_vs_topix": 0.1771,
+    "volatility": 0.2208,
+    "sharpe": 0.746,
+    "max_drawdown": -0.1827,
+    "beta": 1.052,
+    "coverage": "20/20"
+   },
+   "現行20社 (役割予算=提出版)": {
+    "ann_return": 0.1929,
+    "excess_vs_topix": 0.2052,
+    "volatility": 0.2233,
+    "sharpe": 0.864,
+    "max_drawdown": -0.1771,
+    "beta": 1.048,
+    "coverage": "20/20"
+   }
+  },
+  "P2_AI前半23-24": {
+   "topix_ann": 0.3384,
+   "A1_逐次AND_中位閾値 (等ウェイト)": {
+    "ann_return": 0.688,
+    "excess_vs_topix": 0.3496,
+    "volatility": 0.2246,
+    "sharpe": 3.064,
+    "max_drawdown": -0.1275,
+    "beta": 1.011,
+    "coverage": "12/12"
+   },
+   "A2_3スコア上位30%AND (等ウェイト)": {
+    "ann_return": 0.3892,
+    "excess_vs_topix": 0.0508,
+    "volatility": 0.1911,
+    "sharpe": 2.037,
+    "max_drawdown": -0.1371,
+    "beta": 0.874,
+    "coverage": "12/12"
+   },
+   "A1c4_逐次AND_業種上限4 (等ウェイト)": {
+    "ann_return": 0.7368,
+    "excess_vs_topix": 0.3984,
+    "volatility": 0.2173,
+    "sharpe": 3.39,
+    "max_drawdown": -0.1136,
+    "beta": 1.033,
+    "coverage": "20/20"
+   },
+   "A2c4_上位30%AND_業種上限4 (等ウェイト)": {
+    "ann_return": 0.3432,
+    "excess_vs_topix": 0.0048,
+    "volatility": 0.1618,
+    "sharpe": 2.122,
+    "max_drawdown": -0.1055,
+    "beta": 0.816,
+    "coverage": "20/20"
+   },
+   "A3_厳格AND_離は事業検証 (等ウェイト)": {
+    "ann_return": 1.7235,
+    "excess_vs_topix": 1.3851,
+    "volatility": 0.4702,
+    "sharpe": 3.665,
+    "max_drawdown": -0.2375,
+    "beta": 1.37,
+    "coverage": "2/2"
+   },
+   "A4_3スコア順位和上位 (等ウェイト)": {
+    "ann_return": 0.3988,
+    "excess_vs_topix": 0.0604,
+    "volatility": 0.1794,
+    "sharpe": 2.223,
+    "max_drawdown": -0.1335,
+    "beta": 0.881,
+    "coverage": "20/20"
+   },
+   "現行20社_役割分担 (等ウェイト)": {
+    "ann_return": 0.7302,
+    "excess_vs_topix": 0.3917,
+    "volatility": 0.2346,
+    "sharpe": 3.113,
+    "max_drawdown": -0.1214,
+    "beta": 1.123,
+    "coverage": "20/20"
+   },
+   "現行20社 (役割予算=提出版)": {
+    "ann_return": 0.7776,
+    "excess_vs_topix": 0.4391,
+    "volatility": 0.2429,
+    "sharpe": 3.201,
+    "max_drawdown": -0.1272,
+    "beta": 1.149,
+    "coverage": "20/20"
+   }
+  },
+  "P3_直近24-26": {
+   "topix_ann": 0.1883,
+   "A1_逐次AND_中位閾値 (等ウェイト)": {
+    "ann_return": 0.4704,
+    "excess_vs_topix": 0.2821,
+    "volatility": 0.339,
+    "sharpe": 1.388,
+    "max_drawdown": -0.2848,
+    "beta": 1.145,
+    "coverage": "12/12"
+   },
+   "A2_3スコア上位30%AND (等ウェイト)": {
+    "ann_return": 0.5252,
+    "excess_vs_topix": 0.3369,
+    "volatility": 0.2827,
+    "sharpe": 1.858,
+    "max_drawdown": -0.3027,
+    "beta": 0.979,
+    "coverage": "12/12"
+   },
+   "A1c4_逐次AND_業種上限4 (等ウェイト)": {
+    "ann_return": 0.3793,
+    "excess_vs_topix": 0.191,
+    "volatility": 0.329,
+    "sharpe": 1.153,
+    "max_drawdown": -0.2981,
+    "beta": 1.165,
+    "coverage": "20/20"
+   },
+   "A2c4_上位30%AND_業種上限4 (等ウェイト)": {
+    "ann_return": 0.4262,
+    "excess_vs_topix": 0.2379,
+    "volatility": 0.2512,
+    "sharpe": 1.697,
+    "max_drawdown": -0.246,
+    "beta": 0.914,
+    "coverage": "20/20"
+   },
+   "A3_厳格AND_離は事業検証 (等ウェイト)": {
+    "ann_return": 0.6601,
+    "excess_vs_topix": 0.4718,
+    "volatility": 0.6165,
+    "sharpe": 1.071,
+    "max_drawdown": -0.637,
+    "beta": 1.643,
+    "coverage": "2/2"
+   },
+   "A4_3スコア順位和上位 (等ウェイト)": {
+    "ann_return": 0.3666,
+    "excess_vs_topix": 0.1782,
+    "volatility": 0.2438,
+    "sharpe": 1.504,
+    "max_drawdown": -0.2264,
+    "beta": 0.888,
+    "coverage": "20/20"
+   },
+   "現行20社_役割分担 (等ウェイト)": {
+    "ann_return": 0.4272,
+    "excess_vs_topix": 0.2389,
+    "volatility": 0.291,
+    "sharpe": 1.468,
+    "max_drawdown": -0.2687,
+    "beta": 1.054,
+    "coverage": "20/20"
+   },
+   "現行20社 (役割予算=提出版)": {
+    "ann_return": 0.3922,
+    "excess_vs_topix": 0.2039,
+    "volatility": 0.2961,
+    "sharpe": 1.324,
+    "max_drawdown": -0.2674,
+    "beta": 1.067,
+    "coverage": "20/20"
+   }
+  }
+ }
+}

@@ -1,0 +1,157 @@
+{
+ "N_base": 1791,
+ "frontier": [
+  {
+   "q_each_gate": 0.5,
+   "pool_n": 278,
+   "n_sectors": 8,
+   "max20_cap2": 16,
+   "max20_cap3": 24,
+   "max20_cap4": 31,
+   "ok_20_cap2": false,
+   "ok_20_cap4": true,
+   "top_sector_share": 0.32,
+   "naive_indep_expect": 223.9
+  },
+  {
+   "q_each_gate": 0.45,
+   "pool_n": 230,
+   "n_sectors": 8,
+   "max20_cap2": 16,
+   "max20_cap3": 24,
+   "max20_cap4": 31,
+   "ok_20_cap2": false,
+   "ok_20_cap4": true,
+   "top_sector_share": 0.339,
+   "naive_indep_expect": 163.2
+  },
+  {
+   "q_each_gate": 0.4,
+   "pool_n": 120,
+   "n_sectors": 8,
+   "max20_cap2": 15,
+   "max20_cap3": 21,
+   "max20_cap4": 25,
+   "ok_20_cap2": false,
+   "ok_20_cap4": true,
+   "top_sector_share": 0.5,
+   "naive_indep_expect": 114.6
+  },
+  {
+   "q_each_gate": 0.35,
+   "pool_n": 95,
+   "n_sectors": 8,
+   "max20_cap2": 14,
+   "max20_cap3": 19,
+   "max20_cap4": 23,
+   "ok_20_cap2": false,
+   "ok_20_cap4": true,
+   "top_sector_share": 0.516,
+   "naive_indep_expect": 76.8
+  },
+  {
+   "q_each_gate": 0.3,
+   "pool_n": 64,
+   "n_sectors": 6,
+   "max20_cap2": 12,
+   "max20_cap3": 17,
+   "max20_cap4": 21,
+   "ok_20_cap2": false,
+   "ok_20_cap4": true,
+   "top_sector_share": 0.578,
+   "naive_indep_expect": 48.4
+  },
+  {
+   "q_each_gate": 0.25,
+   "pool_n": 17,
+   "n_sectors": 6,
+   "max20_cap2": 9,
+   "max20_cap3": 12,
+   "max20_cap4": 15,
+   "ok_20_cap2": false,
+   "ok_20_cap4": false,
+   "top_sector_share": 0.353,
+   "naive_indep_expect": 28.0
+  },
+  {
+   "q_each_gate": 0.224,
+   "pool_n": 11,
+   "n_sectors": 6,
+   "max20_cap2": 8,
+   "max20_cap3": 9,
+   "max20_cap4": 10,
+   "ok_20_cap2": false,
+   "ok_20_cap4": false,
+   "top_sector_share": 0.455,
+   "naive_indep_expect": 20.1
+  },
+  {
+   "q_each_gate": 0.2,
+   "pool_n": 7,
+   "n_sectors": 4,
+   "max20_cap2": 5,
+   "max20_cap3": 6,
+   "max20_cap4": 7,
+   "ok_20_cap2": false,
+   "ok_20_cap4": false,
+   "top_sector_share": 0.571,
+   "naive_indep_expect": 14.3
+  },
+  {
+   "q_each_gate": 0.15,
+   "pool_n": 3,
+   "n_sectors": 1,
+   "max20_cap2": 2,
+   "max20_cap3": 3,
+   "max20_cap4": 3,
+   "ok_20_cap2": false,
+   "ok_20_cap4": false,
+   "top_sector_share": 1.0,
+   "naive_indep_expect": 6.0
+  },
+  {
+   "q_each_gate": 0.1,
+   "pool_n": 1,
+   "n_sectors": 1,
+   "max20_cap2": 1,
+   "max20_cap3": 1,
+   "max20_cap4": 1,
+   "ok_20_cap2": false,
+   "ok_20_cap4": false,
+   "top_sector_share": 1.0,
+   "naive_indep_expect": 1.8
+  },
+  {
+   "q_each_gate": 0.05,
+   "pool_n": 0,
+   "n_sectors": 0,
+   "max20_cap2": 0,
+   "max20_cap3": 0,
+   "max20_cap4": 0,
+   "ok_20_cap2": false,
+   "ok_20_cap4": false,
+   "top_sector_share": null,
+   "naive_indep_expect": 0.2
+  },
+  {
+   "q_each_gate": 0.02,
+   "pool_n": 0,
+   "n_sectors": 0,
+   "max20_cap2": 0,
+   "max20_cap3": 0,
+   "max20_cap4": 0,
+   "ok_20_cap2": false,
+   "ok_20_cap4": false,
+   "top_sector_share": null,
+   "naive_indep_expect": 0.0
+  }
+ ],
+ "shu_gate_n": 162,
+ "q_needed_for_20_indep": 0.2235,
+ "top20_overlap": {
+  "守(堀)∩破(変革)": 1,
+  "守(堀)∩離(未来)": 0,
+  "破(変革)∩離(未来)": 0
+ },
+ "top20_all_three": 0
+}
