@@ -1,0 +1,210 @@
+{
+  "weighting": "role_budget 守28/変28/生28/両立10/分散6",
+  "roles": [
+    {
+      "role": "守 完成した堀",
+      "budget": 0.28,
+      "codes": [
+        "3092",
+        "4716",
+        "7014",
+        "8136",
+        "6920"
+      ],
+      "names": [
+        "ZOZO,Inc.",
+        "ORACLE CORPORATION JAPAN",
+        "Namura Shipbuilding Co.,Ltd.",
+        "Sanrio Company,Ltd.",
+        "Lasertec Corporation"
+      ]
+    },
+    {
+      "role": "破 変わる堀",
+      "budget": 0.28,
+      "codes": [
+        "9022",
+        "9513",
+        "9503",
+        "1662",
+        "5214"
+      ],
+      "names": [
+        "Central Japan Railway Company",
+        "Electric Power Development Co.,Ltd.",
+        "The Kansai Electric Power Company,Incorporated",
+        "Japan Petroleum Exploration Co.,Ltd.",
+        "Nippon Electric Glass Co.,Ltd."
+      ]
+    },
+    {
+      "role": "離 生まれる堀",
+      "budget": 0.28,
+      "codes": [
+        "6777",
+        "6871",
+        "6590",
+        "6387",
+        "6627"
+      ],
+      "names": [
+        "santec Holdings Corporation",
+        "MICRONICS JAPAN CO.,LTD.",
+        "SHIBAURA MECHATRONICS CORPORATION",
+        "SAMCO INC.",
+        "Tera Probe,Inc."
+      ]
+    },
+    {
+      "role": "両立型",
+      "budget": 0.1,
+      "codes": [
+        "6861",
+        "7725",
+        "6929"
+      ],
+      "names": [
+        "KEYENCE CORPORATION",
+        "INTER ACTION Corporation",
+        "NIPPON CERAMIC CO.,LTD."
+      ]
+    },
+    {
+      "role": "分散役",
+      "budget": 0.06,
+      "codes": [
+        "3449",
+        "4971"
+      ],
+      "names": [
+        "TECHNOFLEX CORPORATION",
+        "MEC COMPANY LTD."
+      ]
+    }
+  ],
+  "weights_v7": {
+    "3092.T": 0.055999999999999994,
+    "4716.T": 0.055999999999999994,
+    "7014.T": 0.055999999999999994,
+    "8136.T": 0.055999999999999994,
+    "6920.T": 0.055999999999999994,
+    "9022.T": 0.055999999999999994,
+    "9513.T": 0.055999999999999994,
+    "9503.T": 0.055999999999999994,
+    "1662.T": 0.055999999999999994,
+    "5214.T": 0.055999999999999994,
+    "6777.T": 0.055999999999999994,
+    "6871.T": 0.055999999999999994,
+    "6590.T": 0.055999999999999994,
+    "6387.T": 0.055999999999999994,
+    "6627.T": 0.055999999999999994,
+    "6861.T": 0.033333333333333326,
+    "7725.T": 0.033333333333333326,
+    "6929.T": 0.033333333333333326,
+    "3449.T": 0.029999999999999992,
+    "4971.T": 0.029999999999999992
+  },
+  "buf12": [
+    "3092",
+    "4716",
+    "7014",
+    "8136",
+    "6920",
+    "7735",
+    "3064",
+    "3697",
+    "7832",
+    "6383",
+    "4021",
+    "6146"
+  ],
+  "results": {
+    "full": {
+      "v7": {
+        "ann_return": 0.4341,
+        "excess_vs_topix": 0.2751,
+        "volatility": 0.3033,
+        "sharpe": 1.431,
+        "max_drawdown": -0.3382,
+        "beta": 1.218,
+        "coverage": "20/20"
+      },
+      "buffett12": {
+        "ann_return": 0.2965,
+        "excess_vs_topix": 0.1375,
+        "volatility": 0.3277,
+        "sharpe": 0.905,
+        "max_drawdown": -0.3824,
+        "beta": 1.255
+      },
+      "topix_ann": 0.159
+    },
+    "P1_利上21-22": {
+      "v7": {
+        "ann_return": 0.1929,
+        "excess_vs_topix": 0.2052,
+        "volatility": 0.2233,
+        "sharpe": 0.864,
+        "max_drawdown": -0.1771,
+        "beta": 1.048,
+        "coverage": "20/20"
+      },
+      "buffett12": {
+        "ann_return": 0.0579,
+        "excess_vs_topix": 0.0702,
+        "volatility": 0.2658,
+        "sharpe": 0.218,
+        "max_drawdown": -0.2296,
+        "beta": 1.179
+      },
+      "topix_ann": -0.0123
+    },
+    "P2_AI前半23-24": {
+      "v7": {
+        "ann_return": 0.7776,
+        "excess_vs_topix": 0.4391,
+        "volatility": 0.2429,
+        "sharpe": 3.201,
+        "max_drawdown": -0.1272,
+        "beta": 1.149,
+        "coverage": "20/20"
+      },
+      "buffett12": {
+        "ann_return": 0.9638,
+        "excess_vs_topix": 0.6254,
+        "volatility": 0.2711,
+        "sharpe": 3.555,
+        "max_drawdown": -0.158,
+        "beta": 1.1
+      },
+      "topix_ann": 0.3384
+    },
+    "P3_直近24-26": {
+      "v7": {
+        "ann_return": 0.3922,
+        "excess_vs_topix": 0.2039,
+        "volatility": 0.2961,
+        "sharpe": 1.324,
+        "max_drawdown": -0.2674,
+        "beta": 1.067,
+        "coverage": "20/20"
+      },
+      "buffett12": {
+        "ann_return": 0.1563,
+        "excess_vs_topix": -0.032,
+        "volatility": 0.3173,
+        "sharpe": 0.493,
+        "max_drawdown": -0.3162,
+        "beta": 1.124
+      },
+      "topix_ann": 0.1883
+    }
+  },
+  "verdict_vs_buffett_full": {
+    "return": true,
+    "sharpe": true,
+    "drawdown": true,
+    "surpass_all": true
+  },
+  "note": "in-sample self-verification. ex-ante rules, no tuning. phase5-consistent."
+}

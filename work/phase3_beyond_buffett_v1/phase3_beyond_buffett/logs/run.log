@@ -1,0 +1,53 @@
+[2026-07-10T13:47:35] START stage 00
+[2026-07-10T13:47:35] Extracted outputs/phase2_perfect_final_break.zip to work/phase2_perfect_final_break
+[2026-07-10T13:47:35] END stage 00
+[2026-07-10T13:47:36] START stage 01
+[2026-07-10T13:47:36] Wrote outputs/phase3_beyond_buffett/data/phase3_input_inventory.csv (8 rows)
+[2026-07-10T13:47:36] END stage 01
+[2026-07-10T13:47:36] START stage 02
+[2026-07-10T13:47:39] Wrote outputs/phase3_beyond_buffett/data/phase3_seed_universe_from_phase2.csv (1,200 rows)
+[2026-07-10T13:47:39] END stage 02
+[2026-07-10T13:47:40] START stage 03
+[2026-07-10T13:47:40] Wrote outputs/phase3_beyond_buffett/data/phase3_guardrail_confidence.csv (1,200 rows)
+[2026-07-10T13:47:40] END stage 03
+[2026-07-10T13:47:40] START stage 04
+[2026-07-10T13:47:40] Wrote outputs/phase3_beyond_buffett/data/phase3_transformation_lite_scores.csv (1,200 rows)
+[2026-07-10T13:47:40] END stage 04
+[2026-07-10T13:47:40] START stage 05
+[2026-07-10T13:47:40] Wrote outputs/phase3_beyond_buffett/data/phase3_disclosure_enrichment.csv (14 rows)
+[2026-07-10T13:47:40] Wrote outputs/phase3_beyond_buffett/data/phase3_optional_input_status.csv (3 rows)
+[2026-07-10T13:47:40] END stage 05
+[2026-07-10T13:47:41] START stage 06
+[2026-07-10T13:47:41] Wrote outputs/phase3_beyond_buffett/data/phase3_transformation_scores.csv (1,200 rows)
+[2026-07-10T13:47:41] END stage 06
+[2026-07-10T13:47:41] START stage 07
+[2026-07-10T13:47:41] Wrote outputs/phase3_beyond_buffett/data/phase3_emerging_scores.csv (1,200 rows)
+[2026-07-10T13:47:41] END stage 07
+[2026-07-10T13:47:41] START stage 08
+[2026-07-10T13:47:41] Wrote outputs/phase3_beyond_buffett/data/phase3_evidence_levels.csv (1,200 rows)
+[2026-07-10T13:47:42] Wrote outputs/phase3_beyond_buffett/data/phase3_scoring_master.csv (1,200 rows)
+[2026-07-10T13:47:42] END stage 08
+[2026-07-10T13:47:42] START stage 09
+[2026-07-10T13:47:42] Wrote outputs/phase3_beyond_buffett/data/phase3_grade_assignment.csv (1,200 rows)
+[2026-07-10T13:47:42] END stage 09
+[2026-07-10T13:47:42] START stage 10
+[2026-07-10T13:47:42] Wrote outputs/phase3_beyond_buffett/data/phase3_role_assignment.csv (1,200 rows)
+[2026-07-10T13:47:42] Wrote outputs/phase3_beyond_buffett/data/phase3_dual_moat_candidates.csv (8 rows)
+[2026-07-10T13:47:42] Wrote outputs/phase3_beyond_buffett/data/phase3_bridge_candidates.csv (526 rows)
+[2026-07-10T13:47:42] END stage 10
+[2026-07-10T13:47:43] START stage 11
+[2026-07-10T13:47:43] Wrote outputs/phase3_beyond_buffett/data/phase3_final20_candidates.csv (1,019 rows)
+[2026-07-10T13:47:43] Wrote outputs/phase3_beyond_buffett/data/phase3_final20_selected.csv (20 rows)
+[2026-07-10T13:47:43] Wrote outputs/phase3_beyond_buffett/data/phase3_rejected_candidates.csv (1,180 rows)
+[2026-07-10T13:47:43] Wrote outputs/phase3_beyond_buffett/data/phase3_selection_audit_trail.csv (32 rows)
+[2026-07-10T13:47:43] END stage 11
+[2026-07-10T13:47:43] START stage 12
+[2026-07-10T13:47:43] Wrote outputs/phase3_beyond_buffett/data/phase3_allocation_plan.csv (20 rows)
+[2026-07-10T13:47:43] END stage 12
+[2026-07-10T13:47:43] START stage 13
+[2026-07-10T13:47:43] Wrote outputs/phase3_beyond_buffett/data/phase3_ablation_results.csv (13 rows)
+[2026-07-10T13:47:43] END stage 13
+[2026-07-10T13:47:44] START stage 14
+[2026-07-10T13:47:44] END stage 14
+[2026-07-10T13:49:06] START stage 14
+[2026-07-10T13:49:06] END stage 14

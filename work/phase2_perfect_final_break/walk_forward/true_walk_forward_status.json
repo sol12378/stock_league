@@ -1,0 +1,7 @@
+{
+  "strict_true_walk_forward_completed": false,
+  "eligible_fold_count": 1,
+  "minimum_required_eligible_folds": 2,
+  "reason": "Fewer than two folds have both sufficient strict-ready rows and mature 252d targets.",
+  "note": "No forced train/test optimization is claimed when the panel cannot support it."
+}

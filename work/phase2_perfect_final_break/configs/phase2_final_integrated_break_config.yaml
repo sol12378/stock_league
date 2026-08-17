@@ -1,0 +1,7 @@
+output: outputs/phase2_final_integrated_break/
+formal_topn: 1200
+utility_max_topn: 2000
+financial_exclusion: true
+distress_hard_exclusion: true
+walk_forward_policy: point_in_time_panel_and_fixed_weight_out_of_time_validation
+true_walk_forward_policy: execute_only_when_at_least_two_252d_mature_folds_exist

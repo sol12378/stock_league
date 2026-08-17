@@ -1,0 +1,333 @@
+{
+  "shu5": [
+    "3092",
+    "4716",
+    "7014",
+    "8136",
+    "7735"
+  ],
+  "ha7": [
+    "9022",
+    "9501",
+    "9513",
+    "1662",
+    "5214",
+    "7261",
+    "5105"
+  ],
+  "ri8": [
+    "6777",
+    "6627",
+    "6387",
+    "8050",
+    "6356",
+    "7762",
+    "5706",
+    "4099"
+  ],
+  "buf12": [
+    "3092",
+    "4716",
+    "7014",
+    "8136",
+    "6920",
+    "7735",
+    "3064",
+    "3697",
+    "7832",
+    "6383",
+    "4021",
+    "6146"
+  ],
+  "weights": {
+    "equal": {
+      "3092.T": 0.05,
+      "4716.T": 0.05,
+      "7014.T": 0.05,
+      "8136.T": 0.05,
+      "7735.T": 0.05,
+      "9022.T": 0.05,
+      "9501.T": 0.05,
+      "9513.T": 0.05,
+      "1662.T": 0.05,
+      "5214.T": 0.05,
+      "7261.T": 0.05,
+      "5105.T": 0.05,
+      "6777.T": 0.05,
+      "6627.T": 0.05,
+      "6387.T": 0.05,
+      "8050.T": 0.05,
+      "6356.T": 0.05,
+      "7762.T": 0.05,
+      "5706.T": 0.05,
+      "4099.T": 0.05
+    },
+    "role_budget": {
+      "3092.T": 0.06666666666666668,
+      "4716.T": 0.06666666666666668,
+      "7014.T": 0.06666666666666668,
+      "8136.T": 0.06666666666666668,
+      "7735.T": 0.06666666666666668,
+      "9022.T": 0.04761904761904763,
+      "9501.T": 0.04761904761904763,
+      "9513.T": 0.04761904761904763,
+      "1662.T": 0.04761904761904763,
+      "5214.T": 0.04761904761904763,
+      "7261.T": 0.04761904761904763,
+      "5105.T": 0.04761904761904763,
+      "6777.T": 0.04166666666666667,
+      "6627.T": 0.04166666666666667,
+      "6387.T": 0.04166666666666667,
+      "8050.T": 0.04166666666666667,
+      "6356.T": 0.04166666666666667,
+      "7762.T": 0.04166666666666667,
+      "5706.T": 0.04166666666666667,
+      "4099.T": 0.04166666666666667
+    },
+    "min_var": {
+      "3092.T": 0.15000000000000002,
+      "4716.T": 0.15000000000000002,
+      "7014.T": 0.0,
+      "8136.T": 0.02410566157909127,
+      "7735.T": 1.406135829396391e-17,
+      "9022.T": 0.15000000000000002,
+      "9501.T": 0.0,
+      "9513.T": 0.15,
+      "1662.T": 0.08383382754851847,
+      "5214.T": 0.14234226833260244,
+      "7261.T": 0.0,
+      "5105.T": 1.126383527609318e-17,
+      "6777.T": 0.0,
+      "6627.T": 0.0,
+      "6387.T": 0.0,
+      "8050.T": 0.0,
+      "6356.T": 0.0006262443615290055,
+      "7762.T": 0.10988319899133987,
+      "5706.T": 0.0,
+      "4099.T": 0.03920879918691894
+    }
+  },
+  "results": {
+    "full": {
+      "topix": {
+        "ann_return": 0.159,
+        "excess_vs_topix": 0.0,
+        "volatility": 0.1909,
+        "sharpe": 0.833,
+        "max_drawdown": -0.233,
+        "beta": 1.0
+      },
+      "buf12": {
+        "ann_return": 0.2965,
+        "excess_vs_topix": 0.1375,
+        "volatility": 0.3277,
+        "sharpe": 0.905,
+        "max_drawdown": -0.3824,
+        "beta": 1.255,
+        "coverage": "12/12"
+      },
+      "old_ours": {
+        "ann_return": 0.3917,
+        "excess_vs_topix": 0.2328,
+        "volatility": 0.2973,
+        "sharpe": 1.317,
+        "max_drawdown": -0.3161,
+        "beta": 1.154,
+        "coverage": "19/20"
+      },
+      "hybrid_equal": {
+        "ann_return": 0.4441,
+        "excess_vs_topix": 0.2851,
+        "volatility": 0.2836,
+        "sharpe": 1.566,
+        "max_drawdown": -0.3354,
+        "beta": 1.173,
+        "coverage": "20/20"
+      },
+      "hybrid_rolebudget": {
+        "ann_return": 0.4396,
+        "excess_vs_topix": 0.2807,
+        "volatility": 0.2965,
+        "sharpe": 1.482,
+        "max_drawdown": -0.3437,
+        "beta": 1.184,
+        "coverage": "20/20"
+      },
+      "hybrid_minvar": {
+        "ann_return": 0.251,
+        "excess_vs_topix": 0.0921,
+        "volatility": 0.1754,
+        "sharpe": 1.432,
+        "max_drawdown": -0.1618,
+        "beta": 0.713,
+        "coverage": "20/20"
+      }
+    },
+    "P1_利上21-22": {
+      "topix": {
+        "ann_return": -0.0123,
+        "excess_vs_topix": 0.0,
+        "volatility": 0.1724,
+        "sharpe": -0.071,
+        "max_drawdown": -0.1612,
+        "beta": 1.0
+      },
+      "buf12": {
+        "ann_return": 0.0579,
+        "excess_vs_topix": 0.0702,
+        "volatility": 0.2658,
+        "sharpe": 0.218,
+        "max_drawdown": -0.2296,
+        "beta": 1.179,
+        "coverage": "12/12"
+      },
+      "old_ours": {
+        "ann_return": 0.089,
+        "excess_vs_topix": 0.1013,
+        "volatility": 0.1758,
+        "sharpe": 0.506,
+        "max_drawdown": -0.1872,
+        "beta": 0.905,
+        "coverage": "19/20"
+      },
+      "hybrid_equal": {
+        "ann_return": 0.1962,
+        "excess_vs_topix": 0.2085,
+        "volatility": 0.2007,
+        "sharpe": 0.977,
+        "max_drawdown": -0.1317,
+        "beta": 0.974,
+        "coverage": "20/20"
+      },
+      "hybrid_rolebudget": {
+        "ann_return": 0.2086,
+        "excess_vs_topix": 0.2209,
+        "volatility": 0.2079,
+        "sharpe": 1.003,
+        "max_drawdown": -0.1374,
+        "beta": 0.984,
+        "coverage": "20/20"
+      },
+      "hybrid_minvar": {
+        "ann_return": 0.1319,
+        "excess_vs_topix": 0.1441,
+        "volatility": 0.1574,
+        "sharpe": 0.838,
+        "max_drawdown": -0.1123,
+        "beta": 0.684,
+        "coverage": "20/20"
+      }
+    },
+    "P2_AI前半23-24": {
+      "topix": {
+        "ann_return": 0.3384,
+        "excess_vs_topix": 0.0,
+        "volatility": 0.1441,
+        "sharpe": 2.349,
+        "max_drawdown": -0.0783,
+        "beta": 1.0
+      },
+      "buf12": {
+        "ann_return": 0.9638,
+        "excess_vs_topix": 0.6254,
+        "volatility": 0.2711,
+        "sharpe": 3.555,
+        "max_drawdown": -0.158,
+        "beta": 1.1,
+        "coverage": "12/12"
+      },
+      "old_ours": {
+        "ann_return": 0.639,
+        "excess_vs_topix": 0.3006,
+        "volatility": 0.198,
+        "sharpe": 3.228,
+        "max_drawdown": -0.0852,
+        "beta": 0.962,
+        "coverage": "20/20"
+      },
+      "hybrid_equal": {
+        "ann_return": 0.6892,
+        "excess_vs_topix": 0.3507,
+        "volatility": 0.2128,
+        "sharpe": 3.239,
+        "max_drawdown": -0.0923,
+        "beta": 1.124,
+        "coverage": "20/20"
+      },
+      "hybrid_rolebudget": {
+        "ann_return": 0.7377,
+        "excess_vs_topix": 0.3992,
+        "volatility": 0.2217,
+        "sharpe": 3.328,
+        "max_drawdown": -0.0923,
+        "beta": 1.14,
+        "coverage": "20/20"
+      },
+      "hybrid_minvar": {
+        "ann_return": 0.3247,
+        "excess_vs_topix": -0.0137,
+        "volatility": 0.1323,
+        "sharpe": 2.454,
+        "max_drawdown": -0.0714,
+        "beta": 0.717,
+        "coverage": "20/20"
+      }
+    },
+    "P3_直近24-26": {
+      "topix": {
+        "ann_return": 0.1883,
+        "excess_vs_topix": 0.0,
+        "volatility": 0.2335,
+        "sharpe": 0.806,
+        "max_drawdown": -0.233,
+        "beta": 1.0
+      },
+      "buf12": {
+        "ann_return": 0.1563,
+        "excess_vs_topix": -0.032,
+        "volatility": 0.3173,
+        "sharpe": 0.493,
+        "max_drawdown": -0.3162,
+        "beta": 1.124,
+        "coverage": "12/12"
+      },
+      "old_ours": {
+        "ann_return": 0.2212,
+        "excess_vs_topix": 0.0329,
+        "volatility": 0.2777,
+        "sharpe": 0.797,
+        "max_drawdown": -0.2392,
+        "beta": 0.998,
+        "coverage": "20/20"
+      },
+      "hybrid_equal": {
+        "ann_return": 0.5427,
+        "excess_vs_topix": 0.3544,
+        "volatility": 0.3022,
+        "sharpe": 1.796,
+        "max_drawdown": -0.2708,
+        "beta": 1.111,
+        "coverage": "20/20"
+      },
+      "hybrid_rolebudget": {
+        "ann_return": 0.4779,
+        "excess_vs_topix": 0.2895,
+        "volatility": 0.2931,
+        "sharpe": 1.631,
+        "max_drawdown": -0.2642,
+        "beta": 1.08,
+        "coverage": "20/20"
+      },
+      "hybrid_minvar": {
+        "ann_return": 0.229,
+        "excess_vs_topix": 0.0407,
+        "volatility": 0.1896,
+        "sharpe": 1.208,
+        "max_drawdown": -0.1403,
+        "beta": 0.641,
+        "coverage": "20/20"
+      }
+    }
+  },
+  "note": "hybrid v2: 破/離 freshly re-selected from study category×adjusted_bb_score(黒字ガード). in-sample. phase5-consistent."
+}

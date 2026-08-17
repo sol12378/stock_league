@@ -1,0 +1,44 @@
+{
+  "utility_selected_topn": 2000,
+  "formal_selected_topn": 1200,
+  "best_balanced_topn": 1200,
+  "formal_candidate_universe": "formal_top1200/phase2_formal_top1200_candidates.csv",
+  "reference_universe": "top2000_reference/final_weighted_top2000_reference.csv",
+  "top1200_role": "formal_phase2_candidate_universe_for_phase3",
+  "top2000_role": "reference_universe_for_missed_theme_candidates",
+  "top1200_is_utility_optimal": false,
+  "top1200_is_formally_adopted": true,
+  "utility_maximization_result": "Top2000 achieved the highest utility because the utility function rewards breadth.",
+  "formal_adoption_reason": "Top1200 was adopted because it balances breadth, quality, safety, liquidity, sector diversity, interpretability, and Phase3 review burden.",
+  "phase1_top5_coverage_in_top1200": "5/5",
+  "financial_exclusion_applied": true,
+  "distress_hard_exclusion_applied": true,
+  "normalization_consensus_applied": true,
+  "strict_true_walk_forward_completed": false,
+  "fixed_weight_out_of_time_validation_completed": true,
+  "future_return_prediction_claim": false,
+  "important_note": "Exploratory Weighted Buffett Score is not the official Phase1 formula and must not be described as a future return prediction model.",
+  "selected_method": "random_search_real",
+  "selected_weights": {
+    "bm": 0.18445915574257452,
+    "distress": 0.2506101343460851,
+    "ep": 0.05724894173929047,
+    "gp": 0.14717910156895553,
+    "liquidity": 0.33011280681347804,
+    "piotroski": 0.009821470657685773,
+    "sloan": 0.020568389131930525
+  },
+  "selected_penalty_weights": {
+    "anomaly": 0.29713500327930653,
+    "microcap": 0.19871292956780232,
+    "missing": 0.25850377194395013,
+    "onetime": 0.1949619853730527
+  },
+  "selected_params": {
+    "gp_missing_penalty_strength": 0.09543232002449449,
+    "missing_handling": "exclude_if_core_missing",
+    "normalization_method": "market_percentile",
+    "sector_adjustment": false,
+    "weight_concentration_penalty_strength": 0.020860948586379907
+  }
+}

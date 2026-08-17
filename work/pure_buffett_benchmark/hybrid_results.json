@@ -1,0 +1,256 @@
+{
+  "shu5": [
+    "3092",
+    "4716",
+    "7014",
+    "8136",
+    "7735"
+  ],
+  "buf12": [
+    "3092",
+    "4716",
+    "7014",
+    "8136",
+    "6920",
+    "7735",
+    "3064",
+    "3697",
+    "7832",
+    "6383",
+    "4021",
+    "6146"
+  ],
+  "results": {
+    "full": {
+      "topix": {
+        "total_return": 1.0414,
+        "ann_return": 0.159,
+        "excess_vs_topix": 0.0,
+        "volatility": 0.1909,
+        "sharpe": 0.833,
+        "max_drawdown": -0.233,
+        "beta": 1.0,
+        "days": 1219,
+        "coverage": "-"
+      },
+      "buf12_真バフェット": {
+        "total_return": 2.5119,
+        "ann_return": 0.2965,
+        "excess_vs_topix": 0.1375,
+        "volatility": 0.3277,
+        "sharpe": 0.905,
+        "max_drawdown": -0.3824,
+        "beta": 1.255,
+        "days": 1219,
+        "coverage": "12/12"
+      },
+      "old_ours": {
+        "total_return": 3.9478,
+        "ann_return": 0.3917,
+        "excess_vs_topix": 0.2328,
+        "volatility": 0.2973,
+        "sharpe": 1.317,
+        "max_drawdown": -0.3161,
+        "beta": 1.154,
+        "days": 1219,
+        "coverage": "19/20"
+      },
+      "hybrid20_守破離": {
+        "total_return": 5.2471,
+        "ann_return": 0.4605,
+        "excess_vs_topix": 0.3015,
+        "volatility": 0.3115,
+        "sharpe": 1.478,
+        "max_drawdown": -0.3375,
+        "beta": 1.246,
+        "days": 1219,
+        "coverage": "19/20"
+      }
+    },
+    "P1_利上21-22": {
+      "topix": {
+        "total_return": -0.0189,
+        "ann_return": -0.0123,
+        "excess_vs_topix": 0.0,
+        "volatility": 0.1724,
+        "sharpe": -0.071,
+        "max_drawdown": -0.1612,
+        "beta": 1.0,
+        "days": 389,
+        "coverage": "-"
+      },
+      "buf12_真バフェット": {
+        "total_return": 0.0908,
+        "ann_return": 0.0579,
+        "excess_vs_topix": 0.0702,
+        "volatility": 0.2658,
+        "sharpe": 0.218,
+        "max_drawdown": -0.2296,
+        "beta": 1.179,
+        "days": 389,
+        "coverage": "12/12"
+      },
+      "old_ours": {
+        "total_return": 0.1407,
+        "ann_return": 0.089,
+        "excess_vs_topix": 0.1013,
+        "volatility": 0.1758,
+        "sharpe": 0.506,
+        "max_drawdown": -0.1872,
+        "beta": 0.905,
+        "days": 389,
+        "coverage": "19/20"
+      },
+      "hybrid20_守破離": {
+        "total_return": 0.2444,
+        "ann_return": 0.1522,
+        "excess_vs_topix": 0.1644,
+        "volatility": 0.2051,
+        "sharpe": 0.742,
+        "max_drawdown": -0.1652,
+        "beta": 1.001,
+        "days": 389,
+        "coverage": "19/20"
+      }
+    },
+    "P2_AI前半23-24": {
+      "topix": {
+        "total_return": 0.5253,
+        "ann_return": 0.3384,
+        "excess_vs_topix": 0.0,
+        "volatility": 0.1441,
+        "sharpe": 2.349,
+        "max_drawdown": -0.0783,
+        "beta": 1.0,
+        "days": 365,
+        "coverage": "-"
+      },
+      "buf12_真バフェット": {
+        "total_return": 1.6579,
+        "ann_return": 0.9638,
+        "excess_vs_topix": 0.6254,
+        "volatility": 0.2711,
+        "sharpe": 3.555,
+        "max_drawdown": -0.158,
+        "beta": 1.1,
+        "days": 365,
+        "coverage": "12/12"
+      },
+      "old_ours": {
+        "total_return": 1.0455,
+        "ann_return": 0.639,
+        "excess_vs_topix": 0.3006,
+        "volatility": 0.198,
+        "sharpe": 3.228,
+        "max_drawdown": -0.0852,
+        "beta": 0.962,
+        "days": 365,
+        "coverage": "20/20"
+      },
+      "hybrid20_守破離": {
+        "total_return": 1.4164,
+        "ann_return": 0.8388,
+        "excess_vs_topix": 0.5004,
+        "volatility": 0.2223,
+        "sharpe": 3.773,
+        "max_drawdown": -0.0993,
+        "beta": 1.098,
+        "days": 365,
+        "coverage": "20/20"
+      }
+    },
+    "P3_直近24-26": {
+      "topix": {
+        "total_return": 0.373,
+        "ann_return": 0.1883,
+        "excess_vs_topix": 0.0,
+        "volatility": 0.2335,
+        "sharpe": 0.806,
+        "max_drawdown": -0.233,
+        "beta": 1.0,
+        "days": 463,
+        "coverage": "-"
+      },
+      "buf12_真バフェット": {
+        "total_return": 0.3058,
+        "ann_return": 0.1563,
+        "excess_vs_topix": -0.032,
+        "volatility": 0.3173,
+        "sharpe": 0.493,
+        "max_drawdown": -0.3162,
+        "beta": 1.124,
+        "days": 463,
+        "coverage": "12/12"
+      },
+      "old_ours": {
+        "total_return": 0.4437,
+        "ann_return": 0.2212,
+        "excess_vs_topix": 0.0329,
+        "volatility": 0.2777,
+        "sharpe": 0.797,
+        "max_drawdown": -0.2392,
+        "beta": 0.998,
+        "days": 463,
+        "coverage": "20/20"
+      },
+      "hybrid20_守破離": {
+        "total_return": 0.5145,
+        "ann_return": 0.2535,
+        "excess_vs_topix": 0.0652,
+        "volatility": 0.2865,
+        "sharpe": 0.885,
+        "max_drawdown": -0.2482,
+        "beta": 1.037,
+        "days": 463,
+        "coverage": "20/20"
+      }
+    },
+    "crash24-08": {
+      "topix": {
+        "total_return": -0.0839,
+        "ann_return": -0.0839,
+        "excess_vs_topix": 0.0,
+        "volatility": 0.7385,
+        "sharpe": -0.114,
+        "max_drawdown": -0.19,
+        "beta": 1.0,
+        "days": 11,
+        "coverage": "-"
+      },
+      "buf12_真バフェット": {
+        "total_return": -0.053,
+        "ann_return": -0.053,
+        "excess_vs_topix": 0.031,
+        "volatility": 0.9256,
+        "sharpe": -0.057,
+        "max_drawdown": -0.2144,
+        "beta": 1.199,
+        "days": 11,
+        "coverage": "12/12"
+      },
+      "old_ours": {
+        "total_return": -0.0782,
+        "ann_return": -0.0782,
+        "excess_vs_topix": 0.0057,
+        "volatility": 0.8547,
+        "sharpe": -0.092,
+        "max_drawdown": -0.2064,
+        "beta": 1.129,
+        "days": 11,
+        "coverage": "20/20"
+      },
+      "hybrid20_守破離": {
+        "total_return": -0.063,
+        "ann_return": -0.063,
+        "excess_vs_topix": 0.021,
+        "volatility": 0.8639,
+        "sharpe": -0.073,
+        "max_drawdown": -0.2089,
+        "beta": 1.142,
+        "days": 11,
+        "coverage": "20/20"
+      }
+    }
+  },
+  "note": "hybrid = 守5(genuine Buffett, not in ours) + ours' other 15. in-sample. phase5-consistent."
+}

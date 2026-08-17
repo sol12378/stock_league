@@ -1,0 +1,19 @@
+# Ablation Report
+
+Return history sufficient for a point-in-time Phase3 backtest was not supplied as a Phase3 input; therefore no backtest result changes the final 20. Structural variants were executed:
+
+| variant | description | selected_count | overlap_with_final20 | jaccard_with_final20 | status |
+|---|---|---|---|---|---|
+| A1 | Transformation Score only | 20 | 0 | 0 | structural selection executed; return backtest not used for replacement |
+| A2 | Emerging Score only | 20 | 0 | 0 | structural selection executed; return backtest not used for replacement |
+| A3 | remove Evidence Level | 20 | 0 | 0 | structural selection executed; return backtest not used for replacement |
+| A4 | remove Value Trap Penalty | 20 | 0 | 0 | structural selection executed; return backtest not used for replacement |
+| A5 | remove Theme Hype Penalty | 20 | 0 | 0 | structural selection executed; return backtest not used for replacement |
+| A6 | remove Phase2 Confidence | 20 | 0 | 0 | structural selection executed; return backtest not used for replacement |
+| A7 | remove sector constraint | 20 | 0 | 0 | structural selection executed; return backtest not used for replacement |
+| A8 | Top100 only | 20 | 0 | 0 | structural selection executed; return backtest not used for replacement |
+| A9 | Top300 only | 20 | 0 | 0 | structural selection executed; return backtest not used for replacement |
+| A10 | Top1200 | 20 | 0 | 0 | structural selection executed; return backtest not used for replacement |
+| A11 | exclude Buffett Core | 20 | 0 | 0 | structural selection executed; return backtest not used for replacement |
+| A12 | exclude Dual Moat | 17 | 0 | 0 | structural selection executed; return backtest not used for replacement |
+| A13 | exclude Bridge | 20 | 0 | 0 | structural selection executed; return backtest not used for replacement |

@@ -1,0 +1,9 @@
+{
+  "liquidity_threshold_jpy_per_day": 30000000,
+  "total_budget_jpy": 5000000,
+  "max_count_per_sector": 3,
+  "max_count_per_theme": 4,
+  "max_weight_per_sector": 0.25,
+  "max_weight_per_theme": 0.25,
+  "max_weight_per_stock": 0.08
+}

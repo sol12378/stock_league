@@ -1,0 +1,22 @@
+# Formal Top1200 Final Audit
+
+| metric | value |
+| --- | --- |
+| formal_top1200_count | 1200 |
+| phase1_top5_coverage | 5/5 |
+| financial_count | 0 |
+| distress_count | 0 |
+| negative_equity_count | 0 |
+| anomaly_flag_count | 0 |
+| gp_proxy_or_unverified_count | 32 |
+| phase2_review_required_count | 637 |
+| phase3_review_required_count | 840 |
+| normalization_core_count | 970 |
+| normalization_robust_count | 1135 |
+| normalization_fragile_count | 29 |
+| outlier_sensitive_count | 622 |
+| sector_hhi | 0.07067777777777777 |
+| max_sector_share | 0.11583333333333333 |
+| anomaly_flags_standardized | True |
+| top1200_flag_all_true | True |
+| top2000_reference_flag_all_true | True |

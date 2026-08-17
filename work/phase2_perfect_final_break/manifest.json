@@ -1,0 +1,28 @@
+{
+  "project": "BEYOND BUFFETT",
+  "phase": "Phase2 Perfect Final Break",
+  "created_at": "2026-07-08T02:01:34.544228+00:00",
+  "formal_selected_topn": 1200,
+  "utility_selected_topn": 2000,
+  "formal_candidate_universe": "formal_top1200/phase2_formal_top1200_candidates.csv",
+  "review_ready_candidate_universe": "formal_top1200/phase2_formal_top1200_candidates_review_ready.csv",
+  "reference_universe": "top2000_reference/final_weighted_top2000_reference.csv",
+  "phase1_top5_coverage": "5/5",
+  "financial_exclusion_applied": true,
+  "distress_hard_exclusion_applied": true,
+  "normalization_consensus_applied": true,
+  "point_in_time_panel_built": true,
+  "fixed_weight_out_of_time_validation_completed": true,
+  "strict_true_walk_forward_completed": false,
+  "future_return_prediction_claim": false,
+  "main_reports": [
+    "reports/phase2_final_integrated_report.md",
+    "reports/phase2_to_phase3_handoff_final.md",
+    "reports/report_text_for_paper.md",
+    "reports/top1200_vs_top2000_final_decision.md",
+    "reports/fixed_weight_out_of_time_validation_report.md",
+    "reports/true_walk_forward_status_report.md",
+    "reports/phase3_review_flags_explanation.md"
+  ],
+  "important_note": "Top1200 is the formal Phase2 candidate universe. Top2000 is only a reference universe. This artifact does not claim future return predictability."
+}

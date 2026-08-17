@@ -1,0 +1,505 @@
+{
+  "results": {
+    "3y": {
+      "shu_buffett": {
+        "ann_return": 0.3551,
+        "excess_vs_topix": 0.1154,
+        "volatility": 0.2706,
+        "sharpe": 1.312,
+        "max_drawdown": -0.3058,
+        "beta_vs_topix": 0.933,
+        "information_ratio": 0.441,
+        "topix_ann_return": 0.2396
+      },
+      "ha_safe": {
+        "ann_return": 0.19,
+        "excess_vs_topix": -0.0497,
+        "volatility": 0.1657,
+        "sharpe": 1.146,
+        "max_drawdown": -0.15,
+        "beta_vs_topix": 0.606,
+        "information_ratio": -0.378,
+        "topix_ann_return": 0.2396
+      },
+      "ri_futuremoat": {
+        "ann_return": 0.1303,
+        "excess_vs_topix": -0.1094,
+        "volatility": 0.1677,
+        "sharpe": 0.777,
+        "max_drawdown": -0.1644,
+        "beta_vs_topix": 0.64,
+        "information_ratio": -0.807,
+        "topix_ann_return": 0.2396
+      }
+    },
+    "1y": {
+      "shu_buffett": {
+        "ann_return": 0.2311,
+        "excess_vs_topix": -0.1796,
+        "volatility": 0.1907,
+        "sharpe": 1.212,
+        "max_drawdown": -0.1059,
+        "beta_vs_topix": 0.76,
+        "information_ratio": -1.281,
+        "topix_ann_return": 0.4108
+      },
+      "ha_safe": {
+        "ann_return": 0.1312,
+        "excess_vs_topix": -0.2796,
+        "volatility": 0.1539,
+        "sharpe": 0.852,
+        "max_drawdown": -0.1337,
+        "beta_vs_topix": 0.608,
+        "information_ratio": -1.884,
+        "topix_ann_return": 0.4108
+      },
+      "ri_futuremoat": {
+        "ann_return": 0.0102,
+        "excess_vs_topix": -0.4006,
+        "volatility": 0.1407,
+        "sharpe": 0.072,
+        "max_drawdown": -0.113,
+        "beta_vs_topix": 0.536,
+        "information_ratio": -2.706,
+        "topix_ann_return": 0.4108
+      }
+    }
+  },
+  "profiles": {
+    "shu": {
+      "roe_med": 0.305,
+      "vol_med": 0.426,
+      "moat_med": 0.615,
+      "fmoat_med": 0.065,
+      "n": 15
+    },
+    "ha": {
+      "roe_med": 0.19,
+      "vol_med": 0.294,
+      "moat_med": 0.638,
+      "fmoat_med": -0.411,
+      "n": 15
+    },
+    "ri": {
+      "roe_med": 0.203,
+      "vol_med": 0.297,
+      "moat_med": 0.502,
+      "fmoat_med": 0.185,
+      "n": 15
+    }
+  },
+  "members": {
+    "shu": [
+      {
+        "code": "6920",
+        "name": "Lasertec Corporation",
+        "sector": "Electric Appliances",
+        "roe": 0.403,
+        "vol": 0.569,
+        "moat": 0.787,
+        "fmoat": 0.972
+      },
+      {
+        "code": "6417",
+        "name": "SANKYO CO.,LTD.",
+        "sector": "Machinery",
+        "roe": 0.203,
+        "vol": 0.297,
+        "moat": 0.943,
+        "fmoat": 0.802
+      },
+      {
+        "code": "4975",
+        "name": "JCU CORPORATION",
+        "sector": "Chemicals",
+        "roe": 0.17,
+        "vol": 0.35,
+        "moat": 0.819,
+        "fmoat": 0.239
+      },
+      {
+        "code": "2124",
+        "name": "JAC Recruitment Co.,Ltd.",
+        "sector": "Services",
+        "roe": 0.351,
+        "vol": 0.288,
+        "moat": 0.776,
+        "fmoat": 0.065
+      },
+      {
+        "code": "7317",
+        "name": "Matsuya R&D Co.,Ltd",
+        "sector": "Transportation Equipment",
+        "roe": 0.225,
+        "vol": 0.426,
+        "moat": 0.466,
+        "fmoat": 0.035
+      },
+      {
+        "code": "3150",
+        "name": "grems,Inc.",
+        "sector": "Electric Power and Gas",
+        "roe": 0.279,
+        "vol": 0.412,
+        "moat": 0.397,
+        "fmoat": 0.239
+      },
+      {
+        "code": "6200",
+        "name": "Insource Co.,Ltd.",
+        "sector": "Services",
+        "roe": 0.331,
+        "vol": 0.45,
+        "moat": 0.824,
+        "fmoat": 0.065
+      },
+      {
+        "code": "4776",
+        "name": "Cybozu,Inc.",
+        "sector": "Information & Communication",
+        "roe": 0.397,
+        "vol": 0.501,
+        "moat": 0.615,
+        "fmoat": 0.185
+      },
+      {
+        "code": "5032",
+        "name": "ANYCOLOR Inc.",
+        "sector": "Information & Communication",
+        "roe": 0.524,
+        "vol": 0.636,
+        "moat": 0.626,
+        "fmoat": 0.185
+      },
+      {
+        "code": "7014",
+        "name": "Namura Shipbuilding Co.,Ltd.",
+        "sector": "Transportation Equipment",
+        "roe": 0.252,
+        "vol": 0.73,
+        "moat": -0.012,
+        "fmoat": 0.035
+      },
+      {
+        "code": "7818",
+        "name": "TRANSACTION CO.,Ltd.",
+        "sector": "Other Products",
+        "roe": 0.305,
+        "vol": 0.364,
+        "moat": 0.56,
+        "fmoat": -0.411
+      },
+      {
+        "code": "2222",
+        "name": "Kotobuki Spirits Co.,Ltd.",
+        "sector": "Foods",
+        "roe": 0.301,
+        "vol": 0.375,
+        "moat": 0.541,
+        "fmoat": -0.411
+      },
+      {
+        "code": "3399",
+        "name": "Maruchiyo Yamaokaya Corporation",
+        "sector": "Retail Trade",
+        "roe": 0.364,
+        "vol": 0.439,
+        "moat": 0.267,
+        "fmoat": -0.411
+      },
+      {
+        "code": "3496",
+        "name": "AZOOM CO.,LTD",
+        "sector": "Real Estate",
+        "roe": 0.268,
+        "vol": 0.51,
+        "moat": 0.291,
+        "fmoat": -0.411
+      },
+      {
+        "code": "3092",
+        "name": "ZOZO,Inc.",
+        "sector": "Retail Trade",
+        "roe": 0.429,
+        "vol": 0.312,
+        "moat": 0.872,
+        "fmoat": -0.411
+      }
+    ],
+    "ha": [
+      {
+        "code": "6417",
+        "name": "SANKYO CO.,LTD.",
+        "sector": "Machinery",
+        "roe": 0.203,
+        "vol": 0.297,
+        "moat": 0.943,
+        "fmoat": 0.802
+      },
+      {
+        "code": "4975",
+        "name": "JCU CORPORATION",
+        "sector": "Chemicals",
+        "roe": 0.17,
+        "vol": 0.35,
+        "moat": 0.819,
+        "fmoat": 0.239
+      },
+      {
+        "code": "4732",
+        "name": "USS Co.,Ltd.",
+        "sector": "Services",
+        "roe": 0.177,
+        "vol": 0.228,
+        "moat": 1.139,
+        "fmoat": 0.065
+      },
+      {
+        "code": "1723",
+        "name": "NIHON DENGI CO.,LTD.",
+        "sector": "Construction",
+        "roe": 0.162,
+        "vol": 0.311,
+        "moat": 0.625,
+        "fmoat": -0.411
+      },
+      {
+        "code": "9790",
+        "name": "Fukui Computer Holdings,Inc.",
+        "sector": "Information & Communication",
+        "roe": 0.155,
+        "vol": 0.286,
+        "moat": 0.983,
+        "fmoat": 0.185
+      },
+      {
+        "code": "4928",
+        "name": "Noevir Holdings Co.,Ltd.",
+        "sector": "Chemicals",
+        "roe": 0.176,
+        "vol": 0.167,
+        "moat": 0.609,
+        "fmoat": 0.239
+      },
+      {
+        "code": "2124",
+        "name": "JAC Recruitment Co.,Ltd.",
+        "sector": "Services",
+        "roe": 0.351,
+        "vol": 0.288,
+        "moat": 0.776,
+        "fmoat": 0.065
+      },
+      {
+        "code": "3076",
+        "name": "Ai Holdings Corporation",
+        "sector": "Wholesale Trade",
+        "roe": 0.19,
+        "vol": 0.243,
+        "moat": 0.477,
+        "fmoat": -0.411
+      },
+      {
+        "code": "8117",
+        "name": "CENTRAL AUTOMOTIVE PRODUCTS LTD.",
+        "sector": "Wholesale Trade",
+        "roe": 0.156,
+        "vol": 0.291,
+        "moat": 0.638,
+        "fmoat": -0.411
+      },
+      {
+        "code": "7611",
+        "name": "HIDAY HIDAKA Corp.",
+        "sector": "Retail Trade",
+        "roe": 0.172,
+        "vol": 0.231,
+        "moat": 0.419,
+        "fmoat": -0.411
+      },
+      {
+        "code": "7818",
+        "name": "TRANSACTION CO.,Ltd.",
+        "sector": "Other Products",
+        "roe": 0.305,
+        "vol": 0.364,
+        "moat": 0.56,
+        "fmoat": -0.411
+      },
+      {
+        "code": "2222",
+        "name": "Kotobuki Spirits Co.,Ltd.",
+        "sector": "Foods",
+        "roe": 0.301,
+        "vol": 0.375,
+        "moat": 0.541,
+        "fmoat": -0.411
+      },
+      {
+        "code": "4716",
+        "name": "ORACLE CORPORATION JAPAN",
+        "sector": "Information & Communication",
+        "roe": 0.371,
+        "vol": 0.294,
+        "moat": 0.843,
+        "fmoat": 0.185
+      },
+      {
+        "code": "8111",
+        "name": "Goldwin Inc.",
+        "sector": "Textiles and Apparels",
+        "roe": 0.215,
+        "vol": 0.324,
+        "moat": 0.472,
+        "fmoat": -0.411
+      },
+      {
+        "code": "3092",
+        "name": "ZOZO,Inc.",
+        "sector": "Retail Trade",
+        "roe": 0.429,
+        "vol": 0.312,
+        "moat": 0.872,
+        "fmoat": -0.411
+      }
+    ],
+    "ri": [
+      {
+        "code": "6417",
+        "name": "SANKYO CO.,LTD.",
+        "sector": "Machinery",
+        "roe": 0.203,
+        "vol": 0.297,
+        "moat": 0.943,
+        "fmoat": 0.802
+      },
+      {
+        "code": "6845",
+        "name": "Azbil Corporation",
+        "sector": "Electric Appliances",
+        "roe": 0.173,
+        "vol": 0.316,
+        "moat": 0.377,
+        "fmoat": 0.972
+      },
+      {
+        "code": "6328",
+        "name": "EBARA JITSUGYO CO.,LTD.",
+        "sector": "Machinery",
+        "roe": 0.157,
+        "vol": 0.326,
+        "moat": 0.23,
+        "fmoat": 0.802
+      },
+      {
+        "code": "4928",
+        "name": "Noevir Holdings Co.,Ltd.",
+        "sector": "Chemicals",
+        "roe": 0.176,
+        "vol": 0.167,
+        "moat": 0.609,
+        "fmoat": 0.239
+      },
+      {
+        "code": "2124",
+        "name": "JAC Recruitment Co.,Ltd.",
+        "sector": "Services",
+        "roe": 0.351,
+        "vol": 0.288,
+        "moat": 0.776,
+        "fmoat": 0.065
+      },
+      {
+        "code": "9744",
+        "name": "MEITEC Group Holdings Inc.",
+        "sector": "Services",
+        "roe": 0.261,
+        "vol": 0.213,
+        "moat": 0.502,
+        "fmoat": 0.065
+      },
+      {
+        "code": "7988",
+        "name": "NIFCO INC.",
+        "sector": "Chemicals",
+        "roe": 0.164,
+        "vol": 0.297,
+        "moat": 0.411,
+        "fmoat": 0.239
+      },
+      {
+        "code": "3854",
+        "name": "I'LL INC",
+        "sector": "Information & Communication",
+        "roe": 0.309,
+        "vol": 0.393,
+        "moat": 0.549,
+        "fmoat": 0.185
+      },
+      {
+        "code": "5929",
+        "name": "Sanwa Holdings Corporation",
+        "sector": "Metal Products",
+        "roe": 0.179,
+        "vol": 0.293,
+        "moat": 0.308,
+        "fmoat": 0.239
+      },
+      {
+        "code": "3916",
+        "name": "Digital Information Technologies Corporation",
+        "sector": "Information & Communication",
+        "roe": 0.267,
+        "vol": 0.342,
+        "moat": 0.363,
+        "fmoat": 0.185
+      },
+      {
+        "code": "3076",
+        "name": "Ai Holdings Corporation",
+        "sector": "Wholesale Trade",
+        "roe": 0.19,
+        "vol": 0.243,
+        "moat": 0.477,
+        "fmoat": -0.411
+      },
+      {
+        "code": "7611",
+        "name": "HIDAY HIDAKA Corp.",
+        "sector": "Retail Trade",
+        "roe": 0.172,
+        "vol": 0.231,
+        "moat": 0.419,
+        "fmoat": -0.411
+      },
+      {
+        "code": "7818",
+        "name": "TRANSACTION CO.,Ltd.",
+        "sector": "Other Products",
+        "roe": 0.305,
+        "vol": 0.364,
+        "moat": 0.56,
+        "fmoat": -0.411
+      },
+      {
+        "code": "2222",
+        "name": "Kotobuki Spirits Co.,Ltd.",
+        "sector": "Foods",
+        "roe": 0.301,
+        "vol": 0.375,
+        "moat": 0.541,
+        "fmoat": -0.411
+      },
+      {
+        "code": "3092",
+        "name": "ZOZO,Inc.",
+        "sector": "Retail Trade",
+        "roe": 0.429,
+        "vol": 0.312,
+        "moat": 0.872,
+        "fmoat": -0.411
+      }
+    ]
+  },
+  "note": "score=unit-weight z composites (no tuning). universe=Q(166 quality, >=756d). top15/sector<=2/equal-weight/buy-hold. phase5-consistent."
+}
