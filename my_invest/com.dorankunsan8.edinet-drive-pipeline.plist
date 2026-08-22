@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.dorankunsan8.edinet-drive-pipeline</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/caffeinate</string>
+        <string>-dims</string>
+        <string>/usr/bin/python3</string>
+        <string>-u</string>
+        <string>/Users/satouryuuichi/Library/Application Support/EDINETDrivePipeline/run_edinet_drive_pipeline.py</string>
+        <string>--archive-root</string>
+        <string>/Users/satouryuuichi/Library/Application Support/EDINETDrivePipeline/data/raw/edinet_full</string>
+        <string>--staging-root</string>
+        <string>/Users/satouryuuichi/Library/Application Support/EDINETDrivePipeline/data/staging/edinet_drive</string>
+        <string>--env-file</string>
+        <string>/Users/satouryuuichi/Library/Application Support/EDINETDrivePipeline/secrets/edinet.env</string>
+        <string>--rclone-remote</string>
+        <string>edinet_drive:</string>
+        <string>--rclone-binary</string>
+        <string>/opt/homebrew/bin/rclone</string>
+        <string>--rclone-workers</string>
+        <string>6</string>
+        <string>--rclone-chunk-size</string>
+        <string>32M</string>
+        <string>--rclone-retries</string>
+        <string>5</string>
+        <string>--rclone-low-level-retries</string>
+        <string>10</string>
+        <string>--batch-files</string>
+        <string>2000</string>
+        <string>--target-gib</string>
+        <string>0.5</string>
+        <string>--max-files-per-shard</string>
+        <string>10000</string>
+        <string>--reserve-gib</string>
+        <string>80</string>
+        <string>--minimum-free-gib</string>
+        <string>180</string>
+        <string>--interval</string>
+        <string>0.10</string>
+        <string>--poll-seconds</string>
+        <string>60</string>
+        <string>--parallel-drive</string>
+        <string>--requeue-stalled-minutes</string>
+        <string>60</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/satouryuuichi/Library/Application Support/EDINETDrivePipeline</string>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>KeepAlive</key>
+    <dict>
+        <key>SuccessfulExit</key>
+        <false/>
+    </dict>
+
+    <key>ThrottleInterval</key>
+    <integer>60</integer>
+
+    <key>ProcessType</key>
+    <string>Background</string>
+
+    <key>StandardOutPath</key>
+    <string>/Users/satouryuuichi/Library/Application Support/EDINETDrivePipeline/outputs/edinet_full_archive/drive_pipeline.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/satouryuuichi/Library/Application Support/EDINETDrivePipeline/outputs/edinet_full_archive/drive_pipeline.err.log</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PYTHONUNBUFFERED</key>
+        <string>1</string>
+        <key>PYTHONPYCACHEPREFIX</key>
+        <string>/tmp/edinet_pycache</string>
+    </dict>
+</dict>
+</plist>
